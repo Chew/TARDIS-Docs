@@ -62,6 +62,65 @@ const config = {
       navbar: {
         title: 'TARDIS',
         items: [
+            // dropdown
+          {
+            type: 'dropdown',
+            label: 'First Things First',
+            items: [
+              {
+                label: 'Getting Started/Installation',
+                to: 'installation-v5',
+              },
+              {
+                label: 'Creating a TARDIS',
+                to: 'creating-a-tardis',
+              },
+              {
+                label: 'Companions',
+                to: 'companions',
+              },
+              {
+                label: 'Artron Energy',
+                to: 'artron-energy',
+              },
+              {
+                label: 'Enter and Exit',
+                to: 'enter-and-exit',
+              },
+              {
+                label: 'Removing a TARDIS',
+                to: 'removing-a-tardis',
+              }
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Time Travelling',
+            items: [
+              {
+                label: 'Time Travel',
+                to: 'time-travel',
+              },
+              {
+                label: 'Advanced TARIDS Console',
+                to: 'advanced-console',
+              },
+              {
+                label: 'TARDIS Keyboard',
+                to: 'keyboard',
+              },
+              {
+                label: 'TARDIS Malfunctions',
+                to: 'malfunction',
+              }
+            ]
+          },
+          {
+            type: 'doc',
+            docId: 'faqs',
+            position: 'left',
+            label: "FAQ"
+          },
           {
             href: 'https://github.com/eccentricdevotion/TARDIS',
             label: 'GitHub',

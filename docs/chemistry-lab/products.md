@@ -5,13 +5,13 @@ title: Products
 
 # TARDIS Chemistry Lab Products
 
-The [Chemistry Lab](chemistry-lab.md) can produce some useful products for you!
+The [Chemistry Lab](./index.md) can produce some useful products for you!
 
 :::note
 
 _This page only shows products of the chemistry lab, to view compounds, go
 to [chemistry lab compounds](compounds.md), to view how to use the chemistry lab, go to
-the [chemistry lab page](chemistry-lab.md). To view elements, go to the [elements page](elements.md)_
+the [chemistry lab page](./index.md). To view elements, go to the [elements page](elements.md)_
 
 :::
 
@@ -42,7 +42,7 @@ Gray, Light Gray, Black, Brown, and White.
 
 The recipe is generally the same for each balloon. The dye in the middle can be any of the above listed dyes.
 
-All recipes must be crafted in the [Product crafter](chemistry-lab.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
 
 | Ingredients                                                                                                    | Crafting recipe                                                   | Recipe Command                                 |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------|
@@ -58,7 +58,7 @@ completely white and turn concrete powder white.
 
 ### Recipe
 
-Recipe must be crafted in a [Lab table](chemistry-lab.md#lab-table)
+Recipe must be crafted in a [Lab table](./index.md#lab-table)
 
 Recipe is the same as it is in Education Edition
 
@@ -85,7 +85,7 @@ _All 14 colours of glow sticks. The first 2 on the top row are activated._
 The recipe is generally the same for each glow stick. The dye in the middle can be any of the above listed dyes (which
 is all dyes except Gray and Black).
 
-All recipes must be crafted in the [Product crafter](chemistry-lab.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
 
 | Ingredients                                                                                                                                                                | Crafting recipe                                                           | Recipe Command                            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------|
@@ -99,7 +99,7 @@ The Heat Block acts as a source of heat, melting nearby ice in a 5x5 area.
 
 ### Recipe
 
-This recipe must be crafted in the [Lab table](chemistry-lab.md#lab-table)
+This recipe must be crafted in the [Lab table](./index.md#lab-table)
 
 Recipe command: `/tchemistry formula Heat_Block`
 
@@ -117,7 +117,7 @@ of [ice](https://minecraft.gamepedia.com/Ice)
 
 ### Recipe
 
-This recipe must be crafted in the [Lab table](chemistry-lab.md#lab-table)
+This recipe must be crafted in the [Lab table](./index.md#lab-table)
 
 Recipe command: `/tchemistry forumla Ice_Bomb`
 
@@ -139,7 +139,7 @@ _(left to right) Blue Lamp, Red Lamp, Purple Lamp, Green Lamp_
 
 ### Recipes
 
-All recipes must be crafted in the [Product crafter](chemistry-lab.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
 
 | Name        | Ingredients                                                                                                                       | Crafting recipe                                                         | Recipe Command                    |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------|
@@ -161,7 +161,7 @@ _Orange Sparkler in action_
 
 ### Recipes
 
-All recipes must be crafted in the [Product crafter](chemistry-lab.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
 
 | Name            | Ingredients                                                                          | Crafting recipe                                                                 | Recipe Command                        |
 |-----------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------|
@@ -180,7 +180,7 @@ mechanics.
 
 ### Recipe
 
-This recipe must be crafted in the [Lab table](chemistry-lab.md#lab-table)
+This recipe must be crafted in the [Lab table](./index.md#lab-table)
 
 Recipe command: `/tchemistry formula Super_Fertiliser`
 
