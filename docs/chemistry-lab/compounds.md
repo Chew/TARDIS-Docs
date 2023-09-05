@@ -1,85 +1,39 @@
 ---
 layout: default
-title: Chemistry Lab Compounds
+title: Compounds
+path: /chemistry-lab/compounds
 ---
 
 # TARDIS Chemistry Lab Compounds
 
-The [Chemistry Lab](chemistry-lab.md) can produce compounds, typically used in crafting Products!
+The [Chemistry Lab](./index.md) can produce compounds, typically used in crafting Products!
+
+:::note
 
 _This page only shows compounds made in the chemistry lab, to view products, go
-to [chemistry lab products](chemistry-lab-products.md), to view how to use the chemistry lab, go to
-the [chemistry lab page](chemistry-lab.md). To view a list elements, go to the [elements page](elements.md)_
+to [chemistry lab products](products.md), to view how to use the chemistry lab, go to
+the [chemistry lab page](./index.md). To view a list elements, go to the [elements page](elements.md)_
+
+:::
 
 All compounds are inherently useless on their own (with the exception of the vanilla items and their vanilla uses). They
-must be combined with other compounds, [elements](elements.md), or items to make [products](chemistry-lab-products)!
+must be combined with other compounds, [elements](elements.md), or items to make [products](products.md)!
 
-TIP: `/tchem` and `/tchemistry` are valid aliases of `/tardischemistry`
+:::tip
+
+`/tchem` and `/tchemistry` are valid aliases of `/tardischemistry`
+
+:::
 
 ## Resource Pack
 
+:::info
+
 **_The compounds are best viewed with the [resource pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack)._**
 
+:::
+
 All images use the TARDIS-Resource-Pack, and your experience will be much better with it!
-
-## Table of Contents
-
-<div class="row">
-<dl id="one">
-<dt>A</dt>
-<dd>[Acid Bucket](#acid-bucket)</dd>
-<dd>[Aluminium Oxide](#aluminium-oxide)</dd>
-<dd>[Ammonia](#ammonia)</dd>
-<dt>B</dt>
-<dd>[Barium Sulfate](#barium-sulfate)</dd>
-<dd>[Benzene](#benzene)</dd>
-<dd>[Boron Trioxide](#boron-trioxide)</dd>
-<dt>C</dt>
-<dd>[Calcium Bromide](#calcium-bromide)</dd>
-<dd>[Calcium Chloride](#calcium-chloride)</dd>
-<dd>[Cerium Chloride](#cerium-chloride)</dd>
-<dd>[Charcoal](#charcoal)</dd>
-<dd>[Crude Oil](#crude-oil)</dd>
-<dt>G</dt>
-<dd>[Glue](#glue)</dd>
-<dt>H</dt>
-<dd>[Hydrogen Peroxide](#hydrogen-peroxide)</dd>
-<dt>I</dt>
-<dd>[Ink Sac](#ink-sac)</dd>
-<dd>[Iron Sulfide](#iron-sulfide)</dd>
-<dt>L</dt>
-<dd>[Latex](#latex)</dd>
-<dd>[Lithium Hydride](#lithium-hydride)</dd>
-<dd>[Luminol](#luminol)</dd>
-<dd>[Lye](#lye)</dd>
-</dl>
-<dl>
-<dt>M</dt>
-<dd>[Magnesium Nitrate](#magnesium-nitrate)</dd>
-<dd>[Magnesium Oxide](#magnesium-oxide)</dd>
-<dd>[Mercuric Chloride](#mercuric-chloride)</dd>
-<dt>P</dt>
-<dd>[Polyethylene](#polyethylene)</dd>
-<dd>[Potassium Chloride](#potassium-chloride)</dd>
-<dd>[Potassium Iodide](#potassium-iodide)</dd>
-<dt>R</dt>
-<dd>[Rust Bucket](#rust-bucket)</dd>
-<dt>S</dt>
-<dd>[Salt](#salt)</dd>
-<dd>[Soap](#soap)</dd>
-<dd>[Sodium Acetate](#sodium-acetate)</dd>
-<dd>[Sodium Fluoride](#sodium-fluoride)</dd>
-<dd>[Sodium Hydride](#sodium-hydride)</dd>
-<dd>[Sodium Hypochlorite](#sodium-hypochlorite)</dd>
-<dd>[Sodium Oxide](#sodium-oxide)</dd>
-<dd>[Sugar](#sugar)</dd>
-<dd>[Sulfate](#sulfate)</dd>
-<dt>T</dt>
-<dd>[Tungsten Chloride](#tungsten-chloride)</dd>
-<dt>W</dt>
-<dd>[Water](#water)</dd>
-</dl>
-</div>
 
 ## Acid Bucket
 
@@ -103,7 +57,7 @@ Recipe command: `/tardischemistry formula Ammonia`
 
 Elements required to craft: 1 Nitrogen and 3 Hydrogen
 
-Uses: Crafting [Super Fertiliser](chemistry-lab-products.md#super-fertiliser)
+Uses: Crafting [Super Fertiliser](products.md#super-fertiliser)
 
 ## Barium Sulfate
 
@@ -143,7 +97,7 @@ Recipe command: `/tardischemistry formula Calcium_Chloride`
 
 Elements required to craft: 1 Calcium and 2 Chlorine
 
-Uses: Crafting Orange [Sparklers](chemistry-lab-products.md#sparklers)
+Uses: Crafting Orange [Sparklers](products.md#sparklers)
 
 ## Cerium Chloride
 
@@ -151,7 +105,7 @@ Recipe command: `/tardischemistry formula Cerium_Chloride`
 
 Elements required to craft: 1 Cerium and 3 Chlorine
 
-Uses: Crafting Blue [Lamps](chemistry-lab-products.md#lamps) and Blue [Sparklers](chemistry-lab-products.md#sparklers)
+Uses: Crafting Blue [Lamps](products.md#lamps) and Blue [Sparklers](products.md#sparklers)
 
 ## Charcoal
 
@@ -159,7 +113,7 @@ Recipe command: `/tardischemistry formula Charcoal`
 
 Elements required to craft: 7 Carbon, 4 Hydrogen, and 1 Oxygen.
 
-Uses: Crafting [Heat Blocks](chemistry-lab-products.md#heat-block) as well as
+Uses: Crafting [Heat Blocks](products.md#heat-block) as well as
 any [Vanilla uses](https://minecraft.gamepedia.com/Charcoal).
 
 ## Crude Oil
@@ -184,7 +138,7 @@ Recipe command: `/tardischemistry formula Hydrogen_Peroxide`
 
 Elements required to craft: 2 Hydrogen and 2 Oxygen
 
-Uses: Crafting [Glow Sticks](chemistry-lab-products.md#glow-sticks)
+Uses: Crafting [Glow Sticks](products.md#glow-sticks)
 
 ## Ink Sac
 
@@ -208,7 +162,7 @@ Recipe command: `/tardischemistry formula Latex`
 
 Elements required to craft: 5 Carbon and 8 Hydrogen
 
-Uses: Crafting [Balloons](chemistry-lab-products.md#balloons)
+Uses: Crafting [Balloons](products.md#balloons)
 
 ## Lithium Hydride
 
@@ -224,7 +178,7 @@ Recipe command: `/tardischemistry formula Luminol`
 
 Elements required to craft: 8 Carbon, 7 Hydrogen, 3 Nitrogen, and 2 Oxygen.
 
-Uses: Crafting [Glow Sticks](chemistry-lab-products.md#glow-sticks)
+Uses: Crafting [Glow Sticks](products.md#glow-sticks)
 
 ## Lye
 
@@ -256,7 +210,7 @@ Recipe command: `/tardischemistry formula Mercuric_Chloride`
 
 Elements required to craft: 1 Mercury and 2 Chlorine.
 
-Uses: Crafting Red [Lamps](chemistry-lab-products.md#lamps) and Red [Sparklers](chemistry-lab-products.md#sparklers)
+Uses: Crafting Red [Lamps](products.md#lamps) and Red [Sparklers](products.md#sparklers)
 
 ## Polyethylene
 
@@ -264,7 +218,7 @@ Recipe command: `/tardischemistry formula Polyethylene`
 
 Elements required to craft: 10 Carbon and 20 Hydrogen
 
-Uses: Crafting [Glow Sticks](chemistry-lab-products.md#glow-sticks)
+Uses: Crafting [Glow Sticks](products.md#glow-sticks)
 
 ## Potassium Chloride
 
@@ -272,7 +226,7 @@ Recipe command: `/tardischemistry formula Potassium_Chloride`
 
 Elements required to craft: 1 Potassium and 1 Chlorine
 
-Uses: Crafting Purple [Lamps](chemistry-lab-products.md#lamps) and Purple [Sparklers](chemistry-lab-products.md#sparklers)
+Uses: Crafting Purple [Lamps](products.md#lamps) and Purple [Sparklers](products.md#sparklers)
 
 ## Potassium Iodide
 
@@ -296,7 +250,7 @@ Recipe command: `/tardischemistry formula Salt`
 
 Elements required to craft: 1 Sodium and 1 Chlorine
 
-Uses: Crafting [Heat Blocks](chemistry-lab-products.md#heat-block)
+Uses: Crafting [Heat Blocks](products.md#heat-block)
 
 ## Soap
 
@@ -312,7 +266,7 @@ Recipe command: `/tardischemistry formula Sodium_Acetate`
 
 Elements required to craft: 2 Carbon, 3 Hydrogen, 1 Sodium, 2 Oxygen.
 
-Uses: Crafting [Ice Bombs](chemistry-lab-products.md#ice-bomb)
+Uses: Crafting [Ice Bombs](products.md#ice-bomb)
 
 ## Sodium Fluoride
 
@@ -336,7 +290,7 @@ Recipe command: `/tardischemistry formula Sodium_Hypochlorite`
 
 Elements required to craft: 1 Sodium, 1 Chlorine, and 1 Oxygen
 
-Uses: Crafting [Bleach](chemistry-lab-products.md#bleach)
+Uses: Crafting [Bleach](products.md#bleach)
 
 ## Sodium Oxide
 
@@ -368,7 +322,7 @@ Recipe command: `/tardischemistry formula Tungsten_Chloride`
 
 Elements required to craft: 1 Tungsten and 6 Chlorine
 
-Uses: Crafting Green [Lamps](chemistry-lab-products.md#lamps) and Green [Sparklers](chemistry-lab-products.md#sparklers)
+Uses: Crafting Green [Lamps](products.md#lamps) and Green [Sparklers](products.md#sparklers)
 
 ## Water
 
@@ -376,4 +330,4 @@ Recipe command: `/tardischemistry formula Water`
 
 Elements required to craft: 2 Hydrogen and 1 Oxygen
 
-Uses: Crafting [Bleach](chemistry-lab-products.md#bleach) and [Heat Block](chemistry-lab-products.md#heat-block)
+Uses: Crafting [Bleach](products.md#bleach) and [Heat Block](products.md#heat-block)

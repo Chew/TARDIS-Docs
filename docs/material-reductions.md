@@ -5,7 +5,7 @@ layout: default
 
 # Item/Block Material Reductions
 
-These are all vanilla items/blocks that can be reduced in the [material reducer](chemistry-lab.md#material-reducer). Useful
+These are all vanilla items/blocks that can be reduced in the [material reducer](chemistry-lab/chemistry-lab.md#material-reducer). Useful
 for getting quick elements!
 
 | Item         | Reduction                                                                                              |

@@ -5,12 +5,13 @@ title: Atomic Elements
 
 # Atomic Elements
 
-This is a cheat sheet for the Atomic Elements used in the [Element constructor](chemistry-lab.md#element-constructor)
+This is a cheat sheet for the Atomic Elements used in the [Element constructor](./#element-constructor)
 
 Please note, the Protons and Electrons are the same number and are based on the Atomic Number.
 
 ![example](/images/chemistry/element-iron-example.png))
-*Example of Iron in an [Element constructor](chemistry-lab.md#element-constructor)*
+
+*Example of Iron in an [Element constructor](./#element-constructor)*
 
 | Name          | Symbol | Atomic Number | Neutrons |
 |---------------|--------|---------------|----------|
