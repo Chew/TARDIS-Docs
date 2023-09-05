@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TARDIS commands
+title: TARDIS Commands
 ---
 
 # TARDIS commands

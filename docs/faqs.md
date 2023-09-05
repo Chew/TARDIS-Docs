@@ -5,47 +5,28 @@ title: Troubleshooting/Common Problems
 
 # Troubleshooting/Common Problems {#top}
 
-- [I made a stack of blocks but the TARDIS does not materialise](#stack)
-- [When I click the TARDIS seed block with a stick nothing happens](#nothing)
-- [The plugin says ‘You cannot grow rooms unless your TARDIS was created in its own world’](#rooms)
-- [I made a room and it grew inside the TARDIS!](#grew)
-- [I try to grow a room but the plugin says “There seems to be a block in the way! You should be growing out into the void...”](#void)
-- [My TARDIS is not generating its own world!](#own-world)
-- [How do I import my TARDIS world into my multi-world plugin?](#import)
-- [Non-op players can’t break the blocks inside the TARDIS to grow rooms](#spawn)
-- [My Handbrake is not re-engaging!](#handbrake)
-- [It says circuits are missing from the Advanced Console.](#advanced)
-- [It says I need to use the Advanced Console.](#difficulty)
-- [My TARDIS isn’t charging at a recharge beacon](#charging)
-- [I can’t hear the custom sound effects](#sfx)
-- [It says I’m still inside the TARDIS, but I’m not](#inside)
-- [It keeps saying I’m restricted to the [] area or something about my exile status!](#perms)
-- [I changed some config options but they keep changing back!](#config)
-- [I jettisoned a room and it deleted part of the control room!](#jettison)
-- [I edited the config file, but when I reload the changes don’t save!](#reload)
-- [The perception filter has gone completely invisible!](#filter)
-- [Why does it rain on my TARDIS in dry biomes?](#rain)
-- [Why does my TARDIS door open when I crouch-click it (and get out of sync with the other door)?](#sync)
-- [What is the Texture Pack in the videos?](#txtpac)
+Use the sidebar to navigate to the question answered you need.
 
-#### I made a stack of blocks but the TARDIS does not materialise {#stack}
+Couldn't solve your problem? Ask us on [Discord](https://discord.gg/sfuPVHh) or [GitHub](https://github.com/eccentricdevotion/TARDIS/discussions).
+
+## I made a stack of blocks but the TARDIS does not materialise {#stack}
 
 The method for creating a TARDIS was changed in version 2.6, you should craft a TARDIS seed block instead. Check the
 ‘[Creating a TARDIS](creating-a-tardis)’ page for details.
 
-#### When I click the TARDIS seed block with a stick nothing happens {#nothing}
+## When I click the TARDIS seed block with a stick nothing happens {#nothing}
 
 You didn’t read and follow the instructions — you need to click the seed block with the **TARDIS Key** — the key is only
 a stick if you have configured it to be one. Check the ‘[Creating a TARDIS](creating-a-tardis)’ page for details.
 
-#### The plugin says ‘You cannot grow rooms unless your TARDIS was created in its own world’ {#rooms}
+## The plugin says ‘You cannot grow rooms unless your TARDIS was created in its own world’ {#rooms}
 
 You need to set up the plugin to so that when you create a TARDIS, it is created in its own world, or in a special world
 called _TARDIS\_TimeVortex_. To do this you need follow the instructions for “My TARDIS is not generating its own
 world!”
 below, or go to the [Time Vortex](time-vortex) page.
 
-#### I made a room and it grew inside the TARDIS! {#grew}
+## I made a room and it grew inside the TARDIS! {#grew}
 
 Things have changed quite a lot with the update to TARDIS v2.6, especially the way that you grow rooms
 
@@ -58,13 +39,13 @@ Things have changed quite a lot with the update to TARDIS v2.6, especially the w
 - make a new TARDIS
 - use [ARS](ars) to grow a new room
 
-#### I try to grow a room but the plugin says “There seems to be a block in the way! You should be growing out into the void...” {#void}
+## I try to grow a room but the plugin says “There seems to be a block in the way! You should be growing out into the void...” {#void}
 
 Read the answer [above](#grew), once you’ve done that (and you still want to grow a room manually) make sure the room
 you are growing from contains a pressure plate in the correct position for the piston door, then place the seed block in
 the right place — i.e. NOT in the wall.
 
-#### My TARDIS is not generating its own world {#own-world}
+## My TARDIS is not generating its own world {#own-world}
 
 For best results, follow these steps to set up the plugin to create TARDIS worlds:
 
@@ -76,32 +57,24 @@ For best results, follow these steps to set up the plugin to create TARDIS world
 6. Start the server
 7. Create a TARDIS
 
-[Back to top](#top)
-
-#### How do I import my TARDIS world into my multi-world plugin? {#import}
+## How do I import my TARDIS world into my multi-world plugin? {#import}
 
 You should never do this. The TARDIS plugin can manage its own worlds.
 
-[Back to top](#top)
-
-#### Non-op players can’t break the blocks inside the TARDIS to grow rooms {#spawn}
+## Non-op players can’t break the blocks inside the TARDIS to grow rooms {#spawn}
 
 This is probably because of Minecraft’s built-in spawn protection. The server admin will need to
 set `spawn-protection=0`
 in _server.properties_ (and set up their normal world spawn with another form of protection instead e.g. WorldGuard).
 
-[Back to top](#top)
-
-#### My Handbrake is not re-engaging! {#handbrake}
+## My Handbrake is not re-engaging! {#handbrake}
 
 To re-engage the handbrake you must **LEFT** -click the lever.
 
 If you are stuck in the Time Vortex, use the `/tardistravel stop` command to rebuild your TARDIS before trying to travel
 again.
 
-[Back to top](#top)
-
-#### It says circuits are missing from the Advanced Console. {#advanced}
+## It says circuits are missing from the Advanced Console. {#advanced}
 
 You haven’t crafted the appropriate circuit and placed it in the TARDIS Advanced Console (the JUKEBOX).
 
@@ -111,9 +84,7 @@ You haven’t crafted the appropriate circuit and placed it in the TARDIS Advanc
 
 **Solution 3:** Set the TARDIS difficulty level to `easy` — circuits are not required in easy mode.
 
-[Back to top](#top)
-
-#### It says I need to use the Advanced Console. {#difficulty}
+## It says I need to use the Advanced Console. {#difficulty}
 
 This is probably because the TARDIS difficulty level is set to `hard`. On hard difficulty, most travel commands are
 disabled, and you must place the appropriate storage disk into the Advanced Console instead. See the
@@ -121,18 +92,14 @@ disabled, and you must place the appropriate storage disk into the Advanced Cons
 
 You can also use the `/tardisconfig difficulty easy` command to switch difficulty levels and re-enable the commands.
 
-[Back to top](#top)
-
-#### My TARDIS isn’t charging at a recharge beacon {#charging}
+## My TARDIS isn’t charging at a recharge beacon {#charging}
 
 You must time travel to the recharge location.
 
 Charging is triggered by players actually travelling to the recharge point, not remotely bringing their TARDIS into
 position with the `/tardis comehere` command.
 
-[Back to top](#top)
-
-#### I can’t hear the custom sound effects {#sfx}
+## I can’t hear the custom sound effects {#sfx}
 
 The custom TARDIS sound effects require you to have the **TARDIS Sound Resource Pack** installed in the Minecraft
 client,
@@ -143,9 +110,7 @@ You can download the resource pack from GitHub:
 — take note of installation instructions on that page. Alternatively download from the TARDIS Jenkins server -
 [http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/)
 
-[Back to top](#top)
-
-#### It says I’m still inside the TARDIS, but I’m not {#inside}
+## It says I’m still inside the TARDIS, but I’m not {#inside}
 
 This happens if you have exited the TARDIS by some other way than the TARDIS door — this could be because of death,
 call,
@@ -155,15 +120,11 @@ To fix this, type the command:
 
     /tardis occupy
 
-[Back to top](#top)
-
-#### It keeps saying I’m restricted to the [] area or something about my exile status! {#perms}
+## It keeps saying I’m restricted to the [] area or something about my exile status! {#perms}
 
 Please read the first part of the [Permissions](permissions) page.
 
-[Back to top](#top)
-
-#### I changed some config options but they keep changing back! {#config}
+## I changed some config options but they keep changing back! {#config}
 
 If you manually edit the TARDIS config file while the server is running, you will need to use the `/tardisconfig reload`
 command (DO NOT use `/reload` as the plugin saves the current settings when it is disabled).
@@ -173,16 +134,12 @@ changes
 take effect immediately, no server restart required. See the [Config Commands](config-commands) page for more
 details.
 
-[Back to top](#top)
-
-#### I jettisoned a room and it deleted part of the control room! {#jettison}
+## I jettisoned a room and it deleted part of the control room! {#jettison}
 
 The `/tardis jettison` command relies on the direction the player is facing in order to work — always **face into the
 room you want to jettison** , otherwise you are likely to be removing parts of your TARDIS that you don’t want to.
 
-[Back to top](#top)
-
-#### I edited the config file, but when I reload the changes don’t save! {#reload}
+## I edited the config file, but when I reload the changes don’t save! {#reload}
 
 This is fairly standard behaviour for plugins. The **currently loaded** config options are saved when you restart the
 server,
@@ -200,17 +157,13 @@ You have three options:
 
 **Note:** It is generally not good practice to use the `/reload` command.
 
-[Back to top](#top)
-
-#### The perception filter has gone completely invisible! {#filter}
+## The perception filter has gone completely invisible! {#filter}
 
 When travelling between worlds, the Perception Filter may sometimes go completely invisible — if this happens, just
 press
 your “sneak” key (usually LEFT-SHIFT) to make the player skin update.
 
-[Back to top](#top)
-
-#### Why does it rain on my TARDIS in dry biomes? {#rain}
+## Why does it rain on my TARDIS in dry biomes? {#rain}
 
 This is due to a residual temporal flux causing the immediate TARDIS environment to be out of sync with the rest of the
 multiverse — nothing the TARDIS perception filter can’t handle!
@@ -224,9 +177,7 @@ result is that it sometimes rains on the Police Box.
 
 ![Another lonely TARDIS](/images/docs/another_lonely_tardis.jpg))
 
-[Back to top](#top)
-
-#### Why does my TARDIS door open when I crouch-click it (and get out of sync with the other door)? {#sync}
+## Why does my TARDIS door open when I crouch-click it (and get out of sync with the other door)? {#sync}
 
 You probably have the LWC plugin installed. LWC has a setting that allows iron doors to be opened by clicking them. You
 should disable this in LWC’s doors.yml:
@@ -237,9 +188,7 @@ should disable this in LWC’s doors.yml:
 If you move the interior TARDIS door, remember to remove the LWC protection after placing the door in its new position
 (and before running the `/tardis update door` command.
 
-[Back to top](#top)
-
-#### What is the Resource Pack in the videos? {#txtpac}
+## What is the Resource Pack in the videos? {#txtpac}
 
 An unreleased (and unfinished — still most of the mobs to do) pack called Bromley Massive Vector, also by eccentric\_nz.
 Maybe, one day he will finish it. It’s [128X], and is compatible with Minecraft 1.19+.

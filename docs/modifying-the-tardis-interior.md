@@ -65,7 +65,7 @@ can use for each:
 v2.7-beta-1, the plugin only reserves and protects the initial chunks used to create the TARDIS in, which means that
 another player could potentially create a TARDIS that overlaps yours if you make it bigger.
 
-See also: [Binding destinations to blocks](bind-commands)
+See also: [Binding destinations to blocks](commands/bind-commands.md)
 
 ## Changing room wall and floor blocks
 

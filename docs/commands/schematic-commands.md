@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Schematic command
+title: Schematic Command
 ---
 
 # TARDIS Schematic command

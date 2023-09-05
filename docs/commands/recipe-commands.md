@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Recipe command
+title: Recipe Command
 ---
 
 # The Recipe command

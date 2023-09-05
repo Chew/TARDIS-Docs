@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sudo Commnads
+title: Sudo Command
 ---
 
 # Sudo Commands

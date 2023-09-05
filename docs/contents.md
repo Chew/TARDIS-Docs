@@ -99,13 +99,13 @@ To get started choose a page:
 
 [Player Preferences](player-preferences) — Commands to set TARDIS player preferences
 
-[Bind commands](bind-commands) — ‘Bind’ saves and other functions to buttons for easy access
+[Bind commands](commands/bind-commands.md) — ‘Bind’ saves and other functions to buttons for easy access
 
 [Texture Pack commands](texture-commands) — Switch texture packs when entering and exiting the TARDIS (not recommended)
 
 [Config Commands](config-commands) — Configure the TARDIS plugin settings
 
-[Admin Commands](admin-commands) — Perform TARDIS administrative functions
+[Admin Commands](commands/admin-commands.md) — Perform TARDIS administrative functions
 
 [Give Commands](give-commands) — Give TARDIS items and Artron Energy to players
 
@@ -113,7 +113,7 @@ To get started choose a page:
 
 [Schematic Commands](schematic-commands) — Make TARDIS schematics
 
-[Area Commands](area-commands) — Set up areas that players can travel to (such as recharge stations and parking lots)
+[Area Commands](commands/area-commands.md) — Set up areas that players can travel to (such as recharge stations and parking lots)
 
 ## Admin stuff
 

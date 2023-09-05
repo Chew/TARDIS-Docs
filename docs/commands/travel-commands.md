@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Time travel commands
+title: Time Travel Command
 ---
 
 # Time travel commands

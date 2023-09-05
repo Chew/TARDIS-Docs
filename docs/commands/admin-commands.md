@@ -1,35 +1,32 @@
 ---
 layout: default
-title: Admin commands
+title: Admin Commands
 ---
 
-# Admin commands
+# Admin Commands
 
-### `/tardisadmin`
+This page contains all `/tardisadmin` sub-commands. Every command requires the `tardis.admin` permission node.
+
+## `/tardisadmin`
+
+All command under here start with `/tardisadmin`
+
+### `/tardisadmin enter [player]`
 
 Enter a player’s TARDIS (by direct teleport instead of the door).
 
-```
-/tardisadmin enter [player]
-```
+### `/tardisadmin recharger [name]`
 
-<a id="recharger"></a> Set the beacon block you are targeting in game, as a TARDIS recharge station.
+Set the beacon block you are targeting in game, as a TARDIS recharge station.
 
-```
-/tardisadmin recharger [name]
-```
+### `/tardisadmin decharge [name]`
 
 Remove the specified beacon recharger from the config.
 
-```
-/tardisadmin decharge [name]
-```
+### `/tardisadmin condenser`
 
-Set the chest you are targeting in game, as the server's community Artron Condenser - see [Server condenser](condenser#server-condenser).
+Set the chest you are targeting in game, as the server's community Artron Condenser - see [Server condenser](../condenser.md#server-condenser).
 
-```
-/tardisadmin condenser
-```
 
 List all TARDISs and their locations.
 

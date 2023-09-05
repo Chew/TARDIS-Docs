@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Remote command
+title: Remote Command
 ---
 
 [Jump to video](#video)

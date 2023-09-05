@@ -22,7 +22,7 @@ and a big list of all the other commands here: [Big list of other commands](othe
 
 `/tardisprefs` - [Change your TARDIS preferences](player-preferences)
 
-`/tardisbind` - [Bind destinations to buttons](bind-commands)
+`/tardisbind` - [Bind destinations to buttons](bind-commands.md)
 
 `/tardisbook` - [Get TARDIS timelore books and start achievements](books)
 
@@ -30,7 +30,7 @@ and a big list of all the other commands here: [Big list of other commands](othe
 
 `/tardisrecipe` - [View recipes for TARDIS items](recipe-commands)
 
-`/tardisadmin` - [Perform TARDIS administration tasks](admin-commands)
+`/tardisadmin` - [Perform TARDIS administration tasks](admin-commands.md)
 
 `/tardisconfig` - [Change the TARDIS plugin configuration](config-commands)
 
@@ -38,7 +38,7 @@ and a big list of all the other commands here: [Big list of other commands](othe
 
 `/tardissudo` - [Admin super user commands](sudo-commands)
 
-`/tardisarea` - [Set up predefined TARDIS travel areas](area-commands)
+`/tardisarea` - [Set up predefined TARDIS travel areas](area-commands.md)
 
 `/tardisroom` - [Add custom rooms and view room costs](custom-rooms)
 

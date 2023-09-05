@@ -1,6 +1,6 @@
 ---
 layout: default
-title: dev commands
+title: Dev Commands
 ---
 
 # TARDIS dev commands

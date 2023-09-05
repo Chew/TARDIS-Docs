@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Installation
+path: /installation
 ---
 
 [Jump to video](#video)

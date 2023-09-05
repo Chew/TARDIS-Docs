@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Big list of other commands
+title: Other Commands
 ---
 
 # Big list of other commands

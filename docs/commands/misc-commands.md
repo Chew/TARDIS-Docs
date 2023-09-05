@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Miscellaneous commands
+title: Miscellaneous Commands
 ---
 
 # Miscellaneous commands

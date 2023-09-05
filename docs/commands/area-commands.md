@@ -1,11 +1,18 @@
 ---
 layout: default
-title: area commands
+title: Area Commands
 ---
 
 [Jump to video](#video)
 
-# TARDIS area commands
+# TARDIS Area Commands
+
+All commands in this section require the `tardis.admin` permission node.
+
+## `/tardisarea`
+
+All command are prefixed with `/tardisarea`.
+
 
 `/tardisarea start [name]` - type this to define the starting corner of a preset
 admin area.
@@ -28,7 +35,7 @@ area with parking spots, where:
 - the second `[material]` is the block you want to use to mark the parking spot
   — defaults to BRICK if not specified
 
-![TARDIS parking yard](/images/docs/yard.jpg))
+![TARDIS parking yard](/images/docs/yard.jpg)
 
 `/tardisarea invisibility [name] [ALLOW|DENY|preset]` - type this to set how TARDISes using invisibility will be treated
 when landing in this area

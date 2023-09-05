@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Texture command
+title: Texture Command
 ---
 
 [Jump to video](#video)

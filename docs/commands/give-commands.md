@@ -1,6 +1,6 @@
 ---
 layout: default
-title: give commands
+title: Give Commands
 ---
 
 # TARDIS give commands
@@ -20,7 +20,7 @@ than `full_charge`.
 
     /tardisgive [player] kit [kit]
 
-This will give the a player the specified TARDIS item kit. Kits can be configured in [kits.yml](kits)
+This will give the player the specified TARDIS item kit. Kits can be configured in [kits.yml](kits)
 
     /tardisgive [player] [item] [amount]
 

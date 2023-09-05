@@ -5,9 +5,6 @@ title: The Chameleon Circuit
 
 # The Chameleon Circuit
 
-The Chameleon Circuit has changed in TARDIS version 3.7 and higher. The old Chameleon Circuit documentation can be
-found [here](chameleon-circuit-legacy).
-
 To make your TARDIS Police Box blend in with its surroundings you can use the Chameleon Circuit.
 The Chameleon Circuit will be created automatically when you make a new TARDIS, and can be accessed from the
 [TARDIS Control Menu](control-menu) sign.
