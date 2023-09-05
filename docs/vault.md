@@ -18,5 +18,5 @@ To enable sorting:
 - close the ‘drop’ chest
 - the blocks/items are moved to the chest with the same block/item in it
 
-![Vault chests](/images/docs/vault.jpg))
+![Vault chests](/images/docs/vault.jpg)
 

@@ -60,7 +60,7 @@ You can also use the TARDIS <strong id="direction_frame">Direction Frame</strong
 
 The tripwire hook in the Direction Frame is protected from stealing.
 
-![Direction Frame](/images/docs/directionframe.jpg))
+![Direction Frame](/images/docs/directionframe.jpg)
 
 ### /tardis find
 

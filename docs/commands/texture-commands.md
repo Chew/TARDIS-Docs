@@ -9,7 +9,7 @@ title: Texture Command
 
 In order to use this feature, you must set **Server Textures: On** in the Minecraft client **Video Settings** options.
 
-![TARDIS](/images/docs/servertextureson.jpg))
+![TARDIS](/images/docs/servertextureson.jpg)
 
 ### Setting texture packs
 

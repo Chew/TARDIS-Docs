@@ -10,7 +10,7 @@ the most suitable shell from the room and applies it as the ship’s exterior.
 
 You can use the shell room to construct your own custom chameleon design (make sure you grow the room first).
 
-![shell room](/images/rooms/shell.jpg))
+![shell room](/images/rooms/shell.jpg)
 
 Place blocks from your inventory onto the platform. The door should be on the side with the stone slab sticking out.
 
@@ -23,7 +23,7 @@ You construct the chameleon shell in the same way as the server’s [custom pres
 
 To save the chameleon construct, click the stone button on the platform.
 
-![shell room showing button](/images/docs/shell.jpg))
+![shell room showing button](/images/docs/shell.jpg)
 
 ## Shell Loader
 
@@ -34,6 +34,6 @@ If players have the permission `tardis.load_shells`, they can load Chameleon pre
 
 To open the Shell Loader GUI, click the stone button on the Shell Constructor platform while sneaking.
 
-![shell loader](/images/docs/shell_loader.jpg))
+![shell loader](/images/docs/shell_loader.jpg)
 
 Click a button to load the Chameleon preset onto the shell constructor platform.

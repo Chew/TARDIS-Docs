@@ -36,7 +36,7 @@ them to mobs. However, the recipe is the same, with the exception of requiring a
 They come in the following colours: Red, Orange, Yellow, Green, Blue, Purple, Light Blue, Magenta, Pink, Cyan, Lime,
 Gray, Light Gray, Black, Brown, and White.
 
-![balloon](/images/chemistry/products/balloon.png))
+![balloon](/images/chemistry/products/balloon.png)
 
 ### Recipes
 
@@ -54,7 +54,7 @@ Bleach is used to remove the colour from objects. They work just
 like [Education Edition Bleach](https://minecraft.gamepedia.com/Bleach), however they can also make Leather Armour
 completely white and turn concrete powder white.
 
-![bleach](/images/chemistry/products/bleach.gif))
+![bleach](/images/chemistry/products/bleach.gif)
 
 ### Recipe
 
@@ -77,7 +77,7 @@ right clicking into the air will give it an enchanting effect. Unlike [Balloons]
 The following colours are available: White, Orange, Magenta, Light Blue, Yellow, Lime, Pink, Light Gray, Cyan, Purple,
 Blue, Brown, Green, and Red.
 
-![glow sticks](/images/chemistry/products/glow-sticks.png))
+![glow sticks](/images/chemistry/products/glow-sticks.png)
 _All 14 colours of glow sticks. The first 2 on the top row are activated._
 
 ### Recipes
@@ -95,7 +95,7 @@ All recipes must be crafted in the [Product crafter](chemistry-lab.md#product-cr
 
 The Heat Block acts as a source of heat, melting nearby ice in a 5x5 area.
 
-![heat block](/images/chemistry/products/heat-block.png))
+![heat block](/images/chemistry/products/heat-block.png)
 
 ### Recipe
 
@@ -113,7 +113,7 @@ Recipe command: `/tchemistry formula Heat_Block`
 Ice Bombs are simply ice in a ball! Throwing an ice bomb into a body of water will make a 3x3
 of [ice](https://minecraft.gamepedia.com/Ice)
 
-![ice bomb](/images/chemistry/products/ice-bomb.gif))
+![ice bomb](/images/chemistry/products/ice-bomb.gif)
 
 ### Recipe
 
@@ -134,7 +134,7 @@ Lamps are simple light source blocks.
 - Each lamp produces a light level of 15, the highest light level possible.
 - The Lamp can be toggled with a Redstone-enabled [Sonic Screwdriver](../sonic-screwdriver.md)
 
-![lamps](/images/chemistry/products/lamps.png))
+![lamps](/images/chemistry/products/lamps.png)
 _(left to right) Blue Lamp, Red Lamp, Purple Lamp, Green Lamp_
 
 ### Recipes
@@ -156,7 +156,7 @@ hold it again.
 
 Sparklers only come in 5 colours: Orange, Blue, Green, Purple, and Red.
 
-![sparkler](/images/chemistry/products/sparkler.gif))
+![sparkler](/images/chemistry/products/sparkler.gif)
 _Orange Sparkler in action_
 
 ### Recipes
@@ -176,7 +176,7 @@ All recipes must be crafted in the [Product crafter](chemistry-lab.md#product-cr
 Super fertiliser is a "super" version of the typical bone meal. It instantly fully-grows crops, restoring old bone meal
 mechanics.
 
-![super fertiliser](/images/chemistry/products/super-fertiliser.gif))
+![super fertiliser](/images/chemistry/products/super-fertiliser.gif)
 
 ### Recipe
 

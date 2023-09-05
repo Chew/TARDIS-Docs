@@ -25,9 +25,9 @@ Rift Manipulator is returned).
 
 Rift rechargers are NOT listed with the `/tardis list rechargers` command.
 
-![acid battery](/images/docs/acid-battery.jpg))
+![acid battery](/images/docs/acid-battery.jpg)
 
-![rift circuit](/images/docs/rift-circuit.jpg))
+![rift circuit](/images/docs/rift-circuit.jpg)
 
-![rift manipulator](/images/docs/rift-manipulator.jpg))
+![rift manipulator](/images/docs/rift-manipulator.jpg)
 

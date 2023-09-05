@@ -55,7 +55,7 @@ clicked and the door on the opposite side should open (sometimes it’s a bit bu
 is open, instead of being transported outside the Police Box, you will be transported to the outer door location. This
 can be handy to see what is going on before leaving the safety of the TARDIS.
 
-![TP to door](/images/docs/tp-to-door.jpg))
+![TP to door](/images/docs/tp-to-door.jpg)
 
 **Note:** In order for the TARDIS to time travel, the door must be closed.
 

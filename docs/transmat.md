@@ -30,20 +30,20 @@ You can transmat to a location in several ways:
    - Click on a saved transmat location
    - Click the Transmat button to teleport
 
-![TARDIS Transmats](/images/docs/transmat.jpg))
+![TARDIS Transmats](/images/docs/transmat.jpg)
 
 - Use the _TARDIS Map GUI_ (found in the TARDIS Control Centre or Sonic Preferences GUI)
    - Load the map
    - Click on the room or console you want to teleport to
    - Click the Transmat button
 
-![TARDIS Map](/images/docs/map.jpg))
+![TARDIS Map](/images/docs/map.jpg)
 
 - Use the transmat _command_ to open a list of clickable chat entries
     - Run the command `/tardis transmat list`
     - Reopen the chat window and click on a transmat link
 
-![Transmat list](/images/docs/transmat_list.jpg))
+![Transmat list](/images/docs/transmat_list.jpg)
 
 ### Modifying transmat locations
 

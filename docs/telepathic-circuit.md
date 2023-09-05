@@ -14,7 +14,7 @@ To view the crafting recipe use the command:
 /tardisrecipe telepathic-circuit
 ```
 
-![Telepathic Circuit recipe](/images/docs/telepathic-circuit.jpg))
+![Telepathic Circuit recipe](/images/docs/telepathic-circuit.jpg)
 
 ## Player preferences
 

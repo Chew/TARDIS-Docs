@@ -16,82 +16,82 @@ The various forms are shown below:
 
 Access to most of the TARDIS functions.
 
-![Floodgate control](/images/floodgate/control.jpg))
+![Floodgate control](/images/floodgate/control.jpg)
 
 ## Saves
 
 Click a button to load a save, or the TARDIS home location.
 
-![Floodgate saves](/images/floodgate/saves.jpg))
+![Floodgate saves](/images/floodgate/saves.jpg)
 
 ## Areas
 
 Click a button to load an area to travel to.
 
-![Floodgate areas](/images/floodgate/areas.jpg))
+![Floodgate areas](/images/floodgate/areas.jpg)
 
 ## Destination terminal
 
 Use the form controls to find a unique location. When parameters have been selected, click the submit button.
 
-![Floodgate destination terminal](/images/floodgate/terminal.jpg))
+![Floodgate destination terminal](/images/floodgate/terminal.jpg)
 
 ## Desktop theme
 
 Click a button to change to a new desktop theme.
 
-![Floodgate desktop theme](/images/floodgate/desktop.jpg))
+![Floodgate desktop theme](/images/floodgate/desktop.jpg)
 
 Select a block to use for the floor /walls of the new interior.
 
-![Floodgate wallls and floors](/images/floodgate/wall.jpg))
+![Floodgate wallls and floors](/images/floodgate/wall.jpg)
 
 ## Map
 
 Click a button to transmat to a room in your TARDIS.
 
-![Floodgate map](/images/floodgate/map.jpg))
+![Floodgate map](/images/floodgate/map.jpg)
 
 ## Chameleon circuit
 
 Click a button to set Chameleon Circuit options.
 
-![Floodgate chameleon](/images/floodgate/chameleon.jpg))
+![Floodgate chameleon](/images/floodgate/chameleon.jpg)
 
-![Floodgate presets](/images/floodgate/presets.jpg))
+![Floodgate presets](/images/floodgate/presets.jpg)
 
 ## Temporal circuit
 
 Click a button to change the relative time when exiting the TARDIS.
 
-![Floodgate temporal](/images/floodgate/temporal.jpg))
+![Floodgate temporal](/images/floodgate/temporal.jpg)
 
 ## Transmat
 
 Click a button to transmat to a saved interior location.
 
-![Floodgate transmat](/images/floodgate/transmat.jpg))
+![Floodgate transmat](/images/floodgate/transmat.jpg)
 
 ## Player Preferences
 
 Click a button to toggle player preferences on or off. When preferences are set, click the submit button.
 
-![Floodgate preferences](/images/floodgate/prefs.jpg))
+![Floodgate preferences](/images/floodgate/prefs.jpg)
 
 ## Companions
 
 Click a button to add / remove a player as a TARDIS companion.
 
-![Floodgate companions](/images/floodgate/companions.jpg))
+![Floodgate companions](/images/floodgate/companions.jpg)
 
 ## Genetic Manipulator
 
 Click a button to genetic modify your appearance. _Probably won’t work as you're a bedrock player on a Java server..._
 
-![Floodgate genetic manipulator](/images/floodgate/genetic.jpg))
+![Floodgate genetic manipulator](/images/floodgate/genetic.jpg)
 
 ## Exterminate
 
 Opens when a player runs the `/tardis exterminate` command. Click the button to confirm you want to delete your TARDIS.
 
-![Floodgate exterminate](/images/floodgate/exterminate.jpg))
+![Floodgate exterminate](/images/floodgate/exterminate.jpg)

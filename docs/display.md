@@ -13,7 +13,7 @@ TARDIS can provide a heads up display (HUD) for players that shows various infor
 - the type of block the player is targeting
 - a combination of the above
 
-![TARDIS Display](/images/docs/tardis-display.jpg))
+![TARDIS Display](/images/docs/tardis-display.jpg)
 
 ## Permissions
 

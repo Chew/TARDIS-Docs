@@ -32,4 +32,4 @@ The bottom middle block in the Save Sign GUI lets you switch to the TARDIS Areas
 administrator (and that you have permission for) will be shown here. To go to the location, click the block just like
 you would for a save.
 
-![Save Sign](/images/docs/save-sign.jpg))
+![Save Sign](/images/docs/save-sign.jpg)

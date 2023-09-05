@@ -57,11 +57,11 @@ Fix broken mushroom block textures.
 
 Before command:
 
-![Mushroom before update](/images/docs/mushroom_before.jpg))
+![Mushroom before update](/images/docs/mushroom_before.jpg)
 
 After command:
 
-![Mushroom after update](/images/docs/mushroom_after.jpg))
+![Mushroom after update](/images/docs/mushroom_after.jpg)
 
 _____
 
@@ -89,6 +89,6 @@ the `/tardis update weather` command.
 When you open the weather GUI, you can click a button to change the weather, or initiate atmospheric excitation (make it
 snow around your TARDIS).
 
-![Weather GUI](/images/docs/weather_gui.jpg))
+![Weather GUI](/images/docs/weather_gui.jpg)
 
 <iframe src="https://player.vimeo.com/video/222985511" width="600" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

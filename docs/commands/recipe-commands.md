@@ -137,4 +137,4 @@ categorised list of all items.
 | Light Twelfth | `/tardisrecipe light-twelfth` |
 | Light Thirteenth | `/tardisrecipe light-thirteenth` |
 
-![Recipe GUI](/images/docs/recipe.jpg))
+![Recipe GUI](/images/docs/recipe.jpg)

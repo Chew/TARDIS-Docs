@@ -32,7 +32,7 @@ You will be able to see the following information:
 - Humidity & temperature
 - Nearby entities
 
-![Scanner results](/images/docs/scanner.jpg))
+![Scanner results](/images/docs/scanner.jpg)
 
 # Exterior Rendering Room
 

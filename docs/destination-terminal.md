@@ -15,7 +15,7 @@ below. The basic functions of the GUI are the same as when using the repeaters o
 the `x` and `z` coordinates, a distance multiplier, and a world type. The Destination Terminal also lets you select the
 TARDIS submarine mode for travelling under water.
 
-![Destination Terminal](/images/docs/destination-terminal.jpg))
+![Destination Terminal](/images/docs/destination-terminal.jpg)
 
 ### Key to the blocks
 

@@ -29,11 +29,11 @@ CTM has a feature where you can set different textures for blocks depending on w
 TARDIS Police Box use custom textures the 3 x 3 block area where the TARDIS lands is set to a DEEP\_OCEAN biome. When
 the TARDIS leaves the location, the biome is reset back to what is was originally.
 
-![CTM TARDIS](/images/docs/doors_opening_right_way.jpg))
+![CTM TARDIS](/images/docs/doors_opening_right_way.jpg)
 
 Currently, only the Police Box and Pandorica use custom block textures.
 
-![CTM Pandorica](/images/docs/pandorica.jpg))
+![CTM Pandorica](/images/docs/pandorica.jpg)
 
 For interior textures, the TARDIS console and rooms are set to the VOID biome. There are custom wall, advanced console,
 disk storage container and door textures.
@@ -75,9 +75,9 @@ To access the menus:
 
 To change the texture for the item, put it in the bottom-left-most slot and then click the texture of your choice.
 
-![Sonic menu](/images/docs/sonic_prefs_menu.jpg))
+![Sonic menu](/images/docs/sonic_prefs_menu.jpg)
 
-![Key menu](/images/docs/key_prefs_menu.jpg))
+![Key menu](/images/docs/key_prefs_menu.jpg)
 
 ## Keeping the resource packs up-to-date
 

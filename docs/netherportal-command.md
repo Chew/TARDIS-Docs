@@ -27,5 +27,5 @@ Now you can start creating a hub system in the nether to travel to the over worl
 travelling through the Nether as each block in the Nether you travel is 8 blocks in the overworld. It’s a shortcut, sort
 of like a wormhole in space!
 
-![Nether Portal](/images/docs/tardisnp.jpg))
+![Nether Portal](/images/docs/tardisnp.jpg)
 

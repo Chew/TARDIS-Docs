@@ -12,12 +12,12 @@ subsequently repaired.
 
 You can craft and place Handles so that he can interact with you and the TARDIS.
 
-![Handles](/images/docs/handles.jpg))
+![Handles](/images/docs/handles.jpg)
 
 To see the Handles crafting recipe, use the command `/tardisrecipe handles`. Alternatively, you can give yourself or
 other players a Handles with the command `/tardisgive [player] handles 1`
 
-![Handles recipe](/images/docs/handles_recipe.jpg))
+![Handles recipe](/images/docs/handles_recipe.jpg)
 
 Handles can only be placed inside the TARDIS, and must be placed in an item frame.
 
@@ -25,7 +25,7 @@ Handles can only be placed inside the TARDIS, and must be placed in an item fram
 Handles is placed in the TARDIS) — use the `/tardisrecipe communicator` to view the recipe, or give a communicator with
 the `/tardisgive [player] communicator 1` command.
 
-![Comunicator](/images/docs/communicator.jpg))
+![Comunicator](/images/docs/communicator.jpg)
 
 ### Talking to Handles
 

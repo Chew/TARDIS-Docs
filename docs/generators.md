@@ -16,7 +16,7 @@ You can use the generators for any world, just specify the `generator` setting i
 
 An empty world.
 
-![Void world](/images/docs/void_world.jpg))
+![Void world](/images/docs/void_world.jpg)
 
 ## Gallifrey
 
@@ -24,7 +24,7 @@ An empty world.
 
 Badlands biomes with custom sky colour, trees and Time Lord structures.
 
-![Gallifrey world](/images/docs/gallifrey.jpg))
+![Gallifrey world](/images/docs/gallifrey.jpg)
 
 ### Siluria
 
@@ -32,7 +32,7 @@ Badlands biomes with custom sky colour, trees and Time Lord structures.
 
 Bamboo & sparse jungle biomes with custom Silurian structures.
 
-![Siluria world](/images/docs/siluria.jpg))
+![Siluria world](/images/docs/siluria.jpg)
 
 ### Skaro
 
@@ -40,7 +40,7 @@ Bamboo & sparse jungle biomes with custom Silurian structures.
 
 Desert biome with custom sky colour, trees and Dalek structures.
 
-![Skaro world](/images/docs/skaro.jpg))
+![Skaro world](/images/docs/skaro.jpg)
 
 ## Configurable flat world
 
@@ -61,7 +61,7 @@ middle: DIRT
 surface: GRASS_BLOCK
 ```
 
-![Flat world](/images/docs/flat_world.jpg))
+![Flat world](/images/docs/flat_world.jpg)
 
 ## Water world
 
@@ -69,6 +69,6 @@ surface: GRASS_BLOCK
 
 Ocean biomes and a small island at spawn, plus a 1/1000 chance an island will generate in a chunk.
 
-![Water world](/images/docs/water_world_1.jpg))
+![Water world](/images/docs/water_world_1.jpg)
 
-![Water world](/images/docs/water_world_2.jpg))
+![Water world](/images/docs/water_world_2.jpg)

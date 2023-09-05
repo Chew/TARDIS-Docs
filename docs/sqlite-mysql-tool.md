@@ -12,7 +12,7 @@ You can easily change the database storage format of the TARDIS plugin using the
 Note: You can now achieve this by simply running `/tadmin convert_database`! You must configure your `config.yml` to the
 correct database credentials first, however.
 
-![Conversion tool](/images/docs/conversion_tool.png))
+![Conversion tool](/images/docs/conversion_tool.png)
 
 To open the tool, double click the TARDIS.jar file. Follow the steps below to complete the conversion:
 

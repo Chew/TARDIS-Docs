@@ -18,7 +18,7 @@ colour. To see the recipe type:
 
 Each recipe gives 4 coloured jelly babies, eating a jelly baby restores one hunger.
 
-![jelly baby crafting](/images/docs/jelly_baby.jpg))
+![jelly baby crafting](/images/docs/jelly_baby.jpg)
 
 #### Paper bag
 
@@ -38,7 +38,7 @@ fish. To see the recipe type:
 
 Each recipe gives 3 fish fingers, eating a fish finger restores 2.5 hunger.
 
-![fish finger crafting](/images/docs/fish_fingers.jpg))
+![fish finger crafting](/images/docs/fish_fingers.jpg)
 
 ### Bowl of custard
 
@@ -49,7 +49,7 @@ is crafted with 1 bucket of milk, 1 egg, and 1 wooden bowl. To see the recipe ty
 
 Each recipe gives one bowl of custard, eating custard restores 3 hunger.
 
-![custard crafting](/images/docs/bowl_of_custard.jpg))
+![custard crafting](/images/docs/bowl_of_custard.jpg)
 
 ### Jammy Dodgers
 
@@ -61,7 +61,7 @@ recipe type:
 
 Each recipe gives 8 Jammy Dodgers, eating a Jammy Dodger restores 1 hunger.
 
-![jammy dodger crafting](/images/docs/jammy_dodger.jpg))
+![jammy dodger crafting](/images/docs/jammy_dodger.jpg)
 
 ### Custard Creams
 
@@ -77,4 +77,4 @@ Each recipe gives 8 Jammy Dodgers, eating a Jammy Dodger restores 1 hunger.
 
 All the food items, including all 16 jelly baby flavours.
 
-![all the food](/images/docs/tardis_food.jpg))
+![all the food](/images/docs/tardis_food.jpg)

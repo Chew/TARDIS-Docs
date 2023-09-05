@@ -30,7 +30,7 @@ Otherwise, mobs will look like vanilla mobs!
 
 ## Planet Skaro
 
-![planet skaro](/images/docs/skaro.jpg))
+![planet skaro](/images/docs/skaro.jpg)
 
 - This world is limited to the customised Desert biome.
 - If configured, all water is acid and will harm / kill the player (wearing armour reduces the effect). Use a boat!
@@ -47,7 +47,7 @@ Otherwise, mobs will look like vanilla mobs!
 
 ## Planet Gallifrey
 
-![planet gallifrey](/images/docs/gallifrey.jpg))
+![planet gallifrey](/images/docs/gallifrey.jpg)
 
 - This world is limited to customised Badlands, Wooded Badlands and Eroded Badlands biomes.
 - Time Lord structures will generate automatically as you explore the world — multiple buildings will be grouped in a
@@ -57,7 +57,7 @@ Otherwise, mobs will look like vanilla mobs!
 
 ## Planet Siluria
 
-![planet siluria](/images/docs/siluria.jpg))
+![planet siluria](/images/docs/siluria.jpg)
 
 - This world is limited to the Bamboo Jungle and Bamboo Jungle Hills biomes.
 - Structures will generate automatically as you explore the jungles.

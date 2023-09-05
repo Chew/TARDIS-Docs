@@ -32,7 +32,7 @@ The plugin uses standardised values for each state of the TARDIS visuals - open/
 | transparent coloured | `1003`            |
 | transparent clear    | `1004`            |
 
-![Custom model states](/images/docs/custom_model_states.jpg))
+![Custom model states](/images/docs/custom_model_states.jpg)
 
 # Example model overrides
 

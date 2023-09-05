@@ -56,11 +56,11 @@ If you have the permission `tardis.themaster`, you can turn everybody on the ser
 
 After 3 minutes, Lord Rassilon himself will step in and restore the human race back their normal form.
 
-![Page 1](/images/docs/genetic_page_1.jpg))
+![Page 1](/images/docs/genetic_page_1.jpg)
 
-![Page 2](/images/docs/genetic_page_2.jpg))
+![Page 2](/images/docs/genetic_page_2.jpg)
 
-![Page monsters](/images/docs/genetic_page_twa.jpg))
+![Page monsters](/images/docs/genetic_page_twa.jpg)
 
 ### Video
 

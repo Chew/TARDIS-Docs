@@ -46,7 +46,7 @@ The associated TARDIS GUIs can be opened by shift-right-clicking a circuit when
 it is installed in the Advanced Console, for example shift-right-clicking the
 TARDIS ARS Circuit opens the ARS inventory GUI.
 
-![Advanced Console](/images/docs/advancedconsoleinv.jpg))
+![Advanced Console](/images/docs/advancedconsoleinv.jpg)
 
 ### Crafting circuits
 
@@ -109,7 +109,7 @@ circuits can be stored in here, other items will be ejected when the inventory c
 Some inventory screens (saves, biomes and presets) have 2 pages — use the
 coloured wool blocks to navigate between them.
 
-![Disk Storage Container](/images/docs/diskstoragecontainer.jpg))
+![Disk Storage Container](/images/docs/diskstoragecontainer.jpg)
 
 #### Area Storage Disks
 

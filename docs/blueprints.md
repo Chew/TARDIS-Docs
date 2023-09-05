@@ -28,7 +28,7 @@ To disable, run the command again with the last argument set to `false`.
 
 Blueprints are a form of TARDIS disk.
 
-![Blueprint disk](/images/docs/blueprint_disk.png))
+![Blueprint disk](/images/docs/blueprint_disk.png)
 
 _Blueprints are keyed to a specific player &mdash; only the player who obtained
 the blueprint can use it to upgrade their TARDIS with the blueprinted feature

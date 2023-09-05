@@ -22,7 +22,7 @@ The speed at which the change happens is linked to the `growth.room_speed` confi
 
 You can open the desktop theme GUI from the [TARDIS Control Menu](control-menu), with a command, or by **right-shift-clicking the ARS sign**.
 
-![TARDIS Control Menu](/images/docs/control_menu_desktop.jpg))
+![TARDIS Control Menu](/images/docs/control_menu_desktop.jpg)
 
 To open the desktop theme GUI using a command type one of the following:
 
@@ -30,7 +30,7 @@ To open the desktop theme GUI using a command type one of the following:
     /tardis theme
     /tardis upgrade
 
-![TARDIS Upgrade Menu](/images/docs/desktop_theme_gui.jpg))
+![TARDIS Upgrade Menu](/images/docs/desktop_theme_gui.jpg)
 
 ### How it works
 
@@ -46,7 +46,7 @@ To open the desktop theme GUI using a command type one of the following:
    safe location).
 7. Watch in amazement as the TARDIS changes before your eyes.
 
-![TARDIS Wall Menu](/images/docs/wall_menu.jpg))
+![TARDIS Wall Menu](/images/docs/wall_menu.jpg)
 
 ### Archiving, repairing and cleaning
 

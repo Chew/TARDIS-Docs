@@ -157,7 +157,7 @@ The command uses the free Lingva translation API to translate your message — s
 	YORUBA
 	ZULU
 
-![TARDIS Universal Translator](/images/docs/universaltranslator.jpg))
+![TARDIS Universal Translator](/images/docs/universaltranslator.jpg)
 
 
 ## Auto-translating player messages

@@ -13,14 +13,14 @@ permission can place them.
 
 To view the recipe use the `/tardisrecipe atron-furnace` command.
 
-![Artron Furnace recipe](/images/docs/artronfurnace.jpg))
+![Artron Furnace recipe](/images/docs/artronfurnace.jpg)
 
 There is a custom texture and a custom sound for the Artron Furnace if you have
 the [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack) or
 [TARDISSound](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack)
 resource packs installed in the client.
 
-![Artron Furnace textures](/images/docs/artron_furnace.jpg))
+![Artron Furnace textures](/images/docs/artron_furnace.jpg)
 
 ## Configuration
 

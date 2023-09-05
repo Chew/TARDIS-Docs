@@ -49,155 +49,155 @@ This list is in alphabetical order.
 
 #### Aquarium
 
-![Aquarium](/images/rooms/aquarium.jpg))
+![Aquarium](/images/rooms/aquarium.jpg)
 
 #### Arboretum
 
-![Arboretum](/images/rooms/arboretum.jpg))
+![Arboretum](/images/rooms/arboretum.jpg)
 
 #### Apiary
 
-![Apiary](/images/rooms/apiary.png))
+![Apiary](/images/rooms/apiary.png)
 
 #### Bamboo
 
-![Bamboo](/images/rooms/bamboo.png))
+![Bamboo](/images/rooms/bamboo.png)
 
 #### Bedroom
 
-![Bedroom](/images/rooms/bedroom.jpg))
+![Bedroom](/images/rooms/bedroom.jpg)
 
 #### Bird Cage
 
-![Bird Cage](/images/rooms/bird-cage.png))
+![Bird Cage](/images/rooms/bird-cage.png)
 
 #### Chemistry Lab
 
-![Chemistry Lab](/images/rooms/chemistry-lab.png))
+![Chemistry Lab](/images/rooms/chemistry-lab.png)
 
 #### Empty
 
-![empty](/images/rooms/empty.jpg))
+![empty](/images/rooms/empty.jpg)
 
 #### Exterior Rendering Room (Before render)
 
-![Exterior Rendering Room (default)](/images/rooms/rendering_room_default.jpg))
+![Exterior Rendering Room (default)](/images/rooms/rendering_room_default.jpg)
 
 #### Exterior Rendering Room (Example render)
 
-![Exterior Rendering Room (example render)](/images/rooms/rendering_room_example_render.jpg))
+![Exterior Rendering Room (example render)](/images/rooms/rendering_room_example_render.jpg)
 
 #### Eye of Harmony
 
-![Eye of Harmony](/images/rooms/eyeofharmony.jpg))
+![Eye of Harmony](/images/rooms/eyeofharmony.jpg)
 
 #### Farm
 
-![Farm](/images/rooms/farm.jpg))
+![Farm](/images/rooms/farm.jpg)
 
 #### Genetic Manipulator
 
-![Genetic Manipulator](/images/rooms/lazarus.jpg))
+![Genetic Manipulator](/images/rooms/lazarus.jpg)
 
 #### Gravity well
 
-![Gravity Well](/images/rooms/gravity.jpg))
+![Gravity Well](/images/rooms/gravity.jpg)
 
 #### Anti-Gravity well
 
-![Anti-Gravity Well](/images/rooms/antigravity.jpg))
+![Anti-Gravity Well](/images/rooms/antigravity.jpg)
 
 #### Greenhouse
 
-![Greenhouse](/images/rooms/greenhouse.jpg))
+![Greenhouse](/images/rooms/greenhouse.jpg)
 
 #### Horse Stable
 
-![Horse Stable](/images/rooms/horse.jpg))
+![Horse Stable](/images/rooms/horse.jpg)
 
 #### Igloo
 
-![Igloo](/images/rooms/igloo.jpg))
+![Igloo](/images/rooms/igloo.jpg)
 
 #### Kitchen
 
-![Kitchen](/images/rooms/kitchen.jpg))
+![Kitchen](/images/rooms/kitchen.jpg)
 
 #### Library
 
-![Library](/images/rooms/library.jpg))
+![Library](/images/rooms/library.jpg)
 
 #### Llama Stall
 
-![Llama Stall](/images/rooms/stall.jpg))
+![Llama Stall](/images/rooms/stall.jpg)
 
 #### Mangrove
 
-![Mangrove](/images/rooms/mangrove.jpg))
+![Mangrove](/images/rooms/mangrove.jpg)
 
 #### Mob Farm
 
-![Mob Farm](/images/rooms/mob-farm.png))
+![Mob Farm](/images/rooms/mob-farm.png)
 
 #### Mushroom
 
-![Shroom Room](/images/rooms/mushroom.jpg))
+![Shroom Room](/images/rooms/mushroom.jpg)
 
 #### Passage
 
-![Passage](/images/rooms/passage_new.jpg))
+![Passage](/images/rooms/passage_new.jpg)
 
 #### Pool
 
-![Pool](/images/rooms/pool.jpg))
+![Pool](/images/rooms/pool.jpg)
 
 #### Rabbit Hutch
 
-![Rabbit Hutch](/images/rooms/hutch.jpg))
+![Rabbit Hutch](/images/rooms/hutch.jpg)
 
 #### Rail Transport Room
 
-![Rail Transport Room](/images/rooms/rail.jpg))
+![Rail Transport Room](/images/rooms/rail.jpg)
 
 #### Secondary console (Baker)
 
-![Secondary console (Baker)](/images/rooms/baker.jpg))
+![Secondary console (Baker)](/images/rooms/baker.jpg)
 
 #### Secondary console (Wood)
 
-![Secondary console (Wood)](/images/rooms/wood.jpg))
+![Secondary console (Wood)](/images/rooms/wood.jpg)
 
 #### Shell
 
-![Shell](/images/rooms/shell.jpg))
+![Shell](/images/rooms/shell.jpg)
 
 #### Smelter
 
-![Smelter](/images/rooms/smelter.png))
+![Smelter](/images/rooms/smelter.png)
 
 #### Surgery
 
-![Surgery](/images/rooms/surgery.jpg))
+![Surgery](/images/rooms/surgery.jpg)
 
 #### Trenzalore
 
-![Trenzalore](/images/rooms/trenzalore.jpg))
+![Trenzalore](/images/rooms/trenzalore.jpg)
 
 #### Vault
 
-![Vault](/images/rooms/vault.jpg))
+![Vault](/images/rooms/vault.jpg)
 
 #### Village
 
-![Village](/images/rooms/village.jpg))
+![Village](/images/rooms/village.jpg)
 
 #### Workshop
 
-![Workshop](/images/rooms/workshop.jpg))
+![Workshop](/images/rooms/workshop.jpg)
 
 #### Zero Room
 
-![Zero Room](/images/rooms/zero.jpg))
+![Zero Room](/images/rooms/zero.jpg)
 
 ## Deprecated Rooms
 
@@ -205,18 +205,18 @@ This list is in alphabetical order.
 
 Deprecated in TARDIS version 2.6-beta-1
 
-![Cross roads](/images/rooms/old/crossroads.jpg))
+![Cross roads](/images/rooms/old/crossroads.jpg)
 
 #### Passage (old)
 
 Deprecated in TARDIS version 2.6-beta-1
 
-![Passage (old)](/images/rooms/old/passage.jpg))
+![Passage (old)](/images/rooms/old/passage.jpg)
 
 #### Passage (long)
 
 Deprecated in TARDIS version 2.6-beta-1
 
-![Passage (long)](/images/rooms/old/long.jpg))
+![Passage (long)](/images/rooms/old/long.jpg)
 
 [Back](javascript:history.back();)

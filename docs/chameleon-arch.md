@@ -13,7 +13,7 @@ craft a fob watch to change yourself from a Time Lord to a regular player (a Ste
   installed.
 - Players must have the `tardis.chameleonarch` permission.
 
-![Fob watch](/images/docs/fob_watch.jpg))
+![Fob watch](/images/docs/fob_watch.jpg)
 
 To view the fob watch recipe type:
 

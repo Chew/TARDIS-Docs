@@ -72,7 +72,7 @@ Adding new shop blocks is pretty simple:
 3. Follow the onscreen instructions and click the block &mdash; a display item will appear with display text labels for
    its name and cost
 
-![TARDIS Shop block](/images/docs/tardis_shop_block.jpg))
+![TARDIS Shop block](/images/docs/tardis_shop_block.jpg)
 
 ### Removing shop blocks
 

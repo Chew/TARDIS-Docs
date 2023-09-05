@@ -33,7 +33,7 @@ To use the ARS, open the TARDIS Control Menu GUI or add an ARS GUI sign. To manu
 When you RIGHT-click the ARS sign the GUI opens. Hovering over the blocks will
 display lore that tells you the block’s function. Below is a breakdown of the GUI:
 
-![ARS GUI](/images/docs/arsgui.jpg))
+![ARS GUI](/images/docs/arsgui.jpg)
 
 1. The black wool blocks are the scrollable map area — this represents one layer
    of the 3-dimensional grid.

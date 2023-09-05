@@ -11,7 +11,7 @@ You can craft an upgradable Sonic Screwdriver!
 
 Type the command `/tardisrecipe sonic` in game to view the crafting recipe.
 
-![sonic in hand](/images/docs/sonicinhand.jpg))
+![sonic in hand](/images/docs/sonicinhand.jpg)
 
 ## The standard Sonic
 
@@ -48,7 +48,7 @@ Right-clicking AIR while sneaking with any sonic screwdriver opens the Player Pr
 where you can click preference items to toggle them on and off. The preferences
 menu also has a map button to open the [TARDIS Map](map) and the [Sonic Configurator](sonic-configurator.hml).
 
-![Player Prefs Menu](/images/docs/player_prefs_custom.jpg))
+![Player Prefs Menu](/images/docs/player_prefs_custom.jpg)
 
 If a player also has the `tardis.admin` permission, they can swith to the Admin
 Menu GUI.
@@ -151,7 +151,7 @@ To change the screwdriver texture:
 - To change the colour of the sonic’s display name, click the wool block to choose a colour
 - Remove your screwdriver and close the GUI
 
-![Sonic Prefs Menu](/images/docs/sonic_prefs_menu.jpg))
+![Sonic Prefs Menu](/images/docs/sonic_prefs_menu.jpg)
 
 ## Default screwdriver
 Server admins can set the default screwdriver type —

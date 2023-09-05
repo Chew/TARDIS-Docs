@@ -12,25 +12,25 @@ Since version 3.4-beta-1, the TARDIS plugin includes a GUI where players can con
 The GUI is accessed from the third page of the Chameleon Preset GUI, which in turn is accessed by clicking the Chameleon
 Circuit sign on the TARDIS console.
 
-![construction access](/images/chameleon/open_construction.jpg))
+![construction access](/images/chameleon/open_construction.jpg)
 
 When opening the GUI for the first time, you are presented with the construction screen — however if you need help or
 information regarding the construction process, 2 other screens are available.
 
-![construction screen](/images/chameleon/construct_gui.jpg))
+![construction screen](/images/chameleon/construct_gui.jpg)
 
 Click the ‘Help’ button to open the help screen.
 
-![construction help](/images/chameleon/construct_help.jpg))
+![construction help](/images/chameleon/construct_help.jpg)
 
 Click the ‘View’ button to open the template example screen.
 
-![construction template](/images/chameleon/construct_template.jpg))
+![construction template](/images/chameleon/construct_template.jpg)
 
 Blocks can be placed into the GUI to design the preset — these same blocks are consumed when applying the customised
 design to the TARDIS exterior.
 
-![custom design](/images/chameleon/construct_custom.jpg))
+![custom design](/images/chameleon/construct_custom.jpg)
 
 Click the ‘Build’ button to accept the design and rebuild the TARDIS.
 

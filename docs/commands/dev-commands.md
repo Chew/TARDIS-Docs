@@ -24,7 +24,7 @@ Commands used by eccentric_nz to help with coding and documenting the TARDIS plu
 | `chunky`                | Pre-generates chunks using the [Chunky plugin](https://www.spigotmc.org/resources/chunky.81534/)                                                                                                         | `/tdev chunky [world]`                                              |
 | `displayitem`           | Various commands to test Item Display custom blocks and lights - sub-commands are: `add`, `remove`, `place`, `break`, `convert`, `chunk`                                                                 | `/tdev displayitem place [display block]` see separate table below. |
 
-![Custom tree](/images/docs/tree.jpg))
+![Custom tree](/images/docs/tree.jpg)
 
 #### `/tdev displayitem`
 

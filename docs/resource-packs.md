@@ -15,7 +15,7 @@ or here:
 
 [http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
 
-![Textures](/images/docs/control_centre.jpg))
+![Textures](/images/docs/control_centre.jpg)
 
 ## Sounds only
 
@@ -38,7 +38,7 @@ or here:
 
 [http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/)
 
-![TWA](/images/docs/cyberman2.jpg))
+![TWA](/images/docs/cyberman2.jpg)
 
 ### Keeping the resource packs up-to-date
 

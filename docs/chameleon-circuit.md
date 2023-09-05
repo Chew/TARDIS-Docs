@@ -9,13 +9,13 @@ To make your TARDIS Police Box blend in with its surroundings you can use the Ch
 The Chameleon Circuit will be created automatically when you make a new TARDIS, and can be accessed from the
 [TARDIS Control Menu](control-menu) sign.
 
-![TARDIS Control Menu](/images/chameleon/control_menu.jpg))
+![TARDIS Control Menu](/images/chameleon/control_menu.jpg)
 
 ## Using the circuit
 
 To use the Chameleon Circuit, right-click on the Control Menu sign, then click the Chameleon Circuit button.
 
-![TARDIS Control Menu](/images/chameleon/new_circuit.jpg))
+![TARDIS Control Menu](/images/chameleon/new_circuit.jpg)
 
 The Chameleon GUI opens, giving you a range of options. Hover over each button to see what it does. The button functions
 are explained below:
@@ -43,4 +43,4 @@ pressing the **Lock** button in the Chameleon GUI. The button will only appear i
 Clicking the button will switch the settings to _Shorted out_ and apply the biome preset on a more permanent basis (it
 won't change when you go to a different biome).
 
-![Chameleon lock](/images/docs/chameleon_lock.jpg))
+![Chameleon lock](/images/docs/chameleon_lock.jpg)

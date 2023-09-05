@@ -24,7 +24,7 @@ set to Spanish (code: **es** ), then a file called `es.yml` needs to placed in t
 Vistaero (a helpful TARDIS plugin user) has written a useful tool for editing language files, you can get it
 here: [TARDIS Language File Translator](../static/images/docs/tlTranslator.zip).
 
-![TARDIS Language File Translator](/images/docs/tltranslator.png))
+![TARDIS Language File Translator](/images/docs/tltranslator.png)
 
 ### Set the language
 

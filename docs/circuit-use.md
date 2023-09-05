@@ -9,7 +9,7 @@ If configured (`difficulty: hard` and `damage: true`), circuits can become damag
 malfunctions
 there is a 50% chance that a circuit will become damaged even more than usual.
 
-![circuit uses](/images/docs/circuit_uses.jpg))
+![circuit uses](/images/docs/circuit_uses.jpg)
 
 ### Use
 
@@ -33,9 +33,9 @@ Circuits can be repaired by combining them with redstone in an anvil.
 
 You need to click the output slot to make the repair. One redstone gives one level of use.
 
-![circuit repair](/images/docs/circuit_repair.jpg))
+![circuit repair](/images/docs/circuit_repair.jpg)
 
-![circuit repaired](/images/docs/circuit_repaired.jpg))
+![circuit repaired](/images/docs/circuit_repaired.jpg)
 
 ### Configuration options
 

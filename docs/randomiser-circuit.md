@@ -17,7 +17,7 @@ until the TARDIS has landed.
 
 DIRT, NETHERRACK, COMPASS, ENDER\_STONE, WATER\_BUCKET in shape shown below.
 
-![Randomiser circuit recipe](/images/docs/randomisercircuit.jpg))
+![Randomiser circuit recipe](/images/docs/randomisercircuit.jpg)
 
 ### Configuration
 

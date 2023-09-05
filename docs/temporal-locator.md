@@ -17,7 +17,7 @@ to open the inventory based GUI. You will see a screen like the one below.
 - Player time can be reset at any time by right-clicking air with a clock
 - Players need `tardis.temporal` permission to use it
 
-![Temporal Locator](/images/docs/temporal1.png))
+![Temporal Locator](/images/docs/temporal1.png)
 
 ### Huh, what?
 
@@ -29,5 +29,5 @@ This doesn’t change the server time, that runs as normal, this just sets the p
 - `thenosefairy` is standing next to `eccentric_nz` and is NOT temporally located
 - `thenosefairy` will see the world in the same time as the server i.e. morning
 
-![Temporal Locator](/images/docs/temporal2.png))
+![Temporal Locator](/images/docs/temporal2.png)
 

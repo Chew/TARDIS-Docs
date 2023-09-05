@@ -81,4 +81,4 @@ You can change the blocks that room walls and floors are grown with in two ways:
 - Set the floor block using the `/tardisprefs floor [material]` command. A list of valid materials can be found on the
   [Wall materials](walls) page
 
-![Sandstone walls](/images/docs/sandstonewalls.jpg))
+![Sandstone walls](/images/docs/sandstonewalls.jpg)

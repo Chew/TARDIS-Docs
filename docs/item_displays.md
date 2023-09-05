@@ -5,19 +5,19 @@ title: TARDIS Item Display custom blocks
 
 # TARDIS Item Display custom blocks
 
-![Custom block and lights](/images/docs/custom_blocks_lights.jpg))
+![Custom block and lights](/images/docs/custom_blocks_lights.jpg)
 
 From TARDIS v5.0.0 the plugin now uses Minecraft's Item Display entities to fake custom TARDIS blocks and lights 
 (instead of unused mushroom blocks). The benefit of this is that if the TARDIS Resource Pack is not installed, the 
 custom block's appearance will default to a regular Minecraft block instead of a random mushroom block.
 
-![Custom block resource pack comparison](/images/docs/resource_pack_comparison.jpg))
+![Custom block resource pack comparison](/images/docs/resource_pack_comparison.jpg)
 
 ## Obtaining
 
 You can craft most of the custom blocks in SURVIVAL gamemode - use the `/tardisrecipe` command to view the recipes in-game.
 
-![Custom block recipes](/images/docs/custom_block_recipes.gif))
+![Custom block recipes](/images/docs/custom_block_recipes.gif)
 
 ## Placing / breaking
 
@@ -46,7 +46,7 @@ To break a custom TARDIS block:
   visually change to a gravel block before breaking and dropping the relevant item. 
 - In CREATIVE, the block will just break and not drop an item.
 
-![Custom block break](/images/docs/custom_break.jpg))
+![Custom block break](/images/docs/custom_break.jpg)
 
 ### Lights
 

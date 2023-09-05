@@ -18,7 +18,7 @@ To see the recipe type:
 In plugins version \< v3.2.8, the recipe will show a GOLD\_NUGGET — *
 *_you will actually have to use a crafted TARDIS Key._**
 
-![Remote Key recipe](/images/docs/tardis_remote_key_recipe.jpg))
+![Remote Key recipe](/images/docs/tardis_remote_key_recipe.jpg)
 
 **NOTE:** If you have changed the item that crafting the TARDIS Key gives (i.e. it is NOT a GOLD\_NUGGET), then make
 sure you also update the TARDIS Remote Key recipe so that the GOLD\_NUGGET/TARDIS Key **ingredient is also changed**.

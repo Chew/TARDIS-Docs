@@ -7,7 +7,7 @@ title: TARDIS Keyboard
 
 You can add a TARDIS keyboard to set destinations.
 
-![Keyboard sign](/images/docs/keyboard.jpg))
+![Keyboard sign](/images/docs/keyboard.jpg)
 
 To use it:
 

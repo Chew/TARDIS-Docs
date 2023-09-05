@@ -28,4 +28,4 @@ locations. It adds a Whovian twist to the typical /sethome and /home commands.
 
 [Join our Community-Led Discord Server!](https://discord.gg/sfuPVHh)
 
-![TARDIS](/images/docs/artronrecharging.jpg))
+![TARDIS](/images/docs/artronrecharging.jpg)

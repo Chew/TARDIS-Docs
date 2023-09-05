@@ -23,7 +23,7 @@ The repeater closest to the door controls the environment type of the world you 
 
 **Note:** Going to other types of world may require more Artron Energy.
 
-![TARDIS console](/images/docs/console.jpg))
+![TARDIS console](/images/docs/console.jpg)
 
 With your back to the door, the left and right repeaters control the Z and X coordinates respectively. The longer the
 delay/larger the gap on the repeaters = a greater distance.

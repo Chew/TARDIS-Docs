@@ -12,31 +12,31 @@ There are 7 time rotor types.
 
 Early era
 
-![Early era time rotor](/images/docs/early_time_rotor.gif))
+![Early era time rotor](/images/docs/early_time_rotor.gif)
 
 Ninth / tenth era
 
-![Time rotor](/images/docs/time_rotor.gif))
+![Time rotor](/images/docs/time_rotor.gif)
 
 Eleventh era
 
-![Eleventh era time rotor](/images/docs/copper_time_rotor.gif))
+![Eleventh era time rotor](/images/docs/copper_time_rotor.gif)
 
 Twelfth era (not animated)
 
-![Twelfth era time rotor](/images/docs/round_time_rotor.jpg))
+![Twelfth era time rotor](/images/docs/round_time_rotor.jpg)
 
 Delta
 
-![Delta time rotor](/images/docs/delta_time_rotor.gif))
+![Delta time rotor](/images/docs/delta_time_rotor.gif)
 
 Engine
 
-![Engine time rotor](/images/docs/engine_time_rotor.gif))
+![Engine time rotor](/images/docs/engine_time_rotor.gif)
 
 Hospital
 
-![Hospital time rotor](/images/docs/hospital_time_rotor.gif))
+![Hospital time rotor](/images/docs/hospital_time_rotor.gif)
 
 ### Adding a Time Rotor
 
@@ -61,7 +61,7 @@ rotor you need to unlock it.
 
 The crafting recipes for the six time rotors are:
 
-![Time Rotor Recipes](/images/docs/time_rotor_recipes.gif))
+![Time Rotor Recipes](/images/docs/time_rotor_recipes.gif)
 
 ```
 DYE       | REDSTONE | DYE
@@ -89,7 +89,7 @@ to see the recipes in game.
 
 There is also a Rotor Engine (as seen in the Mechanical console) - `/tardisrecipe time-engine`.
 
-![Time engine](/images/docs/time_engine.jpg))
+![Time engine](/images/docs/time_engine.jpg)
 
 ```
 LIGHT_BLUE_DYE | REDSTONE | LIGHT_BLUE_DYE
@@ -97,6 +97,6 @@ GLASSPANE      | ANVIL    | GLASSPANE
 GLASSPANE      | REDSTONE | GLASSPANE
 ```
 
-![Time engine recipe](/images/docs/time_engine_recipe.png))
+![Time engine recipe](/images/docs/time_engine_recipe.png)
 
 

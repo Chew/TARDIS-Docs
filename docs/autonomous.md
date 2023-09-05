@@ -29,7 +29,7 @@ The following applies to the use of the autonomous homing function:
 Since version 4.10.1 there is another player preference you can use - autonomous
 type. You can access the settings via the player preferences GUI.
 
-![Autonomous preferences button](/images/docs/auton_prefs_button.png))
+![Autonomous preferences button](/images/docs/auton_prefs_button.png)
 
 The GUI lets you choose the location you want the TARDIS to automatically return
 to when you die.
@@ -49,4 +49,4 @@ You can also choose what the TARDIS should do if a parking spot cannot be found
 - `HOME` - Go to the TARDIS's home location.
 - `STAY` - Stay at the current location, don't go anywhere.
 
-![Autonomous preferences GUI](/images/docs/auton_prefs_gui.png))
+![Autonomous preferences GUI](/images/docs/auton_prefs_gui.png)

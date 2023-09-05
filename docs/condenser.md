@@ -20,7 +20,7 @@ converted, and you will receive a message stating how much energy was generated.
 
 A list of condensable items and their relative values can be found on the [Condensables](condensables) page.
 
-![Energy condenser](/images/docs/condenser.jpg))
+![Energy condenser](/images/docs/condenser.jpg)
 
 ### Server condenser
 

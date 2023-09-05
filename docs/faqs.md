@@ -175,7 +175,7 @@ so that players with [Optifine](https://optifine.net/home) modded clients and th
 TARDIS — the
 result is that it sometimes rains on the Police Box.
 
-![Another lonely TARDIS](/images/docs/another_lonely_tardis.jpg))
+![Another lonely TARDIS](/images/docs/another_lonely_tardis.jpg)
 
 ## Why does my TARDIS door open when I crouch-click it (and get out of sync with the other door)? {#sync}
 
@@ -193,7 +193,7 @@ If you move the interior TARDIS door, remember to remove the LWC protection afte
 An unreleased (and unfinished — still most of the mobs to do) pack called Bromley Massive Vector, also by eccentric\_nz.
 Maybe, one day he will finish it. It’s [128X], and is compatible with Minecraft 1.19+.
 
-![Bromley Massive Vector Texture Pack](/images/docs/bmv.jpg))
+![Bromley Massive Vector Texture Pack](/images/docs/bmv.jpg)
 
 If you _\*\*really\*\*_ need it, the pack is available
 here: [https://github.com/eccentricdevotion/Bromley-Massive-Vector](https://github.com/eccentricdevotion/Bromley-Massive-Vector) —

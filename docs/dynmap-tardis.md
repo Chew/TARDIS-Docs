@@ -47,5 +47,5 @@ here: [http://dev.bukkit.org/bukkit-plugins/dynmap-tardis/](http://dev.bukkit.or
 5. Stop and start the server.
 6. Render the map.
 
-![Dynmap-TARDIS](/images/docs/dynmap-tardis.jpg))
+![Dynmap-TARDIS](/images/docs/dynmap-tardis.jpg)
 

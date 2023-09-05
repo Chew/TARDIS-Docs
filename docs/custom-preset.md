@@ -16,7 +16,7 @@ Custom presets need to be a certain size and shape:
 - Maximum 3 blocks deep
 - A single 4 block column at the front
 
-![maximum preset area](/images/docs/preset-max-shape.jpg))
+![maximum preset area](/images/docs/preset-max-shape.jpg)
 
 You can build the custom preset with almost any block (directional blocks can sometimes be an issue), it can contain
 empty spaces (AIR), and there should be a door in it somewhere (iron, wood and trap doors will all work). **IMPORTANT:**

@@ -10,7 +10,7 @@ title: The Junk TARDIS
 The Junk TARDIS is a public use TARDIS that any player with the correct permission can use on the server. It only
 travels in overworlds (no Nether or The End) and doesn’t require the player to have an Artron Energy supply.
 
-![Junk TARDIS](/images/docs/junk.jpg))
+![Junk TARDIS](/images/docs/junk.jpg)
 
 ### Prerequisite for enabling the Junk TARDIS
 

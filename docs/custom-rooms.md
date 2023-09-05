@@ -30,7 +30,7 @@ To add the room, run the following commands:
 (if your floors don’t line up then you got this wrong) See image below. Most of the time (allowing for the default
 redstone door circuits) this will be `-4`.
 
-![Offset example](/images/docs/offset.jpg))
+![Offset example](/images/docs/offset.jpg)
 
 `[seed material]` is
 the [Bukkit Material enum](https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Material.java)

@@ -11,7 +11,7 @@ You can set up a sign, that when clicked, shows a clickable URL to the official 
 - Click the sign to display the URL message.
 - Click the link to open the URL in your web browser.
 
-![Wiki sign](/images/docs/wiki_sign.jpg))
+![Wiki sign](/images/docs/wiki_sign.jpg)
 
 Inside your TARDIS, you can also use the TARDIS keyboard:
 

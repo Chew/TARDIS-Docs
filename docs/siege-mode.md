@@ -108,7 +108,7 @@ Server admins can restore a TARDIS in siege mode back to its normal state with t
 
 The player must be online when running the command, and the TARDIS will be restored back to its ‘home’ location.
 
-![Siege Cube](/images/docs/siegecube.jpg))
+![Siege Cube](/images/docs/siegecube.jpg)
 
 **Note:** the TARDIS Siege Cube block is a CYAN_CONCRETE block (or BROWN_MUSHROOM_BLOCK for older
 plugin versions) with the texture on all sides. As such it is recommended that players use the

@@ -42,9 +42,9 @@ top row first): stone button, another stone button, glass; clock, gold, compass;
 Custom graphics for the crafted item and GUI are available as part of
 the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/).
 
-![Crafting](/images/docs/vortex_manipulator.jpg))
+![Crafting](/images/docs/vortex_manipulator.jpg)
 
-![Item](/images/docs/manipulator.png))
+![Item](/images/docs/manipulator.png)
 
 ## Multi-world support
 

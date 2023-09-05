@@ -18,6 +18,6 @@ To enable/disable the viewing of interiors:
 There is one other config option - `policebox.view_interior_uses_console_size: [true|false]`, if `true` this sets the
 view distance to the size of the TARDIS interior rather than the default 16 blocks.
 
-![View Interior](/images/docs/view_interior.jpg))
+![View Interior](/images/docs/view_interior.jpg)
 
 When you open your exterior TARDIS door, you will see the interior features of your TARDIS.

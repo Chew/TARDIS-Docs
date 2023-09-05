@@ -40,7 +40,7 @@ Sonic Screwdriver, sneaking and right-clicking air will open the Player Preferen
 
 > **Note** Preferences marked with `@Deprecated` may not be available in later versions of the plugin.
 
-![Player prefs GUI](/images/docs/player_prefs_custom.jpg))
+![Player prefs GUI](/images/docs/player_prefs_custom.jpg)
 
 ## Player preference commands
 
@@ -67,7 +67,7 @@ To change the TARDIS key texture:
 - To change the colour of the key’s display name, click the wool block to choose a colour
 - Remove your key and close the GUI
 
-![TARDIS Key GUI](/images/docs/key_prefs_menu.jpg))
+![TARDIS Key GUI](/images/docs/key_prefs_menu.jpg)
 
 To change the look of your Sonic Screwdriver, type:
 
@@ -83,7 +83,7 @@ To change the screwdriver texture:
 - To change the colour of the sonic’s display name, click the wool block to choose a colour
 - Remove your screwdriver and close the GUI
 
-![Sonic Screwdriver GUI](/images/docs/sonic_prefs_menu.jpg))
+![Sonic Screwdriver GUI](/images/docs/sonic_prefs_menu.jpg)
 
 To toggle the TARDIS sound effects on or off, type:
 

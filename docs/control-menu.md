@@ -12,7 +12,7 @@ them all together in one place.
 
 The TARDIS Control Menu sign displays information about the TARDIS’s location and Artron Energy levels.
 
-![TARDIS Control Menu sign](/images/docs/control_menu_sign.jpg))
+![TARDIS Control Menu sign](/images/docs/control_menu_sign.jpg)
 
 If you have an existing TARDIS without the Control Menu, you can add it by placing a sign where you want the Control
 Menu to be, and running the command:
@@ -25,7 +25,7 @@ Click on the sign and its position will be added to the TARDIS database.
 
 To use the TARDIS Control Menu, right-click on the Control Menu sign.
 
-![TARDIS Control Menu](/images/docs/control_menu.jpg))
+![TARDIS Control Menu](/images/docs/control_menu.jpg)
 
 The Control Menu opens, giving you a range of buttons grouped by type / colour. Hover over each button to see what it
 does. The button functions are explained below:

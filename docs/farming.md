@@ -47,11 +47,11 @@ Enter the TARDIS as usual, and the following will happen:
 
 Non-op players require the permission: `tardis.farm`
 
-![Sheep in TARDIS](/images/docs/sheeptardis1.jpg))
+![Sheep in TARDIS](/images/docs/sheeptardis1.jpg)
 
-![Chicken pen](/images/docs/chickenpen.jpg))
+![Chicken pen](/images/docs/chickenpen.jpg)
 
-![Horses in TARDIS](/images/docs/horsesinstable.jpg))
+![Horses in TARDIS](/images/docs/horsesinstable.jpg)
 
 ## Ejecting farmed mobs and villagers
 

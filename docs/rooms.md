@@ -34,9 +34,9 @@ console have automatic piston doors. **If your TARDIS doesn’t have these:**
 To create a room, you place the required material (the seed) in front of the stone pressure plate that triggers the
 opeining of the piston door — refer to the diagram below (seed blocks are marked in red):
 
-![sedd block positions](/images/docs/seedblockpositions.png))
+![sedd block positions](/images/docs/seedblockpositions.png)
 
-![sedd block positions](/images/docs/seedblocks.jpg))
+![sedd block positions](/images/docs/seedblocks.jpg)
 
 Use the command:
 
@@ -110,7 +110,7 @@ Where `[material]` is a block from the wall help list, e.g:
 
 The next room you grow (if it normally contains ORANGE wool) will have the blocks replaced with your preference.
 
-![Mushroom passage](/images/docs/mushroompassage.jpg))
+![Mushroom passage](/images/docs/mushroompassage.jpg)
 
 ### Changing the floor block
 
@@ -130,7 +130,7 @@ Simply place TNT in the same seed location as when you grew the room and use the
 
 Then follow the onscreen instructions.
 
-![Jettison rooms](/images/docs/jettison.jpg))
+![Jettison rooms](/images/docs/jettison.jpg)
 
 ## Gravity wells
 

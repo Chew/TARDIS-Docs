@@ -11,7 +11,7 @@ invisibly.
 The TARDIS Police Box will be made up of invisible blocks that cannot be walked through. The walk in / out portal will
 function as normal so that the Time Lord and their companions can still enter and exit the TARDIS while it is invisible.
 
-![Invisiblity preset](/images/docs/invisible_preset.jpg))
+![Invisiblity preset](/images/docs/invisible_preset.jpg)
 
 If `circuits.damage` is set to true in the TARDIS config, then the Invisibilty circuit is damaged with each use.  
 **Warning:** Clicking the Invisibility button in the Chameleon presets GUI will damage the circuit, whether you use
@@ -21,7 +21,7 @@ invisibility or not!
 
 Diamond, Perception Filter, Emerald, and Invisibility Potion in shape shown below.
 
-![Invisibility circuit recipe](/images/docs/invisibility_crafting.jpg))
+![Invisibility circuit recipe](/images/docs/invisibility_crafting.jpg)
 
 ### Configuration
 

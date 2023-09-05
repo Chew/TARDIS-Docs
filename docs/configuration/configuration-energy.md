@@ -7,7 +7,7 @@ title: Artron Energy configuration option
 
 These are the Artron Energy configuration options. These config options are found in the file: `artron.yml`
 
-For Artron Energy room growing costs see the [Room configuration](configuration-rooms) page.
+For Artron Energy room growing costs see the [Room configuration](configuration-rooms.md) page.
 
 ## Full charge
 

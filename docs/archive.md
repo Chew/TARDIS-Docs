@@ -43,12 +43,12 @@ GUI.
 
 The GUI is accessed by clicking the Archive Consoles button in the Desktop Theme GUI.
 
-![Archive button](/images/docs/archive_button.jpg))
+![Archive button](/images/docs/archive_button.jpg)
 
 The TARDIS Archive GUI opens, and shows any consoles that have already been saved along with three buttons. The button
 functions are explained below:
 
-![TARDIS Archive GUI](/images/docs/archive_gui.jpg))
+![TARDIS Archive GUI](/images/docs/archive_gui.jpg)
 
 | Button     | Icon                                                                                                                                        | Action                                                                                                                                                          |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|

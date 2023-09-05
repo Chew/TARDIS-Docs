@@ -20,5 +20,5 @@ The map controls work in a similar way to the ARS GUI.
 - You can find your current location in the grid by clicking the _“Where am I?”_ compass button
 - The pink wool button closes the map
 
-![TARDIS Map](/images/docs/tardis_map.jpg))
+![TARDIS Map](/images/docs/tardis_map.jpg)
 

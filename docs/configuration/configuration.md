@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Configuration
+path: /configuration
 ---
 
 # Configuration
 
-The configuration files (config.yml, artron.yml, rooms.yml, recipes.yml) are generated automatically, you can find them
-in _plugins/TARDIS/_
+The configuration files (`config.yml`, `artron.yml`, `rooms.yml`, `recipes.yml`) are generated automatically, you can find them
+in `plugins/TARDIS/`.
 
 All configuration options can be set via in game commands or in the console, see
 the [Admin Config Commands](config-commands) page.
@@ -15,14 +16,14 @@ Choose a configuration page from below:
 
 1. [Modules](modules)
 2. [Storage](configuration-storage)
-3. [TARDIS creation](configuration-creation)
+3. [TARDIS creation](configuration-creation.md)
 4. [Police Box and presets](configuration-preset)
-5. [TARDIS travel](configuration-travel)
+5. [TARDIS travel](configuration-travel.md)
 6. [TARDIS preferences](configuration-prefs)
-7. [TARDIS restrictions](configuration-allow)
-8. [Room growth](configuration-growth)
-9. [Rooms](configuration-rooms)
-10. [Energy](configuration-energy)
+7. [TARDIS restrictions](configuration-allow.md)
+8. [Room growth](configuration-growth.md)
+9. [Rooms](configuration-rooms.md)
+10. [Energy](configuration-energy.md)
 11. [Planets](configuration-planets)
 12. [Chameleon Arch](chameleon-arch#config)
 13. [Circuits](circuit-use#config)
@@ -39,5 +40,5 @@ Choose a configuration page from below:
 24. [Flat World Generator](generators#configurable-flat-world)
 25. [Custom Consoles](custom-consoles)
 
-![Recharger](/images/docs/recharger.jpg))
+![Recharger](/images/docs/recharger.jpg)
 

@@ -22,7 +22,7 @@ A seed block requires five different components as explained below. You can mix 
 blocks (20,000+ different combinations with the default plugin configuration) to customise the appearance of your
 TARDIS.
 
-![Crafting a TARDIS seed block](/images/docs/craftdefaultseed-v3.7.jpg))
+![Crafting a TARDIS seed block](/images/docs/craftdefaultseed-v3.7.jpg)
 
 The crafting grid above shows how to craft the default ‘budget’ TARDIS that starts off with the FACTORY chameleon preset
 **(TARDIS v3.7 and higher)**:
@@ -48,8 +48,8 @@ here: [the old way of crafting](creating-a-tardis-old.md)
 You can make your TARDIS any type of valid TARDIS block you like, listed below.
 The TARDIS type is the block that replaces the "Iron Block" in the above crafting grid.
 
-| Name                               | Block Required         | Description                                             |
-|------------------------------------|------------------------|---------------------------------------------------------|
+| Name                                  | Block Required         | Description                                             |
+|---------------------------------------|------------------------|---------------------------------------------------------|
 | [ANCIENT](interiors.md#ancient)       | Sculk                  | Ancient city console                                    |
 | [ARS](interiors.md#ars)               | Quartz Block           | The "ARS” TARDIS                                        |
 | [BUDGET](interiors.md#budget)         | Iron Block             | The default “budget” TARDIS interior                    |

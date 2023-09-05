@@ -46,5 +46,5 @@ all.
 
 <iframe src="https://player.vimeo.com/video/169341113" width="600" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-![sonic generator](/images/docs/sonic-generator.jpg))
+![sonic generator](/images/docs/sonic-generator.jpg)
 
