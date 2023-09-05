@@ -20,7 +20,7 @@ The speed at which the change happens is linked to the `growth.room_speed` confi
 
 ### Opening the desktop theme GUI
 
-You can open the desktop theme GUI from the [TARDIS Control Menu](control-menu.html), with a command, or by **right-shift-clicking the ARS sign**.
+You can open the desktop theme GUI from the [TARDIS Control Menu](control-menu), with a command, or by **right-shift-clicking the ARS sign**.
 
 ![TARDIS Control Menu](/images/docs/control_menu_desktop.jpg))
 
@@ -54,7 +54,7 @@ THe TARDIS Upgrade GUI also contains three other buttons to aid keeping your con
 
 | Button     | Icon                                                                                                                            | Action                                                                                                                                                                                                                                                          |
 |------------|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Archive    | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/archive.png) | Use this to save a copy of a modified console - see the [Archiving consoles](archive.html) page for more details.                                                                                                                                               |
+| Archive    | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/archive.png) | Use this to save a copy of a modified console - see the [Archiving consoles](archive) page for more details.                                                                                                                                               |
 | Repair     | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/repair.png)  | Use this to repair a damaged console. It resets the console back to the original console schematic. Players must condense all missing blocks - unless the `/tardisadmin repair [player] [amount]` command has been run, assigning the player a 'free' repair(s) |
 | Clean      | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/clean.png)   | Use this to remove any blocks in the console that are not in the original schematic (missing blocks will not be restored) - good if someone has griefed your interior by filling it with cobwebs.                                                               |
 

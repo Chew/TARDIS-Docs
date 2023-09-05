@@ -50,7 +50,7 @@ TARDIS ARS Circuit opens the ARS inventory GUI.
 
 ### Crafting circuits
 
-Please refer to the [Recipe Commands](recipe-commands.html) page for how to view
+Please refer to the [Recipe Commands](recipe-commands) page for how to view
 the crafting recipes
 
 ## Storage Disks
@@ -88,8 +88,8 @@ Crafting storage disks is a three step process:
    command to write information to the disk (see below), for the others you craft
    them with a specific item.
 
-See [Crafting Biome and Preset Disks](crafting-disks.html), and
-[Writing Save and Player Disks](writing-disks.html) for more information.
+See [Crafting Biome and Preset Disks](crafting-disks), and
+[Writing Save and Player Disks](writing-disks) for more information.
 
 ## Storing Disks and Circuits
 

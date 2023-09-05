@@ -5,10 +5,10 @@ title: Modifying the interior
 
 # Modifying the TARDIS interior
 
-**Note:** see also: [TARDIS Desktop Theme](desktop-theme.html)
+**Note:** see also: [TARDIS Desktop Theme](desktop-theme)
 
 While you can’t modify the Police Box — as it gets recreated every time you travel to a new destination, it is possible
-to alter the interior of the TARDIS (aside from growing [rooms](rooms.html)). However there are some blocks that the
+to alter the interior of the TARDIS (aside from growing [rooms](rooms)). However there are some blocks that the
 plugin expects to be in a certain position. These are:
 
 - On the TARDIS console
@@ -33,7 +33,7 @@ You can move these to wherever you want, but you must run the command:
     /tardis update [the block to update]
 
 So that the TARDIS plugin will know of the new locations and your TARDIS will function correctly. Visit the
-[Commands](tardis-commands.html) page for more detailed info on the command.
+[Commands](tardis-commands) page for more detailed info on the command.
 
 Anything else can be destroyed and changed.
 
@@ -65,7 +65,7 @@ can use for each:
 v2.7-beta-1, the plugin only reserves and protects the initial chunks used to create the TARDIS in, which means that
 another player could potentially create a TARDIS that overlaps yours if you make it bigger.
 
-See also: [Binding destinations to blocks](bind-commands.html)
+See also: [Binding destinations to blocks](bind-commands)
 
 ## Changing room wall and floor blocks
 
@@ -77,8 +77,8 @@ You can change the blocks that room walls and floors are grown with in two ways:
 - Set the wall/floor block when crafting the TARDIS Seed Block — this sets the wall/floor block to the block you use in
   the seed
 - Set the wall block using the `/tardisprefs wall [material]` command. A list of valid materials can be found on the
-  [Wall materials](walls.html) page
+  [Wall materials](walls) page
 - Set the floor block using the `/tardisprefs floor [material]` command. A list of valid materials can be found on the
-  [Wall materials](walls.html) page
+  [Wall materials](walls) page
 
 ![Sandstone walls](/images/docs/sandstonewalls.jpg))

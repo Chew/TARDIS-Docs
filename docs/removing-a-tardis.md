@@ -11,7 +11,7 @@ link in chat. After clicking the link, your TARDIS will be permanently deleted.
 ![TARDIS exterminate confirmation message](/images/docs/exterminate_confirm.jpg))
 
 **WARNING:** You will lose any items you have stored in your TARDIS; all rooms, and any saved time travel destinations (
-unless stored within the [TARDIS Disk Storage Container](advanced-console.html#storage_info)) will be removed.
+unless stored within the [TARDIS Disk Storage Container](advanced-console#storage_info)) will be removed.
 
 ### Prior to version 4.7.0
 

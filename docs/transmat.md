@@ -60,7 +60,7 @@ You can update or remove a transmat location with the `tardis transmat` command:
 ### Binding transmats
 
 You can use the `/tardisbind add transmat [name]` command to bind a transmat to a physical object (such bas a button).
-See [Bind commands](bind-commands.html) for more detail.
+See [Bind commands](bind-commands) for more detail.
 
 
 ### Video

@@ -45,7 +45,7 @@ preset suited to the biome that the TARDIS lands in (for example the swamp hut p
 ## Chameleon presets
 
 The rest of the Chameleon GUI buttons are for Chameleon presets. You can see a what all the presets look like on
-the [Preset page](presets.html). Selecting one of the presets will change the appearance of the TARDIS exterior next
+the [Preset page](presets). Selecting one of the presets will change the appearance of the TARDIS exterior next
 time you time travel. To change the appearance immediately, use the Apply button.
 
 ![Page 1 presets](/images/chameleon/page1.jpg))
@@ -54,7 +54,7 @@ There are two pages of presets, use the arrow button in the bottom right-hand co
 
 ![Page 2 presets](/images/chameleon/page2.jpg))
 
-You can also create your own custom preset using the [Chameleon construction GUI](chameleon-construction.html).
+You can also create your own custom preset using the [Chameleon construction GUI](chameleon-construction).
 
 ## Shorting out the circuit
 

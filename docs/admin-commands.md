@@ -25,7 +25,7 @@ Remove the specified beacon recharger from the config.
 /tardisadmin decharge [name]
 ```
 
-Set the chest you are targeting in game, as the server's community Artron Condenser - see [Server condenser](condenser.html#server-condenser).
+Set the chest you are targeting in game, as the server's community Artron Condenser - see [Server condenser](condenser#server-condenser).
 
 ```
 /tardisadmin condenser
@@ -57,7 +57,7 @@ List TARDISes that haven’t been used for an extended period.
 ```
 
 Remove TARDISes that haven’t been used for an extended period. See the
-[Prune](prune.html) page for more details.
+[Prune](prune) page for more details.
 
 ```
 /tardisadmin prune [number of days]
@@ -95,13 +95,13 @@ Download the latest TARDIS plugin from the Jenkins server. Restart the server to
 /tardisadmin update_plugins
 ```
 
-Create a custom chameleon preset file - see [Custom presets](custom-preset.html).
+Create a custom chameleon preset file - see [Custom presets](custom-preset).
 
 ```
 /tardisadmin make_preset [name] [asymmetric:true|false]
 ```
 
-Spawn an abandoned TARDIS - see [Spawning abandoned TARDISes](abandon.html#spawning-abandoned-tardises).
+Spawn an abandoned TARDIS - see [Spawning abandoned TARDISes](abandon#spawning-abandoned-tardises).
 
 ```
 /tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
@@ -173,7 +173,7 @@ Set a player's console size/type in the database.
 
 ## Chameleon Arch commands
 
-_See also the [Chameleon Arch](chameleon-arch.html) page._
+_See also the [Chameleon Arch](chameleon-arch) page._
 View an ‘arched’ player’s real name.
 
 ```

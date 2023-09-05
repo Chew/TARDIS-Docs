@@ -9,7 +9,7 @@ title: TARDIS commands
 
 Can't find the sub command you’re looking for?
 
-Check out the [Big list of /tardis sub commands](tardis-commands-table.html) taken directly from _plugin.yml_.
+Check out the [Big list of /tardis sub commands](tardis-commands-table) taken directly from _plugin.yml_.
 
 * * *
 
@@ -204,7 +204,7 @@ If you run the command `/tardis update` without any further arguments, an intera
 displayed — just click the item in chat that you want to update, and avoid having to run the command multiple times (
 requires TARDIS v 3.1-beta-1 or higher).
 
-To see which kind of blocks are updateable for each control, visit the [Update blocks page](update-blocks.html)
+To see which kind of blocks are updateable for each control, visit the [Update blocks page](update-blocks)
 
 ### /tardis secondary
 
@@ -317,12 +317,12 @@ Display the TARDIS plugin, dependent plugins and Spigot / Paper versions in chat
 
 ### /tardis abandon
 
-Abandon your TARDIS. See the [Abandon a TARDIS](https://eccentricdevotion.github.io/TARDIS/abandon.html) page.
+Abandon your TARDIS. See the [Abandon a TARDIS](https://eccentricdevotion.github.io/TARDIS/abandon) page.
 
 ### /tardis archive
 
 Archive your TARDIS console. See
-the [Archiving TARDIS consoles](https://eccentricdevotion.github.io/TARDIS/archive.html) page.
+the [Archiving TARDIS consoles](https://eccentricdevotion.github.io/TARDIS/archive) page.
 
 ### /tardis construct
 
@@ -386,7 +386,7 @@ Adds, updates, removes and teleports to an internal TARDIS transmat location.
 
 Stand at the location where you want to add a transmat location, then run the command `/tardis transmat add [name]`.
 
-See [TARDIS Transmats](transmat.html) for more info.
+See [TARDIS Transmats](transmat) for more info.
 
 * * *
 
@@ -394,4 +394,4 @@ See [TARDIS Transmats](transmat.html) for more info.
 
 Can't find the sub command you’re looking for?
 
-Check out the [Big list of /tardis sub commands](tardis-commands-table.html) taken directly from _plugin.yml_.
+Check out the [Big list of /tardis sub commands](tardis-commands-table) taken directly from _plugin.yml_.

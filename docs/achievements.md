@@ -7,7 +7,7 @@ Achievements
 ============
 
 Players can gain rewards for TARDIS achievements. The achievement system is mostly automatic, and works in conjunction
-with TARDIS [books](books.html). Minecraft achievement popup included :)
+with TARDIS [books](books). Minecraft achievement popup included :)
 
 Players can get the following achievements.
 

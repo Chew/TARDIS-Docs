@@ -20,11 +20,11 @@ than `full_charge`.
 
     /tardisgive [player] kit [kit]
 
-This will give the a player the specified TARDIS item kit. Kits can be configured in [kits.yml](kits.html)
+This will give the a player the specified TARDIS item kit. Kits can be configured in [kits.yml](kits)
 
     /tardisgive [player] [item] [amount]
 
-`item` is any valid TARDIS item available in [recipes.yml](recipes.html).
+`item` is any valid TARDIS item available in [recipes.yml](recipes).
 
 `amount` determines how many of the item to give the player.
 
@@ -32,7 +32,7 @@ This will give the a player the specified TARDIS item kit. Kits can be configure
 
 This will give the a player a TARDIS seed block.
 
-`tardis type` You can find a list here: [List of interiors](list-of-interiors.html)
+`tardis type` You can find a list here: [List of interiors](list-of-interiors)
 
 `wall block` and `floor block` can be any valid
 Bukkit [material](https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Material.java)

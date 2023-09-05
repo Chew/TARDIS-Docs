@@ -11,48 +11,48 @@ You can view descriptions, usage and permissions for all commands in-game using 
 Type `/tardis help` to list all the commands, then use `/tardis? [command]` to view all the relevant subcommands.
 Use `/tardis? [command] [subcommand]` when necessary to view the command information.
 
-You can also see a big list of `/tardis` commands here: [Big list of TARDIS sub commands](tardis-commands-table.html)
-and a big list of all the other commands here: [Big list of other commands](other-commands.html).
+You can also see a big list of `/tardis` commands here: [Big list of TARDIS sub commands](tardis-commands-table)
+and a big list of all the other commands here: [Big list of other commands](other-commands).
 
 ### There are lots of commands:
 
-`/tardis` - [Do stuff with your TARDIS](tardis-commands.html)
+`/tardis` - [Do stuff with your TARDIS](tardis-commands)
 
-`/tardistravel` - [Go somewhere in your TARDIS](travel-commands.html)
+`/tardistravel` - [Go somewhere in your TARDIS](travel-commands)
 
-`/tardisprefs` - [Change your TARDIS preferences](player-preferences.html)
+`/tardisprefs` - [Change your TARDIS preferences](player-preferences)
 
-`/tardisbind` - [Bind destinations to buttons](bind-commands.html)
+`/tardisbind` - [Bind destinations to buttons](bind-commands)
 
-`/tardisbook` - [Get TARDIS timelore books and start achievements](books.html)
+`/tardisbook` - [Get TARDIS timelore books and start achievements](books)
 
-`/tardisgravity` - [Create TARDIS gravity wells in any direction](gravity-wells.html)
+`/tardisgravity` - [Create TARDIS gravity wells in any direction](gravity-wells)
 
-`/tardisrecipe` - [View recipes for TARDIS items](recipe-commands.html)
+`/tardisrecipe` - [View recipes for TARDIS items](recipe-commands)
 
-`/tardisadmin` - [Perform TARDIS administration tasks](admin-commands.html)
+`/tardisadmin` - [Perform TARDIS administration tasks](admin-commands)
 
-`/tardisconfig` - [Change the TARDIS plugin configuration](config-commands.html)
+`/tardisconfig` - [Change the TARDIS plugin configuration](config-commands)
 
-`/tardisgive` - [Give TARDIS items to players](give-commands.html)
+`/tardisgive` - [Give TARDIS items to players](give-commands)
 
-`/tardissudo` - [Admin super user commands](sudo-commands.html)
+`/tardissudo` - [Admin super user commands](sudo-commands)
 
-`/tardisarea` - [Set up predefined TARDIS travel areas](area-commands.html)
+`/tardisarea` - [Set up predefined TARDIS travel areas](area-commands)
 
-`/tardisroom` - [Add custom rooms and view room costs](custom-rooms.html)
+`/tardisroom` - [Add custom rooms and view room costs](custom-rooms)
 
-`/tardistexture` - [Switch texture packs when entering/exiting the TARDIS](texture-commands.html)
+`/tardistexture` - [Switch texture packs when entering/exiting the TARDIS](texture-commands)
 
-`/tardisremote` - [Remotely control any TARDIS](remote-commands.html)
+`/tardisremote` - [Remotely control any TARDIS](remote-commands)
 
-`/tardisschematic` - [Make TARDIS schematics](schematic-commands.html)
+`/tardisschematic` - [Make TARDIS schematics](schematic-commands)
 
-`/tardisnetherportal` - [Get coordinates for linking Nether Portals](netherportal-command.html)
+`/tardisnetherportal` - [Get coordinates for linking Nether Portals](netherportal-command)
 
-`/tardisjunk` - [Junk TARDIS related commands](junk-tardis.html)
+`/tardisjunk` - [Junk TARDIS related commands](junk-tardis)
 
-`/handles` - [Handles related commands](handles.html)
+`/handles` - [Handles related commands](handles)
 
 There are multiple command arguments for each command.
 
@@ -77,7 +77,7 @@ There are multiple command arguments for each command.
 ## Basic travel commands:
 
 **Note:** Some of these commands do not work in `hard` difficulty mode. See
-the [Advanced Console](advanced-console.html) page for more information.
+the [Advanced Console](advanced-console) page for more information.
 
 ### Returning home
 

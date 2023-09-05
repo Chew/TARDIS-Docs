@@ -28,7 +28,7 @@ The plugin will automatically try to create the world when it first starts up.
 __Do NOT__ use Multiverse or another world management plugin to create and load the TARDIS_TimeVortex world. Doing so
 will cause players to receive the message `You cannot grow rooms unless your TARDIS was created in its own world`!
 
-As of TARDIS v2.7-beta-1 the plugin now uses a system called [T.I.P.S](tips.html) (TARDIS Interior Positioning System).
+As of TARDIS v2.7-beta-1 the plugin now uses a system called [T.I.P.S](tips) (TARDIS Interior Positioning System).
 This system places new TARDISes in a specific ‘plot’ in the TARDIS_TimeVortex World. This means that TARDISes will no
 longer overlap other TARDISes if they are created close together in the overworld.
 

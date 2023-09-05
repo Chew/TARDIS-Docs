@@ -11,7 +11,7 @@ You can define _flat_ rectangular regions so that TARDISs can either be blocked 
 travel to. This can be useful for creating TARDIS parking lots/airports, preventing players from travelling into towns
 or restricting players to particular locations.
 
-See also [Semi-random parking areas](area-commands.html#semi-random-parking-areas)
+See also [Semi-random parking areas](area-commands#semi-random-parking-areas)
 
 A TARDIS area is perfect when setting up a TARDIS recharge beacon.
 
@@ -34,7 +34,7 @@ same Y-level coordinate as the start block
 
 TARDIS areas cannot overlap, and ideally should be nice flat areas.
 
-See also: the [Area commands](area-commands.html) page
+See also: the [Area commands](area-commands) page
 
 ### Setting the parking distance of a TARDIS area
 
@@ -94,6 +94,6 @@ _Note:_ `allow.exile` must be `true` in the config.
 **Note** The video shows the old command syntax, the process is the same, but the commands have changed
 from `/tardis area` to just `/tardisarea`
 
-See also: the [Artron Energy](artron-energy.html#video) page for another video.
+See also: the [Artron Energy](artron-energy#video) page for another video.
 
 <iframe src="https://player.vimeo.com/video/52724961" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

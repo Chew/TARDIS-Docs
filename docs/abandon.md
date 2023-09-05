@@ -7,7 +7,7 @@ path: /abandon
 Abandon a TARDIS
 ================
 
-You can abandon a TARDIS if you have permission and the TARDIS is stored in a [T.I.P.S](tips.html) world (e.g.
+You can abandon a TARDIS if you have permission and the TARDIS is stored in a [T.I.P.S](tips) world (e.g.
 TARDIS_TimeVortex). When you do this, the TARDIS powers down automatically, you will no longer be the owner of the
 TARDIS, and it won’t respond to your commands. You will be able to grow a new one, and any person will be able to enter
 the abandoned TARDIS — the first player that turns on the Artron Capacitor, will have 'claimed' the TARDIS and will
@@ -39,10 +39,10 @@ You can spawn abandoned TARDISes automatically with a command:
 
     /tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
 
-Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [list\_of\_interiors.html](list_of_interiors.html)
+Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [list\_of\_interiors.html](list_of_interiors)
 
 And `[PRESET]` is the exterior preset type of the TARDIS —
-see [PRESET](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/PRESET.html)
+see [PRESET](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/PRESET)
 
 And `[DIRECTION]` is the direction the player would be facing if they are looking at the exterior preset door — one of:
 NORTH, SOUTH, EAST, WEST

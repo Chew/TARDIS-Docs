@@ -26,9 +26,9 @@ These are the creation configuration options.
 | &nbsp;&nbsp;&nbsp;&nbsp;`inventory_group`          | string                                                                                                                                                                        | `'0'`               |
 | &nbsp;                                             | If the Multiverse-Inventories plugin is enabled on the server, you can set the group that TARDIS worlds are added to when they are created.                                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;`add_perms`                | boolean                                                                                                                                                                       | `true`              |
-| &nbsp;                                             | Sets whether a TARDIS world is assigned permissions when the server uses a permissions plugin that has per-world configuration — see [Add permissions](add-permissions.html). |
+| &nbsp;                                             | Sets whether a TARDIS world is assigned permissions when the server uses a permissions plugin that has per-world configuration — see [Add permissions](add-permissions). |
 | &nbsp;&nbsp;&nbsp;&nbsp;`custom_schematic`         | boolean                                                                                                                                                                       | `false`             |
-| &nbsp;                                             | Sets whether the server will use a custom TARDIS console schematic — see [Schematics](schematics.html).                                                                       |
+| &nbsp;                                             | Sets whether the server will use a custom TARDIS console schematic — see [Schematics](schematics).                                                                       |
 | &nbsp;&nbsp;&nbsp;&nbsp;`custom_schematic_seed`    | string                                                                                                                                                                        | `OBSIDIAN`          |
 | &nbsp;                                             | Sets the material for crafting the custom TARDIS console seed block.                                                                                                          |
 | &nbsp;&nbsp;&nbsp;&nbsp;`custom_creeper_id`        | string                                                                                                                                                                        | `BEACON`            |
@@ -48,5 +48,5 @@ These are the creation configuration options.
 | &nbsp;&nbsp;&nbsp;&nbsp;`seed_block_crafting`      | boolean                                                                                                                                                                       | `true`              |
 | &nbsp;                                             | Sets whether players can craft TARDIS seed blocks.                                                                                                                            |
 
-[Back to main configuration page](configuration.html)
+[Back to main configuration page](configuration)
 

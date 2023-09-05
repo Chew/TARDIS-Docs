@@ -20,11 +20,11 @@ locations. It adds a Whovian twist to the typical /sethome and /home commands.
 
 ### Get started...
 
-[Index / Site map](site-map.html)
+[Index / Site map](site-map)
 
-[Go to the **Contents** page](contents.html)
+[Go to the **Contents** page](contents)
 
-[Check out some **FAQs**](faqs.html)
+[Check out some **FAQs**](faqs)
 
 [Join our Community-Led Discord Server!](https://discord.gg/sfuPVHh)
 

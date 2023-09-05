@@ -21,7 +21,7 @@ The planets are listed and described below!
 
 ## Note
 
-To get the best experience on these planets, it's recommended to enable the [Weeping Angels module](modules.html) 
+To get the best experience on these planets, it's recommended to enable the [Weeping Angels module](modules) 
 (or for versions prior to v5.0.0, download the accompanying plugin and resource pack).
 Otherwise, mobs will look like vanilla mobs!
 
@@ -41,7 +41,7 @@ Otherwise, mobs will look like vanilla mobs!
   can be disabled in the config described below.
 - A random loot chest is located in the main Dalek building — wear plenty of armour if you want to raid these!
 - <a id="buckets"></a>You can fill Acid Buckets and Rust Buckets by using an empty bucket on water and lava. Acid Buckets can be used to
-  make Acid Batteries, which in turn can be used to make [Rift Manipulators](rift-manipulator.html). Rust Buckets are
+  make Acid Batteries, which in turn can be used to make [Rift Manipulators](rift-manipulator). Rust Buckets are
   used in the crafting recipe for the [Rust Plague](http://tardis.wikia.com/wiki/Rust_plague) Sword - this deals more
   damage to Daleks (Use the TARDIS-Resource-Pack to see the textures).
 
@@ -71,7 +71,7 @@ the [planets.yml configuration file](configuration-planets). Below is a sample c
 each line.
 
 For acid potion effects, see
-the [Bukkit PotionType Enum](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType.html).
+the [Bukkit PotionType Enum](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType).
 
 ```yaml
 # other config #

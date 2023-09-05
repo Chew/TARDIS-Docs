@@ -7,7 +7,7 @@ title: Custom rooms
 
 # Custom rooms
 
-TARDIS has the ability to add your own custom rooms using [TARDIS schematic](schematics.html) files and
+TARDIS has the ability to add your own custom rooms using [TARDIS schematic](schematics) files and
 the `/tardisroom` command.
 
 Custom schematics created with the `/tardisschematic` command are automatically saved in the

@@ -18,7 +18,7 @@ There are three types of gravity wells:
 
 ## Growing a Gravity Well Room
 
-Gravity Wells can be grown [in the same manner as any other room](rooms.html#growing), though with certain other
+Gravity Wells can be grown [in the same manner as any other room](rooms#growing), though with certain other
 requirements. The _gravity_ room requires an additional empty ARS slot **below** the selected slot, while the
 _antigravity_ room requires an additional empty ARS slot **above**.
 
@@ -89,5 +89,5 @@ You will be prompted to click on the block to remove the reference to it in the 
 
 &nbsp;
 
-[Back to the Rooms page](rooms.html)
+[Back to the Rooms page](rooms)
 

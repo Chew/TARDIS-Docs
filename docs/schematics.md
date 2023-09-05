@@ -15,7 +15,7 @@ basically the same, with the following differences:
 - RIGHT-clicking with the wand sets the start point
 - LEFT-clicking with the wand sets the end point
 - Once the region is defined, use the `/tardisschematic` command (`/ts` for short) to save the schematic — see
-  the [TARDIS Schematic commands](schematic-commands.html) page for more details
+  the [TARDIS Schematic commands](schematic-commands) page for more details
 - You will be warned if the schematic region is not square and a multiple of 16 blocks
 - TARDIS schematic files have the extension `.tschm` and are saved in the _plugins/TARDIS/user\_schematics_ folder
 
@@ -28,7 +28,7 @@ right in!
 1. In order to be loaded by the plugin, the schematic file must be located in the _plugins/TARDIS/user\_schematics_
    folder.
 2. There must be an entry for the console in _custom_consoles.yml_ and _artron.yml_ — see
-   [Custom Consoles](custom_consoles.html) for more information.
+   [Custom Consoles](custom_consoles) for more information.
 3. The custom TARDIS can only have 1 iron door, 1 stone button, and 1 wood button in its initial design (in addition to
    the placeholder blocks as listed below).
 4. The TARDIS should be sized in multiples of 16 blocks (1 chunk). Schematics can be a maximum 3x3 chunks in size.

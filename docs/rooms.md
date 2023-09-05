@@ -5,7 +5,7 @@ title: Rooms
 
 [Jump to videos](#video)
 
-[Visit the room gallery](room-gallery.html)
+[Visit the room gallery](room-gallery)
 
 # Rooms
 
@@ -13,18 +13,18 @@ title: Rooms
 
 - `create_worlds: true` in the config, and a multi-world plugin
 - OR
-- a special world called _TARDIS\_TimeVortex_ — to learn how to set this up visit the [Time Vortex](time-vortex.html)
+- a special world called _TARDIS\_TimeVortex_ — to learn how to set this up visit the [Time Vortex](time-vortex)
   page
 
 ## Growing rooms
 
-As of TARDIS v2.6 it is **recommended** that you use the [Architectural Reconfiguration System](ars.html) to grow rooms.
+As of TARDIS v2.6 it is **recommended** that you use the [Architectural Reconfiguration System](ars) to grow rooms.
 
 You can create rooms in your TARDIS. Each room costs a varying amount of Artron Energy. All rooms and the main TARDIS
 console have automatic piston doors. **If your TARDIS doesn’t have these:**
 
 - make sure the plugin is up to date
-- read **all** the [change logs](change-log.html) for the various 2.6 versions
+- read **all** the [change logs](change-log) for the various 2.6 versions
 - stop the server
 - delete _plugins/TARDIS/schematics_ and _plugins/TARDIS/rooms.yml_
 - start the server
@@ -80,10 +80,10 @@ and follow the instructions. The room types and their corresponding seed blocks 
 
 ### Notes:
 
-- More information about the `Lazarus` room can be found on the [TARDIS Genetic Manipulator page](lazarus.html)
-- More information about the `Renderer` room can be found on the [Scanner page](scanner.html#renderer)
-- More information about the `Zero` room can be found on the [Zero Room page](zero-room.html)
-- More information about `Gravity Well` rooms can be found on the [Gravity Wells page](gravity-wells.html)
+- More information about the `Lazarus` room can be found on the [TARDIS Genetic Manipulator page](lazarus)
+- More information about the `Renderer` room can be found on the [Scanner page](scanner#renderer)
+- More information about the `Zero` room can be found on the [Zero Room page](zero-room)
+- More information about `Gravity Well` rooms can be found on the [Gravity Wells page](gravity-wells)
 - The _Eye of Harmony_ room type is `harmony`
 - The _gravity well_ room type is `gravity` and requires an empty ARS room slot **above** the room as well.
 - The _anti gravity well_ room type is `antigravity` and requires an empty ARS room slot **below** the room as well.
@@ -96,7 +96,7 @@ Once the room is finished generating, a confirmation message will be shown.
 By default (most) room walls are ORANGE wool. If you would like to replace all the ORANGE wool blocks with another
 material, you can set a wall player preference **before** growing the room.
 
-To see a list of available wall materials, see the [walls page](walls.html), or type:
+To see a list of available wall materials, see the [walls page](walls), or type:
 
     /tardisprefs wall help
 
@@ -138,13 +138,13 @@ TARDIS gravity wells let you travel in any direction without having to walk. You
 and an anti-gravity well that goes up. This allows you to expand the TARDIS interior over as many levels as you desire.
 Using the `/tardisgravity` command you can also create ‘sideways’ gravity wells.
 
-Visit the [gravity wells page](gravity-wells.html) for more specific information.
+Visit the [gravity wells page](gravity-wells) for more specific information.
 
 ## Vault room
 
 As of TARDIS v3.1-beta-1 the Vault room will automatically sort items into the chests contained within it.
 
-For more information see: [Vault room](vault.html)
+For more information see: [Vault room](vault)
 
 ### Videos
 

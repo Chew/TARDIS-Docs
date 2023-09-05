@@ -87,7 +87,7 @@ snippet ([TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-
 The [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack) has been updated with the Handles
 model and textures — the Handles block is a BIRCH\_BUTTON.
 
-Clicking on Handles while sneaking opens the [Handles Programming GUI](handles-programming.html) where you can create
+Clicking on Handles while sneaking opens the [Handles Programming GUI](handles-programming) where you can create
 program disks, _documentation yet to come_, disks can be renamed with a `/handles disk [name]` command). More on this
 later, but it should extend Handles’ functionality a bit with events and more actions and will work with Advanced
 Console Disks.

@@ -5,7 +5,7 @@ title: Change log (for older versions)
 
 # Change log (for older versions)
 
-[Most recent changes](change-log.html)
+[Most recent changes](change-log)
 
 ## What’s been changed?
 
@@ -433,7 +433,7 @@ values for `respect_towny`
 #### Additions
 
 - Added a TARDIS Genetic Manipulator and the Immortality
-  Gate [http://eccentricdevotion.github.io/TARDIS/lazarus.html](http://eccentricdevotion.github.io/TARDIS/lazarus.html)
+  Gate [http://eccentricdevotion.github.io/TARDIS/lazarus.html](http://eccentricdevotion.github.io/TARDIS/lazarus)
     - requires [LibsDisguises](http://www.spigotmc.org/resources/libs-disguises.81/)
       and [ProtocolLib](http://dev.bukkit.org/bukkit-plugins/protocollib/)
     - permissions: `tardis.room.lazarus` to grow the room, and `tardis.lazarus` to use the device
@@ -442,7 +442,7 @@ values for `respect_towny`
     - contains an Easter Egg!
 - Added a Zero room, the feature is disabled by default, use the `/tadmin zero_room true` command to enable it and
   create the TARDIS_Zero_Room world if it doesn’t
-  exist. [http://eccentricdevotion.github.io/TARDIS/zero-room.html](http://eccentricdevotion.github.io/TARDIS/zero-room.html)
+  exist. [http://eccentricdevotion.github.io/TARDIS/zero-room.html](http://eccentricdevotion.github.io/TARDIS/zero-room)
     - a restart is required to enable chat isolation and healing
     - use `/tardis room zero` to add the room (it’s not compatible with ARS, as it is located in its own universe)
     - players can use `/tardis update zero` to add transmat button to move between the TARDIS and the Zero room
@@ -590,29 +590,29 @@ values for `respect_towny`
 #### Additions
 
 - Added a TARDIS Advanced Console, and a Disk Storage
-  Container — [http://eccentricdevotion.github.io/TARDIS/advanced-console.html](http://eccentricdevotion.github.io/TARDIS/advanced-console.html)
+  Container — [http://eccentricdevotion.github.io/TARDIS/advanced-console.html](http://eccentricdevotion.github.io/TARDIS/advanced-console)
 - Added blank, save, player, area, biome and preset Storage Disks to work with Advanced Console
 - Added new circuits to work with the Advanced Console
 - Implemented the TARDIS Interior Positioning
-  System — [http://eccentricdevotion.github.io/TARDIS/tips.html](http://eccentricdevotion.github.io/TARDIS/tips.html)
+  System — [http://eccentricdevotion.github.io/TARDIS/tips.html](http://eccentricdevotion.github.io/TARDIS/tips)
 - Added TARDIS Item
-  Kits — [http://eccentricdevotion.github.io/TARDIS/kits.html](http://eccentricdevotion.github.io/TARDIS/kits.html)
+  Kits — [http://eccentricdevotion.github.io/TARDIS/kits.html](http://eccentricdevotion.github.io/TARDIS/kits)
 - Added `/tardisgive [player] [item] [amount]` command for TARDIS items, kits and Artron
-  Energy — [http://eccentricdevotion.github.io/TARDIS/give-commands.html](http://eccentricdevotion.github.io/TARDIS/give-commands.html)
+  Energy — [http://eccentricdevotion.github.io/TARDIS/give-commands.html](http://eccentricdevotion.github.io/TARDIS/give-commands)
 - Added the TARDIS Perception
-  Filter — [http://eccentricdevotion.github.io/TARDIS/perception-filter.html](http://eccentricdevotion.github.io/TARDIS/perception-filter.html)
+  Filter — [http://eccentricdevotion.github.io/TARDIS/perception-filter.html](http://eccentricdevotion.github.io/TARDIS/perception-filter)
 - Added underground cave travel `/tardistravel cave` — and added cave to the `/tardisbind cmd` command
 - Added an upgradable Sonic
-  Screwdriver — [http://eccentricdevotion.github.io/TARDIS/sonic-screwdriver.html](http://eccentricdevotion.github.io/TARDIS/sonic-screwdriver.html)
+  Screwdriver — [http://eccentricdevotion.github.io/TARDIS/sonic-screwdriver.html](http://eccentricdevotion.github.io/TARDIS/sonic-screwdriver)
 - Added a command to make Emergency Program One appear — `/tardis ep1`
 - Added an Exterior Rendering
-  Room — [http://eccentricdevotion.github.io/TARDIS/scanner.html](http://eccentricdevotion.github.io/TARDIS/scanner.html)
+  Room — [http://eccentricdevotion.github.io/TARDIS/scanner.html](http://eccentricdevotion.github.io/TARDIS/scanner)
 - Added a `/tardisroom required <room>` command to list what needs to be condensed to grow a room
 - Added 1.7 blocks to the condensables list
 - Added new 1.7 biomes to the TARDIS scanner
 - The plugin now uses a scoreboard to display current Artron Energy levels
 - Added Artron Storage Cells and the `/tardisartron [tardis|timelord] [amount]`
-  command — [http://eccentricdevotion.github.io/TARDIS/artron-cells.html](http://eccentricdevotion.github.io/TARDIS/artron-cells.html)
+  command — [http://eccentricdevotion.github.io/TARDIS/artron-cells.html](http://eccentricdevotion.github.io/TARDIS/artron-cells)
 - Added `/tardisprefs minecart [on|off]` command to use the Minecraft door and minecart sounds instead of the resource
   pack sounds for entering/exiting the TARDIS and materialisation
 - Added a command to purge the database of TARDIS records when someone totally messes up their TARDIS (eg deletes the
@@ -625,11 +625,11 @@ values for `respect_towny`
 - Updated all console schematics to include the Advanced Console and Disk Storage container
 - Now that the plugin has Sonic Screwdrivers, the default key item has changed to a `GOLD_NUGGET`
 - The config.yml file has been reorganised — previous settings should be retained, but you might want to
-  check — [http://eccentricdevotion.github.io/TARDIS/configuration.html](http://eccentricdevotion.github.io/TARDIS/configuration.html)
+  check — [http://eccentricdevotion.github.io/TARDIS/configuration.html](http://eccentricdevotion.github.io/TARDIS/configuration)
 - The condensables list is now configurable — set `use_default_condensables: false` in the config and edit
   condensables.yml
 - TARDIS item recipes are now
-  configurable — [http://eccentricdevotion.github.io/TARDIS/recipes.html](http://eccentricdevotion.github.io/TARDIS/recipes.html)
+  configurable — [http://eccentricdevotion.github.io/TARDIS/recipes.html](http://eccentricdevotion.github.io/TARDIS/recipes)
 - The ARS GUI is now keyed to the TARDIS rather than the player clicking the sign, though it will only allow the player
   whose TARDIS it is to reconfigure — this allows admins to view a player’s ARS setup
 - There are new map files for the new TARDIS recipes and updated map files for existing TARDIS recipes. They will be
@@ -1333,7 +1333,7 @@ in :)
 - Added SPIDER\_EYE to the condensable items list
 - Fixed the ‘baker’ and ‘wood’ rooms requiring players to condense a CAKE\_BLOCK if `rooms_require_blocks` was true
 - The middle blocks in the TARDIS creation stack can now be set in the config —
-  add [Bukkit Material enum](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) names to add extra
+  add [Bukkit Material enum](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material) names to add extra
   blocks for use
 
 ### v2.3-pre
@@ -1445,11 +1445,11 @@ in :)
 - Added a command `/tardis inside` — lists the occupants of the TARDIS
 - If `create_worlds` is true, then the TARDIS chest is automatically designated and the condenser
 - Added TARDIS books — give the player Timelore books to read and instruct them on: how to get TARDIS acheivements, do
-  stuff with the plugin etc — Books are created from text files so are customisable — see [books.html](books.html)
+  stuff with the plugin etc — Books are created from text files so are customisable — see [books.html](books)
 - Added command `/tardisbook list` — shows what books are available
 - Added command `/tardisbook get [book]` — gets the specified book
 - Added TARDIS achievements — in conjunction with TARDIS books, you can achieve goals and gain rewards — goal amounts
-  and rewards are customisable — see [achievements.html](achievements.html)
+  and rewards are customisable — see [achievements.html](achievements)
 - Added command `/tardisbook start [book]` — to start the specified achievement
 - Added Mooshrooms to TARDIS mob farming
 - Player’s pets will now enter/exit the TARDIS with the player if they are close to the TARDIS doors (the same distance
@@ -1459,14 +1459,14 @@ in :)
   configurable) chance it may be the Nether or The End, even if they are disabled in the config or the player doesn’t
   have permission. There is an emergency landing SFX (Spout required). Lights will flicker and there will be smoke and
   nausea effects (only if the TARDIS is created after updating to this version...) —
-  see [malfunction.html](malfunction.html)
+  see [malfunction.html](malfunction)
 - Added config option `exile: [true|false]` — sets whether the TARDIS exile feature is enabled
 - Added config option `per_world_perms: [true|false]` — sets whether to use permissions per world for time travel —
   if `true`, then the player requires the permission `tardis.travel.[world name]`
 - Added command `/tardisadmin prune [days]` — automatically delete TARDISes that have not been used for the specified
   number of days (last use is set by the player using the TARDIS handbrake)
 - Added command `/tardisadmin prune list [days]` — check which TARDISes will be deleted — outputs to screen/console and
-  also writes to file. There is also a `tardis.prune.bypass` permission — see [prune.html](prune.html)
+  also writes to file. There is also a `tardis.prune.bypass` permission — see [prune.html](prune)
 - Added command aliases for all commands, see table below:
 
 | Command   | Aliases |
@@ -1496,10 +1496,10 @@ in :)
 - Fixed a bug if the TARDISChunkGenerator plugin was not installed
 - Fixed the database sometimes not updating itself properly when updating from a previous version
 - TARDIS walls and room walls and floors can now be CLAY and QUARTZ blocks
-- Added `/tardisroom` command to add your own room schematics — see [custom-rooms.html](custom-rooms.html)
+- Added `/tardisroom` command to add your own room schematics — see [custom-rooms.html](custom-rooms)
 - The plugin now properly respects the config options for the NETHER and THE END when using the travel commands
 - Changed the add\_perms functionality so that multiple permission groups can be added to TARDIS worlds upon creation —
-  see [add-permissions.html](add-permissions.html) — if you are using this function on your server you will need to
+  see [add-permissions.html](add-permissions) — if you are using this function on your server you will need to
   update your _plugins/TARDIS/permissions.txt_ file
 - The ‘save-sign’ and ‘scanner’ are now automatically added to newly created TARDISes — delete your
   _plugins/TARDIS/schematics_ folder so you get the updated files
@@ -1552,7 +1552,7 @@ in :)
 - Added an autonomous homing preference — if the player dies they can have the TARDIS fly home or to a recharge point (
   whichever is the closest). There is are config settings `allow_autonomous: [true|false]` and for Artron
   energy `autonomous: [cost]`, a permission node `tardis.autonomous` and the command to toggle it on and
-  off `/tardisprefs auto [on ` `off]` — [autonomous.html](autonomous.html)- You can now open the TARDIS door by
+  off `/tardisprefs auto [on ` `off]` — [autonomous.html](autonomous)- You can now open the TARDIS door by
   RIGHT-clicking it while SNEAKING (use left SHIFT key)
 - Time Lords can now lock their Police Box doors by LEFT-clicking them. No one will be able to enter (including the Time
   Lord) until it is unlocked. Use another LEFT-click to unlock it
@@ -1562,21 +1562,21 @@ in :)
 - The TARDIS\’s Chameleon Circuit can now be shorted out. This means you can always have a leaves or stone brick TARDIS
   if you really want. To short out the circuit use: `/tardis chameleon short` while targeting the block of your choice.
   To repair the circuit and use the regular Chameleon block type: `/tardis chameleon reset` — the circuit of course
-  needs to be ON — [chameleon-circuit.html](chameleon-circuit.html)
+  needs to be ON — [chameleon-circuit.html](chameleon-circuit)
 - The bind command has been changed to `/tardisbind [bind type] [name]` — this means you can now bind buttons to players
   and TARDIS areas as well as saved locations and the hide, rebuild and home
-  commands — [bind-commands.html](bind-commands.html)
+  commands — [bind-commands.html](bind-commands)
 - You can no longer run the `/tardis room` command leave the TARDIS world and grow a room in another location
 - Added simple support for the Factions plugin — location finding / checking now allows players to only land in their
   own faction space or wilderness. Has the config option: `respect\_factions [true|false]
 - Added a way to set permissions for TARDIS worlds if using a permissions plugin that has a config file per world.
   Support is only for Essentials GroupManager and bPermissions at the moment. Set `add_perms: [true|false]` in the
   config, and add the permissions players should have in TARDIS worlds to the _plugins/TARDIS/permissions.txt_ — more
-  information: [add-permissions.html](add-permissions.html)
+  information: [add-permissions.html](add-permissions)
 - Fixed a bug when using `/tardis update door` and clicking on the top half of the door. Doors directions are now
   updated correctly
 - Added a farm room and the ability to farm mobs if they are captured in the Police Box. Config
-  option `allow_mob_farming: [true|false]`, permission node `tardis.farm` — [farming.html](farming.html)
+  option `allow_mob_farming: [true|false]`, permission node `tardis.farm` — [farming.html](farming)
 - Fixed an error in lightning listener if you had a freshly installed v2.0 plugin — missing recharging database column
   in tardis table is now added correctly
 - Using `/tardis direction` now consumes Artron Energy (the same amount as random time travel)
@@ -1585,8 +1585,8 @@ in :)
   problem growing rooms use: `/tardisprefs wall [material]` to set your preference (should only apply to TARDIS created
   before updating to v2.0)
 - Fixed a bug with the TARDIS save-sign displaying \’bound\’ player names and null, null, null
-- Added new rooms: crossroads, mushroom, long passage and greenhouse — see [rooms.html](rooms.html)
-  and [room-gallery.html](room-gallery.html) — permissions: `tardis.cross`, `tardis.mushroom`, `tardis.long`
+- Added new rooms: crossroads, mushroom, long passage and greenhouse — see [rooms.html](rooms)
+  and [room-gallery.html](room-gallery) — permissions: `tardis.cross`, `tardis.mushroom`, `tardis.long`
   and `tardis.greenhouse`. Thanks to @gaeasson for ideas and schematics
 - Fixed an error if typing `/tardisbind` with no arguments
 
@@ -2070,7 +2070,7 @@ Thanks to everyone who made suggestions or found bugs :)
 - Added different sized TARDIS interiors — The bottom block when creating a TARDIS determines the size — IRON block
   gives the current TARDIS, GOLD block gives a bigger TARDIS, DIAMOND block gives a deluxe TARDIS. Deluxe TARDIS
   schematic kindly provided by ewized.
-- You can now use your own schematic files to build the inner TARDIS — see the [Schematics](schematics.html) page for
+- You can now use your own schematic files to build the inner TARDIS — see the [Schematics](schematics) page for
   more info...
 - A fix for the ‘chameleon circuit exploit’ — the Police Box is now indestructible in SURVIVAL mode (except for the
   sign & platform if there is one).

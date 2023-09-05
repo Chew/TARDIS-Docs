@@ -80,5 +80,5 @@ Set the seed block for room jettisons.
 
 The default is `TNT`.
 
-[Back to main configuration page](configuration.html)
+[Back to main configuration page](configuration)
 

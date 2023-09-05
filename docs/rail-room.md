@@ -31,7 +31,7 @@ clicking on the fence.
 
 **Note:** if Multiverse-Inventories is enabled on the server, you should make sure that the minecart world and the
 TARDIS world are sharing inventories. To add TARDIS worlds to a default share group, edit the `creation.inventory_group`
-setting in the TARDIS config — see the [TARDIS creation configuration options](configuration-creation.html) page.
+setting in the TARDIS config — see the [TARDIS creation configuration options](configuration-creation) page.
 
 ### Video
 

@@ -12,7 +12,7 @@ to [chemistry lab products](chemistry-lab-products.md), to view how to use the c
 the [chemistry lab page](chemistry-lab.md). To view a list elements, go to the [elements page](elements.md)_
 
 All compounds are inherently useless on their own (with the exception of the vanilla items and their vanilla uses). They
-must be combined with other compounds, [elements](elements.md), or items to make [products]((chemistry-lab-products))!
+must be combined with other compounds, [elements](elements.md), or items to make [products](chemistry-lab-products)!
 
 TIP: `/tchem` and `/tchemistry` are valid aliases of `/tardischemistry`
 

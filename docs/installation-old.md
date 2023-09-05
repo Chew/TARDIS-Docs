@@ -33,7 +33,7 @@ the [issues page](https://github.com/eccentricdevotion/TARDIS/issues).
 
 ### See also:
 
-TARDIS [Time Vortex](time-vortex.html) shared world setup.
+TARDIS [Time Vortex](time-vortex) shared world setup.
 
 ### Installation:
 
@@ -60,12 +60,12 @@ better.
 1. Install [WorldGuard](https://enginehub.org/worldguard) to automatically protect your TARDIS from griefing.
 2. Install a permissions plugin, so that you can restrict or grant players the rights to use TARDIS’ different features.
    We like [LuckPerms](https://luckperms.net/).
-3. Install [TARDISWeepingAngels](weeping-angels.html) for a more Who-like experience!
+3. Install [TARDISWeepingAngels](weeping-angels) for a more Who-like experience!
 4. (Optional **§**) Install [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises-free.81/) so that you can
    use the Genetic Manipulator / Immortality Gate. **§ Note** _TARDIS can now create its own disguises, but
    LibsDisguises
    does a much better job of it_.
-5. Install [TARDIS-Resource-Pack](resource-packs.html) so that you see re-textured TARDIS blocks and items, and hear
+5. Install [TARDIS-Resource-Pack](resource-packs) so that you see re-textured TARDIS blocks and items, and hear
    TARDIS sounds.
 
 ### Video
@@ -81,4 +81,4 @@ please delete your previously created TARDISes and recreate them.
 
 If upgrading from a version without an Artron Energy button or handbrake, please place these items, and use
 the `/tardis update`
-command to add them to your TARDIS. See [Commands](tardis-commands.html#update) for more information.
+command to add them to your TARDIS. See [Commands](tardis-commands#update) for more information.

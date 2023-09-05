@@ -37,7 +37,7 @@ the disk contains._
 Players can obtain blueprints in a few ways:
 
 1. By purchasing them from a TARDIS Shop. See the instructions on the
-   [TARDIS Shop](tardis-shop.html) page for how to set this up.
+   [TARDIS Shop](tardis-shop) page for how to set this up.
 2. Using the `/tardisadmin give [player] [blueprint]` command.
 3. Using a system that can run the command above when certain conditions are met
    &mdash; for example a &ldquo;rank up&rdquo; plugin (or a command block &mdash; use the @p selector).

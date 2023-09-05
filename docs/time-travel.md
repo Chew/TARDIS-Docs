@@ -8,7 +8,7 @@ title: Travelling
 # Travelling
 
 You can time travel in the TARDIS by using the controls on the TARDIS console, 
-or if you have the permission `tardis.fly` you can fly the TARDIS exterior - see [Flying the TARDIS](flying.html)
+or if you have the permission `tardis.fly` you can fly the TARDIS exterior - see [Flying the TARDIS](flying)
 
 ### Repeaters
 
@@ -42,7 +42,7 @@ above, and the handbrake initiates travel and parks your TARDIS.
 
 1. Click the stone button and your TARDIS will lock on to a destination.
 2. Disengage the handbrake by **RIGHT** -clicking it.
-3. Once the TARDIS has finished navigating the time vortex (see [flight modes](flight-modes.html)), **LEFT** -click the
+3. Once the TARDIS has finished navigating the time vortex (see [flight modes](flight-modes)), **LEFT** -click the
    handbrake to park (best not to be in creative mode!).
 
 ### Video
@@ -60,14 +60,14 @@ To exit the TARDIS simply RIGHT-click on the iron door with your TARDIS key and 
 ### The Advanced Console
 
 If the TARDIS difficulty level is set to _medium_ or _hard_, you’ll want to get to know your Advanced Console — find out
-more on the [Advanced Console](advanced-console.html) page.
+more on the [Advanced Console](advanced-console) page.
 
 ### Travel commands
 
-You can find these on the [Travel Commands](travel-commands.html) page.
+You can find these on the [Travel Commands](travel-commands) page.
 
 ### Save sign and destination terminal
 
-Use an inventory based GUI to set your destination. See more on the [Save Sign](save-sign.html)
-and [Destination Terminal](destination-terminal.html) pages.
+Use an inventory based GUI to set your destination. See more on the [Save Sign](save-sign)
+and [Destination Terminal](destination-terminal) pages.
 

@@ -6,10 +6,10 @@ title: Time travel commands
 # Time travel commands
 
 **Note:** if the plugin difficulty is set to `hard` you will need to use the
-TARDIS [Advanced Console](advanced-console.html) instead of these commands.
+TARDIS [Advanced Console](advanced-console) instead of these commands.
 
 Some of these commands also require the appropriate permission before players can use them. See
-the [Permissions](permissions.html#ttperms) page for more information.
+the [Permissions](permissions#ttperms) page for more information.
 
 ### `/tardistravel`
 

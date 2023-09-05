@@ -5,12 +5,12 @@ title: Chameleon Presets
 
 # Chameleon Presets
 
-Chameleon Presets can be selected and applied in the [Chameleon Circuit](chameleon-circuit.html) GUI. There are 64
+Chameleon Presets can be selected and applied in the [Chameleon Circuit](chameleon-circuit) GUI. There are 64
 presets in total on two pages, plus one special hidden preset, and one custom preset that server admins can set up
-themselves — see the [Custom preset page.](custom-preset.html)
+themselves — see the [Custom preset page.](custom-preset)
 
 There are also some adaptive presets that are selected by biome when th Chameleon Circuit is set to Adaptive Biome mode.
-You can view those on the [Adaptive Presets page](adaptive-presets.html).
+You can view those on the [Adaptive Presets page](adaptive-presets).
 
 ## Page one
 
@@ -200,7 +200,7 @@ with its surroundings.
 
 Page two contains mostly police box presets in all the Minecraft colours. All these presets use custom item models on an
 Armour Stand. They have custom block models for the materialisation animation as well. These presets can be used to fly 
-the TARDIS exterior see [Flying the TARDIS](flying.html).
+the TARDIS exterior see [Flying the TARDIS](flying).
 
 ![tarnsparent coloured police box](/images/presets/stained.jpg))
 
@@ -288,7 +288,7 @@ the TARDIS exterior see [Flying the TARDIS](flying.html).
 
 ## Custom model presets
 
-You can add your own custom models to the plugin - see the [Custom model presets](custom-model-presets.html) page for 
+You can add your own custom models to the plugin - see the [Custom model presets](custom-model-presets) page for 
 more details. These presets will appear on page two.
 
 The plugin includes two example models (both of which can be flown):

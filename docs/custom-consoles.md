@@ -57,5 +57,5 @@ the schematic name (as entered into custom\_consoles.yml) to the `upgrades` conf
 When you have created your TARDIS schematic, you will need to put it in the _plugins/TARDIS/user\_schematics_ folder,
 and then restart the server.
 
-You can learn about creating custom console schematics on the [Schematics](schematics.html) page.
+You can learn about creating custom console schematics on the [Schematics](schematics) page.
 

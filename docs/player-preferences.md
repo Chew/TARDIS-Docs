@@ -135,7 +135,7 @@ To change the block type that changes when a TARDIS enters siege mode, type:
 
     /tardisprefs [siege_wall|siege_floor] [material]
 
-Where `[material]` is a block from the list on the [Wall materials](walls.html) page. This setting has no effect
+Where `[material]` is a block from the list on the [Wall materials](walls) page. This setting has no effect
 if `siege.textures: false` is set in the config.
 
 To change whether the TARDIS Autonomous homing function takes the Police Box to the nearest recharge point or the Tardis

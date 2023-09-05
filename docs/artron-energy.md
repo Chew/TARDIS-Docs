@@ -60,7 +60,7 @@ when powered on, but not actively doing anything (like travelling or recharging)
 To prevent power use in standby mode, you should power down the TARDIS.
 
 You can configure how often and how much energy is used in _artron.yml_ — see
-the [Artron Configuration](configuration-energy.html) page.
+the [Artron Configuration](configuration-energy) page.
 
 ### Power up/down/standby config options
 
@@ -78,11 +78,11 @@ added automatically to new TARDISes, if you have a TARDIS from a previous versio
 of the plugin, you can place a chest and run the `/tardis update condenser` command,
 then follow the instructions to create one.
 
-For a list of items that can be condensed visit the [condensables page](condensables.html).
+For a list of items that can be condensed visit the [condensables page](condensables).
 
 ### Artron Storage Cells
 
-You can use an [Artron Storage Cell](artron-cells.html) to charge your TARDIS.
+You can use an [Artron Storage Cell](artron-cells) to charge your TARDIS.
 Right-click the wood button with the storage cell to transfer the energy into
 your TARDIS.
 
@@ -97,7 +97,7 @@ Finally, the last way to charge your TARDIS is to use a server admin created
 recharging station. These can be created by using a beacon<sup>‡</sup> and the
 `/tardisadmin recharger [name]` command.
 
-It is also recommended that server admins create a [TARDIS area](area-commands.html)
+It is also recommended that server admins create a [TARDIS area](area-commands)
 for Police Boxes to “park” in, so they can recharge easily.
 
 <sup><strong>‡</strong></sup> For pre-beacon versions of CraftBukkit (1.4.2 and earlier),
@@ -116,7 +116,7 @@ this you will need to condense extra blocks and items, or use Artron Storage Cel
 ![artron energy capacitor](/images/docs/artroncapacitor.jpg))
 
 **\*** Note — the Artron Energy readout will not display if you are wearing the
-[Perception Filter](perception-filter.html).
+[Perception Filter](perception-filter).
 
-`Next:` [Time Travel](time-travel.html)
+`Next:` [Time Travel](time-travel)
 

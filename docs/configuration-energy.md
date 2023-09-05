@@ -7,7 +7,7 @@ title: Artron Energy configuration option
 
 These are the Artron Energy configuration options. These config options are found in the file: `artron.yml`
 
-For Artron Energy room growing costs see the [Room configuration](configuration-rooms.html) page.
+For Artron Energy room growing costs see the [Room configuration](configuration-rooms) page.
 
 ## Full charge
 
@@ -171,7 +171,7 @@ just changing the walls and floor, then `just_wall_floor` sets the percentage th
 
 ## Artron Furnaces
 
-Set the options for Artron Furnaces. See further explanation on the [Artron Furnace](artron-furnace.html) page.
+Set the options for Artron Furnaces. See further explanation on the [Artron Furnace](artron-furnace) page.
 
     artron_furnace:
       set_biome: true
@@ -182,7 +182,7 @@ Set the options for Artron Furnaces. See further explanation on the [Artron Furn
 
 ## Sonic Generator
 
-Set the energy costs for the [sonic generator](sonic-generator.html) as a percentage of the `full_charge` option.
+Set the energy costs for the [sonic generator](sonic-generator) as a percentage of the `full_charge` option.
 
     sonic_generator:
       painter: 10
@@ -211,5 +211,5 @@ The format is:
 Entries are added automatically by the `/tardisadmin recharger [name]` command, you should only need to edit this
 section if you want to remove a recharge point.
 
-[Back to main configuration page](configuration.html)
+[Back to main configuration page](configuration)
 

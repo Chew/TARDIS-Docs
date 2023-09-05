@@ -6,7 +6,7 @@ title: Timelore books
 # Timelore books
 
 TARDIS books allow you to inform players about TARDIS use and how to gain TARDIS
-[achievements](achievements.html).
+[achievements](achievements).
 
 TARDIS books are fully customisable by editing the text files found in the
 _plugins/TARDIS/books_ folder. Currently there are seven books:

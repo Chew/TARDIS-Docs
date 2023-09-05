@@ -20,7 +20,7 @@ title: Permissions
 ## Setting permissions for TARDIS worlds
 
 To automatically set permissions for TARDIS worlds when they are created go read
-the [Add permissions page](add-permissions.html).
+the [Add permissions page](add-permissions).
 
 * * *
 
@@ -28,7 +28,7 @@ the [Add permissions page](add-permissions.html).
 
 Can't find the permission you’re looking for?
 
-Check out the [Big list of permissions](permissions-table.html) taken directly from _plugin.yml_.
+Check out the [Big list of permissions](permissions-table) taken directly from _plugin.yml_.
 
 * * *
 
@@ -437,5 +437,5 @@ The node `tardis.remote` will allow admin users to remotely control a TARDIS.
 
 Can't find the permission you’re looking for?
 
-Check out the [Big list of permissions](permissions-table.html) taken directly from _plugin.yml_.
+Check out the [Big list of permissions](permissions-table) taken directly from _plugin.yml_.
 

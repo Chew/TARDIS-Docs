@@ -818,7 +818,7 @@ be deleted immediately!
 A new WorldBorder API was addedd to CraftBukkit / Spigot on the 13 December 2014. This means if your server JAR was
 built before then it **WILL NOT WORK** with TARDIS. You should use
 Spigot’s [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/) to compile a new server JAR — instructions for
-doing this can be found here: [How to use BuildTools](build-tools.html).
+doing this can be found here: [How to use BuildTools](build-tools).
 
 - [CraftBukkit](http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/artifact/craftbukkit-1.11.2.jar) —
   version git-Bukkit-1092acb (MC: 1.8) or newer
@@ -851,28 +851,28 @@ TARDISHorseSpeed is now obsolete, you need to use TARDISHelper v1.2 instead (inc
     - the scanner is disabled until the random destination has been travelled to
     - the Artron cost is configurable in _artron.yml_ — `random_circuit: 150`
 - Added an SQLite to MySQL conversion tool. Double-clicking the TARDIS JAR file opens the GUI.
-- Added Siege Mode — see the [Siege Mode](siege-mode.html) page for more info
+- Added Siege Mode — see the [Siege Mode](siege-mode) page for more info
 - Added PACKED\_ICE and new 1.8 blocks to artron condensables
 - Added new 1.8 blocks to TARDIS wall / floor choices
 - Added tab completion to `/tardisbook` command
 - Added a cooldown to the `/tardis hide` command
-- Added the ability to add multiple custom TARDIS consoles — see the [Custom consoles](custom-consoles.html) page
+- Added the ability to add multiple custom TARDIS consoles — see the [Custom consoles](custom-consoles) page
 - Added a TARDIS API for other plugin developers to hook into — for
   example [TARDISVortexManipulator](http://dev.bukkit.org/bukkit-plugins/tardisvortexmanipulator/) — see
-  the [Java Doc](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/api/TardisAPI.html)
-  and [API](api.html) pages for more info
+  the [Java Doc](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/api/TardisAPI)
+  and [API](api) pages for more info
 - Added the Vortex Manipulator to `/tardisrecipe` and `/tardisgive` commands — `/tardisrecipe vortex`
   and `/tardisgive [player] vortex [amount]`
 - Added Vortex Manipulator tachyon energy to the give command — `/tardisgive [player] tachyon [amount]`
 - Added 4 new presets: PRISMARINE, ANDESITE, DIORITE and GRANITE
-- Added an invisibility circuit to enable invisible landing — see the [Invisibility](invisibility.html) page for more
+- Added an invisibility circuit to enable invisible landing — see the [Invisibility](invisibility) page for more
   info
     - to see the recipe use the command `/tardisrecipe invisible`
     - to give the circuit use the command `/tardisgive [player] invisible [amount]`
     - put it in the Advanced Console to enable the INVISIBLE chameleon preset
     - choose the preset to land invisibly on the next time travel
     - the circuit can be damaged after each use — set the number of uses in the config — see
-      the [Circuit use and repair](circuit-use.html) page for more info
+      the [Circuit use and repair](circuit-use) page for more info
 - Added a `/tardis make_her_blue` command to disengage invisibility
 - Added a control panel GUI — lots of buttons in one place — use the `/tardis update control` command to add it to your
   console
@@ -895,7 +895,7 @@ TARDISHorseSpeed is now obsolete, you need to use TARDISHelper v1.2 instead (inc
 - If `respect_worldborder` is true the plugin now checks both vanilla and plugin world borders — the WorldBorder plugin
   takes precedence over vanilla
 - The `/tardis make_her_blue`, `/tardis hide` and `/tardis rebuild` now have a short materialisation
-- All circuits can be configured to be damagable — see the [Circuit use and repair](circuit-use.html) page for more info
+- All circuits can be configured to be damagable — see the [Circuit use and repair](circuit-use) page for more info
 
 #### Bug fixes
 
@@ -951,14 +951,14 @@ Requires CraftBukkit version git-Bukkit-1.7.9-R0.2-24-g07d4558-b3116jnks (MC: 1.
 
 #### Additions
 
-- Added the ability to change the TARDIS desktop theme — see: [Desktop Theme](desktop-theme.html)
-- Added `/tardis eject` command to eject farmed mobs, villagers and companions — see: [Mob farming](farming.html)
+- Added the ability to change the TARDIS desktop theme — see: [Desktop Theme](desktop-theme)
+- Added `/tardis eject` command to eject farmed mobs, villagers and companions — see: [Mob farming](farming)
 - Added time rotor glass colouring, use the `/tardis colourise` or `/tardis colorize` command, then click the bottom
   glass block in the time rotor with a dye
 - Added a clickable chat interface for the `/tardis update` command (just do a /tardis update with no further
   arguments) — requires ProtocolLib — the command remains essentially the same otherwise
 - Updated the VAULT room to automatically sort items into the chests:
-    - see: [Vault room](vault.html)
+    - see: [Vault room](vault)
     - one chest is set as the drop chest
     - all other chests in the 16x16x16 chunk are set as storage chests
     - place at least 1 block/item into the storage chests
@@ -1025,7 +1025,7 @@ Requires CraftBukkit version git-Bukkit-1.7.9-R0.2-24-g07d4558-b3116jnks (MC: 1.
 
 - Added a `/tardisnetherportal` command, or `/tnp` for short. Use it to calculate the position to place a portal in the
   NETHER / OVERWORLD in order to link them. Inspired by Nether Portal Calculator v1.0 by D3Phoenix,
-  see [http://ilurker.rooms.cwal.net/portal.html](http://ilurker.rooms.cwal.net/portal.html)
+  see [http://ilurker.rooms.cwal.net/portal.html](http://ilurker.rooms.cwal.net/portal)
 
 #### Bug fixes
 
@@ -1051,39 +1051,39 @@ Requires CraftBukkit version git-Bukkit-1.7.9-R0.2-24-g07d4558-b3116jnks (MC: 1.
 #### Additions
 
 - Added a `/tardisschematic` command (`/ts` for short) — use it to create the new TARDIS schematics (see Changes below)
-  and [http://eccentricdevotion.github.io/TARDIS/schematic-commands.html](http://eccentricdevotion.github.io/TARDIS/schematic-commands.html)
+  and [http://eccentricdevotion.github.io/TARDIS/schematic-commands.html](http://eccentricdevotion.github.io/TARDIS/schematic-commands)
 - Added craftable bow ties and 3D-glasses (requires MCPatcher and the TARDIS-MCP Resource Pack).
-  See [http://eccentricdevotion.github.io/TARDIS/accessories.html](http://eccentricdevotion.github.io/TARDIS/accessories.html)
+  See [http://eccentricdevotion.github.io/TARDIS/accessories.html](http://eccentricdevotion.github.io/TARDIS/accessories)
   for recipes and functionality.
 - Added a config option to restrict the number of rooms that can be reconfigured at one time with ARS.
-  See [http://eccentricdevotion.github.io/TARDIS/configuration-growth.html](http://eccentricdevotion.github.io/TARDIS/configuration-growth.html#alimit)
+  See [http://eccentricdevotion.github.io/TARDIS/configuration-growth.html](http://eccentricdevotion.github.io/TARDIS/configuration-growth#alimit)
 - Added a craftable Fob Watch with a Chameleon Arch ability
-  — [http://eccentricdevotion.github.io/TARDIS/chameleon-arch.html](http://eccentricdevotion.github.io/TARDIS/chameleon-arch.html)
+  — [http://eccentricdevotion.github.io/TARDIS/chameleon-arch.html](http://eccentricdevotion.github.io/TARDIS/chameleon-arch)
 - Added a TARDIS creation area config option,
-  see: [http://eccentricdevotion.github.io/TARDIS/configuration-creation.html](http://eccentricdevotion.github.io/TARDIS/configuration-creation.html#carea)
-  and [http://eccentricdevotion.github.io/TARDIS/tardis-areas.html](http://eccentricdevotion.github.io/TARDIS/tardis-areas.html#forcec)
+  see: [http://eccentricdevotion.github.io/TARDIS/configuration-creation.html](http://eccentricdevotion.github.io/TARDIS/configuration-creation#carea)
+  and [http://eccentricdevotion.github.io/TARDIS/tardis-areas.html](http://eccentricdevotion.github.io/TARDIS/tardis-areas#forcec)
 - Added a `/tardisarea yard [area name] [material] [material]` command to visually set up parking spots in the specified
   TARDIS area,
-  see: [http://eccentricdevotion.github.io/TARDIS/area-commands.html](http://eccentricdevotion.github.io/TARDIS/area-commands.html#yard)
+  see: [http://eccentricdevotion.github.io/TARDIS/area-commands.html](http://eccentricdevotion.github.io/TARDIS/area-commands#yard)
 - Added a `/tardistravel player ?` command to request travel to a player’s protected region/claim. Can also
   use `/tardistravel player tpa`.
 - Added a config option to allow players to use ‘easy’ mode while within the configured grace period (and the server is
   on ‘hard’).
-  See [http://eccentricdevotion.github.io/TARDIS/configuration-travel.html](http://eccentricdevotion.github.io/TARDIS/configuration-travel.html#grace)
+  See [http://eccentricdevotion.github.io/TARDIS/configuration-travel.html](http://eccentricdevotion.github.io/TARDIS/configuration-travel#grace)
 - Added
-  a [config option](http://eccentricdevotion.github.io/TARDIS/configuration-allow.html#diff), [permission](http://eccentricdevotion.github.io/TARDIS/permissions.html)
-  and [command](http://eccentricdevotion.github.io/TARDIS/player-preferences.html#diff) to allow the personal setting of
+  a [config option](http://eccentricdevotion.github.io/TARDIS/configuration-allow#diff), [permission](http://eccentricdevotion.github.io/TARDIS/permissions)
+  and [command](http://eccentricdevotion.github.io/TARDIS/player-preferences#diff) to allow the personal setting of
   difficulty preference by players.
 - Added a public server condenser. To add a server condenser, place a chest, target it, then run the
   command `/tardisadmin condenser`
 - Added remote deadlocking, unlocking, hide and rebuild via a new craftable remote key,
-  see [http://eccentricdevotion.github.io/TARDIS/remote-key.html](http://eccentricdevotion.github.io/TARDIS/remote-key.html)
+  see [http://eccentricdevotion.github.io/TARDIS/remote-key.html](http://eccentricdevotion.github.io/TARDIS/remote-key)
 
 #### Changes
 
 - The plugin no longer uses MCEdit/WorldEdit schematics, instead, a new TARDIS JSON format is used. All the default
   plugin schematics will be updated automatically, but custom consoles and rooms will need to be remade.
-  See [http://eccentricdevotion.github.io/TARDIS/schematics.html](http://eccentricdevotion.github.io/TARDIS/schematics.html)
+  See [http://eccentricdevotion.github.io/TARDIS/schematics.html](http://eccentricdevotion.github.io/TARDIS/schematics)
     - As the plugin now has a bit more control over the schematics, the CUSTOM console can now be used with ARS
 - Project Rassilon plugin support was removed, as it was reported to not work anyway
 - The Diamond Disruptor Sonic upgrade can now break snow
@@ -1100,4 +1100,4 @@ Requires CraftBukkit version git-Bukkit-1.7.9-R0.2-24-g07d4558-b3116jnks (MC: 1.
 - Fixed walking into TARDIS not setting ‘occupied’ when a player has `tardis.create_world` permission
 - Fixed the condenser not returning items with no Artron value
 
-[Even older releases](change-log-older.html)
+[Even older releases](change-log-older)

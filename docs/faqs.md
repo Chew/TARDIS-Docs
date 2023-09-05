@@ -31,32 +31,32 @@ title: Troubleshooting/Common Problems
 #### I made a stack of blocks but the TARDIS does not materialise {#stack}
 
 The method for creating a TARDIS was changed in version 2.6, you should craft a TARDIS seed block instead. Check the
-‘[Creating a TARDIS](creating-a-tardis.html)’ page for details.
+‘[Creating a TARDIS](creating-a-tardis)’ page for details.
 
 #### When I click the TARDIS seed block with a stick nothing happens {#nothing}
 
 You didn’t read and follow the instructions — you need to click the seed block with the **TARDIS Key** — the key is only
-a stick if you have configured it to be one. Check the ‘[Creating a TARDIS](creating-a-tardis.html)’ page for details.
+a stick if you have configured it to be one. Check the ‘[Creating a TARDIS](creating-a-tardis)’ page for details.
 
 #### The plugin says ‘You cannot grow rooms unless your TARDIS was created in its own world’ {#rooms}
 
 You need to set up the plugin to so that when you create a TARDIS, it is created in its own world, or in a special world
 called _TARDIS\_TimeVortex_. To do this you need follow the instructions for “My TARDIS is not generating its own
 world!”
-below, or go to the [Time Vortex](time-vortex.html) page.
+below, or go to the [Time Vortex](time-vortex) page.
 
 #### I made a room and it grew inside the TARDIS! {#grew}
 
 Things have changed quite a lot with the update to TARDIS v2.6, especially the way that you grow rooms
 
 - make sure the plugin is up to date
-- read **all** the [change logs](change-log.html) for the various 2.6 versions
+- read **all** the [change logs](change-log) for the various 2.6 versions
 - stop the server
 - delete _plugins/TARDIS/schematics_ and _plugins/TARDIS/rooms.yml_
 - start the server
 - delete your old TARDIS
 - make a new TARDIS
-- use [ARS](ars.html) to grow a new room
+- use [ARS](ars) to grow a new room
 
 #### I try to grow a room but the plugin says “There seems to be a block in the way! You should be growing out into the void...” {#void}
 
@@ -117,7 +117,7 @@ You haven’t crafted the appropriate circuit and placed it in the TARDIS Advanc
 
 This is probably because the TARDIS difficulty level is set to `hard`. On hard difficulty, most travel commands are
 disabled, and you must place the appropriate storage disk into the Advanced Console instead. See the
-[Advanced Console](advanced-console.html) page for more information.
+[Advanced Console](advanced-console) page for more information.
 
 You can also use the `/tardisconfig difficulty easy` command to switch difficulty levels and re-enable the commands.
 
@@ -159,7 +159,7 @@ To fix this, type the command:
 
 #### It keeps saying I’m restricted to the [] area or something about my exile status! {#perms}
 
-Please read the first part of the [Permissions](permissions.html) page.
+Please read the first part of the [Permissions](permissions) page.
 
 [Back to top](#top)
 
@@ -170,7 +170,7 @@ command (DO NOT use `/reload` as the plugin saves the current settings when it i
 
 The better option is to set the config options in game with the `/tardisconfig [config option] [value]` command —
 changes
-take effect immediately, no server restart required. See the [Config Commands](config-commands.html) page for more
+take effect immediately, no server restart required. See the [Config Commands](config-commands) page for more
 details.
 
 [Back to top](#top)
@@ -193,7 +193,7 @@ You have three options:
 1. Use the the TARDIS config commands to change the options i.e. `/tardisconfig [config option] [value]` for example
    `/tardisconfig key CARROT` — the benefit is that changes take effect immediately, you don’t need to restart the
    server.
-   Refer to the [config commands](config-commands.html) page.
+   Refer to the [config commands](config-commands) page.
 2. Manually edit the file, save it, and use the `/tardisconfig reload` command to load your changes into the server’
    memory.
 3. **STOP** the server. Edit the config file, save it, then start the server.

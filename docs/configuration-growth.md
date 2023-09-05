@@ -25,5 +25,5 @@ These are the room growth configuration options.
 | &nbsp;&nbsp;&nbsp;&nbsp;`ars_limit`               | integer                                                                                                                      | `1`           |
 | &nbsp;                                            | Sets the maximum number of rooms that can be reconfigured at a time.                                                         |
 
-[Back to main configuration page](configuration.html)
+[Back to main configuration page](configuration)
 

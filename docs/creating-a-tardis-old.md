@@ -94,4 +94,4 @@ See the picture below for how it should look.
 
 &nbsp;
 
-**Next:** [Artron Energy](artron-energy.html)
+**Next:** [Artron Energy](artron-energy)

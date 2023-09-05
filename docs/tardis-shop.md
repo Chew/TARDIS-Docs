@@ -34,7 +34,7 @@ These can be found in _shop.yml_.
 
 | Option              | Type    | Default             | Description                                                                                                                                                                                 |
 |---------------------|---------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `block`             | string  | `PRISMARINE_BRICKS` | The type of block that TARDIS items will be displayed on. This should be specified using the [Bukkit Material ENUM](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) name |
+| `block`             | string  | `PRISMARINE_BRICKS` | The type of block that TARDIS items will be displayed on. This should be specified using the [Bukkit Material ENUM](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material) name |
 | `tardis_admin_free` | boolean | `true`              | Whether players with `tardis.admin` permission get TARDIS items for free from the shop                                                                                                      |
 
 ### Permissions

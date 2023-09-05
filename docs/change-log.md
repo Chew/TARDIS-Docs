@@ -383,13 +383,13 @@ For Spigot 1.12.2
     - Added new mobs
 - Added more biome adaptive presets
 - Added new Chameleon Circuit GUI —
-  see [http://eccentricdevotion.github.io/TARDIS/chameleon-circuit.html](http://eccentricdevotion.github.io/TARDIS/chameleon-circuit.html)
+  see [http://eccentricdevotion.github.io/TARDIS/chameleon-circuit.html](http://eccentricdevotion.github.io/TARDIS/chameleon-circuit)
 - Added the ability to archive a TARDIS console
     - `/tardis archive` command
     - TARDIS Archive GUI (can be accessed from the Desktop Theme GUI)
     - Added 3 different sized cobblestone template consoles
     -
-    See [http://eccentricdevotion.github.io/TARDIS/archive.html](http://eccentricdevotion.github.io/TARDIS/archive.html)
+    See [http://eccentricdevotion.github.io/TARDIS/archive.html](http://eccentricdevotion.github.io/TARDIS/archive)
 - Added room costs to the ARS GUI
 - Added a `/tardis construct [line] [text with colour codes]` command to set the text on the TARDIS’ exterior sign (when
   using the CONSTRUCT preset)
@@ -491,8 +491,8 @@ For Spigot 1.12.2
     - Added new blocks
     - Added new mobs
     - Fixed spawn eggs due Minecraft changes
-- Added the ability to create a Skaro world — see more details here: [Skaro](skaro.html)
-- Added the ability to have per-world resource packs — see [Planet configuration](configuration-planets.html)
+- Added the ability to create a Skaro world — see more details here: [Skaro](planets#planet-skaro)
+- Added the ability to have per-world resource packs — see [Planet configuration](configuration-planets)
 - Added beetroot to the Sonic replanter feature
 - Added the ENDER console designed by ToppanaFIN — seed block: PURPUR\_BLOCK
 - Added CORAL console designed by vistaero — seed block: NETHER_WART_BLOCK
@@ -512,7 +512,7 @@ For Spigot 1.12.2
     - the config option `allow.power_down` must be `true`
 - Added `hum` player preference and GUI to set the TARDIS interior hum sound effect preference — use the Sonic
   Preferences GUI or the `/tardisprefs hum [sound name]` command
-- Added Acid Batteries, the Rift Circuit, [Rift Manipulator](rift-manipulator.html) and the Rust Plague Sword
+- Added Acid Batteries, the Rift Circuit, [Rift Manipulator](rift-manipulator) and the Rust Plague Sword
     - `/tardisrecipe [acid-battery|rift-circuit|rift-manipulator|rust-plague-sword]`
     - Acid Batteries and the Rift Circuit are ingredients in crafting the Rift Manipulator
     - The Rift Manipulator allows players to create personal TARDIS rechargers — permission `tardis.rift`
@@ -568,5 +568,5 @@ For Spigot 1.12.2
   restarts
 - Fixed the INVISIBLE chameleon preset not updating the exterior door location
 
-[Older releases](change-log-not-so-older.html)
+[Older releases](change-log-not-so-older)
 
