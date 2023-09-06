@@ -16,46 +16,58 @@ This command works the same way as the Essentials plugin `/recipe` command.
 Listed below is a selection of TARDIS items that you can craft. You can use the `/tardisrecipe list` command to see a
 categorised list of all items.
 
-**Tip:** You can also use tab key completion to see a full list in-game.
+:::tip
+
+You can also use tab key completion to see a full list in-game.
+
+:::
 
 #### Accessories
 
-| Fob Watch | `/tardisrecipe fob-watch` |
-| Handles | `/tardisrecipe handles` |
-| Rift Manipulator | `/tardisrecipe rift-manipulator` |
-| Tardis Communicator | `/tardisrecipe communicator` |
-| Red Bow Tie | `/tardisrecipe bow-tie` |
-| Three D Glasses | `/tardisrecipe 3-d-glasses` |
+| Name                | Command                          |
+|---------------------|----------------------------------|
+| Fob Watch           | `/tardisrecipe fob-watch`        |
+| Handles             | `/tardisrecipe handles`          |
+| Rift Manipulator    | `/tardisrecipe rift-manipulator` |
+| Tardis Communicator | `/tardisrecipe communicator`     |
+| Red Bow Tie         | `/tardisrecipe bow-tie`          |
+| Three D Glasses     | `/tardisrecipe 3-d-glasses`      |
 
-#### Console circuits
+#### Console Circuits
 
-| Tardis Ars Circuit | `/tardisrecipe ars-circuit` |
-| Tardis Chameleon Circuit | `/tardisrecipe chameleon-circuit` |
-| Tardis Input Circuit | `/tardisrecipe input-circuit` |
-| Tardis Invisibility Circuit | `/tardisrecipe invisibility-circuit` |
+| Name                           | Command                                 |
+|--------------------------------|-----------------------------------------|
+| Tardis Ars Circuit             | `/tardisrecipe ars-circuit`             |
+| Tardis Chameleon Circuit       | `/tardisrecipe chameleon-circuit`       |
+| Tardis Input Circuit           | `/tardisrecipe input-circuit`           |
+| Tardis Invisibility Circuit    | `/tardisrecipe invisibility-circuit`    |
 | Tardis Materialisation Circuit | `/tardisrecipe materialisation-circuit` |
-| Tardis Memory Circuit | `/tardisrecipe memory-circuit` |
-| Tardis Randomiser Circuit | `/tardisrecipe randomiser-circuit` |
-| Tardis Scanner Circuit | `/tardisrecipe scanner-circuit` |
-| Tardis Telepathic Circuit | `/tardisrecipe telepathic-circuit` |
-| Tardis Temporal Circuit | `/tardisrecipe temporal-circuit` |
+| Tardis Memory Circuit          | `/tardisrecipe memory-circuit`          |
+| Tardis Randomiser Circuit      | `/tardisrecipe randomiser-circuit`      |
+| Tardis Scanner Circuit         | `/tardisrecipe scanner-circuit`         |
+| Tardis Telepathic Circuit      | `/tardisrecipe telepathic-circuit`      |
+| Tardis Temporal Circuit        | `/tardisrecipe temporal-circuit`        |
 
 #### Food
 
-| Custard Cream | `/tardisrecipe custard-cream` |
-| Fish Finger | `/tardisrecipe fish-finger` |
-| Jammy Dodger | `/tardisrecipe jammy-dodger` |
-| Paper Bag | `/tardisrecipe paper-bag` |
-| Bowl Of Custard | `/tardisrecipe bowl-of-custard` |
-| Orange Jelly Baby | `/tardisrecipe jelly-baby` |
+| Name              | Command                         |
+|-------------------|---------------------------------|
+| Custard Cream     | `/tardisrecipe custard-cream`   |
+| Fish Finger       | `/tardisrecipe fish-finger`     |
+| Jammy Dodger      | `/tardisrecipe jammy-dodger`    |
+| Paper Bag         | `/tardisrecipe paper-bag`       |
+| Bowl Of Custard   | `/tardisrecipe bowl-of-custard` |
+| Orange Jelly Baby | `/tardisrecipe jelly-baby`      |
 
-#### Item circuits
+#### Item Circuits
 
-| Perception Circuit | `/tardisrecipe perception-circuit` |
-| Rift Circuit | `/tardisrecipe rift-circuit` |
-| Sonic Generator | `/tardisrecipe sonic-generator` |
-| Sonic Oscillator | `/tardisrecipe sonic-oscillator` |
-| Tardis Locator Circuit | `/tardisrecipe locator-circuit` |
+| Name                       | Command                             |
+|----------------------------|-------------------------------------|
+| Perception Circuit         | `/tardisrecipe perception-circuit`  |
+| Rift Circuit               | `/tardisrecipe rift-circuit`        |
+| Sonic Generator            | `/tardisrecipe sonic-generator`     |
+| Sonic Oscillator           | `/tardisrecipe sonic-oscillator`    |
+| Tardis Locator Circuit     | `/tardisrecipe locator-circuit`     |
 | Tardis Stattenheim Circuit | `/tardisrecipe stattenheim-circuit` |
 
 #### Items

@@ -31,6 +31,11 @@ const sidebars = {
   docs: [
     'index',
     {
+      type: 'doc',
+      id: 'faqs',
+      label: "FAQs"
+    },
+    {
       type: 'category',
       label: 'First Things First',
       link: {
@@ -91,6 +96,19 @@ const sidebars = {
         'translator',
         'achievements',
         'schematics',
+        {
+          type: 'category',
+          label: "Chemistry Lab",
+          link: {
+            type: "doc",
+            id: "chemistry-lab/index"
+          },
+          items: [
+              'products',
+            'compounds',
+            'elements'
+          ]
+        }
       ],
     },
     {
