@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TARDIS Plugin Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'It’s bigger on the inside',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'eccentricdevotion', // Usually your GitHub org/user name.
+  projectName: 'TARDIS', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -144,16 +144,20 @@ const config = {
             title: "Downloads",
             items: [
               {
+                label: "Jenkins",
+                href: "http://tardisjenkins.duckdns.org:8080/job/TARDIS/",
+              },
+              {
+                label: "GitHub Releases",
+                href: "https://github.com/eccentricdevotion/TARDIS/releases",
+              },
+              {
                 label: "Spigot",
                 href: "https://www.spigotmc.org/resources/tardis.19931/",
               },
               {
                 label: "Modrinth",
                 href: "https://modrinth.com/mod/tardis",
-              },
-              {
-                label: "Jenkins",
-                href: "http://tardisjenkins.duckdns.org:8080/job/TARDIS/",
               }
             ]
           },
