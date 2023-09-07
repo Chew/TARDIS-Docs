@@ -1,16 +1,22 @@
 ---
 layout: default
 title: TARDIS Shop
+slug: /tardis-shop
 ---
 
 # TARDIS Shop
 
 TARDIS Shop is a simple shop module for TARDIS items and blueprints.
 
-> __Note__ For TARDIS version 4.14.0 and below you can download it here:
-[http://tardisjenkins.duckdns.org:8080/job/TARDISShop/](http://tardisjenkins.duckdns.org:8080/job/TARDISShop/) -
+:::note
+
+ For TARDIS version 4.14.0 and below you can download it here:
+[http://tardisjenkins.duckdns.org:8080/job/TARDISShop/](http://tardisjenkins.duckdns.org:8080/job/TARDISShop/)
+
 _The instructions below are for the TARDIS module, but are pretty much the same, with some extra configuration options (
 database / plugin respect), and separate commands instead of sub-commands._
+
+:::
 
 ## Enabling the module
 
@@ -21,14 +27,14 @@ To use the shop module, it must be enabled in the TARDIS config.
 
 Shops are **server** based, players _cannot_ setup their own personal shops.
 
-### Requirements
+## Requirements
 
 In order for the Shop module to function you will need to install:
 
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * A permissions plugin
 
-### Config options
+## Config options
 
 These can be found in _shop.yml_.
 
@@ -37,7 +43,7 @@ These can be found in _shop.yml_.
 | `block`             | string  | `PRISMARINE_BRICKS` | The type of block that TARDIS items will be displayed on. This should be specified using the [Bukkit Material ENUM](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material) name |
 | `tardis_admin_free` | boolean | `true`              | Whether players with `tardis.admin` permission get TARDIS items for free from the shop                                                                                                      |
 
-### Permissions
+## Permissions
 
 | Permission         | Description                                   | Default |
 |--------------------|:----------------------------------------------|---------|

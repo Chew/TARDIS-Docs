@@ -1,6 +1,7 @@
 ---
 layout: default
 title: World Generators
+slug: /generators
 ---
 
 # World Generators
@@ -48,7 +49,7 @@ Desert biome with custom sky colour, trees and Dalek structures.
 
 Set block types in **TARDISChunkGenerator**'s _config.yml_
 
-```yaml
+```yaml title="/plugins/TARDISChunkGenerator/config.yml"
 ## Blocks to use in the Flat World Generator
 # Use Spigot Material names
 # bottom has 1 layer

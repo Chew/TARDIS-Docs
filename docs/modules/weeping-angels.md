@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Weeping Angels
+slug: /weeping-angels
 ---
 
 # Weeping Angels
@@ -62,7 +63,7 @@ the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Reso
 
 ## Features
 
-#### For each monster:
+For each monster:
 
 - Configurable spawn rate
 - Configurable drop on death
@@ -293,6 +294,6 @@ For configuration options, see the [Monsters configuration](configuration/config
 |         | `give [player] [monster type]`        | Gives a player a monster head to display in an item frame                   |
 |         | `teleport [replace\|true\|false]`     | Toggle and add specific angel teleport locations                            |
 
-### Video
+## Video
 
 <iframe width="600" height="366" src="https://www.youtube.com/embed/Ybpo4KQZpF4?rel=0" frameborder="0" allowfullscreen></iframe>

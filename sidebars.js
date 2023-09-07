@@ -172,12 +172,12 @@ const sidebars = {
       },
       items: [
           'modules',
-        'generators',
-        'weeping-angels',
+        'modules/generators',
+        'modules/weeping-angels',
         'modules/vortex-manipulator',
-        'dynmap-tardis',
-        'tardis-shop',
-        'sonic-blaster'
+        'modules/dynmap-tardis',
+        'modules/tardis-shop',
+        'modules/sonic-blaster'
       ]
     },
     {

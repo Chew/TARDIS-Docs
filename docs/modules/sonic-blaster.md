@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sonic Blaster
+slug: /sonic-blaster
 ---
 
 # Sonic Blaster
@@ -14,7 +15,7 @@ Villengard factory, until it was destroyed by the Doctor, and replaced by banana
 
 ## Configuration
 
-```yaml
+```yaml title="/plugins/TARDIS/blaster.yml"
 # the maximum effective distance of the blaster
 max_blocks: 10
 # the amount of time in seconds between blaster uses
