@@ -1,41 +1,25 @@
-# Website
+TARDIS
+======
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+A Spigot/Paper plugin for all Doctor Who fans - create and use a TARDIS! It's bigger on the inside!
 
-### Installation
+These are the official documentation and help pages - you can view them at http://eccentricdevotion.github.io/TARDIS/
 
-```
-$ yarn
-```
+![TARDIS Interior](/images/docs/round_time_rotor.jpg)
 
-### Local Development
+![TARDIS Exterior](/images/docs/tennant_blue.jpg)
 
-```
-$ yarn start
-```
+## Contributing
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Want to help with the wiki? Great! First, clone this branch, you'll need npm:
 
-### Build
-
-```
-$ yarn build
+```sh
+npm i
+npm run start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Now, make your changes. You'll see them at http://localhost:3000
 
-### Deployment
+When you're happy, commit your changes and push them to the `docs` branch on your fork, then make a PR!
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you make a new page, be sure to add it to the `sidebars.js` file so it shows up!
