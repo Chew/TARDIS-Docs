@@ -3,8 +3,6 @@ layout: default
 title: Texture Command
 ---
 
-[Jump to video](#video)
-
 # The Texture command
 
 In order to use this feature, you must set **Server Textures: On** in the Minecraft client **Video Settings** options.

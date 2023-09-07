@@ -3,8 +3,6 @@ layout: default
 title: Sonic Screwdriver
 ---
 
-[Jump to video](#video)
-
 # Sonic Screwdriver
 
 You can craft an upgradable Sonic Screwdriver!

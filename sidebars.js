@@ -126,6 +126,7 @@ const sidebars = {
         'chameleon-circuit',
         'junk-tardis',
         'food',
+        'accessories',
         'scanner',
         'farming',
         'hads',
@@ -171,7 +172,7 @@ const sidebars = {
       },
       items: [
           'modules',
-          'generators',
+        'generators',
         'weeping-angels',
         'modules/vortex-manipulator',
         'dynmap-tardis',

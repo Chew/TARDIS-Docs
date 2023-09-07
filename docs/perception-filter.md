@@ -3,8 +3,6 @@ layout: default
 title: Perception Filter
 ---
 
-[Jump to video](#video)
-
 # Perception Filter
 
 You can craft a Perception Filter to make yourself partially invisible.

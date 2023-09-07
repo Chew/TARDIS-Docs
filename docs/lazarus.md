@@ -3,8 +3,6 @@ layout: default
 title: Genetic Manipulator (AKA Lazarus Device)
 ---
 
-[Jump to video](#video)
-
 # TARDIS Genetic Manipulator (AKA Lazarus Device)
 
 ## Recommendation

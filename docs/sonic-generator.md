@@ -3,8 +3,6 @@ layout: default
 title: Sonic Generator
 ---
 
-[Jump to video](#video)
-
 # Sonic Generator
 
 The Sonic Generator allows players to configure and produce a new screwdriver from the console. Each time a sonic is

@@ -3,8 +3,6 @@ layout: default
 title: Remote key
 ---
 
-[Jump to video](#video)
-
 # TARDIS Remote key
 
 The Tenth Doctor installed a system that allowed him to lock the TARDIS remotely using a key remote (as a joke, the

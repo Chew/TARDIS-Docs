@@ -3,8 +3,6 @@ layout: default
 title: Handles
 ---
 
-[Jump to video](#video)
-
 # Handles
 
 Handles is the name given by the Eleventh Doctor to a Cyberman head that he obtained from the Maldovarium Market, and

@@ -4,8 +4,6 @@ title: Installation
 path: /installation
 ---
 
-[Jump to video](#video)
-
 # Installation
 
 Get the latest TARDIS plugin file

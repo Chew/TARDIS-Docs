@@ -3,8 +3,6 @@ layout: default
 title: The Chameleon Construction GUI
 ---
 
-[Jump to video](#video)
-
 # The Chameleon Construction GUI
 
 Since version 3.4-beta-1, the TARDIS plugin includes a GUI where players can construct their own Chameleon preset.

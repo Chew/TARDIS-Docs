@@ -3,8 +3,6 @@ layout: default
 title: Remote Command
 ---
 
-[Jump to video](#video)
-
 # The Remote command
 
 This command lets you remotely control a TARDIS, and is useful for server admins and command blocks. To use the command

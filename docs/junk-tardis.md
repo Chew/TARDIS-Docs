@@ -3,8 +3,6 @@ layout: default
 title: The Junk TARDIS
 ---
 
-[Jump to video](#video)
-
 # The Junk TARDIS
 
 The Junk TARDIS is a public use TARDIS that any player with the correct permission can use on the server. It only

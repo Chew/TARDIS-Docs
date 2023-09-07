@@ -3,8 +3,6 @@ layout: default
 title: Travelling
 ---
 
-[Jump to video](#video)
-
 # Travelling
 
 You can time travel in the TARDIS by using the controls on the TARDIS console, 

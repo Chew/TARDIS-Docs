@@ -3,8 +3,6 @@ layout: default
 title: Flying the TARDIS
 ---
 
-[Jump to video](#video)
-
 # Flying the TARDIS
 
 From version 5 of the TARDIS plugin, you can fly the TARDIS exterior around your worlds.

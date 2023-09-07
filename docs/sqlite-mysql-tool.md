@@ -3,8 +3,6 @@ layout: default
 title: SQLite -> MySQL conversion tool
 ---
 
-[Jump to video](#video)
-
 # SQLite -\> MySQL conversion tool
 
 You can easily change the database storage format of the TARDIS plugin using the SQLite -\> MySQL conversion tool.

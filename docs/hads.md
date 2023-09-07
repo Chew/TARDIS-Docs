@@ -3,8 +3,6 @@ layout: default
 title: Hostile Action Displacement/Dispersal System
 ---
 
-[Jump to video](#video)
-
 # Hostile Action Displacement/Dispersal System
 
 You can set the TARDIS to move away from hostile actions automatically (DISPLACEMENT) or disperse its particles into the
@@ -33,6 +31,6 @@ Screwdriver to rebuild the Police Box.
 If there are issues with un-dispersing, a server admin can run the command `/tardissudo [player] assemble`, then the
 player can rebuild the TARDIS.
 
-### Video
+## Video
 
 <iframe src="https://player.vimeo.com/video/66992762" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

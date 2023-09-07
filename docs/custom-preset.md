@@ -3,8 +3,6 @@ layout: default
 title: The Custom Chameleon preset
 ---
 
-[Jump to video](#video)
-
 # The Custom Chameleon preset
 
 The TARDIS Chameleon Circuit GUI has one preset slot set up so that server admins can add a custom preset.

@@ -3,8 +3,6 @@ layout: default
 title: TARDIS Transmat
 ---
 
-[Jump to video](#video)
-
 # TARDIS Transmat
 
 Transmat is a common technological form of instantaneous transport.

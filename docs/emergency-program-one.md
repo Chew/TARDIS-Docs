@@ -3,8 +3,6 @@ layout: default
 title: Emergency Program One
 ---
 
-[Jump to video](#video)
-
 # Emergency Program One
 
 Emergency Program One works hand in hand with the TARDIS Autonomous function and TARDIS malfunctions. If the Autonomous
