@@ -3,8 +3,6 @@ layout: default
 title: Artron Energy
 ---
 
-[Jump to video](#video)
-
 # Artron Energy
 
 Your TARDIS runs on Artron Energy, and has multiple ways of recharging. By default
@@ -109,7 +107,7 @@ Some functions of the TARDIS, for example using the Desktop Theme GUI require
 that the Artron Energy Capacitor be charged more than the maximum amount. To do
 this you will need to condense extra blocks and items, or use Artron Storage Cells.
 
-### Video
+## Video
 
 <iframe src="https://player.vimeo.com/video/57842293" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -117,6 +115,3 @@ this you will need to condense extra blocks and items, or use Artron Storage Cel
 
 **\*** Note — the Artron Energy readout will not display if you are wearing the
 [Perception Filter](perception-filter).
-
-`Next:` [Time Travel](time-travel)
-

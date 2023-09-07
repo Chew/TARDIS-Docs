@@ -3,8 +3,6 @@ layout: default
 title: Companions
 ---
 
-[Jump to video](#video)
-
 # Companions
 
 The TARDIS plugin supports companions so you can travel with your friends!
@@ -33,7 +31,7 @@ To lock controls, you use the `/tardisprefs` command:
 
     /tardisprefs isomorphic [on|off]
 
-#### List companions
+## List companions
 
 To list your companions, type the command:
 
@@ -46,6 +44,6 @@ To list the companions currently in your TARDIS, type the command:
 You can prevent anyone — including companions and yourself — from entering the TARDIS by locking the Police Box door. To
 do this, **LEFT**-click the door with your TARDIS key.
 
-### Video
+## Video
 
 <iframe src="https://player.vimeo.com/video/59322488" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

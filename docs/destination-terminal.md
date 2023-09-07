@@ -3,8 +3,6 @@ layout: default
 title: Destination Terminal
 ---
 
-[Jump to video](#video)
-
 # Destination Terminal
 
 The Destination Terminal is an alternative way to set a time travel location. The Destination Terminal is automatically
@@ -17,7 +15,7 @@ TARDIS submarine mode for travelling under water.
 
 ![Destination Terminal](/images/docs/destination-terminal.jpg)
 
-### Key to the blocks
+## Key to the blocks
 
 First row: **Step levels** — these control how much the x, z and multiplier values change.
 
@@ -58,7 +56,7 @@ Bottom row: **check/set destination**.
 - ![set](/images/icons/47_0.png) Set destination
 - ![cancel](/images/icons/46_0.png) Cancel
 
-### Video
+## Video
 
 Slightly outdated, but you’ll get the idea...
 

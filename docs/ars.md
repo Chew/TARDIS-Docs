@@ -3,8 +3,6 @@ layout: default
 title: Architectural Reconfiguration System
 ---
 
-[Jump to videos](#video)
-
 # Architectural Reconfiguration System
 
 The TARDIS ARS is a system for managing the growing and jettisoning of rooms.
@@ -63,7 +61,7 @@ Folow these steps to use the ARS:
    that the room should be jettisoned. **\***
 7. Once you have configured the rooms you require, click the pink Reconfigure block.
 
-### Notes and tips
+### Notes and Tips
 
 - The map aligns to standard compass directions, so **up/top** is NORTH,
   **down/bottom** is SOUTH, **left** is WEST, and **right** is EAST
@@ -81,6 +79,6 @@ Folow these steps to use the ARS:
   reserved ARS region if you so desire. Likewise you can put an antigravity well
   on the top level to manually grow rooms _above_ the reserved ARS region.
 
-### Videos
+### Video
 
 <iframe src="https://player.vimeo.com/video/68938409" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

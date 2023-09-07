@@ -5,8 +5,6 @@ title: Creating a TARDIS
 
 # Creating a TARDIS
 
-[Jump to video](#video)
-
 To create a TARDIS, you first need to craft a TARDIS seed block. The crafting recipe depends on which version of the
 plugin you have installed.
 

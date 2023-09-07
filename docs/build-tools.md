@@ -3,9 +3,13 @@ layout: default
 title: How to use BuildTools
 ---
 
-## TL;DR
+:::info
 
-Just download Paper - [https://papermc.io/downloads/paper](https://papermc.io/downloads/paper)
+You should just download Paper instead of using BuildTools. Paper is a fork of Spigot that is more optimized and doesn't require the steps below.
+
+[https://papermc.io/downloads/paper](https://papermc.io/downloads/paper)
+
+:::
 
 # How to use BuildTools
 

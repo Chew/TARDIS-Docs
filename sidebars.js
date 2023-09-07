@@ -44,9 +44,22 @@ const sidebars = {
       collapsed: false,
       items: [
         'installation-v5',
+        'updating-to-unified-plugin',
         'creating-a-tardis',
         'companions',
-        'artron-energy',
+        {
+          type: 'category',
+          label: "Artron Energy",
+          link: {
+            type: 'generated-index',
+          },
+          items: [
+              'artron-energy',
+            'condenser',
+            'artron-cells',
+            'condensables',
+          ]
+        },
         'enter-and-exit',
         'removing-a-tardis',
       ],
@@ -62,6 +75,40 @@ const sidebars = {
         'advanced-console',
         'keyboard',
         'malfunction',
+        'destination-terminal',
+      ],
+    },
+    {
+      type: 'category',
+      label: "Customize Your TARDIS!",
+      items: [
+        'modifying-the-tardis-interior',
+        'ars',
+        'desktop-theme',
+        {
+          type: 'category',
+          label: "Rooms",
+          items: [
+            'rooms',
+            'room-gallery',
+            'custom-rooms',
+            'gravity-wells',
+            'zero-room',
+            'rail-room',
+            'vault',
+          ]
+        }
+      ],
+    },
+    {
+      type: 'category',
+      label: "Manage Your TARDIS",
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+          'control-menu',
+          'save-sign'
       ],
     },
     {
@@ -72,23 +119,14 @@ const sidebars = {
       },
       items: [
         'resource-packs',
-        'zero-room',
         'weeping-angels',
         'lazarus',
         'sonic-screwdriver',
         'perception-filter',
-        'ars',
-        'rooms',
-        'gravity-wells',
-        'custom-rooms',
-        'modifying-the-tardis-interior',
-        'desktop-theme',
         'chameleon-circuit',
         'junk-tardis',
         'food',
         'scanner',
-        'condenser',
-        'artron-cells',
         'farming',
         'hads',
         'emergency-program-one',
@@ -104,9 +142,9 @@ const sidebars = {
             id: "chemistry-lab/index"
           },
           items: [
-              'products',
-            'compounds',
-            'elements'
+              'chemistry-lab/products',
+            'chemistry-lab/compounds',
+            'chemistry-lab/elements'
           ]
         }
       ],

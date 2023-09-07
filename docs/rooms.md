@@ -3,18 +3,18 @@ layout: default
 title: Rooms
 ---
 
-[Jump to videos](#video)
-
-[Visit the room gallery](room-gallery)
-
 # Rooms
 
 **Note:** This feature has changed significantly as of TARDIS version 2.6-beta-1! It requires:
 
 - `create_worlds: true` in the config, and a multi-world plugin
-- OR
+
+OR
+
 - a special world called _TARDIS\_TimeVortex_ — to learn how to set this up visit the [Time Vortex](time-vortex)
   page
+
+[Visit the room gallery](room-gallery)
 
 ## Growing rooms
 

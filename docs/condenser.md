@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Condenser chest
+title: Condenser Chest
 ---
 
-# Condenser chest
+# Condenser Chest
 
 One of the ways to recharge the Artron Energy Capacitor is to convert raw materials into energy. You can do this with
 the TARDIS’s condenser chest.

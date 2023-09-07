@@ -3,9 +3,7 @@ layout: default
 title: Condensable items
 ---
 
-[Back](javascript:history.back();)
-
-# Condensable items
+# Condensable Items
 
 The following list contains all the valid condensable items that can be used to generate Artron Energy. The number
 represents the _relative_ energy value &mdash; the actual value received after condensing the items will be
@@ -1062,4 +1060,3 @@ approximately half.
 | YELLOW_WOOL                        | 20             |
 | ZOMBIE_HEAD                        | 200            |
 
-[Back](javascript:history.back();)

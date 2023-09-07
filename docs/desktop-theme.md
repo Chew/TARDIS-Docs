@@ -3,15 +3,13 @@ layout: default
 title: Desktop Theme
 ---
 
-[Jump to video](#video)
-
 # Desktop Theme
 
 You can upgrade/downgrade/crossgrade your TARDIS to another type or simply change the wall and floor blocks with the
 TARDIS Desktop Theme.
 
 Changing the desktop theme requires a player to have the `tardis.upgrade` permission, and consumes a set amount of
-Artron Energy (the amount of energy is set in _artron.yml_).
+Artron Energy (the amount of energy is set in `artron.yml`).
 
 If you are just changing the walls and floor of your current TARDIS the Artron cost is less (you can set the reduction
 with the `just_wall_floor: [percent]` option in _artron.yml_.

@@ -1,9 +1,7 @@
 ---
 layout: default
-title: areas
+title: TARDIS Areas
 ---
-
-[Jump to video](#video)
 
 # TARDIS areas
 
