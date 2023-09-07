@@ -71,7 +71,7 @@ the [planets.yml configuration file](configuration-planets). Below is a sample c
 each line.
 
 For acid potion effects, see
-the [Bukkit PotionType Enum](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType).
+the [Bukkit PotionType Enum](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType.html).
 
 ```yaml
 # other config #
