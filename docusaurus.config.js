@@ -181,7 +181,27 @@ const config = {
       },
     }),
 
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+      require.resolve('docusaurus-lunr-search'),
+    [
+        '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/chemistry-lab/products',
+            from: '/chemistry-lab-products',
+          },
+          // Redirect from multiple old paths to the new path
+          // {
+          //   to: '/docs/newDoc2',
+          //   from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+          // },
+        ],
+      },
+    ]
+  ],
 };
 
 module.exports = config;
