@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Vortex Manipulator
+slug: /vortex-manipulator
 ---
-
-[Jump to videos](#videos)
 
 # Vortex Manipulator
 
@@ -13,10 +12,15 @@ TARDISVortexManipulator is one of the TARDIS plugin modules that brings
 the [Vortex Manipulator](https://tardis.fandom.com/wiki/Vortex_manipulator) to Minecraft. Travel like Jack Harkness or
 River Song from Doctor Who! Have the Vortex Manipulator in your hand, put in your desired location, and GO!
 
-> __Note__ For TARDIS version 4.13.0 and below you can download the separate TARDISVortexManipulator plugin JAR
-> from [http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/](http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/) -
+:::note
+
+__Note__ For TARDIS version 4.13.0 and below you can download the separate TARDISVortexManipulator plugin JAR 
+from [http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/](http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/)
+
   _The instructions below are for the TARDIS module, but are pretty much the same ,with some extra configuration options (
   database / plugin respect), and separate commands instead of sub-commands._
+ 
+:::
 
 ## Enabling the module
 
@@ -95,7 +99,7 @@ default if possible). Towny/Faction/WorldGuard/GriefPrevention suport can be ena
 
 The _vortex_manipulator.yml_ config is shown below:
 
-```yaml
+```yaml title="/plugins/TARDIS/vortex_manipulator.yml"
 allow:
   teleport: true
   messaging: true
@@ -133,7 +137,7 @@ max_look_at_distance: 50
 block_travel_malfunction_chance: 0
 ```
 
-### Video
+## Video
 
 <iframe width="600" height="366" src="https://www.youtube.com/embed/broKxj7z3cI?rel=0" frameborder="0" allowfullscreen></iframe>
 

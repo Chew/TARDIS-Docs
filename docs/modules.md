@@ -36,7 +36,7 @@ To see what each module does, visit the appropriate page:
 
 - [Chunk Generator](generators)
 - [Weeping Angels](weeping-angels)
-- [Vortex Maipulator](vortex-manipulator)
+- [Vortex Maipulator](/vortex-manipulator)
 - [Dynmap](dynmap-tardis)
 - [Shop](tardis-shop)
 - [Sonic Blaster](sonic-blaster)

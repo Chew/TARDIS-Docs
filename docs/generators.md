@@ -26,7 +26,7 @@ Badlands biomes with custom sky colour, trees and Time Lord structures.
 
 ![Gallifrey world](/images/docs/gallifrey.jpg)
 
-### Siluria
+## Siluria
 
 `TARDISChunkGenerator:siluria`
 
@@ -34,7 +34,7 @@ Bamboo & sparse jungle biomes with custom Silurian structures.
 
 ![Siluria world](/images/docs/siluria.jpg)
 
-### Skaro
+## Skaro
 
 `TARDISChunkGenerator:skaro`
 

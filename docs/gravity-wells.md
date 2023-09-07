@@ -3,8 +3,6 @@ layout: default
 title: Gravity Wells
 ---
 
-[Jump to videos](#video)
-
 # Gravity Wells
 
 Gravity wells let you move around the TARDIS interior without having to walk or use ladders. They let you create
@@ -83,7 +81,7 @@ trigger block, you can use the command:
 
 You will be prompted to click on the block to remove the reference to it in the TARDIS database.
 
-### Videos
+## Videos
 
 <iframe src="https://player.vimeo.com/video/58275849" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><iframe src="https://player.vimeo.com/video/61447553" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

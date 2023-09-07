@@ -3,8 +3,6 @@ layout: default
 title: Custom rooms
 ---
 
-[Jump to video](#video)
-
 # Custom rooms
 
 TARDIS has the ability to add your own custom rooms using [TARDIS schematic](schematics) files and
@@ -38,7 +36,7 @@ of the room seed block, and must be _a block not used by any other rooms_ e.g. S
 
 `true` The last command enables the room.
 
-### /tardisroom required
+## /tardisroom required
 
 Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks` is `true` in the TARDIS config.
 
@@ -64,11 +62,15 @@ Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks
 - Rooms are grown from the bottom to top so keep that in mind when designing the room — you can’t place levers upside
   down for example as there will be no block for them to stick to and they will just fall into the void
 
-### Video
+## Video
 
-**Note:** This video is very outdated! The plugin no longer uses WorldEdit schematics and rooms should be grown with
+:::caution
+
+This video is very outdated! The plugin no longer uses WorldEdit schematics and rooms should be grown with
 ARS.
 The video shows also the custom room schematic being put into the _schematics_ folder, but it should now be put into the
 _user\_schematics_ folder.
+
+:::
 
 <iframe src="https://player.vimeo.com/video/64474578" width="600" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

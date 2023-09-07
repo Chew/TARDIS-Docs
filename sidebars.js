@@ -73,6 +73,7 @@ const sidebars = {
       items: [
         'time-travel',
         'advanced-console',
+        'crafting-disks',
         'keyboard',
         'malfunction',
         'destination-terminal',
@@ -119,7 +120,6 @@ const sidebars = {
       },
       items: [
         'resource-packs',
-        'weeping-angels',
         'lazarus',
         'sonic-screwdriver',
         'perception-filter',
@@ -134,6 +134,7 @@ const sidebars = {
         'translator',
         'achievements',
         'schematics',
+        'archive',
         {
           type: 'category',
           label: "Chemistry Lab",
@@ -164,6 +165,22 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: "Plugin Modules",
+      link: {
+        type: "generated-index"
+      },
+      items: [
+          'modules',
+          'generators',
+        'weeping-angels',
+        'modules/vortex-manipulator',
+        'dynmap-tardis',
+        'tardis-shop',
+        'sonic-blaster'
+      ]
+    },
+    {
+      type: 'category',
       label: 'Admin Stuff',
       link: {
         type: 'generated-index',
@@ -177,6 +194,8 @@ const sidebars = {
         'add-permissions',
         'tardis-areas',
         'rooms-and-economies',
+        'time-vortex',
+        'api',
       ],
     },
   ],

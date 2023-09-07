@@ -3,8 +3,6 @@ layout: default
 title: Area Commands
 ---
 
-[Jump to video](#video)
-
 # TARDIS Area Commands
 
 All commands in this section require the `tardis.admin` permission node.

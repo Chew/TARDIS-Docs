@@ -48,9 +48,9 @@ TARDIS ARS Circuit opens the ARS inventory GUI.
 
 ![Advanced Console](/images/docs/advancedconsoleinv.jpg)
 
-### Crafting circuits
+## Crafting circuits
 
-Please refer to the [Recipe Commands](recipe-commands) page for how to view
+Please refer to the [Recipe Commands](commands/recipe-commands) page for how to view
 the crafting recipes
 
 ## Storage Disks
@@ -111,7 +111,7 @@ coloured wool blocks to navigate between them.
 
 ![Disk Storage Container](/images/docs/diskstoragecontainer.jpg)
 
-#### Area Storage Disks
+## Area Storage Disks
 
 The Area Disk inventory is populated automatically with the areas that you have
 access to. New areas will be added as you gain access to them, but if you lose

@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Rail room
+title: Rail Room
 ---
 
-[Jump to video](#video)
-
-# Rail room
+# Rail Room
 
 TARDIS provides an easy way to get materials into its interior. The method uses a storage minecart to deposit items into
 a hopper, which you can then do with as you please.
@@ -33,6 +31,6 @@ clicking on the fence.
 TARDIS world are sharing inventories. To add TARDIS worlds to a default share group, edit the `creation.inventory_group`
 setting in the TARDIS config — see the [TARDIS creation configuration options](configuration/configuration-creation.md) page.
 
-### Video
+## Video
 
 <iframe src="https://player.vimeo.com/video/69821554" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
