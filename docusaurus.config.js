@@ -6,10 +6,6 @@ const {buildRedirects} = require("./redirects");
 // Check for presence of the "GITHUB_REPOSITORY" environment variable
 const gitHubRepo = process.env.GITHUB_REPOSITORY ?? '/';
 
-// TODO: Remove if this works and I'm a genius, well at least the first bit
-console.debug("GitHub Repo: " + gitHubRepo);
-console.debug("Base URL will be: " + `/${gitHubRepo.split('/')[1]}`);
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TARDIS Plugin Docs',
