@@ -138,6 +138,7 @@ const sidebars = {
         'books',
         'schematics',
         'archive',
+        'handles',
         {
           type: 'category',
           label: "Chemistry Lab",

@@ -61,23 +61,85 @@ Remove the Handles record from the TARDIS database. Use this if Handles is destr
 
     /handles remove
 
-### Config options:
+### Config Options
 
-| Option                                                     | Type                                                                   | Default Value |
-|------------------------------------------------------------|------------------------------------------------------------------------|---------------|
-| allow:                                                     |
-| ---                                                        |
-| &nbsp;&nbsp;&nbsp;&nbsp;`handles`                          | boolean                                                                | `true`        |
-| &nbsp;                                                     | Whether Handles is enabled on the server (requires restart if changed) |
-| handles:                                                   |
-| ---                                                        |
-| &nbsp;&nbsp;&nbsp;&nbsp;`prefix`                           | string                                                                 | `Hey Handles` |
-| &nbsp;                                                     | The key word to trigger Handles chat processing                        |
-| &nbsp;&nbsp;&nbsp;&nbsp;`reminders:`                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`enabled`  | boolean                                                                | `true`        |
-| &nbsp;                                                     | Whether reminders are enabled                                          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`schedule` | integer                                                                | `1200`        |
-| &nbsp;                                                     | Number of ticks between reminder checks (1200 = 1 minute)              |
+Handles comes with several configuration options, which can be edited in `handles.yml`.
+
+:::caution
+
+Besides if handles is enabled, and reminders, every option requires regex to properly fine tune possible commands to listen to.
+
+You should familiarize yourself with Regex and test your responses with sites like [regexr](https://regexr.com/).
+
+:::
+
+:::info
+
+All your regexes must be in single quotes!
+
+:::
+
+The default configuration is listed below.
+
+```yaml title=/plugin/TARDIS/handles.yml
+# must use single quotes to wrap regular expressions
+enabled: true
+prefix: '^(?:hey,?\s+)?handles(?:[,!:\s]|\.\.\.+)'
+reminders:
+  enabled: true
+  schedule: 1200
+core-commands:
+  craft: '\b(?:craft|build|make|create)\b.*\b(\w+)\s+(tardis\b)?(\b.*\b)'
+  remind: '\bremind\s*(?:me\s+to)?\s+(.+)\s+.+(\d+)'
+  say: '\bsay\s+(.+)'
+  name: '\bname\b'
+  time: '\btime\b'
+  call: '\bcall\b'
+  takeoff: '\btake\s*off\b'
+  land: '\bland\b'
+  hide: '\bhide\b'
+  rebuild: '\brebuild\b'
+  direction: '\b(?:fac(?:ing|e)|direction)\s+(\w+)'
+  lights: '\b(?:lights\b.*\b(off|on)|(off|on)\b.*\blights)\b'
+  power: '\b(?:power\b.*\b(off|on)|(off|on)\b.*\bpower)\b'
+  brake: '\b(?:(?:hand)*brake|park)\b'
+  travel:
+    save: '\b(?:travel|go)\s+(?:to\s+)?.*?(?:saved?(?:\s+(?:location|destination|place|point))?|destination)\s+(\w+)'
+    home: '\b(?:travel|go)\s+(?:to\s+)?.*?home\b'
+    random: '\b(?:(?:travel|go)\s+(?:to\s+)?.*?|find\b.+)\brandom\b'
+    player: '\b(?:travel|go)\s+(?:to\s+)?.*?player\s+(\w+)'
+    area: '\b(?:travel|go)\s+(?:to\s+)?.*?(?:\b(\w+)\s+area|area\s+(\w+))\s*?$'
+    biome: '\b(?:(?:travel|go)\s+(?:to\s+)?.*?|find\b.+)(?:\b([\w:]+)\s+biome|biome\s+(\w+))\s*?$'
+    cave: '\b(?:(?:travel|go)\s+(?:to\s+)?.*?|find\b.+)\bcave\b'
+    village: '\b(?:(?:travel|go)\s+(?:to\s+)?.*?|find\b.+)\bvillage\b'
+  door:
+    open: '\b(?:open\b.*\bdoor|door\b.*\bopen(?:ed)?)\b'
+    close: '\b(?:close\b.*\bdoor|door\b.*\bclosed?)\b'
+    lock: '\b(?:lock\b.*\bdoor|door\b.*\block(?:ed)?)\b'
+    unlock: '\b(?:unlock\b.*\bdoor|door\b.*\bunlock(?:ed)?)\b'
+  scan: '\bscan\b'
+  teleport: '\bteleport\b'
+  transmat: '\btransmat\s+(?:(?:me\s+)?to\s+(?:the\s+)?)?(.+)'
+custom-commands:
+  weird:
+    regex: '\bblah\b'
+    permission: tardis.handles.use
+    commands:
+      - handles tell %player_name% I'm sorry %player_displayname%, I'm afraid I can't do that
+      - handles weird
+  console:
+    regex: '\bconsole\s+(\w+)'
+    permission: tardis.admin
+    commands:
+      - ^tadmin list $1
+```
+
+Breakdown of some options:
+- `enabled` - boolean true/false, whether Handles is enabled, requires a server restart to change
+- `reminders.enabled` - boolean true/false, whether Handles can remind you of things
+- `reminders.schedule` - integer, how often Handles should check for reminders, in ticks
+
+## Interaction
 
 Clicking on a placed handles plays a Handles voice
 snippet ([TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/) required)
@@ -90,7 +152,7 @@ program disks, _documentation yet to come_, disks can be renamed with a `/handle
 later, but it should extend Handles’ functionality a bit with events and more actions and will work with Advanced
 Console Disks.
 
-### Permissions
+## Permissions
 
 The is one parent permission, with three children for finer control that allow players to use the Handles companion.
 
@@ -102,6 +164,21 @@ And the children:
     tardis.handles.communicator
     tardis.handles.program
 
-### Video
+## Programming Handles
+
+:::caution
+
+The programming feature is not fully tested and you may run into bugs! Please report them to 
+[the issues tab on GitHub](https://github.com/eccentricdevotion/TARDIS/issues) if you do.
+
+:::
+
+Clicking on Handles while sneaking opens the Handles Programming GUI where you can create program disks, allowing you to
+extend Handles’ functionality with events, actions, and Advanced Console Disks.
+
+The Handles programming is block based &mdash; instructions are represented as blocks that you add in a particular order
+to create a program that Handles can run.
+
+## Video
 
 <iframe width="600" height="366" src="https://www.youtube.com/embed/pyJQHvxqpA8?rel=0" frameborder="0" allowfullscreen></iframe>
