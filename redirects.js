@@ -12,7 +12,7 @@ const redirects = {
     '/material-reductions': '/chemistry-lab/material-reductions',
 
     /// HANDLES ///
-    '/handles-programming': '/handles#programming-handles',
+    '/handles-programming': '/handles',
 };
 
 /// DO NOT TOUCH ///
