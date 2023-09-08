@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktardis_docs=self.webpackChunktardis_docs||[]).push([[7213],{71898:e=>{e.exports=JSON.parse('{"title":"Commands","slug":"/category/commands","permalink":"/category/commands","navigation":{"previous":{"title":"Atomic Elements","permalink":"/chemistry-lab/elements"},"next":{"title":"Admin Commands","permalink":"/commands/admin-commands"}}}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktardis_docs=self.webpackChunktardis_docs||[]).push([[544],{32745:e=>{e.exports=JSON.parse('{"title":"Time Travelling","slug":"/category/time-travelling","permalink":"/category/time-travelling","navigation":{"previous":{"title":"Removing the TARDIS","permalink":"/removing-a-tardis"},"next":{"title":"Travelling","permalink":"/time-travel"}}}')}}]);

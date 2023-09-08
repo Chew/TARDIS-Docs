@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktardis_docs=self.webpackChunktardis_docs||[]).push([[2898],{31777:t=>{t.exports=JSON.parse('{"title":"Admin Stuff","slug":"/category/admin-stuff","permalink":"/category/admin-stuff","navigation":{"previous":{"title":"Sonic Blaster","permalink":"/sonic-blaster"},"next":{"title":"Localisation","permalink":"/localisation"}}}')}}]);

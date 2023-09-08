@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktardis_docs=self.webpackChunktardis_docs||[]).push([[9424],{63924:e=>{e.exports=JSON.parse('{"title":"Manage Your TARDIS","slug":"/category/manage-your-tardis","permalink":"/category/manage-your-tardis","navigation":{"previous":{"title":"Vault room","permalink":"/vault"},"next":{"title":"The Control Menu","permalink":"/control-menu"}}}')}}]);
