@@ -1,8 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {buildRedirects} = require("@site/redirects");
+
+// Check for presence of the "GITHUB_REPOSITORY" environment variable
+const gitHubRepo = process.env.GITHUB_REPOSITORY || '';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,7 +16,7 @@ const config = {
   url: 'https://eccentricdevotion.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: `/${gitHubRepo.split('/')[1]}`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -187,18 +189,8 @@ const config = {
         '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
-        redirects: [
-          // /docs/oldDoc -> /docs/newDoc
-          {
-            to: '/chemistry-lab/products',
-            from: '/chemistry-lab-products',
-          },
-          // Redirect from multiple old paths to the new path
-          // {
-          //   to: '/docs/newDoc2',
-          //   from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
-          // },
-        ],
+        // We build this from the redirects.js file, edit that!
+        redirects: buildRedirects(),
       },
     ]
   ],
