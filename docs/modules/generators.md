@@ -6,14 +6,14 @@ slug: /generators
 
 # World Generators
 
-The TARDISChunkGenerator module includes world generators for more than just the TARDIS void worlds (
+The Chunk Generator module includes world generators for more than just the TARDIS void worlds (
 TARDIS_TimeVortex, TARDIS_Zero_Room).
 
 You can use the generators for any world, just specify the `generator` setting in _planets.yml_.
 
 ## Void
 
-`TARDISChunkGenerator:void`
+`TARDIS:void`
 
 An empty world.
 
@@ -21,7 +21,7 @@ An empty world.
 
 ## Gallifrey
 
-`TARDISChunkGenerator:gallifrey`
+`TARDIS:gallifrey`
 
 Badlands biomes with custom sky colour, trees and Time Lord structures.
 
@@ -29,7 +29,7 @@ Badlands biomes with custom sky colour, trees and Time Lord structures.
 
 ## Siluria
 
-`TARDISChunkGenerator:siluria`
+`TARDIS:siluria`
 
 Bamboo & sparse jungle biomes with custom Silurian structures.
 
@@ -37,7 +37,7 @@ Bamboo & sparse jungle biomes with custom Silurian structures.
 
 ## Skaro
 
-`TARDISChunkGenerator:skaro`
+`TARDIS:skaro`
 
 Desert biome with custom sky colour, trees and Dalek structures.
 
@@ -45,11 +45,11 @@ Desert biome with custom sky colour, trees and Dalek structures.
 
 ## Configurable flat world
 
-`TARDISChunkGenerator:flat`
+`TARDIS:flat`
 
-Set block types in **TARDISChunkGenerator**'s _config.yml_
+Set block types in _flat\_world.yml_
 
-```yaml title="/plugins/TARDISChunkGenerator/config.yml"
+```yaml title="/plugins/TARDIS/flat_world.yml"
 ## Blocks to use in the Flat World Generator
 # Use Spigot Material names
 # bottom has 1 layer
@@ -66,7 +66,7 @@ surface: GRASS_BLOCK
 
 ## Water world
 
-`TARDISChunkGenerator:water`
+`TARDIS:water`
 
 Ocean biomes and a small island at spawn, plus a 1/1000 chance an island will generate in a chunk.
 
