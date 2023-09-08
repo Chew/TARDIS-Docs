@@ -9,7 +9,7 @@ const redirects = {
 };
 
 /// DO NOT TOUCH ///
-export function buildRedirects() {
+function buildRedirects() {
     // turn the above redirects into an array
     const redirectArray = [];
     for (const [key, value] of Object.entries(redirects)) {
@@ -19,4 +19,8 @@ export function buildRedirects() {
         });
     }
     return redirectArray;
+}
+
+module.exports = {
+    buildRedirects
 }
