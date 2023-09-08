@@ -95,7 +95,7 @@ We get water! Click the item to select it and bring it to your inventory.
 
 With the material reducer, you can reduce a substance to its component elements.
 
-[Click to see vanilla item/block material reductions!](../material-reductions.md) (does not include compound reductions)
+[Click to see vanilla item/block material reductions!](material-reductions) (does not include compound reductions)
 
 ![material reducer block](/images/chemistry/material-reducer-block.png)
 
@@ -119,7 +119,7 @@ Clicking reduce gets us our Hydrogen and Oxygen back!
 These blocks do the same thing, however they craft different items with elements and compounds and the process to craft
 them differs slightly.
 
-[Click to view all possible products made from these machines!](chemistry-lab-products.md)
+[Click to view all possible products made from these machines!](products)
 
 ![lab table and product crafter](/images/chemistry/lab-table-product-crafter-blocks.png)
 

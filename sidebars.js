@@ -148,7 +148,8 @@ const sidebars = {
           items: [
               'chemistry-lab/products',
             'chemistry-lab/compounds',
-            'chemistry-lab/elements'
+            'chemistry-lab/elements',
+            'chemistry-lab/material-reductions',
           ]
         }
       ],

@@ -6,6 +6,7 @@ const redirects = {
     '/chemistry-lab-products': '/chemistry-lab/products',
     '/chemistry-lab-compounds': '/chemistry-lab/compounds',
     '/chemistry-lab-elements': '/chemistry-lab/elements',
+    '/material-reductions': '/chemistry-lab/material-reductions',
 };
 
 /// DO NOT TOUCH ///
