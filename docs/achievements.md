@@ -29,32 +29,27 @@ Customising achievements
 You can edit the _plugins/TARDIS/achievements.yml_ file to change the attributes of each achievement. An achievement
 looks like this:
 
-    rooms:
-      name: Room freak
-      description: Grow all room types
-      required: 1
-      reward_type: XP
-      reward_amount: 50
-      enabled: true
-      repeatable: false
-      auto: true
-      message: Grew a truckload of rooms
-      icon: BOOKSHELF
-
-* The achievement (in this example `rooms`) matches the name of the book the player gets to read about the achievement
-* `name:` is used as the title of the book
-* `description:` is not currently used
-* `required:` is the amount of the goal the player needs to gain e.g. for the ‘travel’ achievement this is set to
-  100000 — the number of blocks they need to travel
-* `reward_type:` what sort of reward to give the player when they reach the achievement goal. This can be:
-    * `XP`
-    * An item specified by
-      the [Bukkit material enum](https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Material.java)
-      name
-* `reward_amount:` the amount of the reward type the player gets
-* `enabled:` a true or false value determining whether the achievement is available to players
-* `repeatable:` a true or false value determining whether the achievement can be repeated
-* `auto:` if `true` the player does not have to manually initiate the start of the achievement with
-  the `/tardisbook start` command
-* `message:` is the second line of the achievement notification
-* `icon:` is material icon used in the achievement notification
+```yaml title="/plugins/TARDIS/achievements.yml"
+rooms:
+  # The title of the book
+  name: Room freak
+  # Not currently used
+  description: Grow all room types
+  # The amount of the goal the player needs to gain
+  required: 1
+  # The type of reward to give the player when they reach the achievement goal. This can be XP or an item specified by
+  # the Bukkit material enum name
+  reward_type: XP
+  # The amount of the reward type the player gets
+  reward_amount: 50
+  # A true or false value determining whether the achievement is available to players
+  enabled: true
+  # A true or false value determining whether the achievement can be repeated
+  repeatable: false
+  # If true the player does not have to manually initiate the start of the achievement with the /tardisbook start command
+  auto: true
+  # The second line of the achievement notification
+  message: Grew a truckload of rooms
+  # The material icon used in the achievement notification
+  icon: BOOKSHELF
+```

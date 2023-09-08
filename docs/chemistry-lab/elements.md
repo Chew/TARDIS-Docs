@@ -7,7 +7,11 @@ title: Atomic Elements
 
 This is a cheat sheet for the Atomic Elements used in the [Element constructor](./#element-constructor)
 
-Please note, the Protons and Electrons are the same number and are based on the Atomic Number.
+:::note
+
+The Protons and Electrons are the same number and are based on the Atomic Number.
+
+:::
 
 ![example](/images/chemistry/element-iron-example.png)
 

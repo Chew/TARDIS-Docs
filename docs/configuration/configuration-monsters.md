@@ -7,7 +7,7 @@ title: Monsters configuration
 
 The default _monsters.yml_ configuration is shown below:
 
-```yaml
+```yaml title="/plugins/TARDIS/monsters.yml"
 config_version: 2.0
 spawn_rate:
   how_many: 2

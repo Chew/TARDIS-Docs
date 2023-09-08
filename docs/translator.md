@@ -20,7 +20,8 @@ The command uses the free Lingva translation API to translate your message — s
 - `[message]` — The plugin tries to auto-detect the language that you are typing in, however you can force the language
   it uses by setting a player preference:
 
-  /tardisprefs language [language]
+
+    /tardisprefs language [language]
 
 ### Supported languages
 

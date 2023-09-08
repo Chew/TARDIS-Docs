@@ -1,18 +1,22 @@
 ---
 layout: default
-title: Mob farming
+title: Mob Farming
 ---
 
-# Mob farming
+# Mob Farming
 
 You can capture farm animals in the Police Box and transport them into the TARDIS.
 
 The mobs you can collect are:
 
+- Bee
+- Fish
+- Pandas
 - Chicken
 - Cow
 - Pig
 - Sheep
+- Mooshroom
 - Horse
 - Llama
 - Rabbit
@@ -28,8 +32,11 @@ animal!
 
 Enter the TARDIS as usual, and the following will happen:
 
-- If you have already grown a **farm** room, then chickens, cows, pigs and sheep will be teleported into the appropriate
-  pen in the farm
+- If you have already grown an **apiary** room, then bees will be teleported into the apiary
+- If you have already grown an **aquarium** room, then fish will be teleported into the aquarium
+- If you have already grown a **bamboo** room, then pandas will be teleported into the bamboo room
+- If you have already grown a **farm** room, then chickens, cows, pigs, sheep and mooshrooms will be teleported 
+- into the appropriate pen in the farm
 - If you have already grown a **stable** room, then horses will be teleported into the stable
 - If you have already grown a **stall** room, then llamas will be teleported into the stall
 - If you have already grown a **hutch** room, then rabbits will be teleported into the hutch room
@@ -62,6 +69,9 @@ be teleported outside the TARDIS, what you do with them then is up to you.
 
 Horses must still be ridden over the wood pressure plate.
 
-**Note:** there are a couple of exceptions to the rule with companion ejection — if the player is an OP or the player
+:::note
+
+There are a couple of exceptions to the rule with companion ejection — if the player is an OP or the player
 has `tardis.admin` permission they will **NOT** be ejected.
 
+:::

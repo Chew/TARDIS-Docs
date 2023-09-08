@@ -1,9 +1,9 @@
 ---
 layout: default
-title: invisibility
+title: Invisibility
 ---
 
-# TARDIS invisibility
+# TARDIS Invisibility
 
 When inserted in the Advanced Console, and the INVISIBLE Chameleon preset is chosen, then the TARDIS will land
 invisibly.
@@ -27,10 +27,12 @@ Diamond, Perception Filter, Emerald, and Invisibility Potion in shape shown belo
 
 In _config.yml_:
 
-    circuits:
-        damage: true
-        uses:
-            invisibility: 5
+```yaml title="/plugins/TARDIS/config.yml"
+circuits:
+  damage: true
+  uses:
+    invisibility: 5
+```
 
 If `damage` is set to true, then `uses.invisibilty` sets the number of times the Invisibilty circuit can be used before
 it vapourises.
