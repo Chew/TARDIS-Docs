@@ -30,18 +30,17 @@ You set configuration options in _artron.yml_, the default settings are shown be
         burn_limit: 100000
         burn_time: 0.5
         cook_time: 0.5
-        set_biome: true
+        particles: true
 
-- `set_biome [true|false]` — whether to set the biome so that custom textures
-  work on the furnace block
 - `cook_time: [time ratio]` — sets the cook time for items smelted with Artron
   Storage Cells — `0.5` is half the normal time, `2.0` would be twice normal
-  speed (longer), 1 = normal cook time (same as coal)
+  speed (longer), `1.0` = normal cook time (same as coal)
 - `burn_time: [time ratio]` — sets the length of time an Artron Storage Cell will
   burn for — as above fractions (`0.5`) will give shorter life to the cells, \> 1
-  will extend the burn time, 1 = normal burn time (same as coal)
+  will extend the burn time, `1.0` = normal burn time (same as coal)
 - `burn_limit: [amount]` — the maximum amount of burn time a fully charged Artron
   Storage Cell can have.
+- `particles [true|false]` — whether to display particles on the furnace block
 
 The actual burn time is calculated like so:
 

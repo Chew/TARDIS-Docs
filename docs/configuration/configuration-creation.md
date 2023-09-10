@@ -7,10 +7,27 @@ title: creation configuration options
 
 These are the creation configuration options.
 
+```yaml title="/plugins/TARDIS/config.yml"
+creation:
+  create_worlds: false
+  create_worlds_with_perms: false
+  default_world: true
+  default_world_name: TARDIS_TimeVortex
+  border_radius: 256
+  inventory_group: 0
+  add_perms: true
+  use_clay: WOOL
+  count: 0
+  tips_limit: 400
+  area: none
+  enable_legacy: true
+  check_for_home: true
+  seed_block_crafting: true
+```
+
 | Option                                             | Type                                                                                                                                                                          | Default Value       |
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | creation:                                          |
-| ---                                                |
 | &nbsp;&nbsp;&nbsp;&nbsp;`create_worlds`            | boolean                                                                                                                                                                       | `false`             |
 | &nbsp;                                             | It is **NOT recommended** setting this to true! Sets whether TARDISes are created in their own separate worlds.                                                               |
 | &nbsp;&nbsp;&nbsp;&nbsp;`create_worlds_with_perms` | boolean                                                                                                                                                                       | `false`             |
@@ -21,18 +38,10 @@ These are the creation configuration options.
 | &nbsp;                                             | Sets the name of the default world. This is only used if `default_world` is true.                                                                                             |
 | &nbsp;&nbsp;&nbsp;&nbsp;`border_radius`            | integer                                                                                                                                                                       | `256`               |
 | &nbsp;                                             | Sets the distance of the WorldBorder barrier (only used if the plugin is installed on the server).                                                                            |
-| &nbsp;&nbsp;&nbsp;&nbsp;`keep_night`               | boolean                                                                                                                                                                       | `true`              |
-| &nbsp;                                             | Sets whether to keep the TARDIS world in perpetual night.                                                                                                                     |
 | &nbsp;&nbsp;&nbsp;&nbsp;`inventory_group`          | string                                                                                                                                                                        | `'0'`               |
 | &nbsp;                                             | If the Multiverse-Inventories plugin is enabled on the server, you can set the group that TARDIS worlds are added to when they are created.                                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;`add_perms`                | boolean                                                                                                                                                                       | `true`              |
 | &nbsp;                                             | Sets whether a TARDIS world is assigned permissions when the server uses a permissions plugin that has per-world configuration — see [Add permissions](add-permissions). |
-| &nbsp;&nbsp;&nbsp;&nbsp;`custom_schematic`         | boolean                                                                                                                                                                       | `false`             |
-| &nbsp;                                             | Sets whether the server will use a custom TARDIS console schematic — see [Schematics](schematics).                                                                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;`custom_schematic_seed`    | string                                                                                                                                                                        | `OBSIDIAN`          |
-| &nbsp;                                             | Sets the material for crafting the custom TARDIS console seed block.                                                                                                          |
-| &nbsp;&nbsp;&nbsp;&nbsp;`custom_creeper_id`        | string                                                                                                                                                                        | `BEACON`            |
-| &nbsp;                                             | Sets the block material that the plugin should look for in the custom schematic to spawn the Artron Capacitor charged creeper on.                                             |
 | &nbsp;&nbsp;&nbsp;&nbsp;`use_clay`                 | string                                                                                                                                                                        | `WOOL`              |
 | &nbsp;                                             | Sets whether the coloured wool in TARDIS console and room schematics is switched to stained terracotta or concrete instead. Valid options are WOOL, TERRACOTTA, and CONCRETE. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`count`                    | integer                                                                                                                                                                       | `0`                 |
@@ -48,5 +57,5 @@ These are the creation configuration options.
 | &nbsp;&nbsp;&nbsp;&nbsp;`seed_block_crafting`      | boolean                                                                                                                                                                       | `true`              |
 | &nbsp;                                             | Sets whether players can craft TARDIS seed blocks.                                                                                                                            |
 
-[Back to main configuration page](configuration)
+[Back to main configuration page](category/plugin-configuration)
 
