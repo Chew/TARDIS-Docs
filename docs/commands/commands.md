@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Commands
+slug: /commands
 ---
 
 # Commands
@@ -16,39 +17,39 @@ and a big list of all the other commands here: [Big list of other commands](othe
 
 ### There are lots of commands:
 
-`/tardis` - [Do stuff with your TARDIS](tardis-commands)
+`/tardis` - [Do stuff with your TARDIS](commands/tardis)
 
-`/tardistravel` - [Go somewhere in your TARDIS](travel-commands)
+`/tardistravel` - [Go somewhere in your TARDIS](commands/travel)
 
-`/tardisprefs` - [Change your TARDIS preferences](player-preferences)
+`/tardisprefs` - [Change your TARDIS preferences](commands/player-preferences)
 
-`/tardisbind` - [Bind destinations to buttons](bind-commands.md)
+`/tardisbind` - [Bind destinations to buttons](commands/bind)
 
 `/tardisbook` - [Get TARDIS timelore books and start achievements](books)
 
 `/tardisgravity` - [Create TARDIS gravity wells in any direction](gravity-wells)
 
-`/tardisrecipe` - [View recipes for TARDIS items](recipe-commands)
+`/tardisrecipe` - [View recipes for TARDIS items](commands/recipe)
 
-`/tardisadmin` - [Perform TARDIS administration tasks](admin-commands.md)
+`/tardisadmin` - [Perform TARDIS administration tasks](commands/admin)
 
-`/tardisconfig` - [Change the TARDIS plugin configuration](config-commands)
+`/tardisconfig` - [Change the TARDIS plugin configuration](commands/config)
 
-`/tardisgive` - [Give TARDIS items to players](give-commands)
+`/tardisgive` - [Give TARDIS items to players](commands/give)
 
-`/tardissudo` - [Admin super user commands](sudo-commands)
+`/tardissudo` - [Admin super user commands](commands/sudo)
 
-`/tardisarea` - [Set up predefined TARDIS travel areas](area-commands.md)
+`/tardisarea` - [Set up predefined TARDIS travel areas](commands/area)
 
 `/tardisroom` - [Add custom rooms and view room costs](custom-rooms)
 
-`/tardistexture` - [Switch texture packs when entering/exiting the TARDIS](texture-commands)
+`/tardistexture` - [Switch texture packs when entering/exiting the TARDIS](commands/texture)
 
-`/tardisremote` - [Remotely control any TARDIS](remote-commands)
+`/tardisremote` - [Remotely control any TARDIS](commands/remote)
 
-`/tardisschematic` - [Make TARDIS schematics](schematic-commands)
+`/tardisschematic` - [Make TARDIS schematics](commands/schematic)
 
-`/tardisnetherportal` - [Get coordinates for linking Nether Portals](netherportal-command)
+`/tardisnetherportal` - [Get coordinates for linking Nether Portals](commands/netherportal)
 
 `/tardisjunk` - [Junk TARDIS related commands](junk-tardis)
 

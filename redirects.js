@@ -21,6 +21,22 @@ const redirects = {
     '/tardis-shop': '/modules/tardis-shop',
     '/vortex-manipulator': '/modules/vortex-manipulator',
     '/weeping-angels': '/modules/weeping-angels',
+
+    /// COMMANDS ///
+    '/admin-commands': '/commands/admin',
+    '/area-commands': '/commands/area',
+    '/bind-commands': '/commands/bind',
+    '/config-commands': '/commands/config',
+    '/dev-commands': '/commands/dev',
+    '/give-commands': '/commands/give',
+    '/misc-commands': '/commands/misc',
+    '/other-commands': '/commands/other',
+    '/recipe-commands': '/commands/recipe',
+    '/remote-commands': '/commands/remote',
+    '/schematic-commands': '/commands/schematic',
+    '/tardis-commands': '/commands/tardis',
+    '/texture-commands': '/commands/texture',
+    '/travel-commands': '/commands/travel',
 };
 
 /// DO NOT TOUCH ///

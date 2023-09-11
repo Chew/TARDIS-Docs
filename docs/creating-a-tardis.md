@@ -41,10 +41,12 @@ Seed blocks can be placed, broken and dropped and still remain as a valid seed b
 **Seed block not crafting?** You might be using an ancient version of the plugin - check out the instructions
 here: [the old way of crafting](creating-a-tardis-old.md)
 
-## TARDIS types
+## TARDIS Types
 
 You can make your TARDIS any type of valid TARDIS block you like, listed below.
 The TARDIS type is the block that replaces the "Iron Block" in the above crafting grid.
+
+Click on the name of an interior to see a screenshot of it.
 
 | Name                                  | Block Required         | Description                                             |
 |---------------------------------------|------------------------|---------------------------------------------------------|

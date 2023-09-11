@@ -3,15 +3,19 @@ layout: default
 title: Time Travel Command
 ---
 
-# Time travel commands
+# Time Travel Commands
 
-**Note:** if the plugin difficulty is set to `hard` you will need to use the
+:::note
+
+If the plugin difficulty is set to `hard` you will need to use the
 TARDIS [Advanced Console](advanced-console) instead of these commands.
+
+:::
 
 Some of these commands also require the appropriate permission before players can use them. See
 the [Permissions](permissions#ttperms) page for more information.
 
-### `/tardistravel`
+## `/tardistravel`
 
 Set the destination location when exiting the TARDIS. You can either time travel to specific co-ordinates, to a player’s
 location, a saved destination, a specified biome, the TARDIS ‘home’ location, an underground cave, or an admin preset

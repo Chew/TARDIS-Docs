@@ -1,9 +1,9 @@
 ---
 layout: default
-title: The Nether Portal command
+title: Nether Portal Command
 ---
 
-# The Nether Portal command
+# The Nether Portal Command
 
 This command lets you get the coordinates for accurately linking Nether Portals.
 

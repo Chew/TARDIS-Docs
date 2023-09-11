@@ -86,6 +86,8 @@ const sidebars = {
         'modifying-the-tardis-interior',
         'ars',
         'desktop-theme',
+        'interiors',
+        'walls',
         {
           type: 'category',
           label: "Rooms",

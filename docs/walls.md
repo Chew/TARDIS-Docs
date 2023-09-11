@@ -208,4 +208,3 @@ wool blocks (wall) and LIGHT GRAY wool blocks (floor).
     YELLOW_TERRACOTTA
     YELLOW_WOOL
 
-[Back](javascript:history.back();)

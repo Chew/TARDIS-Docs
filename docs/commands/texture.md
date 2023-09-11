@@ -9,7 +9,7 @@ In order to use this feature, you must set **Server Textures: On** in the Minecr
 
 ![TARDIS](/images/docs/servertextureson.jpg)
 
-### Setting texture packs
+## Setting texture packs
 
 You can set a texture pack for the TARDIS interior, and one for the regular world outside:
 
@@ -23,12 +23,12 @@ To reset the outside texture pack back to the Minecraft default:
 
     /tardistexture out default
 
-### Enabling and disabling
+## Enabling and disabling
 
 To turn resource pack switching on and off use the command:
 
     /tardistexture [on|off]
 
-### Video
+## Video
 
 <iframe src="https://player.vimeo.com/video/66056277" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
