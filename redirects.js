@@ -1,7 +1,7 @@
 const redirects = {
     // Use this file to make redirects from old wiki pages!
     // Do NOT make one for .html, as that is already handled by this script.
-    // Side note, these do NOT work locally in develop, and must be tested on the live site.
+    // Side note, these do NOT work locally in develop, and must be tested on the live site or with a build (/build folder)
     // For example, we moved /chemistry-lab-products to /chemistry-lab/products, we can do that as follows:
     // '/chemistry-lab-products': '/chemistry-lab/products',
 
@@ -13,6 +13,14 @@ const redirects = {
 
     /// HANDLES ///
     '/handles-programming': '/handles',
+
+    /// MODULES ///
+    '/blueprints': '/modules/blueprints',
+    '/dynmap-tardis': '/modules/dynmap-tardis',
+    '/generators': '/modules/generators',
+    '/tardis-shop': '/modules/tardis-shop',
+    '/vortex-manipulator': '/modules/vortex-manipulator',
+    '/weeping-angels': '/modules/weeping-angels',
 };
 
 /// DO NOT TOUCH ///

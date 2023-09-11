@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Vortex Manipulator
-slug: /vortex-manipulator
 ---
 
 # Vortex Manipulator

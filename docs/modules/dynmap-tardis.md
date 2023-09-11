@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Dynmap-TARDIS
-slug: /dynmap-tardis
 ---
 
 # Dynmap-TARDIS

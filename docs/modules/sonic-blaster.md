@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Sonic Blaster
-slug: /sonic-blaster
 ---
 
 # Sonic Blaster

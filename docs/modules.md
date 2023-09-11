@@ -9,7 +9,7 @@ Version 5 of the TARDIS plugin combines all the separate TARDIS plugins (_TARDIS
 TARDISWeepingAngels, TARDISShop_ and _TARDISSonicBlaster_) into a modularised all-in-one plugin. The relevant
 configuration section is shown below:
 
-```yaml
+```yaml title=/plugins/TARDIS/config.yml
 # modules
 # are disabled by default
 modules:
@@ -18,9 +18,10 @@ modules:
   dynmap: false
   shop: false
   sonic_blaster: false
+  blueprints: false
 ```
 
-__Note__ The Chunk Generator module is always enabled.
+__Note__: The Chunk Generator module is always enabled.
 
 You can enable modules with the `/tardisconfig` command:
 
@@ -34,6 +35,7 @@ You can enable modules with the `/tardisconfig` command:
 
 To see what each module does, visit the appropriate page:
 
+- [Blueprints](modules/blueprints)
 - [Chunk Generator](generators)
 - [Weeping Angels](weeping-angels)
 - [Vortex Maipulator](/vortex-manipulator)

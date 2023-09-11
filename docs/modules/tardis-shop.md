@@ -1,7 +1,6 @@
 ---
 layout: default
 title: TARDIS Shop
-slug: /tardis-shop
 ---
 
 # TARDIS Shop

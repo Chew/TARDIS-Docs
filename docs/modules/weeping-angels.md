@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Weeping Angels
-slug: /weeping-angels
 ---
 
 # Weeping Angels

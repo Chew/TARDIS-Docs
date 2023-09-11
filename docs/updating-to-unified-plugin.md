@@ -6,9 +6,11 @@ title: Updating from v4.x.x to v5.x.x
 # Updating from v4.x.x to v5.x.x
 
 Version 5 of the TARDIS plugin combines all the separate TARDIS plugins (_TARDISChunkGenerator, TARDISVortexManipulator,
-TARDISWeepingAngels, TARDISShop_ and _TARDISSonicBlaster_) into a modularised all-in-one plugin. The relevant configuration section is shown below:
+TARDISWeepingAngels, TARDISShop_ and _TARDISSonicBlaster_) into a [modularised](modules) all-in-one plugin. 
 
-```yaml
+The relevant configuration section is shown below:
+
+```yaml title=/plugins/TARDIS/config.yml
 # modules
 # are disabled by default
 # https://eccentricdevotion.github.io/TARDIS/modules.html
@@ -32,6 +34,8 @@ To do this:
 4. Edit the TARDIS config file - enable the modules that you require.
 5. Restart the server, TARDIS will automatically transfer configuration settings and database records.
 
+You can learn more about modules [here](modules).
+
 ## Updating mushroom blocks and lamps
 
 The new plugin no longer uses unused mushroom block states to display custom TARDIS blocks. If you want to 
@@ -42,7 +46,7 @@ To convert lamps to custom display lights you have two options:
 * use light switch to toggle the lights off and back on again, or 
 * repair console using the Desktop Theme GUI
 
-### Notes
+## Notes
 
 * The `/tardis lamps` command now only works for LIGHT blocks.
 * There is the potential to walk/fall through light blocks - if you are placing your own lights, make sure they have 
