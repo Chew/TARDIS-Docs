@@ -110,7 +110,11 @@ The player must be online when running the command, and the TARDIS will be resto
 
 ![Siege Cube](/images/docs/siegecube.jpg)
 
-**Note:** the TARDIS Siege Cube block is a CYAN_CONCRETE block (or BROWN_MUSHROOM_BLOCK for older
+:::info
+
+The TARDIS Siege Cube block is a CYAN_CONCRETE block (or BROWN_MUSHROOM_BLOCK for older
 plugin versions) with the texture on all sides. As such it is recommended that players use the
 [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack) so that it looks
 the part and can be distinguished easily.
+
+:::

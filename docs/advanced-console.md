@@ -70,9 +70,13 @@ make sense to put some disks in the inventory together, for example you can’t
 travel to both a saved location AND a player at the same time! Generally you will
 put in a travel destination disk, and a preset disk.
 
-**Note:** Save Storage Disks also save the preset that the TARDIS is currently
+:::note
+
+Save Storage Disks also save the preset that the TARDIS is currently
 using, so save disks will always override a preset disk if they are both present
 in the Advanced Console inventory.
+
+:::
 
 Storage Disks are automatically read and processed when you close the Advanced
 Console inventory. If the destination has not changed, then nothing will happen.

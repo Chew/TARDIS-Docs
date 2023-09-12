@@ -122,8 +122,14 @@ The Knockback upgraded Sonic allows you to repel monsters when right-clicking th
 ### Brush
 
 The Brush upgraded Sonic allows you sonically brush suspicious blocks to get their hidden items.
-Right-click the block until the item pops out. _Note:_ Due to the current limitations of the 
+Right-click the block until the item pops out.
+
+:::info
+
+Due to the current limitations of the 
 Bukkit API the item will not emerge slowly like it would with a vanilla brush.
+
+:::
 
 ### Server Admin
 

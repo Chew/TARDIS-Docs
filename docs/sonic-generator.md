@@ -37,8 +37,12 @@ So if I had a sonic with the Emerald and Redstone upgrades it would cost by defa
 
 The Sonic Generator GUI will show you the cost in the lower right hand corner :)
 
-**Note:** Only upgrades the player has permission for will appear in the GUI, and the Admin Upgrade will never appear at
+:::info
+
+Only upgrades the player has permission for will appear in the GUI, and the Admin Upgrade will never appear at
 all.
+
+:::
 
 ### Video
 

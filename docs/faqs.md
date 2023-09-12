@@ -155,7 +155,11 @@ You have three options:
    memory.
 3. **STOP** the server. Edit the config file, save it, then start the server.
 
-**Note:** It is generally not good practice to use the `/reload` command.
+:::note
+
+It is generally not good practice to use the `/reload` command.
+
+:::
 
 ## The perception filter has gone completely invisible! {#filter}
 

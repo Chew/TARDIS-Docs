@@ -32,10 +32,12 @@ design to the TARDIS exterior.
 
 Click the ‘Build’ button to accept the design and rebuild the TARDIS.
 
-### Notes
+:::note
 
 - If `allow.all_blocks` is `false`, precious blocks (GOLD, DIAMOND etc.) cannot be used in the GUI.
 - All text in the GUI can be translated using the _plugins/TARDIS/language/chameleon\_guis.yml_ file.
+
+:::
 
 ### Video
 

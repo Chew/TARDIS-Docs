@@ -14,10 +14,12 @@ hand.
 
 To disable the filter just remove it from the chest armour slot.
 
-**Note:** When travelling between worlds, the Perception Filter may go completely invisible — if this happens, just
+:::info
+
+When travelling between worlds, the Perception Filter may go completely invisible — if this happens, just
 press your “sneak” key (usually LEFT-SHIFT) to make the player skin update.
 
-**Note 2:** The Artron Energy readout will not display if you are wearing the Perception Filter.
+:::
 
 ### Video
 

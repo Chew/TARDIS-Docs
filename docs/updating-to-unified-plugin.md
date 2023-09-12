@@ -46,8 +46,10 @@ To convert lamps to custom display lights you have two options:
 * use light switch to toggle the lights off and back on again, or 
 * repair console using the Desktop Theme GUI
 
-## Notes
+:::info
 
 * The `/tardis lamps` command now only works for LIGHT blocks.
 * There is the potential to walk/fall through light blocks - if you are placing your own lights, make sure they have 
   a block behind or under them so you don't fall into the time vortex.
+
+:::

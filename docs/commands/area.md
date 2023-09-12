@@ -74,7 +74,11 @@ standing.
 
 ### Video
 
-**Note:** The command in the video has changed in since this video was made!
+:::note
+
+The command in the video has changed in since this video was made!
 Use the commands above.
+
+:::
 
 <iframe src="https://player.vimeo.com/video/52724961" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

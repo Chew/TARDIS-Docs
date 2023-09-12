@@ -55,6 +55,9 @@ Removes TARDIS light blocks and replaces them with redstone lamps.
 
 ---
 
-> **Note:** While it is possible to paste schematics, it is still recommended to use a plugin such as WorldEdit to do this
+:::note
+
+While it is possible to paste schematics, it is still recommended to use a plugin such as WorldEdit to do this
 sort of work.
 
+:::

@@ -13,7 +13,7 @@ River Song from Doctor Who! Have the Vortex Manipulator in your hand, put in you
 
 :::note
 
-__Note__ For TARDIS version 4.13.0 and below you can download the separate TARDISVortexManipulator plugin JAR 
+For TARDIS version 4.13.0 and below you can download the separate TARDISVortexManipulator plugin JAR 
 from [http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/](http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/)
 
   _The instructions below are for the TARDIS module, but are pretty much the same ,with some extra configuration options (

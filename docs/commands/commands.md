@@ -77,8 +77,12 @@ There are multiple command arguments for each command.
 
 ## Basic travel commands:
 
-**Note:** Some of these commands do not work in `hard` difficulty mode. See
+:::note
+
+Some of these commands do not work in `hard` difficulty mode. See
 the [Advanced Console](advanced-console) page for more information.
+
+:::
 
 ### Returning home
 
@@ -114,7 +118,11 @@ To travel to a saved area (such as a recharging point) use the command:
 
 ### Calling your TARDIS
 
-**Note:** In `hard` difficulty mode you maust use the Stattenheim Remote.
+:::note
+
+In `hard` difficulty mode you must use the Stattenheim Remote.
+
+:::
 
 To call your TARDIS to you, simply use the command:
 

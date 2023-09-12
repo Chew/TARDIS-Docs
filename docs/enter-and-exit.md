@@ -5,8 +5,12 @@ title: Entering and exiting the TARDIS
 
 # Entering and exiting the TARDIS
 
-**Note:** From TARDIS v2.9-beta-1 the entry and exit mechanics of the plugin have changed, and you can now walk in and
+:::note
+
+From TARDIS v2.9-beta-1 the entry and exit mechanics of the plugin have changed, and you can now walk in and
 out of the TARDIS if the door is open.
+
+:::
 
 ## You must exit the TARDIS correctly!
 
@@ -16,9 +20,13 @@ keeps track of who is in the TARDIS, so that TARDIS specific functions will work
 
 ## Walk in and out
 
-**Note:** If the exterior TARDIS preset you have selected has a door and space to walk inside, then you can walk in to
+:::note
+
+If the exterior TARDIS preset you have selected has a door and space to walk inside, then you can walk in to
 be transported to the interior. If it has a trapdoor or there isn't space to walk inside — SHIFT-RIGHT click the door
 with the TARDIS key to gain entry.
+
+:::
 
 Right-clicking the TARDIS door now opens and closes the door, SHIFT-right-clicking will teleport you in and out (the old
 behaviour).
@@ -57,7 +65,11 @@ can be handy to see what is going on before leaving the safety of the TARDIS.
 
 ![TP to door](/images/docs/tp-to-door.jpg)
 
-**Note:** In order for the TARDIS to time travel, the door must be closed.
+:::note
+
+In order for the TARDIS to time travel, the door must be closed.
+
+:::
 
 ## Other door uses
 

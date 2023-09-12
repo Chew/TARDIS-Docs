@@ -61,7 +61,7 @@ Folow these steps to use the ARS:
    that the room should be jettisoned. **\***
 7. Once you have configured the rooms you require, click the pink Reconfigure block.
 
-### Notes and Tips
+:::note
 
 - The map aligns to standard compass directions, so **up/top** is NORTH,
   **down/bottom** is SOUTH, **left** is WEST, and **right** is EAST
@@ -73,11 +73,18 @@ Folow these steps to use the ARS:
   can reconfigure.
 - Gravity wells require empty slots on _two_ levels. GRAVITY wells go DOWN,
   ANTIGRAVITY wells go UP.
-- **\*** To jettison gravity wells, you need to put TNT in both upper and lower slots.
+
+:::
+
+:::tip
+
+- To jettison gravity wells, you need to put TNT in both upper and lower slots.
 - You can put a gravity well on the bottom level and it will extend out of the
   ARS grid. This will allow you to grow more rooms manually outside of the
   reserved ARS region if you so desire. Likewise you can put an antigravity well
   on the top level to manually grow rooms _above_ the reserved ARS region.
+  
+:::
 
 ### Video
 

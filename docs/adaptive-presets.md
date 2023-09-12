@@ -25,8 +25,11 @@ use that as well, or set a preset for each individual biome.
 
 You can use any Chameleon block preset as well as the biome presets shown below.
 
-> __Note:__ You can only use an `&`alias if it has been defined in the file above where you want to use the `*`
-> instance - so to change _every_ snowy biome you would need to set the alias up in the `# frozen biomes` section first.
+:::note
+
+You can only use an `&`alias if it has been defined in the file above where you want to use the `*` instance - so to change _every_ snowy biome you would need to set the alias up in the `# frozen biomes` section first.
+
+:::
 
 ## Biomes and presets
 

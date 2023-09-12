@@ -228,4 +228,8 @@ If you have made changes to the config file by manually editing it, you should u
 
     /tardisconfig reload
 
-**Note:** Do not use the server `/reload` command or the manual changes you have made will be overwritten when the TARDIS config is saved when it is disabled.
+:::note
+
+Do not use the server `/reload` command or the manual changes you have made will be overwritten when the TARDIS config is saved when it is disabled.
+
+:::

@@ -46,8 +46,9 @@ Video goes here
 
 <iframe src="https://player.vimeo.com/video/90391961" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-### Note:
+:::note
 
 Currently if the destination is inside a building, the adjusted location will most probably end up on the roof (even if
 there is room inside the building).
 
+:::

@@ -5,7 +5,11 @@ title: Rift Manipulator
 
 # Rift Manipulator
 
-**Note:** The Rift Manipulator can only be obtained if the Skaro planet is enabled.
+:::caution
+
+The Rift Manipulator can only be obtained if the Skaro planet is enabled.
+
+:::
 
 Permission: `tardis.rift`
 

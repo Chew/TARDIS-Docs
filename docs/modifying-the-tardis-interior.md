@@ -5,7 +5,11 @@ title: Modifying the interior
 
 # Modifying the TARDIS interior
 
-**Note:** see also: [TARDIS Desktop Theme](desktop-theme)
+:::tip
+
+See also: [TARDIS Desktop Theme](desktop-theme)
+
+:::
 
 While you can’t modify the Police Box — as it gets recreated every time you travel to a new destination, it is possible
 to alter the interior of the TARDIS (aside from growing [rooms](rooms)). However there are some blocks that the
@@ -37,7 +41,9 @@ So that the TARDIS plugin will know of the new locations and your TARDIS will fu
 
 Anything else can be destroyed and changed.
 
-**Note 1:** The TARDIS expects the blocks for the controls to be a certain type. The table below shows which blocks you
+:::info
+
+The TARDIS expects the blocks for the controls to be a certain type. The table below shows which blocks you
 can use for each:
 
 | TARDIS control                               | Valid blocks                     |
@@ -61,9 +67,15 @@ can use for each:
 | `keyboard`                                   | Wall Sign, Sign Post             |
 | `toggle_wool` (wool behind door switch)      | Stone Button, Wood Button, Lever |
 
-**Note 2:** If `create_worlds` is false in the TARDIS configuration file and you are using a TARDIS version prior to
+:::
+
+:::caution
+
+If `create_worlds` is false in the TARDIS configuration file and you are using a TARDIS version prior to
 v2.7-beta-1, the plugin only reserves and protects the initial chunks used to create the TARDIS in, which means that
 another player could potentially create a TARDIS that overlaps yours if you make it bigger.
+
+:::
 
 See also: [Binding destinations to blocks](commands/bind)
 

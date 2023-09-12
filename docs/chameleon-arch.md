@@ -59,7 +59,12 @@ Shows the player how much time left they have before they can ‘de-fob’
     /tardisadmin arch [fake arch name]
 
 Admins can use this to show the ‘fobbed’ player’s real name  
-**Note:** command usage is still logged with the player’s real name.
+
+:::note
+
+Command usage is still logged with the player’s real name.
+
+:::
 
 ### Chameleon Arch configuration
 

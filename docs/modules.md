@@ -21,7 +21,11 @@ modules:
   blueprints: false
 ```
 
-__Note__: The Chunk Generator module is always enabled.
+:::info
+
+The Chunk Generator module is always enabled.
+
+:::
 
 You can enable modules with the `/tardisconfig` command:
 

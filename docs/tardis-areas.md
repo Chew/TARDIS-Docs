@@ -84,13 +84,22 @@ ideas) you can give the player the permission node for the TARDIS area you want 
 
     tardis.exile
 
-This will restrict all TARDIS travel to the specified area.  
-_Note:_ `allow.exile` must be `true` in the config.
+This will restrict all TARDIS travel to the specified area.
+
+:::caution
+
+`allow.exile` must be `true` in the config.
+
+:::
 
 ### Video
 
-**Note** The video shows the old command syntax, the process is the same, but the commands have changed
+:::info
+
+The video shows the old command syntax, the process is the same, but the commands have changed
 from `/tardis area` to just `/tardisarea`
+
+:::
 
 See also: the [Artron Energy](artron-energy#video) page for another video.
 

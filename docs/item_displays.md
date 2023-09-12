@@ -62,8 +62,10 @@ To break a custom TARDIS light:
 
 You can use the Sonic Screwdriver (with the Redstone Upgrade) to toggle any TARDIS light block on and off.
 
-### Notes
+:::note
 
 * The `/tardis lamps` command now only works for LIGHT blocks.
 * There is the potential to walk/fall through light blocks - if you are placing your own lights, make sure they have 
   a block behind or under them so you don't fall into the time vortex.
+
+:::

@@ -19,7 +19,11 @@ The repeater closest to the door controls the environment type of the world you 
 - The 3-tick position will select from Nether worlds
 - The 4-tick position will select The End worlds
 
-**Note:** Going to other types of world may require more Artron Energy.
+:::info
+
+Going to other types of world may require more Artron Energy.
+
+:::
 
 ![TARDIS console](/images/docs/console.jpg)
 

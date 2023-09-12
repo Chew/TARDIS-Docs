@@ -29,9 +29,15 @@ e.g. `/tardistravel ~ -319 64 277` — to travel to co-ordinates in the _world t
 
     /tardistravel ~[x] ~[y] ~[z]
 
-e.g. `/tardistravel ~20 ~ ~-35` — to travel to relative co-ordinates. **Note** all coordinates must be proceeded by the
+e.g. `/tardistravel ~20 ~ ~-35` — to travel to relative co-ordinates.
+
+:::note
+
+All coordinates must be proceeded by the
 tilde character (`~`). In this case the TARDIS would travel `20` blocks in the x-direction (EAST), `0` blocks in the
 y-direction (UP/DOWN) and negative `35` blocks in the z-direction (NORTH) from its current location.
+
+:::
 
     /tardistravel [player]
 

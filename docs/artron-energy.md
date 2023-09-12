@@ -7,9 +7,9 @@ title: Artron Energy
 
 Your TARDIS runs on Artron Energy, and has multiple ways of recharging. By default
 the wood button on the TARDIS console is how you charge and check your energy levels.
-Travelling and hiding your TARDIS uses up energy. The plugin uses a scoreboard to
+Travelling and hiding your TARDIS uses up energy. The plugin uses an action bar to
 display how much Artron Energy you have used so you can easily keep track of the
-current levels ([`*`](#pfnote)).
+current levels.
 
 ### Getting started
 
@@ -112,6 +112,3 @@ this you will need to condense extra blocks and items, or use Artron Storage Cel
 <iframe src="https://player.vimeo.com/video/57842293" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ![artron energy capacitor](/images/docs/artroncapacitor.jpg)
-
-**\*** Note — the Artron Energy readout will not display if you are wearing the
-[Perception Filter](perception-filter).

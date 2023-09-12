@@ -25,7 +25,7 @@ If the action equals `travel`, travel options are:
 - area [area name]
 - coords e.g. world x y z
 
-### Notes
+:::note
 
 - can be run from command blocks, but the specified player must be online
 - if the player who is running the command does **NOT** have `tardis.admin` permission, then the normal checks are
@@ -34,6 +34,8 @@ If the action equals `travel`, travel options are:
 - if player has `tardis.admin` permission then no energy is used / only basic checks performed (so we’re not griefing
   anything)
 - `comehere` comes to the currently targeted block (only available to TARDIS admin players)
+
+:::
 
 ### Video
 

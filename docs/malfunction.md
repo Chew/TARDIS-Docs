@@ -13,8 +13,14 @@ even if they are disabled in the config or the player doesn’t have permission.
 When the TARDIS malfunctions, there is an emergency landing sound effect (requires
 the [TARDIS Resource Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
 and Minecraft version 1.7.2 or higher). Lights will flicker and there will be
-smoke and nausea effects. **Note:** Effects will only be present if the TARDIS was
+smoke and nausea effects
+
+:::note
+
+Effects will only be present if the TARDIS was
 created with **[TARDIS v2.2-beta-2](http://dev.bukkit.org/bukkit-plugins/tardis/files)** or later.
+
+:::
 
 ### Config options
 

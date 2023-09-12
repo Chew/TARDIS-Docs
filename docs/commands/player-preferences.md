@@ -25,12 +25,12 @@ There are a number of specific player preferences that you can change:
 - Build flag
 - Minecart sounds
 - Exterior Rendering Room
-- **(Deprecated)** Wool Lights
-- `Deprecated` Connected Textures
+- `@Deprecated` Wool Lights
+- `@Deprecated` Connected Textures
 - Travel Bar
 - Difficulty
 - Farming
-- `Deprecated` Lanterns
+- `@Deprecated` Lanterns
 - Junk Mode
 - Interior hum sound effects
 - Announce repeater settings
@@ -38,7 +38,11 @@ There are a number of specific player preferences that you can change:
 Each preference can be set with a command, and some of them can be set via an inventory based GUI (if the player has a
 Sonic Screwdriver, sneaking and right-clicking air will open the Player Preferences GUI).
 
-> **Note** Preferences marked with `@Deprecated` may not be available in later versions of the plugin.
+:::note
+
+Preferences marked with `@Deprecated` may not be available in later versions of the plugin.
+
+:::
 
 ![Player prefs GUI](/images/docs/player_prefs_custom.jpg)
 
@@ -135,7 +139,7 @@ To change the block type that changes when a TARDIS enters siege mode, type:
 
     /tardisprefs [siege_wall|siege_floor] [material]
 
-Where `[material]` is a block from the list on the [Wall materials](walls) page. This setting has no effect
+Where `[material]` is a block from the list on the [Wall materials](../walls) page. This setting has no effect
 if `siege.textures: false` is set in the config.
 
 To change whether the TARDIS Autonomous homing function takes the Police Box to the nearest recharge point or the Tardis

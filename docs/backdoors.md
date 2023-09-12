@@ -26,7 +26,7 @@ Back doors use Artron Energy each time you go through them.
 
 Players require the permission `tardis.backdoor`
 
-### Note
+:::note
 
 The back door is (IMO) for cheaters... it allows you to place 2 static doors —
 one inside and one outside, that give you access to the TARDIS interior no matter
@@ -34,3 +34,4 @@ where the exterior is located, so you could for example have a door in your hous
 that lets you enter the TARDIS, or the reverse — a door in the TARDIS that is
 permanently linked to one location.
 
+:::

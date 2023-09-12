@@ -19,7 +19,7 @@ _world_tardis_siluria_, and _world_tardis_skaro_
 
 The planets are listed and described below!
 
-## Note
+:::info
 
 To get the best experience on these planets, it's recommended to enable the [Weeping Angels module](modules) 
 (or for versions prior to v5.0.0, download the accompanying plugin and resource pack).
@@ -27,6 +27,8 @@ Otherwise, mobs will look like vanilla mobs!
 
 - [TARDISWeepingAngels](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels/lastSuccessfulBuild/)
 - [TARDISWeepingAngels-ResourcePack](https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack)
+
+:::
 
 ## Planet Skaro
 
@@ -106,7 +108,9 @@ world_tardis_skaro:
 # other config #
 ```
 
-**tl;dr:**
+:::tip tl;dr
 
 1. Use the command `/tardisworld enable [gallifrey|siluria|skaro]`
 2. (Re)start the server
+
+:::

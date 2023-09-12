@@ -234,9 +234,13 @@ This is useful if you have changed the location of the lights of the console roo
 
 #### For TARDIS v4.14.0 and below
 
-**Note:** Make sure that you have set your lamp preference correctly before running the
+:::note
+
+Make sure that you have set your lamp preference correctly before running the
 command (`/tardisprefs lanterns [on|off]`), so the plugin searches for the correct block type (Redstone Lamp or Sea
 Lantern).
+
+:::
 
     /tardisprefs lanterns [on|off]
     /tardis lamps

@@ -5,7 +5,9 @@ title: Rooms
 
 # Rooms
 
-**Note:** This feature has changed significantly as of TARDIS version 2.6-beta-1! It requires:
+:::caution
+
+This feature has changed significantly as of TARDIS version 2.6-beta-1! It requires:
 
 - `create_worlds: true` in the config, and a multi-world plugin
 
@@ -13,6 +15,8 @@ OR
 
 - a special world called _TARDIS\_TimeVortex_ — to learn how to set this up visit the [Time Vortex](time-vortex)
   page
+  
+:::
 
 [Visit the room gallery](room-gallery)
 
@@ -78,7 +82,7 @@ and follow the instructions. The room types and their corresponding seed blocks 
     Workshop - RED_NETHER_BRICKS
     Zero Room - N/A
 
-### Notes:
+:::info
 
 - More information about the `Lazarus` room can be found on the [TARDIS Genetic Manipulator page](lazarus)
 - More information about the `Renderer` room can be found on the [Scanner page](scanner#renderer)
@@ -88,6 +92,8 @@ and follow the instructions. The room types and their corresponding seed blocks 
 - The _gravity well_ room type is `gravity` and requires an empty ARS room slot **above** the room as well.
 - The _anti gravity well_ room type is `antigravity` and requires an empty ARS room slot **below** the room as well.
 - The secondary console room types are: `baker` and `wood`
+
+:::
 
 Once the room is finished generating, a confirmation message will be shown.
 
