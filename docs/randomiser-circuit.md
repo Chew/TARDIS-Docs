@@ -23,7 +23,7 @@ DIRT, NETHERRACK, COMPASS, ENDER\_STONE, WATER\_BUCKET in shape shown below.
 
 In _config.yml_:
 
-```yaml
+```yaml title="/plugins/TARDIS/config.yml"
 travel:
   random_circuit:
     x: 5000
@@ -36,7 +36,7 @@ then those settings will be used instead.
 
 In _artron.yml_:
 
-```yaml
+```yaml title="/plugins/TARDIS/artron.yml"
 random_circuit: 150
 ```
 

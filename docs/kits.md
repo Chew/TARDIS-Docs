@@ -13,8 +13,38 @@ server and when a player creates a TARDIS. You can also give kits to players usi
 
 ## Configuring kits
 
-All kits are configured in _kits.yml_ — the default configuation can be see
-here: [kits.yml](https://github.com/eccentricdevotion/TARDIS/blob/master/src/main/resources/kits.yml).
+The default kit configuration is shown below:
+
+```yaml title="/plugins.TARDIS/kits.yml"
+## TARDIS item kits
+give:
+    join:
+        enabled: false
+        kit: basic
+    create:
+        enabled: false
+        kit: circuits
+kits:
+    basic:
+        - TARDIS Key
+        - Sonic Screwdriver
+    deluxe:
+        - TARDIS Key
+        - Sonic Screwdriver
+        - TARDIS Locator
+        - Stattenheim Remote
+        - Perception Filter
+    circuits:
+        - TARDIS ARS Circuit
+        - TARDIS Chameleon Circuit
+        - TARDIS Input Circuit
+        - TARDIS Invisibility Circuit
+        - TARDIS Materialisation Circuit
+        - TARDIS Memory Circuit
+        - TARDIS Randomiser Circuit
+        - TARDIS Scanner Circuit
+        - TARDIS Temporal Circuit
+```
 
 The kits file is split into two sections `give` and `kits`:
 
@@ -35,22 +65,7 @@ to give.
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`kit`     | string                                                                                                                 | `circuits`    |
 | &nbsp;                                                    | Sets **which** kit to give to players when they create a TARDIS.                                                       |
 
-The `kits` configuration section allows you to set up lists of TARDIS items. The format of a kit is shown below:
-
-```yaml
-kits:
-  basic:
-    - TARDIS Key
-    - Sonic Screwdriver
-  circuits:
-    - TARDIS ARS Circuit
-    - TARDIS Chameleon Circuit
-    - TARDIS Input Circuit
-    - TARDIS Materialisation Circuit
-    - TARDIS Memory Circuit
-    - TARDIS Scanner Circuit
-    - TARDIS Temporal Circuit
-```
+The `kits` configuration section allows you to set up lists of TARDIS items.
 
 | Option                                                   | Type                                                                                                                                   |
 |----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|

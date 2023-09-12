@@ -9,7 +9,7 @@ As of version 5.0.0 you can now add custom item model presets for the TARDIS ext
 
 Custom model presets are defined in _plugins/TARDIS/custom\_models.yml_:
 
-```yaml
+```yaml title="/plugins/TARDIS/custom_models.yml"
 # a list of the custom models you want to use
 models:
   # model name

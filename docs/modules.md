@@ -29,7 +29,7 @@ The Chunk Generator module is always enabled.
 
 You can enable modules with the `/tardisconfig` command:
 
-```bash
+```
 /tardisconfig weeping_angels [true|false]
 /tardisconfig vortex_manipulator [true|false]
 /tardisconfig dynmap [true|false]

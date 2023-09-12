@@ -7,9 +7,7 @@ title: Travel Configuration Options
 
 These are the travel configuration options.
 
-A sample file for `travel.yml` looks like this:
-
-```yaml
+```yaml title="/plugins/TARDIS/config.yml"
 travel:
   include_default_world: false
   tp_radius: 500

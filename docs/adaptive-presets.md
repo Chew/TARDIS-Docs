@@ -11,7 +11,7 @@ the TARDIS travels to.
 You can configure which preset is used for which biome by editing _adaptive.yml_.
 The file uses YAML aliases - for example:
 
-```yaml
+```yaml title="/plugins/TARDIS/adaptive.yml"
 # snowy biomes
 SNOWY_TAIGA: &snowy COLD_TAIGA
 SNOWY_SLOPES: *snowy
