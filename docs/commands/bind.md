@@ -15,6 +15,7 @@ You can also bind the following commands:
 /tardis hide
 /tardis rebuild
 /tardistravel home
+/tardistravel cave
 ```
 
 ### Binding

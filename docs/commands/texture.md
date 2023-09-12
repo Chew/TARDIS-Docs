@@ -5,7 +5,8 @@ title: Texture Command
 
 # The Texture command
 
-In order to use this feature, you must set **Server Textures: On** in the Minecraft client **Video Settings** options.
+In order to use this feature, _Server Resource Packs_ must be accepted on the Minecraft client when connecting to the server.
+Enable `Server Resource Packs: Prompt` or `Server Resource Packs: Enabled` in the **Edit Server Info** settings.
 
 ![TARDIS](/images/docs/servertextureson.jpg)
 
@@ -17,7 +18,7 @@ You can set a texture pack for the TARDIS interior, and one for the regular worl
     /tardistexture out [url]
 
 `[url]` must be a valid link to a texture pack file,
-e.g.: https://dl.dropboxusercontent.com/u/53758864/Minecraft\_Default.zip
+e.g.: https://dl.dropboxusercontent.com/s/utka3zxmer7f19g/Default.zip
 
 To reset the outside texture pack back to the Minecraft default:
 

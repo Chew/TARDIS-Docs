@@ -11,7 +11,7 @@ Don’t know the recipe for a TARDIS item? Use the recipe command!
 
 This command works the same way as the Essentials plugin `/recipe` command.
 
-### Recipe command reference
+## Recipe command reference
 
 Listed below is a selection of TARDIS items that you can craft. You can use the `/tardisrecipe list` command to see a
 categorised list of all items.
@@ -22,7 +22,7 @@ You can also use tab key completion to see a full list in-game.
 
 :::
 
-#### Accessories
+### Accessories
 
 | Name                | Command                          |
 |---------------------|----------------------------------|
@@ -33,11 +33,11 @@ You can also use tab key completion to see a full list in-game.
 | Red Bow Tie         | `/tardisrecipe bow-tie`          |
 | Three D Glasses     | `/tardisrecipe 3-d-glasses`      |
 
-#### Console Circuits
+### Console Circuits
 
 | Name                           | Command                                 |
 |--------------------------------|-----------------------------------------|
-| Tardis Ars Circuit             | `/tardisrecipe ars-circuit`             |
+| Tardis ARS Circuit             | `/tardisrecipe ars-circuit`             |
 | Tardis Chameleon Circuit       | `/tardisrecipe chameleon-circuit`       |
 | Tardis Input Circuit           | `/tardisrecipe input-circuit`           |
 | Tardis Invisibility Circuit    | `/tardisrecipe invisibility-circuit`    |
@@ -48,7 +48,7 @@ You can also use tab key completion to see a full list in-game.
 | Tardis Telepathic Circuit      | `/tardisrecipe telepathic-circuit`      |
 | Tardis Temporal Circuit        | `/tardisrecipe temporal-circuit`        |
 
-#### Food
+### Food
 
 | Name              | Command                         |
 |-------------------|---------------------------------|
@@ -59,7 +59,7 @@ You can also use tab key completion to see a full list in-game.
 | Bowl Of Custard   | `/tardisrecipe bowl-of-custard` |
 | Orange Jelly Baby | `/tardisrecipe jelly-baby`      |
 
-#### Item Circuits
+### Item Circuits
 
 | Name                       | Command                             |
 |----------------------------|-------------------------------------|
@@ -70,83 +70,100 @@ You can also use tab key completion to see a full list in-game.
 | Tardis Locator Circuit     | `/tardisrecipe locator-circuit`     |
 | Tardis Stattenheim Circuit | `/tardisrecipe stattenheim-circuit` |
 
-#### Items
+### Items
 
-| Artron Storage Cell | `/tardisrecipe artron-storage-cell` |
-| Perception Filter | `/tardisrecipe perception-filter` |
-| Sonic Screwdriver | `/tardisrecipe sonic-screwdriver` |
-| Stattenheim Remote | `/tardisrecipe stattenheim-remote` |
-| Tardis Artron Furnace | `/tardisrecipe artron-furnace` |
-| Tardis Biome Reader | `/tardisrecipe biome-reader` |
-| Tardis Key | `/tardisrecipe key` |
-| Tardis Locator | `/tardisrecipe locator` |
-| Tardis Remote Key | `/tardisrecipe remote-key` |
+| Name                  | Command                             |
+|-----------------------|-------------------------------------|
+| Artron Storage Cell   | `/tardisrecipe artron-storage-cell` |
+| Perception Filter     | `/tardisrecipe perception-filter`   |
+| Sonic Screwdriver     | `/tardisrecipe sonic-screwdriver`   |
+| Stattenheim Remote    | `/tardisrecipe stattenheim-remote`  |
+| Tardis Artron Furnace | `/tardisrecipe artron-furnace`      |
+| Tardis Biome Reader   | `/tardisrecipe biome-reader`        |
+| Tardis Key            | `/tardisrecipe key`                 |
+| Tardis Locator        | `/tardisrecipe locator`             |
+| Tardis Remote Key     | `/tardisrecipe remote-key`          |
 
-#### Rotors
+### Rotors
 
-| Time Rotor Early | `/tardisrecipe time-rotor-early` |
-| Time Rotor Tenth | `/tardisrecipe time-rotor-tenth` |
+| Name                | Command                             |
+|---------------------|-------------------------------------|
+| Time Rotor Early    | `/tardisrecipe time-rotor-early`    |
+| Time Rotor Tenth    | `/tardisrecipe time-rotor-tenth`    |
 | Time Rotor Eleventh | `/tardisrecipe time-rotor-eleventh` |
-| Time Rotor Twelfth | `/tardisrecipe time-rotor-twelfth` |
-| Time Rotor Delta | `/tardisrecipe time-rotor-delta` |
-| Time Rotor Engine | `/tardisrecipe time-rotor-engine` |
-| Time Engine | `/tardisrecipe time-engine` |
+| Time Rotor Twelfth  | `/tardisrecipe time-rotor-twelfth`  |
+| Time Rotor Delta    | `/tardisrecipe time-rotor-delta`    |
+| Time Rotor Hospital | `/tardisrecipe time-rotor-hospital` |
+| Time Rotor Engine   | `/tardisrecipe time-rotor-engine`   |
+| Time Engine         | `/tardisrecipe time-engine`         |
 
-#### Sonic circuits
+### Sonic circuits
 
-| Bio Scanner Circuit | `/tardisrecipe bio-scanner-circuit` |
-| Diamond Disruptor Circuit | `/tardisrecipe diamond-disruptor-circuit` |
+| Name                        | Command                                     |
+|-----------------------------|---------------------------------------------|
+| Bio Scanner Circuit         | `/tardisrecipe bio-scanner-circuit`         |
+| Brush Circuit               | `/tardisrecipe brush-circuit`               |
+| Diamond Disruptor Circuit   | `/tardisrecipe diamond-disruptor-circuit`   |
 | Emerald Environment Circuit | `/tardisrecipe emerald-environment-circuit` |
-| Ignite Circuit | `/tardisrecipe ignite-circuit` |
-| Knockback Circuit | `/tardisrecipe knockback-circuit` |
-| Painter Circuit | `/tardisrecipe painter-circuit` |
-| Pickup Arrows Circuit | `/tardisrecipe pickup-arrows-circuit` |
-| Redstone Activator Circuit | `/tardisrecipe redstone-activator-circuit` |
-| Server Admin Circuit | `/tardisrecipe server-admin-circuit` |
+| Ignite Circuit              | `/tardisrecipe ignite-circuit`              |
+| Knockback Circuit           | `/tardisrecipe knockback-circuit`           |
+| Painter Circuit             | `/tardisrecipe painter-circuit`             |
+| Pickup Arrows Circuit       | `/tardisrecipe pickup-arrows-circuit`       |
+| Redstone Activator Circuit  | `/tardisrecipe redstone-activator-circuit`  |
+| Server Admin Circuit        | `/tardisrecipe server-admin-circuit`        |
 
-#### Sonic upgrades
+### Sonic upgrades
 
-| Admin Upgrade | `/tardisrecipe admin-upgrade` |
-| Bio Scanner Upgrade | `/tardisrecipe bio-scanner-upgrade` |
-| Redstone Upgrade | `/tardisrecipe redstone-upgrade` |
-| Diamond Upgrade | `/tardisrecipe diamond-upgrade` |
-| Emerald Upgrade | `/tardisrecipe emerald-upgrade` |
-| Painter Upgrade | `/tardisrecipe painter-upgrade` |
-| Ignite Upgrade | `/tardisrecipe ignite-upgrade` |
+| Name                  | Command                               |
+|-----------------------|---------------------------------------|
+| Admin Upgrade         | `/tardisrecipe admin-upgrade`         |
+| Bio Scanner Upgrade   | `/tardisrecipe bio-scanner-upgrade`   |
+| Brush Upgrade         | `/tardisrecipe brush-upgrade`         |
+| Redstone Upgrade      | `/tardisrecipe redstone-upgrade`      |
+| Diamond Upgrade       | `/tardisrecipe diamond-upgrade`       |
+| Emerald Upgrade       | `/tardisrecipe emerald-upgrade`       |
+| Painter Upgrade       | `/tardisrecipe painter-upgrade`       |
+| Ignite Upgrade        | `/tardisrecipe ignite-upgrade`        |
 | Pickup Arrows Upgrade | `/tardisrecipe pickup-arrows-upgrade` |
-| Knockback Upgrade | `/tardisrecipe knockback-upgrade` |
+| Knockback Upgrade     | `/tardisrecipe knockback-upgrade`     |
 
-#### Storage disks
+### Storage disks
 
+| Name                    | Command                                 |
+|-------------------------|-----------------------------------------|
 | Authorised Control Disk | `/tardisrecipe authorised-control-disk` |
-| Blank Storage Disk | `/tardisrecipe blank-storage-disk` |
-| Biome Storage Disk | `/tardisrecipe biome-storage-disk` |
-| Player Storage Disk | `/tardisrecipe player-storage-disk` |
-| Preset Storage Disk | `/tardisrecipe preset-storage-disk` |
-| Save Storage Disk | `/tardisrecipe save-storage-disk` |
+| Blank Storage Disk      | `/tardisrecipe blank-storage-disk`      |
+| Biome Storage Disk      | `/tardisrecipe biome-storage-disk`      |
+| Player Storage Disk     | `/tardisrecipe player-storage-disk`     |
+| Preset Storage Disk     | `/tardisrecipe preset-storage-disk`     |
+| Save Storage Disk       | `/tardisrecipe save-storage-disk`       |
 
-#### Misc
+### Misc
 
-| Acid Battery | `/tardisrecipe acid-battery` |
-| Rust Plague Sword | `/tardisrecipe rust-plague-sword` |
-| Tardis Schematic Wand | `/tardisrecipe schematic-wand` |
-| Tardis Monitor | `/tardisrecipe tardis-monitor` |
-| Tardis Monitor Frame | `/tardisrecipe tardis-monitor-frame` |
+| Name                  | Command                              |
+|-----------------------|--------------------------------------|
+| Acid Battery          | `/tardisrecipe acid-battery`         |
+| Rust Plague Sword     | `/tardisrecipe rust-plague-sword`    |
+| Tardis Schematic Wand | `/tardisrecipe schematic-wand`       |
+| Tardis Monitor        | `/tardisrecipe tardis-monitor`       |
+| Tardis Monitor Frame  | `/tardisrecipe tardis-monitor-frame` |
 
-#### Custom blocks and lights
+### Custom blocks and lights
 
-| Grow | `/tardisrecipe grow` |
-| Blue Box | `/tardisrecipe blue-box` |
-| Cog | `/tardisrecipe cog` |
-| Hexagon | `/tardisrecipe heaxagon` |
-| Roundel | `/tardisrecipe roundel` |
-| Roundel Offset | `/tardisrecipe roundel-offset` |
-| The Moment | `/tardisrecipe the-moment` |
-| Light Classic | `/tardisrecipe light-classic` |
+| Name                 | Command                              |
+|----------------------|--------------------------------------|
+| Grow                 | `/tardisrecipe grow`                 |
+| Blue Box             | `/tardisrecipe blue-box`             |
+| Cog                  | `/tardisrecipe cog`                  |
+| Hexagon              | `/tardisrecipe heaxagon`             |
+| Roundel              | `/tardisrecipe roundel`              |
+| Roundel Offset       | `/tardisrecipe roundel-offset`       |
+| The Moment           | `/tardisrecipe the-moment`           |
+| Light Classic        | `/tardisrecipe light-classic`        |
 | Light Classic Offset | `/tardisrecipe light-classic-offset` |
-| Light Tenth | `/tardisrecipe light-tenth` |
-| Light Eleventh | `/tardisrecipe light-eleventh` |
-| Light Twelfth | `/tardisrecipe light-twelfth` |
-| Light Thirteenth | `/tardisrecipe light-thirteenth` |
+| Light Tenth          | `/tardisrecipe light-tenth`          |
+| Light Eleventh       | `/tardisrecipe light-eleventh`       |
+| Light Twelfth        | `/tardisrecipe light-twelfth`        |
+| Light Thirteenth     | `/tardisrecipe light-thirteenth`     |
 
 ![Recipe GUI](/images/docs/recipe.jpg)

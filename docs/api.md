@@ -5,7 +5,7 @@ title: API
 
 # TARDIS API
 
-The TARDIS plugin now includes a publically accessible API for plugin developers to use.
+The TARDIS plugin includes a publically accessible API for plugin developers to use.
 
 As of TARDIS v3.2-beta-1 the API can be accessed in your plugin like so:
 
@@ -36,7 +36,7 @@ public class ExamplePlugin extends JavaPlugin {
 ```
 
 You can auto-generate a plugin that hooks into the TARDIS API at the
-[Bukkit plugin starter](http://thenosefairy.duckdns.org/plugin_starter.php) page.
+[Spigot plugin starter](http://thenosefairy.duckdns.org/plugin_starter.php) page.
 Make sure to select the _TARDIS API_ checkbox.
 
 The Java Doc for the API is available here:
