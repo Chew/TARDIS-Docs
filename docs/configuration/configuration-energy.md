@@ -5,7 +5,7 @@ title: Artron Energy configuration option
 
 # Artron Energy configuration option
 
-For Artron Energy room growing costs see the [Room configuration](configuration-rooms.md) page.
+For Artron Energy room growing costs see the [Room configuration](configuration-rooms) page.
 
 These are the Artron Energy configuration options.
 

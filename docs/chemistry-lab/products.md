@@ -5,13 +5,13 @@ title: Products
 
 # TARDIS Chemistry Lab Products
 
-The [Chemistry Lab](./index.md) can produce some useful products for you!
+The [Chemistry Lab](./index) can produce some useful products for you!
 
 :::note
 
 _This page only shows products of the chemistry lab, to view compounds, go
-to [chemistry lab compounds](compounds.md), to view how to use the chemistry lab, go to
-the [chemistry lab page](./index.md). To view elements, go to the [elements page](elements.md)_
+to [chemistry lab compounds](compounds), to view how to use the chemistry lab, go to
+the [chemistry lab page](./index). To view elements, go to the [elements page](elements)_
 
 :::
 
@@ -42,11 +42,11 @@ Gray, Light Gray, Black, Brown, and White.
 
 The recipe is generally the same for each balloon. The dye in the middle can be any of the above listed dyes.
 
-All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index#product-crafter)
 
 | Ingredients                                                                                                    | Crafting recipe                                                   | Recipe Command                                 |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------|
-| [6 Latex](compounds.md#latex) + Any Dye + Helium + [String](https://minecraft.gamepedia.com/String) | ![balloon recipe](/images/chemistry/products/recipe-balloons.gif) | `/tchemistry formula [Balloon colour]_Balloon` |
+| [6 Latex](compounds#latex) + Any Dye + Helium + [String](https://minecraft.gamepedia.com/String) | ![balloon recipe](/images/chemistry/products/recipe-balloons.gif) | `/tchemistry formula [Balloon colour]_Balloon` |
 
 ## Bleach
 
@@ -58,7 +58,7 @@ completely white and turn concrete powder white.
 
 ### Recipe
 
-Recipe must be crafted in a [Lab table](./index.md#lab-table)
+Recipe must be crafted in a [Lab table](./index#lab-table)
 
 Recipe is the same as it is in Education Edition
 
@@ -67,7 +67,7 @@ Recipe command: `/tchemistry formula Bleach`
 | Result                                               | Materials Needed                                                                                                |
 |------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | ![bleach](/images/chemistry/products/item-bleach.png) | ![bleach recipe](/images/chemistry/products/recipe-bleach.png)                                                   |
-| Bleach                                               | [3 Water](compounds.md#water) + [3 Sodium Hypochlorite](compounds.md#sodium-hypochlorite) |
+| Bleach                                               | [3 Water](compounds#water) + [3 Sodium Hypochlorite](compounds#sodium-hypochlorite) |
 
 ## Glow Sticks
 
@@ -85,11 +85,11 @@ _All 14 colours of glow sticks. The first 2 on the top row are activated._
 The recipe is generally the same for each glow stick. The dye in the middle can be any of the above listed dyes (which
 is all dyes except Gray and Black).
 
-All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index#product-crafter)
 
 | Ingredients                                                                                                                                                                | Crafting recipe                                                           | Recipe Command                            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------|
-| [6 Polyethylene](compounds.md#polyethylene) + Dye + [Luminol](compounds.md#luminol) + [Hydrogen Peroxide](compounds.md#hydrogen-peroxide) | ![glow sticks recipes](/images/chemistry/products/recipes-glow-sticks.gif) | `/tchemistry formula [colour]_Glow_Stick` |
+| [6 Polyethylene](compounds#polyethylene) + Dye + [Luminol](compounds#luminol) + [Hydrogen Peroxide](compounds#hydrogen-peroxide) | ![glow sticks recipes](/images/chemistry/products/recipes-glow-sticks.gif) | `/tchemistry formula [colour]_Glow_Stick` |
 
 ## Heat Block
 
@@ -99,14 +99,14 @@ The Heat Block acts as a source of heat, melting nearby ice in a 5x5 area.
 
 ### Recipe
 
-This recipe must be crafted in the [Lab table](./index.md#lab-table)
+This recipe must be crafted in the [Lab table](./index#lab-table)
 
 Recipe command: `/tchemistry formula Heat_Block`
 
 | Result                                                       | Materials Needed                                                                                                                            |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | ![heat block](/images/chemistry/products/item-heat-block.png) | ![heat block recipe](/images/chemistry/products/recipe-heat-block.png)                                                                       |
-| Heat Block                                                   | Iron + [Water](compounds.md#water) + [Charcoal](https://minecraft.gamepedia.com/Charcoal) + [Salt](compounds.md#salt) |
+| Heat Block                                                   | Iron + [Water](compounds#water) + [Charcoal](https://minecraft.gamepedia.com/Charcoal) + [Salt](compounds#salt) |
 
 ## Ice Bomb
 
@@ -117,14 +117,14 @@ of [ice](https://minecraft.gamepedia.com/Ice)
 
 ### Recipe
 
-This recipe must be crafted in the [Lab table](./index.md#lab-table)
+This recipe must be crafted in the [Lab table](./index#lab-table)
 
 Recipe command: `/tchemistry forumla Ice_Bomb`
 
 | Result                                                   | Materials Needed                                                  |
 |----------------------------------------------------------|-------------------------------------------------------------------|
 | ![ice bomb](/images/chemistry/products/item-ice-bomb.png) | ![ice bomb recipe](/images/chemistry/products/recipe-ice-bomb.png) |
-| Ice Bomb                                                 | [4 Sodium Acetate](compounds.md#sodium-acetate)        |
+| Ice Bomb                                                 | [4 Sodium Acetate](compounds#sodium-acetate)        |
 
 ## Lamps
 
@@ -132,21 +132,21 @@ Lamps are simple light source blocks.
 
 - You can craft 4 different colours of Lamps: blue, red, purple, and green lamps.
 - Each lamp produces a light level of 15, the highest light level possible.
-- The Lamp can be toggled with a Redstone-enabled [Sonic Screwdriver](../sonic-screwdriver.md)
+- The Lamp can be toggled with a Redstone-enabled [Sonic Screwdriver](../sonic-screwdriver)
 
 ![lamps](/images/chemistry/products/lamps.png)
 _(left to right) Blue Lamp, Red Lamp, Purple Lamp, Green Lamp_
 
 ### Recipes
 
-All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index#product-crafter)
 
 | Name        | Ingredients                                                                                                                       | Crafting recipe                                                         | Recipe Command                    |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------|
-| Blue Lamp   | [Cerium Chloride](compounds.md#cerium-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)       | ![blue lamp recipe](/images/chemistry/products/recipe-blue-lamp.png)     | `/tchemistry formula Blue_Lamp`   |
-| Red Lamp    | [Mercuric Chloride](compounds.md#mercuric-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)   | ![red lamp recipe](/images/chemistry/products/recipe-red-lamp.png)       | `/tchemistry formula Red_Lamp`    |
-| Purple Lamp | [Potassium Chloride](compounds.md#potassium-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp) | ![purple lamp recipe](/images/chemistry/products/recipe-purple-lamp.png) | `/tchemistry formula Purple_Lamp` |
-| Green Lamp  | [Tungsten Chloride](compounds.md#tungsten-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)   | ![green lamp recipe](/images/chemistry/products/recipe-green-lamp.png)   | `/tchemistry formula Green_Lamp`  |
+| Blue Lamp   | [Cerium Chloride](compounds#cerium-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)       | ![blue lamp recipe](/images/chemistry/products/recipe-blue-lamp.png)     | `/tchemistry formula Blue_Lamp`   |
+| Red Lamp    | [Mercuric Chloride](compounds#mercuric-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)   | ![red lamp recipe](/images/chemistry/products/recipe-red-lamp.png)       | `/tchemistry formula Red_Lamp`    |
+| Purple Lamp | [Potassium Chloride](compounds#potassium-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp) | ![purple lamp recipe](/images/chemistry/products/recipe-purple-lamp.png) | `/tchemistry formula Purple_Lamp` |
+| Green Lamp  | [Tungsten Chloride](compounds#tungsten-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)   | ![green lamp recipe](/images/chemistry/products/recipe-green-lamp.png)   | `/tchemistry formula Green_Lamp`  |
 
 ## Sparklers
 
@@ -161,15 +161,15 @@ _Orange Sparkler in action_
 
 ### Recipes
 
-All recipes must be crafted in the [Product crafter](./index.md#product-crafter)
+All recipes must be crafted in the [Product crafter](./index#product-crafter)
 
 | Name            | Ingredients                                                                          | Crafting recipe                                                                 | Recipe Command                        |
 |-----------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------|
-| Orange Sparkler | [Calcium Chloride](compounds.md#calcium-chloride) + Magnesium + Stick     | ![Orange Sparkler recipe](/images/chemistry/products/recipe-orange-sparkler.png) | `/tchemistry formula Orange_Sparkler` |
-| Blue Sparkler   | [Cerium Chloride](compounds.md#cerium-chloride) + Magnesium + Stick       | ![Blue sparkler recipe](/images/chemistry/products/recipe-blue-sparkler.png)     | `/tchemistry formula Blue_Sparkler`   |
-| Green Sparkler  | [Tungsten Chloride](compounds.md#tungsten-chloride) + Magnesium + Stick   | ![Green sparkler recipe](/images/chemistry/products/recipe-green-sparkler.png)   | `/tchemistry formula Green_Sparkler`  |
-| Purple Sparkler | [Potassium Chloride](compounds.md#potassium-chloride) + Magnesium + Stick | ![Purple sparkler recipe](/images/chemistry/products/recipe-purple-sparkler.png) | `/tchemistry formula Purple_Sparkler` |
-| Red Sparkler    | [Mercuric Chloride](compounds.md#mercuric-chloride) + Magnesium + Stick   | ![Red sparkler recipe](/images/chemistry/products/recipe-red-sparkler.png)       | `/tchemistry formula Red_Sparkler`    |
+| Orange Sparkler | [Calcium Chloride](compounds#calcium-chloride) + Magnesium + Stick     | ![Orange Sparkler recipe](/images/chemistry/products/recipe-orange-sparkler.png) | `/tchemistry formula Orange_Sparkler` |
+| Blue Sparkler   | [Cerium Chloride](compounds#cerium-chloride) + Magnesium + Stick       | ![Blue sparkler recipe](/images/chemistry/products/recipe-blue-sparkler.png)     | `/tchemistry formula Blue_Sparkler`   |
+| Green Sparkler  | [Tungsten Chloride](compounds#tungsten-chloride) + Magnesium + Stick   | ![Green sparkler recipe](/images/chemistry/products/recipe-green-sparkler.png)   | `/tchemistry formula Green_Sparkler`  |
+| Purple Sparkler | [Potassium Chloride](compounds#potassium-chloride) + Magnesium + Stick | ![Purple sparkler recipe](/images/chemistry/products/recipe-purple-sparkler.png) | `/tchemistry formula Purple_Sparkler` |
+| Red Sparkler    | [Mercuric Chloride](compounds#mercuric-chloride) + Magnesium + Stick   | ![Red sparkler recipe](/images/chemistry/products/recipe-red-sparkler.png)       | `/tchemistry formula Red_Sparkler`    |
 
 ## Super Fertiliser
 
@@ -180,11 +180,11 @@ mechanics.
 
 ### Recipe
 
-This recipe must be crafted in the [Lab table](./index.md#lab-table)
+This recipe must be crafted in the [Lab table](./index#lab-table)
 
 Recipe command: `/tchemistry formula Super_Fertiliser`
 
 | Result                                                                   | Materials Needed                                                                  |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | ![super fertiliser](/images/chemistry/products/item-super-fertiliser.png) | ![super fertiliser recipe](/images/chemistry/products/recipe-super-fertiliser.png) |
-| Super Fertiliser                                                         | [Ammonia](compounds.md#ammonia) + Phosphorus                           |
+| Super Fertiliser                                                         | [Ammonia](compounds#ammonia) + Phosphorus                           |

@@ -70,7 +70,7 @@ Click the newly created atom to add it to your inventory. Every click adds one t
 
 (You can also access this GUI with `/tardischemistry gui compound` with proper permissions)
 
-[Click to view all the compounds!](compounds.md)
+[Click to view all the compounds!](compounds)
 
 In-game description: Combine elements to create chemical compounds. To see a compound formula use
 the `/tardischemistry forumla` command. Place items in the bottom row from left to right.

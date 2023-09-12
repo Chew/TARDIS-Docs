@@ -25,7 +25,7 @@ Remove the specified beacon recharger from the config.
 
 ### `/tardisadmin condenser`
 
-Set the chest you are targeting in game, as the server's community Artron Condenser - see [Server condenser](../condenser.md#server-condenser).
+Set the chest you are targeting in game, as the server's community Artron Condenser - see [Server condenser](../condenser#server-condenser).
 
 
 List all TARDISs and their locations.
