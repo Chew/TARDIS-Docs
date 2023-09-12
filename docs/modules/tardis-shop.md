@@ -35,7 +35,12 @@ In order for the Shop module to function you will need to install:
 
 ## Config options
 
-These can be found in _shop.yml_.
+These are the shop configuration options.
+
+```yaml title="/plugins/TARDIS/shop.yml"
+block: PRISMARINE_BRICKS
+tardis_admin_free: true
+```
 
 | Option              | Type    | Default             | Description                                                                                                                                                                                 |
 |---------------------|---------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

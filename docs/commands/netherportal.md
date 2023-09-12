@@ -9,7 +9,7 @@ This command lets you get the coordinates for accurately linking Nether Portals.
 
     /tardisnetherportal
 
-There are some shorter aliases to the command: `/tnp`, `/tnether`, `/o2n`, `/n2o`
+There are some shorter aliases to the command: `/tnp` and `/tnetherportal`
 
 To use the command to link portals:
 
