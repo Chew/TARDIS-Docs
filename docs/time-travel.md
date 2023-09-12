@@ -35,6 +35,13 @@ applies here as well.
 
 To travel to a random destination, set the repeaters to your desired settings.
 
+:::tip
+
+If you can never remember which repeater is which, turn on the `announce_repeaters` player preference to see a title each time the repeater is clicked.
+`/tprefs announce_repeaters [on|off]`
+
+:::
+
 ### Stone button and handbrake
 
 Your TARDIS comes equipped with a stone button & a handbrake (lever).
@@ -43,8 +50,8 @@ The stone button “sets” your destination to a random location with respect t
 above, and the handbrake initiates travel and parks your TARDIS.
 
 1. Click the stone button and your TARDIS will lock on to a destination.
-2. Disengage the handbrake by **RIGHT** -clicking it.
-3. Once the TARDIS has finished navigating the time vortex (see [flight modes](flight-modes)), **LEFT** -click the
+2. Disengage the handbrake by **RIGHT**-clicking it.
+3. Once the TARDIS has finished navigating the time vortex (see [flight modes](flight-modes)), **LEFT**-click the
    handbrake to park (best not to be in creative mode!).
 
 ### Video
@@ -55,7 +62,7 @@ above, and the handbrake initiates travel and parks your TARDIS.
 
 ### Exiting
 
-To exit the TARDIS simply RIGHT-click on the iron door with your TARDIS key and you will exit at your destination.
+To exit the TARDIS simply RIGHT-click on the iron door to open it and walk out to your destination.
 
 ## Other ways to travel
 
@@ -66,7 +73,7 @@ more on the [Advanced Console](advanced-console) page.
 
 ### Travel commands
 
-You can find these on the [Travel Commands](travel-commands) page.
+You can find these on the [Travel Commands](commands/travel) page.
 
 ### Save sign and destination terminal
 

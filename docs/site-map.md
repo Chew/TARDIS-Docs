@@ -179,7 +179,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="K" label="K">
 
 <p><a href="modules/weeping-angels#k-9" title="K-9">K-9</a><br/>
-	<a href="player-preferences#player-preference-commands" title="Key">Key</a><br/>
+	<a href="commands/player-preferences#player-preference-commands" title="Key">Key</a><br/>
 	<a href="keyboard" title="TARDIS Keyboard">Keyboard</a></p>
 
 </TabItem>

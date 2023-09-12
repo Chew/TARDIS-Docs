@@ -275,7 +275,7 @@ Zygons don’t do much yet (except try to kill you), but they look pretty cool.
 
 ## Monsters configuration
 
-For configuration options, see the [Monsters configuration](configuration/configuration-monsters.md) page.
+For configuration options, see the [Monsters configuration](../configuration/configuration-monsters) page.
 
 ## Commands
 

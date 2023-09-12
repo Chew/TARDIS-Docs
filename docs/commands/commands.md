@@ -13,7 +13,7 @@ Type `/tardis help` to list all the commands, then use `/tardis? [command]` to v
 Use `/tardis? [command] [subcommand]` when necessary to view the command information.
 
 You can also see a big list of `/tardis` commands here: [Big list of TARDIS sub commands](tardis-commands-table)
-and a big list of all the other commands here: [Big list of other commands](other-commands).
+and a big list of all the other commands here: [Big list of other commands](commands/other).
 
 ### There are lots of commands:
 

@@ -9,7 +9,7 @@ Kits allow server operators to give TARDIS items to players.
 
 You can configure the plugin to automatically give kits to players when two events occur — when a player joins the
 server and when a player creates a TARDIS. You can also give kits to players using the `/tardisgive` command (
-@see [TARDIS give commands](give-commands)).
+@see [TARDIS give commands](commands/give)).
 
 ## Configuring kits
 

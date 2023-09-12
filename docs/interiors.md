@@ -6,7 +6,7 @@ title: Interiors
 # TARDIS Interiors
 
 These interiors are designed to be used with the TARDIS.
-To find their corresponding block required to use them, see [TARDIS types](creating-a-tardis.md#tardis-types).
+To find their corresponding block required to use them, see [TARDIS types](creating-a-tardis#tardis-types).
 
 ## ANCIENT
 

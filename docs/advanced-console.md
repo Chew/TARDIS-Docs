@@ -50,7 +50,7 @@ TARDIS ARS Circuit opens the ARS inventory GUI.
 
 ## Crafting circuits
 
-Please refer to the [Recipe Commands](commands/recipe-commands) page for how to view
+Please refer to the [Recipe Commands](commands/recipe) page for how to view
 the crafting recipes
 
 ## Storage Disks

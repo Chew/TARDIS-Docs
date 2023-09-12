@@ -131,7 +131,7 @@ command (DO NOT use `/reload` as the plugin saves the current settings when it i
 
 The better option is to set the config options in game with the `/tardisconfig [config option] [value]` command —
 changes
-take effect immediately, no server restart required. See the [Config Commands](config-commands) page for more
+take effect immediately, no server restart required. See the [Config Commands](commands/config) page for more
 details.
 
 ## I jettisoned a room and it deleted part of the control room! {#jettison}
@@ -150,7 +150,7 @@ You have three options:
 1. Use the the TARDIS config commands to change the options i.e. `/tardisconfig [config option] [value]` for example
    `/tardisconfig key CARROT` — the benefit is that changes take effect immediately, you don’t need to restart the
    server.
-   Refer to the [config commands](config-commands) page.
+   Refer to the [config commands](commands/config) page.
 2. Manually edit the file, save it, and use the `/tardisconfig reload` command to load your changes into the server’
    memory.
 3. **STOP** the server. Edit the config file, save it, then start the server.

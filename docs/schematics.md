@@ -15,7 +15,7 @@ basically the same, with the following differences:
 - RIGHT-clicking with the wand sets the start point
 - LEFT-clicking with the wand sets the end point
 - Once the region is defined, use the `/tardisschematic` command (`/ts` for short) to save the schematic — see
-  the [TARDIS Schematic commands](schematic-commands) page for more details
+  the [TARDIS Schematic commands](commands/schematic) page for more details
 - You will be warned if the schematic region is not square and a multiple of 16 blocks
 - TARDIS schematic files have the extension `.tschm` and are saved in the _plugins/TARDIS/user\_schematics_ folder
 
