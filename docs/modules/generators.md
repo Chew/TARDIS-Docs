@@ -46,7 +46,7 @@ Desert biome with custom sky colour, trees and Dalek structures.
 
 `TARDIS:flat`
 
-Set block types in _flat\_world.yml_
+Block layer types are configurable:
 
 ```yaml title="/plugins/TARDIS/flat_world.yml"
 ## Blocks to use in the Flat World Generator

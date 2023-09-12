@@ -5,7 +5,7 @@ title: Troubleshooting/Common Problems
 
 # Troubleshooting/Common Problems {#top}
 
-Use the sidebar to navigate to the question answered you need.
+Use the sidebar to navigate to the question/answer you need.
 
 Couldn't solve your problem? Ask us on [Discord](https://discord.gg/sfuPVHh) or [GitHub](https://github.com/eccentricdevotion/TARDIS/discussions).
 

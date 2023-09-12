@@ -27,11 +27,6 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 
-<TabItem value="#" label="#">
-
-<p><a href="accessories#3-d-glasses" title="3-D glasses">3-D glasses</a></p>
-
-</TabItem>
 <TabItem value="A" label="A" default>
 
 <p><a href="abandon" title="Abandon a TARDIS">Abandon a TARDIS</a><br/>
@@ -85,7 +80,7 @@ import TabItem from '@theme/TabItem';
 	<a href="companions" title="Companions">Companions</a><br/>
 	<a href="condensables" title="Condensable items">Condensable items</a><br/>
 	<a href="condenser" title="Condenser">Condenser</a><br/>
-	<a href="configuration/configuration" title="Configuration">Configuration</a><br/>
+	<a href="configuration/" title="Configuration">Configuration</a><br/>
 	<a href="interiors" title="Console Gallery">Console Gallery</a><br/>
 	<a href="permissions-table#console-perms" title="Console Permissions">Console Permissions</a><br/>
 	<a href="contents" title="Contents page">Contents page</a><br/>
@@ -344,6 +339,11 @@ import TabItem from '@theme/TabItem';
 
 <p><a href="zero-room" title="Zero Room">Zero Room</a><br/>
 	<a href="modules/weeping-angels#zygons" title="Zygons">Zygons</a></p>
+
+</TabItem>
+<TabItem value="#" label="#">
+
+<p><a href="accessories#3-d-glasses" title="3-D glasses">3-D glasses</a></p>
 
 </TabItem>
 </Tabs>

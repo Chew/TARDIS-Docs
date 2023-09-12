@@ -89,6 +89,12 @@ const config = {
             label: "FAQ"
           },
           {
+            type: 'doc',
+            docId: 'site-map',
+            position: 'left',
+            label: "Site Map"
+          },
+          {
             href: 'https://github.com/eccentricdevotion/TARDIS',
             label: 'GitHub',
             position: 'right',

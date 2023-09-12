@@ -17,15 +17,17 @@ By default it contains one entry called ‘CUSTOM’ which is initially disabled
 
 It looks like this:
 
-    # custom console names should preferably be a single word,
-    # and cannot contain spaces (use underscores)
-    CUSTOM:
-        enabled: false
-        schematic: custom
-        seed: OBSIDIAN
-        has_beacon: true
-        has_lanterns: false
-        description: Super-duper Custom Console
+```yaml title="/plugins/TARDIS/custom_consoles.yml"
+# custom console names should preferably be a single word,
+# and cannot contain spaces (use underscores)
+CUSTOM:
+	enabled: false
+	schematic: custom
+	seed: OBSIDIAN
+	has_beacon: true
+	has_lanterns: false
+	description: Super-duper Custom Console
+```
 
 You can add as many custom consoles as you wish, all you need to do is duplicate the CUSTOM entry and then change it to
 suit as needed. The settings are explained below:
@@ -46,11 +48,13 @@ suit as needed. The settings are explained below:
 ### artron.yml
 
 The custom console schematic will NOT be enabled until an Artron Energy upgrade cost is entered into _artron.yml_. Add
-the schematic name (as entered into custom\_consoles.yml) to the `upgrades` config section along withe Artron cost.
+the schematic name (as entered into _custom\_consoles.yml_) to the `upgrades` config section along withe Artron cost.
 
-    upgrades:
-        custom: 10000
-        rani: 8000
+```yaml title="/plugins/TARDIS/artron.yml"
+upgrades:
+	custom: 10000
+	rani: 8000
+```
 
 ### The schematic file
 

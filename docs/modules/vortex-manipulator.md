@@ -52,8 +52,7 @@ the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Reso
 ## Multi-world support
 
 The plugin works with Multiverse (or other multi-word plugin), remembering personally saved locations and allowing for
-direct teleporting to any available world and coordinate. Also having respect for World Borders (plugin and the 1.8
-default if possible). Towny/Faction/WorldGuard/GriefPrevention suport can be enabled via the config.
+direct teleporting to any available world and coordinate.
 
 ## Commands
 
