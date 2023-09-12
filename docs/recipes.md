@@ -18,21 +18,23 @@ recipes on the next server restart.
 
 A shaped TARDIS recipe looks like this:
 
-    shaped:
-        TARDIS Locator:
-            easy_shape: OIO,ICI,OIO
-            easy_ingredients:
-                O: GRAVEL
-                I: IRON_INGOT
-                C: 'WOOL:14'
-            hard_shape: OIO,ICI,OIO
-            hard_ingredients:
-                O: OBSIDIAN
-                I: IRON_INGOT
-                C: 'MAP:1965'
-            result: COMPASS
-            amount: 1
-            lore: ""
+```yaml title="/plugins/TARDIS/recipes.yml"
+shaped:
+	TARDIS Locator:
+		easy_shape: OIO,ICI,OIO
+		easy_ingredients:
+			O: GRAVEL
+			I: IRON_INGOT
+			C: 'WOOL:14'
+		hard_shape: OIO,ICI,OIO
+		hard_ingredients:
+			O: OBSIDIAN
+			I: IRON_INGOT
+			C: 'MAP:1965'
+		result: COMPASS
+		amount: 1
+		lore: ""
+```
 
 Options (below) surrounded by square brackets `[]` are areas that you can change. Do **NOT** type the square brackets.
 
@@ -66,12 +68,14 @@ Options (below) surrounded by square brackets `[]` are areas that you can change
 
 A shaped TARDIS recipe looks like this:
 
-    shapeless:
-        Save Storage Disk:
-            recipe: RECORD_9,REDSTONE
-            result: RECORD_4
-            amount: 1
-            lore: "Blank"
+```yaml title="/plugins/TARDIS/recipes.yml"
+shapeless:
+	Save Storage Disk:
+		recipe: RECORD_9,REDSTONE
+		result: RECORD_4
+		amount: 1
+		lore: "Blank"
+```
 
 Options (below) surrounded by square brackets `[]` are areas that you can change. Do **NOT** type the square brackets.
 

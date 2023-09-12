@@ -33,19 +33,19 @@ A room full of bamboo, and used to store [panda mobs](farming).
 
 ## Bedroom
 
-A nice comfy room to sleep on!
+A nice comfy room to sleep in!
 
 ![Bedroom](/images/rooms/bedroom.jpg)
 
 ## Bird Cage
 
-A room full of bird cages, and used to store [parrot mobs](farming).
+A room with a bird cage, used to store [parrot mobs](farming).
 
 ![Bird Cage](/images/rooms/bird-cage.png)
 
 ## Chemistry Lab
 
-A room full of chemistry equipment. Learn more on the [chemistry pages](chemistry-lab).
+A room stocked with chemistry equipment. Learn more on the [chemistry pages](chemistry-lab).
 
 ![Chemistry Lab](/images/rooms/chemistry-lab.png)
 

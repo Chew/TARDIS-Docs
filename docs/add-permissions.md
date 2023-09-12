@@ -20,14 +20,16 @@ To do this:
 
 ### Example permissions.txt
 
-    #first_group
-    tardis.use
-    tardis.room
-    tardis.timetravel.player
-    tardis.timetravel.location
-    -tardis.exile
-    #second_group
-    tardis.enter
+```yaml title="/plugins/TARDIS/permissions.txt"
+#first_group
+tardis.use
+tardis.room
+tardis.timetravel.player
+tardis.timetravel.location
+-tardis.exile
+#second_group
+tardis.enter
+```
 
 * Groups names **MUST** start with a `#`
 * The first line is the name of the permissions group the player should be

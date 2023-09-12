@@ -5,17 +5,19 @@ title: Permissions
 
 # Permissions
 
-> **Quote from eccentric\_nz:**
->
-> If you are getting the error:
->
-> > `Your exile status does not allow you to bring the TARDIS to this...`
->
-> or
->
-> > `Your travel has been restricted to the [] area!`
->
-> Update the plugin!
+:::info Quote from eccentric_nz
+
+If you are getting the error:
+
+> `Your exile status does not allow you to bring the TARDIS to this...`
+
+or
+
+> `Your travel has been restricted to the [] area!`
+
+Update the plugin!
+
+:::
 
 ## Setting permissions for TARDIS worlds
 
@@ -60,6 +62,7 @@ players `tardis.use` you _DON’T_ need to give any of the permissions below.
     tardis.gravity
     tardis.texture
     tardis.temporal
+	tardis.architectural
 
 ## TARDIS build sizes
 
@@ -160,7 +163,7 @@ Otherwise there are individual nodes for for each room:
     tardis.room.workshop
     tardis.room.zero
 
-To use the Architectural Reconfiguration System, pl;ayers will need:
+To use the Architectural Reconfiguration System, players will need:
 
     tardis.architectural
 
@@ -168,7 +171,7 @@ To use the Architectural Reconfiguration System, pl;ayers will need:
 
 There are a some time travel specific nodes:
 
-Allow player's to fly the TARDIS exterior
+Allow players to fly the TARDIS exterior
 
     tardis.fly
 
@@ -323,6 +326,8 @@ Each sonic upgrade has its own permission:
     tardis.sonic.paint
     tardis.sonic.ignite
     tardis.sonic.arrow
+    tardis.sonic.knockback
+    tardis.sonic.brush
     tardis.sonic.admin
 
 The Bio-scanner Sonic has an extra permission to allow player freezing:
@@ -413,10 +418,7 @@ Allow players to do administration stuff
 
 ### Deleting any TARDIS
 
-The node `tardis.delete` will allow admin users to remove any TARDIS by breaking the sign on the front of the Police
-Box, or using the `/tardisadmin delete [player]` command.
-
-When breaking the sign, the TARDIS must not be occupied (including offline players).
+The node `tardis.delete` will allow admin users to remove any TARDIS using the `/tardisadmin delete [player]` command.
 
 The permission is set to **false** by default, so will have to explicitly given!
 
