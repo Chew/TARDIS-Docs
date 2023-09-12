@@ -9,7 +9,7 @@ You can define _flat_ rectangular regions so that TARDISs can either be blocked 
 travel to. This can be useful for creating TARDIS parking lots/airports, preventing players from travelling into towns
 or restricting players to particular locations.
 
-See also [Semi-random parking areas](commands/area-commands.md#semi-random-parking-areas)
+See also [Semi-random parking areas](commands/area#semi-random-parking-areas)
 
 A TARDIS area is perfect when setting up a TARDIS recharge beacon.
 
@@ -32,7 +32,7 @@ same Y-level coordinate as the start block
 
 TARDIS areas cannot overlap, and ideally should be nice flat areas.
 
-See also: the [Area commands](commands/area-commands.md) page
+See also: the [Area commands](commands/area) page
 
 ### Setting the parking distance of a TARDIS area
 

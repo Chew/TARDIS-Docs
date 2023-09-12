@@ -33,7 +33,7 @@ You can move these to wherever you want, but you must run the command:
     /tardis update [the block to update]
 
 So that the TARDIS plugin will know of the new locations and your TARDIS will function correctly. Visit the
-[Commands](tardis-commands) page for more detailed info on the command.
+[Commands](commands/tardis) page for more detailed info on the command.
 
 Anything else can be destroyed and changed.
 
@@ -65,7 +65,7 @@ can use for each:
 v2.7-beta-1, the plugin only reserves and protects the initial chunks used to create the TARDIS in, which means that
 another player could potentially create a TARDIS that overlaps yours if you make it bigger.
 
-See also: [Binding destinations to blocks](commands/bind-commands.md)
+See also: [Binding destinations to blocks](commands/bind)
 
 ## Changing room wall and floor blocks
 
