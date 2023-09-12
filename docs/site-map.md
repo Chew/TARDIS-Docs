@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 	<strong>TEGAN:</strong> If. I F! Stands for index file!</p>
 </details>
 
-<Tabs>
+<Tabs queryString="index">
 
 <TabItem value="A" label="A" default>
 

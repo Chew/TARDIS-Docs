@@ -67,9 +67,9 @@ Handles comes with several configuration options, which can be edited in `handle
 
 :::caution
 
-Besides if handles is enabled, and reminders, every option requires regex to properly fine tune possible commands to listen to.
+Most Handles options (except `enabled` and `reminders`) require regular expressions (_regex_) to properly fine tune the possible commands to listen to.
 
-You should familiarize yourself with Regex and test your responses with sites like [regexr](https://regexr.com/).
+You should familiarise yourself with regex and test your responses with sites like [RegExr](https://regexr.com/).
 
 :::
 
@@ -147,7 +147,7 @@ snippet ([TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-
 The [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack) has been updated with the Handles
 model and textures — the Handles block is a BIRCH\_BUTTON.
 
-Clicking on Handles while sneaking opens the [Handles Programming GUI](handles-programming) where you can create
+Clicking on Handles while sneaking opens the [Handles Programming GUI](#programming-handles) where you can create
 program disks, _documentation yet to come_, disks can be renamed with a `/handles disk [name]` command). More on this
 later, but it should extend Handles’ functionality a bit with events and more actions and will work with Advanced
 Console Disks.

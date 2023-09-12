@@ -5,7 +5,7 @@ title: Genetic Manipulator (AKA Lazarus Device)
 
 # TARDIS Genetic Manipulator (AKA Lazarus Device)
 
-## Recommendation
+:::info Recommendation
 
 Although not required, the Genetic Manipulator works best when the following two plugins are installed alongside TARDIS:
 
@@ -14,6 +14,8 @@ Although not required, the Genetic Manipulator works best when the following two
 
 Genetic manipulation will still work without LibsDisguises, but the changes will only be visible to other players, not
 yourself.
+
+:::
 
 ## Genetic Manipulation
 

@@ -28,7 +28,7 @@ right in!
 1. In order to be loaded by the plugin, the schematic file must be located in the _plugins/TARDIS/user\_schematics_
    folder.
 2. There must be an entry for the console in _custom_consoles.yml_ and _artron.yml_ — see
-   [Custom Consoles](custom_consoles) for more information.
+   [Custom Consoles](custom-consoles) for more information.
 3. The custom TARDIS can only have 1 iron door, 1 stone button, and 1 wood button in its initial design (in addition to
    the placeholder blocks as listed below).
 4. The TARDIS should be sized in multiples of 16 blocks (1 chunk). Schematics can be a maximum 3x3 chunks in size.
