@@ -75,10 +75,10 @@ each line.
 For acid potion effects, see
 the [Bukkit PotionType Enum](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType.html).
 
-```yaml
+```yaml title="/plugins/TARDIS/planets.yml"
 # other config #
 # Planet name
-world_tardis_skaro:
+skaro:
   # Whether this world should be created and managed by TARDIS.
   # This must be enabled to load the world and requires a restart.
   enabled: false
