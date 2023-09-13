@@ -17,11 +17,13 @@ Abandoning a TARDIS is one way of transferring TARDIS ownership to another playe
 
 ### Config options
 
-    abandon:
-        enabled: [true|false]
-        reduce_count: [true|false]
+```yaml title="/plugins/TARDIS/config.yml"
+abandon:
+	enabled: [true|false]
+	reduce_count: [true|false]
+```
 
-Both options are `true` by default. reduce\_count only applies if `creation.count` is set to > `0`. `allow.power_down`
+Both options are `true` by default. `reduce_count` only applies if `creation.count` is set to > `0`. `allow.power_down`
 must also be `true` for abandonment to take place.
 
 ### Commands
@@ -42,7 +44,7 @@ You can spawn abandoned TARDISes automatically with a command:
 Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [list\_of\_interiors.html](list_of_interiors)
 
 And `[PRESET]` is the exterior preset type of the TARDIS —
-see [PRESET](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/PRESET)
+see [PRESET](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/PRESET.html)
 
 And `[DIRECTION]` is the direction the player would be facing if they are looking at the exterior preset door — one of:
 NORTH, SOUTH, EAST, WEST
