@@ -144,4 +144,4 @@ To get started choose a page:
 [Minecraft name generator](name-generator) — Currently a work in progress, but give a whirl anyway!
 
 [Spigot/Paper plugin starter](http://thenosefairy.duckdns.org/plugin_starter.php) — Generate the required files to start
-writing a Spigot/Paper plugin using Maven and you preferred Java IDE. The TARDIS plugin is coded using [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/).
+writing a Spigot/Paper plugin using Maven and your preferred Java IDE. The TARDIS plugin is coded using [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/).
