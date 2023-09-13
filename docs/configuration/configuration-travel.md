@@ -43,7 +43,6 @@ See the headings below for more detailed information.
 | Option                           | Type                                                                                                                                                                                                                                                                                | Default Value |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | travel:                          |
-| ---                              |
 | `include_default_world`          | boolean                                                                                                                                                                                                                                                                             | `false`       |
 |                                  | Sets whether the default world is included in time travel destinations.                                                                                                                                                                                                             |
 | `tp_radius`                      | integer                                                                                                                                                                                                                                                                             | `500`         |
@@ -91,5 +90,5 @@ See the headings below for more detailed information.
 | `no_destination_malfunctions`    | boolean                                                                                                                                                                                                                                                                             | `true`        |
 |                                  | Sets whether the TARDIS will malfunction if no valid random destination can be found with the current console settings.                                                                                                                                                             |
 
-[Back to main configuration page](configuration)
+[Back to main configuration page](category/plugin-configuration)
 

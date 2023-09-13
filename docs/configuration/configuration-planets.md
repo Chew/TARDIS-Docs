@@ -1,0 +1,152 @@
+---
+layout: default
+title: Planet configuration options
+---
+
+# Planet configuration options
+
+Worlds are added and removed automatically when the plugin is enabled — it will find newly added worlds, and
+remove worlds that no longer exist.
+
+You should rarely need to edit this section, as worlds can be included or excluded using
+the `/tardisadmin include [world]` and `/tardisadmin exclude [world]` commands.
+
+These are the plugin planet configuration options.
+
+```yaml title="/plugins/TARDIS/planets.yml"
+switch_resource_packs: false
+set_pack_on_join: true
+default_resource_pack: 'https://www.dropbox.com/s/utka3zxmer7f19g/Default.zip?dl=1'
+colour_skies: true
+planets:
+  TARDIS_TimeVortex:
+    enabled: true
+    resource_pack: default
+    gamemode: SURVIVAL
+    time_travel: false
+    world_type: FLAT
+    environment: NORMAL
+    void: true
+    generator: TARDIS:void
+    gamerules:
+      doWeatherCycle: false
+      doDaylightCycle: false
+    keep_spawn_in_memory: false
+    allow_portals: false
+    alias: TimeVortex
+    icon: CRYING_OBSIDIAN
+  TARDIS_Zero_Room:
+    enabled: false
+    resource_pack: default
+    gamemode: SURVIVAL
+    time_travel: false
+    world_type: FLAT
+    environment: NORMAL
+    void: true
+    generator: TARDIS:void
+    gamerules:
+      doWeatherCycle: false
+      doDaylightCycle: false
+      announceAdvancements: false
+    keep_spawn_in_memory: false
+    allow_portals: false
+    alias: ZeroRoom
+    icon: PINK_WOOL
+  skaro:
+    enabled: false
+    resource_pack: default
+    acid: true
+    acid_damage: 5
+    acid_potions:
+      - WEAKNESS
+      - POISON
+    rust: true
+    flying_daleks: true
+    gamemode: SURVIVAL
+    time_travel: true
+    world_type: NORMAL
+    environment: NORMAL
+    generator: TARDIS:skaro
+    keep_spawn_in_memory: false
+    spawn_other_mobs: true
+    gamerules:
+      doTraderSpawning: false
+      doPatrolSpawning: false
+    allow_portals: false
+    alias: Skaro
+    icon: FIRE_CORAL_BLOCK
+  siluria:
+    enabled: false
+    resource_pack: default
+    gamemode: SURVIVAL
+    time_travel: true
+    world_type: NORMAL
+    environment: NORMAL
+    generator: TARDIS:siluria
+    keep_spawn_in_memory: false
+    spawn_other_mobs: true
+    gamerules:
+      doTraderSpawning: false
+      doPatrolSpawning: false
+    allow_portals: false
+    alias: Siluria
+    icon: BAMBOO_MOSAIC
+  gallifrey:
+    enabled: false
+    resource_pack: default
+    gamemode: SURVIVAL
+    time_travel: true
+    world_type: NORMAL
+    environment: NORMAL
+    generator: TARDIS:gallifrey
+    keep_spawn_in_memory: false
+    spawn_other_mobs: true
+    gamerules:
+      doTraderSpawning: false
+      doPatrolSpawning: false
+    allow_portals: false
+    alias: Gallifrey
+    icon: RED_SAND
+
+```
+
+| Option                                                    | Type                                                                                                                                                                                                                                                     | Default Value                                                |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| `switch_resource_packs`                                   | boolean                                                                                                                                                                                                                                                  | `false`                                                      |
+|                                                           | To make the a world look a little different than a regular world, TARDIS can change the resource pack when you switch worlds (you must enable server resource packs in the Minecraft client).                                                            |                                                              |
+| `set_pack_on_join`                                        | boolean                                                                                                                                                                                                                                                  | `true`                                                       |
+|                                                           | If players join the server in a world managed by TARDIS, setting this to `true` will switch the resource pack for them.                                                                                                                                  |                                                              |
+| `default_resource_pack`                                   | string                                                                                                                                                                                                                                                   | `https://www.dropbox.com/s/utka3zxmer7f19g/Default.zip?dl=1` |  |
+|                                                           | This is just an empty resource pack (954 bytes). It is needed to revert back to the default (or other installed) resource pack colours. You can either host your own, or use the one provided. Worlds not listed in the `planets` section will use this. |                                                              |
+| `colour_skies`                                            | boolean                                                                                                                                                                                                                                                  | `true`                                                       |
+|                                                           | Whether to send biome change packets for the Gallifrey and Skaro worlds so that the sky, water, fog, and foliage colours are different than regular worlds.                                                                                              |                                                              |
+| planets:                                                  |                                                                                                                                                                                                                                                          |                                                              |
+|                                                           | This is a list of worlds on your server. If you want to use the world resource pack switching feature for other server worlds, you can add them here. Use the `TARDIS_TimeVortex` entry as an example.                                                   |                                                              |
+| &nbsp;&nbsp;&nbsp;`[planet name]:`                        |                                                                                                                                                                                                                                                          |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`enabled`             | boolean                                                                                                                                                                                                                                                  | `false`                                                      |
+|                                                           | Whether this world should be loaded and managed by TARDIS.                                                                                                                                                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`time_travel`         | boolean                                                                                                                                                                                                                                                  | `false`                                                      |
+|                                                           | Whether this world can be travelled to using the TARDIS.                                                                                                                                                                                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`resource_pack`       | string                                                                                                                                                                                                                                                   | `Default`                                                    |
+|                                                           | This is where you specify the URL to the resource pack you want to switch to when entering the world. Host your own, or use the one provided.                                                                                                            |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gamemode`            | string                                                                                                                                                                                                                                                   | `SURVIVAL`                                                   |
+|                                                           | The game mode that this world should use. It should be uppercase and one of: `SURVIVAL`, `CREATIVE`, `ADVENTURE`, `SPECTATOR`.                                                                                                                           |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`world_type`          | string                                                                                                                                                                                                                                                   | `NORMAL`                                                     |
+|                                                           | The type of world that is generated. Should be uppercase, and one of: `NORMAL` or `FLAT`.                                                                                                                                                                |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`environment`         | string                                                                                                                                                                                                                                                   | `NORMAL`                                                     |
+|                                                           | The environment of the world that is generated. Should be uppercase, and one of: `NORMAL`, `THE\_END`, `NETHER`.                                                                                                                                         |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`generator`           | string                                                                                                                                                                                                                                                   | `DEFAULT`                                                    |
+|                                                           | The name of the generator for the world. Should be the name of the plugin that is used or `DEFAULT`.                                                                                                                                                     |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`game_rules`          | boolean list                                                                                                                                                                                                                                             | —                                                            |
+|                                                           | A list of game rules that should be applied to the world — such as: `doWeatherCycle`, `doDaylightCycle` — values must be `true` or `false`. See https://minecraft.fandom.com/wiki/Commands/gamerule                                                      |                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`generate_structures` | boolean                                                                                                                                                                                                                                                  | `true`                                                       |
+|                                                           | Whether the world should generate vanilla structures — you would set this to `false` for example, if the generator was set to the Terra World Generator plugin e.g. `Terra:TARTARUS`.                                                                    |                                                              |
+
+Each world on your server has their own section in _planets.yml__, however there are TARDIS specific worlds as
+well:
+
+- [Skaro](planets#planet-skaro)
+- [Siluria](planets#planet-siluria)
+- [Gallifrey](planets#planet-gallifrey)
+
+[Back to main configuration page](category/plugin-configuration)
