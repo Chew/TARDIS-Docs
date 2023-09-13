@@ -41,21 +41,26 @@ You need to click the output slot to make the repair. One redstone gives one lev
 
 The defaults are shown below:
 
-    circuits:
-        damage: false
-        uses:
-            ars: 20
-            chameleon: 25
-            input: 50
-            invisibility: 5
-            materialisation: 50
-            memory: 20
-            randomiser: 50
-            scanner: 20
-            temporal: 20
+```yaml title="/plugins/TARDIS/config.yml"
+circuits:
+  damage: false
+  uses:
+    ars: 20
+    chameleon: 25
+    input: 50
+    invisibility: 5
+    materialisation: 50
+    memory: 20
+    randomiser: 50
+    scanner: 20
+    temporal: 20
+```
 
-`damage: [true|false]` — whether circuits get damaged after each use. Setting this to false (the default) means circuits
-have unlimited uses.
-
-`uses: <circuit>: [amount]` — set the maximum number of uses a circuit has before it is vapourised. Setting this to `0`
-gives unlimited uses for that circuit.
+| Option                              | Type                                                                                                                              | Default Value |
+|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------|
+| circuits:                           |                                                                                                                                   |               |
+| `damage`                            | boolean                                                                                                                           | `false`       |
+|                                     | Sets whether circuits get damaged after each use. Setting this to false (the default) means circuits have unlimited uses.         |               |
+| uses:                               |                                                                                                                                   |               |
+| &nbsp;&nbsp;&nbsp;&nbsp;`<circuit>` | integer                                                                                                                           | `[uses]`      |
+|                                     | Sets the maximum number of uses a circuit has before it is vapourised. Setting this to `0` gives unlimited uses for that circuit. |               |

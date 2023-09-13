@@ -83,7 +83,6 @@ import TabItem from '@theme/TabItem';
 	<a href="configuration/" title="Configuration">Configuration</a><br/>
 	<a href="interiors" title="Console Gallery">Console Gallery</a><br/>
 	<a href="permissions-table#console-perms" title="Console Permissions">Console Permissions</a><br/>
-	<a href="contents" title="Contents page">Contents page</a><br/>
 	<a href="control-menu" title="Control Menu">Control Menu</a><br/>
 	<a href="crafting-disks" title="Crafting Disks">Crafting Disks</a><br/>
 	<a href="creating-a-tardis" title="Creating a TARDIS">Creating a TARDIS</a><br/>
@@ -94,7 +93,7 @@ import TabItem from '@theme/TabItem';
 	<a href="custom-preset" title="Custom chameleon preset">Custom chameleon preset</a><br/>
 	<a href="custom-model-presets" title="Custom model presets">Custom model presets</a><br/>
 	<a href="custom-rooms" title="Custom rooms">Custom rooms</a><br/>
-	<a href="modules/weeping-angels#cybermen-1" title="Cybermen">Cybermen</a></p>
+	<a href="modules/weeping-angels#cybermen" title="Cybermen">Cybermen</a></p>
 
 </TabItem>
 <TabItem value="D" label="D">
@@ -113,7 +112,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="E" label="E">
 
 <p><a href="commands/tardis#tardis-eject" title="Eject command">Eject command</a><br/>
-	<a href="elements" title="Elements">Elements</a><br/>
+	<a href="chemistry-lab/elements" title="Elements">Elements</a><br/>
 	<a href="emergency-program-one" title="Emergency Program One">Emergency Program One</a><br/>
 	<a href="faqs#handbrake" title="Emergency stop">Emergency stop</a><br/>
 	<a href="modules/weeping-angels#empty-children" title="Empty Children">Empty Children</a><br/>
@@ -150,7 +149,7 @@ import TabItem from '@theme/TabItem';
 	<a href="handles" title="Handles">Handles</a><br/>
 	<a href="modules/weeping-angels#hath" title="Hath">Hath</a><br/>
 	<a href="modules/weeping-angels#headless-monk" title="Headless Monks">Headless Monks</a><br/>
-	<a href="index" title="TARDIS by eccentricdevotion">Home page</a></p>
+	<a href="/" title="TARDIS by eccentricdevotion">Home page</a></p>
 
 </TabItem>
 <TabItem value="I" label="I">
@@ -158,7 +157,6 @@ import TabItem from '@theme/TabItem';
 <p><a href="modules/weeping-angels#ice-warriors" title="Ice Warriors">Ice Warriors</a><br/>
 	<a href="lazarus#immortality-gate" title="Immortality Gate">Immortality Gate</a><br/>
 	<a href="installation-v5" title="Installation">Installation</a><br/>
-	<a href="installation-old" title="Legacy Installation">Installation (old versions)</a><br/>
 	<a href="interiors" title="Interiors">Interiors</a><br/>
 	<a href="invisibility" title="Invisibility">Invisibility</a><br/>
 	<a href="item_displays" title="Item Display custom blocks">Item Display custom blocks</a><br/>
@@ -192,13 +190,11 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="M" label="M">
 
-<p><a href="mcpatcher" title="MCPatcher texture support">MCPatcher texture support</a><br/>
-	<a href="name-generator" title="Minecraft Name Generator">Minecraft Name Generator</a><br/>
-	<a href="malfunction" title="Malfunction">Malfunction</a><br/>
+<p><a href="malfunction" title="Malfunction">Malfunction</a><br/>
 	<a href="modules/weeping-angels#mire" title="Mire">Mire</a><br/>
 	<a href="commands/misc" title="Miscellaneous commands">Miscellaneous commands</a><br/>
 	<a href="farming" title="Mob farming">Mob farming</a><br/>
-	<a href="modifying-the-tardis-interior" title="Modifying the interior">Modifying the interior</a>
+	<a href="modifying-the-tardis-interior" title="Modifying the interior">Modifying the interior</a><br />
 	<a href="modules" title="Modules">Modules</a><br/>
 	<a href="monitor" title="Monitor">Monitor</a><br/>
 	<a href="configuration/configuration-monsters" title="Monsters Configuration">Monsters Configuration</a><br/>
@@ -217,7 +213,7 @@ import TabItem from '@theme/TabItem';
 	<a href="placeholders" title="PlaceholderAPI">PlaceholderAPI Placeholders</a><br/>
 	<a href="planets" title="Planets">Planets</a><br/>
 	<a href="configuration/configuration-planets" title="Planet Configuration">Planet Configuration</a><br/>
-	<a href="player-preferences" title="Player preferences">Player preferences</a><br/>
+	<a href="commands/player-preferences" title="Player preferences">Player preferences</a><br/>
 	<a href="writing-disks#writing-player-disks" title="Player Storage Disks">Player Storage Disks</a><br/>
 	<a href="configuration/configuration-preset" title="Police Box Configuration">Police Box Configuration</a><br/>
 	<a href="configuration/configuration-prefs" title="Preferences Configuration">Preferences Configuration</a><br/>
@@ -268,7 +264,7 @@ import TabItem from '@theme/TabItem';
 	<a href="sonic-screwdriver" title="Sonic Screwdriver">Sonic Screwdriver</a><br/>
 	<a href="modules/weeping-angels#sontarans" title="Sontarans">Sontarans</a><br/>
 	<a href="throttle" title="Space Time Throttle">Space Time Throttle</a><br/>
-	<a href="http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/" title="Spigot">Spigot</a>
+	<a href="http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/" title="Spigot">Spigot</a><br />
 	<a href="tardis-items#stattenheim-remote" title="Stattenheim Remote">Stattenheim Remote</a><br/>
 	<a href="modules/weeping-angels#strax" title="Strax">Strax</a><br/>
 	<a href="commands/sudo" title="Sudo commands">Sudo commands</a><br/>
@@ -292,7 +288,6 @@ import TabItem from '@theme/TabItem';
 	<a href="creating-a-tardis#tardis-types" title="TARDIS Types">TARDIS Types</a><br/>
 	<a href="commands/dev" title="Dev commands">/tardisdev commands</a><br/>
 	<a href="world-management" title="World commands">/tardisworld commands</a><br/>
-	<a href="installation-old#tekkit" title="Tekkit Classic Server">Tekkit Classic Server</a><br/>
 	<a href="temporal-locator" title="Temporal Locator">Temporal Locator</a><br/>
 	<a href="commands/texture" title="Texture Commands">Texture Commands</a><br/>
 	<a href="enter-and-exit" title="The TARDIS door">The TARDIS door</a><br/>

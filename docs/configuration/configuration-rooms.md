@@ -12,13 +12,15 @@ sub-section with two keys: the room `cost`, and the room `seed`.
 
 The format is:
 
-    rooms:
-       [ROOMTYPE]:
-          enabled: [true|false]
-          cost: [amount]
-          offset: [negative amount]
-          seed: [MATERIAL]
-          user: [true|false]
+```yaml title="/plugins/TARDIS/rooms.yml"
+rooms:
+   [ROOMTYPE]:
+	  enabled: [true|false]
+	  cost: [amount]
+	  offset: [negative amount]
+	  seed: [MATERIAL]
+	  user: [true|false]
+```
 
 All rooms are enabled by default, the rest of the settings are:
 
@@ -80,5 +82,5 @@ Set the seed block for room jettisons.
 
 The default is `TNT`.
 
-[Back to main configuration page](configuration)
+[Back to main configuration page](category/plugin-configuration)
 

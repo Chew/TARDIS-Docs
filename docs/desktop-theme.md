@@ -58,6 +58,12 @@ THe TARDIS Upgrade GUI also contains three other buttons to aid keeping your con
 
 ### Config options
 
+```yaml title="/plugins/TARDIS/config.yml"
+desktop:
+  check_blocks_before_upgrade: false
+  block_change_percent: 25
+```
+
 | Option                                                        | Type                                                                            | Default Value |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------|---------------|
 | &nbsp;&nbsp;&nbsp;&nbsp;`desktop.check_blocks_before_upgrade` | boolean                                                                         | `false`       |

@@ -8,7 +8,8 @@ title: Siege mode
 As of TARDIS version 3.2 the plugin allows you to engage Siege mode on your TARDIS. You can read more about Siege mode
 at the [TARDIS wikia](https://tardis.fandom.com/wiki/Siege_mode).
 
-To engage Siege mode  use the button in TARDIS Control Menu, or add a lever to the console (to do this you can use the `/tardis update siege` command).
+To engage Siege mode use the button in TARDIS Control Menu, or add a lever to the console (to do this you can use
+the `/tardis update siege` command).
 
 ## How it works
 
@@ -36,44 +37,58 @@ All these features can be configured, see details below.
 
 _config.yml_ contains a `siege` configuration section with the following defaults:
 
-    siege:
-        enabled: true
-        breeding: 0
-        growth: 0
-        butcher: false
-        creeper: false
-        healing: false
-        texture: false
+```yaml title="/plugins/TARDIS/config.yml"
+siege:
+  enabled: true
+  breeding: 0
+  growth: 0
+  butcher: false
+  creeper: false
+  healing: false
+  texture: false
+```
 
 The settings are explained below:
 
-- `enabled: [true|false]` — whether players can engage Siege mode
-- `breeding: [percentage]` — if this is set higher than 0, this is the percentage chance that twins will be born when
-  animals breed
-- `growth: [percentage]` — if this is set higher than 0, this is the percentage chance that a plant will sprout an extra
-  step when it grows
-- `butcher: [true|false]` — whether any hostile mobs inside the TARDIS will be butchered when Siege mode is engaged
-- `creeper: [true|false]` — whether (when the TARDIS runs out of energy) the Artron creeper will be sacrificed to give
-  the TARDIS an energy boost
-- `healing: [true|false]` — whether players inside the TARDIS receive a healing pick-me-up
-- `texture: [true|false]` — whether the desktop theme is changed when Siege mode is engaged
+| Option     | Type                                                                                                                       | Default Value |
+|------------|----------------------------------------------------------------------------------------------------------------------------|---------------|
+| seige:     |                                                                                                                            |               |
+| `enabled`  |                                                                                                                            | `true`        |
+|            | Sets whether players can engage Siege mode                                                                                 |               |
+| `breeding` | integer                                                                                                                    | `0`           |
+|            | If this is set higher than 0, this is the percentage chance that twins will be born when animals breed                     |               |
+| `growth`   | integer                                                                                                                    | `0`           |
+|            | If this is set higher than 0, this is the percentage chance that a plant will sprout an extra step when it grows           |               |
+| `butcher`  | boolean                                                                                                                    | `false`       |
+|            | Sets whether any hostile mobs inside the TARDIS will be butchered when Siege mode is engaged                               |               |
+| `creeper`  | boolean                                                                                                                    | `false`       |
+|            | Sets whether (when the TARDIS runs out of energy) the Artron creeper will be sacrificed to give the TARDIS an energy boost |               |
+| `healing`  | boolean                                                                                                                    | `false`       |
+|            | Sets whether players inside the TARDIS receive a healing pick-me-up                                                        |               |
+| `texture`  | boolean                                                                                                                    | `false`       |
+|            | Sets whether the desktop theme is changed when Siege mode is engaged                                                       |               |
 
 ### Siege mode Artron settings
 
 The default Artron settings for Siege mode are shown below:
 
-    siege_transfer: 10
-    siege_deplete: 100
-    siege_ticks: 1500
-    siege_creeper: 150
+```yaml title="/plugins/TARDIS/artron.yml"
+siege_transfer: 10
+siege_deplete: 100
+siege_ticks: 1500
+siege_creeper: 150
+```
 
-- `siege_deplete: [percentage]` — the percentage of maximum (`full_charge`) energy the TARDIS needs to be able to
-  disengage Siege mode. Also the minimum amount of energy that can be transferred to the TARDIS by clicking the Siege
-  Cube
-- `siege_deplete: [amount]` — the amount of energy the TARDIS loses every cycle it is in Siege mode
-- `siege_ticks: [ticks]` — the time cycle in ticks, the plugin will deplete energy from the TARDIS / heal players while
-  in Siege mode
-- `siege_creeper: [amount]` — the amount of energy boost the TARDIS gets when the Artron creeper is sacrificed
+| Option           | Type                                                                                                                                                                                                          | Default Value |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| `siege_transfer` | integer                                                                                                                                                                                                       | `10`          |
+|                  | Sets the percentage of maximum (`full_charge`) energy the TARDIS needs to be able to disengage Siege mode. Also the minimum amount of energy that can be transferred to the TARDIS by clicking the Siege Cube |               |
+| `siege_deplete`  | integer                                                                                                                                                                                                       | `100`         |
+|                  | Sets the amount of energy the TARDIS loses every cycle it is in Siege mode                                                                                                                                    |               |
+| `siege_ticks`    | integer                                                                                                                                                                                                       | `1500`        |
+|                  | Sets the time cycle in ticks, the plugin will deplete energy from the TARDIS / heal players while in Siege mode                                                                                               |               |
+| `siege_creeper`  | integer                                                                                                                                                                                                       | `150`         |
+|                  | Sets the amount of energy boost the TARDIS gets when the Artron creeper is sacrificed                                                                                                                         |               |
 
 ## The Siege Cube
 

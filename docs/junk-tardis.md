@@ -62,19 +62,22 @@ Junk TARDIS so that the Vortex TARDIS matches
 
 ### Config options
 
-    junk.enabled: [true|false]
+```yaml title="/plugins/TARDIS/config.yml"
+junk:
+  enabled: true
+  return: -1
+  particles: true
+```
 
-Whether the Junk TARDIS is available on the server — **NOTE:** The Junk TARDIS will be disabled
-if `creation.default_world` is `false`
-
-    junk.particles: [true|false]
-
-Whether the Junk TARDIS displays a particle effect when travelling
-
-    junk.return: [time in seconds]
-
-If `[time in seconds]` is greater than `0` and the Junk TARDIS has not been used for longer than the specified period,
-it will automatically return to its ‘home’ location
+| Option      | Type                                                                                                                                                                             | Default Value |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| junk:       |
+| `enabled`   | boolean                                                                                                                                                                          | `true`        |
+|             | Sets whether the Junk TARDIS is available on the server — **NOTE:** The Junk TARDIS will be disabled if `creation.default_world` is `false`                                      |               |
+| `return`    | integer                                                                                                                                                                          | `-1`          |
+|             | Sets the time in seconds that the Junk TARDIS will automatically return to its ‘home’ location. If this is less than `0` and the Junk TARDIS will not automatically return home. |               |
+| `particles` | boolean                                                                                                                                                                          | `true`        |
+|             | Sets whether the Junk TARDIS displays a particle effect when travelling                                                                                                          |               |
 
 ### Permissions
 

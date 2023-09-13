@@ -13,6 +13,12 @@ Players will need the permission `tardis.archive`
 
 ### Config options
 
+```yaml title="/plugins/TARDIS/config.yml"
+archive:
+  enabled: true
+  limit: 3
+```
+
 | Option                            | Type                                                         | Default Value |
 |-----------------------------------|--------------------------------------------------------------|---------------|
 | `archive:`                        |

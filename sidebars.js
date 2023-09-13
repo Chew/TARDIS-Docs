@@ -77,6 +77,10 @@ const sidebars = {
         'keyboard',
         'malfunction',
         'destination-terminal',
+		'randomiser-circuit',
+		'flight-modes',
+		'flying',
+		'throttle',
       ],
     },
     {
@@ -100,7 +104,19 @@ const sidebars = {
             'rail-room',
             'vault',
           ]
-        }
+        },
+		{
+			type: 'category',
+			label: 'Chamemelon Circuit',
+			items: [
+				'presets',
+				'shell-room',
+				'chameleon-construction',
+				'custom-preset',
+				'custom-model-presets',
+				'adaptive-presets'
+			]
+		}
       ],
     },
     {
@@ -110,10 +126,16 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-          'control-menu',
+        'control-menu',
         'save-sign',
         'chameleon-circuit',
-          'invisibility',
+        'invisibility',
+		'telepathic-circuit',
+		'temporal-locator',
+		'monitor',
+		'circuit-use',
+		'writing-disks',
+		'bedrock'
       ],
     },
     {
@@ -123,24 +145,45 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
+	    'tardis-items',
         'resource-packs',
         'lazarus',
-        'sonic-screwdriver',
+		{
+			type: 'category',
+			label: 'Sonic Screwdriver',
+			items: [
+				'sonic-screwdriver',
+				'sonic-configurator',
+				'sonic-generator'
+			]
+		},
+		'time-rotor',
         'perception-filter',
+		'chameleon-arch',
+		'siege-mode',
         'junk-tardis',
         'food',
         'accessories',
         'scanner',
         'farming',
         'hads',
+		'abandon',
         'emergency-program-one',
         'autonomous',
+		'remote-key',
         'translator',
         'achievements',
         'books',
         'schematics',
         'archive',
         'handles',
+		'display',
+		'map',
+		'transmat',
+		'rift-manipulator',
+		'backdoors',
+		'artron-furnace',
+		'view-interior',
         {
           type: 'category',
           label: "Chemistry Lab",
@@ -149,7 +192,7 @@ const sidebars = {
             id: "chemistry-lab/index"
           },
           items: [
-              'chemistry-lab/products',
+            'chemistry-lab/products',
             'chemistry-lab/compounds',
             'chemistry-lab/elements',
             'chemistry-lab/material-reductions',
@@ -191,16 +234,28 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
+	    'planets',
+		'world-management',
+		'custom-consoles',
+		'item_displays',
         'localisation',
+		'placeholders',
         'tips',
         'permissions',
+		'permissions-table',
         'kits',
         'recipes',
         'add-permissions',
         'tardis-areas',
         'rooms-and-economies',
         'time-vortex',
+		'wiki-sign',
+		'prune',
         'api',
+		'update-blocks',
+		'build-tools',
+		'sqlite-mysql-tool',
+		'change-log'
       ],
     },
     {
