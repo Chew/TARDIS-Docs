@@ -152,6 +152,13 @@ const config = {
         additionalLanguages: ["java"],
 
       },
+	  themeConfig: {
+		colorMode: {
+		  defaultMode: 'dark',
+		  disableSwitch: false,
+		  respectPrefersColorScheme: false,
+		},
+	  },
     }),
 
   plugins: [
