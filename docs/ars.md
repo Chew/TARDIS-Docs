@@ -58,7 +58,7 @@ Folow these steps to use the ARS:
 4. Click on a room block to set the currently seleted slot to that room.
 5. If you want to set the slot back to empty again, click the cobblestone (reset) block.
 6. If a slot already contains a room, click the TNT (jettison) block to indicate
-   that the room should be jettisoned. **\***
+   that the room should be jettisoned - see tip below.
 7. Once you have configured the rooms you require, click the pink Reconfigure block.
 
 :::note
