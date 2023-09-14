@@ -67,12 +67,6 @@ const config = {
             // dropdown
           {
             type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: "Docs"
-          },
-          {
-            type: 'doc',
             docId: 'installation-v5',
             position: 'left',
             label: "Installation"
@@ -81,12 +75,6 @@ const config = {
             label: "Downloads",
             to: "download",
             position: 'left',
-          },
-          {
-            type: 'doc',
-            docId: 'faqs',
-            position: 'left',
-            label: "FAQ"
           },
           {
             type: 'doc',

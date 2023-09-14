@@ -11,12 +11,19 @@ from: [http://tardisjenkins.duckdns.org:8080/view/TARDIS/](http://tardisjenkins.
 
 * * *
 
+:::caution
+
+TARDIS v5.x.x does NOT need TARDISChunkGenerator - do not install it!
+
+:::
+
+:::info
+
+If upgrading from a previous version of TARDIS, see [Updating from v4.x.x to v5.x.x](updating-to-unified-plugin) for more information.
+
+:::
+
 You install TARDIS just like you would any other Spigot/Paper plugin, by dropping it into the Bukkit plugins folder and starting the server.
-
-#### v5.x.x does NOT need TARDISChunkGenerator - do not install it!
-
-> If upgrading from a previous version of TARDIS, see [Updating from v4.x.x to v5.x.x](updating-to-unified-plugin) for more information.
-> For versions before 5.0.0, see [Legacy installation](installation-old)
 
 The TARDIS database, configuration, schematic and advancement files will be created automatically.
 
@@ -39,7 +46,14 @@ While not essential to make the TARDIS plugin work, the following plugins will m
 1. Install [WorldGuard](https://enginehub.org/worldguard) to automatically protect your TARDIS from griefing.
 2. Install a permissions plugin, so that you can restrict or grant players the rights to use TARDIS’ different features.
    We like [LuckPerms](https://luckperms.net/).
-3. (Optional **§**) Install [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises-free.81/) so that you can use the Genetic Manipulator / Immortality Gate. **§ Note** _TARDIS can now create its own disguises, but LibsDisguises does a much better job of it_!
+3. (Optional) Install [LibsDisguises](https://www.spigotmc.org/resources/libs-disguises-free.81/) so that you can use the Genetic Manipulator / Immortality Gate. 
+
+   :::note
+   
+   TARDIS can now create its own disguises, but LibsDisguises does a much better job of it!
+   
+   :::
+   
 4. Install the [TARDIS-Resource-Pack](resource-packs) so that you see re-textured TARDIS blocks and items, and hear TARDIS sounds.
 
 
