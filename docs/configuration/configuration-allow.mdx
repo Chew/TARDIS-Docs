@@ -1,0 +1,72 @@
+---
+layout: default
+title: Allow/Restrictions Configuration Options
+---
+
+import ConfigTable from "../../src/components/ConfigTable";
+
+# TARDIS Allow/Restrictions configuration options
+
+These are the plugin restriction configuration options, found under `allow`.
+A sample is provided below, while the table at the bottom of the page lists all the options and their default values.
+
+```yaml title="/plugins/TARDIS/config.yml"
+allow:
+  mob_farming: true
+  spawn_eggs: true
+  emergency_npc: true
+  external_gravity: false
+  achievements: true
+  autonomous: true
+  hads: true
+  tp_switch: true
+  all_blocks: false
+  sfx: true
+  wg_flag_set: true
+  zero_room: false
+  power_down: true
+  power_down_on_quit: false
+  player_difficulty: true
+  invisibility: true
+  guardians: false
+  village_travel: false
+  3d_doors: false
+  repair: true
+  weather_set: false
+  force_field: 8
+  admin_bypass: false
+  perception_filter: true
+```
+
+<ConfigTable name="/plugins/TARDIS/config.yml" data={
+    `allow:
+      mob_farming: true # Sets whether players can [farm mobs](farming) when entering the TARDIS.
+      spawn_eggs: true # Sets whether the player receives mob spawn eggs when TARDIS mob farming (and there is no farm room grown).
+      emergency_npc: true # Sets whether the [Emergency Program One](emergency-program-one) feature is enabled.
+      external_gravity: false # Sets whether the [Gravity Wells](gravity-wells) can be set up outside of the TARDIS.
+      achievements: true # Sets whether players can gain [TARDIS achievements](achievements).
+      autonomous: true # Sets whether players can use the [autonomous function](autonomous).
+      hads: true # Sets whether the TARDIS can [escape hostile](hads) actions.
+      tp_switch: true # Sets whether players can set and switch resource packs when entering and exiting the TARDIS.
+      all_blocks: false # Sets whether the chameleon circuit is allowed to use precious blocks such as GOLD and DIAMOND. This also affects whether players are allowed to change the TARDIS Key to any item — if set to \`false\`, then keys are restricted to the items listed under \`keys:\` in _blocks.yml_.
+      sfx: true # Sets whether sound effects are played in the TARDIS interior — this overrides user preferences if turned off.
+      wg_flag_set: true # Sets whether players can set the build flag (allow, deny) in their TARDIS region.
+      zero_room: false # Sets whether players can grow a Zero room. If this is set to true using the \`/tardisconfig zero_room true\` command, the plugin wil attempt to create the \`TARDIS_Zero_Room\` world if it doesn’t yet exist.
+      power_down: true # Sets whether players can power down their TARDIS.
+      power_down_on_quit: false # Sets whether a player’s TARDIS automatically powers down when the player leaves the server.
+      player_difficulty: true # Sets whether players can use the \`/tardisprefs difficulty [easy | hard]\` command to change their personal difficulty setting. See [this ticket](https://dev.bukkit.org/bukkit-plugins/tardis/tickets/689-tardis-console-modes/) for the reasoning behind it all.
+      invisibility: true # Sets whether players can use the invisibility Chameleon preset. See [Invisibility](invisibility) for more info.
+      guardians: false # Sets whether players can farm guardians when entering the TARDIS, and whether guardians will randomly spawn in the pool room if the door is left open.
+      village_travel: false # Sets whether players can use the \`/tardistravel [structure\|village]\` command to time travel to a village or other Minecraft structure.
+      3d_doors: false # Sets whether TARDIS owners can see their door when the exterior is set to the INVISIBLE preset. They must be wearing 3D Glasses and looking at the block that the door would normally be placed on.
+      repair: true # Sets whether players can repair a damaged TARDIS interior.
+      weather_set: false # Sets whether players can use the \`/tardisweather\` command or the TARDIS Weather GUI.
+      force_field: 8 # If set to greater than \`0\`, determines whether players can activate the TARDIS force field and sets the range of the force field effect. Set to \`0\` to disable.
+      admin_bypass: false # Sets whether players the permission \`tardis.admin\` can bypass TARDIS travel location and plugin protection checks.
+      perception_filter: true # Sets whether players can use the [perception filter](perception-filter).
+    `
+}>
+
+</ConfigTable>
+
+[Back to main configuration page](/category/plugin-configuration)

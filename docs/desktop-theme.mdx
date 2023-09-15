@@ -3,6 +3,8 @@ layout: default
 title: Desktop Theme
 ---
 
+import ConfigTable from "../src/components/ConfigTable";
+
 # Desktop Theme
 
 You can upgrade/downgrade/crossgrade your TARDIS to another type or simply change the wall and floor blocks with the
@@ -64,12 +66,13 @@ desktop:
   block_change_percent: 25
 ```
 
-| Option                                                        | Type                                                                            | Default Value |
-|---------------------------------------------------------------|---------------------------------------------------------------------------------|---------------|
-| &nbsp;&nbsp;&nbsp;&nbsp;`desktop.check_blocks_before_upgrade` | boolean                                                                         | `false`       |
-| &nbsp;                                                        | Sets whether to compare the amount of block changes before allowing an upgrade. |
-| &nbsp;&nbsp;&nbsp;&nbsp;`desktop.block_change_percent`        | integer                                                                         | `25`          |
-| &nbsp;                                                        | Sets the maximum percentage of block change compared to the original schematic. |
+<ConfigTable name="/plugins/TARDIS/config.yml" data={
+    `
+    desktop:
+      check_blocks_before_upgrade: false # Sets whether to compare the amount of block changes before allowing an upgrade.
+      block_change_percent: 25 # Sets the maximum percentage of block change compared to the original schematic.
+    `
+} />
 
 ### Video
 
