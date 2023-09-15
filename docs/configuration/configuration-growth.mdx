@@ -1,0 +1,37 @@
+---
+layout: default
+title: Room Growth Configuration Options
+---
+
+import ConfigTable from "../../src/components/ConfigTable";
+
+# Room Growth Configuration Options
+
+These are the room growth configuration options.
+
+```yaml title="/plugins/TARDIS/config.yml"
+growth:
+  gravity_max_distance: 15
+  gravity_max_velocity: 5
+  rooms_require_blocks: false
+  rooms_condenser_percent: 100
+  return_room_seed: true
+  room_speed: 4
+  delay_factor: 1
+  ars_limit: 1
+```
+
+<ConfigTable data={`
+growth:
+    gravity_max_distance: 15
+    gravity_max_velocity: 5 # Sets sets the maximum distance and velocity a gravity well can be set to.
+    rooms_require_blocks: false # Sets whether growing a room requires the player to condense the materials required to grow the room in the TARDIS condenser.
+    rooms_condenser_percent: 100 # Sets the percentage of the actual blocks that a player needs to condense if \`rooms_require_blocks: true\`
+    return_room_seed: true # Sets whether the room seed block is returned to the player when they jettison the room.
+    room_speed: 4 # Sets the speed (in blocks per second) at which rooms are grown. Maximum speed is \`20\` which is one block per tick.
+    delay_factor: 1 # Sets the delay between growing multiple rooms.
+    ars_limit: 1 # Sets the maximum number of rooms that can be reconfigured at a time.
+`} />
+
+[Back to main configuration page](/category/plugin-configuration)
+

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Creation Configuration Options
+---
+
+import ConfigTable from "../../src/components/ConfigTable";
+
+# TARDIS Creation Configuration Options
+
+These are the creation configuration options.
+
+```yaml title="/plugins/TARDIS/config.yml"
+creation:
+  create_worlds: false
+  create_worlds_with_perms: false
+  default_world: true
+  default_world_name: TARDIS_TimeVortex
+  border_radius: 256
+  inventory_group: 0
+  add_perms: true
+  use_clay: WOOL
+  count: 0
+  tips_limit: 400
+  area: none
+  enable_legacy: true
+  check_for_home: true
+  seed_block_crafting: true
+```
+
+<ConfigTable data={`
+creation:
+    create_worlds: false # It is **NOT recommended** setting this to true! Sets whether TARDISes are created in their own separate worlds.
+    create_worlds_with_perms: false # Sets whether TARDISes are created in their own separate worlds for players with the appropriate permission — \`tardis.create_world\`.
+    default_world: true # Sets whether TARDISes are created in a shared world. Also required to be true to enable the Junk TARDIS and the abilty to abandon TARDISes.
+    default_world_name: TARDIS_TimeVortex # Sets the name of the default world. This is only used if \`default_world\` is true.
+    border_radius: 256 # Sets the distance of the WorldBorder barrier (only used if the plugin is installed on the server).
+    inventory_group: 0 # If the Multiverse-Inventories plugin is enabled on the server, you can set the group that TARDIS worlds are added to when they are created.
+    add_perms: true # Sets whether a TARDIS world is assigned permissions when the server uses a permissions plugin that has per-world configuration — see [Add permissions](/add-permissions).
+    use_clay: WOOL # Sets whether the coloured wool in TARDIS console and room schematics is switched to stained terracotta or concrete instead. Valid options are WOOL, TERRACOTTA, and CONCRETE.
+    count: 0 # Sets the maximum number of times a player can build and destroy a TARDIS. If set to \`0\` there is NO maximum.
+    tips_limit: 400 # Sets the number of T.I.P.S slots to use. Must be one of 400, 800, 1200 or 1600.
+    area: none # If set to a pre-defined TARDIS area, it will set that area as the only place on the server that TARDISes can be created in.
+    enable_legacy: true # Sets whether the legacy console schematics are available to build TARDIS interiors with.
+    check_for_home: true # Sets whether the TARDIS creation location is already set to another player's \`home\` location.
+    seed_block_crafting: true # Sets whether players can craft TARDIS seed blocks.
+`} />
+
+[Back to main configuration page](/category/plugin-configuration)
+
