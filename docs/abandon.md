@@ -41,7 +41,7 @@ You can spawn abandoned TARDISes automatically with a command:
 
     /tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
 
-Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [list\_of\_interiors.html](list_of_interiors)
+Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [interiors](interiors)
 
 And `[PRESET]` is the exterior preset type of the TARDIS —
 see [PRESET](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/PRESET.html)

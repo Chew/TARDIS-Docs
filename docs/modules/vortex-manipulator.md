@@ -31,19 +31,19 @@ To use the Weeping Angels module, it must be enabled in the TARDIS config.
 
 
 The TARDISVortexManipulator models and textures are part of
-the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
+the [TARDIS-Resource-Pack](/resource-packs)
 
 ## Requirements
 
 For the full experience, you'll need
-the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
+the [TARDIS-Resource-Pack](/resource-packs)
 
 ## Crafting
 
 Crafting is a little complicated, as it's an advanced piece of technology. Requirements for crafting are (left to right,
 top row first): stone button, another stone button, glass; clock, gold, compass; iron ingot, iron ingot, iron ingot.
 Custom graphics for the crafted item and GUI are available as part of
-the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/).
+the [TARDIS-Resource-Pack](/resource-packs).
 
 ![Crafting](/images/docs/vortex_manipulator.jpg)
 

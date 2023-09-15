@@ -5,40 +5,42 @@ title: Time Rotor
 
 # Time Rotor
 
-If you are using the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/) you can add
+If you are using the [TARDIS-Resource-Pack](/resource-packs) you can add
 an animated time rotor to your console (or grow a DELTA, MECHANICAL, ROTOR, or TOM console from a TARDIS seed block).
+
+## Rotor Types
 
 There are 7 time rotor types.
 
-Early era
+### Early era
 
 ![Early era time rotor](/images/docs/early_time_rotor.gif)
 
-Ninth / tenth era
+### Ninth / tenth era
 
 ![Time rotor](/images/docs/time_rotor.gif)
 
-Eleventh era
+### Eleventh era
 
 ![Eleventh era time rotor](/images/docs/copper_time_rotor.gif)
 
-Twelfth era (not animated)
+### Twelfth era (not animated)
 
 ![Twelfth era time rotor](/images/docs/round_time_rotor.jpg)
 
-Delta
+### Delta
 
 ![Delta time rotor](/images/docs/delta_time_rotor.gif)
 
-Engine
+### Engine
 
 ![Engine time rotor](/images/docs/engine_time_rotor.gif)
 
-Hospital
+### Hospital
 
 ![Hospital time rotor](/images/docs/hospital_time_rotor.gif)
 
-### Adding a Time Rotor
+## Adding a Time Rotor
 
 To add a time rotor to an existing console:
 
@@ -48,7 +50,7 @@ To add a time rotor to an existing console:
 4. Run the command `/tardis update rotor`
 5. Click the time rotor item frame
 
-### To change a Time Rotor
+## Changing a Time Rotor
 
 Time rotors are locked (and the item frame made invisible) when you update them. In order to make changes to the time
 rotor you need to unlock it.
@@ -57,7 +59,7 @@ rotor you need to unlock it.
 2. Make changes to the item frame and rotor
 3. Re-update the rotor with the command `/tardis update rotor`
 
-### Recipes
+## Recipes
 
 The crafting recipes for the six time rotors are:
 
@@ -79,13 +81,11 @@ Change the dye colours for each rotor:
 * Engine &mdash; Blue ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+)
 * Hospital &mdash; White ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
 
-Use the command:
+Use this command to see the recipes in game:
 
 ```
 /tardisrecipe time-rotor-[early|tenth|eleventh|twelfth|delta|engine|hospital]
 ```
-
-to see the recipes in game.
 
 There is also a Rotor Engine (as seen in the Mechanical console) - `/tardisrecipe time-engine`.
 

@@ -175,7 +175,7 @@ multiverse — nothing the TARDIS perception filter can’t handle!
 In reality, you have `police_box.set_biome: true` in the config. This sets the biome of the TARDIS location to
 DEEP\_OCEAN,
 so that players with [Optifine](https://optifine.net/home) modded clients and the
-[TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/) will see a groovy looking
+[TARDIS-Resource-Pack](/resource-packs) will see a groovy looking
 TARDIS — the
 result is that it sometimes rains on the Police Box.
 

@@ -61,7 +61,7 @@ To change the look of your TARDIS Key, type:
 
     /tardisprefs key_menu
 
-This requires the [TARDIS Resource Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/) to see the
+This requires the [TARDIS-Resource-Pack](/resource-packs) to see the
 different key textures. Use the command to open the TARDIS Key GUI.
 
 To change the TARDIS key texture:
@@ -77,7 +77,7 @@ To change the look of your Sonic Screwdriver, type:
 
     /tardisprefs sonic
 
-This requires the [TARDIS Resource Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/) to see the
+This requires the [TARDIS-Resource-Pack](/resource-packs) to see the
 different sonic textures. Use the command to open the Sonic Screwdriver GUI.
 
 To change the screwdriver texture:

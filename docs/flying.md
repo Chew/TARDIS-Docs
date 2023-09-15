@@ -7,7 +7,7 @@ title: Flying the TARDIS
 
 From version 5 of the TARDIS plugin, you can fly the TARDIS exterior around your worlds.
 _This is a __Java__ only feature that works with custom model police box presets_, so you will also need to use the 
-[TARDIS Resource Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/).
+[TARDIS-Resource-Pack](/resource-packs).
 
 ### Permission
 

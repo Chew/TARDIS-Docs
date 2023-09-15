@@ -9,7 +9,7 @@ Whovian accessories
 You can craft two Whovian accessories items in-game so that you can be cool like the Doctor.
 
 To see the custom accessory textures, you will need to use
-the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/).
+the [TARDIS-Resource-Pack](/resource-packs).
 
 ### Bow ties
 

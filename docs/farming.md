@@ -50,13 +50,13 @@ Enter the TARDIS as usual, and the following will happen:
 - If no appropriate room is available (and if allowed in the TARDIS config), then the spawn eggs for the mobs are placed
   in the player’s inventory.
   
-  :::note
+:::note
   
-  In order to use the spawn eggs, you may need to remove `mob_spawning: deny` from
-  the TARDIS world’s region file if you are using WorldGuard — from TARDIS v2.8 and later growing the appropriate room
-  automatically allows mob spawning in those rooms (but not monsters!)
+In order to use the spawn eggs, you may need to remove `mob_spawning: deny` from 
+the TARDIS world’s region file if you are using WorldGuard — from TARDIS v2.8 and later growing the appropriate room
+automatically allows mob spawning in those rooms (but not monsters!)
   
-  :::
+:::
 
 Non-op players require the permission: `tardis.farm`
 

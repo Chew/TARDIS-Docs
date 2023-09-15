@@ -25,7 +25,7 @@ To use the Weeping Angels module, it must be enabled in the TARDIS config.
 - A server restart is required when changing the config value.
 
 The TARDISWeepingAngel models and textures are part of
-the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
+the [TARDIS-Resource-Pack](/resource-packs)
 
 ## Requirements
 
@@ -34,7 +34,7 @@ the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Reso
 Version 5 and higher will run on Spigot and Paper servers :)
 
 For the full experience (textures and sounds), you’ll need
-the [TARDIS-Resource-Pack](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
+the [TARDIS-Resource-Pack](/resource-packs)
 
 ## Monsters
 
