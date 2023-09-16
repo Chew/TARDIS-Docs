@@ -35,6 +35,6 @@ code { color: #006ca6; }
 
 /*ConfigTable*/
 .indent0 { padding-left: 1em; }
-.indent1 { padding-left: 2em; }
-.indent2 { padding-left: 3em; }
-.indent3 { padding-left: 4em; }
+.indent1 { padding-left: 3em; }
+.indent2 { padding-left: 5em; }
+.indent3 { padding-left: 7em; }
