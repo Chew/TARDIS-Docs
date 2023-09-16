@@ -12,6 +12,7 @@ These are the plugin storage configuration options.
 ```yaml title="/plugins/TARDIS/config.yml"
 storage:
   database: sqlite
+  # Only applicable if 'database' is set to 'mysql', otherwise section below can be ignored
   mysql:
     host: localhost
     port: 3306
@@ -23,7 +24,7 @@ storage:
 ```
 
 <ConfigTable name="/plugins/TARDIS/config.yml" data={
-    `storage:                                        
+    `storage:
       database: sqlite # Sets the database type the plugin uses. Valid values are \`sqlite\` and \`mysql\`
       mysql: # Only applicable if \`database\` is set to \`mysql\`, otherwise this section can be ignored
        host: localhost # Sets the host of the mysql database, where: \`localhost\` = the ip address or hostname of the MySQL server (if the MySQL server is on the same server as the Spigot server, you can usually use \`localhost\`
