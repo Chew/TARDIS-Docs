@@ -32,7 +32,7 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
         return (
             <>
                 <tr>
-                    <td colSpan={3} class={indentation}><code>{ymlKey}:</code></td>
+                    <td colSpan={3} class={indentation} id={ymlKey.toString()}><code>{ymlKey}:</code></td>
                 </tr>
                 {children}
             </>
@@ -41,7 +41,7 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
 
     const justDataRow = (
         <tr>
-            <td class={indentation}><code>{ymlKey.toString()}</code></td>
+            <td class={indentation} id={ymlKey.toString()}><code>{ymlKey.toString()}</code></td>
             <td><code>{valueType.toString()}</code></td>
             <td><code>{value.toString()}</code></td>
         </tr>
