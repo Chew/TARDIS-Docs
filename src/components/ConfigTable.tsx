@@ -26,28 +26,22 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
         comment = rowInData.split("#")[1];
     }
 
-    let indention = "";
-    for (let i = 0; i < indent; i++) {
-        indention += "&nbsp;&nbsp;&nbsp;&nbsp;";
-    }
+    let indentation = "indent" + indent;
 
     if (isParent) {
         return (
             <>
                 <tr>
-                    <td colSpan={3}><span dangerouslySetInnerHTML={{__html: indention}}></span><code>{ymlKey}:</code></td>
+                    <td colSpan={3} class={indentation}><code>{ymlKey}:</code></td>
                 </tr>
                 {children}
             </>
         )
     }
 
-    // render the indention raw
-    // we can do this by using dangerouslySetInnerHTML
-
     const justDataRow = (
         <tr>
-            <td><span dangerouslySetInnerHTML={{__html: indention}}></span><code>{ymlKey.toString()}</code></td>
+            <td class={indentation}><code>{ymlKey.toString()}</code></td>
             <td><code>{valueType.toString()}</code></td>
             <td><code>{value.toString()}</code></td>
         </tr>
@@ -58,7 +52,7 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
             <>
                 {justDataRow}
                 <tr>
-                    <td colSpan={3}><span dangerouslySetInnerHTML={{__html: indention}}></span>
+                    <td colSpan={3} class={indentation}>
                         <ReactMarkdown children={comment} components={{p: noP}} />
                     </td>
                 </tr>
