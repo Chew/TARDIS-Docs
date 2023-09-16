@@ -58,7 +58,7 @@ when powered on, but not actively doing anything (like travelling or recharging)
 To prevent power use in standby mode, you should power down the TARDIS.
 
 You can configure how often and how much energy is used in _artron.yml_ — see
-the [Artron Configuration](configuration/configuration-energy) page.
+the [Artron Configuration](configuration/energy) page.
 
 ### Power up/down/standby config options
 

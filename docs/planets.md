@@ -69,7 +69,7 @@ Otherwise, mobs will look like vanilla mobs!
 ## Enabling Planets
 
 All planets must be enabled using the `/tardisworld enable` command. There are some world specific options in
-the [planets.yml configuration file](configuration-planets). Below is a sample code, and it is commented to describe
+the [planets.yml configuration file](configuration/planets). Below is a sample code, and it is commented to describe
 each line.
 
 For acid potion effects, see

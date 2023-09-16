@@ -8,7 +8,7 @@ title: World management
 From TARDIS v4.1.0 the plugin can now manage any worlds on the server and no longer relies on a separate multi-world
 plugin such as Multiverse.
 
-Configuration for world management is handled by [planets.yml](configuration-planets).
+Configuration for world management is handled by [planets.yml](configuration/planets).
 
 ## Commands
 

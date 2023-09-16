@@ -492,7 +492,7 @@ For Spigot 1.12.2
     - Added new mobs
     - Fixed spawn eggs due Minecraft changes
 - Added the ability to create a Skaro world — see more details here: [Skaro](planets#planet-skaro)
-- Added the ability to have per-world resource packs — see [Planet configuration](configuration-planets)
+- Added the ability to have per-world resource packs — see [Planet configuration](configuration/planets)
 - Added beetroot to the Sonic replanter feature
 - Added the ENDER console designed by ToppanaFIN — seed block: PURPUR\_BLOCK
 - Added CORAL console designed by vistaero — seed block: NETHER_WART_BLOCK

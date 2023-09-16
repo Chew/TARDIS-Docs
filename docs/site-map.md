@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 	<a href="tardis-areas" title="Areas">Areas</a><br/>
 	<a href="ars" title="Architectural Reconfiguration System">Architectural Reconfiguration System (ARS)</a><br/>
 	<a href="advanced-console#area-storage-disks" title="Area Disks">Area Storage Disks</a><br/>
-	<a href="configuration/configuration-energy" title="Artron Configuration">Artron Configuration</a><br/>
+	<a href="configuration/energy" title="Artron Configuration">Artron Configuration</a><br/>
 	<a href="artron-furnace" title="Artron Furnace">Artron Furnace</a><br/>
 	<a href="artron-cells" title="Artron Storage Cells">Artron Storage Cells</a><br/>
 	<a href="artron-energy" title="Artron Energy">Artron Energy</a><br/>
@@ -86,7 +86,7 @@ import TabItem from '@theme/TabItem';
 	<a href="control-menu" title="Control Menu">Control Menu</a><br/>
 	<a href="crafting-disks" title="Crafting Disks">Crafting Disks</a><br/>
 	<a href="creating-a-tardis" title="Creating a TARDIS">Creating a TARDIS</a><br/>
-	<a href="configuration/configuration-creation" title="Creation Configuration">Creation Configuration</a><br/>
+	<a href="configuration/creation" title="Creation Configuration">Creation Configuration</a><br/>
 	<a href="food#custard" title="Custard">Custard</a><br/>
 	<a href="item_displays" title="Custom blocks">Custom blocks</a><br/>
 	<a href="custom-consoles" title="Custom consoles">Custom consoles</a><br/>
@@ -138,7 +138,7 @@ import TabItem from '@theme/TabItem';
 	<a href="commands/misc#tardisgamemode" title="Gamemode command">Gamemode command</a><br/>
 	<a href="lazarus" title="Genetic Manipulator">Genetic Manipulator</a><br/>
 	<a href="commands/give" title="Give commands">Give commands</a><br/>
-	<a href="configuration/configuration-travel#grace" title="Grace period">Grace period</a><br/>
+	<a href="configuration/travel#grace_period" title="Grace period">Grace period</a><br/>
 	<a href="gravity-wells" title="Gravity wells">Gravity wells</a></p>
 
 </TabItem>
@@ -197,7 +197,7 @@ import TabItem from '@theme/TabItem';
 	<a href="modifying-the-tardis-interior" title="Modifying the interior">Modifying the interior</a><br />
 	<a href="modules" title="Modules">Modules</a><br/>
 	<a href="monitor" title="Monitor">Monitor</a><br/>
-	<a href="configuration/configuration-monsters" title="Monsters Configuration">Monsters Configuration</a><br/>
+	<a href="configuration/monsters" title="Monsters Configuration">Monsters Configuration</a><br/>
 	<a href="commands/misc#tardismushroom" title="Mushroom command">Mushroom command</a></p>
 
 </TabItem>
@@ -212,11 +212,11 @@ import TabItem from '@theme/TabItem';
 	<a href="permissions-table" title="Permissions">Permissions</a><br/>
 	<a href="placeholders" title="PlaceholderAPI">PlaceholderAPI Placeholders</a><br/>
 	<a href="planets" title="Planets">Planets</a><br/>
-	<a href="configuration/configuration-planets" title="Planet Configuration">Planet Configuration</a><br/>
+	<a href="configuration/planets" title="Planet Configuration">Planet Configuration</a><br/>
 	<a href="commands/player-preferences" title="Player preferences">Player preferences</a><br/>
 	<a href="writing-disks#writing-player-disks" title="Player Storage Disks">Player Storage Disks</a><br/>
-	<a href="configuration/configuration-preset" title="Police Box Configuration">Police Box Configuration</a><br/>
-	<a href="configuration/configuration-prefs" title="Preferences Configuration">Preferences Configuration</a><br/>
+	<a href="configuration/preset" title="Police Box Configuration">Police Box Configuration</a><br/>
+	<a href="configuration/prefs" title="Preferences Configuration">Preferences Configuration</a><br/>
 	<a href="crafting-disks#preset-storage-disks" title="Preset Storage Disks">Preset Storage Disks</a><br/>
 	<a href="prune" title="Pruning">Pruning</a></p>
 
@@ -234,9 +234,9 @@ import TabItem from '@theme/TabItem';
 	<a href="removing-a-tardis" title="Removing a TARDIS">Removing a TARDIS</a><br/>
 	<a href="configuration/configuration-allow" title="Restrictions Configuration">Restrictions Configuration</a><br/>
 	<a href="rift-manipulator" title="Rift Manipulator">Rift Manipulator</a><br/>
-	<a href="configuration/configuration-rooms" title="Room Configuration">Room Configuration</a><br/>
+	<a href="configuration/rooms" title="Room Configuration">Room Configuration</a><br/>
 	<a href="room-gallery" title="Room gallery">Room gallery</a><br/>
-	<a href="configuration/configuration-growth" title="Room Growth Configuration">Room Growth Configuration</a><br/>
+	<a href="configuration/growth" title="Room Growth Configuration">Room Growth Configuration</a><br/>
 	<a href="rooms-and-economies" title="Custom rooms">Rooms and economies</a><br/>
 	<a href="rooms" title="Rooms">Rooms</a></p>
 
@@ -269,7 +269,7 @@ import TabItem from '@theme/TabItem';
 	<a href="modules/weeping-angels#strax" title="Strax">Strax</a><br/>
 	<a href="commands/sudo" title="Sudo commands">Sudo commands</a><br/>
 	<a href="sqlite-mysql-tool" title="Spigot">SQLite -&gt; MySQL conversion tool</a><br/>
-	<a href="configuration/configuration-storage" title="Storage Configuration">Storage Configuration</a><br/>
+	<a href="configuration/storage" title="Storage Configuration">Storage Configuration</a><br/>
 	<a href="chemistry-lab/products#super-fertiliser" title="Super Fertiliser">Super Fertiliser</a></p>
 
 </TabItem>
@@ -299,7 +299,7 @@ import TabItem from '@theme/TabItem';
 	<a href="modules/weeping-angels#toclafane" title="Toclafane">Toclafane</a><br/>
 	<a href="transmat" title="Transmat">Transmat</a><br/>
 	<a href="commands/travel" title="Travel commands">Travel commands</a><br/>
-	<a href="configuration/configuration-travel" title="Travel Configuration">Travel Configuration</a><br/>
+	<a href="configuration/travel" title="Travel Configuration">Travel Configuration</a><br/>
 	<a href="commands/dev#tree" title="Tree commands">Tree command</a></p>
 
 </TabItem>
