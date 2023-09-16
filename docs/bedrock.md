@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Bedrock edition
+title: Bedrock Edition
 ---
 
-# Bedrock edition
+# Bedrock Edition
 
 If you are running the [Geyser](https://geysermc.org/) and [Floodgate](https://github.com/GeyserMC/Floodgate) plugins to
 allow Bedrock players to connect to your server,
@@ -12,7 +12,7 @@ tablets and other mobile devices to navigate the many TARDIS options much more e
 
 The various forms are shown below:
 
-## Control menu
+## Control Menu
 
 Access to most of the TARDIS functions.
 
@@ -30,7 +30,7 @@ Click a button to load an area to travel to.
 
 ![Floodgate areas](/images/floodgate/areas.jpg)
 
-## Destination terminal
+## Destination Terminal
 
 Use the form controls to find a unique location. When parameters have been selected, click the submit button.
 
@@ -52,7 +52,7 @@ Click a button to transmat to a room in your TARDIS.
 
 ![Floodgate map](/images/floodgate/map.jpg)
 
-## Chameleon circuit
+## Chameleon Circuit
 
 Click a button to set Chameleon Circuit options.
 
@@ -60,7 +60,7 @@ Click a button to set Chameleon Circuit options.
 
 ![Floodgate presets](/images/floodgate/presets.jpg)
 
-## Temporal circuit
+## Temporal Circuit
 
 Click a button to change the relative time when exiting the TARDIS.
 

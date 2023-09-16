@@ -20,7 +20,7 @@ Choose a configuration page from below:
 4. [Police Box and presets](configuration-preset)
 5. [TARDIS travel](configuration-travel)
 6. [TARDIS preferences](configuration-prefs)
-7. [TARDIS restrictions](configuration-allow)
+7. [TARDIS restrictions](/configuration/allow)
 8. [Room growth](configuration-growth)
 9. [Rooms](configuration-rooms)
 10. [Energy](configuration-energy)

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: flight modes
+title: Flight Modes
 ---
 
-# TARDIS flight modes
+# TARDIS Flight Modes
 
 From v2.9-beta-1, TARDIS now has three different flight modes. Flight modes are a player preference, and can be set
 using the command `/tardisprefs flight [mode]` command.
@@ -30,10 +30,6 @@ In manual flight mode, the more repeaters you miss hitting, the further from you
 You can set the delay between having to click the repeaters in the config: `/tardisconfig manual_flight_delay [ticks]` —
 default is 60 (3 seconds)
 
-<!--Video goes here
-
-<iframe src="https://player.vimeo.com/video/57807692" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-
 ### Regulator flight mode
 
 Use the four direction buttons to keep the flight path stabilised in the centre of the vortex blocks (black
@@ -42,13 +38,11 @@ stained-glass).
 In regulator flight mode, the further away from the centre the regulator block is, the further from your desired
 location you will land
 
-Video goes here
-
 <iframe src="https://player.vimeo.com/video/90391961" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 :::note
 
-Currently if the destination is inside a building, the adjusted location will most probably end up on the roof (even if
+Currently, if the destination is inside a building, the adjusted location will most probably end up on the roof (even if
 there is room inside the building).
 
 :::

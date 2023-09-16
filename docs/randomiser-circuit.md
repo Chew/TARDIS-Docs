@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Randomiser circuit
+title: Randomiser Circuit
 ---
 
-# Randomiser circuit
+# Randomiser Circuit
 
 When inserted in the Advanced Console, the TARDIS attempts to find a completely random destination.
 
@@ -13,13 +13,13 @@ to...
 It also uses more Artron Energy than regular random travel (using the repeaters and button) and disables the scanner
 until the TARDIS has landed.
 
-### Recipe
+## Recipe
 
-DIRT, NETHERRACK, COMPASS, ENDER\_STONE, WATER\_BUCKET in shape shown below.
+`DIRT`, `NETHERRACK`, `COMPASS`, `END_STONE`, `WATER_BUCKET` in shape shown below.
 
 ![Randomiser circuit recipe](/images/docs/randomisercircuit.jpg)
 
-### Configuration
+## Configuration
 
 In _config.yml_:
 

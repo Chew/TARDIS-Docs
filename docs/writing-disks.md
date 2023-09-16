@@ -8,7 +8,7 @@ title: Writing Save and Player Disks
 Save Storage Disks and Player Storage Disks can have data written to them using a command while holding the appropriate
 disk in hand.
 
-### Crafting the blank disks
+## Crafting the blank disks
 
 You will need a blank storage disk first — `/tardisrecipe blank-storage-disk`
 
@@ -17,7 +17,7 @@ You will need a blank storage disk first — `/tardisrecipe blank-storage-disk`
 
 Check the recipes using the `/tardisrecipe [save-storage-disk|player-storage-disk]` command.
 
-### Writing Save Disks
+## Writing Save Disks
 
 While holding a blank Save Storage Disk in your hand, type the command:
 
@@ -25,7 +25,7 @@ While holding a blank Save Storage Disk in your hand, type the command:
 
 The current location, direction, preset and submarine status will be written to the disk.
 
-### Writing Player Disks
+## Writing Player Disks
 
 While holding a blank Player Storage Disk in your hand, type the command:
 

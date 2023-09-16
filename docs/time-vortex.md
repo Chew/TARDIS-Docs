@@ -5,7 +5,7 @@ title: TARDIS_TimeVortex world
 
 # TARDIS\_TimeVortex world
 
-By default the plugin will set up a special world that will allow you to store all the TARDISes in it and still be able
+By default, the plugin will set up a special world that will allow you to store all the TARDISes in it and still be able
 to grow rooms, abandon TARDISes, be easier on server resources and make management of TARDISes easier. The world is
 called
 **TARDIS\_TimeVortex** and uses TARDISChunkGenerator module to create a void type environment.

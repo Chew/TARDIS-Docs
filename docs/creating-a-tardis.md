@@ -30,9 +30,9 @@ The crafting grid above shows how to craft the default ‘budget’ TARDIS that 
 - **LAPIS block** = required block
 - **REDSTONE TORCH** = required block
 - **LIGHT GREY WOOL** = TARDIS interior floor block, can be any
-  valid [TARDIS block](https://github.com/eccentricdevotion/TARDIS/blob/v4.0/src/main/resources/blocks.yml#L4-L127)
+  valid [TARDIS block](https://github.com/eccentricdevotion/TARDIS/blob/v4.0/src/main/resources/blocks.yml#L4-L182)
 - **ORANGE WOOL** = TARDIS interior wall block, can be any
-  valid [TARDIS block](https://github.com/eccentricdevotion/TARDIS/blob/v4.0/src/main/resources/blocks.yml#L4-L127)
+  valid [TARDIS block](https://github.com/eccentricdevotion/TARDIS/blob/v4.0/src/main/resources/blocks.yml#L4-L182)
 
 Once the required and chosen blocks are placed in the crafting grid, a TARDIS seed block is automatically generated.
 

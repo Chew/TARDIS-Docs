@@ -26,21 +26,22 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
         comment = rowInData.split("#")[1];
     }
 
+    let indention = "";
+    for (let i = 0; i < indent; i++) {
+        indention += "&nbsp;&nbsp;&nbsp;&nbsp;";
+    }
+
     if (isParent) {
         return (
             <>
                 <tr>
-                    <td colSpan={3}><code>{ymlKey}:</code></td>
+                    <td colSpan={3}><span dangerouslySetInnerHTML={{__html: indention}}></span><code>{ymlKey}:</code></td>
                 </tr>
                 {children}
             </>
         )
     }
 
-    let indention = "";
-    for (let i = 0; i < indent; i++) {
-        indention += "&nbsp;&nbsp;&nbsp;&nbsp;";
-    }
     // render the indention raw
     // we can do this by using dangerouslySetInnerHTML
 

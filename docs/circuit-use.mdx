@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Circuit use and repair
+title: Circuit Use and Repair
 ---
 
-# Circuit use and repair
+import ConfigTable from "../src/components/ConfigTable";
+
+# Circuit Use and Repair
 
 If configured (`difficulty: hard` and `damage: true`), circuits can become damaged after use. When the tardis
 malfunctions
@@ -11,7 +13,7 @@ there is a 50% chance that a circuit will become damaged even more than usual.
 
 ![circuit uses](/images/docs/circuit_uses.jpg)
 
-### Use
+## Use
 
 Circuit use will decrease in the following circumstances:
 
@@ -20,14 +22,14 @@ Circuit use will decrease in the following circumstances:
 | ars             | clicking the ‘Reconfigure’ button in the ARS GUI                    |
 | chameleon       | clicking the ‘Apply preset now’ button in the Chameleon Circuit GUI |
 | input           | setting a destination with the Destination Terminal                 |
-| invisibility    | selecting the Invibility preset in the Chameleon Circuit GUI        |
+| invisibility    | selecting the Invisibility preset in the Chameleon Circuit GUI      |
 | materialisation | the TARDIS re-materialises after travelling                         |
 | memory          | processing a disk in the Advanced Console                           |
 | randomiser      | getting a random destination in the Advanced Console                |
 | scanner         | pressing the Scanner button                                         |
 | temporal        | setting the time in the Temporal Locator GUI                        |
 
-### Repair
+## Repair
 
 Circuits can be repaired by combining them with redstone in an anvil.
 
@@ -37,7 +39,7 @@ You need to click the output slot to make the repair. One redstone gives one lev
 
 ![circuit repaired](/images/docs/circuit_repaired.jpg)
 
-### Configuration options
+## Configuration options
 
 The defaults are shown below:
 
@@ -56,11 +58,9 @@ circuits:
     temporal: 20
 ```
 
-| Option                              | Type                                                                                                                              | Default Value |
-|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------|
-| circuits:                           |                                                                                                                                   |               |
-| `damage`                            | boolean                                                                                                                           | `false`       |
-|                                     | Sets whether circuits get damaged after each use. Setting this to false (the default) means circuits have unlimited uses.         |               |
-| uses:                               |                                                                                                                                   |               |
-| &nbsp;&nbsp;&nbsp;&nbsp;`<circuit>` | integer                                                                                                                           | `[uses]`      |
-|                                     | Sets the maximum number of uses a circuit has before it is vapourised. Setting this to `0` gives unlimited uses for that circuit. |               |
+<ConfigTable data={`
+circuits:
+  damage: false # Sets whether circuits get damaged after each use. Setting this to false (the default) means circuits have unlimited uses.
+  uses:
+    \<circuit\>: 20 # Sets the maximum number of uses a circuit has before it is vapourised. Setting this to \`0\` gives unlimited uses for that circuit.
+`} />
