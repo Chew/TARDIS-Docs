@@ -28,22 +28,22 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
 
     let indentation = "indent" + indent;
 
-    let parentComment = null;
-    if (isParent && comment != null) {
-     parentComment = (
-          <tr>
-              <td colSpan={3} class={indentation}>
-                <ReactMarkdown children={comment} components={{p: noP}} />
-              </td>
-          </tr>
-        )
-    }
-
     if (isParent) {
+        let parentComment: React.JSX.Element;
+        if (comment) {
+            parentComment = (
+                <tr>
+                    <td colSpan={3} className={indentation}>
+                        <ReactMarkdown children={comment} components={{p: noP}} />
+                    </td>
+                </tr>
+            )
+        }
+
         return (
             <>
                 <tr>
-                    <td colSpan={3} class={indentation} id={ymlKey.toString()}><code>{ymlKey}:</code></td>
+                    <td colSpan={3} className={indentation} id={ymlKey.toString()}><code>{ymlKey}:</code></td>
                 </tr>
                 {parentComment}
                 {children}
@@ -53,7 +53,7 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
 
     const justDataRow = (
         <tr>
-            <td class={indentation} id={ymlKey.toString()}><code>{ymlKey.toString()}</code></td>
+            <td className={indentation} id={ymlKey.toString()}><code>{ymlKey.toString()}</code></td>
             <td><code>{valueType.toString()}</code></td>
             <td><code>{value.toString()}</code></td>
         </tr>
@@ -64,7 +64,7 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
             <>
                 {justDataRow}
                 <tr>
-                    <td colSpan={3} class={indentation}>
+                    <td colSpan={3} className={indentation}>
                         <ReactMarkdown children={comment} components={{p: noP}} />
                     </td>
                 </tr>
