@@ -232,7 +232,7 @@ import TabItem from '@theme/TabItem';
 	<a href="resource-packs" title="Resource Packs">Resource Packs</a><br/>
 	<a href="commands/remote" title="Remote commands">Remote commands</a><br/>
 	<a href="removing-a-tardis" title="Removing a TARDIS">Removing a TARDIS</a><br/>
-	<a href="configuration/configuration-allow" title="Restrictions Configuration">Restrictions Configuration</a><br/>
+	<a href="configuration/allow" title="Restrictions Configuration">Restrictions Configuration</a><br/>
 	<a href="rift-manipulator" title="Rift Manipulator">Rift Manipulator</a><br/>
 	<a href="configuration/rooms" title="Room Configuration">Room Configuration</a><br/>
 	<a href="room-gallery" title="Room gallery">Room gallery</a><br/>

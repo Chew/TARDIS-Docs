@@ -12,8 +12,8 @@ You can view descriptions, usage and permissions for all commands in-game using 
 Type `/tardis help` to list all the commands, then use `/tardis? [command]` to view all the relevant subcommands.
 Use `/tardis? [command] [subcommand]` when necessary to view the command information.
 
-You can also see a big list of `/tardis` commands here: [Big list of TARDIS sub commands](tardis-commands-table)
-and a big list of all the other commands here: [Big list of other commands](commands/other).
+You can also see a big list of `/tardis` commands here: [Big list of TARDIS sub commands](/commands/tardis-commands-table)
+and a big list of all the other commands here: [Big list of other commands](/commands/other).
 
 ### There are lots of commands:
 

@@ -40,9 +40,9 @@ You can enable modules with the `/tardisconfig` command:
 To see what each module does, visit the appropriate page:
 
 - [Blueprints](modules/blueprints)
-- [Chunk Generator](generators)
-- [Weeping Angels](weeping-angels)
-- [Vortex Maipulator](/vortex-manipulator)
-- [Dynmap](dynmap-tardis)
-- [Shop](tardis-shop)
-- [Sonic Blaster](sonic-blaster)
+- [Chunk Generator](modules/generators)
+- [Weeping Angels](modules/weeping-angels)
+- [Vortex Maipulator](modules/vortex-manipulator)
+- [Dynmap](modules/dynmap-tardis)
+- [Shop](modules/tardis-shop)
+- [Sonic Blaster](modules/sonic-blaster)

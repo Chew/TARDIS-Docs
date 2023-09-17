@@ -567,6 +567,3 @@ For Spigot 1.12.2
 - Fixed the Junk Mode save sign not working after a new TARDIS was created, and persist Junk Mode players between server
   restarts
 - Fixed the INVISIBLE chameleon preset not updating the exterior door location
-
-[Older releases](change-log-not-so-older)
-

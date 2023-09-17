@@ -33,10 +33,24 @@ const redirects = {
     '/other-commands': '/commands/other',
     '/recipe-commands': '/commands/recipe',
     '/remote-commands': '/commands/remote',
+    '/player-preferences': '/commands/player-preferences',
     '/schematic-commands': '/commands/schematic',
     '/tardis-commands': '/commands/tardis',
     '/texture-commands': '/commands/texture',
     '/travel-commands': '/commands/travel',
+
+    /// CONFIG ///
+    '/configuration-allow': '/configuration/allow',
+    '/configuration-creation': '/configuration/creation',
+    '/configuration-energy': '/configuration/energy',
+    '/configuration-growth': '/configuration/growth',
+    '/configuration-monsters': '/configuration/monsters',
+    '/configuration-planets': '/configuration/planets',
+    '/configuration-prefs': '/configuration/prefs',
+    '/configuration-preset': '/configuration/preset',
+    '/configuration-rooms': '/configuration/rooms',
+    '/configuration-storage': '/configuration/storage',
+    '/configuration-travel': '/configuration/travel',
 };
 
 /// DO NOT TOUCH ///

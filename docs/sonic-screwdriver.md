@@ -44,7 +44,7 @@ the smithing table requires an extra redstone template item). Each circuit has a
 
 Right-clicking AIR while sneaking with any sonic screwdriver opens the Player Pref Menu GUI
 where you can click preference items to toggle them on and off. The preferences
-menu also has a map button to open the [TARDIS Map](map) and the [Sonic Configurator](sonic-configurator.hml).
+menu also has a map button to open the [TARDIS Map](map) and the [Sonic Configurator](sonic-configurator).
 
 ![Player Prefs Menu](/images/docs/player_prefs_custom.jpg)
 

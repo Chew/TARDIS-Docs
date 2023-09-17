@@ -97,7 +97,7 @@ To get started choose a page:
 
 [Travel Commands](commands/travel) — Travel related commands
 
-[Player Preferences](player-preferences) — Commands to set TARDIS player preferences
+[Player Preferences](commands/player-preferences) — Commands to set TARDIS player preferences
 
 [Bind commands](commands/bind) — ‘Bind’ saves and other functions to buttons for easy access
 
@@ -140,8 +140,6 @@ To get started choose a page:
 [Change log](change-log) — A list of all the stuff that has been added and fixed since release.
 
 [TARDIS Java Docs](http://thenosefairy.duckdns.org/TARDIS_java_docs/index.html) — Get the low down on the code
-
-[Minecraft name generator](name-generator) — Currently a work in progress, but give a whirl anyway!
 
 [Spigot/Paper plugin starter](http://thenosefairy.duckdns.org/plugin_starter.php) — Generate the required files to start
 writing a Spigot/Paper plugin using Maven and your preferred Java IDE. The TARDIS plugin is coded using [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/).
