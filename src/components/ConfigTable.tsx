@@ -28,12 +28,24 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
 
     let indentation = "indent" + indent;
 
+    let parentComment = null;
+    if (isParent && comment != null) {
+     parentComment = (
+          <tr>
+              <td colSpan={3} class={indentation}>
+                <ReactMarkdown children={comment} components={{p: noP}} />
+              </td>
+          </tr>
+        )
+    }
+
     if (isParent) {
         return (
             <>
                 <tr>
                     <td colSpan={3} class={indentation} id={ymlKey.toString()}><code>{ymlKey}:</code></td>
                 </tr>
+                {parentComment}
                 {children}
             </>
         )

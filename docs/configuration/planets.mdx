@@ -114,11 +114,10 @@ planets:
 
 <ConfigTable data={`
 switch_resource_packs: false # To make the a world look a little different than a regular world, TARDIS can change the resource pack when you switch worlds (you must enable server resource packs in the Minecraft client).
-set_pack_on_join: true # If players join the server in a world managed by TARDIS, setting this to \`true\` will switch the resource pack for them.                                                                      
+set_pack_on_join: true # If players join the server in a world managed by TARDIS, setting this to \`true\` will switch the resource pack for them.
 default_resource_pack: https://www.dropbox.com/s/utka3zxmer7f19g/Default.zip?dl=1 # This is just an empty resource pack (954 bytes). It is needed to revert back to the default (or other installed) resource pack colours. You can either host your own, or use the one provided. Worlds not listed in the \`planets\` section will use this.
 colour_skies: true # Whether to send biome change packets for the Gallifrey and Skaro worlds so that the sky, water, fog, and foliage colours are different than regular worlds.
-planets:
-    # This is a list of worlds on your server. If you want to use the world resource pack switching feature for other server worlds, you can add them here. Use the \`TARDIS_TimeVortex\` entry as an example.                                                   
+planets: # This is a list of worlds on your server. If you want to use the world resource pack switching feature for other server worlds, you can add them here. Use the \`TARDIS_TimeVortex\` entry as an example.
     planet name:
         enabled: false # Whether this world should be loaded and managed by TARDIS.
         time_travel: false # Whether this world can be travelled to using the TARDIS.
