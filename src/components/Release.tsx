@@ -6,7 +6,7 @@ function Release(release: Release) {
     return (
         <div className={styles.project}>
             <div className={styles.flex}>
-                <Link className={styles.projectGitHub} to={release.url}>
+                <Link className={styles.projectGitHub} to={release.html_url}>
                     {release.name}
                 </Link>
                 <p>{release.body}</p>
@@ -47,7 +47,7 @@ interface Release {
     tag_name: string;
     body: string;
     id: number;
-    url: string;
+    html_url: string;
     assets: {
         name: string;
         browser_download_url: string;
