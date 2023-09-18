@@ -5,7 +5,6 @@ title: TARDIS Items
 
 # TARDIS Items
 
-
 | Item                                                                 |                                                                                                                                                            | Description                                                                                                                                                                                                                                                                          | View recipe command            |
 |----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | [TARDIS key](commands/player-preferences#player-preference-commands) | ![Key](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/key/brass_plain.png?raw=true)                     | Open, close, lock and unlock your TARDIS door.                                                                                                                                                                                                                                       | `/trecipe key`                 |
@@ -90,5 +89,3 @@ title: TARDIS Items
 | eleventh light       | ![Hexagon](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/block/lights/eleventh_on.png?raw=true)              | Eleventh Doctor’s TARDIS [light](item_displays#lights).                           | `/trecipe light-eleventh`       |
 | twelfth light        | ![Hexagon](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/block/lights/twelfth_on.png?raw=true)               | Twelfth Doctor’s TARDIS [light](item_displays#lights).                            | `/trecipe light-twelfth`        |
 | thirteenth light     | ![Hexagon](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/block/lights/thirteenth_on.png?raw=true)            | Thirteenth Doctor’s TARDIS [light](item_displays#lights).                         | `/trecipe light-thirteenth`     |
-
-

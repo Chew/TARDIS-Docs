@@ -87,7 +87,8 @@ import TabItem from '@theme/TabItem';
 	<a href="crafting-disks" title="Crafting Disks">Crafting Disks</a><br/>
 	<a href="creating-a-tardis" title="Creating a TARDIS">Creating a TARDIS</a><br/>
 	<a href="configuration/creation" title="Creation Configuration">Creation Configuration</a><br/>
-	<a href="food#custard" title="Custard">Custard</a><br/>
+	<a href="food#bowl-of-custard" title="Custard">Custard</a><br/>
+	<a href="food#custard-creams" title="Custard">Custard Creams</a><br/>
 	<a href="item_displays" title="Custom blocks">Custom blocks</a><br/>
 	<a href="custom-consoles" title="Custom consoles">Custom consoles</a><br/>
 	<a href="custom-preset" title="Custom chameleon preset">Custom chameleon preset</a><br/>
@@ -124,7 +125,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="F" label="F" default>
 
 <p><a href="faqs" title="FAQs">FAQs</a><br/>
-	<a href="food#fish" title="Fish fingers">Fish fingers</a><br/>
+	<a href="food#fish-fingers" title="Fish fingers">Fish fingers</a><br/>
 	<a href="flight-modes" title="Flight modes">Flight modes</a><br/>
 	<a href="walls" title="Floor materials">Floor materials</a><br/>
 	<a href="flying" title="Flying the TARDIS">Flying the TARDIS</a><br/>
@@ -165,8 +166,8 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="J" label="J">
 
-<p><a href="food#jammy" title="Jammy Dodgers">Jammy Dodgers</a><br/>
-	<a href="food#jelly" title="Jelly babies">Jelly babies</a><br/>
+<p><a href="food#jammy-dodgers" title="Jammy Dodgers">Jammy Dodgers</a><br/>
+	<a href="food#jelly-babies" title="Jelly babies">Jelly babies</a><br/>
 	<a href="http://tardisjenkins.duckdns.org:8080">Jenkins Server</a><br/>
 	<a href="ars#using-the-architectural-reconfiguration-system">Jettison rooms</a><br/>
 	<a href="modules/weeping-angels#judoon" title="Judoon">Judoon</a><br/>

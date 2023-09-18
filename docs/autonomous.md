@@ -37,7 +37,7 @@ to when you die.
 The options are:
 
 - `HOME` - Always go to the TARDIS's home location.
-- `AREAS` - Go to the an area in the death world. If a parking spot cannot be found,
+- `AREAS` - Go to an area in the death world. If a parking spot cannot be found,
   use the fallback location.
 - `CONFIGURED AREAS` - Go to the server's default area(s). If a parking spot
   cannot be found, use the fallback location.
