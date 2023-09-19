@@ -1,0 +1,82 @@
+---
+layout: default
+title: Give Commands
+---
+
+import CommandTable from "../../src/components/CommandTable";
+
+# TARDIS Give Commands
+
+TARDIS admins (players with the permission `tardis.admin`) can use this command to give items and energy to players.
+
+## `/tardisgive`
+
+<CommandTable data={
+    `tardisgive:
+        aliases: tgive
+        description: Give TARDIS items, Artron energy, Seed blocks, kits, knowledge books, or recipe discoveries to a player.
+        permission: tardis.admin
+        usage: /<command> [player] [subcommand] [options]..
+    `
+}
+args={
+    `
+    item:
+      description: Gives TARDIS item(s) to a player.
+      usage: /<command> [player] item [amount]
+    artron:
+      description: Gives a player's TARDIS Artron energy.
+      usage: /<command> [player] artron [full|empty|amount]
+    tachyon:
+      description: Give Tachyon energy to a player's Vortex Manipulator.
+      usage: /<command> [player] artron [full|empty|amount]
+    kit:
+      description: Gives a TARDIS kit to a player. Kits can be configured in [kits.yml](../kits)
+      usage: /<command> [player] kit [kit]
+    seed:
+      description: Gives a TARDIS Seed block to a player.
+      usage: /<command> [player] seed [tardis type] [wall black] [floor block]
+    knowledge:
+      description: Grants knowledge of a TARDIS crafting recipe to a player.
+      usage: /<command> [player] knowledge [recipe|all]
+    recipes:
+      description: Grants a TARDIS recipe to a player.
+      usage: /<command> [player] recipes [recipe|all]
+    blueprint:
+      description: Gives a TARDIS Blueprint Disk to a player.
+      usage: /<command> [player] blueprint [blueprint]
+`
+}
+cmd='tardisgive'
+extra='false'
+>
+
+</CommandTable>
+
+## Artron
+
+This will alter the specified player’s TARDIS Artron Energy level.
+
+    /tardisgive [player] artron [full|empty|amount]
+
+- `full` will set the level to the amount specified by `full_charge` in the Artron config file.
+- `empty` will set the level to `0`.
+- `amount` can be either positive or negative, but the final level will never be less than `0` or higher
+than `full_charge`.
+
+## Items
+
+    /tardisgive [player] [item] [amount]
+
+`item` is any valid TARDIS item available in [recipes.yml](/recipes).
+
+`amount` determines how many of the item to give the player.
+
+## Seed Blocks
+
+This will give the player a TARDIS seed block.
+
+    /tardisgive [player] seed [tardis type] [wall black] [floor block]
+
+- `tardis type` You can find a list here: [List of interiors](/creating-a-tardis#tardis-types)
+- `wall block` and `floor block` can be any valid [wall or floor material](/walls) 
