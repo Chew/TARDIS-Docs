@@ -29,6 +29,11 @@ const sidebars = {
   ],
   //  */
   docs: [
+    {
+      type: 'html',
+      value: '<span id="sidebar-tardis"></span>',
+      defaultStyle: true,
+    },
     'index',
     {
       type: 'doc',

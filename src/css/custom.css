@@ -38,3 +38,15 @@ code { color: #006ca6; }
 .indent1 { padding-left: 3em; }
 .indent2 { padding-left: 5em; }
 .indent3 { padding-left: 7em; }
+
+/*sidebar TARDIS*/
+#sidebar-tardis {
+    display: inline-block;
+    width: 42px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-image: url('/images/sidebar-tardis-light.png');
+}
+[data-theme='dark'] #sidebar-tardis {
+    background-image: url('/images/sidebar-tardis-dark.png');
+}
