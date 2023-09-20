@@ -23,7 +23,7 @@ If upgrading from a previous version of TARDIS, see [Updating from v4.x.x to v5.
 
 :::
 
-You install TARDIS just like you would any other Spigot/Paper plugin, by dropping it into the Bukkit plugins folder and starting the server.
+You install TARDIS just like you would any other Spigot/Paper plugin, by dropping it into the Spigot / Paper plugins folder and starting the server.
 
 The TARDIS database, configuration, schematic and advancement files will be created automatically.
 
@@ -31,7 +31,7 @@ For the plugin to have full functionality and work correctly you should have the
 
 The TARDIS plugin has evolved into a complex beast, with configurable recipes, and other things that unexperienced server administrators may have trouble with. If you have difficulties, create a ticket on the [issues page](https://github.com/eccentricdevotion/TARDIS/issues).
 
-### Installation:
+## Installation:
 
 Place the `TARDIS.jar` file in your plugins folder.
 
@@ -39,7 +39,7 @@ You will most probably need to run a permissions plugin for players to actually 
 
 If this is your first time using the plugin, you may want to set the TARDIS difficulty mode to _easy_. To do this use the in-game command: `/tardisconfig difficulty easy`.
 
-### Enhancing the TARDIS plugin
+## Enhancing the TARDIS plugin
 
 While not essential to make the TARDIS plugin work, the following plugins will make your Time Travelling experience even better.
 

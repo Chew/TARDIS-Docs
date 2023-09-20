@@ -19,9 +19,15 @@ To use it:
    * an _area_ name
    * a _player_ name
    * a _biome_ name
-   * ‘home’
-   * ‘cave’
-   * ‘village’
+   * `home`
+   * `cave`
+   * `village`
+   * _coordinates_
+      * `world` name on line 1
+      * `x` coordinate on line 2
+      * `y` coordinate on line 3
+      * `z` coordinate on line 4
+
 5. Click done and the destination will be set (providing it is a valid destination)
 6. Release the handbrake to travel
 

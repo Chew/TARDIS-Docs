@@ -28,13 +28,14 @@ with the TARDIS key to gain entry.
 
 :::
 
-Right-clicking the TARDIS door now opens and closes the door, SHIFT-right-clicking will teleport you in and out (the old
-behaviour).
+Right-clicking the TARDIS door opens and closes the door, SHIFT-right-clicking will teleport you in and out.
 
 The TARDIS _interior_ door can be opened and closed with any item in hand by simply right-clicking the door.
 
 The TARDIS _exterior_ door can be only opened by right-clicking it with the TARDIS key, but can be closed with any item
 in hand.
+
+<a id="leaving-the-door-open"></a>
 
 Opening the door activates walk in access, but be careful, it also means that monsters can enter the TARDIS as well (see
 below). It might be a good idea to close the door after you!
@@ -82,7 +83,7 @@ The TARDIS door can be handy in other ways:
 
 ## Interior door Vortex access
 
-TARDIS v2.9 allows you to open the interior so that you can see out into the vortex — this can be useful if you have
+TARDIS allows you to open the interior so that you can see out into the vortex — this can be useful if you have
 built a nice view.
 
 To gain access to space, you first need to add a switch to toggle the black wool blocks behind the door on and off.

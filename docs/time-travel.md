@@ -8,7 +8,7 @@ title: Travelling
 You can time travel in the TARDIS by using the controls on the TARDIS console, 
 or if you have the permission `tardis.fly` you can fly the TARDIS exterior - see [Flying the TARDIS](flying)
 
-### Repeaters
+## Repeaters
 
 There are multiple repeaters in your TARDIS, and each has its own function.
 
@@ -42,7 +42,7 @@ If you can never remember which repeater is which, turn on the `announce_repeate
 
 :::
 
-### Stone button and handbrake
+## Stone button and handbrake
 
 Your TARDIS comes equipped with a stone button & a handbrake (lever).
 

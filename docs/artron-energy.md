@@ -92,14 +92,11 @@ also gain an energy bonus if it is near the location of a natural lightning stri
 ### Server recharge points
 
 Finally, the last way to charge your TARDIS is to use a server admin created
-recharging station. These can be created by using a beacon<sup>‡</sup> and the
+recharging station. These can be created by using a beacon and the
 `/tardisadmin recharger [name]` command.
 
 It is also recommended that server admins create a [TARDIS area](commands/area)
 for Police Boxes to “park” in, so they can recharge easily.
-
-<sup><strong>‡</strong></sup> For pre-beacon versions of CraftBukkit (1.4.2 and earlier),
-use a REDSTONE LAMP (powered on).
 
 ## Overcharging the TARDIS
 

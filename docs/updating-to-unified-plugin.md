@@ -44,7 +44,7 @@ convert your console and rooms to use custom Item Display entities, you can use 
 To convert lamps to custom display lights you have two options:
 
 * use light switch to toggle the lights off and back on again, or 
-* repair console using the Desktop Theme GUI
+* repair the console using the Desktop Theme GUI
 
 :::info
 

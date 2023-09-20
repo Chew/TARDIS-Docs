@@ -5,8 +5,7 @@ title: Destination Terminal
 
 # Destination Terminal
 
-The Destination Terminal is an alternative way to set a time travel location. The Destination Terminal is automatically
-added to new TARDISes. You can destroy and place it at a new location by using the `/tardis update terminal` command.
+The Destination Terminal is an alternative way to set a time travel location. You can place a sign inside the TARDIS and use the `/tardis update terminal` command to add a Destination Terminal, or use the button in the TARDIS [Control Menu](control-menu).
 
 To use the Destination Terminal, right-click it to open the inventory based GUI. You will see a screen like the one
 below. The basic functions of the GUI are the same as when using the repeaters on the TARDIS console — you can set

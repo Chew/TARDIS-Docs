@@ -186,6 +186,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="L" label="L" default>
 
 <p><a href="lazarus" title="Lazarus Device">Lazarus Device</a><br/>
+	<a href="enter-and-exit#leaving-the-door-open" title="Leaving the door open">Leaving the door open</a><br/>
 	<a href="localisation" title="Localisation">Localisation</a></p>
 
 </TabItem>
@@ -199,6 +200,7 @@ import TabItem from '@theme/TabItem';
 	<a href="modules" title="Modules">Modules</a><br/>
 	<a href="monitor" title="Monitor">Monitor</a><br/>
 	<a href="configuration/monsters" title="Monsters Configuration">Monsters Configuration</a><br/>
+	<a href="enter-and-exit#leaving-the-door-open" title="Monsters in the TARDIS">Monsters in the TARDIS</a><br/>
 	<a href="commands/misc#tardismushroom" title="Mushroom command">Mushroom command</a></p>
 
 </TabItem>

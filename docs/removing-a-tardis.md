@@ -5,8 +5,8 @@ title: Removing the TARDIS
 
 # Removing the TARDIS
 
-To delete your TARDIS use the command `/tardis exterminate`. You will be asked to confirm your decision by clicking a
-link in chat. After clicking the link, your TARDIS will be permanently deleted.
+To delete your TARDIS use the command `/tardis exterminate`. On Java, you will be asked to confirm your decision by clicking a
+link in chat - on Bedrock click the button in the form that opens. After clicking the link/button, your TARDIS will be permanently deleted.
 
 ![TARDIS exterminate confirmation message](/images/docs/exterminate_confirm.jpg)
 

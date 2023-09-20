@@ -81,49 +81,65 @@ are not currently supported).
 To craft the disk combine a Blank Preset Storage Disk with the correct item. The preset and craft items are shown in the
 table below:
 
-| Preset           | Craft Item        |
-|------------------|-------------------|
-| ANGEL            | Feather           |
-| APPERTURE        | Stick             |
-| CAKE             | Cake              |
-| CANDY            | Sugar             |
-| CHALICE          | Quartz            |
-| CREEPY           | String            |
-| DESERT           | Sand              |
-| DUCK             | Wood Button       |
-| FACTORY          | Iron Ingot        |
-| FENCE            | Iron Fence        |
-| FLOWER           | Red Rose          |
-| GAZEBO           | Fence             |
-| GRAVESTONE       | Ender Stone       |
-| HELIX            | Smooth Stairs     |
-| JAIL             | Smooth Brick      |
-| JUNGLE           | Vine              |
-| LAMP             | Glowstone Dust    |
-| LIBRARY          | Book              |
-| LIGHTHOUSE       | Torch             |
-| MINESHAFT        | Rails             |
-| NETHER           | Netherrack        |
-| NEW              | Step              |
-| OLD              | Wool              |
-| PANDORICA        | Coal              |
-| PARTY            | Firework          |
-| PEANUT           | Hard Clay         |
-| PINE             | Leaves            |
-| PORTAL           | Wood Door         |
-| PUNKED           | Piston Base       |
-| ROBOT            | Cobble Wall       |
-| SHROOM           | Brown Mushroom    |
-| SNOWMAN          | Snow Ball         |
-| STONE            | Stone             |
-| SUBMERGED        | Dirt              |
-| SWAMP            | Water Lily        |
-| TELEPHONE        | Glass             |
-| TOILET           | Lever             |
-| TOPSYTURVEY      | Bucket            |
-| TORCH            | Flint And Steel   |
-| VILLAGE          | Cobblestone       |
-| WELL             | Mossy Cobblestone |
-| WINDMILL         | Wood              |
-| YELLOW SUBMARINE | Gold Nugget       |
-| CUSTOM           | Obsidian          |
+| Preset                | Craft Item                 |
+|-----------------------|----------------------------|
+| ANGEL                 | Feather                    |
+| APPERTURE             | Stick                      |
+| CAKE                  | Cake                       |
+| CANDY                 | Sugar                      |
+| CHALICE               | Quartz                     |
+| CREEPY                | String                     |
+| DESERT                | Sand                       |
+| DUCK                  | Wood Button                |
+| FACTORY               | Iron Ingot                 |
+| FENCE                 | Iron Fence                 |
+| FLOWER                | Red Rose                   |
+| GAZEBO                | Fence                      |
+| GRAVESTONE            | Ender Stone                |
+| HELIX                 | Smooth Stairs              |
+| JAIL                  | Smooth Brick               |
+| JUNGLE                | Vine                       |
+| LAMP                  | Glowstone Dust             |
+| LIBRARY               | Book                       |
+| LIGHTHOUSE            | Torch                      |
+| MINESHAFT             | Rails                      |
+| NETHER                | Netherrack                 |
+| NEW                   | Step                       |
+| OLD                   | Wool                       |
+| PARTY                 | Firework                   |
+| PEANUT                | Hard Clay                  |
+| PINE                  | Leaves                     |
+| PORTAL                | Wood Door                  |
+| PUNKED                | Piston Base                |
+| ROBOT                 | Cobble Wall                |
+| SHROOM                | Brown Mushroom             |
+| SNOWMAN               | Snow Ball                  |
+| STONE                 | Stone                      |
+| SUBMERGED             | Dirt                       |
+| SWAMP                 | Water Lily                 |
+| TELEPHONE             | Glass                      |
+| TOILET                | Lever                      |
+| TOPSYTURVEY           | Bucket                     |
+| TORCH                 | Flint And Steel            |
+| VILLAGE               | Cobblestone                |
+| WELL                  | Mossy Cobblestone          |
+| WINDMILL              | Wood                       |
+| YELLOW SUBMARINE      | Gold Nugget                |
+| CUSTOM                | Obsidian                   |
+| POLICE_BOX_BLUE       | Blue Concrete Powder       |
+| POLICE_BOX_WHITE      | White Concrete Powder      |
+| POLICE_BOX_ORANGE     | Orange Concrete Powder     |
+| POLICE_BOX_MAGENTA    | Magenta Concrete Powder    |
+| POLICE_BOX_LIGHT_BLUE | Light Blue Concrete Powder |
+| POLICE_BOX_YELLOW     | Yellow Concrete Powder     |
+| POLICE_BOX_LIME       | Lime Concrete Powder       |
+| POLICE_BOX_PINK       | Pink Concrete Powder       |
+| POLICE_BOX_GRAY       | Gray Concrete Powder       |
+| POLICE_BOX_LIGHT_GRAY | Light Gray Concrete Powder |
+| POLICE_BOX_CYAN       | Cyan Concrete Powder       |
+| POLICE_BOX_PURPLE     | Purple Concrete Powder     |
+| POLICE_BOX_BROWN      | Brown Concrete Powder      |
+| POLICE_BOX_GREEN      | Green Concrete Powder      |
+| POLICE_BOX_RED        | Red Concrete Powder        |
+| POLICE_BOX_BLACK      | Black Concrete Powder      |
+| POLICE_BOX_TENNANT    | Cyan Concrete              |

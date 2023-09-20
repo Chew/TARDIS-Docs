@@ -31,7 +31,7 @@ const sidebars = {
   docs: [
     {
       type: 'html',
-      value: '<span id="sidebar-tardis"></span>',
+      value: '<a href="/"><span id="sidebar-tardis"></span></a>',
       defaultStyle: true,
     },
     'index',
