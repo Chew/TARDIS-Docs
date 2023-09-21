@@ -1,17 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {parse} from "yaml";
 
-function HandleRow({ymlKey, value} : {ymlKey: string, value: any}) {
-    return (
-        <>
-            <tr>
-                <td><code>{ymlKey}</code></td>
-                <td>{value}</td>
-            </tr>
-        </>
-    )
-}
- 
 export default function Walls() {
 
     // get the blocks file and parse it
@@ -28,7 +17,6 @@ export default function Walls() {
             .then((result) => {
                 setData(result);
                 setIsLoaded(true);
-                console.log("let's retrieve the data", result);
                 },
                 // Note: it's important to handle errors here
                 // instead of a catch() block so that we don't swallow
@@ -60,7 +48,7 @@ export default function Walls() {
             <pre>
                 <code>
                     {Object.values(blocks).map((block, index) => {
-                        return block+"\n"
+                        return block + "\n"
                     })}
                 </code>
             </pre>

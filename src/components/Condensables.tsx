@@ -28,7 +28,6 @@ export default function Condensables() {
             .then((result) => {
                 setData(result);
                 setIsLoaded(true);
-                console.log("let's retrieve the data", result);
                 },
                 // Note: it's important to handle errors here
                 // instead of a catch() block so that we don't swallow
