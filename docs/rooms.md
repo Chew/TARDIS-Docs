@@ -7,22 +7,22 @@ title: Rooms
 
 :::caution
 
-This feature has changed significantly as of TARDIS version 2.6-beta-1! It requires:
+This feature requires a special world called _TARDIS\_TimeVortex_ — Created by default for new plugin installs. To learn how to set this up visit the [Time Vortex](time-vortex)
+  page.
 
-- `create_worlds: true` in the config, and a multi-world plugin
+OR (not recommended) `create_worlds: true` in the config.
 
-OR
-
-- a special world called _TARDIS\_TimeVortex_ — to learn how to set this up visit the [Time Vortex](time-vortex)
-  page
-  
 :::
 
 [Visit the room gallery](room-gallery)
 
 ## Growing rooms
 
-As of TARDIS v2.6 it is **recommended** that you use the [Architectural Reconfiguration System](ars) to grow rooms.
+:::tip tl;dr
+
+It is **recommended** that you use the [Architectural Reconfiguration System](ars) to grow rooms.
+
+:::
 
 You can create rooms in your TARDIS. Each room costs a varying amount of Artron Energy. All rooms and the main TARDIS
 console have automatic piston doors. **If your TARDIS doesn’t have these:**
@@ -48,39 +48,42 @@ Use the command:
 
 and follow the instructions. The room types and their corresponding seed blocks are as follows:
 
-    Aquarium - TUBE_CORAL_BLOCK
-    Arboretum - OAK_LEAVES
-    Baker - END_STONE
-    Bedroom - GLOWSTONE
-    Birdcage - YELLOW_GLAZED_TERRACOTTA
-    Empty - GLASS
-    Eye of Harmony - STONE_BRICK_STAIRS
-    Farm - DIRT
-    Gravity Well - MOSSY_COBBLESTONE
-    Anti-Gravity Well - SANDSTONE
-    Greenhouse - MELON
-    Hutch - ACACIA_LOG
-    Igloo - PACKED_ICE
-    Kitchen - PUMPKIN
-    Lazarus - FURNACE
-    Library - ENCHANTING_TABLE
-    Mushroom - GRAVEL
-    Passage - CLAY
-    Pool - SNOW_BLOCK
-    Rail - HOPPER
-    Renderer - TERRACOTTA
-    Secondary Console - END_STONE/OAK_PLANKS (for Baker/Wood consoles, respectively)
-    Shell - DEAD_BRAIN_CORAL_BLOCK
-    Smelter - CHEST
-    Stable - HAY_BLOCK
-    Stall - NETHER_WART_BLOCK
-    Surgery - RED_CONCRETE
-    Trenzalore - BRICKS
-    Vault - DISPENSER
-    Village - OAK_LOG
-    Wood - OAK_PLANKS
-    Workshop - RED_NETHER_BRICKS
-    Zero Room - N/A
+| Room | Seed block |
+| ---- | ---------- |
+| Aquarium | TUBE_CORAL_BLOCK |
+| Arboretum | OAK_LEAVES |
+| Baker | END_STONE |
+| Bedroom | GLOWSTONE |
+| Birdcage | YELLOW_GLAZED_TERRACOTTA |
+| Empty | GLASS |
+| Eye of Harmony | STONE_BRICK_STAIRS |
+| Farm | DIRT |
+| Gravity Well | MOSSY_COBBLESTONE |
+| Anti-Gravity Well | SANDSTONE |
+| Greenhouse | MELON |
+| Hutch | ACACIA_LOG |
+| Igloo | PACKED_ICE |
+| Kitchen | PUMPKIN |
+| Lazarus | FURNACE |
+| Library | ENCHANTING_TABLE |
+| Mushroom | GRAVEL |
+| Passage | CLAY |
+| Pool | SNOW_BLOCK |
+| Rail | HOPPER |
+| Renderer | TERRACOTTA |
+| Secondary Console Baker | END_STONE |
+| Secondary Console Wood | OAK_PLANKS |
+| Shell | DEAD_BRAIN_CORAL_BLOCK |
+| Smelter | CHEST |
+| Stable | HAY_BLOCK |
+| Stall | NETHER_WART_BLOCK |
+| Surgery | RED_CONCRETE |
+| Trenzalore | BRICKS |
+| Vault | DISPENSER |
+| Village | OAK_LOG |
+| Wood | OAK_PLANKS |
+| Workshop | RED_NETHER_BRICKS |
+| Zero Room | N/A |
 
 :::info
 
@@ -148,7 +151,7 @@ Visit the [gravity wells page](gravity-wells) for more specific information.
 
 ## Vault room
 
-As of TARDIS v3.1-beta-1 the Vault room will automatically sort items into the chests contained within it.
+The Vault room will automatically sort items into the chests contained within it.
 
 For more information see: [Vault room](vault)
 

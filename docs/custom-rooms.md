@@ -42,7 +42,7 @@ Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks
 
     /tardisroom required [room name]
 
-## Tips
+:::tip Tips
 
 - A room template with the correct door circuits is supplied with the plugin. You can load and paste it into a world
 - with the `/tardisschematic` command and then modify it as needed.
@@ -62,12 +62,14 @@ Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks
 - Rooms are grown from the bottom to top so keep that in mind when designing the room — you can’t place levers upside
   down for example as there will be no block for them to stick to and they will just fall into the void
 
+:::
+
 ## Video
 
 :::caution
 
 This video is very outdated! The plugin no longer uses WorldEdit schematics and rooms should be grown with
-ARS.
+[ARS](ars).
 The video shows also the custom room schematic being put into the _schematics_ folder, but it should now be put into the
 _user\_schematics_ folder.
 

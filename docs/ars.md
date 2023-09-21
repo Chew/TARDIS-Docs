@@ -21,7 +21,7 @@ inside this size (except the GRAVITY and ANTIGRAVITY wells which take up two slo
 - You cannot manually grow a room inside the ARS cuboid region with the
   `/tardis room` command.
 
-### The Architectural Reconfiguration System GUI
+## The Architectural Reconfiguration System GUI
 
 To use the ARS, open the TARDIS Control Menu GUI or add an ARS GUI sign. To manually add one (or update its location):
 
@@ -48,7 +48,7 @@ display lore that tells you the block’s function. Below is a breakdown of the 
    determined by the seed block for the room.
 9. The pink wool block closes the ARS GUI and starts processing your settings.
 
-### Using the Architectural Reconfiguration System
+## Using the Architectural Reconfiguration System
 
 Folow these steps to use the ARS:
 

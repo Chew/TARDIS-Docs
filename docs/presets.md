@@ -3,6 +3,9 @@ layout: default
 title: Chameleon Presets
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Chameleon Presets
 
 Chameleon Presets can be selected and applied in the [Chameleon Circuit](chameleon-circuit) GUI. There are 64
@@ -17,9 +20,33 @@ You can view those on the [Adaptive Presets page](adaptive-presets).
 These presets use regular Minecraft blocks. When materialising they cycle through stained glass and regular glass for
 their animation.
 
+<Tabs queryString="stained">
+
+<TabItem value="vanilla" label="vanilla" default>
+
 ![Stained glass materialisation preset](/images/presets/stained_block.jpg)
 
+</TabItem>
+<TabItem value="tardis" label="tardis">
+
+![Stained glass materialisation preset](/images/presets/stained_block.jpg)
+
+</TabItem>
+</Tabs>
+
+<Tabs queryString="glass">
+
+<TabItem value="vanilla" label="vanilla" default>
+
 ![Glass materialisation preset](/images/presets/glass_block.jpg)
+
+</TabItem>
+<TabItem value="tardis" label="tardis">
+
+![Glass materialisation preset](/images/presets/glass_block.jpg)
+
+</TabItem>
+</Tabs>
 
 ![presets gui](/images/chameleon/presets_gui_1.jpg)
 

@@ -69,14 +69,6 @@ can use for each:
 
 :::
 
-:::caution
-
-If `create_worlds` is false in the TARDIS configuration file and you are using a TARDIS version prior to
-v2.7-beta-1, the plugin only reserves and protects the initial chunks used to create the TARDIS in, which means that
-another player could potentially create a TARDIS that overlaps yours if you make it bigger.
-
-:::
-
 See also: [Binding destinations to blocks](commands/bind)
 
 ## Changing room wall and floor blocks
@@ -92,5 +84,8 @@ You can change the blocks that room walls and floors are grown with in two ways:
   [Wall materials](walls) page
 - Set the floor block using the `/tardisprefs floor [material]` command. A list of valid materials can be found on the
   [Wall materials](walls) page
+  
+The next time you grow a room, your wall/floor preference will take effect, for more information see the [Rooms](rooms#changing-the-room-wall-block) page.
+If you want to change the existing wall/floor block in your TARDIS console, use the [Desktop Theme GUI](desktop-theme).
 
 ![Sandstone walls](/images/docs/sandstonewalls.jpg)
