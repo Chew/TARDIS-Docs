@@ -3,7 +3,7 @@ layout: default
 title: Desktop Theme
 ---
 
-import ConfigTable from "../src/components/ConfigTable";
+import ConfigTable from "@site/src/components/ConfigTable";
 
 # Desktop Theme
 
@@ -18,7 +18,7 @@ with the `just_wall_floor: [percent]` option in _artron.yml_.
 
 The speed at which the change happens is linked to the `growth.room_speed` config option.
 
-### Opening the desktop theme GUI
+## Opening the desktop theme GUI
 
 You can open the desktop theme GUI from the [TARDIS Control Menu](control-menu), with a command, or by **right-shift-clicking the ARS sign**.
 
@@ -32,7 +32,7 @@ To open the desktop theme GUI using a command type one of the following:
 
 ![TARDIS Upgrade Menu](/images/docs/desktop_theme_gui.jpg)
 
-### How it works
+## How it works
 
 1. Run the command, or right-shift-click the ARS sign to open the GUI.
 2. When the GUI opens — select the TARDIS you want to change to — this can be the same type as you currently have if you
@@ -48,7 +48,7 @@ To open the desktop theme GUI using a command type one of the following:
 
 ![TARDIS Wall Menu](/images/docs/wall_menu.jpg)
 
-### Archiving, repairing and cleaning
+## Archiving, repairing and cleaning
 
 THe TARDIS Upgrade GUI also contains three other buttons to aid keeping your console in tip-top shape.
 
@@ -58,7 +58,7 @@ THe TARDIS Upgrade GUI also contains three other buttons to aid keeping your con
 | Repair     | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/repair.png)  | Use this to repair a damaged console. It resets the console back to the original console schematic. Players must condense all missing blocks - unless the `/tardisadmin repair [player] [amount]` command has been run, assigning the player a 'free' repair(s) |
 | Clean      | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/clean.png)   | Use this to remove any blocks in the console that are not in the original schematic (missing blocks will not be restored) - good if someone has griefed your interior by filling it with cobwebs.                                                               |
 
-### Config options
+## Config options
 
 ```yaml title="/plugins/TARDIS/config.yml"
 desktop:
