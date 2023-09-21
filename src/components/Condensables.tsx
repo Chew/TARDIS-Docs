@@ -24,23 +24,13 @@ export default function Condensables() {
     })
     .then(function (response) {
         const data = response.data
-        // prints 'string'
-        console.log('data type = ' + typeof data)
-        // works - console shows data
-        console.log(data)
         const conds = parse(data)
-        // works - console shows data is parsed
-        console.log(conds)
-
-        // now we must build the table!
-        // doesn't work - 'head is not defined' error
+        // make a table
         return (
             <>
                 <div className="table-responsive">
                     <table className="table table-striped table-bordered">
-                        {head}
                         <tbody>
-                            {command}
                             <tr>
                                 <th>Item</th>
                                 <th>Relative value</th>
