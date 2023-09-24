@@ -30,7 +30,6 @@ const redirects = {
     '/dev-commands': '/commands/dev',
     '/give-commands': '/commands/give',
     '/misc-commands': '/commands/misc',
-    '/other-commands': '/commands/other',
     '/recipe-commands': '/commands/recipe',
     '/remote-commands': '/commands/remote',
     '/player-preferences': '/commands/player-preferences',
