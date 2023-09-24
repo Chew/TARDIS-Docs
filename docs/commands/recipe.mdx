@@ -3,18 +3,40 @@ layout: default
 title: Recipe Command
 ---
 
+import CommandTable from "@site/src/components/CommandTable";
+
 # The Recipe command
 
 Don’t know the recipe for a TARDIS item? Use the recipe command!
 
-    /tardisrecipe [item]
+## /tardisrecipe
+
+<CommandTable data={
+    `tardisrecipe:
+    aliases: trecipe
+    description: View TARDIS item recipes.
+    permission: tardis.help
+    permission-message: You don't have the permission <permission> to use this command
+    usage: /<command> [item|list]
+    `
+}
+args={
+    `
+    list:
+      description: Lists all TARDIS recipe items.
+      usage: /<command> list
+    `
+}
+cmd='tardisrecipe'
+extra='false'
+>
+</CommandTable>
 
 This command works the same way as the Essentials plugin `/recipe` command.
 
 ## Recipe command reference
 
-Listed below is a selection of TARDIS items that you can craft. You can use the `/tardisrecipe list` command to see a
-categorised list of all items.
+Listed below is a selection of TARDIS items that you can craft. You can use the `/tardisrecipe list` command to see a categorised list of all items.
 
 :::tip
 

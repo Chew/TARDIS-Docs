@@ -1,0 +1,139 @@
+---
+layout: default
+title: Admin Commands
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# Admin Commands
+
+This page contains all `/tardisadmin` sub-commands. Every command requires the `tardis.admin` permission node.
+
+## `/tardisadmin`
+
+<CommandTable data={
+`tardisadmin:
+    aliases: tadmin
+    description: Perform TARDIS administration tasks.
+    permission: tardis.admin
+    usage: /<command> [sub command] [options...]
+    `
+}
+args={
+    `
+    arch:
+      description: View an ‘arched’ player’s real name, or with the \`force\` argument, toggle arch status. _See also the [Chameleon Arch](chameleon-arch) page._
+      usage: /<command> arch [player] <force>
+    assemble:
+      description: Clear HADS dispersal trackers or list dispersed TARDISes.
+      usage: /<command> assemble [clear|list]
+    chunks:
+      description: List chunks that are being kept loaded by TARDIS.
+      usage: /<command> chunks
+    condenser:
+      description: Set the chest you are targeting in game, as the server’s community Artron Condenser - see [Server condenser](../condenser#server-condenser).
+      usage: /<command> condenser
+    convert_database:
+      description: Convert an SQLite database to MySQL.
+      usage: /<command> convert_database
+    create:
+      description: Create a TARDIS for a player. The TARDIS exterior will appear on the block that the command sender is targeting.
+      usage: /<command> create [player] [schematic] <wall> <floor>
+    decharge:
+      description: Remove the specified beacon recharger from the config.
+      usage: /<command> decharge [name]
+    delete:
+      description: Delete a player’s TARDIS.
+      usage: /<command> delete [player]
+    disguise:
+      description: Disguise a player as the specified entity type.
+      usage: /<command> disguise [player] [entity type]    
+    dispersed:
+      description: Clear the dispersed status of all TARDISes, or list which TARDISes are currently dispersed by HADS.
+      usage: /<command> dispersed [clear|list]
+    enter:
+      description: Enter a player’s TARDIS (by direct teleport instead of the door).
+      permission: tardis.skeletonkey
+      usage: /<command> enter [player]
+    find:
+      description: Searches for hidden TARDISs or empty blocks with TARDIS protection on them around a player’s location with an optional distance parameter. If protected blocks are found, click the listing in chat to remove the protection.
+      usage: /<command> find [distance]
+    list:
+      description: List TARDISs and their locations (or save them to file), plus list open portals / abandoned TARDISes.
+      usage: /<command> list [page no.|save|portals|abandoned]
+    make_preset:
+      description: Create a custom chameleon preset file - see [Custom presets](custom-preset).
+      usage: /<command> make_preset [name] [asymmetric:true|false]
+    maze:
+      description: Create a 11 x 11 block maze starting at the targeted block.
+      usage: /<command> maze
+    mvimport:
+      description: Import Multiverse worlds into TARDIS's _planets.yml_.
+      usage: /<command> mvimport
+    playercount:
+      description: Check or set a player’s TARDIS count.
+      usage: /<command> playercount [player] <count>
+    prune:
+      description: Remove TARDISes that haven’t been used for an extended period.
+        See the [Prune](prune) page for more details.
+      usage: /<command> prune [number of days]
+    prunelist:
+      description: List TARDISes that haven’t been used for an extended period.
+      usage: /<command> prunelist [number of days]
+    purge:
+      description: Remove all database entries for the named player.
+      usage: /<command> purge [player]
+    purge_portals:
+      description: Clear all data associated with walking into the TARDIS (they’ll still work, just toggle open the door again)
+      usage: /<command> purge_portals
+    recharger:
+      description: Set the beacon block you are looking at, as a TARDIS recharge station.
+      usage: /<command> recharger [name]
+    region_flag:
+      description: >
+        Sets the WorldGuard entry or exit flags for all regions in the TARDIS \`default_world\`. See info below.
+      usage: /<command> region_flag [entry|exit]
+    repair:
+      description: Set a player’s TARDIS repair count.
+      usage: /<command> repair [player] [amount]
+    revoke:
+      description: Remove a blueprint permission from a player.
+      usage: /<command> revoke [player] [permission]
+    set_size:
+      description: Set a player’s console size/type in the database.
+      usage: /<command> set_size [player] [size]
+    spwan_abandoned:
+      description: Spawn an abandoned TARDIS - see [Spawning abandoned TARDISes](abandon#spawning-abandoned-tardises).
+      usage: /<command> spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
+    undisguise:
+      description: Remove a disguise from a player.
+      usage: /<command> undisguise [player]
+    update_plugins:
+      description: Download the latest TARDIS plugin from the Jenkins server. Restart the server to update the plugin.
+      usage: /<command> update_plugins
+    `
+}
+cmd='tardisadmin'
+extra='false'
+>
+</CommandTable>
+
+:::info
+
+The actual commands run for `/tardisadmin region_flag entry` are:
+
+```
+/rg flag [region_id] exit -w [world_name]
+/rg flag [region_id] entry -w [world_name] -g nonmembers deny
+```
+
+And `/tardisadmin region_flag exit`:
+
+```
+/rg flag [region_id] entry -w [world_name]
+/rg flag [region_id] exit -w [world_name] -g everyone deny
+/rg flag [region_id] use -w [world_name] allow
+/rg flag [region_id] chest-access -w [world_name]
+```
+
+:::

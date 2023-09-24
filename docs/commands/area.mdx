@@ -1,0 +1,110 @@
+---
+layout: default
+title: Area Commands
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# TARDIS Area Commands
+
+All commands in this section require the `tardis.admin` permission node.
+
+## `/tardisarea`
+
+<CommandTable data={
+    `tardisarea:
+    aliases: tarea
+    description: Set up predefined TARDIS travel areas.
+    permission: tardis.admin
+    usage: /<command> [subcommand] [options...]
+    `
+}
+args={
+    `
+    start:
+      description: Start defining a TARDIS area.
+      usage: /<command> start [name]
+    end:
+      description: Finish defining a TARDIS area.
+      usage: /<command> end
+    show:
+      description: Show the corners of a TARDIS area.
+      usage: /<command> show [name]
+    remove:
+      description: Remove a TARDIS area.
+      usage: /<command> remove [name]
+    parking:
+      description: Set a TARDIS area's parking space.
+      usage: /<command> parking [name] [number of blocks between]
+    yard:
+      description: Visually mark the area with parking spots - _see below for details_.
+      usage: /<command> yard [name] [material] [material]
+    invisibility:
+      description: Set whether a TARDIS area allows invisible landings, where \`ALLOW\` will allow invisible TARDISes, \`DENY\` will prevent invisible TARDISes from landing, and \`preset\` force a TARDIS to use the specified Chameleon preset when landing in this area.
+      usage: /<command> invisibility [name] [ALLOW|DENY|PRESET]
+    direction:
+      description: Set the direction TARDIS's will face when landing in the specified area. Setting to NONE doesn't enforce a direction.
+      usage: /<command> direction [name] [NORTH|SOUTH|EAST|WEST|NONE]
+    create:
+      description: Create an empty area, ready to be filled with admin defined, semi-random landing locations.
+      usage: /<command> create [name]
+    add:
+      description: Add an admin defined, semi-random landing location to the specified area at the player's current location.
+      usage: /<command> add [name]
+    `
+}
+cmd='tardisarea'
+extra='false'
+>
+
+</CommandTable>
+
+### Yards
+
+`/tardisarea yard [name] [material] [material]` - type this to visually mark the
+area with parking spots, where:
+
+- `[name]` is the area name that you want to change
+- the first `[material]` is the block you want to use as the floor of the area
+  — defaults to COBBLESTONE if not specified
+- the second `[material]` is the block you want to use to mark the parking spot
+  — defaults to BRICK if not specified
+
+![TARDIS parking yard](/images/docs/yard.jpg)
+
+## Semi-random parking areas
+
+You can set up an area where parking spaces are assigned manually instead of in a grid-like fashion,
+for example like in the image below, where each red cross is a parking spot.
+
+![semi random area](/images/docs/semi-random-area.jpg)
+
+To create a non-grid type area, type:
+
+`tardisarea create [name]`
+
+To assign parking spots to the area, stand at the location you want a TARDIS to park and use the command:
+
+`tardisarea add [name]` - where `name` is the area the parking spot should belong to.
+
+To edit parking spots in a non-grid area, use the command:
+
+`tardisarea edit [name]` - where `name` is the area to edit.
+
+A chest GUI will open, allowing you to remove existing parking spots, or add the location where you are currently
+standing.
+
+![area edit gui](/images/docs/area-edit-gui.jpg)
+
+![area edit gui info](/images/docs/area-edit-gui-info.jpg)
+
+### Video
+
+:::note
+
+The command in the video has changed in since this video was made!
+Use the commands above.
+
+:::
+
+<iframe src="https://player.vimeo.com/video/52724961" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

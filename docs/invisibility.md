@@ -13,9 +13,14 @@ function as normal so that the Time Lord and their companions can still enter an
 
 ![Invisiblity preset](/images/docs/invisible_preset.jpg)
 
-If `circuits.damage` is set to true in the TARDIS config, then the Invisibilty circuit is damaged with each use.  
-**Warning:** Clicking the Invisibility button in the Chameleon presets GUI will damage the circuit, whether you use
+If `circuits.damage` is set to `true` in the TARDIS config, then the Invisibilty circuit is damaged with each use.
+
+:::caution
+
+Clicking the Invisibility button in the Chameleon presets GUI will damage the circuit, whether you use
 invisibility or not!
+
+:::
 
 ### Recipe
 

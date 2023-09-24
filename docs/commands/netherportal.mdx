@@ -3,13 +3,36 @@ layout: default
 title: Nether Portal Command
 ---
 
+import CommandTable from "@site/src/components/CommandTable";
+
 # The Nether Portal Command
 
 This command lets you get the coordinates for accurately linking Nether Portals.
 
-    /tardisnetherportal
+## /tardisnetherportal
 
-There are some shorter aliases to the command: `/tnp` and `/tnetherportal`
+<CommandTable data={
+`tardisnetherportal:
+    aliases: [ tnetherportal, tnp ]
+    description: Get coordinates for linking Nether Portals.
+    permission: tardis.help
+    usage: /<command> <[x] [y] [z] [overworld|nether]>
+    `
+}
+args={
+    `
+    [coords]:
+      description: Specify the __coordinates__ of the portal you are currently standing in.
+      usage: /<command> <[x] [y] [z] [overworld|nether]>  
+    [environment]:
+      description: Specify the __location__ of the portal you are currently standing in.
+      usage: /<command> <[x] [y] [z] [overworld|nether]>  
+    `
+}
+cmd='tardisnetherportal'
+extra='false'
+>
+</CommandTable>
 
 To use the command to link portals:
 

@@ -1,0 +1,56 @@
+---
+layout: default
+title: Room Command
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# Room Commands
+
+Commands to add and configure TARDIS rooms.
+
+## `/tardisroom`
+
+<CommandTable data={
+`tardisroom:
+    aliases: troom
+    description: Set TARDIS room configuration options, and add new rooms.
+    permission: tardis.create
+    usage: /<command> [subcommand] [options...]
+    `
+}
+args={
+    `
+    add:
+      description: Add a new custom room schematic.
+      permission: tardis.admin
+      usage: /<command> add [schematic name]
+    blocks:
+      description: List the blocks needed to grow a room. If a room name is given, the block list will be shown in the chat/console. If \`save\` is specified, a text file is created the the _plugins/TARDIS/_ folder for each room that is enabled on the server.
+      usage: /<command> blocks [room name|save]
+    cost:
+      description: Set the cost of a custom room.
+      permission: tardis.admin
+      usage: /<command> add [schematic name]
+    enabled:
+      description: Set the custom room as active/inactive.
+      permission: tardis.admin
+      usage: /<command> [schematic name] [true|false]
+    offset:
+      description: Set the offset of a custom room.
+      permission: tardis.admin
+      usage: /<command> [schematic name] [negative amount]
+    required:
+      description: List the blocks needed to grow a room.
+      usage: /<command> required [room name]
+    seed:
+      description: Set the seed block of a custom room.
+      permission: tardis.admin
+      usage: /<command> [schematic name] [material]
+    `
+}
+cmd='tardisroom'
+extra='false'
+>
+</CommandTable>
+

@@ -1,0 +1,28 @@
+commands:
+  tardisadmin:
+    add:
+      description: Add a new custom room schematic.
+      permission: tardis.admin
+      usage: /<command> add [schematic name]
+    blocks:
+      description: List the blocks needed to grow a room.
+      usage: /<command> blocks [room name|save]
+    cost:
+      description: Set the cost of a custom room.
+      permission: tardis.admin
+      usage: /<command> add [schematic name]
+    enabled:
+      description: Set the custom room as active/inactive.
+      permission: tardis.admin
+      usage: /<command> [schematic name] [true|false]
+    offset:
+      description: Set the offset of a custom room.
+      permission: tardis.admin
+      usage: /<command> [schematic name] [negative amount]
+    required:
+      description: List the blocks needed to grow a room.
+      usage: /<command> required [room name]
+    seed:
+      description: Set the seed block of a custom room.
+      permission: tardis.admin
+      usage: /<command> [schematic name] [material]

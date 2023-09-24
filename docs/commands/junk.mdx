@@ -1,0 +1,50 @@
+---
+layout: default
+title: Junk Console Command
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# Junk Console Commands
+
+Commands related to the Junk TARDIS.
+
+## `/tardisjunk`
+
+<CommandTable data={
+`tardisjunk:
+    aliases: tjunk
+    description: Create, find, return and delete the Junk TARDIS.
+    permission: tardis.junk
+    usage: /<command> [create|find|time|return|delete]
+    `
+}
+args={
+    `
+    create:
+      description: Create a Junk TARDIS.
+      permission: tardis.admin
+      usage: /<command> create
+    find:
+      description: Find the current location of the Junk TARDIS.
+      permission: tardis.junk
+      usage: /<command> find
+    time:
+      description: Find out the time before the Junk TARDIS automatically returns home.
+      permission: tardis.junk
+      usage: /<command> time
+    return:
+      description: Return the Junk TARDIS to its home location.
+      permission: tardis.admin
+      usage: /<command> return
+    delete:
+      description: Delete the Junk TARDIS.
+      permission: tardis.admin
+      usage: /<command> delete
+    `
+}
+cmd='tardisjunk'
+extra='false'
+>
+</CommandTable>
+

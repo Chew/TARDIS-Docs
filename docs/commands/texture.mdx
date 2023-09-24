@@ -3,12 +3,45 @@ layout: default
 title: Texture Command
 ---
 
+import CommandTable from "@site/src/components/CommandTable";
+
 # The Texture command
 
 In order to use this feature, _Server Resource Packs_ must be accepted on the Minecraft client when connecting to the server.
 Enable `Server Resource Packs: Prompt` or `Server Resource Packs: Enabled` in the **Edit Server Info** settings.
 
 ![TARDIS](/images/docs/servertextureson.jpg)
+
+## /tardistexture
+
+<CommandTable data={
+`tardistexture:
+    aliases: ttexture
+    description: Set texture pack preferences.
+    permission: tardis.texture
+    usage: /<command> [on|off|in|out] <url]>
+    `
+}
+args={
+    `
+    'on':
+      description: Turns resource pack switching on.
+      usage: /<command> on
+    'off':
+      description: Turns resource pack switching off.
+      usage: /<command> off
+    in:
+      description: Set the resource pack that is switched to inside the TARDIS.
+      usage: /<command> in [url]
+    out:
+      description: Set the resource pack that is switched to in the outside world.
+      usage: /<command> out [url]
+    `
+}
+cmd='tardistexture'
+extra='false'
+>
+</CommandTable>
 
 ## Setting texture packs
 
@@ -23,12 +56,6 @@ e.g.: https://dl.dropboxusercontent.com/s/utka3zxmer7f19g/Default.zip
 To reset the outside texture pack back to the Minecraft default:
 
     /tardistexture out default
-
-## Enabling and disabling
-
-To turn resource pack switching on and off use the command:
-
-    /tardistexture [on|off]
 
 ## Video
 

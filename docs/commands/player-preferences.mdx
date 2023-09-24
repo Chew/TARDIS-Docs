@@ -1,0 +1,291 @@
+---
+layout: default
+title: Player Preferences
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+import {siteVariables} from '@site/src/version';
+
+# Player Preferences
+
+There are a number of specific player preferences that you can change:
+
+- TARDIS key
+- Sound effects
+- Who quotes
+- Wall material
+- Floor material
+- Siege Wall material
+- Siege Floor material
+- Isomorphic controls
+- Autonomous homing function
+- HADS
+- Emergency Program One
+- Police Box sign (not available in TARDIS v2.6 to v2.8)
+- Police Box lamp (only available if the TARDIS preset is a Police Box)
+- Beacon
+- Do Not Disturb (DND)
+- Build flag
+- Minecart sounds
+- Exterior Rendering Room
+- Travel Bar
+- Difficulty
+- Farming
+- Junk Mode
+- Interior hum sound effects
+- Announce repeater settings
+
+Each preference can be set with a command, and some of them can be set via an inventory based GUI (if the player has a
+Sonic Screwdriver, sneaking and right-clicking air will open the Player Preferences GUI).
+
+![Player prefs GUI](/images/docs/player_prefs_custom.jpg)
+
+## Player preference commands
+
+## `/tardisprefs`
+
+<CommandTable data={
+    `tardisprefs:
+    aliases: tprefs
+    description: Set player preferences.
+    permission: tardis.timetravel
+    usage: /<command> [preference] [on|off]
+    `
+}
+args={
+    `
+    announce_repeaters:
+      description: Toggle announcing (i.e. showing a title in-game) of the TARDIS console travel repeater settings when you click them
+      usage: /<command> announce_repeaters [on|off]
+      permission: tardis.prefs.announce_repeaters
+    auto:
+      description: Toggle the TARDIS Autonomous Homing feature on and off. If the server admin has disabled the autonomous homing function in the plugin config, this command will have no effect. See the [Autonomous homing function](autonomous) page for more information.
+      permission: tardis.prefs.auto
+      usage: /<command> auto [on|off]
+    auto_powerup:
+      description: Toggle automatic powerup on and off (when entering the TARDIS).
+      permission: tardis.prefs.auto_powerup
+      usage: /<command> auto_powerup [on|off]
+    auto_siege:
+      description: Toggle automatic Siege Mode on and off (when the Time Lord dies).
+      permission: tardis.prefs.auto_siege
+      usage: /<command> submarine [on|off]
+    beacon:
+      description: Toggle whether the TARDIS beacon is only on while travelling.
+      permission: tardis.prefs.beacon
+      usage: /<command> beacon [on|off]
+    build:
+      description: Toggle companion building inside the TARDIS on and off.
+      permission: tardis.prefs.build
+      usage: /<command> build [on|off]
+    chameleon:
+      description: Toggle the chameleon circuit on and off.
+      permission: tardis.prefs.chameleon
+      usage: /<command> chameleon [on|off]
+    difficulty:
+      description: Change your personal difficulty level.
+      permission: tardis.prefs.difficulty
+      usage: /<command> difficulty [easy|medium|hard]
+    dnd:
+      description: Annoyed by other players time travelling to your location?Toggle whether other players can request travel/rescue to you.
+      permission: tardis.prefs.dnd
+      usage: /<command> dnd [on|off]
+    eps:
+      description: Toggle Emergency Programme One on and off.
+      permission: tardis.prefs.eps
+      usage: /<command> eps [on|off]
+    eps_message:
+      description: Set the Emergency Programme One message.
+      permission: tardis.prefs.eps_message
+      usage: /<command> eps_message [message]
+    farm:
+      description: Toggle mob farming on and off. Requires the appropriate room, or \`allow.spawn_eggs\` set to \`true\` in the TARDIS config.
+      permission: tardis.prefs.farm
+      usage: /<command> farm [on|off]
+    flight:
+      description: Set the TARDIS flight mode.
+      permission: tardis.prefs.flight
+      usage: /<command> flight [normal|regulator|manual]
+    floor:
+      description: Set the TARDIS room growing floor material. \`[material]\` is a block from the list on the [Wall materials](../walls) page.
+      permission: tardis.prefs.floor
+      usage: /<command> floor [material]
+    forcefield:
+      description: Toggle the TARDIS forcefield on and off.
+      permission: tardis.prefs.forcefield
+      usage: /<command> forcefield [on|off]
+    hads:
+      description: Toggle HADS on and off.
+      permission: tardis.prefs.hads
+      usage: /<command> hads [on|off]
+    hads_type:
+      description: Set the TARDIS HADS type.
+      permission: tardis.prefs.hads_type
+      usage: /<command> hads_type [dispersal|displacement]
+    hum:
+      description: Sets the TARDIS interior hum sound. The sounds are called  \`alien\`, \`atmosphere\`, \`computer\`, \`copper\`, \`coral\`, \`galaxy\`, \`learning\`, \`mind\`, \`neon\`, \`sleeping\`, \`void\`, \`random\`
+      permission: tardis.prefs.hum
+      usage: /<command> hum [sound]
+    isomorphic:
+      description: Toggle isomorphic controls on and off.
+      permission: tardis.prefs.isomorphic
+      usage: /<command> isomorphic [on|off]
+    junk:
+      description: Toggle Junk mode on and off.
+      permission: tardis.prefs.junk
+      usage: /<command> junk [on|off]
+    key:
+      description: Set the TARDIS key item. The server admin may have restricted the list of items that may be used for the TARDIS Key. Use auto-completion to see a list of available items e.g. type \`/tardisprefs key\` then press the TAB key.
+      permission: tardis.prefs.key
+      usage: /<command> key [material]
+    key_menu:
+      description: Open the TARDIS Key preferences GUI.
+      permission: tardis.prefs.key_menu
+      usage: /<command> key_menu
+    language:
+      description: Set the language used in the '/tardis say' command.
+      permission: tardis.prefs.language
+      usage: /<command> language [language]
+    lanterns:
+      description: Toggle Sea Lanterns for lights on and off.
+      permission: tardis.prefs.lanterns
+      usage: /<command> lanterns [on|off]
+    message:
+      description: Set the Emergency Programme One message.
+      permission: tardis.prefs.message
+      usage: /<command> eps_message [message]
+    minecart:
+      description: Toggle default Minecraft SFX on and off. If the server admin has disabled sound effects in the plugin config, this command will have no effect.
+      permission: tardis.prefs.minecart
+      usage: /<command> minecart [on|off]
+    quotes:
+      description: Toggle the TARDIS quotes on and off.
+      permission: tardis.prefs.quotes
+      usage: /<command> quotes [on|off]
+    renderer:
+      description: Toggle entering the Renderer room after scanning on and off.
+      permission: tardis.prefs.renderer
+      usage: /<command> renderer [on|off]
+    sfx:
+      description: Toggle the TARDIS sound effects on and off. If the server admin has disabled sound effects in the plugin config, this command will have no effect.
+      permission: tardis.prefs.sfx
+      usage: /<command> sfx [on|off]
+    siege_floor:
+      description: Set the block used for the TARDIS floor when Siege Mode is engaged, where \`[material]\` is a block from the list on the [Wall materials](../walls) page. This setting has no effect if \`siege.textures\` is \` false\` is set in the config.
+      permission: tardis.prefs.siege_floor
+      usage: /<command> siege_floor [block type]
+    siege_wall:
+      description: Set the block used for the TARDIS walls when Siege Mode is engaged, where \`[material]\` is a block from the list on the [Wall materials](../walls) page. This setting has no effect if \`siege.textures\` is \` false\` is set in the config.
+      permission: tardis.prefs.siege_wall
+      usage: /<command> siege_wall [block type]
+    sign:
+      description: Toggle the Police Box 'name' sign on and off.
+      permission: tardis.prefs.sign
+      usage: /<command> sign [on|off]
+    sonic:
+      description: Open the Sonic Screwdriver preferences GUI.
+      permission: tardis.prefs.sonic
+      usage: /<command> sonic
+    submarine:
+      description: Toggle submarine landings on and off.
+      permission: tardis.prefs.submarine
+      usage: /<command> submarine [on|off]
+    translate:
+      description: Set the languages and player used when auto translating messages.
+      permission: tardis.prefs.translate
+      usage: /<command> translate [language to] [language from] [player]
+    travelbar:
+      description: Toggle the travel remaining progress bar on and off.
+      permission: tardis.prefs.travelbar
+      usage: /<command> travelbar [on|off]
+    wall:
+      description: Set the TARDIS room growing wall material. \`[material]\` is a block from the list on the [Wall materials](../walls) page.
+      permission: tardis.prefs.wall
+      usage: /<command> wall [material]
+    `
+}
+cmd='tardisprefs'
+extra='false'
+>
+</CommandTable>
+
+## TARDIS Key GUI
+
+To change the look of your TARDIS Key, type:
+
+    /tardisprefs key_menu
+
+This requires the [TARDIS-Resource-Pack](/resource-packs) to see the
+different key textures. Use the command to open the TARDIS Key GUI.
+
+To change the TARDIS key texture:
+
+- Place your key in the lower left slot and then select the
+  key of your choice
+- To change the colour of the key’s display name, click the wool block to choose a colour
+- Remove your key and close the GUI
+
+![TARDIS Key GUI](/images/docs/key_prefs_menu.jpg)
+
+## Sonic Screwdriver GUI
+
+To change the look of your Sonic Screwdriver, type:
+
+    /tardisprefs sonic
+
+This requires the [TARDIS-Resource-Pack](/resource-packs) to see the
+different sonic textures. Use the command to open the Sonic Screwdriver GUI.
+
+To change the screwdriver texture:
+
+- Place your sonic in the lower left slot and then select the
+  screwdriver of your choice
+- To change the colour of the sonic’s display name, click the wool block to choose a colour
+- Remove your screwdriver and close the GUI
+
+![Sonic Screwdriver GUI](/images/docs/sonic_prefs_menu.jpg)
+
+## @Deprecated
+
+:::caution
+
+<p>These preferences are not available in version <code>{siteVariables.versionNumber}</code> of the plugin.</p>
+
+:::
+
+<CommandTable data={
+    `tardisprefs:
+    aliases: tprefs
+    description: Set player preferences.
+    permission: tardis.timetravel
+    usage: /<command> [preference] [on|off]
+    `
+}
+args={
+    `
+    plain:
+      description: Toggle the plain TARDIS on and off (no sign or lamp).
+      permission: tardis.prefs.plain
+      usage: /<command> plain [on|off]
+    policebox_textures:
+      description: Toggle Police Box textures on and off (biome for CTM is set / not set at the TARDIS' location).
+      permission: tardis.prefs.policebox_textures
+      usage: /<command> policebox_textures [on|off]
+    wool_lights:
+      description: hoose whether to use black wool or sponge (re-textured with the TARDIS Resource Pack to look like Redstone Lamp Off blocks) for the off state of the TARDIS lights.
+      permission: tardis.prefs.wool_lights
+      usage: /<command> wool_lights [on|off]
+    ctm:
+      description: Choose whether your Police Box preset uses the Connected Textures Mod to change the block to the left of the door to a quartz pillar that is retextured to the Police Box sign (players without the mod installed will see a plain quartz pillar instead of the regular blue wool when this is \`on\`).
+      permission: tardis.prefs.ctm
+      usage: /<command> ctm [on|off]
+    lanterns:
+      description: Set whether your TARDIS console uses lanterns or redstone lamps. \`on\` means that the console will use sea lanterns, toggle the lights off and on to see the change.
+      permission: tardis.prefs.lanterns
+      usage: /<command> lanterns [on|off]
+    `
+}
+cmd='tardisprefs'
+extra='true'
+>
+</CommandTable>

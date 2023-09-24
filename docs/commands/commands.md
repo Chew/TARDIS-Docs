@@ -6,14 +6,12 @@ slug: /commands
 
 # Commands
 
-All commands are _case-insensitive_.
-
 You can view descriptions, usage and permissions for all commands in-game using the TARDIS help system.
 Type `/tardis help` to list all the commands, then use `/tardis? [command]` to view all the relevant subcommands.
 Use `/tardis? [command] [subcommand]` when necessary to view the command information.
 
 You can also see a big list of `/tardis` commands here: [Big list of TARDIS sub commands](/commands/tardis-commands-table)
-and a big list of all the other commands here: [Big list of other commands](/commands/other).
+and a big list of other miscellaneous utility commands here: [Miscellaneous commands](/commands/misc).
 
 ### There are lots of commands:
 
@@ -41,7 +39,7 @@ and a big list of all the other commands here: [Big list of other commands](/com
 
 `/tardisarea` - [Set up predefined TARDIS travel areas](commands/area)
 
-`/tardisroom` - [Add custom rooms and view room costs](custom-rooms)
+`/tardisroom` - [Add custom rooms and view room costs](custom-rooms) or [Room Command](commands/room)
 
 `/tardistexture` - [Switch texture packs when entering/exiting the TARDIS](commands/texture)
 
@@ -51,29 +49,11 @@ and a big list of all the other commands here: [Big list of other commands](/com
 
 `/tardisnetherportal` - [Get coordinates for linking Nether Portals](commands/netherportal)
 
-`/tardisjunk` - [Junk TARDIS related commands](junk-tardis)
+`/tardisjunk` - [Junk TARDIS related commands](junk-tardis) or [Junk Commands](commands/junk)
 
 `/handles` - [Handles related commands](handles)
 
 There are multiple command arguments for each command.
-
-### Command aliases
-
-| Command            | Aliases                                                      |
-|--------------------|--------------------------------------------------------------|
-| `/tardis`          | `/tt`, `/ttardis`, `/timelord`                               |
-| `/tardistravel`    | `/ttravel`                                                   |
-| `/tardisadmin`     | `/tadmin`                                                    |
-| `/tardisconfig`    | `/tconfig`                                                   |
-| `/tardisroom`      | `/troom`                                                     |
-| `/tardisprefs`     | `/tprefs`                                                    |
-| `/tardisarea`      | `/tarea`                                                     |
-| `/tardisbind`      | `/tbind`                                                     |
-| `/tardisgravity`   | `/tgravity`                                                  |
-| `/tardisbook`      | `/tbook`                                                     |
-| `/tardistexture`   | `/tardisresource`, `/tresource`, `/ttexture`, `/trp`, `/ttp` |
-| `/tardisremote`    | `/tremote`, `/trem`                                          |
-| `/tardisschematic` | `/tschematic`, `/ts`                                         |
 
 ## Basic travel commands:
 

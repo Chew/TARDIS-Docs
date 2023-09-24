@@ -1,0 +1,76 @@
+---
+layout: default
+title: Sudo Command
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# Sudo Commands
+
+Used to run commands or functions as another player.
+
+## `/tardissudo`
+
+<CommandTable data={
+`tardissudo:
+    aliases: tsudo
+    description: Used by TARDIS admins to run commands as another Time Lord or fix players’ TARDISes.
+    permission: tardis.admin
+    permission-message: You don't have the permission <permission> to use this command
+    usage: /<command> [player] [subcommand] [options...]
+    `
+}
+args={
+    `
+    ars:
+      description: Open the specified player’s ARS gui.
+      usage: /<command> [player] ars
+    assemble:
+      description: Reassembles the player’s TARDIS exterior after a HADS dispersal.
+      usage: /<command> [player] assemble
+    back:
+      description: Makes the specified player’s TARDIS travel back to its last location.
+      usage: /<command> [player] back
+    chameleon:
+      description: Sets the specified player’s TARDIS exterior.
+      usage: /<command> [player] chameleon [PRESET]
+    clean:
+      description: Cleans the specified player’s TARDIS interior.
+      usage: /<command> [player] clean
+    comehere:
+      description: Makes the specified player’s TARDIS travel to the sudoers currently targeted block.
+      usage: /<command> [player] comehere
+    deadlock:
+      description: Locks or unlocks the specified player’s TARDIS door.
+      usage: /<command> [player] deadlock [on|off]
+    desiege:
+      description: Rebuilds the specified player’s TARDIS to exit siege mode.
+      usage: /<command> [player] desiege
+    handbrake:
+      description: Sets the specified player’s TARDIS handbrake to the desired state.
+      usage: /<command> [player] handbrake [on|off]
+    hide:
+      description: Hides the specified player’s TARDIS.
+      usage: /<command> [player] hide
+    isomorphic:
+      description: Toggles the the specified player’s isomorphic controls preference.
+      usage: /<command> [player] isomorphic [on|off]
+    rebuild:
+      description: Rebuilds the specified player’s TARDIS.
+      usage: /<command> [player] rebuild
+    repair:
+      description: Repairs the specified player’s TARDIS desktop console.
+      usage: /<command> [player] repair
+    travel:
+      description: Makes the specified player’s TARDIS travel. Options are \`home\`, \`area [area]\` and co-ordinates e.g. \`world x y z\`.
+      usage: /<command> [player] travel [options...]
+    update:
+      description: Updates the location of TARDIS controls in the specified player’s TARDIS.
+      usage: /<command> [player] update [control]
+    `
+}
+cmd='tardissudo'
+extra='false'
+>
+</CommandTable>
+

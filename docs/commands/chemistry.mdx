@@ -1,0 +1,109 @@
+---
+layout: default
+title: Chemistry Command
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# Chemistry Commands
+
+Commands to open chemistry guis and view recipes and formulas.
+
+## `/tardischemistry`
+
+<CommandTable data={
+`tardischemistry:
+    aliases: tchemistry
+    description: Open a Chemistry creative GUI or show a chemical formula.
+    permission: tardis.chemistry
+    usage: /<command> [gui|formula|recipe] [which]
+    `
+}
+args={
+    `
+    formula:
+      description: Show a compound or product formula.
+      permission: tardis.formula.show
+      usage: /<command> formula [compound|product]
+    recipe:
+      description: Show a Chemistry GUI block recipe.
+      permission: tardis.help
+      usage: /<command> recipe [creative|construct|compound|reduce|product|lab]
+    gui:
+      description: Show a chemistry GUI. See the table below for more information.
+      permission: tardis.chemistry.command
+      usage: /<command> gui [creative|construct|compound|reduce|product|lab]
+      creative:
+        description: Open the 'Chemistry creative' GUI.
+        usage: /<command> gui creative [elements|compounds|products|lab]
+        permission: tardis.chemistry.creative
+      construct:
+        description: Open the 'Element constructor' GUI.
+        usage: /<command> gui construct
+        permission: tardis.construct.build
+      compound:
+        description: Open the 'Chemical compounds' creation GUI.
+        usage: /<command> gui compound
+        permission: tardis.compound.create
+      reduce:
+        description: Open the 'Material reducer' GUI.
+        usage: /<command> gui reduce
+        permission: tardis.reducer.use
+      product:
+        description: Open the 'Product crafting' GUI.
+        usage: /<command> gui product
+        permission: tardis.product.craft
+      lab:
+        description: Open the 'Lab table' GUI.
+        usage: /<command> gui lab
+        permission: tardis.lab.combine
+    `
+}
+cmd='tardischemistry'
+extra='false'
+>
+</CommandTable>
+
+### `/tardischemistry gui`
+
+<CommandTable data={
+`tardischemistry:
+    aliases: tchemistry
+    description: Open a Chemistry creative GUI or show a chemical formula.
+    permission: tardis.chemistry
+    usage: /<command> [gui|formula|recipe] [which]
+    `
+}
+args={
+    `
+      creative:
+        description: Open the 'Chemistry creative' GUI.
+        usage: /<command> gui creative [elements|compounds|products|lab]
+        permission: tardis.chemistry.creative
+      construct:
+        description: Open the 'Element constructor' GUI.
+        usage: /<command> gui construct
+        permission: tardis.construct.build
+      compound:
+        description: Open the 'Chemical compounds' creation GUI.
+        usage: /<command> gui compound
+        permission: tardis.compound.create
+      reduce:
+        description: Open the 'Material reducer' GUI.
+        usage: /<command> gui reduce
+        permission: tardis.reducer.use
+      product:
+        description: Open the 'Product crafting' GUI.
+        usage: /<command> gui product
+        permission: tardis.product.craft
+      lab:
+        description: Open the 'Lab table' GUI.
+        usage: /<command> gui lab
+        permission: tardis.lab.combine
+    `
+}
+cmd='tardischemistry'
+extra='true'
+>
+</CommandTable>
+

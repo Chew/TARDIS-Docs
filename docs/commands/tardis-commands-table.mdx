@@ -1,0 +1,243 @@
+---
+layout: default
+title: Big list of TARDIS sub commands
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# TARDIS sub commands
+
+A list of all the `/tardis` sub commands.
+
+## `/tardis`
+
+<CommandTable data={
+    `tardis:
+        aliases: tt
+        description: Manipulate TARDISs (TARDISes?) with various arguments (list, save, find, help, etc).
+        usage: /<command> [subcommand] [options]...
+        permission: tardis.use
+    `
+}
+args={
+    `
+    abandon:
+      description: Abandon your current TARDIS.
+      permission: tardis.abandon
+      usage: /<command> abandon
+    abort:
+      description: Stop growing a TARDIS room.
+      permission: tardis.room
+      usage: /<command> abort [task ID number]
+    add:
+      description: Add a companion that can travel with you in your TARDIS.
+      permission: tardis.add
+      usage: /<command> add [player name]
+    arch_time:
+      description: Display the time that a player must remain Chameleon arched.
+      permission: tardis.chameleonarch
+      usage: /<command> arch_time
+    archive:
+      description: Archive your current TARDIS console.
+      permission: tardis.archive
+      usage: /<command> archive [scan | add | remove | update | description | y] [name] <y_value>
+    arsremove:
+      description: Remove the TARDIS' ARS records so that manual room growing can be used.
+      permission: tardis.use
+      usage: /<command> arsremove
+    bell:
+      description: Toggle the TARDIS Cloister Bell on and off.
+      permission: tardis.use
+      usage: /<command> bell [on | off]
+    check_loc:
+      description: Checks the location the player is targeting is suitable for landing the TARDIS.
+      permission: tardis.use
+      usage: /<command> check_loc
+    colourise:
+      aliases:
+      - colorize
+      description: Allows a player to change the colour of their TARDIS beacon glass with a Sonic Screwdriver.
+      permission: tardis.upgrade
+      usage: /<command> colourise
+    comehere:
+      description: Make the TARDIS come to the block you are looking at.
+      permission: tardis.timetravel
+      usage: /<command> comehere
+    construct:
+      description: Set the sign text of the TARDIS CONSTRUCT Chameleon preset.
+      permission: tardis.use
+      usage: /<command> construct [line number] [text with optional colour code]
+    cube:
+      description: Show a list of players who are carrying a Siege Cube.
+      permission: tardis.find
+      usage: /<command> cube
+    desktop:
+      aliases:
+      - theme
+      - upgrade
+      description: Open the Desktop Theme GUI.
+      permission: tardis.upgrade
+      usage: /<command> desktop
+    direction:
+      description: Change the direction the Police Box door is facing.
+      permission: tardis.timetravel
+      usage: /<command> direction [north | west | south | east]
+    door:
+      description: Opens or closes the TARDIS door.
+      permission: tardis.use
+      usage: /<command> door [open | close]
+    egg:
+      description: Play the Doctor Who Theme (requires TARDIS Resource Pack).
+      permission: tardis.use
+      usage: /<command> egg [SIXTY_THREE | ZERO_FIVE | TWENTY_TWENTY | RANDOM]
+    eject:
+      description: Allows a player to eject entities from their TARDIS.
+      permission: tardis.eject
+      usage: /<command> eject
+    ep1:
+      description: Allows a player to make Emergency Programme One appear.
+      permission: tardis.use
+      usage: /<command> abandon
+    erase:
+      description: Allows a player to erase the TARDIS Storage Disk they have in their hand.
+      permission: tardis.storage
+      usage: /<command> erase
+    excite:
+      description: Allows a player to initiate atmospheric exitation around their TARDIS.
+      permission: tardis.atmospheric
+      usage: /<command> excite
+    exterminate:
+      description: Delete your TARDIS.
+      permission: tardis.exterminate
+      usage: /<command> exterminate
+    find:
+      description: Shows you the location of your TARDIS.
+      permission: tardis.find
+      usage: /<command> find
+    handbrake:
+      description: Allows a player to toggle the TARDIS handbrake on or off.
+      permission: tardis.use
+      usage: /<command> handbrake [on | off]
+    help:
+      description: View TARDIS help pages.
+      usage: /<command> help [command]
+    hide:
+      description: Hide the TARDIS Police Box.
+      permission: tardis.rebuild
+      usage: /<command> hide
+    home:
+      aliases:
+      - sethome
+      description: Save a time travel location as home.
+      permission: tardis.home
+      usage: /<command> home
+    inside:
+      description: List players inside your TARDIS.
+      permission: tardis.use
+      usage: /<command> inside
+    item:
+      description: Allows a player to update TARDIS circuits from previous versions to the newer custom model data item.
+      permission: tardis.use
+      usage: /<command> item [hand | inventory]
+    jettison:
+      description: Remove a TARDIS room.
+      permission: tardis.room
+      usage: /<command> jettison [room type]
+    lamps:
+      description: Scan the main control room for new or moved lamp blocks.
+      permission: tardis.use
+      usage: /<command> lamps
+    list:
+      description: List saved time travel locations, companions, areas and rechargers.
+      permission: tardis.list
+      usage: /<command> list [saves | companions | areas | rechargers]
+    make_her_blue:
+      description: Makes the TARDIS visible again if it was using the INVISIBLE preset.
+      permission: tardis.use
+      usage: /<command> make_her_blue
+    monsters:
+      description: Reset monster spawning or kill all monsters in the TARDIS.
+      permission: tardis.use
+      usage: /<command> monsters [ reset | kill ]
+    namekey:
+      description: Rename the TARDIS key Item.
+      permission: tardis.timetravel
+      usage: Hold the key in your hand, then type /<command> namekey [new name]
+    occupy:
+      description: Toggle TARDIS occupation.
+      permission: tardis.timetravel
+      usage: /<command> occupy
+    rebuild:
+      description: Rebuild the TARDIS.
+      permission: tardis.rebuild
+      usage: /<command> rebuild
+    remove:
+      description: Remove a companion from your TARDIS.
+      permission: tardis.add
+      usage: /<command> remove [ player name | all ]
+    removesave:
+      description: Delete a saved destination.
+      permission: tardis.save
+      usage: /<command> removesave [name]
+    renamesave:
+      description: Rename a saved destination.
+      permission: tardis.save
+      usage: /<command> renamesave [old name] [new name]
+    reordersave:
+      description: Reorder a saved destination in the TARDIS Saves GUI.
+      permission: tardis.save
+      usage: /<command> reordersave [name] [slot number]
+    rescue:
+      description: Rescue a player in the TARDIS.
+      permission: tardis.timetravel.rescue
+      usage: /<command> rescue [player]
+    room:
+      description: Grow a TARDIS room.
+      permission: tardis.room
+      usage: /<command> room [room type | help]
+    save:
+      description: Save the current location of the TARDIS Police Box.
+      permission: tardis.save
+      usage: /<command> save [name] <true>
+    save_player:
+      description: Allows a player to save a Player to a blank TARDIS Storage Disk.
+      permission: tardis.storage
+      usage: /<command> save_player [player]
+    saveicon:
+      description: Change a saved destinations icon in the TARDIS Saves GUI.
+      permission: tardis.save
+      usage: /<command> saveicon [save] [material]
+    secondary:
+      description: Set secondary TARDIS controls.
+      permission: tardis.update
+      usage: /<command> secondary [ button | world-repeater | x-repeater | z-repeater | y-repeater | artron | handbrake | door ]
+    section:
+      description: Open the TARDIS Update chat GUI.
+      permission: tardis.update
+      usage: /<command> section
+    setdest:
+      description: Save a destination determined by the block you are looking at.
+      permission: tardis.save
+      usage: /<command> setdest [name]
+    tagtheood:
+      description: Display the 'Tag the Ood' game statistics.
+      permission: tardis.tag
+      usage: /<command> tagtheood
+    transmat:
+      description: Teleports to or sets an internal TARDIS transmat location.
+      permission: tardis.transmat
+      usage: /<command> transmat [ tp | add | update | remove | list ] [name]
+    update:
+      description: Modify the interior of the TARDIS.
+      permission: tardis.update
+      usage:  | 
+        /<command> update [ advanced | ars | artron | back | backdoor | beacon | bell | button | chameleon | condenser | control | creeper |  direction | dispenser | door | eps | farm | flight | forcefield | frame | fuel | generator | handbrake | hinge | igloo | info | keyboard | light |  map | monitor | monitor-frame | rail | rotor | save-sign | scanner | siege | smelt | stable | stall | storage | telepathic | temporal |  terminal | throttle | toggle-wool | vault | village | weather | world-repeater | x-repeater | y-repeater | z-repeater | zero ]
+    version:
+      description: Display the TARDIS plugin and CraftBukkit version.
+      usage: /<command> version
+    `
+}
+cmd='tardis'
+extra='false'
+>
+</CommandTable>

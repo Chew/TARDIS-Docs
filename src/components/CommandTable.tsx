@@ -29,12 +29,14 @@ function HandleCommand({ yml, cmd } : { yml: object, cmd: string }) {
 }
 
 function HandleSubs({ymlKey, value, cmd} : {ymlKey: string, value: any, cmd: string}) {
-    let indentation = "indent1"; 
+    let perm = value.permission;
+    let subperm = (perm != null) ? '__Permission:__ \`' + perm + '\`' : '';
+    let indentation = "indent1";
     return (
         <>
             <tr>
                 <td className={indentation}><code>{ymlKey}</code></td>
-                <td><ReactMarkdown children={value.description} components={{p: noP}} /></td>
+                <td><ReactMarkdown children={value.description} components={{p: noP}} /><br/><ReactMarkdown children={subperm} components={{p: noP}} /></td>
                 <td><code>{value.usage.replace("<command>", cmd)}</code></td>
             </tr>
         </>
@@ -47,7 +49,7 @@ export default function CommandTable({ data, args, cmd, extra } : { data: string
     // data, args are yaml, parse them
     const root = parse(data);
     const subs = parse(args);
-    
+
     let head = ""
     let command = ""
     if (extra == 'false') {

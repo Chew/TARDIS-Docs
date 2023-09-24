@@ -1,0 +1,67 @@
+---
+layout: default
+title: Remote Command
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# The Remote command
+
+This command lets you remotely control a TARDIS, and is useful for server admins and command blocks.
+
+## `/tardisremote`
+
+<CommandTable data={
+`tardisremote:
+    aliases: tremote
+    description: Remote control a TARDIS.
+    permission: tardis.remote
+    usage: /<command> [player] [action] [options...]
+    `
+}
+args={
+    `
+    travel:
+      description: >
+        Make a player’s TARDIS travel to the specified location. Travel options are:
+        
+        - \`home\`
+        
+        - \`area [area name]\`
+        
+        - coordinates e.g. \`world x y z\`
+      usage: /<command> [player] travel [home|area|coords]
+    comehere:
+      description: Make a player’s TARDIS come to the currently targeted block
+      usage: /<command> [player] comehere
+    hide:
+      description: Hide a player’s TARDIS
+      usage: /<command> [player] hide
+    rebuild:
+      description: Rebuild a player’s TARDIS
+      usage: /<command> [player] rebuild
+    back:
+      description: Make a player’s TARDIS travel to its previous location
+      usage: /<command> [player] back    
+    `
+}
+cmd='tardisremote'
+extra='false'
+>
+</CommandTable>
+
+:::note
+
+- can be run from command blocks, but the specified player must be online
+- if the player who is running the command does **NOT** have `tardis.admin` permission, then the normal checks are
+  performed (energy/permissions/circuits/plugin respect etc for the specified player)
+- use via Command Block will fail silently if above checks fail, as we can’t message a command block...
+- if player has `tardis.admin` permission then no energy is used / only basic checks performed (so we’re not griefing
+  anything)
+- `comehere` comes to the currently targeted block (only available to TARDIS admin players)
+
+:::
+
+### Video
+
+<iframe width="600" height="366" src="https://www.youtube.com/embed/VypqSYls1QM0" frameborder="0" allowfullscreen></iframe>
