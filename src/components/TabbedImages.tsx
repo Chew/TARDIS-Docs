@@ -17,7 +17,7 @@ function HandleTabs({ymlKey, value} : {ymlKey: string, value: any}) {
 
     return (
         <>
-          <h2>{ymlKey}</h2>
+          <h2 id={ymlKey.replaceAll(" ", "-").toLowerCase()}>{ymlKey}</h2>
           <p><ReactMarkdown children={value.description} components={{p: noP}} /></p>
           <Tabs groupId="images">
             <TabItem value="vanilla" label="vanilla" default>
@@ -41,7 +41,7 @@ export default function TabbedImages({ imgs } : { imgs: string }) {
         <>
             <div className="table-responsive">
                 {Object.entries(tabs).map(([key, value]) => (
-                    <HandleTabs key={key} ymlKey={key} value={value} />
+                    <HandleTabs key={key.replaceAll(" ", "-").toLowerCase()} ymlKey={key} value={value} />
                 ))}
             </div>
         </>
