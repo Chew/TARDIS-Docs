@@ -1,0 +1,330 @@
+---
+layout: default
+title: Chameleon Presets
+---
+
+import TabbedImages from '@site/src/components/TabbedImages'
+
+# Chameleon Presets
+
+Chameleon Presets can be selected and applied in the [Chameleon Circuit](chameleon-circuit) GUI. There are 64
+presets in total on two pages, plus one special hidden preset, and one custom preset that server admins can set up
+themselves — see the [Custom preset page.](custom-preset)
+
+There are also some adaptive presets that are selected by biome when the Chameleon Circuit is set to Adaptive Biome mode.
+You can view those on the [Adaptive Presets page](adaptive-presets).
+
+## Page one
+
+These presets use regular Minecraft blocks. When materialising they cycle through stained glass and regular glass for their animation.
+
+<TabbedImages imgs={
+`
+STAINED:
+  folder: presets
+  image: stained_block.jpg
+  description: The stained glass materialisation animation state.
+GLASS:
+  folder: presets
+  image: glass_block.jpg
+  description: The clear glass materialisation animation state.
+GUI:
+  folder: chameleon
+  image: presets_gui_1.jpg
+  description: The Chameleon Preset GUI.
+ANGEL:
+  folder: presets/
+  image: angel.jpg
+  description: A weeping angel. Each time it materialises it wings can be either up or down, and its head faces a random direction.
+APPERTURE:
+  folder: presets
+  image: apperture.jpg
+  description: An Apperture Science portal or two.
+CAKE:
+  folder: presets
+  image: cake.jpg
+  description: A birthday cake.
+CANDY:
+  folder: presets
+  image: candy.jpg
+  description: A candy cane. Brush teeth after use.
+CHALICE:
+  folder: presets
+  image: chalice.jpg
+  description: A quartz chalice. It has water in the top.
+CREEPY:
+  folder: presets
+  image: creepy.jpg
+  description: A creepy preset.
+DESERT:
+  folder: presets
+  image: desert.jpg
+  description: A desert temple.
+DUCK:
+  folder: presets
+  image: duck.jpg
+  description: Rubber ducky, you’re the one, you make bath time so much fun. Rubber ducky I’m awfully fond of you...
+FACTORY:
+  folder: presets
+  image: factory.jpg
+  description: A factory fresh TARDIS, straight of the Gallifrean production line.
+FENCE:
+  folder: presets
+  image: fence.jpg
+  description: A random fence.
+FLOWER:
+  folder: presets
+  image: flower.jpg
+  description: A flower. The petals on this preset turn a random colour each time it materialises.
+GAZEBO:
+  folder: presets
+  image: gazebo.jpg
+  description: A gazebo for your garden.
+GRAVESTONE:
+  folder: presets
+  image: gravestone.jpg
+  description: Here lies a Time Lord.
+HELIX:
+  folder: presets
+  image: helix.jpg
+  description: A double helix.
+JAIL:
+  folder: presets
+  image: jail.jpg
+  description: Go directly to jail!
+JUNGLE:
+  folder: presets
+  image: jungle.jpg
+  description: A jungle temple.
+LAMP:
+  folder: presets
+  image: lamp.jpg
+  description: A lamp post.
+LIBRARY:
+  folder: presets
+  image: library.jpg
+  description: A Time Lord’s library.
+LIGHTHOUSE:
+  folder: presets
+  image: lighthouse.jpg
+  description: A tiny lighthouse.
+MINESHAFT:
+  folder: presets
+  image: mineshaft.jpg
+  description: A mineshaft complete with torches and cobweb.
+NETHER:
+  folder: presets
+  image: nether.jpg
+  description: A small nether fortress.
+NEW:
+  folder: presets
+  image: new.jpg
+  description: The new taller style Police Box. This is the default preset. If the Chameleon Circuit is ON, this will blend in with its surroundings.
+CIRCUIT ON:
+  folder: presets
+  image: chameleonON.jpg
+  description: The NEW preset with the Chameleon Circuit turned on.
+OLD:
+  folder: presets
+  image: old.jpg
+  description: The old style Police Box from the early days of the plugin. If the Chameleon Circuit is ON, this will blend in with its surroundings.
+PARTY:
+  folder: presets
+  image: party.jpg
+  description: A party tent. Bring on the disco sheep. This preset turns a random colour each time it materialises.
+PEANUT:
+  folder: presets
+  image: peanut.jpg
+  description: A peanut butter jar.
+PINE:
+  folder: presets
+  image: pine.jpg
+  description: A snowy spruce tree.
+PORTAL:
+  folder: presets
+  image: portal.jpg
+  description: A nether portal.
+PUNKED:
+  folder: presets
+  image: punked.jpg
+  description: A steam punked exterior.
+ROBOT:
+  folder: presets
+  image: robot.jpg
+  description: A robot with a head that faces a random direction.
+SHROOM:
+  folder: presets
+  image: shroom.jpg
+  description: A brown mushroom.
+SNOWMAN:
+  folder: presets
+  image: snowman.jpg
+  description: A snowman, takes one to snow one :)
+STONE:
+  folder: presets
+  image: column.jpg
+  description: A stone brick column.
+SUBMERGED:
+  folder: presets
+  image: submerged.jpg
+  description: A partially submerged home. If the Chameleon Circuit is ON, this will blend in with its surroundings.
+SWAMP:
+  folder: presets
+  image: swamp.jpg
+  description: A swamp hut.
+TELEPHONE:
+  folder: presets
+  image: telephone.jpg
+  description: A red telephone box.
+TOILET:
+  folder: presets
+  image: toilet.jpg
+  description: A toilet, for when you just need to go...
+TOPSYTURVEY:
+  folder: presets
+  image: topsy.jpg
+  description: An upside down Police Box.
+TORCH:
+  folder: presets
+  image: torch.jpg
+  description: A flaming torch. Be careful where you park!
+VILLAGE:
+  folder: presets
+  image: village.jpg
+  description: A village house of stone and wood.
+WELL:
+  folder: presets
+  image: well.jpg
+  description: A mossy well, the door is inside the well.
+WINDMILL:
+  folder: presets
+  image: windmill.jpg
+  description: A miniature windmill.
+YELLOW:
+  folder: presets
+  image: yellow_sub.jpg
+  description: A yellow submarine.
+`
+}></TabbedImages>
+
+## Page two
+
+Page two contains mostly police box presets in all the Minecraft colours. All these presets use custom item models on an
+Armour Stand. They have custom block models for the materialisation animation as well. These presets can be used to fly
+the TARDIS exterior see [Flying the TARDIS](flying).
+
+<TabbedImages imgs={
+`
+TRANSPARENT COLOURED POLICE BOX:
+  folder: presets
+  image: stained.jpg
+  description: The stained transparent materialisation animation state.
+TRANSPARENT POLICE BOX:
+  folder: presets
+  image: glass.jpg
+  description: The transparent materialisation animation state.
+Presets GUI page 2:
+  folder: chameleon
+  image: presets_gui_2.jpg
+  description: The second page of the Chameleon Presets GUI
+POLICE_BOX_BLUE:
+  folder: presets
+  image: blue.jpg
+  description: A standard blue police box.
+POLICE_BOX_WHITE:
+  folder: presets
+  image: white.jpg
+  description: A white police box.
+POLICE_BOX_ORANGE:
+  folder: presets
+  image: orange.jpg
+  description: An orange police box.
+POLICE_BOX_MAGENTA:
+  folder: presets
+  image: magenta.jpg
+  description: A magenta police box.
+POLICE_BOX_LIGHT_BLUE:
+  folder: presets
+  image: light_blue.jpg
+  description: A light blue police box.
+POLICE_BOX_YELLOW:
+  folder: presets
+  image: yellow.jpg
+  description: A yellow police box.
+POLICE_BOX_LIME:
+  folder: presets
+  image: lime.jpg
+  description: A lime police box.
+POLICE_BOX_PINK:
+  folder: presets
+  image: pink.jpg
+  description: A pink police box.
+POLICE_BOX_GRAY:
+  folder: presets
+  image: gray.jpg
+  description: A gray police box.
+POLICE_BOX_LIGHT_GRAY:
+  folder: presets
+  image: light_gray.jpg
+  description: A light gray police box.
+POLICE_BOX_CYAN:
+  folder: presets
+  image: cyan.jpg
+  description: A cyan police box.
+POLICE_BOX_PURPLE:
+  folder: presets
+  image: purple.jpg
+  description: A purple police box.
+POLICE_BOX_BROWN:
+  folder: presets
+  image: brown.jpg
+  description: A brown police box.
+POLICE_BOX_GREEN:
+  folder: presets
+  image: green.jpg
+  description: A green police box.
+POLICE_BOX_RED:
+  folder: presets
+  image: red.jpg
+  description: A red police box.
+POLICE_BOX_BLACK:
+  folder: presets
+  image: black.jpg
+  description: A black police box.
+WEEPING_ANGEL:
+  folder: presets
+  image: weeping.jpg
+  description: A weeping angel.
+COLOUR PICKER:
+  description: Mix your own colour police box! Use the colour picker to mix your own favourite colour.
+  folder: chameleon
+  image: colour_picker_gui.jpg
+ANY COLOUR:
+  description: Any colour!
+  folder: presets
+  image: any_colour_police_box.jpg
+PANDORICA:
+  folder: presets
+  image: pandorica.jpg
+  description: The Pandorica. This preset has animated opening doors.
+`
+}></TabbedImages>
+
+## Custom model presets
+
+You can add your own custom models to the plugin - see the [Custom model presets](custom-model-presets) page for
+more details. These presets will appear on page two.
+The plugin includes two example models (both of which can be flown):
+
+<TabbedImages imgs={
+`
+Type 40:
+  description: A Type 40 time travel capsule.
+  folder: presets
+  image: type_40.jpg
+Bad Wolf:
+  folder: presets
+  image: bad_wolf.jpg
+  description: The Bad Wolf TARDIS from new Who Series 1.
+`
+}></TabbedImages>

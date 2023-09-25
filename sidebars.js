@@ -114,6 +114,7 @@ const sidebars = {
 			type: 'category',
 			label: 'Chamemelon Circuit',
 			items: [
+        'chameleon-circuit',
 				'presets',
 				'shell-room',
 				'chameleon-construction',
