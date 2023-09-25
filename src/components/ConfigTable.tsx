@@ -15,7 +15,7 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
     ymlKey = ymlKey.trim().split(".").pop()!;
 
     const children = isParent ? Object.entries(value).map(([key, value]) => (
-        <HandleRow data={data} ymlKey={key} value={value} indent={indent + 1} />
+        <HandleRow key={key} data={data} ymlKey={key} value={value} indent={indent + 1} />
     )) : null;
 
     const rowInData = data.split("\n").find((row) => {
@@ -94,7 +94,7 @@ export default function ConfigTable({ data } : { data: string }) {
                     </thead>
                     <tbody>
                         {Object.entries(yml).map(([key, value]) => (
-                            <HandleRow data={data} ymlKey={key} value={value} indent={0} />
+                            <HandleRow key={key} data={data} ymlKey={key} value={value} indent={0} />
                         ))}
                     </tbody>
                 </table>

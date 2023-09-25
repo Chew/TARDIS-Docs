@@ -62,7 +62,7 @@ export default function CommandTable({ data, args, cmd, extra } : { data: string
                 </tr>
             </thead>
         )
-        command = <HandleCommand yml={root} cmd={cmd} />
+        command = <HandleCommand key={cmd} yml={root} cmd={cmd} />
     }
 
     return (
@@ -78,7 +78,7 @@ export default function CommandTable({ data, args, cmd, extra } : { data: string
                             <th>Usage</th>
                         </tr>
                         {Object.entries(subs).map(([key, value]) => (
-                            <HandleSubs ymlKey={key} value={value} indent={0} cmd={cmd} />
+                            <HandleSubs key={key} ymlKey={key} value={value} indent={0} cmd={cmd} />
                         ))}
                     </tbody>
                 </table>

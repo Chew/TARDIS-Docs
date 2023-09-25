@@ -45,7 +45,7 @@ export default function SimpleCommandTable({ data, cmd } : { data: string, cmd: 
                         </tr>
                     </thead>
                     <tbody>
-                        <HandleCommand yml={root} cmd={cmd} />
+                        <HandleCommand key={cmd} yml={root} cmd={cmd} />
                     </tbody>
                 </table>
             </div>

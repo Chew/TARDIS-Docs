@@ -11,7 +11,7 @@ function HandleRow({ymlKey, value} : {ymlKey: string, value: any}) {
         </>
     )
 }
- 
+
 export default function Condensables() {
 
     // get the condensables file and parse it
@@ -58,7 +58,7 @@ export default function Condensables() {
             </>
         )
     }
-    
+
     const conds = parse(data)
     // make a table
     return (
@@ -71,7 +71,7 @@ export default function Condensables() {
                             <th>Relative value</th>
                         </tr>
                         {Object.entries(conds).map(([key, value]) => (
-                            <HandleRow ymlKey={key} value={value} />
+                            <HandleRow key={key} ymlKey={key} value={value} />
                         ))}
                     </tbody>
                 </table>
