@@ -17,7 +17,7 @@ function HandleTabs({ymlKey, value} : {ymlKey: string, value: any}) {
 
     return (
         <>
-          <h3>{ymlKey}</h3>
+          <h2>{ymlKey}</h2>
           <p><ReactMarkdown children={value.description} components={{p: noP}} /></p>
           <Tabs groupId="images">
             <TabItem value="vanilla" label="vanilla" default>

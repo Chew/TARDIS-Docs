@@ -10,7 +10,7 @@ the most suitable shell from the room and applies it as the ship’s exterior.
 
 You can use the shell room to construct your own custom chameleon design (make sure you grow the room first).
 
-![shell room](/images/rooms/shell.jpg)
+![shell room](/images/rooms/vanilla/shell.jpg)
 
 Place blocks from your inventory onto the platform. The door should be on the side with the stone slab sticking out.
 

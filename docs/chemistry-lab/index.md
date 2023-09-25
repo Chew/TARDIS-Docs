@@ -21,7 +21,7 @@ the [elements themselves](elements).*
 
 All images use the TARDIS-Resource-Pack, and your experience will be much better with it!
 
-![Chemistry Lab](/images/rooms/chemistry-lab.png)
+![Chemistry Lab](/images/rooms/vanilla/chemistry-lab.png)
 
 How does it work?
 
