@@ -3,6 +3,9 @@ layout: default
 title: Creating a TARDIS
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Creating a TARDIS
 
 To create a TARDIS, you first need to craft a TARDIS seed block. The crafting recipe depends on which version of the
@@ -20,7 +23,14 @@ A seed block requires five different components as explained below. You can mix 
 blocks (20,000+ different combinations with the default plugin configuration) to customise the appearance of your
 TARDIS.
 
-![Crafting a TARDIS seed block](/images/docs/craftdefaultseed-v3.7.jpg)
+<Tabs groupId="images">
+    <TabItem value="vanilla" label="vanilla" default>
+        <img alt="Crafting a TARDIS seed block" src="/images/docs/vanilla/craftdefaultseed-v3.7.jpg" />
+    </TabItem>
+    <TabItem value="tardis" label="tardis">
+        <img alt="Crafting a TARDIS seed block" src="/images/docs/tardis/craftdefaultseed-v3.7.jpg" />
+    </TabItem>
+</Tabs>
 
 The crafting grid above shows how to craft the default ‘budget’ TARDIS that starts off with the FACTORY chameleon preset
 **(TARDIS v3.7 and higher)**:
@@ -48,32 +58,32 @@ Click on the name of an interior to see a screenshot of it.
 | Name                                  | Block Required         | Description                                             |
 |---------------------------------------|------------------------|---------------------------------------------------------|
 | [ANCIENT](interiors#ancient)       | Sculk                  | Ancient city console                                    |
-| [ARS](interiors#ars)               | Quartz Block           | The "ARS” TARDIS                                        |
+| [ARS](interiors#ars)               | Quartz Block           | The “ARS” TARDIS                                        |
 | [BUDGET](interiors#budget)         | Iron Block             | The default “budget” TARDIS interior                    |
-| [BIGGER](interiors#bigger)         | Gold Block             | A "bigger" version of the default TARDIS                |
+| [BIGGER](interiors#bigger)         | Gold Block             | A “bigger” version of the default TARDIS                |
 | [CAVE](interiors#cave)             | Dripstone Block        | A cave-themed TARDIS interior                           |
 | [COPPER](interiors#copper)         | Warped Planks          | A copper TARDIS interior (by vistaero)                  |
-| [CORAL](interiors#coral)           | Nether Wart Block      | The 10th Doctor's TARDIS (by vistaero)                  |
+| [CORAL](interiors#coral)           | Nether Wart Block      | The 10th Doctor’s TARDIS (by vistaero)                  |
 | [DELTA](interiors#delta)           | Crying Obsidian        | The Nether Delta TARDIS interior                        |
 | [DELUXE](interiors#deluxe)         | Diamond Block          | A “deluxe” TARDIS                                       |
 | [DIVISION](interiors#division)     | Pink Glazed Terracotta | The “division” as a TARDIS console                      |
-| [ELEVENTH](interiors#eleventh)     | Emerald Block          | The 11th Doctor's TARDIS interior                       |
+| [ELEVENTH](interiors#eleventh)     | Emerald Block          | The 11th Doctor’s TARDIS interior                       |
 | [ENDER](interiors#ender)           | Purpur Block           | An End-inspired TARDIS interior                         |
 | [FACTORY](interiors#factory)       | Yellow Concrete Powder | 1st Doctor's Factory TARDIS (by Razihel)                |
 | [FUGITIVE](interiors#fugitive)     | Polished Deepslate     | Ruth (The Fugitive Doctor) Clayton's Console (by DT10)  |
 | [HOSPITAL](interiors#hospital)     | White Concrete         | St John's Hospital interior                             |
 | [ORIGINAL](interiors#original)     | Packed Mud             | The original TARDIS plugin Console                      |
-| [MASTER](interiors#master)         | Nether Bricks          | The Master's TARDIS interior (by ShadowAssociate)       |
+| [MASTER](interiors#master)         | Nether Bricks          | The Master’s TARDIS interior (by ShadowAssociate)       |
 | [MECHANICAL](interiors#mechanical) | Polished Andesite      | Mechanical TARDIS interior (by Plastic Straw)           |
-| [PLANK](interiors#plank)           | Bookshelf              | A "wood plank" TARDIS interior                          |
+| [PLANK](interiors#plank)           | Bookshelf              | A “wood plank” TARDIS interior                          |
 | [PYRAMID](interiors#pyramid)       | Sandstone Stairs       | A sandstone pyramid TARDIS interior (by airomis)        |
 | [REDSTONE](interiors#redstone)     | Redstone Block         | A “redstone” TARDIS                                     |
 | [ROTOR](interiors#rotor)           | Honeycomb Block        | An animated time rotor TARDIS console                   |
 | [STEAMPUNK](interiors#steampunk)   | Coal Block             | A “steampunk” TARDIS (designed by ToppanaFIN)           |
-| [THIRTEENTH](interiors#thirteenth) | Orange Concrete        | The 13th Doctor's TARDIS interior (designed by Razihel) |
+| [THIRTEENTH](interiors#thirteenth) | Orange Concrete        | The 13th Doctor’s TARDIS interior (designed by Razihel) |
 | [TOM](interiors#tom)               | Lapis Block            | The “Tom Baker” TARDIS interior                         |
-| [TWELFTH](interiors#twelfth)       | Prismarine             | The 12th Doctor's TARDIS interior                       |
-| [WAR](interiors#war)               | White Terracotta       | The War Doctor's TARDIS interior                        |
+| [TWELFTH](interiors#twelfth)       | Prismarine             | The 12th Doctor’s TARDIS interior                       |
+| [WAR](interiors#war)               | White Terracotta       | The War Doctor’s TARDIS interior                        |
 | [WEATHERED](interiors#weathered)   | Weathered Copper       | A “weathered” TARDIS interior                           |
 
 ### Legacy TARDIS types
