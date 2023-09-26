@@ -3,6 +3,8 @@ layout: default
 title: Companions
 ---
 
+import TabbedImage from "@site/src/components/TabbedImage";
+
 # Companions
 
 The TARDIS plugin supports companions so you can travel with your friends!
@@ -21,6 +23,16 @@ Use the command:
     /tardis remove [player]
 
 To remove players from the TARDIS companion list.
+
+## Companions GUI
+
+You can also manage companions from the Companions GUI. The GUI is accessible from the TARDIS Control Menu.
+
+<TabbedImage name={"Control Menu Companions button"} description={""} folder={"docs"} image={"control-companions.jpg"} />
+
+When you first open the Companions GUI, you will be shown a list of your current companions. Use the buttons to add new companions from a list of online players, or remove a companion from the list.
+
+<TabbedImage name={"Companions GUI"} description={""} folder={"docs"} image={"control-gui.jpg"} />
 
 Companions can enter the TARDIS at anytime, unless the door is dead-locked by the Time Lord owner. Companion players
 will also need (as a minimum) the permission `tardis.enter`
