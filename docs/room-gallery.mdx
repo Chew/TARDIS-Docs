@@ -3,180 +3,54 @@ layout: default
 title: Room gallery
 ---
 
-import TabbedImages from '@site/src/components/TabbedImages'
+import TabbedImage from '@site/src/components/TabbedImage'
 
 # Room Gallery
 
 Here you can view all the rooms that are available in the TARDIS plugin.
 
-<TabbedImages imgs={
-`
-Aquarium:
-  folder: rooms
-  image: aquarium.jpg
-  description: A room full of tanks of water, and used to store [fish mobs](farming).
-Arboretum:
-  folder: rooms
-  image: arboretum.jpg
-  description: Defined as a botanical garden devoted to trees, an arboretum is a room full of trees and plants.
-Apiary:
-  folder: rooms
-  image: apiary.png
-  description: A room full of beehives, and used to store [bee mobs](farming).
-Bamboo:
-  folder: rooms
-  image: bamboo.png
-  description: A room full of bamboo, and used to store [panda mobs](farming).
-Bedroom:
-  folder: rooms
-  image: bedroom.jpg
-  description: A nice comfy room to sleep in!
-Bird Cage:
-  folder: rooms
-  image: bird-cage.png
-  description: A room with a bird cage, used to store [parrot mobs](farming).
-Chemistry Lab:
-  folder: rooms
-  image: chemistry-lab.png
-  description: A room stocked with chemistry equipment. Learn more on the [chemistry pages](chemistry-lab).
-Empty:
-  folder: rooms
-  image: empty.jpg
-  description: A room with nothing in it. Useful for building your own rooms.
-Exterior Rendering Room:
-  folder: rooms
-  image: rendering_room_default.jpg
-  description: A room that shows the exterior of the TARDIS and the blocks surrounding it. See [the scanner page](scanner#exterior-rendering-room).
-Example render:
-  folder: rooms
-  image: rendering_room_example_render.jpg
-  description: An exterior view rendered in the Exterior Rendering Room
-Eye of Harmony:
-  folder: rooms
-  image: eyeofharmony.jpg
-  description: The power house of the TARDIS, contains a Artron Energy Condenser chest.
-Farm:
-  folder: rooms
-  image: farm.jpg
-  description: A room with a animal pens, used to store [sheep, cows, pigs and mooshrooms](farming).
-Genetic Manipulator:
-  folder: rooms
-  image: lazarus.jpg
-  description: Contains a Lazarus Device that can be used to disguise you as a mob or monster.
-Gravity well:
-  folder: rooms
-  image: gravity.jpg
-  description: A room to drop you down a level.
-Anti-Gravity well:
-  folder: rooms
-  image: antigravity.jpg
-  description: A room to move you up to the next level.
-Greenhouse:
-  folder: rooms
-  image: greenhouse.jpg
-  description: A room with gardens that grow wheat, sugar cane, carrots, potatoes and pumpkins.
-Horse Stable:
-  folder: rooms
-  image: horse.jpg
-  description: A room with a hitching posts, used to store [horse mobs](farming).
-Igloo:
-  folder: rooms
-  image: igloo.jpg
-  description: An icy room with an igloo, used to store [polar bear mobs](farming).
-Kitchen:
-  folder: rooms
-  image: kitchen.jpg
-  description: Time to bake up a storm...
-Library:
-  folder: rooms
-  image: library.jpg
-  description: Get your reading fix here!
-Llama Stall:
-  folder: rooms
-  image: stall.jpg
-  description: A room with a Llama enclosure, used to store [llama mobs](farming).
-Mangrove:
-  folder: rooms
-  image: mangrove.jpg
-  description: A room with a mangrove swamp, used to store [frog mobs](farming).
-Mushroom:
-  folder: rooms
-  image: mushroom.jpg
-  description: A dark gloomy room for growing mushrooms.
-Passage:
-  folder: rooms
-  image: passage_new.jpg
-  description: A way to get from here to there.
-Pool:
-  folder: rooms
-  image: pool.jpg
-  description: Fancy a dip?
-Rabbit Hutch:
-  folder: rooms
-  image: hutch.jpg
-  description: A room with a rabbit hutch, used to store [rabbit mobs](farming).
-Rail Transport Room:
-  folder: rooms
-  image: rail.jpg
-  description: A rail room to recieve minecrats from the TARDIS exterior. See the [Rail Room page](rail-room)
-Secondary console (Baker):
-  folder: rooms
-  image: baker.jpg
-  description: Tom Baker’s secondary console room.
-Secondary console (Wood):
-  folder: rooms
-  image: wood.jpg
-  description: A wood secondary console room.
-Shell:
-  folder: rooms
-  image: shell.jpg
-  description: The Chameleon Shell construction room. See [the Shell Room page](shell-room)
-Smelter:
-  folder: rooms
-  image: smelter.png
-  description: An automated smelter room.
-Surgery:
-  folder: rooms
-  image: surgery.jpg
-  description: A room to match the St John’s Hospital console.
-Trenzalore:
-  folder: rooms
-  image: trenzalore.jpg
-  description: A room based on the TARDIS’s interior at Trenzalore.
-Vault:
-  folder: rooms
-  image: vault.jpg
-  description: An automated chest storage room. See [the Vault Room page](vault)
-Village:
-  folder: rooms
-  image: village.jpg
-  description: A room to welcome villagers. See [mob farming](farming).
-Workshop:
-  folder: rooms
-  image: workshop.jpg
-  description: A room full of utility blocks and an enchanting table.
-Zero Room:
-  folder: rooms
-  image: zero.jpg
-  description: One of the most peaceful locations in existence. See [the Zero Room page](zero-room).
-`
-}></TabbedImages>
+## Rooms
+
+<TabbedImage name={"Aquarium"} description={"A room full of tanks of water, and used to store [fish mobs](farming)."} folder={"rooms"} image={"aquarium.jpg"} />
+<TabbedImage name={"Arboretum"} description={"Defined as a botanical garden devoted to trees, an arboretum is a room full of trees and plants."} folder={"rooms"} image={"arboretum.jpg"} />
+<TabbedImage name={"Apiary"} description={"A room full of beehives, and used to store [bee mobs](farming)."} folder={"rooms"} image={"apiary.png"} />
+<TabbedImage name={"Bamboo"} description={"A room full of bamboo, and used to store [panda mobs](farming)."} folder={"rooms"} image={"bamboo.png"} />
+<TabbedImage name={"Bedroom"} description={"A nice comfy room to sleep in!"} folder={"rooms"} image={"bedroom.jpg"} />
+<TabbedImage name={"Bird Cage"} description={"A room with a bird cage, used to store [parrot mobs](farming)."} folder={"rooms"} image={"bird-cage.png"} />
+<TabbedImage name={"Chemistry Lab"} description={"A room stocked with chemistry equipment. Learn more on the [chemistry pages](chemistry-lab)."} folder={"rooms"} image={"chemistry-lab.png"} />
+<TabbedImage name={"Empty"} description={"A room with nothing in it. Useful for building your own rooms."} folder={"rooms"} image={"empty.jpg"} />
+<TabbedImage name={"Exterior Rendering Room"} description={"A room that shows the exterior of the TARDIS and the blocks surrounding it. See [the scanner page](scanner#exterior-rendering-room)."} folder={"rooms"} image={"rendering_room_default.jpg"} />
+<TabbedImage name={"Example render"} description={"An exterior view rendered in the Exterior Rendering Room"} folder={"rooms"} image={"rendering_room_example_render.jpg"} />
+<TabbedImage name={"Eye of Harmony"} description={"The power house of the TARDIS, contains a Artron Energy Condenser chest."} folder={"rooms"} image={"eyeofharmony.jpg"} />
+<TabbedImage name={"Farm"} description={"A room with a animal pens, used to store [sheep, cows, pigs and mooshrooms](farming)."} folder={"rooms"} image={"farm.jpg"} />
+<TabbedImage name={"Genetic Manipulator"} description={"Contains a Lazarus Device that can be used to disguise you as a mob or monster."} folder={"rooms"} image={"lazarus.jpg"} />
+<TabbedImage name={"Gravity well"} description={"A room to drop you down a level."} folder={"rooms"} image={"gravity.jpg"} />
+<TabbedImage name={"Anti-Gravity well"} description={"A room to move you up to the next level."} folder={"rooms"} image={"antigravity.jpg"} />
+<TabbedImage name={"Greenhouse"} description={"A room with gardens that grow wheat, sugar cane, carrots, potatoes and pumpkins."} folder={"rooms"} image={"greenhouse.jpg"} />
+<TabbedImage name={"Horse Stable"} description={"A room with a hitching posts, used to store [horse mobs](farming)."} folder={"rooms"} image={"horse.jpg"} />
+<TabbedImage name={"Igloo"} description={"An icy room with an igloo, used to store [polar bear mobs](farming)."} folder={"rooms"} image={"igloo.jpg"} />
+<TabbedImage name={"Kitchen"} description={"Time to bake up a storm..."} folder={"rooms"} image={"kitchen.jpg"} />
+<TabbedImage name={"Library"} description={"Get your reading fix here!"} folder={"rooms"} image={"library.jpg"} />
+<TabbedImage name={"Llama Stall"} description={"A room with a Llama enclosure, used to store [llama mobs](farming)."} folder={"rooms"} image={"stall.jpg"} />
+<TabbedImage name={"Mangrove"} description={"A room with a mangrove swamp, used to store [frog mobs](farming)."} folder={"rooms"} image={"mangrove.jpg"} />
+<TabbedImage name={"Mushroom"} description={"A dark gloomy room for growing mushrooms."} folder={"rooms"} image={"mushroom.jpg"} />
+<TabbedImage name={"Passage"} description={"A way to get from here to there."} folder={"rooms"} image={"passage_new.jpg"} />
+<TabbedImage name={"Pool"} description={"Fancy a dip?"} folder={"rooms"} image={"pool.jpg"} />
+<TabbedImage name={"Rabbit Hutch"} description={"A room with a rabbit hutch, used to store [rabbit mobs](farming)."} folder={"rooms"} image={"hutch.jpg"} />
+<TabbedImage name={"Rail Transport Room"} description={"A rail room to receive minecarts from the TARDIS exterior. See the [Rail Room page](rail-room)"} folder={"rooms"} image={"rail.jpg"} />
+<TabbedImage name={"Secondary console (Baker)"} description={"Tom Baker’s secondary console room."} folder={"rooms"} image={"baker.jpg"} />
+<TabbedImage name={"Secondary console (Wood)"} description={"A wood secondary console room."} folder={"rooms"} image={"wood.jpg"} />
+<TabbedImage name={"Shell"} description={"The Chameleon Shell construction room. See [the Shell Room page](shell-room)"} folder={"rooms"} image={"shell.jpg"} />
+<TabbedImage name={"Smelter"} description={"An automated smelter room."} folder={"rooms"} image={"smelter.png"} />
+<TabbedImage name={"Surgery"} description={"A room to match the St John’s Hospital console."} folder={"rooms"} image={"surgery.jpg"} />
+<TabbedImage name={"Trenzalore"} description={"A room based on the TARDIS’s interior at Trenzalore."} folder={"rooms"} image={"trenzalore.jpg"} />
+<TabbedImage name={"Vault"} description={"An automated chest storage room. See [the Vault Room page](vault)"} folder={"rooms"} image={"vault.jpg"} />
+<TabbedImage name={"Village"} description={"A room to welcome villagers. See [mob farming](farming)."} folder={"rooms"} image={"village.jpg"} />
+<TabbedImage name={"Workshop"} description={"A room full of utility blocks and an enchanting table."} folder={"rooms"} image={"workshop.jpg"} />
+<TabbedImage name={"Zero Room"} description={"One of the most peaceful locations in existence. See [the Zero Room page](zero-room)."} folder={"rooms"} image={"zero.jpg"} />
 
 ## Deprecated Rooms
 
-<TabbedImages imgs={
-`
-Cross roads:
-  folder: rooms/old
-  image: crossroads.jpg
-  description: Deprecated in TARDIS version 2.6-beta-1
-Passage (old):
-  folder: rooms/old
-  image: passage.jpg
-  description: Deprecated in TARDIS version 2.6-beta-1
-Passage (long):
-  folder: rooms/old
-  image: long.jpg
-  description: Deprecated in TARDIS version 2.6-beta-1
-`
-}></TabbedImages>
+<TabbedImage name={"Cross roads"} description={"Deprecated in TARDIS version 2.6-beta-1"} folder={"rooms/old"} image={"crossroads.jpg"} />
+<TabbedImage name={"Passage (old)"} description={"Deprecated in TARDIS version 2.6-beta-1"} folder={"rooms/old"} image={"passage.jpg"} />
+<TabbedImage name={"Passage (long)"} description={"Deprecated in TARDIS version 2.6-beta-1"} folder={"rooms/old"} image={"long.jpg"} />

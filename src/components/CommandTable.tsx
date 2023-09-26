@@ -2,7 +2,7 @@ import React from "react";
 import {parse} from "yaml"
 import ReactMarkdown from "react-markdown";
 
-const noP = (props: { children: any; }) => {
+export const noP = (props: { children: any; }) => {
     const { children } = props;
     return children;
 }

@@ -3,7 +3,7 @@ layout: default
 title: Chameleon Presets
 ---
 
-import TabbedImages from '@site/src/components/TabbedImages'
+import TabbedImage from '/src/components/TabbedImage'
 
 # Chameleon Presets
 
@@ -18,194 +18,52 @@ You can view those on the [Adaptive Presets page](adaptive-presets).
 
 These presets use regular Minecraft blocks. When materialising they cycle through stained glass and regular glass for their animation.
 
-<TabbedImages imgs={
-`
-STAINED:
-  folder: presets
-  image: stained_block.jpg
-  description: The stained glass materialisation animation state.
-GLASS:
-  folder: presets
-  image: glass_block.jpg
-  description: The clear glass materialisation animation state.
-GUI:
-  folder: chameleon
-  image: presets_gui_1.jpg
-  description: The Chameleon Preset GUI.
-ANGEL:
-  folder: presets
-  image: angel.jpg
-  description: A weeping angel. Each time it materialises it wings can be either up or down, and its head faces a random direction.
-APPERTURE:
-  folder: presets
-  image: apperture.jpg
-  description: An Apperture Science portal or two.
-CAKE:
-  folder: presets
-  image: cake.jpg
-  description: A birthday cake.
-CANDY:
-  folder: presets
-  image: candy.jpg
-  description: A candy cane. Brush teeth after use.
-CHALICE:
-  folder: presets
-  image: chalice.jpg
-  description: A quartz chalice. It has water in the top.
-CREEPY:
-  folder: presets
-  image: creepy.jpg
-  description: A creepy preset.
-DESERT:
-  folder: presets
-  image: desert.jpg
-  description: A desert temple.
-DUCK:
-  folder: presets
-  image: duck.jpg
-  description: Rubber ducky, you’re the one, you make bath time so much fun. Rubber ducky I’m awfully fond of you...
-FACTORY:
-  folder: presets
-  image: factory.jpg
-  description: A factory fresh TARDIS, straight of the Gallifrean production line.
-FENCE:
-  folder: presets
-  image: fence.jpg
-  description: A random fence.
-FLOWER:
-  folder: presets
-  image: flower.jpg
-  description: A flower. The petals on this preset turn a random colour each time it materialises.
-GAZEBO:
-  folder: presets
-  image: gazebo.jpg
-  description: A gazebo for your garden.
-GRAVESTONE:
-  folder: presets
-  image: gravestone.jpg
-  description: Here lies a Time Lord.
-HELIX:
-  folder: presets
-  image: helix.jpg
-  description: A double helix.
-JAIL:
-  folder: presets
-  image: jail.jpg
-  description: Go directly to jail!
-JUNGLE:
-  folder: presets
-  image: jungle.jpg
-  description: A jungle temple.
-LAMP:
-  folder: presets
-  image: lamp.jpg
-  description: A lamp post.
-LIBRARY:
-  folder: presets
-  image: library.jpg
-  description: A Time Lord’s library.
-LIGHTHOUSE:
-  folder: presets
-  image: lighthouse.jpg
-  description: A tiny lighthouse.
-MINESHAFT:
-  folder: presets
-  image: mineshaft.jpg
-  description: A mineshaft complete with torches and cobweb.
-NETHER:
-  folder: presets
-  image: nether.jpg
-  description: A small nether fortress.
-NEW:
-  folder: presets
-  image: new.jpg
-  description: The new taller style Police Box. This is the default preset. If the Chameleon Circuit is ON, this will blend in with its surroundings.
-CIRCUIT ON:
-  folder: presets
-  image: chameleonON.jpg
-  description: The NEW preset with the Chameleon Circuit turned on.
-OLD:
-  folder: presets
-  image: old.jpg
-  description: The old style Police Box from the early days of the plugin. If the Chameleon Circuit is ON, this will blend in with its surroundings.
-PARTY:
-  folder: presets
-  image: party.jpg
-  description: A party tent. Bring on the disco sheep. This preset turns a random colour each time it materialises.
-PEANUT:
-  folder: presets
-  image: peanut.jpg
-  description: A peanut butter jar.
-PINE:
-  folder: presets
-  image: pine.jpg
-  description: A snowy spruce tree.
-PORTAL:
-  folder: presets
-  image: portal.jpg
-  description: A nether portal.
-PUNKED:
-  folder: presets
-  image: punked.jpg
-  description: A steam punked exterior.
-ROBOT:
-  folder: presets
-  image: robot.jpg
-  description: A robot with a head that faces a random direction.
-SHROOM:
-  folder: presets
-  image: shroom.jpg
-  description: A brown mushroom.
-SNOWMAN:
-  folder: presets
-  image: snowman.jpg
-  description: A snowman, takes one to snow one :)
-STONE:
-  folder: presets
-  image: column.jpg
-  description: A stone brick column.
-SUBMERGED:
-  folder: presets
-  image: submerged.jpg
-  description: A partially submerged home. If the Chameleon Circuit is ON, this will blend in with its surroundings.
-SWAMP:
-  folder: presets
-  image: swamp.jpg
-  description: A swamp hut.
-TELEPHONE:
-  folder: presets
-  image: telephone.jpg
-  description: A red telephone box.
-TOILET:
-  folder: presets
-  image: toilet.jpg
-  description: A toilet, for when you just need to go...
-TOPSYTURVEY:
-  folder: presets
-  image: topsy.jpg
-  description: An upside down Police Box.
-TORCH:
-  folder: presets
-  image: torch.jpg
-  description: A flaming torch. Be careful where you park!
-VILLAGE:
-  folder: presets
-  image: village.jpg
-  description: A village house of stone and wood.
-WELL:
-  folder: presets
-  image: well.jpg
-  description: A mossy well, the door is inside the well.
-WINDMILL:
-  folder: presets
-  image: windmill.jpg
-  description: A miniature windmill.
-YELLOW:
-  folder: presets
-  image: yellow_sub.jpg
-  description: A yellow submarine.
-`
-}></TabbedImages>
+<TabbedImage name={"STAINED"} description={"The stained glass materialisation animation state."} folder={"presets"} image={"stained_block.jpg"} />
+<TabbedImage name={"GLASS"} description={"The clear glass materialisation animation state."} folder={"presets"} image={"glass_block.jpg"} />
+<TabbedImage name={"GUI"} description={"The Chameleon Preset GUI."} folder={"chameleon"} image={"presets_gui_1.jpg"} />
+<TabbedImage name={"ANGEL"} description={"A weeping angel. Each time it materialises it wings can be either up or down, and its head faces a random direction."} folder={"presets"} image={"angel.jpg"} />
+<TabbedImage name={"APPERTURE"} description={"An Apperture Science portal or two."} folder={"presets"} image={"apperture.jpg"} />
+<TabbedImage name={"CAKE"} description={"A birthday cake."} folder={"presets"} image={"cake.jpg"} />
+<TabbedImage name={"CANDY"} description={"A candy cane. Brush teeth after use."} folder={"presets"} image={"candy.jpg"} />
+<TabbedImage name={"CHALICE"} description={"A quartz chalice. It has water in the top."} folder={"presets"} image={"chalice.jpg"} />
+<TabbedImage name={"CREEPY"} description={"A creepy preset."} folder={"presets"} image={"creepy.jpg"} />
+<TabbedImage name={"DESERT"} description={"A desert temple."} folder={"presets"} image={"desert.jpg"} />
+<TabbedImage name={"DUCK"} description={"Rubber ducky, you’re the one, you make bath time so much fun. Rubber ducky I’m awfully fond of you..."} folder={"presets"} image={"duck.jpg"} />
+<TabbedImage name={"FACTORY"} description={"A factory fresh TARDIS, straight of the Gallifrean production line."} folder={"presets"} image={"factory.jpg"} />
+<TabbedImage name={"FENCE"} description={"A random fence."} folder={"presets"} image={"fence.jpg"} />
+<TabbedImage name={"FLOWER"} description={"A flower. The petals on this preset turn a random colour each time it materialises."} folder={"presets"} image={"flower.jpg"} />
+<TabbedImage name={"GAZEBO"} description={"A gazebo for your garden."} folder={"presets"} image={"gazebo.jpg"} />
+<TabbedImage name={"GRAVESTONE"} description={"Here lies a Time Lord."} folder={"presets"} image={"gravestone.jpg"} />
+<TabbedImage name={"HELIX"} description={"A double helix."} folder={"presets"} image={"helix.jpg"} />
+<TabbedImage name={"JAIL"} description={"Go directly to jail!"} folder={"presets"} image={"jail.jpg"} />
+<TabbedImage name={"JUNGLE"} description={"A jungle temple."} folder={"presets"} image={"jungle.jpg"} />
+<TabbedImage name={"LAMP"} description={"A lamp post."} folder={"presets"} image={"lamp.jpg"} />
+<TabbedImage name={"LIBRARY"} description={"A Time Lord’s library."} folder={"presets"} image={"library.jpg"} />
+<TabbedImage name={"LIGHTHOUSE"} description={"A tiny lighthouse."} folder={"presets"} image={"lighthouse.jpg"} />
+<TabbedImage name={"MINESHAFT"} description={"A mineshaft complete with torches and cobweb."} folder={"presets"} image={"mineshaft.jpg"} />
+<TabbedImage name={"NETHER"} description={"A small nether fortress."} folder={"presets"} image={"nether.jpg"} />
+<TabbedImage name={"NEW"} description={"The new taller style Police Box. This is the default preset. If the Chameleon Circuit is ON, this will blend in with its surroundings."} folder={"presets"} image={"new.jpg"} />
+<TabbedImage name={"CIRCUIT ON"} description={"The NEW preset with the Chameleon Circuit turned on."} folder={"presets"} image={"chameleonON.jpg"} />
+<TabbedImage name={"OLD"} description={"The old style Police Box from the early days of the plugin. If the Chameleon Circuit is ON, this will blend in with its surroundings."} folder={"presets"} image={"old.jpg"} />
+<TabbedImage name={"PARTY"} description={"A party tent. Bring on the disco sheep. This preset turns a random colour each time it materialises."} folder={"presets"} image={"party.jpg"} />
+<TabbedImage name={"PEANUT"} description={"A peanut butter jar."} folder={"presets"} image={"peanut.jpg"} />
+<TabbedImage name={"PINE"} description={"A snowy spruce tree."} folder={"presets"} image={"pine.jpg"} />
+<TabbedImage name={"PORTAL"} description={"A nether portal."} folder={"presets"} image={"portal.jpg"} />
+<TabbedImage name={"PUNKED"} description={"A steam punked exterior."} folder={"presets"} image={"punked.jpg"} />
+<TabbedImage name={"ROBOT"} description={"A robot with a head that faces a random direction."} folder={"presets"} image={"robot.jpg"} />
+<TabbedImage name={"SHROOM"} description={"A brown mushroom."} folder={"presets"} image={"shroom.jpg"} />
+<TabbedImage name={"SNOWMAN"} description={"A snowman, takes one to snow one :)"} folder={"presets"} image={"snowman.jpg"} />
+<TabbedImage name={"STONE"} description={"A stone brick column."} folder={"presets"} image={"column.jpg"} />
+<TabbedImage name={"SUBMERGED"} description={"A partially submerged home. If the Chameleon Circuit is ON, this will blend in with its surroundings."} folder={"presets"} image={"submerged.jpg"} />
+<TabbedImage name={"SWAMP"} description={"A swamp hut."} folder={"presets"} image={"swamp.jpg"} />
+<TabbedImage name={"TELEPHONE"} description={"A red telephone box."} folder={"presets"} image={"telephone.jpg"} />
+<TabbedImage name={"TOILET"} description={"A toilet, for when you just need to go..."} folder={"presets"} image={"toilet.jpg"} />
+<TabbedImage name={"TOPSYTURVEY"} description={"An upside down Police Box."} folder={"presets"} image={"topsy.jpg"} />
+<TabbedImage name={"TORCH"} description={"A flaming torch. Be careful where you park!"} folder={"presets"} image={"torch.jpg"} />
+<TabbedImage name={"VILLAGE"} description={"A village house of stone and wood."} folder={"presets"} image={"village.jpg"} />
+<TabbedImage name={"WELL"} description={"A mossy well, the door is inside the well."} folder={"presets"} image={"well.jpg"} />
+<TabbedImage name={"WINDMILL"} description={"A miniature windmill."} folder={"presets"} image={"windmill.jpg"} />
+<TabbedImage name={"YELLOW"} description={"A yellow submarine."} folder={"presets"} image={"yellow_sub.jpg"} />
 
 ## Page two
 
@@ -213,102 +71,29 @@ Page two contains mostly police box presets in all the Minecraft colours. All th
 Armour Stand. They have custom block models for the materialisation animation as well. These presets can be used to fly
 the TARDIS exterior see [Flying the TARDIS](flying).
 
-<TabbedImages imgs={
-`
-TRANSPARENT COLOURED POLICE BOX:
-  folder: presets
-  image: stained.jpg
-  description: The stained transparent materialisation animation state.
-TRANSPARENT POLICE BOX:
-  folder: presets
-  image: glass.jpg
-  description: The transparent materialisation animation state.
-Presets GUI page 2:
-  folder: chameleon
-  image: presets_gui_2.jpg
-  description: The second page of the Chameleon Presets GUI
-POLICE_BOX_BLUE:
-  folder: presets
-  image: blue.jpg
-  description: A standard blue police box.
-POLICE_BOX_WHITE:
-  folder: presets
-  image: white.jpg
-  description: A white police box.
-POLICE_BOX_ORANGE:
-  folder: presets
-  image: orange.jpg
-  description: An orange police box.
-POLICE_BOX_MAGENTA:
-  folder: presets
-  image: magenta.jpg
-  description: A magenta police box.
-POLICE_BOX_LIGHT_BLUE:
-  folder: presets
-  image: light_blue.jpg
-  description: A light blue police box.
-POLICE_BOX_YELLOW:
-  folder: presets
-  image: yellow.jpg
-  description: A yellow police box.
-POLICE_BOX_LIME:
-  folder: presets
-  image: lime.jpg
-  description: A lime police box.
-POLICE_BOX_PINK:
-  folder: presets
-  image: pink.jpg
-  description: A pink police box.
-POLICE_BOX_GRAY:
-  folder: presets
-  image: gray.jpg
-  description: A gray police box.
-POLICE_BOX_LIGHT_GRAY:
-  folder: presets
-  image: light_gray.jpg
-  description: A light gray police box.
-POLICE_BOX_CYAN:
-  folder: presets
-  image: cyan.jpg
-  description: A cyan police box.
-POLICE_BOX_PURPLE:
-  folder: presets
-  image: purple.jpg
-  description: A purple police box.
-POLICE_BOX_BROWN:
-  folder: presets
-  image: brown.jpg
-  description: A brown police box.
-POLICE_BOX_GREEN:
-  folder: presets
-  image: green.jpg
-  description: A green police box.
-POLICE_BOX_RED:
-  folder: presets
-  image: red.jpg
-  description: A red police box.
-POLICE_BOX_BLACK:
-  folder: presets
-  image: black.jpg
-  description: A black police box.
-WEEPING_ANGEL:
-  folder: presets
-  image: weeping.jpg
-  description: A weeping angel.
-COLOUR PICKER:
-  description: Mix your own colour police box! Use the colour picker to mix your own favourite colour.
-  folder: chameleon
-  image: colour_picker_gui.jpg
-ANY COLOUR:
-  description: Any colour!
-  folder: presets
-  image: any_colour_police_box.jpg
-PANDORICA:
-  folder: presets
-  image: pandorica.jpg
-  description: The Pandorica. This preset has animated opening doors.
-`
-}></TabbedImages>
+<TabbedImage name={"TRANSPARENT COLOURED POLICE BOX"} description={"The stained transparent materialisation animation state."} folder={"presets"} image={"stained.jpg"} />
+<TabbedImage name={"TRANSPARENT POLICE BOX"} description={"The transparent materialisation animation state."} folder={"presets"} image={"glass.jpg"} />
+<TabbedImage name={"Presets GUI page 2"} description={"The second page of the Chameleon Presets GUI"} folder={"chameleon"} image={"presets_gui_2.jpg"} />
+<TabbedImage name={"POLICE_BOX_BLUE"} description={"A standard blue police box."} folder={"presets"} image={"blue.jpg"} />
+<TabbedImage name={"POLICE_BOX_WHITE"} description={"A white police box."} folder={"presets"} image={"white.jpg"} />
+<TabbedImage name={"POLICE_BOX_ORANGE"} description={"An orange police box."} folder={"presets"} image={"orange.jpg"} />
+<TabbedImage name={"POLICE_BOX_MAGENTA"} description={"A magenta police box."} folder={"presets"} image={"magenta.jpg"} />
+<TabbedImage name={"POLICE_BOX_LIGHT_BLUE"} description={"A light blue police box."} folder={"presets"} image={"light_blue.jpg"} />
+<TabbedImage name={"POLICE_BOX_YELLOW"} description={"A yellow police box."} folder={"presets"} image={"yellow.jpg"} />
+<TabbedImage name={"POLICE_BOX_LIME"} description={"A lime police box."} folder={"presets"} image={"lime.jpg"} />
+<TabbedImage name={"POLICE_BOX_PINK"} description={"A pink police box."} folder={"presets"} image={"pink.jpg"} />
+<TabbedImage name={"POLICE_BOX_GRAY"} description={"A gray police box."} folder={"presets"} image={"gray.jpg"} />
+<TabbedImage name={"POLICE_BOX_LIGHT_GRAY"} description={"A light gray police box."} folder={"presets"} image={"light_gray.jpg"} />
+<TabbedImage name={"POLICE_BOX_CYAN"} description={"A cyan police box."} folder={"presets"} image={"cyan.jpg"} />
+<TabbedImage name={"POLICE_BOX_PURPLE"} description={"A purple police box."} folder={"presets"} image={"purple.jpg"} />
+<TabbedImage name={"POLICE_BOX_BROWN"} description={"A brown police box."} folder={"presets"} image={"brown.jpg"} />
+<TabbedImage name={"POLICE_BOX_GREEN"} description={"A green police box."} folder={"presets"} image={"green.jpg"} />
+<TabbedImage name={"POLICE_BOX_RED"} description={"A red police box."} folder={"presets"} image={"red.jpg"} />
+<TabbedImage name={"POLICE_BOX_BLACK"} description={"A black police box."} folder={"presets"} image={"black.jpg"} />
+<TabbedImage name={"WEEPING_ANGEL"} description={"A weeping angel."} folder={"presets"} image={"weeping.jpg"} />
+<TabbedImage name={"COLOUR PICKER"} description={"Mix your own colour police box! Use the colour picker to mix your own favourite colour."} folder={"chameleon"} image={"colour_picker_gui.jpg"} />
+<TabbedImage name={"ANY COLOUR"} description={"Any colour!"} folder={"presets"} image={"any_colour_police_box.jpg"} />
+<TabbedImage name={"PANDORICA"} description={"The Pandorica. This preset has animated opening doors."} folder={"presets"} image={"pandorica.jpg"} />
 
 ## Custom model presets
 
@@ -316,15 +101,5 @@ You can add your own custom models to the plugin - see the [Custom model presets
 more details. These presets will appear on page two.
 The plugin includes two example models (both of which can be flown):
 
-<TabbedImages imgs={
-`
-Type 40:
-  description: A Type 40 time travel capsule.
-  folder: presets
-  image: type_40.jpg
-Bad Wolf:
-  folder: presets
-  image: bad_wolf.jpg
-  description: The Bad Wolf TARDIS from new Who Series 1.
-`
-}></TabbedImages>
+<TabbedImage name={"Type 40"} description={"A Type 40 time travel capsule."} folder={"presets"} image={"type_40.jpg"} />
+<TabbedImage name={"Bad Wolf"} description={"The Bad Wolf TARDIS from new Who Series 1."} folder={"presets"} image={"bad_wolf.jpg"} />
