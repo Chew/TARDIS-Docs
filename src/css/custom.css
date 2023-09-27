@@ -45,8 +45,8 @@ code { color: #006ca6; }
     width: 42px;
     height: 71px;
     background-repeat: no-repeat;
-    background-image: url('/images/sidebar-tardis-light.png');
+    background-image: url('/images/sidebar-tardis-light.svg');
 }
 [data-theme='dark'] #sidebar-tardis {
-    background-image: url('/images/sidebar-tardis-dark.png');
+    background-image: url('/images/sidebar-tardis-dark.svg');
 }
