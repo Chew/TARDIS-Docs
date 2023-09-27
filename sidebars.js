@@ -107,6 +107,7 @@ const sidebars = {
             'gravity-wells',
             'zero-room',
             'rail-room',
+            'smelter',
             'vault',
           ]
         },
