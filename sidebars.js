@@ -82,10 +82,10 @@ const sidebars = {
         'keyboard',
         'malfunction',
         'destination-terminal',
-		'randomiser-circuit',
-		'flight-modes',
-		'flying',
-		'throttle',
+        'randomiser-circuit',
+        'flight-modes',
+        'flying',
+        'throttle',
       ],
     },
     {
@@ -111,19 +111,19 @@ const sidebars = {
             'vault',
           ]
         },
-		{
-			type: 'category',
-			label: 'Chamemelon Circuit',
-			items: [
+        {
+            type: 'category',
+            label: 'Chamemelon Circuit',
+            items: [
         'chameleon-circuit',
-				'presets',
-				'shell-room',
-				'chameleon-construction',
-				'custom-preset',
-				'custom-model-presets',
-				'adaptive-presets'
-			]
-		}
+                'presets',
+                'shell-room',
+                'chameleon-construction',
+                'custom-preset',
+                'custom-model-presets',
+                'adaptive-presets'
+            ]
+        }
       ],
     },
     {
@@ -137,12 +137,12 @@ const sidebars = {
         'save-sign',
         'chameleon-circuit',
         'invisibility',
-		'telepathic-circuit',
-		'temporal-locator',
-		'monitor',
-		'circuit-use',
-		'writing-disks',
-		'bedrock'
+        'telepathic-circuit',
+        'temporal-locator',
+        'monitor',
+        'circuit-use',
+        'writing-disks',
+        'bedrock'
       ],
     },
     {
@@ -152,45 +152,45 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-	    'tardis-items',
+        'tardis-items',
         'resource-packs',
         'lazarus',
-		{
-			type: 'category',
-			label: 'Sonic Screwdriver',
-			items: [
-				'sonic-screwdriver',
-				'sonic-configurator',
-				'sonic-generator'
-			]
-		},
-		'time-rotor',
+        {
+            type: 'category',
+            label: 'Sonic Screwdriver',
+            items: [
+                'sonic-screwdriver',
+                'sonic-configurator',
+                'sonic-generator'
+            ]
+        },
+        'time-rotor',
         'perception-filter',
-		'chameleon-arch',
-		'siege-mode',
+        'chameleon-arch',
+        'siege-mode',
         'junk-tardis',
         'food',
         'accessories',
         'scanner',
         'farming',
         'hads',
-		'abandon',
+        'abandon',
         'emergency-program-one',
         'autonomous',
-		'remote-key',
+        'remote-key',
         'translator',
         'achievements',
         'books',
         'schematics',
         'archive',
         'handles',
-		'display',
-		'map',
-		'transmat',
-		'rift-manipulator',
-		'backdoors',
-		'artron-furnace',
-		'view-interior',
+        'display',
+        'map',
+        'transmat',
+        'rift-manipulator',
+        'backdoors',
+        'artron-furnace',
+        'view-interior',
         {
           type: 'category',
           label: "Chemistry Lab",
@@ -241,28 +241,29 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-	    'planets',
-		'world-management',
-		'custom-consoles',
-		'item_displays',
+        'bug-reports',
+        'planets',
+        'world-management',
+        'custom-consoles',
+        'item_displays',
         'localisation',
-		'placeholders',
+        'placeholders',
         'tips',
         'permissions',
-		'permissions-table',
+        'permissions-table',
         'kits',
         'recipes',
         'add-permissions',
         'tardis-areas',
         'rooms-and-economies',
         'time-vortex',
-		'wiki-sign',
-		'prune',
+        'wiki-sign',
+        'prune',
         'api',
-		'update-blocks',
-		'build-tools',
-		'sqlite-mysql-tool',
-		'change-log'
+        'update-blocks',
+        'build-tools',
+        'sqlite-mysql-tool',
+        'change-log'
       ],
     },
     {
