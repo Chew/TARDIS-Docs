@@ -1,11 +1,6 @@
 import React from "react";
 import {parse} from "yaml"
 
-const noP = (props: { children: any; }) => {
-    const { children } = props;
-    return children;
-}
-
 function HandleCommand({ yml, cmd } : { yml: object, cmd: string }) {
     let indentation = "indent0";
     let a = yml[cmd].aliases

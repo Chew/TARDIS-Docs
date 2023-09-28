@@ -1,0 +1,72 @@
+---
+layout: default
+title: Biome Adaptive Chameleon Presets
+---
+
+import TabbedImage from "@site/src/components/TabbedImage";
+
+# Biome Adaptive Chameleon Presets
+
+When the Chameleon Circuit is set to Adaptive Biome mode, the TARDIS exterior preset is selected based on the biome that
+the TARDIS travels to.
+
+You can configure which preset is used for which biome by editing _adaptive.yml_.
+The file uses YAML aliases - for example:
+
+```yaml title="/plugins/TARDIS/adaptive.yml"
+# snowy biomes
+SNOWY_TAIGA: &snowy COLD_TAIGA
+SNOWY_SLOPES: *snowy
+```
+
+* `&snowy` defines an _alias_ to the `COLD_TAIGA` preset
+* `*snowy` is an _instance_ of the alias
+
+You can either change the alias `&snowy` to another Chameleon preset e.g. `&snowy PINE`, and the other instances will
+use that as well, or set a preset for each individual biome.
+
+You can use any Chameleon block preset as well as the biome presets shown below.
+
+:::note
+
+You can only use an `&`alias if it has been defined in the file above where you want to use the `*` instance - so to change _every_ snowy biome you would need to set the alias up in the `# frozen biomes` section first.
+
+:::
+
+## Biomes and presets
+
+By default the plugin maps biomes to presets in the following way:
+
+<TabbedImage name={"Beach, frozen river, river, snowy beach, stony shore"} description={"BOAT"} folder={"presets"} image={"adaptive_beach.jpg"} heading={3} />
+<TabbedImage name={"Cold ocean, deep cold ocean, deep lukewarm ocean, deep ocean, lukewarm ocean, ocean, warm ocean"} description={"YELLOW"} folder={"presets"} image={"adaptive_sub.jpg"} heading={3} />
+<TabbedImage name={"Desert"} description={"DESERT"} folder={"presets"} image={"adaptive_desert.jpg"} heading={3} />
+<TabbedImage name={"Windswept gravelly hills, windswept hills, windswept forest"} description={"EXTREME_HILLS"} folder={"presets"} image={"adaptive_hills.jpg"} heading={3} />
+<TabbedImage name={"Birch forest, forest, old growth birch forest"} description={"FOREST"} folder={"presets"} image={"adaptive_forest.jpg"} heading={3} />
+<TabbedImage name={"Nether wastes, soul sand valley, crimson forest, warped forest, basalt deltas"} description={"NETHER"} folder={"presets"} image={"adaptive_nether.jpg"} heading={3} />
+<TabbedImage name={"Snowy plains, deep frozen ocean, frozen ocean, jagged peaks, snowy peaks"} description={"ICE_FLATS"} folder={"presets"} image={"adaptive_ice_flats.jpg"} heading={3} />
+<TabbedImage name={"Ice spikes"} description={"ICE_SPIKES"} folder={"presets"} image={"adaptive_spikes.jpg"} heading={3} />
+<TabbedImage name={"Jungle, sparse jungle, bamboo jungle"} description={"JUNGLE"} folder={"presets"} image={"adaptive_jungle.jpg"} heading={3} />
+<TabbedImage name={"Badlands, wooded badlands, eroded badlands"} description={"MESA"} folder={"presets"} image={"adaptive_mesa.jpg"} heading={3} />
+<TabbedImage name={"Mushroom fields"} description={"SHROOM"} folder={"presets"} image={"adaptive_shroom.jpg"} heading={3} />
+<TabbedImage name={"Plains, sunflower plains, meadow"} description={"PLAINS"} folder={"presets"} image={"adaptive_plains.jpg"} heading={3} />
+<TabbedImage name={"Dark forest, flower forest"} description={"ROOFED_FOREST"} folder={"presets"} image={"adaptive_dark.jpg"} heading={3} />
+<TabbedImage name={"Savanna, windswept savanna, savanna plateau"} description={"SAVANNA"} folder={"presets"} image={"adaptive_savanna.jpg"} heading={3} />
+<TabbedImage name={"Swamp, mangrove swamp"} description={"SWAMP"} folder={"presets"} image={"adaptive_swamp.jpg"} heading={3} />
+<TabbedImage name={"End barrens, End highlands, End midlands, small End islands, The End"} description={"THEEND"} folder={"presets"} image={"adaptive_the_end.jpg"} heading={3} />
+<TabbedImage name={"Old growth spruce taiga, taiga, old growth pine taiga"} description={"TAIGA"} folder={"presets"} image={"adaptive_taiga.jpg"} heading={3} />
+<TabbedImage name={"Snowy taiga, snowy slopes, grove"} description={"COLD_TAIGA"} folder={"presets"} image={"adaptive_cold_taiga.jpg"} heading={3} />
+
+## Locking in a preset
+
+You can use the Chameleon GUI to lock in an adaptive biome preset so that it is used regardless of the biome the TARDIS travels to.
+
+To lock the preset:
+
+1. Set the Chameleon circuit to BIOME Adaptive mode.
+2. Travel to the biome that has the desired preset.
+3. Open the Chameleon GUI again and click the "Lock" button above the Adaptive setting.
+
+Clicking the button will switch the settings to _Shorted out_ and apply the biome preset on a permanent basis (it
+   won't change when you go to a different biome).
+
+<TabbedImage name={"Adaptive biome locked"} description={""} folder={"chameleon"} image={"chameleon_lock.jpg"} heading={false} />

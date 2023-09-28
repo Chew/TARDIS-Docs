@@ -50,8 +50,8 @@ export default function CommandTable({ data, args, cmd, extra } : { data: string
     const root = parse(data);
     const subs = parse(args);
 
-    let head = ""
-    let command = ""
+    let head = <></>
+    let command = <></>
     if (extra == 'false') {
         head = (
             <thead>
