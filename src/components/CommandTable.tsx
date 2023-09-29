@@ -35,7 +35,7 @@ function HandleSubs({ymlKey, value, cmd} : {ymlKey: string, value: any, cmd: str
     return (
         <>
             <tr>
-                <td className={indentation}><code>{ymlKey}</code></td>
+                <td className={indentation} id={ymlKey}><code>{ymlKey}</code></td>
                 <td><ReactMarkdown children={value.description} components={{p: noP}} /><br/><ReactMarkdown children={subperm} components={{p: noP}} /></td>
                 <td><code>{value.usage.replace("<command>", cmd)}</code></td>
             </tr>

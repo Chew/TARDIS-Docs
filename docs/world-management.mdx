@@ -1,0 +1,85 @@
+---
+layout: default
+title: World management
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# World management
+
+From TARDIS v4.1.0 the plugin can now manage any worlds on the server and no longer relies on a separate multi-world
+plugin such as Multiverse.
+
+Configuration for world management is handled by [planets.yml](configuration/planets).
+
+## Commands
+
+## `/tardisworld`
+
+The main world management command is `/tardisworld`.
+
+<CommandTable data={
+    `tardisworld:
+        aliases: tworld
+        description: Load or unload TARDIS worlds
+        permission: tardis.admin
+        usage: /<command> [subcommand] [world] [options...]
+    `
+}
+args={
+    `
+    load:
+      description: Loads a world for TARDIS to manage and enables it in _planets.yml_. \`world\` should be the name of the world folder. \`WorldType\` should be either \`NORMAL\` or \`FLAT\`. \`Environment\` should be one of \`NORMAL\`, \`NETHER\`, or \`THE_END\`. \`generator\` should be the name of the plugin that will generate the world terrain e.g. \`TARDIS:void\`.
+      usage: /<command> load [world] <WorldType> <Environment> <generator>
+    unload:
+      description: Unloads a world from the server and disables it in _planets.yml_.
+      usage: /<command> unload [world]
+    gm:
+      description: Sets the default gamemode for a world. \`world\` should be the name of the world folder. \`gamemode\` should be one of \`SURVIVAL\`, \`CREATIVE\`, \`ADVENTURE\`, or \`SPECTATOR\`.
+      usage: /<command> gm [world] [gamemode]
+    enable:
+      description: Enables time travel to the specified world
+      usage: /<command> enable [world]
+    disable:
+      description: Disables time travel to the specified world
+      usage: /<command> disable [world]
+    update_name:
+      description: Updates legacy world names in the areas/back/current/destinations/dispersed/homes/next database tables
+      usage: /<command> update_name [world]
+    info:
+      description: Display planet.yml configuration options for a world
+      usage: /<command> info [world]
+    rename:
+      description: Renames the world folder and the record in the _level.dat_ file.
+      usage: /<command> rename [old name] [new name]
+    dimensionicon:
+      description: Change the icon for a world in the TARDIS Saves GUI.
+      usage: /<command> dimensionicon [world] [material]
+`
+}
+cmd='tardisworld'
+extra='false'
+/>
+
+## `/tardisteleport`
+
+Teleporting between worlds is handled by the `/tardisteleport` command.
+
+<CommandTable data={
+    `tardisteleport:
+    aliases: [ tardistp, ttp ]
+    description: Teleport to a world's spawn point
+    permission: tardis.admin
+    usage: /<command> [world]
+    `
+}
+args={
+    `
+    '[world]':
+        description: Teleports the player running the command to the specified world’s spawn point.
+        usage: /<command> [world]
+    `
+}
+cmd='tardisteleport'
+extra='false'
+/>
