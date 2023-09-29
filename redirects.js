@@ -56,6 +56,7 @@ const redirects = {
     '/room-gallery': '/rooms/gallery',
     '/gravity-wells': '/rooms/gravity-wells',
     '/rail-room': '/rooms/rail',
+    '/shell-room': '/rooms/shell',
     '/smelter': '/rooms/smelter',
     '/vault': '/rooms/vault',
     '/zero-room': '/rooms/zero',
