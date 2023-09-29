@@ -117,7 +117,7 @@ const sidebars = {
             items: [
         'chameleon-circuit',
                 'presets',
-                'shell-room',
+                'rooms/shell',
                 'chameleon-construction',
                 'custom-preset',
                 'custom-model-presets',

@@ -254,8 +254,8 @@ import TabItem from '@theme/TabItem';
 	<a href="modules/weeping-angels#sea-devils" title="Sea Devils">Sea Devils</a><br/>
 	<a href="creating-a-tardis#tardis-types" title="Seed Blocks">Seed Blocks</a><br/>
 	<a href="commands/area#semi-random-parking-areas" title="Semi-random parking areas">Semi-random parking areas</a><br/>
-	<a href="shell-room" title="Shell room">Shell room</a><br/>
-	<a href="shell-room#shell-loader" title="Shell Loader">Shell Loader</a><br/>
+	<a href="/rooms/shell" title="Shell room">Shell room</a><br/>
+	<a href="/rooms/shell#shell-loader" title="Shell Loader">Shell Loader</a><br/>
 	<a href="siege-mode" title="Siege Mode">Siege mode</a><br/>
 	<a href="planets#planet-siluria" title="Siluria">Siluria</a><br/>
 	<a href="modules/weeping-angels#silent" title="Silent">Silent</a><br/>
