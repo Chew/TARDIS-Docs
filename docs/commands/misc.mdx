@@ -13,17 +13,13 @@ Some utility commands available in the TARDIS plugin.
 
 Get help with TARDIS plugin commands.
 
-<SimpleCommandTable data={
-`'tardis?':
+<SimpleCommandTable data={`
+'tardis?':
     aliases: [ 't?', tardishelp ]
     description: Get help with TARDIS commands.
     permission: none needed
-    usage: /<command> [command] [argument]
-    `
-}
-cmd='tardis?'
->
-</SimpleCommandTable>
+    usage: /\<command\> [command] [argument]
+`} cmd='tardis?' />
 
 ## `/tardisartron`
 
@@ -34,45 +30,33 @@ You can transfer energy either from your TARDIS, or using your own Time Lord ene
     aliases: tartron
     description: Transfer Artron Energy to an Artron Storage Cell
     permission: tardis.store
-    usage: /<command> [tardis|timelord] [amount]
-    `
-}
-cmd='tardisartron'
->
-</SimpleCommandTable>
+    usage: /\<command\> [tardis|timelord] [amount]
+`} cmd='tardisartron' />
 
 ## `/tardissay`
 
 Send translated text in chat. For more information see [TARDIS Universal Translator](translator).
 
-<SimpleCommandTable data={
-`tardissay:
+<SimpleCommandTable data={`
+tardissay:
     aliases: tsay
     description: Say something in a different language via the TARDIS Universal Translator.
     permission: tardis.translate
-    permission-message: You don't have the permission <permission> to use this command
-    usage: /<command> [language] [message]
-    `
-}
-cmd='tardissay'
->
-</SimpleCommandTable>
+    permission-message: You don't have the permission \<permission\> to use this command
+    usage: /\<command\> [language] [message]
+`} cmd='tardissay' />
 
 ## `/tardisgravity`
 
-This command will let you create either sideways gravity wells, or up and down ones of any height (though you’ll need to build your own gravity shaft). For more information see [Gravity Wells](/gravity-wells).
+This command will let you create either sideways gravity wells, or up and down ones of any height (though you’ll need to build your own gravity shaft). For more information see [Gravity Wells](/rooms/gravity-wells).
 
-<SimpleCommandTable data={
-`tardisgravity:
+<SimpleCommandTable data={`
+tardisgravity:
     aliases: tgravity
     description: Add or remove gravity well blocks.
     permission: tardis.gravity
-    usage: /<command> [up|down|north|west|south|east|remove] [distance] [velocity]
-    `
-}
-cmd='tardisgravity'
->
-</SimpleCommandTable>
+    usage: /\<command\> [up|down|north|west|south|east|remove] [distance] [velocity]
+`} cmd='tardisgravity' />
 
 ## `/tardiscall`
 
@@ -84,83 +68,63 @@ If you're wandering around in your TARDIS, and a friend wants you to come and ch
 
 :::
 
-<SimpleCommandTable data={
-`tardiscall:
+<SimpleCommandTable data={`
+tardiscall:
     aliases: tcall
     description: Request a player to bring their TARDIS to your targeted location.
     permission: tardis.use
-    usage: /<command> [player]
-    `
-}
-cmd='tardiscall'
->
-</SimpleCommandTable>
+    usage: /\<command\> [player]
+`} cmd='tardiscall' />
 
 ## `/tardissay`
 
 Send translated text in chat. For more information see [TARDIS Universal Translator](/translator).
 
-<SimpleCommandTable data={
-`tardissay:
+<SimpleCommandTable data={`
+tardissay:
     aliases: tsay
     description: Say something in a different language via the TARDIS Universal Translator.
     permission: tardis.translate
-    permission-message: You don't have the permission <permission> to use this command
-    usage: /<command> [language] [message]
-    `
-}
-cmd='tardissay'
->
-</SimpleCommandTable>
+    permission-message: You don't have the permission \<permission\> to use this command
+    usage: /\<command\> [language] [message]
+`} cmd='tardissay' />
 
 ## `/tardisbook`
 
 Get and list TARDIS achievement books. For more information see [Timelore books](/books).
 
-<SimpleCommandTable data={
-`tardisbook:
+<SimpleCommandTable data={`
+tardisbook:
     aliases: tbook
     description: Get and read TARDIS books and start TARDIS achievements.
     permission: tardis.book
-    permission-message: You don't have the permission <permission> to use this command
-    usage: /<command> [list|book name] [get|start]
-    `
-}
-cmd='tardisbook'
->
-</SimpleCommandTable>
+    permission-message: You don't have the permission \<permission\> to use this command
+    usage: /\<command\> [list|book name] [get|start]
+`} cmd='tardisbook' />
 
 ## `/tardisgamemode`
 
 Set a player's gamemode - if no player is specified, then the gamemode is changed for the player running the command.
 
-<SimpleCommandTable data={
-`tardisgamemode:
+<SimpleCommandTable data={`
+tardisgamemode:
     aliases: [ tgm, tgms, tgmc, tgma, tgmsp ]
     description: Set a player's gamemode
     permission: tardis.admin
-    usage: /<command> [GameMode] <player>
-    `
-}
-cmd='tardisgamemode'
->
-</SimpleCommandTable> 
+    usage: /\<command\> [GameMode] \<player\>
+`} cmd='tardisgamemode' />
 
 ## `/tardismushroom`
 
 Fix broken mushroom block textures.
 
-<SimpleCommandTable data={
-`tardismushroom:
+<SimpleCommandTable data={`
+tardismushroom:
     aliases: tmushroom
     description: Fix broken mushroom block textures.
     permission: tardis.mushroom
-    usage: /<command> [red|brown|stem] [radius]
-    `
-}
-cmd='tardismushroom'
->
-</SimpleCommandTable>
+    usage: /\<command\> [red|brown|stem] [radius]
+`} cmd='tardismushroom' />
 
 Before command:
 
@@ -174,65 +138,49 @@ After command:
 
 Teleport to a world’s spawn point.
 
-<SimpleCommandTable data={
-`tardisteleport:
+<SimpleCommandTable data={`
+tardisteleport:
     aliases: [ tardistp, ttp ]
     description: Teleport to a world’s spawn point
     permission: tardis.admin
-    usage: /<command> [world]
-    `
-}
-cmd='tardisteleport'
->
-</SimpleCommandTable>
+    usage: /\<command\> [world]
+`} cmd='tardisteleport' />
 
 ## `/tardisdisplay`
 
 TARDIS can provide a heads up display (HUD) for players that shows various information. Activate the HUD with this command.
 
-<SimpleCommandTable data={
-`tardisdisplay:
+<SimpleCommandTable data={`
+tardisdisplay:
     aliases: tdisplay
     description: Toggle the TARDIS HUD on and off.
     permission: tardis.display
-    usage: /<command> [ALL|BIOME|COORDS|DIRECTION|TARGET_BLOCK]
-    `
-}
-cmd='tardisdisplay'
->
-</SimpleCommandTable> 
+    usage: /\<command\> [ALL|BIOME|COORDS|DIRECTION|TARGET_BLOCK]
+`} cmd='tardisdisplay' />
 
 ## `/tardistime`
 
 Change the time in the world the player is in (or where their TARDIS is if they are inside it).
 
-<SimpleCommandTable data={
-`tardistime:
+<SimpleCommandTable data={`
+tardistime:
     aliases: ttime
     description: Change the time in the world the player is in (or where their TARDIS is if they are inside it).
     permission: tardis.admin
-    usage: /<command> [day|morning|noon|night|midnight|?AM|?PM|ticks]
-    `
-}
-cmd='tardistime'
->
-</SimpleCommandTable> 
+    usage: /\<command\> [day|morning|noon|night|midnight|?AM|?PM|ticks]
+`} cmd='tardistime' />
 
 ## `/tardisweather`
 
 Change the weather in the world the player is in (or where their TARDIS is if they are inside it).
 
-<SimpleCommandTable data={
-`tardisweather:
+<SimpleCommandTable data={`
+tardisweather:
     aliases: tweather
     description: Change the weather in the world the player is in (or where their TARDIS is if they are inside it).
     permission: tardis.use
-    usage: /<command> [clear|rain|thunder]
-    `
-}
-cmd='tardisweather'
->
-</SimpleCommandTable>
+    usage: /\<command\> [clear|rain|thunder]
+`} cmd='tardisweather' />
 
 You can also add a weather button to your TARDIS console to open a weather GUI. Palce an appropriate block and then run
 the `/tardis update weather` command.
