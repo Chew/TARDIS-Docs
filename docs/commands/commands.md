@@ -25,7 +25,7 @@ and a big list of other miscellaneous utility commands here: [Miscellaneous comm
 
 `/tardisbook` - [Get TARDIS timelore books and start achievements](books)
 
-`/tardisgravity` - [Create TARDIS gravity wells in any direction](gravity-wells)
+`/tardisgravity` - [Create TARDIS gravity wells in any direction](/rooms/gravity-wells)
 
 `/tardisrecipe` - [View recipes for TARDIS items](commands/recipe)
 
@@ -39,7 +39,7 @@ and a big list of other miscellaneous utility commands here: [Miscellaneous comm
 
 `/tardisarea` - [Set up predefined TARDIS travel areas](commands/area)
 
-`/tardisroom` - [Add custom rooms and view room costs](custom-rooms) or [Room Command](commands/room)
+`/tardisroom` - [Add custom rooms and view room costs](/rooms/custom) or [Room Command](/commands/room)
 
 `/tardistexture` - [Switch texture packs when entering/exiting the TARDIS](commands/texture)
 

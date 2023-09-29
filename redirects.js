@@ -50,6 +50,15 @@ const redirects = {
     '/configuration-rooms': '/configuration/rooms',
     '/configuration-storage': '/configuration/storage',
     '/configuration-travel': '/configuration/travel',
+
+    /// ROOMS ///
+    '/custom-rooms': '/rooms/custom',
+    '/room-gallery': '/rooms/gallery',
+    '/gravity-wells': '/rooms/gravity-wells',
+    '/rail-room': '/rooms/rail',
+    '/smelter': '/rooms/smelter',
+    '/vault': '/rooms/vault',
+    '/zero-room': '/rooms/zero',
 };
 
 /// DO NOT TOUCH ///

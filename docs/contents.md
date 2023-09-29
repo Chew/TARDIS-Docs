@@ -41,7 +41,7 @@ To get started choose a page:
 
 [TARDIS Resource Pack](resource-packs) — Custom textures for TARDIS blocks and items
 
-[Zero Room](zero-room) — A place of peace and tranquility
+[Zero Room](/rooms/zero) — A place of peace and tranquility
 
 [Weeping Angels](weeping-angels) — Add new terrifying mobs to the game
 
@@ -55,9 +55,9 @@ To get started choose a page:
 
 [Rooms](rooms) — Growing rooms
 
-[Gravity wells](gravity-wells) — Bend the laws of physics
+[Gravity wells](/rooms/gravity-wells) — Bend the laws of physics
 
-[Custom rooms](custom-rooms) — Use your own schematics
+[Custom rooms](/rooms/custom) — Use your own schematics
 
 [Modifying the TARDIS interior](modifying-the-tardis-interior) — Customise the look of your TARDIS
 

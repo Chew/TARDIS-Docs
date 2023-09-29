@@ -78,7 +78,7 @@ The TARDIS door can be handy in other ways:
 
 - [Mob farming](farming) — bringing a mob close to the TARDIS door and then entering, will also bring the mob into
   the TARDIS if you have grown the appropriate room.
-- [Storage minecarts](rail-room) — if you run rails up to the TARDIS door (and grow a Rail room) you can transport
+- [Storage minecarts](/rooms/rail) — if you run rails up to the TARDIS door (and grow a Rail room) you can transport
   storage minecarts into the TARDIS.
 
 ## Interior door Vortex access

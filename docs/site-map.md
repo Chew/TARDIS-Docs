@@ -93,7 +93,7 @@ import TabItem from '@theme/TabItem';
 	<a href="custom-consoles" title="Custom consoles">Custom consoles</a><br/>
 	<a href="custom-preset" title="Custom chameleon preset">Custom chameleon preset</a><br/>
 	<a href="custom-model-presets" title="Custom model presets">Custom model presets</a><br/>
-	<a href="custom-rooms" title="Custom rooms">Custom rooms</a><br/>
+	<a href="/rooms/custom" title="Custom rooms">Custom rooms</a><br/>
 	<a href="modules/weeping-angels#cybermen" title="Cybermen">Cybermen</a></p>
 
 </TabItem>
@@ -140,7 +140,7 @@ import TabItem from '@theme/TabItem';
 	<a href="lazarus" title="Genetic Manipulator">Genetic Manipulator</a><br/>
 	<a href="commands/give" title="Give commands">Give commands</a><br/>
 	<a href="configuration/travel#grace_period" title="Grace period">Grace period</a><br/>
-	<a href="gravity-wells" title="Gravity wells">Gravity wells</a></p>
+	<a href="/rooms/gravity-wells" title="Gravity wells">Gravity wells</a></p>
 
 </TabItem>
 <TabItem value="H" label="H">
@@ -227,7 +227,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="R" label="R">
 
 <p><a href="modules/weeping-angels#racnoss" title="Racnoss">Racnoss</a><br/>
-	<a href="rail-room" title="Rail room">Rail room</a><br/>
+	<a href="/rooms/rail" title="Rail room">Rail room</a><br/>
 	<a href="randomiser-circuit" title="Randomiser circuit">Randomiser circuit</a><br/>
 	<a href="commands/admin#recharger" title="Rechargers">Rechargers</a><br/>
 	<a href="commands/recipe" title="Recipe commands">Recipe commands</a><br/>
@@ -238,7 +238,7 @@ import TabItem from '@theme/TabItem';
 	<a href="configuration/allow" title="Restrictions Configuration">Restrictions Configuration</a><br/>
 	<a href="rift-manipulator" title="Rift Manipulator">Rift Manipulator</a><br/>
 	<a href="configuration/rooms" title="Room Configuration">Room Configuration</a><br/>
-	<a href="room-gallery" title="Room gallery">Room gallery</a><br/>
+	<a href="/rooms/gallery" title="Room gallery">Room gallery</a><br/>
 	<a href="configuration/growth" title="Room Growth Configuration">Room Growth Configuration</a><br/>
 	<a href="rooms-and-economies" title="Custom rooms">Rooms and economies</a><br/>
 	<a href="rooms" title="Rooms">Rooms</a></p>
@@ -261,6 +261,7 @@ import TabItem from '@theme/TabItem';
 	<a href="modules/weeping-angels#silent" title="Silent">Silent</a><br/>
 	<a href="planets#planet-skaro" title="Skaro">Skaro</a><br/>
 	<a href="modules/weeping-angels#slitheen" title="Slitheen">Slitheen</a><br/>
+    <a href="/rooms/smelter" title="Smelter">Smelter</a><br/>
 	<a href="modules/sonic-blaster" title="Sonic Blaster">Sonic Blaster</a><br/>
 	<a href="sonic-configurator" title="Sonic Configurator">Sonic Configurator</a><br/>
 	<a href="sonic-generator" title="Sonic Generator">Sonic Generator</a><br/>
@@ -335,7 +336,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="Z" label="Z">
 
-<p><a href="zero-room" title="Zero Room">Zero Room</a><br/>
+<p><a href="/rooms/zero" title="Zero Room">Zero Room</a><br/>
 	<a href="modules/weeping-angels#zygons" title="Zygons">Zygons</a></p>
 
 </TabItem>

@@ -3,7 +3,7 @@ layout: default
 title: Vault Room
 ---
 
-# Vault room
+# Vault Room
 
 As of TARDIS v3.1-beta-1 the Vault room will automatically sort items into the chests contained within it.
 
@@ -19,4 +19,3 @@ To enable sorting:
 - the blocks/items are moved to the chest with the same block/item in it
 
 ![Vault chests](/images/docs/vault.jpg)
-

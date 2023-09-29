@@ -45,7 +45,7 @@ convert blocks to Artron Energy if you were to put them in the TARDIS energy con
 
 Server admins can either adjust, the config values for room costs, based on the table above (or by using the
 `/tardisroom blocks save` command to generate per room text files that list the required blocks and the actual room cost
-— good if you have [custom rooms](custom-rooms)). This makes things better, but Artron Energy can still be gained
+— good if you have [custom rooms](/rooms/custom)). This makes things better, but Artron Energy can still be gained
 for free using a recharge beacon.
 
 ## A better choice

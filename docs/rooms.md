@@ -14,7 +14,7 @@ OR (not recommended) `create_worlds: true` in the config.
 
 :::
 
-[Visit the room gallery](room-gallery)
+[Visit the room gallery](/rooms/gallery)
 
 ## Growing rooms
 
@@ -89,8 +89,8 @@ and follow the instructions. The room types and their corresponding seed blocks 
 
 - More information about the `Lazarus` room can be found on the [TARDIS Genetic Manipulator page](lazarus)
 - More information about the `Renderer` room can be found on the [Scanner page](scanner#renderer)
-- More information about the `Zero` room can be found on the [Zero Room page](zero-room)
-- More information about `Gravity Well` rooms can be found on the [Gravity Wells page](gravity-wells)
+- More information about the `Zero` room can be found on the [Zero Room page](/rooms/zero)
+- More information about `Gravity Well` rooms can be found on the [Gravity Wells page](/rooms/gravity-wells)
 - The _Eye of Harmony_ room type is `harmony`
 - The _gravity well_ room type is `gravity` and requires an empty ARS room slot **above** the room as well.
 - The _anti gravity well_ room type is `antigravity` and requires an empty ARS room slot **below** the room as well.
@@ -147,13 +147,13 @@ TARDIS gravity wells let you travel in any direction without having to walk. You
 and an anti-gravity well that goes up. This allows you to expand the TARDIS interior over as many levels as you desire.
 Using the `/tardisgravity` command you can also create ‘sideways’ gravity wells.
 
-Visit the [gravity wells page](gravity-wells) for more specific information.
+Visit the [gravity wells page](/rooms/gravity-wells) for more specific information.
 
 ## Vault room
 
 The Vault room will automatically sort items into the chests contained within it.
 
-For more information see: [Vault room](vault)
+For more information see: [Vault room](rooms/vault.md)
 
 ### Videos
 

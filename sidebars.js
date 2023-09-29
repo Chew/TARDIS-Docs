@@ -102,13 +102,13 @@ const sidebars = {
           label: "Rooms",
           items: [
             'rooms',
-            'room-gallery',
-            'custom-rooms',
-            'gravity-wells',
-            'zero-room',
-            'rail-room',
-            'smelter',
-            'vault',
+            'rooms/gallery',
+            'rooms/custom',
+            'rooms/gravity-wells',
+            'rooms/rail',
+            'rooms/smelter',
+            'rooms/vault',
+            'rooms/zero',
           ]
         },
         {
