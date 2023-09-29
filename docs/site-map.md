@@ -10,339 +10,333 @@ import TabItem from '@theme/TabItem';
 
 <details>
 	<summary>Why is it called the Index File?</summary>
-<p><strong>TEGAN:</strong> Will it tell us how to fly the Tardis?<br/>
-	<strong>NYSSA:</strong> I&rsquo;m sure that&rsquo;s in here somewhere, once we find the index file.<br/>
-	<strong>TEGAN:</strong> How do we find the index file? Of course, if we had an index file, we could look it
-	up in the index file, under index file. What am I saying? I&rsquo;m talking nonsense.<br/>
-	<strong>NYSSA:</strong> Recursion isn&rsquo;t nonsense.<br/>
-	<strong>TEGAN:</strong> Eh?<br/>
-	<strong>NYSSA:</strong> That&rsquo;s an example of recursion, when procedures fold back on themselves. If
-	you had an index file, you could look it up in the index file.<br/>
-	<strong>TEGAN:</strong> If. My Dad used to say that if was the most powerful word in the English
-	language.<br/>
-	<strong>NYSSA:</strong> Recursion&rsquo;s a powerful mathematical concept, but I don&rsquo;t see how it can
-	help us now.<br/>
-	<strong>TEGAN:</strong> If. I F! Stands for index file!</p>
+
+**TEGAN:** Will it tell us how to fly the Tardis?  
+**NYSSA:** I’m sure that’s in here somewhere, once we find the index file.  
+**TEGAN:** How do we find the index file? Of course, if we had an index file, we could look it up in the index file, under index file. What am I saying? I’m talking nonsense.  
+**NYSSA:** Recursion isn’t nonsense.  
+**TEGAN:** Eh?  
+**NYSSA:** That’s an example of recursion, when procedures fold back on themselves. If you had an index file, you could look it up in the index file.  
+**TEGAN:** If. My Dad used to say that if was the most powerful word in the English language.  
+**NYSSA:** Recursion’s a powerful mathematical concept, but I don’t see how it can help us now.  
+**TEGAN:** If. I F! Stands for index file!
 </details>
 
 <Tabs queryString="index">
 
 <TabItem value="A" label="A" default>
 
-<p><a href="abandon" title="Abandon a TARDIS">Abandon a TARDIS</a><br/>
-	<a href="achievements" title="Achievements">Achievements</a><br/>
-	<a href="adaptive-presets" title="Adaptive Chameleon Presets">Adaptive Chameleon Presets</a><br/>
-	<a href="add-permissions" title="Add permissions">Add permissions</a><br/>
-	<a href="commands/admin" title="Admin commands">Admin commands</a><br/>
-	<a href="advanced-console" title="Advanced Console">Advanced Console</a><br/>
-	<a href="api" title="API">API</a><br/>
-	<a href="archive" title="Archiving consoles">Archiving consoles</a><br/>
-	<a href="commands/area" title="Area commands">Area commands</a><br/>
-	<a href="tardis-areas" title="Areas">Areas</a><br/>
-	<a href="ars" title="Architectural Reconfiguration System">Architectural Reconfiguration System (ARS)</a><br/>
-	<a href="advanced-console#area-storage-disks" title="Area Disks">Area Storage Disks</a><br/>
-	<a href="configuration/energy" title="Artron Configuration">Artron Configuration</a><br/>
-	<a href="artron-furnace" title="Artron Furnace">Artron Furnace</a><br/>
-	<a href="artron-cells" title="Artron Storage Cells">Artron Storage Cells</a><br/>
-	<a href="artron-energy" title="Artron Energy">Artron Energy</a><br/>
-	<a href="tardis-items#control-disk" title="Authorised Control Disks">Authorised Control Disks</a><br/>
-	<a href="autonomous" title="Autonomous homing function">Autonomous homing function</a></p>
+[Abandon a TARDIS](abandon "Abandon a TARDIS")  
+[Achievements](achievements "Achievements")  
+[Adaptive Chameleon Presets](adaptive-presets "Adaptive Chameleon Presets")  
+[Add permissions](add-permissions "Add permissions")  
+[Admin commands](commands/admin "Admin commands")  
+[Advanced Console](advanced-console "Advanced Console")  
+[API](api "API")  
+[Archiving consoles](archive "Archiving consoles")  
+[Area commands](commands/area "Area commands")  
+[Areas](tardis-areas "Areas")  
+[Architectural Reconfiguration System (ARS)](ars "Architectural Reconfiguration System")  
+[Area Storage Disks](advanced-console#area-storage-disks "Area Disks")  
+[Artron Configuration](configuration/energy "Artron Configuration")  
+[Artron Furnace](artron-furnace "Artron Furnace")  
+[Artron Storage Cells](artron-cells "Artron Storage Cells")  
+[Artron Energy](artron-energy "Artron Energy")  
+[Authorised Control Disks](tardis-items#control-disk "Authorised Control Disks")  
+[Autonomous homing function](autonomous "Autonomous homing function")
 
 </TabItem>
 <TabItem value="B" label="B">
 
-<p><a href="backdoors" title="Back doors">Back doors</a><br/>
-	<a href="chemistry-lab/products#balloons" title="Balloons">Balloons</a><br/>
-	<a href="bedrock" title="Bedrock forms">Bedrock forms</a><br/>
-	<a href="commands/bind" title="Bind commands">Bind commands</a><br/>
-	<a href="tardis-items#biome-reader" title="Biome Reader">Biome Reader</a><br/>
-	<a href="crafting-disks#biome-storage-disks" title="Biome Storage Disks">Biome Storage Disks</a><br/>
-	<a href="crafting-disks#crafting-the-blank-disks" title="Blank Storage Disks">Blank Storage Disks</a><br/>
-	<a href="modules/blueprints" title="Blueprints">Blueprints</a><br/>
-	<a href="books" title="Books">Books</a><br/>
-	<a href="accessories" title="Bow ties">Bow ties</a><br/>
-	<a href="build-tools" title="BuildTools">BuildTools</a></p>
+[Back doors](backdoors "Back doors")  
+[Balloons](chemistry-lab/products#balloons "Balloons")  
+[Bedrock forms](bedrock "Bedrock forms")  
+[Bind commands](commands/bind "Bind commands")  
+[Biome Reader](tardis-items#biome-reader "Biome Reader")  
+[Biome Storage Disks](crafting-disks#biome-storage-disks "Biome Storage Disks")  
+[Blank Storage Disks](crafting-disks#crafting-the-blank-disks "Blank Storage Disks")  
+[Blueprints](modules/blueprints "Blueprints")  
+[Books](books "Books")  
+[Bow ties](accessories "Bow ties")  
+[BuildTools](build-tools "BuildTools")
 
 </TabItem>
 <TabItem value="C" label="C">
 
-<p><a href="commands/misc#tardiscall" title="Call command">Call command</a><br/>
-	<a href="monitor#tardis-external-camera" title="Camera">Camera</a><br/>
-	<a href="chameleon-arch" title="Chameleon arch">Chameleon arch</a><br/>
-	<a href="chameleon-circuit" title="Chameleon circuit">Chameleon circuit</a><br/>
-	<a href="chameleon-construction" title="Chameleon construction">Chameleon construction</a><br/>
-	<a href="presets" title="Chameleon presets">Chameleon presets</a><br/>
-	<a href="change-log" title="Change log">Change log</a><br/>
-	<a href="chemistry-lab" title="Chemistry Lab">Chemistry Lab</a><br/>
-	<a href="circuit-use" title="Circuit use and repair">Circuit use and repair</a><br/>
-	<a href="advanced-console#circuit-types" title="Circuits">Circuits</a><br/>
-	<a href="commands" title="Commands">Commands</a><br/>
-	<a href="companions" title="Companions">Companions</a><br/>
-	<a href="condensables" title="Condensable items">Condensable items</a><br/>
-	<a href="condenser" title="Condenser">Condenser</a><br/>
-	<a href="configuration/" title="Configuration">Configuration</a><br/>
-	<a href="interiors" title="Console Gallery">Console Gallery</a><br/>
-	<a href="permissions-table#console-perms" title="Console Permissions">Console Permissions</a><br/>
-	<a href="control-menu" title="Control Menu">Control Menu</a><br/>
-	<a href="crafting-disks" title="Crafting Disks">Crafting Disks</a><br/>
-	<a href="creating-a-tardis" title="Creating a TARDIS">Creating a TARDIS</a><br/>
-	<a href="configuration/creation" title="Creation Configuration">Creation Configuration</a><br/>
-	<a href="food#bowl-of-custard" title="Custard">Custard</a><br/>
-	<a href="food#custard-creams" title="Custard">Custard Creams</a><br/>
-	<a href="item_displays" title="Custom blocks">Custom blocks</a><br/>
-	<a href="custom-consoles" title="Custom consoles">Custom consoles</a><br/>
-	<a href="custom-preset" title="Custom chameleon preset">Custom chameleon preset</a><br/>
-	<a href="custom-model-presets" title="Custom model presets">Custom model presets</a><br/>
-	<a href="/rooms/custom" title="Custom rooms">Custom rooms</a><br/>
-	<a href="modules/weeping-angels#cybermen" title="Cybermen">Cybermen</a></p>
+[Call command](commands/misc#tardiscall "Call command")  
+[Camera](monitor#tardis-external-camera "Camera")  
+[Chameleon arch](chameleon-arch "Chameleon arch")  
+[Chameleon circuit](chameleon-circuit "Chameleon circuit")  
+[Chameleon construction](chameleon-construction "Chameleon construction")  
+[Chameleon presets](presets "Chameleon presets")  
+[Change log](change-log "Change log")  
+[Chemistry Lab](chemistry-lab "Chemistry Lab")  
+[Circuit use and repair](circuit-use "Circuit use and repair")  
+[Circuits](advanced-console#circuit-types "Circuits")  
+[Commands](commands "Commands")  
+[Companions](companions "Companions")  
+[Condensable items](condensables "Condensable items")  
+[Condenser](condenser "Condenser")  
+[Configuration](configuration/ "Configuration")  
+[Console Gallery](interiors "Console Gallery")  
+[Console Permissions](permissions-table#console-perms "Console Permissions")  
+[Control Menu](control-menu "Control Menu")  
+[Crafting Disks](crafting-disks "Crafting Disks")  
+[Creating a TARDIS](creating-a-tardis "Creating a TARDIS")  
+[Creation Configuration](configuration/creation "Creation Configuration")  
+[Custard](food#bowl-of-custard "Custard")  
+[Custard Creams](food#custard-creams "Custard")  
+[Custom blocks](item_displays "Custom blocks")  
+[Custom consoles](custom-consoles "Custom consoles")  
+[Custom chameleon preset](custom-preset "Custom chameleon preset")  
+[Custom model presets](custom-model-presets "Custom model presets")  
+[Custom rooms](/rooms/custom "Custom rooms")  
+[Cybermen](modules/weeping-angels#cybermen "Cybermen")
 
 </TabItem>
 <TabItem value="D" label="D">
 
-<p><a href="modules/weeping-angels#daleks" title="Daleks">Daleks</a><br/>
-	<a href="modules/weeping-angels#dalek-sec" title="Dalek Sec">Dalek Sec</a><br/>
-	<a href="modules/weeping-angels#davros" title="Davros">Davros</a><br/>
-	<a href="desktop-theme" title="Desktop Theme">Desktop Theme</a><br/>
-	<a href="destination-terminal" title="Destination Terminal">Destination Terminal</a><br/>
-	<a href="commands/dev" title="Dev commands">Dev commands</a><br/>
-	<a href="faqs#difficulty" title="Difficulty">Difficulty</a><br/>
-	<a href="commands/tardis#direction_frame" title="Direction Frame">Direction Frame</a><br/>
-	<a href="modules/dynmap-tardis" title="Dynmap-TARDIS">Dynmap-TARDIS</a></p>
+[Daleks](modules/weeping-angels#daleks "Daleks")  
+[Dalek Sec](modules/weeping-angels#dalek-sec "Dalek Sec")  
+[Davros](modules/weeping-angels#davros "Davros")  
+[Desktop Theme](desktop-theme "Desktop Theme")  
+[Destination Terminal](destination-terminal "Destination Terminal")  
+[Dev commands](commands/dev "Dev commands")  
+[Difficulty](faqs#difficulty "Difficulty")  
+[Direction Frame](commands/tardis#direction_frame "Direction Frame")  
+[Dynmap-TARDIS](modules/dynmap-tardis "Dynmap-TARDIS")
 
 </TabItem>
 <TabItem value="E" label="E">
 
-<p><a href="commands/tardis#tardis-eject" title="Eject command">Eject command</a><br/>
-	<a href="chemistry-lab/elements" title="Elements">Elements</a><br/>
-	<a href="emergency-program-one" title="Emergency Program One">Emergency Program One</a><br/>
-	<a href="faqs#handbrake" title="Emergency stop">Emergency stop</a><br/>
-	<a href="modules/weeping-angels#empty-children" title="Empty Children">Empty Children</a><br/>
-	<a href="enter-and-exit" title="Entry and exit">Entry and exit</a><br/>
-	<a href="tardis-areas#forcing-a-player-to-use-only-a-specific-area" title="Exile">Exile</a></p>
+[Eject command](commands/tardis#tardis-eject "Eject command")  
+[Elements](chemistry-lab/elements "Elements")  
+[Emergency Program One](emergency-program-one "Emergency Program One")  
+[Emergency stop](faqs#handbrake "Emergency stop")  
+[Empty Children](modules/weeping-angels#empty-children "Empty Children")  
+[Entry and exit](enter-and-exit "Entry and exit")  
+[Exile](tardis-areas#forcing-a-player-to-use-only-a-specific-area "Exile")
 
 </TabItem>
+<TabItem value="F" label="F">
 
-<TabItem value="F" label="F" default>
-
-<p><a href="faqs" title="FAQs">FAQs</a><br/>
-	<a href="food#fish-fingers" title="Fish fingers">Fish fingers</a><br/>
-	<a href="flight-modes" title="Flight modes">Flight modes</a><br/>
-	<a href="walls" title="Floor materials">Floor materials</a><br/>
-	<a href="flying" title="Flying the TARDIS">Flying the TARDIS</a><br/>
-	<a href="chameleon-arch" title="Fob watch">Fob watch</a><br/>
-	<a href="food" title="Food">Food</a></p>
+[FAQs](faqs "FAQs")  
+[Fish fingers](food#fish-fingers "Fish fingers")  
+[Flight modes](flight-modes "Flight modes")  
+[Floor materials](walls "Floor materials")  
+[Flying the TARDIS](flying "Flying the TARDIS")  
+[Fob watch](chameleon-arch "Fob watch")  
+[Food](food "Food")
 
 </TabItem>
 <TabItem value="G" label="G">
 
-<p><a href="planets#planet-gallifrey" title="Gallifrey">Gallifrey</a><br/>
-	<a href="commands/misc#tardisgamemode" title="Gamemode command">Gamemode command</a><br/>
-	<a href="lazarus" title="Genetic Manipulator">Genetic Manipulator</a><br/>
-	<a href="commands/give" title="Give commands">Give commands</a><br/>
-	<a href="configuration/travel#grace_period" title="Grace period">Grace period</a><br/>
-	<a href="/rooms/gravity-wells" title="Gravity wells">Gravity wells</a></p>
+[Gallifrey](planets#planet-gallifrey "Gallifrey")  
+[Gamemode command](commands/misc#tardisgamemode "Gamemode command")  
+[Genetic Manipulator](lazarus "Genetic Manipulator")  
+[Give commands](commands/give "Give commands")  
+[Grace period](configuration/travel#grace_period "Grace period")  
+[Gravity wells](/rooms/gravity-wells "Gravity wells")
 
 </TabItem>
 <TabItem value="H" label="H">
 
-<p><a href="hads" title="HADS">HADS</a><br/>
-	<a href="faqs#handbrake" title="Handbrake">Handbrake</a><br/>
-	<a href="handles" title="Handles">Handles</a><br/>
-	<a href="modules/weeping-angels#hath" title="Hath">Hath</a><br/>
-	<a href="modules/weeping-angels#headless-monk" title="Headless Monks">Headless Monks</a><br/>
-	<a href="/" title="TARDIS by eccentricdevotion">Home page</a></p>
+[HADS](hads "HADS")  
+[Handbrake](faqs#handbrake "Handbrake")  
+[Handles](handles "Handles")  
+[Hath](modules/weeping-angels#hath "Hath")  
+[Headless Monks](modules/weeping-angels#headless-monk "Headless Monks")  
+[Home page](/ "TARDIS by eccentricdevotion")
 
 </TabItem>
 <TabItem value="I" label="I">
 
-<p><a href="modules/weeping-angels#ice-warriors" title="Ice Warriors">Ice Warriors</a><br/>
-	<a href="lazarus#immortality-gate" title="Immortality Gate">Immortality Gate</a><br/>
-	<a href="installation-v5" title="Installation">Installation</a><br/>
-	<a href="interiors" title="Interiors">Interiors</a><br/>
-	<a href="invisibility" title="Invisibility">Invisibility</a><br/>
-	<a href="item_displays" title="Item Display custom blocks">Item Display custom blocks</a><br/>
-	<a href="kits" title="Item Kits">Item Kits</a></p>
+[Ice Warriors](modules/weeping-angels#ice-warriors "Ice Warriors")  
+[Immortality Gate](lazarus#immortality-gate "Immortality Gate")  
+[Installation](installation-v5 "Installation")  
+[Interiors](interiors "Interiors")  
+[Invisibility](invisibility "Invisibility")  
+[Item Display custom blocks](item_displays "Item Display custom blocks")  
+[Item Kits](kits "Item Kits")
 
 </TabItem>
 <TabItem value="J" label="J">
 
-<p><a href="food#jammy-dodgers" title="Jammy Dodgers">Jammy Dodgers</a><br/>
-	<a href="food#jelly-babies" title="Jelly babies">Jelly babies</a><br/>
-	<a href="http://tardisjenkins.duckdns.org:8080">Jenkins Server</a><br/>
-	<a href="ars#using-the-architectural-reconfiguration-system">Jettison rooms</a><br/>
-	<a href="modules/weeping-angels#judoon" title="Judoon">Judoon</a><br/>
-	<a href="junk-tardis" title="Junk TARDIS">Junk TARDIS</a><br/>
-	<a href="junk-tardis#other-commands" title="Junk TARDIS commands">Junk TARDIS commands</a></p>
+[Jammy Dodgers](food#jammy-dodgers "Jammy Dodgers")  
+[Jelly babies](food#jelly-babies "Jelly babies")  
+[Jenkins Server](http://tardisjenkins.duckdns.org:8080)  
+[Jettison rooms](ars#using-the-architectural-reconfiguration-system)  
+[Judoon](modules/weeping-angels#judoon "Judoon")  
+[Junk TARDIS](junk-tardis "Junk TARDIS")  
+[Junk TARDIS commands](junk-tardis#other-commands "Junk TARDIS commands")
 
 </TabItem>
 <TabItem value="K" label="K">
 
-<p><a href="modules/weeping-angels#k-9" title="K-9">K-9</a><br/>
-	<a href="commands/player-preferences#player-preference-commands" title="Key">Key</a><br/>
-	<a href="keyboard" title="TARDIS Keyboard">Keyboard</a></p>
+[K-9](modules/weeping-angels#k-9 "K-9")  
+[Key](commands/player-preferences#player-preference-commands "Key")  
+[Keyboard](keyboard "TARDIS Keyboard")
 
 </TabItem>
+<TabItem value="L" label="L">
 
-<TabItem value="L" label="L" default>
-
-<p><a href="lazarus" title="Lazarus Device">Lazarus Device</a><br/>
-	<a href="enter-and-exit#leaving-the-door-open" title="Leaving the door open">Leaving the door open</a><br/>
-	<a href="localisation" title="Localisation">Localisation</a></p>
+[Lazarus Device](lazarus "Lazarus Device")  
+[Leaving the door open](enter-and-exit#leaving-the-door-open "Leaving the door open")  
+[Localisation](localisation "Localisation")
 
 </TabItem>
 <TabItem value="M" label="M">
 
-<p><a href="malfunction" title="Malfunction">Malfunction</a><br/>
-	<a href="modules/weeping-angels#mire" title="Mire">Mire</a><br/>
-	<a href="commands/misc" title="Miscellaneous commands">Miscellaneous commands</a><br/>
-	<a href="farming" title="Mob farming">Mob farming</a><br/>
-	<a href="modifying-the-tardis-interior" title="Modifying the interior">Modifying the interior</a><br />
-	<a href="modules" title="Modules">Modules</a><br/>
-	<a href="monitor" title="Monitor">Monitor</a><br/>
-	<a href="configuration/monsters" title="Monsters Configuration">Monsters Configuration</a><br/>
-	<a href="enter-and-exit#leaving-the-door-open" title="Monsters in the TARDIS">Monsters in the TARDIS</a><br/>
-	<a href="commands/misc#tardismushroom" title="Mushroom command">Mushroom command</a></p>
+[Malfunction](malfunction "Malfunction")  
+[Mire](modules/weeping-angels#mire "Mire")  
+[Miscellaneous commands](commands/misc "Miscellaneous commands")  
+[Mob farming](farming "Mob farming")  
+[Modifying the interior](modifying-the-tardis-interior "Modifying the interior")  
+[Modules](modules "Modules")  
+[Monitor](monitor "Monitor")  
+[Monsters Configuration](configuration/monsters "Monsters Configuration")  
+[Monsters in the TARDIS](enter-and-exit#leaving-the-door-open "Monsters in the TARDIS")  
+[Mushroom command](commands/misc#tardismushroom "Mushroom command")
 
 </TabItem>
 <TabItem value="O" label="O">
 
-<p><a href="modules/weeping-angels#ood" title="Ood">Ood</a></p>
+[Ood](modules/weeping-angels#ood "Ood")
 
 </TabItem>
 <TabItem value="P" label="P">
 
-<p><a href="perception-filter" title="Perception Filter">Perception Filter</a><br/>
-	<a href="permissions-table" title="Permissions">Permissions</a><br/>
-	<a href="placeholders" title="PlaceholderAPI">PlaceholderAPI Placeholders</a><br/>
-	<a href="planets" title="Planets">Planets</a><br/>
-	<a href="configuration/planets" title="Planet Configuration">Planet Configuration</a><br/>
-	<a href="commands/player-preferences" title="Player preferences">Player preferences</a><br/>
-	<a href="writing-disks#writing-player-disks" title="Player Storage Disks">Player Storage Disks</a><br/>
-	<a href="configuration/preset" title="Police Box Configuration">Police Box Configuration</a><br/>
-	<a href="configuration/prefs" title="Preferences Configuration">Preferences Configuration</a><br/>
-	<a href="crafting-disks#preset-storage-disks" title="Preset Storage Disks">Preset Storage Disks</a><br/>
-	<a href="prune" title="Pruning">Pruning</a></p>
+[Perception Filter](perception-filter "Perception Filter")  
+[Permissions](permissions-table "Permissions")  
+[PlaceholderAPI Placeholders](placeholders "PlaceholderAPI")  
+[Planets](planets "Planets")  
+[Planet Configuration](configuration/planets "Planet Configuration")  
+[Player preferences](commands/player-preferences "Player preferences")  
+[Player Storage Disks](writing-disks#writing-player-disks "Player Storage Disks")  
+[Police Box Configuration](configuration/preset "Police Box Configuration")  
+[Preferences Configuration](configuration/prefs "Preferences Configuration")  
+[Preset Storage Disks](crafting-disks#preset-storage-disks "Preset Storage Disks")  
+[Pruning](prune "Pruning")
 
 </TabItem>
 <TabItem value="R" label="R">
 
-<p><a href="modules/weeping-angels#racnoss" title="Racnoss">Racnoss</a><br/>
-	<a href="/rooms/rail" title="Rail room">Rail room</a><br/>
-	<a href="randomiser-circuit" title="Randomiser circuit">Randomiser circuit</a><br/>
-	<a href="commands/admin#recharger" title="Rechargers">Rechargers</a><br/>
-	<a href="commands/recipe" title="Recipe commands">Recipe commands</a><br/>
-	<a href="recipes" title="Recipes">Recipes</a><br/>
-	<a href="resource-packs" title="Resource Packs">Resource Packs</a><br/>
-	<a href="commands/remote" title="Remote commands">Remote commands</a><br/>
-	<a href="removing-a-tardis" title="Removing a TARDIS">Removing a TARDIS</a><br/>
-	<a href="configuration/allow" title="Restrictions Configuration">Restrictions Configuration</a><br/>
-	<a href="rift-manipulator" title="Rift Manipulator">Rift Manipulator</a><br/>
-	<a href="configuration/rooms" title="Room Configuration">Room Configuration</a><br/>
-	<a href="/rooms/gallery" title="Room gallery">Room gallery</a><br/>
-	<a href="configuration/growth" title="Room Growth Configuration">Room Growth Configuration</a><br/>
-	<a href="rooms-and-economies" title="Custom rooms">Rooms and economies</a><br/>
-	<a href="rooms" title="Rooms">Rooms</a></p>
+[Racnoss](modules/weeping-angels#racnoss "Racnoss")  
+[Rail room](/rooms/rail "Rail room")  
+[Randomiser circuit](randomiser-circuit "Randomiser circuit")  
+[Rechargers](commands/admin#recharger "Rechargers")  
+[Recipe commands](commands/recipe "Recipe commands")  
+[Recipes](recipes "Recipes")  
+[Resource Packs](resource-packs "Resource Packs")  
+[Remote commands](commands/remote "Remote commands")  
+[Removing a TARDIS](removing-a-tardis "Removing a TARDIS")  
+[Restrictions Configuration](configuration/allow "Restrictions Configuration")  
+[Rift Manipulator](rift-manipulator "Rift Manipulator")  
+[Room Configuration](configuration/rooms "Room Configuration")  
+[Room gallery](/rooms/gallery "Room gallery")  
+[Room Growth Configuration](configuration/growth "Room Growth Configuration")  
+[Rooms and economies](rooms-and-economies "Custom rooms")  
+[Rooms](rooms "Rooms")
 
 </TabItem>
 <TabItem value="S" label="S">
 
-<p><a href="save-sign" title="Save Sign">Save Sign</a><br/>
-	<a href="writing-disks#writing-save-disks" title="Save Storage Disks">Save Storage Disks</a><br/>
-	<a href="scanner" title="Scanner">Scanner</a><br/>
-	<a href="commands/schematic" title="Schematic commands">Schematic commands</a><br/>
-	<a href="schematics" title="Schematics">Schematics</a><br/>
-	<a href="modules/weeping-angels#sea-devils" title="Sea Devils">Sea Devils</a><br/>
-	<a href="creating-a-tardis#tardis-types" title="Seed Blocks">Seed Blocks</a><br/>
-	<a href="commands/area#semi-random-parking-areas" title="Semi-random parking areas">Semi-random parking areas</a><br/>
-	<a href="/rooms/shell" title="Shell room">Shell room</a><br/>
-	<a href="/rooms/shell#shell-loader" title="Shell Loader">Shell Loader</a><br/>
-	<a href="siege-mode" title="Siege Mode">Siege mode</a><br/>
-	<a href="planets#planet-siluria" title="Siluria">Siluria</a><br/>
-	<a href="modules/weeping-angels#silent" title="Silent">Silent</a><br/>
-	<a href="planets#planet-skaro" title="Skaro">Skaro</a><br/>
-	<a href="modules/weeping-angels#slitheen" title="Slitheen">Slitheen</a><br/>
-    <a href="/rooms/smelter" title="Smelter">Smelter</a><br/>
-	<a href="modules/sonic-blaster" title="Sonic Blaster">Sonic Blaster</a><br/>
-	<a href="sonic-configurator" title="Sonic Configurator">Sonic Configurator</a><br/>
-	<a href="sonic-generator" title="Sonic Generator">Sonic Generator</a><br/>
-	<a href="sonic-screwdriver" title="Sonic Screwdriver">Sonic Screwdriver</a><br/>
-	<a href="modules/weeping-angels#sontarans" title="Sontarans">Sontarans</a><br/>
-	<a href="throttle" title="Space Time Throttle">Space Time Throttle</a><br/>
-	<a href="http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/" title="Spigot">Spigot</a><br />
-	<a href="tardis-items#stattenheim-remote" title="Stattenheim Remote">Stattenheim Remote</a><br/>
-	<a href="modules/weeping-angels#strax" title="Strax">Strax</a><br/>
-	<a href="commands/sudo" title="Sudo commands">Sudo commands</a><br/>
-	<a href="sqlite-mysql-tool" title="Spigot">SQLite -&gt; MySQL conversion tool</a><br/>
-	<a href="configuration/storage" title="Storage Configuration">Storage Configuration</a><br/>
-	<a href="chemistry-lab/products#super-fertiliser" title="Super Fertiliser">Super Fertiliser</a></p>
+[Save Sign](save-sign "Save Sign")  
+[Save Storage Disks](writing-disks#writing-save-disks "Save Storage Disks")  
+[Scanner](scanner "Scanner")  
+[Schematic commands](commands/schematic "Schematic commands")  
+[Schematics](schematics "Schematics")  
+[Sea Devils](modules/weeping-angels#sea-devils "Sea Devils")  
+[Seed Blocks](creating-a-tardis#tardis-types "Seed Blocks")  
+[Semi-random parking areas](commands/area#semi-random-parking-areas "Semi-random parking areas")  
+[Shell room](/rooms/shell "Shell room")  
+[Shell Loader](/rooms/shell#shell-loader "Shell Loader")  
+[Siege mode](siege-mode "Siege Mode")  
+[Siluria](planets#planet-siluria "Siluria")  
+[Silent](modules/weeping-angels#silent "Silent")  
+[Skaro](planets#planet-skaro "Skaro")  
+[Slitheen](modules/weeping-angels#slitheen "Slitheen")  
+[Smelter](/rooms/smelter "Smelter")  
+[Sonic Blaster](modules/sonic-blaster "Sonic Blaster")  
+[Sonic Configurator](sonic-configurator "Sonic Configurator")  
+[Sonic Generator](sonic-generator "Sonic Generator")  
+[Sonic Screwdriver](sonic-screwdriver "Sonic Screwdriver")  
+[Sontarans](modules/weeping-angels#sontarans "Sontarans")  
+[Space Time Throttle](throttle "Space Time Throttle")  
+[Spigot](http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/ "Spigot")  
+[Stattenheim Remote](tardis-items#stattenheim-remote "Stattenheim Remote")  
+[Strax](modules/weeping-angels#strax "Strax")  
+[Sudo commands](commands/sudo "Sudo commands")  
+[SQLite -> MySQL conversion tool](sqlite-mysql-tool "Spigot")  
+[Storage Configuration](configuration/storage "Storage Configuration")  
+[Super Fertiliser](chemistry-lab/products#super-fertiliser "Super Fertiliser")
 
 </TabItem>
+<TabItem value="T" label="T">
 
-<TabItem value="T" label="T" default>
-
-<p><a href="commands/tardis" title="TARDIS commands">TARDIS commands</a><br/>
-	<a href="tardis-areas#forcec" title="TARDIS creation yard">TARDIS creation yard</a><br/>
-	<a href="display" title="TARDIS Display">TARDIS Display</a><br/>
-	<a href="tardis-items#locator" title="TARDIS Locator">TARDIS Locator</a><br/>
-	<a href="map" title="TARDIS Map">TARDIS Map</a><br/>
-	<a href="remote-key" title="TARDIS Remote Key">TARDIS Remote Key</a><br/>
-	<a href="commands/tardis#tardis-secondary" title="TARDIS Secondary Command">TARDIS Secondary Command</a><br/>
-	<a href="modules/tardis-shop" title="TARDIS Shop">TARDIS Shop</a><br/>
-	<a href="telepathic-circuit" title="TARDIS Telepathic Circuit">TARDIS Telepathic Circuit</a><br/>
-	<a href="creating-a-tardis#tardis-types" title="TARDIS Types">TARDIS Types</a><br/>
-	<a href="commands/dev" title="Dev commands">/tardisdev commands</a><br/>
-	<a href="world-management" title="World commands">/tardisworld commands</a><br/>
-	<a href="temporal-locator" title="Temporal Locator">Temporal Locator</a><br/>
-	<a href="commands/texture" title="Texture Commands">Texture Commands</a><br/>
-	<a href="enter-and-exit" title="The TARDIS door">The TARDIS door</a><br/>
-	<a href="commands/misc#tardistime" title="Time command">Time command</a><br/>
-	<a href="time-rotor" title="Time Rotor">Time Rotor</a><br/>
-	<a href="time-travel" title="Time travel">Time travel</a><br/>
-	<a href="time-vortex" title="Time Vortex World">Time Vortex World</a><br/>
-	<a href="tips" title="T.I.P.S">T.I.P.S</a><br/>
-	<a href="modules/weeping-angels#toclafane" title="Toclafane">Toclafane</a><br/>
-	<a href="transmat" title="Transmat">Transmat</a><br/>
-	<a href="commands/travel" title="Travel commands">Travel commands</a><br/>
-	<a href="configuration/travel" title="Travel Configuration">Travel Configuration</a><br/>
-	<a href="commands/dev#tree" title="Tree commands">Tree command</a></p>
+[TARDIS commands](commands/tardis "TARDIS commands")  
+[TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
+[TARDIS Display](display "TARDIS Display")  
+[TARDIS Locator](tardis-items#locator "TARDIS Locator")  
+[TARDIS Map](map "TARDIS Map")  
+[TARDIS Remote Key](remote-key "TARDIS Remote Key")  
+[TARDIS Secondary Command](commands/tardis#tardis-secondary "TARDIS Secondary Command")  
+[TARDIS Shop](modules/tardis-shop "TARDIS Shop")  
+[TARDIS Telepathic Circuit](telepathic-circuit "TARDIS Telepathic Circuit")  
+[TARDIS Types](creating-a-tardis#tardis-types "TARDIS Types")  
+[/tardisdev commands](commands/dev "Dev commands")  
+[/tardisworld commands](world-management "World commands")  
+[Temporal Locator](temporal-locator "Temporal Locator")  
+[Texture Commands](commands/texture "Texture Commands")  
+[The TARDIS door](enter-and-exit "The TARDIS door")  
+[Time command](commands/misc#tardistime "Time command")  
+[Time Rotor](time-rotor "Time Rotor")  
+[Time travel](time-travel "Time travel")  
+[Time Vortex World](time-vortex "Time Vortex World")  
+[T.I.P.S](tips "T.I.P.S")  
+[Toclafane](modules/weeping-angels#toclafane "Toclafane")  
+[Transmat](transmat "Transmat")  
+[Travel commands](commands/travel "Travel commands")  
+[Travel Configuration](configuration/travel "Travel Configuration")  
+[Tree command](commands/dev#tree "Tree commands")
 
 </TabItem>
 <TabItem value="U" label="U">
 
-<p><a href="translator" title="Universal Translator">Universal Translator</a><br/>
-	<a href="update-blocks" title="Updateable blocks">Updateable blocks</a><br/>
-	<a href="updating-to-unified-plugin" title="Updating to version 5">Updating to version 5</a><br/>
-	<a href="desktop-theme" title="Upgrades">Upgrades</a></p>
+[Universal Translator](translator "Universal Translator")  
+[Updateable blocks](update-blocks "Updateable blocks")  
+[Updating to version 5](updating-to-unified-plugin "Updating to version 5")  
+[Upgrades](desktop-theme "Upgrades")
 
 </TabItem>
 <TabItem value="V" label="V">
 
-<p><a href="modules/weeping-angels#vashta-nerada" title="Vashta Nerada">Vashta Nerada</a><br/>
-	<a href="vault" title="Vault Room">Vault Room</a><br/>
-	<a href="view-interior" title="View Interior">View Interior</a><br/>
-	<a href="modules/vortex-manipulator" title="Vortex Manipulator">Vortex Manipulator</a></p>
+[Vashta Nerada](modules/weeping-angels#vashta-nerada "Vashta Nerada")  
+[Vault Room](vault "Vault Room")  
+[View Interior](view-interior "View Interior")  
+[Vortex Manipulator](modules/vortex-manipulator "Vortex Manipulator")
 
 </TabItem>
 <TabItem value="W" label="W">
 
-<p><a href="walls" title="Wall materials">Wall materials</a><br/>
-	<a href="commands/misc#tardisweather" title="Weather command">Weather command</a><br/>
-	<a href="modules/weeping-angels#weeping-angels-1" title="Weeping Angels">Weeping Angels</a><br/>
-	<a href="wiki-sign" title="Wiki Sign">Wiki Sign</a><br/>
-	<a href="modules/generators" title="World Generators">World Generators</a><br/>
-	<a href="world-management" title="World Management">World Management</a><br/>
-	<a href="writing-disks" title="Writing Disks">Writing Disks</a></p>
+[Wall materials](walls "Wall materials")  
+[Weather command](commands/misc#tardisweather "Weather command")  
+[Weeping Angels](modules/weeping-angels#weeping-angels-1 "Weeping Angels")  
+[Wiki Sign](wiki-sign "Wiki Sign")  
+[World Generators](modules/generators "World Generators")  
+[World Management](world-management "World Management")  
+[Writing Disks](writing-disks "Writing Disks")
 
 </TabItem>
 <TabItem value="Z" label="Z">
 
-<p><a href="/rooms/zero" title="Zero Room">Zero Room</a><br/>
-	<a href="modules/weeping-angels#zygons" title="Zygons">Zygons</a></p>
+[Zero Room](/rooms/zero "Zero Room")  
+[Zygons](modules/weeping-angels#zygons "Zygons")
 
 </TabItem>
 <TabItem value="#" label="#">
 
-<p><a href="accessories#3-d-glasses" title="3-D glasses">3-D glasses</a></p>
+[3-D glasses](accessories#3-d-glasses "3-D glasses")
 
 </TabItem>
 </Tabs>
