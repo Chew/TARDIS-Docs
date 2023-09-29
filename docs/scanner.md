@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Environment scanner
+title: Environment Scanner
 ---
 
-# Environment scanner
+# Environment Scanner
 
 You can add a button or lever to the TARDIS that lets you scan the environment around the TARDIS Police Box.
 This function is also available in the TARDIS Control Menu.

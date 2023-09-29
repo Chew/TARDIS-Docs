@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vault room
+title: Vault Room
 ---
 
 # Vault room

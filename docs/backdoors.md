@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Back doors
+title: Backdoors
 ---
 
-# Back doors
+# Backdoors
 
 You can add a pair of doors to the TARDIS that allow you you to travel in and
 out of the TARDIS from a fixed location.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Whovian accessories
+title: Whovian Accessories
 ---
 
 Whovian accessories

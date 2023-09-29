@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Custom rooms
+title: Custom Rooms
 ---
 
-# Custom rooms
+# Custom Rooms
 
 TARDIS has the ability to add your own custom rooms using [TARDIS schematic](schematics) files and
 the `/tardisroom` command.

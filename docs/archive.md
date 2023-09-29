@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archiving consoles
+title: Archiving Consoles
 ---
 
 # Archiving TARDIS consoles
