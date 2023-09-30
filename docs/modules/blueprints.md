@@ -56,4 +56,336 @@ To remove a player&rsquo;s ability to use a blueprint feature use the following 
 
 To see a list of blueprint permissions use the command:
 
-    /tardisadmin list blueprints
+    /tardisadmin list blueprints [type]
+
+Where `[type]` is one of:
+
+* `BASE`
+* `BLASTER`
+* `CONSOLE`
+* `FEATURE`
+* `PRESET`
+* `ROOM`
+* `SHOP`
+* `SONIC`
+* `TRAVEL`
+* `VORTEX_MANIPULATOR`
+* `WEEPING_ANGELS`
+
+## List of blueprints
+
+The following is a list of categories and their associated blueprints and permissions:
+
+### BASE
+
+| Blueprint   | Permission           |
+|-------------|----------------------|
+| ADD         | `tardis.add`         |
+| BOOK        | `tardis.book`        |
+| CREATE      | `tardis.create`      |
+| DELETE      | `tardis.delete`      |
+| ENTER       | `tardis.enter`       |
+| EXTERMINATE | `tardis.exterminate` |
+| FIND        | `tardis.find`        |
+| HOME        | `tardis.home`        |
+| LIST        | `tardis.list`        |
+| REBUILD     | `tardis.rebuild`     |
+| SAVE        | `tardis.save`        |
+| TAG         | `tardis.tag`         |
+| TIMETRAVEL  | `tardis.timetravel`  |
+| UPDATE      | `tardis.update`      |
+| USE         | `tardis.use`         |
+
+### BLASTER
+
+| Blueprint | Permission          |
+|-----------|---------------------|
+| USE       | `sonic_blaster.use` |
+
+### CONSOLE
+
+| Blueprint       | Permission               |
+|-----------------|--------------------------|
+| ANCIENT         | `tardis.ancient`         |
+| ARS             | `tardis.ars`             |
+| BIGGER          | `tardis.bigger`          |
+| CAVE            | `tardis.cave`            |
+| COPPER          | `tardis.copper`          |
+| CORAL           | `tardis.coral`           |
+| CUSTOM          | `tardis.custom`          |
+| DELTA           | `tardis.delta`           |
+| DELUXE          | `tardis.deluxe`          |
+| DIVISION        | `tardis.division`        |
+| ELEVENTH        | `tardis.eleventh`        |
+| ENDER           | `tardis.ender`           |
+| FACTORY         | `tardis.factory`         |
+| FUGITIVE        | `tardis.fugitive`        |
+| HOSPITAL        | `tardis.hospital`        |
+| LEGACY_BIGGER   | `tardis.legacy_bigger`   |
+| LEGACY_DELUXE   | `tardis.legacy_deluxe`   |
+| LEGACY_ELEVENTH | `tardis.legacy_eleventh` |
+| LEGACY_REDSTONE | `tardis.legacy_redstone` |
+| MASTER          | `tardis.master`          |
+| MECHANICAL      | `tardis.mechanical`      |
+| ORIGINAL        | `tardis.original`        |
+| PLANK           | `tardis.plank`           |
+| PYRAMID         | `tardis.pyramid`         |
+| REDSTONE        | `tardis.redstone`        |
+| ROTOR           | `tardis.rotor`           |
+| STEAMPUNK       | `tardis.steampunk`       |
+| THIRTEENTH      | `tardis.twelfth`         |
+| TOM             | `tardis.tom`             |
+| TWELFTH         | `tardis.twelfth`         |
+| WAR             | `tardis.war`             |
+| WEATHERED       | `tardis.weathered`       |
+
+### FEATURE
+
+| Blueprint                    | Permission                  |
+|------------------------------|-----------------------------|
+| ABANDON                      | `tardis.abandon`            |
+| ACID_BYPASS                  | `tardis.acid.bypass`        |
+| ADVANCED                     | `tardis.advanced`           |
+| ARCHITECTURAL                | `tardis.architectural`      |
+| ARCHIVE                      | `tardis.archive`            |
+| ATMOSPHERIC                  | `tardis.atmospheric`        |
+| AUTONOMOUS                   | `tardis.autonomous`         |
+| BACKDOOR                     | `tardis.backdoor`           |
+| CHAMELEON_ARCH               | `tardis.chameleonarch`      |
+| CHEMISTRY_BREW               | `tardis.chemistry.brew`     |
+| CHEMISTRY_COMMAND            | `tardis.chemistry.command`  |
+| CHEMISTRY_CREATIVE           | `tardis.chemistry.creative` |
+| CHEMISTRY_CURE               | `tardis.chemistry.cure`     |
+| CHEMISTRY_GLUE               | `tardis.chemistry.glue`     |
+| COMPOUND_CREATE              | `tardis.compound.create`    |
+| CONSTRUCT_BUILD              | `tardis.construct.build`    |
+| DIFFICULTY                   | `tardis.difficulty`         |
+| EJECT                        | `tardis.eject`              |
+| <a id="farm"></a>FARM        | `tardis.farm`               |
+| FILTER                       | `tardis.filter`             |
+| FORCEFIELD                   | `tardis.forcefield`         |
+| FORMULA_SHOW                 | `tardis.formula.show`       |
+| FURNACE                      | `tardis.furnace`            |
+| GRAVITY                      | `tardis.gravity`            |
+| HANDLES                      | `tardis.handles`            |
+| LAB_COMBINE                  | `tardis.lab.combine`        |
+| <a id="lazaurus"></a>LAZARUS | `tardis.lazarus`            |
+| PAPER_BAG                    | `tardis.paper_bag`          |
+| REDUCER_USE                  | `tardis.reducer.use`        |
+| REMOTE                       | `tardis.remote`             |
+| REPAIR                       | `tardis.repair`             |
+| RIFT                         | `tardis.rift`               |
+| SCANNER_MAP                  | `tardis.scanner.map`        |
+| STORAGE                      | `tardis.storage`            |
+| STORE                        | `tardis.store`              |
+| TEMPORAL                     | `tardis.temporal`           |
+| TEXTURE                      | `tardis.texture`            |
+| TRANSLATE                    | `tardis.translate`          |
+| TRANSMAT                     | `tardis.transmat`           |
+| UPDATE                       | `tardis.update`             |
+| UPGRADE                      | `tardis.upgrade`            |
+| <a id="vault"></a>VAULT      | `tardis.vault`              |
+| WEATHER_CLEAR                | `tardis.weather.clear`      |
+| WEATHER_RAIN                 | `tardis.weather.rain`       |
+| WEATHER_THUNDER              | `tardis.weather.thunder`    |
+| NONE                         | `tardis.use`                |
+
+### PRESET
+
+| Blueprint             | Permission                            |
+|-----------------------|---------------------------------------|
+| ADAPTIVE              | `tardis.preset.adaptive`              |
+| ANDESITE              | `tardis.preset.andesite`              |
+| ANGEL                 | `tardis.preset.angel`                 |
+| APPERTURE             | `tardis.preset.apperture`             |
+| CAKE                  | `tardis.preset.cake`                  |
+| CANDY                 | `tardis.preset.candy`                 |
+| CHALICE               | `tardis.preset.chalice`               |
+| CHORUS                | `tardis.preset.chorus`                |
+| CREEPY                | `tardis.preset.creepy`                |
+| CUSTOM                | `tardis.preset.custom`                |
+| DESERT                | `tardis.preset.desert`                |
+| DIORITE               | `tardis.preset.diorite`               |
+| DUCK                  | `tardis.preset.duck`                  |
+| FENCE                 | `tardis.preset.fence`                 |
+| FLOWER                | `tardis.preset.flower`                |
+| GAZEBO                | `tardis.preset.gazebo`                |
+| GRANITE               | `tardis.preset.granite`               |
+| GRAVESTONE            | `tardis.preset.gravestone`            |
+| HELIX                 | `tardis.preset.helix`                 |
+| JAIL                  | `tardis.preset.jail`                  |
+| JUNGLE                | `tardis.preset.jungle`                |
+| LAMP                  | `tardis.preset.lamp`                  |
+| LIBRARY               | `tardis.preset.library`               |
+| LIGHTHOUSE            | `tardis.preset.lighthouse`            |
+| MINESHAFT             | `tardis.preset.mineshaft`             |
+| NETHER                | `tardis.preset.nether`                |
+| PANDORICA             | `tardis.preset.pandorica`             |
+| PARTY                 | `tardis.preset.party`                 |
+| PEANUT                | `tardis.preset.peanut`                |
+| PINE                  | `tardis.preset.pine`                  |
+| POLICE_BOX_BLACK      | `tardis.preset.police_box_black`      |
+| POLICE_BOX_BLUE       | `tardis.preset.police_box_blue`       |
+| POLICE_BOX_BROWN      | `tardis.preset.police_box_brown`      |
+| POLICE_BOX_CYAN       | `tardis.preset.police_box_cyan`       |
+| POLICE_BOX_GRAY       | `tardis.preset.police_box_gray`       |
+| POLICE_BOX_GREEN      | `tardis.preset.police_box_green`      |
+| POLICE_BOX_LIGHT_BLUE | `tardis.preset.police_box_light_blue` |
+| POLICE_BOX_LIGHT_GRAY | `tardis.preset.police_box_light_gray` |
+| POLICE_BOX_LIME       | `tardis.preset.police_box_lime`       |
+| POLICE_BOX_MAGENTA    | `tardis.preset.police_box_magenta`    |
+| POLICE_BOX_ORANGE     | `tardis.preset.police_box_orange`     |
+| POLICE_BOX_PINK       | `tardis.preset.police_box_pink`       |
+| POLICE_BOX_PURPLE     | `tardis.preset.police_box_purple`     |
+| POLICE_BOX_RED        | `tardis.preset.police_box_red`        |
+| POLICE_BOX_WHITE      | `tardis.preset.police_box_white`      |
+| POLICE_BOX_YELLOW     | `tardis.preset.police_box_yellow`     |
+| POLICE_BOX_TENNANT    | `tardis.preset.police_box_tennant`    |
+| PORTAL                | `tardis.preset.portal`                |
+| PRISMARINE            | `tardis.preset.prismarine`            |
+| PUNKED                | `tardis.preset.punked`                |
+| ROBOT                 | `tardis.preset.robot`                 |
+| SHROOM                | `tardis.preset.shroom`                |
+| SNOWMAN               | `tardis.preset.snowman`               |
+| STONE                 | `tardis.preset.stone`                 |
+| SUBMERGED             | `tardis.preset.submerged`             |
+| SWAMP                 | `tardis.preset.swamp`                 |
+| TELEPHONE             | `tardis.preset.telephone`             |
+| TOILET                | `tardis.preset.toilet`                |
+| TOPSYTURVEY           | `tardis.preset.topsyturvey`           |
+| TORCH                 | `tardis.preset.torch`                 |
+| VILLAGE               | `tardis.preset.village`               |
+| WEEPING_ANGEL         | `tardis.preset.weeping_angel`         |
+| WELL                  | `tardis.preset.well`                  |
+| WINDMILL              | `tardis.preset.windmill`              |
+| YELLOW                | `tardis.preset.yellow`                |
+
+### ROOM
+
+| Blueprint     | Permission                | Also required                     |
+|---------------|---------------------------|-----------------------------------|
+| ARCHITECTURAL | `tardis.architectural`    |                                   |
+| JETTISON      | `tardis.jettison`         |                                   |
+| ANTIGRAVITY   | `tardis.room.antigravity` |                                   |
+| APIARY        | `tardis.room.apiary`      | Feature -&gt; [FARM](#farm)       |
+| AQUARIUM      | `tardis.room.aquarium`    | Feature -&gt; [FARM](#farm)       |
+| ARBORETUM     | `tardis.room.arboretum`   |                                   |
+| BAKER         | `tardis.room.baker`       |                                   |
+| BAMBOO        | `tardis.room.bamboo`      | Feature -&gt; [FARM](#farm)       |
+| BEDROOM       | `tardis.room.bedroom`     |                                   |
+| BIRDCAGE      | `tardis.room.birdcage`    | Feature -&gt; [FARM](#farm)       |
+| CHEMISTRY     | `tardis.room.chemistry`   |                                   |
+| EMPTY         | `tardis.room.empty`       |                                   |
+| FARM          | `tardis.room.farm`        | Feature -&gt; [FARM](#farm)       |
+| GEODE         | `tardis.room.geode`       |                                   |
+| GRAVITY       | `tardis.room.gravity`     |                                   |
+| GREENHOUSE    | `tardis.room.greenhouse`  |                                   |
+| HARMONY       | `tardis.room.harmony`     |                                   |
+| HUTCH         | `tardis.room.hutch`       | Feature -&gt; [FARM](#farm)       |
+| IGLOO         | `tardis.room.igloo`       | Feature -&gt; [FARM](#farm)       |
+| KITCHEN       | `tardis.room.kitchen`     |                                   |
+| LAZARUS       | `tardis.room.lazarus`     | Feature -&gt; [LAZARUS](#lazarus) |
+| LIBRARY       | `tardis.room.library`     |                                   |
+| MAZE          | `tardis.room.maze`        |                                   |
+| MUSHROOM      | `tardis.room.mushroom`    |                                   |
+| NETHER        | `tardis.room.nether`      |                                   |
+| PASSAGE       | `tardis.room.passage`     |                                   |
+| POOL          | `tardis.room.pool`        |                                   |
+| RAIL          | `tardis.room.rail`        |                                   |
+| RENDERER      | `tardis.room.renderer`    |                                   |
+| SHELL         | `tardis.room.shell`       |                                   |
+| SMELTER       | `tardis.room.smelter`     |                                   |
+| STABLE        | `tardis.room.stable`      | Feature -&gt; [FARM](#farm)       |
+| STALL         | `tardis.room.stall`       | Feature -&gt; [FARM](#farm)       |
+| TRENZALORE    | `tardis.room.trenzalore`  |                                   |
+| VAULT         | `tardis.room.vault`       | Feature -&gt; [VAULT](#vault)     |
+| VILLAGE       | `tardis.room.village`     | Feature -&gt; [FARM](#farm)       |
+| WOOD          | `tardis.room.wood`        |                                   |
+| WORKSHOP      | `tardis.room.workshop`    |                                   |
+| ZERO          | `tardis.room.zero`        |                                   |
+
+### SHOP
+
+| Blueprint | Permission |
+|-----------|------------|
+| USE       | `shop.use` |
+
+### SONIC
+
+| Blueprint | Permission               |
+|-----------|--------------------------|
+| ARROW     | `tardis.sonic.arrow`     |
+| BIO       | `tardis.sonic.bio`       |
+| DIAMOND   | `tardis.sonic.diamond`   |
+| EMERALD   | `tardis.sonic.emerald`   |
+| FREEZE    | `tardis.sonic.freeze`    |
+| IGNITE    | `tardis.sonic.ignite`    |
+| KNOCKBACK | `tardis.sonic.knockback` |
+| PAINT     | `tardis.sonic.paint`     |
+| PLANT     | `tardis.sonic.plant`     |
+| REDSTONE  | `tardis.sonic.redstone`  |
+| SILKTOUCH | `tardis.sonic.silktouch` |
+| SORT      | `tardis.sonic.sort`      |
+| STANDARD  | `tardis.sonic.standard`  |
+
+### TRAVEL
+
+| Blueprint | Permission                   |
+|-----------|------------------------------|
+| BIOME     | `tardis.timetravel.biome`    |
+| CAVE      | `tardis.timetravel.cave`     |
+| LOCATION  | `tardis.timetravel.location` |
+| NETHER    | `tardis.nether`              |
+| PLAYER    | `tardis.timetravel.player`   |
+| END       | `tardis.end`                 |
+| VILLAGE   | `tardis.timetravel.village`  |
+
+### VORTEX_MANIPULATOR
+
+| Blueprint   | Permission       |
+|-------------|------------------|
+| TELEPORT    | `vm.teleport`    |
+| MESSAGE     | `vm.message`     |
+| LIFESIGNS   | `vm.lifesigns`   |
+| BEACON      | `vm.beacon`      |
+| LOOKATBLOCK | `vm.lookatblock` |
+
+### WEEPING_ANGELS
+
+| Blueprint       | Permission                            |
+|-----------------|---------------------------------------|
+| BUILD_ANGEL     | `tardisweepingangels.build.angel`     |
+| BUILD_JUDOON    | `tardisweepingangels.build.judoon`    |
+| BUILD_K9        | `tardisweepingangels.build.k9`        |
+| BUILD__OOD      | `tardisweepingangels.build.ood`       |
+| COUNT           | `tardisweepingangels.count`           |
+| DISGUISE        | `tardisweepingangels.disguise`        |
+| FOLLOW          | `tardisweepingangels.follow`          |
+| K9              | `tardisweepingangels.k9`              |
+| KILL            | `tardisweepingangels.kill`            |
+| REMOVE_JUDOON   | `tardisweepingangels.remove.judoon`   |
+| REMOVE_K9       | `tardisweepingangels.remove.k9`       |
+| REMOVE_OOD      | `tardisweepingangels.remove.ood`      |
+| SPAWN_ANGEL     | `tardisweepingangels.spawn.angel`     |
+| SPAWN_CYBERMAN  | `tardisweepingangels.spawn.cyberman`  |
+| SPAWN_DALEK     | `tardisweepingangels.spawn.dalek`     |
+| SPAWN_DALEK_SEC | `tardisweepingangels.spawn.dalek_sec` |
+| SPAWN_DAVROS    | `tardisweepingangels.spawn.davros`    |
+| SPAWN_EMPTY     | `tardisweepingangels.spawn.empty`     |
+| SPAWN_ICE       | `tardisweepingangels.spawn.ice`       |
+| SPAWN_JUDOON    | `tardisweepingangels.spawn.judoon`    |
+| SPAWN_K9        | `tardisweepingangels.spawn.k9`        |
+| SPAWN_MIRE      | `tardisweepingangels.spawn.mire`      |
+| SPAWN_MONK      | `tardisweepingangels.spawn.monk`      |
+| SPAWN_OOD       | `tardisweepingangels.spawn.ood`       |
+| SPAWN_RACNOSS   | `tardisweepingangels.spawn.racnoss`   |
+| SPAWN_SEA_DEVIL | `tardisweepingangels.spawn.sea_devil` |
+| SPAWN_SILENT    | `tardisweepingangels.spawn.silent`    |
+| SPAWN_SILURIAN  | `tardisweepingangels.spawn.silurian`  |
+| SPAWN_SLITHEEN  | `tardisweepingangels.spawn.slitheen`  |
+| SPAWN_SONTARAN  | `tardisweepingangels.spawn.sontaran`  |
+| SPAWN_STRAX     | `tardisweepingangels.spawn.strax`     |
+| SPAWN_TOCLAFANE | `tardisweepingangels.spawn.toclafane` |
+| SPAWN_VASHTA    | `tardisweepingangels.spawn.vashta`    |
+| SPAWN_ZYGON     | `tardisweepingangels.spawn.zygon`     |
+| USE             | `weeping_angels.use`                  |
