@@ -3,6 +3,8 @@ layout: default
 title: Whovian Food
 ---
 
+import TabbedImage from '@site/src/components/TabbedImage'
+
 # Whovian Food
 
 You can craft Whovian food items in-game so that you can eat like the Doctor.
@@ -18,7 +20,7 @@ colour. To see the recipe type:
 
 Each recipe gives 4 coloured jelly babies, eating a jelly baby restores one hunger.
 
-![jelly baby crafting](/images/docs/jelly_baby.jpg)
+<TabbedImage name={"Jelly Baby"} description={"Jelly baby crafting"} folder={"docs"} image={"jelly-baby-recipe.png"} />
 
 ### Paper Bag
 
@@ -38,7 +40,7 @@ fish. To see the recipe type:
 
 Each recipe gives 3 fish fingers, eating a fish finger restores 2.5 hunger.
 
-![fish finger crafting](/images/docs/fish_fingers.jpg)
+<TabbedImage name={"Fish Finger"} description={"Fish finger crafting"} folder={"docs"} image={"fish-finger-recipe.png"} />
 
 ## Bowl of Custard
 
@@ -49,7 +51,7 @@ is crafted with 1 bucket of milk, 1 egg, and 1 wooden bowl. To see the recipe ty
 
 Each recipe gives one bowl of custard, eating custard restores 3 hunger.
 
-![custard crafting](/images/docs/bowl_of_custard.jpg)
+<TabbedImage name={"Bowl of Custard"} description={"Bowl of Custard crafting"} folder={"docs"} image={"bowl-of-custard-recipe.png"} />
 
 ## Jammy Dodgers
 
@@ -61,20 +63,32 @@ recipe type:
 
 Each recipe gives 8 Jammy Dodgers, eating a Jammy Dodger restores 1 hunger.
 
-![jammy dodger crafting](/images/docs/jammy_dodger.jpg)
+<TabbedImage name={"Jammy Dodger"} description={"Jammy dodger crafting"} folder={"docs"} image={"jammy-dodger-recipe.png"} />
 
 ## Custard Creams
 
-// TODO
+The thirteenth Doctor thought that Custard Creams were "the best" type of biscuit. A shaped
+recipe, Custard Creams are crafted the same way as cookies, but instead of cocoa beans, 1 yellow dye is used. To see the
+recipe type:
 
     /tardisrecipe custard-cream
 
+Each recipe gives 8 Custard Creams, eating a Custard Cream restores 1 hunger.
+
+<TabbedImage name={"Custard Cream"} description={"Custard Cream crafting"} folder={"docs"} image={"custard-cream-recipe.png"} />
+
 ### Custard cream dispenser
 
-// TODO
+The Custard cream dispenser is an updateable component of the TARDIS console. When clicked it gives a player a custard cream and consumes an amount of Artron energy.
+
+To add a Custard cream dispenser to your TARDIS:
+
+1. Place a dispenser block inside the TARDIS.
+2. Run the command `/tardis update dispenser`.
+3. Follow the instructions and click the dispenser block.
 
 ---
 
 All the food items, including all 16 jelly baby flavours.
 
-![all the food](/images/docs/tardis_food.jpg)
+<TabbedImage name={"All the food"} description={"All the food"} folder={"docs"} image={"all-tardis-food.png"} />

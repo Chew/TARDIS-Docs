@@ -21,7 +21,7 @@ export default function Download() {
     const [isLoaded, setIsLoaded] = useState(false);
     const [error, setError] = useState(null);
 
-    // dont we need to use useEffect here?
+    // don't we need to use useEffect here?
     useEffect(() => {
         fetch("https://api.github.com/repos/eccentricdevotion/TARDIS/releases", {
             method: 'GET'

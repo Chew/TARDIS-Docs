@@ -52,7 +52,7 @@ export default function CommandTable({ data, args, cmd, extra } : { data: string
 
     let head = <></>
     let command = <></>
-    if (extra == 'false') {
+    if (extra == false) {
         head = (
             <thead>
                 <tr>
@@ -78,7 +78,7 @@ export default function CommandTable({ data, args, cmd, extra } : { data: string
                             <th>Usage</th>
                         </tr>
                         {Object.entries(subs).map(([key, value]) => (
-                            <HandleSubs key={key} ymlKey={key} value={value} indent={0} cmd={cmd} />
+                            <HandleSubs key={key} ymlKey={key} value={value} cmd={cmd} />
                         ))}
                     </tbody>
                 </table>
