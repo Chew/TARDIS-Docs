@@ -3,6 +3,8 @@ layout: default
 title: Artron Furnace
 ---
 
+import ConfigTable from "@site/src/components/ConfigTable";
+
 # Artron Furnace
 
 TARDIS Artron Furnaces are special furnaces that can use Artron Storage Cells
@@ -24,23 +26,23 @@ resource packs installed in the client.
 
 ## Configuration
 
-You set configuration options in _artron.yml_, the default settings are shown below:
+You set configuration options in _artron.yml_, the default settings are shown below.
 
-    artron_furnace:
-        burn_limit: 100000
-        burn_time: 0.5
-        cook_time: 0.5
-        particles: true
+```yaml title="/plugins/TARDIS/artron.yml"
+artron_furnace:
+  burn_limit: 100000
+  burn_time: 0.5
+  cook_time: 0.5
+  particles: true
+```
 
-- `cook_time: [time ratio]` — sets the cook time for items smelted with Artron
-  Storage Cells — `0.5` is half the normal time, `2.0` would be twice normal
-  speed (longer), `1.0` = normal cook time (same as coal)
-- `burn_time: [time ratio]` — sets the length of time an Artron Storage Cell will
-  burn for — as above fractions (`0.5`) will give shorter life to the cells, \> 1
-  will extend the burn time, `1.0` = normal burn time (same as coal)
-- `burn_limit: [amount]` — the maximum amount of burn time a fully charged Artron
-  Storage Cell can have.
-- `particles [true|false]` — whether to display particles on the furnace block
+<ConfigTable data={`
+artron_furnace:
+  burn_limit: 100000 # The maximum amount of burn time a fully charged Artron Storage Cell can have.
+  burn_time: 0.5 # Sets the length of time an Artron Storage Cell will burn for — as above fractions (\`0.5\`) will give shorter life to the cells, \> 1 will extend the burn time, \`1.0\` = normal burn time (same as coal)
+  cook_time: 0.5 # Sets the cook time for items smelted with Artron Storage Cells — \`0.5\` is half the normal time, \`2.0\` would be twice normal speed (longer), \`1.0\` = normal cook time (same as coal)
+  particles: true # Whether to display particles on the furnace block
+`} />
 
 The actual burn time is calculated like so:
 
