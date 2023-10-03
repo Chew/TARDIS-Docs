@@ -75,6 +75,25 @@ function buildRedirects() {
     return redirectArray;
 }
 
+function buildRedirectsFile() {
+    // format the redirects as /old/path /new/path 301 (permanent) redirects
+    const redirectArray = [];
+    for (const [key, value] of Object.entries(redirects)) {
+        redirectArray.push(`${key} ${value} 301`);
+        redirectArray.push(`${key}.html ${value} 301`);
+    }
+
+    // write the redirects to a file in the build directory
+    const fs = require('fs');
+    fs.writeFile('./build/_redirects', redirectArray.join('\n'), (err) => {
+        if (err) {
+            return console.log(err);
+        }
+        console.log('Redirects file written!');
+    });
+}
+
 module.exports = {
-    buildRedirects
+    buildRedirects,
+    buildRedirectsFile
 }

@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {buildRedirects} = require("./redirects");
+const {buildRedirects, buildRedirectsFile} = require("./redirects");
 
 // Check for presence of the "GITHUB_REPOSITORY" environment variable
 const gitHubRepo = process.env.GITHUB_REPOSITORY ?? '/';
@@ -151,14 +151,18 @@ const config = {
 
   plugins: [
       require.resolve('docusaurus-lunr-search'),
-    [
-        '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
-        // We build this from the redirects.js file, edit that!
-        redirects: buildRedirects(),
+    ['@docusaurus/plugin-client-redirects', {
+      fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+      // We build this from the redirects.js file, edit that!
+      redirects: buildRedirects(),
+    }],
+    // Cloudflare pages supports redirects!
+    // @ts-ignore
+    () => ({
+      postBuild() {
+        buildRedirectsFile();
       },
-    ]
+    })
   ],
 };
 
