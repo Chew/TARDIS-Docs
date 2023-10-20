@@ -19,7 +19,7 @@ Get help with TARDIS plugin commands.
     description: Get help with TARDIS commands.
     permission: none needed
     usage: /\<command\> [command] [argument]
-`} cmd='tardis?' />
+`} />
 
 ## `/tardisartron`
 
@@ -31,7 +31,7 @@ You can transfer energy either from your TARDIS, or using your own Time Lord ene
     description: Transfer Artron Energy to an Artron Storage Cell
     permission: tardis.store
     usage: /\<command\> [tardis|timelord] [amount]
-`} cmd='tardisartron' />
+`} />
 
 ## `/tardissay`
 
@@ -44,7 +44,7 @@ tardissay:
     permission: tardis.translate
     permission-message: You don't have the permission \<permission\> to use this command
     usage: /\<command\> [language] [message]
-`} cmd='tardissay' />
+`} />
 
 ## `/tardisgravity`
 
@@ -56,7 +56,7 @@ tardisgravity:
     description: Add or remove gravity well blocks.
     permission: tardis.gravity
     usage: /\<command\> [up|down|north|west|south|east|remove] [distance] [velocity]
-`} cmd='tardisgravity' />
+`} />
 
 ## `/tardiscall`
 
@@ -74,7 +74,7 @@ tardiscall:
     description: Request a player to bring their TARDIS to your targeted location.
     permission: tardis.use
     usage: /\<command\> [player]
-`} cmd='tardiscall' />
+`} />
 
 ## `/tardissay`
 
@@ -87,7 +87,7 @@ tardissay:
     permission: tardis.translate
     permission-message: You don't have the permission \<permission\> to use this command
     usage: /\<command\> [language] [message]
-`} cmd='tardissay' />
+`} />
 
 ## `/tardisbook`
 
@@ -100,7 +100,7 @@ tardisbook:
     permission: tardis.book
     permission-message: You don't have the permission \<permission\> to use this command
     usage: /\<command\> [list|book name] [get|start]
-`} cmd='tardisbook' />
+`} />
 
 ## `/tardisgamemode`
 
@@ -112,7 +112,7 @@ tardisgamemode:
     description: Set a player's gamemode
     permission: tardis.admin
     usage: /\<command\> [GameMode] \<player\>
-`} cmd='tardisgamemode' />
+`} />
 
 ## `/tardismushroom`
 
@@ -124,7 +124,7 @@ tardismushroom:
     description: Fix broken mushroom block textures.
     permission: tardis.mushroom
     usage: /\<command\> [red|brown|stem] [radius]
-`} cmd='tardismushroom' />
+`} />
 
 Before command:
 
@@ -144,7 +144,7 @@ tardisteleport:
     description: Teleport to a world’s spawn point
     permission: tardis.admin
     usage: /\<command\> [world]
-`} cmd='tardisteleport' />
+`} />
 
 ## `/tardisdisplay`
 
@@ -156,7 +156,7 @@ tardisdisplay:
     description: Toggle the TARDIS HUD on and off.
     permission: tardis.display
     usage: /\<command\> [ALL|BIOME|COORDS|DIRECTION|TARGET_BLOCK]
-`} cmd='tardisdisplay' />
+`} />
 
 ## `/tardistime`
 
@@ -168,7 +168,7 @@ tardistime:
     description: Change the time in the world the player is in (or where their TARDIS is if they are inside it).
     permission: tardis.admin
     usage: /\<command\> [day|morning|noon|night|midnight|?AM|?PM|ticks]
-`} cmd='tardistime' />
+`} />
 
 ## `/tardisweather`
 
@@ -180,7 +180,7 @@ tardisweather:
     description: Change the weather in the world the player is in (or where their TARDIS is if they are inside it).
     permission: tardis.use
     usage: /\<command\> [clear|rain|thunder]
-`} cmd='tardisweather' />
+`} />
 
 You can also add a weather button to your TARDIS console to open a weather GUI. Palce an appropriate block and then run
 the `/tardis update weather` command.

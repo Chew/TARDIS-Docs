@@ -22,11 +22,12 @@ function HandleCommand({ yml, cmd } : { yml: object, cmd: string }) {
     )
 }
 
-export default function SimpleCommandTable({ data, cmd } : { data: string, cmd: string }) {
+export default function SimpleCommandTable({ data } : { data: string }) {
     // now we must build the table!
 
     // data, args are yaml, parse them
     const root = parse(data);
+    let cmd = Object.keys(root)[0]
 
     return (
         <>

@@ -43,13 +43,14 @@ function HandleSubs({ymlKey, value, cmd} : {ymlKey: string, value: any, cmd: str
     )
 }
 
-export default function CommandTable({ data, args, cmd, extra } : { data: string, args: string, cmd: string, extra: boolean }) {
+export default function CommandTable({ data, args, extra } : { data: string, args: string, extra: boolean }) {
     // now we must build the table!
 
     // data, args are yaml, parse them
     const root = parse(data);
     const subs = parse(args);
 
+    let cmd = Object.keys(root)[0]
     let head = <></>
     let command = <></>
     if (extra == false) {
