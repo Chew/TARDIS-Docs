@@ -19,6 +19,7 @@ modules:
   shop: false
   sonic_blaster: false
   blueprints: false
+  chemistry: false # May be true if allow.chemistry was true
 ```
 
 :::info
@@ -46,3 +47,4 @@ To see what each module does, visit the appropriate page:
 - [Dynmap](/modules/dynmap-tardis)
 - [Shop](/modules/tardis-shop)
 - [Sonic Blaster](/modules/sonic-blaster)
+- [Chemistry Lab](/chemistry-lab)

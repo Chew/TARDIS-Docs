@@ -7,17 +7,23 @@ title: Chemistry Lab
 
 The TARDIS comes with a Chemistry lab room!
 
+:::info
+
+The Chemistry lab requires `modules.chemistry` to be enabled in the TARDIS config.
+
+:::
+
 :::note
 
 *This page shows how to use the chemistry lab equipment, to see a list of items you can craft with the equipment, check
-out [Chemistry Lab Products](products) or their [compounds](compounds), or
-the [elements themselves](elements).*
+out [Chemistry Lab Products](/chemistry-lab/products) or their [compounds](/chemistry-lab/compounds), or
+the [elements themselves](/chemistry-lab/elements).*
 
 :::
 
 ## Resource Pack
 
-***The room is best viewed with the [resource pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack).***
+***The room is best viewed with the [resource pack](/resource-packs).***
 
 All images use the TARDIS-Resource-Pack, and your experience will be much better with it!
 
@@ -27,8 +33,18 @@ How does it work?
 
 ## Permissions
 
-**TARDIS Chemistry Lab equipment is not given to users by default or with `tardis.use`, they must be given via the table
-below**
+:::caution
+
+TARDIS Chemistry Lab equipment is not given to users by default or with `tardis.use`, they must be given via the table
+below.
+
+:::
+
+:::danger
+
+Do not give wildcard permissions to players, this may give them unintended access to other TARDIS features.
+
+:::
 
 | Permission Node             | Description                                                            |
 |-----------------------------|------------------------------------------------------------------------|
@@ -46,15 +62,15 @@ below**
 
 ## Element Constructor
 
+> Add or subtract protons, neutrons and electrons to construct an atomic element.
+
 In order to create elements, you need to use the Element constructor to create elements.
 
-[Click here to view a list of all the elements!](elements)
-
-In-game description: Add or subtract protons, neutrons and electrons to construct an atomic element.
+[Click here to view a list of all the elements!](/chemistry-lab/elements)
 
 ![element constructor block](/images/chemistry/element-constructor-block.png)
 
-Right clicking this block or running `/tardischemistry gui construct` will open up a GUI to create Elements for you to
+Right-clicking this block or running `/tardischemistry gui construct` will open up a GUI to create Elements for you to
 mess around with.
 
 ![element constructor gui](/images/chemistry/element-constructor-gui.png)
@@ -68,12 +84,12 @@ Click the newly created atom to add it to your inventory. Every click adds one t
 
 ## Chemical Compounding
 
+> Combine elements to create chemical compounds. To see a compound formula use
+the `/tardischemistry forumla` command. Place items in the bottom row from left to right.
+
 (You can also access this GUI with `/tardischemistry gui compound` with proper permissions)
 
-[Click to view all the compounds!](compounds)
-
-In-game description: Combine elements to create chemical compounds. To see a compound formula use
-the `/tardischemistry forumla` command. Place items in the bottom row from left to right.
+[Click to view all the compounds!](/chemistry-lab/compounds)
 
 ![chemical-compounding block](/images/chemistry/chemical-compounder-block.png)
 
@@ -95,12 +111,12 @@ We get water! Click the item to select it and bring it to your inventory.
 
 With the material reducer, you can reduce a substance to its component elements.
 
-[Click to see vanilla item/block material reductions!](material-reductions) (does not include compound reductions)
+[Click to see vanilla item/block material reductions!](/chemistry-lab/material-reductions) (does not include compound reductions)
 
 ![material reducer block](/images/chemistry/material-reducer-block.png)
 
 Remember our Chemical compounder? With this machine, we can reduce it back to its atoms used to created it. You can
-access this by right clicking the block above or by running `/tardischemistry gui reduce`
+access this by right-clicking the block above or by running `/tardischemistry gui reduce`
 
 ![material reducer gui](/images/chemistry/material-reducer-gui.png)
 
@@ -119,7 +135,7 @@ Clicking reduce gets us our Hydrogen and Oxygen back!
 These blocks do the same thing, however they craft different items with elements and compounds and the process to craft
 them differs slightly.
 
-[Click to view all possible products made from these machines!](products)
+[Click to view all possible products made from these machines!](/chemistry-lab/products)
 
 ![lab table and product crafter](/images/chemistry/lab-table-product-crafter-blocks.png)
 
@@ -127,7 +143,7 @@ Lab Table (left) and Product Crafter (right).
 
 ### Lab Table
 
-In-game description: Combine elements and compounds to create bleach, ice bombs, heat blocks, and fertiliser.
+> Combine elements and compounds to create bleach, ice bombs, heat blocks, and fertiliser.
 
 As the description implies, you can craft those 4 items, just like you would with
 the [chemical compounder](#chemical-compounding). Place items in the bottom row from left to right, then click Check
@@ -141,7 +157,7 @@ Clicking check product gets our product!
 
 ### Product Crafter
 
-In-game description: Combine elements and compounds to create sparklers, balloons, lamps, and glow sticks.
+> Combine elements and compounds to create sparklers, balloons, lamps, and glow sticks.
 
 Much like the Lab table, you can craft the above 4 items. However, instead these items must be arranged like a 3x3
 crafting grid, instead of putting them in the bottom row.
