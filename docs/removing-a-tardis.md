@@ -12,7 +12,7 @@ link in chat - on Bedrock click the button in the form that opens. After clickin
 
 :::danger
 
-You will lose any items you have stored in your TARDIS; all rooms, and any saved time travel destinations 
+You will lose any items you have stored in your TARDIS; all rooms, and any saved time travel destinations
 (unless stored within the [TARDIS Disk Storage Container](advanced-console#storage_info)) will be removed.
 
 :::
@@ -26,6 +26,8 @@ the Chameleon Circuit GUI to change it to a preset with a sign first.
 
 You will be asked to confirm the TARDIS deletion with a command. Type:
 
-    /tardis exterminate
+```
+/tardis exterminate
+```
 
 To confirm the deletion.

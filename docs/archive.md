@@ -22,14 +22,16 @@ archive:
 | Option                            | Type                                                         | Default Value |
 |-----------------------------------|--------------------------------------------------------------|---------------|
 | `archive:`                        |
-| &nbsp;&nbsp;&nbsp;&nbsp;`enabled` | boolean                                                      | `true`        | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`enabled` | boolean                                                      | `true`        |
 | &nbsp;                            | Sets whether archiving of consoles is allowed on the server. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`limit`   | integer                                                      | `3`           |
 | &nbsp;                            | Sets the number of archives that can be saved per player.    |
 
 ### Commands
 
-    /tardis archive [scan|add|remove|update|description] [name]
+```
+/tardis archive [scan|add|remove|update|description] [name]
+```
 
 `/tardis archive scan` — scan the current console to check whether it can successfully be archived. You should run this
 command before using `/tardis archive add [name]`

@@ -11,7 +11,9 @@ TARDIS automatically fly to a recharge point or the TARDIS home location
 
 To enable/disable the autonomous homing function, use the command:
 
-    /tardisprefs auto [on|off]
+```
+/tardisprefs auto [on|off]
+```
 
 The following applies to the use of the autonomous homing function:
 

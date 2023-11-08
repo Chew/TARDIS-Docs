@@ -36,16 +36,18 @@ Keywords for chat processing are: _“takeoff”, “land”, “scan, “lock�
 
 ### Examples
 
-    hey handles takeoff
-    hey handles land
-    hey handles handbrake on
-    hey handles scan the exterior
-    hey handles lock the door
-    hey handles unlock the door
-    hey handles remind me to get some wood in 5
-    hey handles say something funny
-    hey handles what is my name
-    hey handles what time is it
+```
+hey handles takeoff
+hey handles land
+hey handles handbrake on
+hey handles scan the exterior
+hey handles lock the door
+hey handles unlock the door
+hey handles remind me to get some wood in 5
+hey handles say something funny
+hey handles what is my name
+hey handles what time is it
+```
 
 Reminders need to have the number of minutes (until the reminder) as the last part of the handles request
 e.g. `hey handles remind me to [do something] in 5 `(reminder times will not be 100% accurate, because the plugin only
@@ -55,11 +57,15 @@ checks for reminders every minute — can be changed in the config)
 
 Name a Handles Program Disk
 
-    /handles disk [name]
+```
+/handles disk [name]
+```
 
 Remove the Handles record from the TARDIS database. Use this if Handles is destroyed accidentally.
 
-    /handles remove
+```
+/handles remove
+```
 
 ### Config Options
 
@@ -156,19 +162,23 @@ Console Disks.
 
 The is one parent permission, with three children for finer control that allow players to use the Handles companion.
 
-    tardis.handles
+```
+tardis.handles
+```
 
 And the children:
 
-    tardis.handles.use
-    tardis.handles.communicator
-    tardis.handles.program
+```
+tardis.handles.use
+tardis.handles.communicator
+tardis.handles.program
+```
 
 ## Programming Handles
 
 :::caution
 
-The programming feature is not fully tested and you may run into bugs! Please report them to 
+The programming feature is not fully tested and you may run into bugs! Please report them to
 [the issues tab on GitHub](https://github.com/eccentricdevotion/TARDIS/issues) if you do.
 
 :::

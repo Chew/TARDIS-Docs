@@ -16,15 +16,21 @@ install that first!
 
 Use `/tardisprefs` command to turn the Autonomous function on:
 
-    /tardisprefs auto on
+```
+/tardisprefs auto on
+```
 
 Use `/tardisprefs` command to turn the Emergency Program One on:
 
-    /tardisprefs eps on
+```
+/tardisprefs eps on
+```
 
 You can change the message that the Emergency Program One NPC says:
 
-    /tardisprefs eps_message [The message]
+```
+/tardisprefs eps_message [The message]
+```
 
 The Emergency Program One NPC will go away automatically in TARDIS v4.4.1 and higher, in lower versions, just
 right-click it to make it disappear.
@@ -33,7 +39,9 @@ right-click it to make it disappear.
 
 You can make Emergency Program One appear at any time using the command:
 
-    /tardis ep1
+```
+/tardis ep1
+```
 
 ### Video
 

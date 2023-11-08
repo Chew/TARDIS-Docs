@@ -44,7 +44,9 @@ opeining of the piston door — refer to the diagram below (seed blocks are mark
 
 Use the command:
 
-    /tardis room [room type]
+```
+/tardis room [room type]
+```
 
 and follow the instructions. The room types and their corresponding seed blocks are as follows:
 
@@ -107,15 +109,20 @@ material, you can set a wall player preference **before** growing the room.
 
 To see a list of available wall materials, see the [walls page](walls), or type:
 
-    /tardisprefs wall help
+```
+/tardisprefs wall help
+```
 
 To set your wall block preference, type:
 
-    /tardisprefs wall [material]
+```
+/tardisprefs wall [material]
 
 Where `[material]` is a block from the wall help list, e.g:
 
-    /tardisprefs wall huge_mushroom_2
+```
+/tardisprefs wall huge_mushroom_2
+```
 
 The next room you grow (if it normally contains ORANGE wool) will have the blocks replaced with your preference.
 
@@ -127,7 +134,9 @@ Similar to the wall player preference, there is also a floor player preference. 
 LIGHT GREY wool blocks (the default for room floors) with another material, you can set the floor player preference *
 *before** growing the room. Use:
 
-    /tardisprefs floor [material]
+```
+/tardisprefs floor [material]
+```
 
 ## Removing rooms
 
@@ -135,7 +144,9 @@ Rooms may also be removed (or in TARDIS terms — jettisoned).
 
 Simply place TNT in the same seed location as when you grew the room and use the command:
 
-    /tardis jettison [room type]
+```
+/tardis jettison [room type]
+```
 
 Then follow the onscreen instructions.
 

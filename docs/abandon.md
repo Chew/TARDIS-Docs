@@ -39,7 +39,9 @@ P ). You can also delete an abandoned TARDIS by clicking < Delete >.
 
 You can spawn abandoned TARDISes automatically with a command:
 
-    /tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
+```
+/tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
+```
 
 Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [interiors](interiors)
 

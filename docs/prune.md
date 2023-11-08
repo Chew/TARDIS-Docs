@@ -17,7 +17,9 @@ determine if a TARDIS has been abandoned.
 
 To list TARDISes that have not been used for a number of days, use the command:
 
-    /tardisadmin prunelist [days]
+```
+/tardisadmin prunelist [days]
+```
 
 Change `[days]` to the minimum number of days the TARDISes have been inactive for. The command will output to the
 screen/console and also save a text file called _TARDIS\_Prune\_List.txt_ to the TARDIS folder.
@@ -26,7 +28,9 @@ screen/console and also save a text file called _TARDIS\_Prune\_List.txt_ to the
 
 If you are happy that the TARDISes in the list are OK to be pruned, use the command:
 
-    /tardisadmin prune [days]
+```
+/tardisadmin prune [days]
+```
 
 ### Bypassing a prune
 

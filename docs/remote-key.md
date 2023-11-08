@@ -11,9 +11,11 @@ v3.0-beta-1 and later, you can craft a remote key to do this too.
 
 To see the recipe type:
 
-    /tardisrecipe remote-key
+```
+/tardisrecipe remote-key
+```
 
-In plugins version < v3.2.8, the recipe will show a GOLD\_NUGGET — 
+In plugins version < v3.2.8, the recipe will show a GOLD\_NUGGET —
 **_you will actually have to use a crafted TARDIS Key._**
 
 ![Remote Key recipe](/images/docs/tardis_remote_key_recipe.jpg)

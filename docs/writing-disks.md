@@ -21,7 +21,9 @@ Check the recipes using the `/tardisrecipe [save-storage-disk|player-storage-dis
 
 While holding a blank Save Storage Disk in your hand, type the command:
 
-    /tardis save [save name]
+```
+/tardis save [save name]
+```
 
 The current location, direction, preset and submarine status will be written to the disk.
 
@@ -29,7 +31,9 @@ The current location, direction, preset and submarine status will be written to 
 
 While holding a blank Player Storage Disk in your hand, type the command:
 
-    /tardis save_player [player]
+```
+/tardis save_player [player]
+```
 
 The player’s name will be written to the disk.
 
@@ -37,7 +41,9 @@ The player’s name will be written to the disk.
 
 You can erase any craftable storage disk using the command:
 
-    /tardis erase
+```
+/tardis erase
+```
 
 Hold the disk in your hand when you use the command.
 

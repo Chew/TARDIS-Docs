@@ -29,6 +29,8 @@ without having to be inside the TARDIS. This is useful if a player has used the 
 
 To add a server condenser, place a chest, target it, then run the command:
 
-    /tardisadmin condenser
+```
+/tardisadmin condenser
+```
 
 The server condenser works the same way as the interior TARDIS condenser.

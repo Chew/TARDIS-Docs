@@ -17,7 +17,9 @@ The TARDIS Control Menu sign displays information about the TARDIS’s location 
 If you have an existing TARDIS without the Control Menu, you can add it by placing a sign where you want the Control
 Menu to be, and running the command:
 
-    /tardis update control
+```
+/tardis update control
+```
 
 Click on the sign and its position will be added to the TARDIS database.
 

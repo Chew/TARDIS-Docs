@@ -42,7 +42,9 @@ circuits:
 If `damage` is set to true, then `uses.invisibilty` sets the number of times the Invisibilty circuit can be used before
 it vapourises.
 
-    allow:
-        invisibility: true
+```
+allow:
+    invisibility: true
+```
 
 Whether players can make their TARDIS invisible.

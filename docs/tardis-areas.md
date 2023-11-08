@@ -20,8 +20,10 @@ this up follow the instructions below.
 
 There are 2 commands used to set up TARDIS areas:
 
-    /tardisarea start [name]
-    /tardisarea end
+```
+/tardisarea start [name]
+/tardisarea end
+```
 
 After typing `/tardisarea start [name]` you will be prompted to define the first corner of the TARDIS area by clicking
 on the block where you want it to start. Change `[name]` to something suitable (between 2 and 16 characters, no spaces).
@@ -39,7 +41,9 @@ See also: the [Area commands](commands/area) page
 By default TARDIS areas default to using 2 blocks of space between parked TARDISes, you can change this setting on a per
 area basis by typing:
 
-    /tardisarea parking [name] [distance]
+```
+/tardisarea parking [name] [distance]
+```
 
 Where `[name]` is the name you gave the area when you created it, and `[distance]` is the number of blocks between
 TARDISes.
@@ -48,7 +52,9 @@ TARDISes.
 
 To temporarily show markers on the four corners of a defined TARDIS area, type:
 
-    /tardisarea show [name]
+```
+/tardisarea show [name]
+```
 
 Where `[name]` is the name you gave the area when you created it. A SNOW block will appear on each corner, then
 disappear after 15 seconds.
@@ -57,7 +63,9 @@ disappear after 15 seconds.
 
 To delete an area, type:
 
-    /tardisarea remove [name]
+```
+/tardisarea remove [name]
+```
 
 Where `[name]` is the name you gave the area when you created it.
 
@@ -67,9 +75,11 @@ Access to TARDIS areas is blocked by default. All access is controlled by permis
 
 To give a player/group access to a TARDIS area they must have the permission:
 
-    tardis.area.<area_name>
+```
+tardis.area.\<area_name\>
+```
 
-Where `<area_name>` is the name you gave the area when you created it.
+Where `\<area_name\>` is the name you gave the area when you created it.
 
 ## Forcing TARDIS creation to one area
 
@@ -82,7 +92,9 @@ Where `<area_name>` is the name you gave the area when you created it.
 If you want to punish a player or do some Timelord exile role playing (thanks to **PiP69** and **TKR101010** for the
 ideas) you can give the player the permission node for the TARDIS area you want to restrict them to, AND the permission:
 
-    tardis.exile
+```
+tardis.exile
+```
 
 This will restrict all TARDIS travel to the specified area.
 

@@ -9,4 +9,6 @@ title: Documentation Template
 
 This is what a paragraph looks like!
 
-    This be a preformatted <code> tag. Marvel at its glory!
+```
+This be a preformatted <code> tag. Marvel at its glory!
+```

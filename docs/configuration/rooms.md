@@ -72,13 +72,17 @@ All rooms are enabled by default, the rest of the settings are:
 
 Set the percentage of energy the TARDIS gets back when a room is jettisoned.
 
-    jettison: [percentage]
+```
+jettison: [percentage]
+```
 
 The default is `75`.
 
 Set the seed block for room jettisons.
 
-    jettison_seed: [material]
+```
+jettison_seed: [material]
+```
 
 The default is `TNT`.
 

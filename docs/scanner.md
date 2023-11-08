@@ -10,7 +10,9 @@ This function is also available in the TARDIS Control Menu.
 
 Place the block where you want the scanner to be positioned, and the run the command:
 
-    /tardis update scanner
+```
+/tardis update scanner
+```
 
 Follow the onscreen instructions.
 

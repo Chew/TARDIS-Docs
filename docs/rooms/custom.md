@@ -14,11 +14,13 @@ it in the correct folder on the server — it should be called **[something]**.t
 
 To add the room, run the following commands:
 
-    /tardisroom add [something]
-    /tardisroom [something] [cost]
-    /tardisroom [something] [offset]
-    /tardisroom [something] [seed material]
-    /tardisroom [something] true
+```
+/tardisroom add [something]
+/tardisroom [something] [cost]
+/tardisroom [something] [offset]
+/tardisroom [something] [seed material]
+/tardisroom [something] true
+```
 
 `[something]` is the name of the room/schematic file and _MUST_ be lowercase.
 
@@ -40,16 +42,18 @@ of the room seed block, and must be _a block not used by any other rooms_ e.g. S
 
 Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks` is `true` in the TARDIS config.
 
-    /tardisroom required [room name]
+```
+/tardisroom required [room name]
+```
 
 :::tip Tips
 
 - A room template with the correct door circuits is supplied with the plugin. You can load and paste it into a world
 - with the `/tardisschematic` command and then modify it as needed.
 
-```    
-    /tardisschematic load user template
-    /tardisschematic paste
+```
+/tardisschematic load user template
+/tardisschematic paste
 ```
 
 - Any room can be enabled/disabled with `/tardisroom [name] [true|false]`, and all other settings can be changed using

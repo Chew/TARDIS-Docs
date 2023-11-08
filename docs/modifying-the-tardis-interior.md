@@ -34,7 +34,9 @@ plugin expects to be in a certain position. These are:
 
 You can move these to wherever you want, but you must run the command:
 
-    /tardis update [the block to update]
+```
+/tardis update [the block to update]
+```
 
 So that the TARDIS plugin will know of the new locations and your TARDIS will function correctly. Visit the
 [Commands](commands/tardis) page for more detailed info on the command.
@@ -84,7 +86,7 @@ You can change the blocks that room walls and floors are grown with in two ways:
   [Wall materials](walls) page
 - Set the floor block using the `/tardisprefs floor [material]` command. A list of valid materials can be found on the
   [Wall materials](walls) page
-  
+
 The next time you grow a room, your wall/floor preference will take effect, for more information see the [Rooms](rooms#changing-the-room-wall-block) page.
 If you want to change the existing wall/floor block in your TARDIS console, use the [Desktop Theme GUI](desktop-theme).
 

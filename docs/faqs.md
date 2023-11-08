@@ -118,7 +118,9 @@ teleport, Multiverse teleport, or server crash.
 
 To fix this, type the command:
 
-    /tardis occupy
+```
+/tardis occupy
+```
 
 ## It keeps saying I’m restricted to the [] area or something about my exile status! {#perms}
 
@@ -186,8 +188,10 @@ result is that it sometimes rains on the Police Box.
 You probably have the LWC plugin installed. LWC has a setting that allows iron doors to be opened by clicking them. You
 should disable this in LWC’s doors.yml:
 
-    # Enable the opening of Iron Doors when you click on them
-        enabled: false
+```
+# Enable the opening of Iron Doors when you click on them
+    enabled: false
+```
 
 If you move the interior TARDIS door, remember to remove the LWC protection after placing the door in its new position
 (and before running the `/tardis update door` command.

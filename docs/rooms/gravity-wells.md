@@ -37,16 +37,20 @@ build your own gravity shaft).
 
 The command syntax is:
 
-    /tardisgravity [direction] [distance] [velocity]
+```
+/tardisgravity [direction] [distance] [velocity]
+```
 
 Where `[direction]` is one of:
 
-    up
-    down
-    north
-    west
-    south
-    east
+```
+up
+down
+north
+west
+south
+east
+```
 
 `[distance]` is the number of blocks you want to move
 
@@ -77,7 +81,9 @@ The following table sets out the colour of the wool block needed for each gravit
 You cannot jettison gravity wells, but sometimes you may want to remove them manually. To get rid of the gravity well
 trigger block, you can use the command:
 
-    /tardisgravity remove
+```
+/tardisgravity remove
+```
 
 You will be prompted to click on the block to remove the reference to it in the TARDIS database.
 

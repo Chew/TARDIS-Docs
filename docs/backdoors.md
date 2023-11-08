@@ -11,7 +11,9 @@ out of the TARDIS from a fixed location.
 Place the (IRON) doors where you want them — one inside and one outside the
 TARDIS, and the run the following command on each of them:
 
-    /tardis update backdoor
+```
+/tardis update backdoor
+```
 
 Follow the onscreen instructions.
 

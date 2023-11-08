@@ -20,7 +20,9 @@ to use a TARDIS feature, the following occurs:
 
 To enable blueprints on your server, use the command:
 
-    /tardisconfig blueprints true
+```
+/tardisconfig blueprints true
+```
 
 To disable, run the command again with the last argument set to `false`.
 
@@ -52,11 +54,15 @@ memory core.
 
 To remove a player&rsquo;s ability to use a blueprint feature use the following command:
 
-    /tardisadmin revoke [player] [permission]
+```
+/tardisadmin revoke [player] [permission]
+```
 
 To see a list of blueprint permissions use the command:
 
-    /tardisadmin list blueprints [type]
+```
+/tardisadmin list blueprints [type]
+```
 
 Where `[type]` is one of:
 

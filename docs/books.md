@@ -23,11 +23,15 @@ _plugins/TARDIS/books_ folder. Currently there are seven books:
 
 You can view a list of available books ingame with the command:
 
-    /tardisbook list
+```
+/tardisbook list
+```
 
 To get a book, use the command:
 
-    /tardisbook [book name] get
+```
+/tardisbook [book name] get
+```
 
 To use the commands a player must have the `tardis.book` permission, or the
 parent node `tardis.use`.

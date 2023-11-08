@@ -14,7 +14,9 @@ You can use the TARDIS Transmat feature to move quickly throughout your TARDIS.
 
 To add transmat locations, stand at the location where you want to add a transmat location, then run the command:
 
-    /tardis transmat add [name]
+```
+/tardis transmat add [name]
+```
 
 ### Transmatting to saved locations
 
@@ -50,7 +52,7 @@ You can update or remove a transmat location with the `tardis transmat` command:
 - To update a saved location, move to the new desired location, then run the command:
 
     `/tardis transmat update [name]`
-    
+
 - To remove a saved transmat location, run the command:
 
     `/tardis transmat remove [name]`

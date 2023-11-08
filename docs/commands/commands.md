@@ -68,33 +68,45 @@ the [Advanced Console](advanced-console) page for more information.
 
 To return home simply use the command:
 
-    /tardistravel home
+```
+/tardistravel home
+```
 
 ### Setting a new home
 
 To move your TARDIS home location, simply look at the block you wish to make the new home location, and use the command:
 
-    /tardis home
+```
+/tardis home
+```
 
 ### Saving destinations
 
 To save the destination where your TARDIS currently is, use the command:
 
-    /tardis save [name]
+```
+/tardis save [name]
+```
 
 To save the location your player is looking at for future TARDIS travel use the command:
 
-    /tardis setdest [name]
+```
+/tardis setdest [name]
+```
 
 ### Travelling to destinations & areas
 
 To travel to a saved destination use the command:
 
-    /tardistravel dest [name]
+```
+/tardistravel dest [name]
+```
 
 To travel to a saved area (such as a recharging point) use the command:
 
-    /tardistravel area [name]
+```
+/tardistravel area [name]
+```
 
 ### Calling your TARDIS
 
@@ -106,4 +118,6 @@ In `hard` difficulty mode you must use the Stattenheim Remote.
 
 To call your TARDIS to you, simply use the command:
 
-    /tardis comehere
+```
+/tardis comehere
+```

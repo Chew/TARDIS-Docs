@@ -34,9 +34,9 @@ title: Big list of permissions
     <tr class="child"><td colspan="2"><code>tardis.advanced</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.storage</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.vault</code></td><td>true</td></tr>
-    <tr class="child"><td colspan="2"><code>tardis.preset.*</code></td><td>true</td></tr>
-    <tr><td><code>tardis.preset.*</code></td><td colspan="2">Allow players to use all exterior Chameleon Presets.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="64"> &nbsp; &mdash; children of <code>tardis.preset.*</code></td><td colspan="2"><code>tardis.preset.andesite</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.preset.\*</code></td><td>true</td></tr>
+    <tr><td><code>tardis.preset.\*</code></td><td colspan="2">Allow players to use all exterior Chameleon Presets.</td><td>op</td></tr>
+    <tr class="child"><td rowspan="64"> &nbsp; &mdash; children of <code>tardis.preset.\*</code></td><td colspan="2"><code>tardis.preset.andesite</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.preset.angel</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.preset.apperture</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.preset.cake</code></td><td>true</td></tr>
@@ -112,8 +112,8 @@ title: Big list of permissions
     <tr><td><code>tardis.timetravel.biome</code></td><td colspan="2">Allow players to travel to specific biomes.</td><td>op</td></tr>
     <tr><td><code>tardis.timetravel.cave</code></td><td colspan="2">Allow players to travel to caves.</td><td>op</td></tr>
     <tr><td><code>tardis.timetravel.village</code></td><td colspan="2">Allow players to travel to villages.</td><td>op</td></tr>
-    <tr><td><code>tardis.timetravel.structure.*</code></td><td colspan="2">Allow players to travel to structures.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="20"> &nbsp; &mdash; children of <code>tardis.timetravel.structure.*</code></td><td colspan="2"><code>tardis.timetravel.structure.bastion_remnant</code></td><td>true</td></tr>
+    <tr><td><code>tardis.timetravel.structure.\*</code></td><td colspan="2">Allow players to travel to structures.</td><td>op</td></tr>
+    <tr class="child"><td rowspan="20"> &nbsp; &mdash; children of <code>tardis.timetravel.structure.\*</code></td><td colspan="2"><code>tardis.timetravel.structure.bastion_remnant</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.ancient_city</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.desert_pyramid</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.fortress</code></td><td>true</td></tr>
@@ -133,8 +133,8 @@ title: Big list of permissions
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.village_savanna</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.village_snowy</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.village_taiga</code></td><td>true</td></tr>
-    <tr><td><code>tardis.prefs.*</code></td><td colspan="2">Allow players to use /tardisprefs commands.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="38"> &nbsp; &mdash; children of <code>tardis.prefs.*</code></td><td colspan="2"><code>tardis.prefs.auto</code></td><td>true</td></tr>
+    <tr><td><code>tardis.prefs.\*</code></td><td colspan="2">Allow players to use /tardisprefs commands.</td><td>op</td></tr>
+    <tr class="child"><td rowspan="38"> &nbsp; &mdash; children of <code>tardis.prefs.\*</code></td><td colspan="2"><code>tardis.prefs.auto</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.prefs.auto_powerup</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.prefs.auto_rescue</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.prefs.auto_siege</code></td><td>true</td></tr>
@@ -181,8 +181,8 @@ title: Big list of permissions
     <tr><td><code>tardis.help</code></td><td colspan="2">Allow players to view TARDIS help pages.</td><td>true</td></tr>
     <tr><td><code>tardis.update</code></td><td colspan="2">Allow players to modify the TARDIS interior.</td><td>true</td></tr>
     <tr><td><code>tardis.rebuild</code></td><td colspan="2">Allow players to rebuild the TARDIS.</td><td>true</td></tr>
-    <tr><td id="console-perms"><code>tardis.console.*</code></td><td colspan="2">Allow players to build all TARDIS types.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="31"> &nbsp; &mdash; children of <code>tardis.console.*</code></td><td colspan="2"><code>tardis.ancient</code></td><td>true</td></tr>
+    <tr><td id="console-perms"><code>tardis.console.\*</code></td><td colspan="2">Allow players to build all TARDIS types.</td><td>op</td></tr>
+    <tr class="child"><td rowspan="31"> &nbsp; &mdash; children of <code>tardis.console.\*</code></td><td colspan="2"><code>tardis.ancient</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.ars</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.bigger</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.cave</code></td><td>true</td></tr>

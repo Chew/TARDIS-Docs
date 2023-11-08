@@ -19,9 +19,11 @@ admin configured rechargers.
 Rift Manipulator are powered by Acid Batteries and the Rift Circuit. To see the crafting recipes for the required items
 use the commands below:
 
-    /tardisrecipe acid-battery
-    /tardisrecipe rift-circuit
-    /tardisrecipe rift-manipulator
+```
+/tardisrecipe acid-battery
+/tardisrecipe rift-circuit
+/tardisrecipe rift-manipulator
+```
 
 Any player can craft the items, but only those with the correct permission can activate the Rift Manipulator. This is
 done by simply placing the block where you want it. Breaking the block can only be done by the player who placed it (the

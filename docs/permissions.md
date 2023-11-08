@@ -45,127 +45,141 @@ Allow players to use a TARDIS
 There are a number of (probably unnecessary and self explanatory) child nodes. This means that if you have given
 players `tardis.use` you _DON’T_ need to give any of the permissions below.
 
-    tardis.create
-    tardis.exterminate
-    tardis.timetravel
-    tardis.list
-    tardis.save
-    tardis.enter
-    tardis.add
-    tardis.find
-    tardis.update
-    tardis.rebuild
-    tardis.help
-    tardis.book
-    tardis.advanced
-    tardis.storage
-    tardis.gravity
-    tardis.texture
-    tardis.temporal
-	tardis.architectural
+```
+tardis.create
+tardis.exterminate
+tardis.timetravel
+tardis.list
+tardis.save
+tardis.enter
+tardis.add
+tardis.find
+tardis.update
+tardis.rebuild
+tardis.help
+tardis.book
+tardis.advanced
+tardis.storage
+tardis.gravity
+tardis.texture
+tardis.temporal
+tardis.architectural
+```
 
 ## TARDIS build sizes
 
 In order to be able to create a ‘bigger’, ‘deluxe’, ‘eleventh’, ‘twelfth’, ‘redstone’, ‘steampunk’, ‘ARS’, ‘tom’,
 ‘plank’, ‘war’, ‘master’, ‘pyramid’, ‘custom’ TARDIS, or any of the other consoles players will need:
 
-    tardis.ancient
-    tardis.ars
-    tardis.bigger
-    tardis.cave
-    tardis.copper
-    tardis.coral
-    tardis.delta
-    tardis.deluxe
-    tardis.division
-    tardis.eleventh
-    tardis.ender
-    tardis.factory
-    tardis.fugitive
-    tardis.hospital
-    tardis.master
-    tardis.mechanical
-    tardis.original
-    tardis.plank
-    tardis.pyramid
-    tardis.redstone
-    tardis.rotor
-    tardis.steampunk
-    tardis.thirteenth
-    tardis.tom
-    tardis.twelfth
-    tardis.war
-    tardis.weathered
-    tardis.legacy_bigger
-    tardis.legacy_deluxe
-    tardis.legacy_eleventh
-    tardis.legacy_redstone
-    tardis.custom
+```
+tardis.ancient
+tardis.ars
+tardis.bigger
+tardis.cave
+tardis.copper
+tardis.coral
+tardis.delta
+tardis.deluxe
+tardis.division
+tardis.eleventh
+tardis.ender
+tardis.factory
+tardis.fugitive
+tardis.hospital
+tardis.master
+tardis.mechanical
+tardis.original
+tardis.plank
+tardis.pyramid
+tardis.redstone
+tardis.rotor
+tardis.steampunk
+tardis.thirteenth
+tardis.tom
+tardis.twelfth
+tardis.war
+tardis.weathered
+tardis.legacy_bigger
+tardis.legacy_deluxe
+tardis.legacy_eleventh
+tardis.legacy_redstone
+tardis.custom
+```
 
 ## TARDIS world creation
 
 If a server is set up to use a default world (and `create_worlds_with_perms: true` is set on the config), players can be
 allowed to create a TARDIS in its own world if they have:
 
-    tardis.create_world
+```
+tardis.create_world
+```
 
 ## Junk TARDIS
 
 If a server is set up to allow a Junk TARDIS (both `junk.enabled: true` and `creation.default_world: true` are set on
 the config), players can use the Junk TARDIS if they have:
 
-    tardis.junk
+```
+tardis.junk
+```
 
 ## TARDIS rooms
 
 To allow players to grow new TARDIS rooms, they will need the permission for each room type. To be able to grow all room
 types (including custom ones), use:
 
-    tardis.room
+```
+tardis.room
+```
 
 Otherwise there are individual nodes for for each room:
 
-    tardis.room.antigravity
-    tardis.room.antigravity
-    tardis.room.arboretum
-    tardis.room.baker
-    tardis.room.bamboo
-    tardis.room.bedroom
-    tardis.room.birdcage
-    tardis.room.chemistry
-    tardis.room.empty
-    tardis.room.farm
-    tardis.room.geode
-    tardis.room.gravity
-    tardis.room.greenhouse
-    tardis.room.harmony
-    tardis.room.hutch
-    tardis.room.igloo
-    tardis.room.kitchen
-    tardis.room.lazarus
-    tardis.room.library
-    tardis.room.maze
-    tardis.room.mushroom
-    tardis.room.nether
-    tardis.room.passage
-    tardis.room.pool
-    tardis.room.rail
-    tardis.room.renderer
-    tardis.room.shell
-    tardis.room.smelter
-    tardis.room.stable
-    tardis.room.stall
-    tardis.room.surgery
-    tardis.room.trenzalore
-    tardis.room.vault
-    tardis.room.village
-    tardis.room.wood
-    tardis.room.workshop
-    tardis.room.zero
+```
+tardis.room.antigravity
+tardis.room.antigravity
+tardis.room.arboretum
+tardis.room.baker
+tardis.room.bamboo
+tardis.room.bedroom
+tardis.room.birdcage
+tardis.room.chemistry
+tardis.room.empty
+tardis.room.farm
+tardis.room.geode
+tardis.room.gravity
+tardis.room.greenhouse
+tardis.room.harmony
+tardis.room.hutch
+tardis.room.igloo
+tardis.room.kitchen
+tardis.room.lazarus
+tardis.room.library
+tardis.room.maze
+tardis.room.mushroom
+tardis.room.nether
+tardis.room.passage
+tardis.room.pool
+tardis.room.rail
+tardis.room.renderer
+tardis.room.shell
+tardis.room.smelter
+tardis.room.stable
+tardis.room.stall
+tardis.room.surgery
+tardis.room.trenzalore
+tardis.room.vault
+tardis.room.village
+tardis.room.wood
+tardis.room.workshop
+tardis.room.zero
+```
 
 To use the Architectural Reconfiguration System, players will need:
 
-    tardis.architectural
+```
+tardis.architectural
+```
 
 ## Time travel
 
@@ -173,34 +187,48 @@ There are a some time travel specific nodes:
 
 Allow players to fly the TARDIS exterior
 
-    tardis.fly
+```
+tardis.fly
+```
 
 Allow travel to player locations
 
-    tardis.timetravel.player
+```
+tardis.timetravel.player
+```
 
 Allow travel to specified co-ordinates
 
-    tardis.timetravel.location
+```
+tardis.timetravel.location
+```
 
 Allow travel to a specified biome
 
-    tardis.timetravel.biome
+```
+tardis.timetravel.biome
+```
 
 Allow travel to caves
 
-    tardis.timetravel.cave
+```
+tardis.timetravel.cave
+```
 
 Allow travel to villages
 
-    tardis.timetravel.village
+```
+tardis.timetravel.village
+```
 
 ## Per world travel
 
 If the TARDIS config option `per_world_perms` is `true`, then players will need the appropriate permission to time
 travel to a world. The permission format is:
 
-    tardis.travel.[world]
+```
+tardis.travel.[world]
+```
 
 Where `[world]` is the name of the world they will have access to.
 
@@ -210,11 +238,15 @@ There are a couple of world environment specific nodes:
 
 Allow travel to **Nether** worlds
 
-    tardis.nether
+```
+tardis.nether
+```
 
 Allow travel to **The End** worlds
 
-    tardis.end
+```
+tardis.end
+```
 
 ## Kits
 
@@ -222,11 +254,15 @@ There are two TARDIS Item Kit specific nodes:
 
 Allow players to recieve a kit when they **join**
 
-    tardis.kit.join
+```
+tardis.kit.join
+```
 
 Allow players to recieve a kit when they **create** a TARDIS
 
-    tardis.kit.create
+```
+tardis.kit.create
+```
 
 ## Advanced Console
 
@@ -234,170 +270,226 @@ There are two Advanced Console specific nodes:
 
 Allow players to use the advanced console
 
-    tardis.advanced
+```
+tardis.advanced
+```
 
 Allow players to store items in the Disk Storage Container
 
-    tardis.storage
+```
+tardis.storage
+```
 
 ## Artron Energy Cells
 
 Allow players to store Artron Energy in Artron Energy Cells:
 
-    tardis.store
+```
+tardis.store
+```
 
 ## Temporal Locator
 
 Allow players to use the Temporal Locator:
 
-    tardis.temporal
+```
+tardis.temporal
+```
 
 ## Perception Filter
 
 Allow players to use the Perception Filter:
 
-    tardis.filter
+```
+tardis.filter
+```
 
 ## ARS
 
 Allow players to use the Architectural Reconfiguration System:
 
-    tardis.ars
+```
+tardis.ars
+```
 
 ## TARDIS autonomous homing function
 
 Allow TARDISes to automatically return to the nearest of the ‘Home’ location or the nearby recharge area:
 
-    tardis.autonomous
+```
+tardis.autonomous
+```
 
 ## TARDIS mob farming
 
 To allow players to farm mobs:
 
-    tardis.farm
+```
+tardis.farm
+```
 
 ## Entity ejection
 
 To allow players to eject entities (players and mobs — except horses):
 
-    tardis.eject
+```
+tardis.eject
+```
 
 ## Lazarus device / Genetic manipulator / Immortality Gate
 
 To allow players to use the TARDIS Genetic Manipulator and reverse the polarity of the TARDIS Genetic Manipulator
 turning it into the Immortality Gate:
 
-    tardis.lazarus
-    tardis.themaster
+```
+tardis.lazarus
+tardis.themaster
+```
 
 ## Chameleon Arch
 
 To allow players to use the Chameleon Arch:
 
-    tardis.chameleonarch
+```
+tardis.chameleonarch
+```
 
 ## TARDIS upgrades / desktop theme
 
 To allow players to use the desktop themer / upgrade GUI:
 
-    tardis.upgrade
+```
+tardis.upgrade
+```
 
 ## Vault sorter
 
 To allow players to have an automatic vault room chest sorter:
 
-    tardis.vault
+```
+tardis.vault
+```
 
 ## TARDIS back doors
 
 To allow players to to add a TARDIS back door:
 
-    tardis.backdoor
+```
+tardis.backdoor
+```
 
 ## Sonic Screwdrivers
 
 Each sonic upgrade has its own permission:
 
-    tardis.sonic.standard
-    tardis.sonic.bio
-    tardis.sonic.redstone
-    tardis.sonic.emerald
-    tardis.sonic.diamond
-    tardis.sonic.paint
-    tardis.sonic.ignite
-    tardis.sonic.arrow
-    tardis.sonic.knockback
-    tardis.sonic.brush
-    tardis.sonic.admin
+```
+tardis.sonic.standard
+tardis.sonic.bio
+tardis.sonic.redstone
+tardis.sonic.emerald
+tardis.sonic.diamond
+tardis.sonic.paint
+tardis.sonic.ignite
+tardis.sonic.arrow
+tardis.sonic.knockback
+tardis.sonic.brush
+tardis.sonic.admin
+```
 
 The Bio-scanner Sonic has an extra permission to allow player freezing:
 
-    tardis.sonic.freeze
+```
+tardis.sonic.freeze
+```
 
 The Emerald Environment Sonic has an extra permission to allow automatic replanting of crops (if the player has the
 correct seed item in their inventory):
 
-    tardis.sonic.plant
+```
+tardis.sonic.plant
+```
 
 The Diamond Disruptor Sonic has an extra permission to allow silk touch block drops:
 
-    tardis.sonic.silktouch
+```
+tardis.sonic.silktouch
+```
 
 ## TARDIS books and achievements
 
 To allow players to get books and gain achievements:
 
-    tardis.book
+```
+tardis.book
+```
 
 ## TARDIS Universal Translator
 
 To allow players to use the `/tardissay` command:
 
-    tardis.translate
+```
+tardis.translate
+```
 
 ## TARDIS Artron Furnace
 
 To allow players to place the TARDIS Artron Furnace:
 
-    tardis.furnace
+```
+tardis.furnace
+```
 
 ## Atmospheric Excitation
 
 To allow players to initiate Atmospheric Excitation:
 
-    tardis.atmospheric
+```
+tardis.atmospheric
+```
 
 ## TARDIS texture pack switching
 
 To allow players to use the `/tardistexture` command and switch texture packs when entering/exiting the TARDIS:
 
-    tardis.texture
+```
+tardis.texture
+```
 
 ## TARDIS gravity wells
 
 To allow players to use the `/tardisgravity` command:
 
-    tardis.gravity
+```
+tardis.gravity
+```
 
 ## TARDIS difficulty level
 
 To allow players to use the `/tardisprefs difficulty [easy|hard]` command:
 
-    tardis.difficulty
+```
+tardis.difficulty
+```
 
 ## TARDIS areas
 
 To allow access to TARDIS areas, users/groups must be given the permission:
 
-    tardis.area.[name_of_area]
+```
+tardis.area.[name_of_area]
+```
 
 eg. to give access to the “airport” area, the permission would be:
 
-    tardis.area.airport
+```
+tardis.area.airport
+```
 
 To restrict a player to a specific area, the player must have the permission:
 
-    tardis.exile
+```
+tardis.exile
+```
 
 AND the permission for the area they are restricted to.
 
@@ -405,16 +497,20 @@ AND the permission for the area they are restricted to.
 
 To allow players to bypass the abandoned TARDIS pruning feature:
 
-    tardis.prune.bypass
+```
+tardis.prune.bypass
+```
 
 ## Admin/moderator
 
 Allow players to do administration stuff
 
-    tardis.admin
-    tardis.delete
-    tardis.skeletonkey
-    tardis.remote
+```
+tardis.admin
+tardis.delete
+tardis.skeletonkey
+tardis.remote
+```
 
 ### Deleting any TARDIS
 
