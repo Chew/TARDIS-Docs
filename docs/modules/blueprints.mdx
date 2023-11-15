@@ -3,6 +3,8 @@ layout: default
 title: Blueprints
 ---
 
+import ConfigTable from "@site/src/components/ConfigTable";
+
 # Blueprints
 
 TARDIS blueprints are a way for players to earn or purchase TARDIS features.
@@ -41,14 +43,41 @@ Players can obtain blueprints in a few ways:
 1. By purchasing them from a TARDIS Shop. See the instructions on the
    [TARDIS Shop](tardis-shop) page for how to set this up.
 2. Using the `/tardisadmin give [player] [blueprint]` command.
-3. Using a system that can run the command above when certain conditions are met
+3. Trading with villagers in Gallifreyan structures.
+4. Using a system that can run the command above when certain conditions are met
    &mdash; for example a &ldquo;rank up&rdquo; plugin (or a command block &mdash; use the @p selector).
+   
+### Gallifreyan traders
+
+You can configure villagers that spawn in Gallifreyan structures to sell room amd console blueprints. The associated configuration options are found in _planets.yml_:
+
+```yaml title="/plugins/TARDIS/planets.yml"
+planets:
+  gallifrey:
+    ...
+    villager_blueprints:
+      enabled: true
+      uses: 1
+      chance: 20
+```
+
+<ConfigTable name={"/plugins/TARDIS/planets.yml"} data={`
+villager_blueprints:
+  enabled: true # Sets whether Gallifreyan villagers will have blueprints for sale.
+  uses: 1 # Sets the number of times a player can buy this offer - the range should be between \`1\` and \`16\` - this reflects vanilla behaviour.
+  chance: 20 # Sets the random percent chance that a villager wil have blueprints to trade when it is spawned.
+`} />
+
+Each villager will have 2 trades - one room and one console. The purchase item will be the seed block that is used to grow the room or craft the console seed.
+
+![Merchant GUI](/images/docs/gallifreyan_merchant.jpg)
+
+When the offer has been disabled due to the maximum uses, player's can click the offer in the merchant inventory - the inventory will close, and the next time it is opened a new offer will be shown.
 
 ## Using Blueprints
 
 Once a player has obtained a blueprint they need to condense it in the TARDIS
-Artron condenser. Once condensed the blueprint will be stored in the TARDIS&rsquo;
-memory core.
+Artron condenser. Once condensed the blueprint will be stored in the TARDIS&rsquo; memory core.
 
 ## Removing a Blueprint
 
