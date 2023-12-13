@@ -54,7 +54,8 @@ Otherwise, mobs will look like vanilla mobs!
 - This world is limited to customised Badlands, Wooded Badlands and Eroded Badlands biomes.
 - Time Lord structures will generate automatically as you explore the world — multiple buildings will be grouped in a
   small village.
-- Time Lords will spawn in these structures.
+- Time Lords (villagers) will spawn in these structures.
+- You can configure whether villagers spawned Gallifreyan structures will have TARDIS blueprints as their trades — see the related [config section](/configuration/planets) in _planets.yml_.
 - A random loot chest is also located in the structures.
 
 ## Planet Siluria

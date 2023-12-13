@@ -37,12 +37,14 @@ All rooms are enabled by default, the rest of the settings are:
 | CHEMISTRY   | 550  | -4     | BLAST_FURNACE            |
 | EMPTY       | 250  | -4     | GLASS                    |
 | FARM        | 350  | -4     | DIRT                     |
+| GARDEN      | 450  | -4     | CHERRY_LEAVES            |
 | GEODE       | 650  | -4     | AMETHYST_BLOCK           |
 | GRAVITY     | 625  | -20    | MOSSY_COBBLESTONE        |
 | GREENHOUSE  | 450  | -4     | MELON                    |
 | HARMONY     | 450  | -4     | STONE_BRICK_STAIRS       |
 | HUTCH       | 450  | -4     | ACACIA_LOG               |
 | IGLOO       | 650  | -4     | PACKED_ICE               |
+| IISTUBIL    | 550  | -4     | WHITE_GLAZED_TERRACOTTA  |
 | KITCHEN     | 450  | -4     | PUMPKIN                  |
 | LAZARUS     | 750  | -4     | FURNACE                  |
 | LIBRARY     | 550  | -4     | ENCHANTING_TABLE         |
@@ -51,6 +53,7 @@ All rooms are enabled by default, the rest of the settings are:
 | MUSHROOM    | 350  | -4     | GRAVEL                   |
 | NETHER      | 450  | -4     | BLACKSTONE               |
 | PASSAGE     | 200  | -4     | CLAY                     |
+| PEN         | 550  | -4     | MOSS_BLOCK               |
 | POOL        | 450  | -4     | SNOW_BLOCK               |
 | RAIL        | 650  | -4     | HOPPER                   |
 | RENDERER    | 550  | -4     | TERRACOTTA               |

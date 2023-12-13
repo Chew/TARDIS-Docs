@@ -19,7 +19,7 @@ open a GUI for setting Player Preferences. Permission for use: `tardis.sonic.sta
 
 ## Upgrades
 
-There are 9 upgrades that you can give your Sonic:
+There are 10 upgrades that you can give your Sonic:
 
 | Upgrade                     | Recipe                                      | Permissions                                      |
 |-----------------------------|---------------------------------------------|--------------------------------------------------|
@@ -32,6 +32,7 @@ There are 9 upgrades that you can give your Sonic:
 | Pickup Arrows Circuit       | `/tardisrecipe pickup-arrows-circuit`       | `tardis.sonic.arrow`                             |
 | Knockback Circuit           | `/tardisrecipe knockback-circuit`           | `tardis.sonic.knockback`                         |
 | Brush Circuit               | `/tardisrecipe brush-circuit`               | `tardis.sonic.brush`                             |
+| Conversion Circuit          | `/tardisrecipe conversion-circuit`          | `tardis.sonic.conversion`                        |
 | Server Admin Circuit        | `/tardisrecipe server-admin-circuit`        | `tardis.sonic.admin`                             |
 
 To upgrade your Sonic Screwdriver, you combine it with a new circuit in a crafting table or smithing table (though
@@ -130,6 +131,10 @@ Due to the current limitations of the
 Bukkit API the item will not emerge slowly like it would with a vanilla brush.
 
 :::
+
+### Conversion
+
+The Conversion upgraded Sonic allows you sonically transform blocks from one state to another &mdash; you can turn concrete powder into concrete, dirt into mud, and mud into clay. The radius of blocks converted is determined by the [config option](/configuration/prefs#sonic_radius) `preferences.sonic_radius`.
 
 ### Server Admin
 

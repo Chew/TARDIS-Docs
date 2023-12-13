@@ -317,6 +317,8 @@ title: Big list of permissions
     <tr><td><code>tardis.sonic.ignite</code></td><td colspan="2">Allows a player to use the ignite function of the sonic screwdriver.</td><td>op</td></tr>
     <tr><td><code>tardis.sonic.arrow</code></td><td colspan="2">Allows a player to use the pickup arrows function of the sonic screwdriver.</td><td>op</td></tr>
     <tr><td><code>tardis.sonic.knockback</code></td><td colspan="2">Allows a player to use the entity knockback function of the sonic screwdriver.</td><td>op</td></tr>
+    <tr><td><code>tardis.sonic.brush</code></td><td colspan="2">Allows a player to use the suspicious block rush function of the sonic screwdriver.</td><td>op</td></tr>
+    <tr><td><code>tardis.sonic.conversion</code></td><td colspan="2">Allows a player to use the block conversion function of the sonic screwdriver.</td><td>op</td></tr>
     <tr><td><code>tardis.store</code></td><td colspan="2">Allows the Artron Energy to be stored in an Artron Storage Cell.</td><td>op</td></tr>
     <tr><td><code>tardis.filter</code></td><td colspan="2">Allows a player to use the TARDIS Perception Filter.</td><td>op</td></tr>
     <tr><td><code>tardis.translate</code></td><td colspan="2">Allows a player to use the TARDIS Universal Translator.</td><td>op</td></tr>

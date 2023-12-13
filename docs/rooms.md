@@ -62,14 +62,17 @@ and follow the instructions. The room types and their corresponding seed blocks 
 | Farm | DIRT |
 | Gravity Well | MOSSY_COBBLESTONE |
 | Anti-Gravity Well | SANDSTONE |
+| Garden | CHERRY_LEAVES |
 | Greenhouse | MELON |
 | Hutch | ACACIA_LOG |
 | Igloo | PACKED_ICE |
+| Iistubil | WHITE_GLAZED_TERRACOTTA |
 | Kitchen | PUMPKIN |
 | Lazarus | FURNACE |
 | Library | ENCHANTING_TABLE |
 | Mushroom | GRAVEL |
 | Passage | CLAY |
+| Pen | MOSS_BLOCK |
 | Pool | SNOW_BLOCK |
 | Rail | HOPPER |
 | Renderer | TERRACOTTA |
@@ -121,7 +124,7 @@ To set your wall block preference, type:
 Where `[material]` is a block from the wall help list, e.g:
 
 ```
-/tardisprefs wall huge_mushroom_2
+/tardisprefs wall red_mushroom_block
 ```
 
 The next room you grow (if it normally contains ORANGE wool) will have the blocks replaced with your preference.

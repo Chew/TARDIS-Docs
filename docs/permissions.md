@@ -393,6 +393,7 @@ tardis.sonic.ignite
 tardis.sonic.arrow
 tardis.sonic.knockback
 tardis.sonic.brush
+tardis.sonic.conversion
 tardis.sonic.admin
 ```
 
