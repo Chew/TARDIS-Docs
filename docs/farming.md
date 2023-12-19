@@ -36,24 +36,24 @@ animal!
 
 Enter the TARDIS as usual, and the following will happen:
 
-- If you have already grown an **allay** room, then allays will be teleported into the allay house
-- If you have already grown an **apiary** room, then bees will be teleported into the apiary
-- If you have already grown an **aquarium** room, then fish will be teleported into the aquarium
-- If you have already grown a **bamboo** room, then pandas will be teleported into the bamboo room
-- If you have already grown a **farm** room, then chickens, cows, pigs, sheep and mooshrooms will be teleported 
+- If you have already grown an [**allay**](/rooms/gallery#Allay) room, then allays will be teleported into the allay house
+- If you have already grown an [**apiary**](/rooms/gallery#Apiary) room, then bees will be teleported into the apiary
+- If you have already grown an [**aquarium**](/rooms/gallery#Aquarium) room, then fish will be teleported into the aquarium
+- If you have already grown a [**bamboo**](/rooms/gallery#Bamboo) room, then pandas will be teleported into the bamboo room
+- If you have already grown a [**farm**](/rooms/gallery#Farm) room, then chickens, cows, pigs, sheep and mooshrooms will be teleported 
   into the appropriate pen in the farm
-- If you have already grown a **iistubil** room, then camels will be teleported into the iistubil room
-- If you have already grown a **lava** room, then striders will be teleported into the lava room
-- If you have already grown a **stable** room, then horses will be teleported into the stable
-- If you have already grown a **stall** room, then llamas will be teleported into the stall
-- If you have already grown a **hutch** room, then rabbits will be teleported into the hutch room
-- If you have already grown a **village** room, then villagers will be teleported into the village room
-- If you have already grown an **igloo** room, then polar bears will be teleported into the igloo room
-- If you have already grown an **geode** room, then axolotls will be teleported into the geode room
-- If you have already grown an **mangrove** room, then frogs will be teleported into the mangrove room
-- If you have already grown an **pen** room, then sniffers will be teleported into the pen room
-- If you have already grown a **pool** room and the `allow.guardians` config option is set to `true`, then guardians
+- If you have already grown a [**iistubil**](/rooms/gallery#Iistubil) room, then camels will be teleported into the iistubil room
+- If you have already grown a [**lava**](/rooms/gallery#Lava) room, then striders will be teleported into the lava room
+- If you have already grown a [**stable**](/rooms/gallery#Stable) room, then horses will be teleported into the stable
+- If you have already grown a [**stall**](/rooms/gallery#Stall) room, then llamas will be teleported into the stall
+- If you have already grown a [**hutch**](/rooms/gallery#Hutch) room, then rabbits will be teleported into the hutch room
+- If you have already grown an [**igloo**](/rooms/gallery#Igloo) room, then polar bears will be teleported into the igloo room
+- If you have already grown an [**geode**](/rooms/gallery#Geode) room, then axolotls will be teleported into the geode room
+- If you have already grown an [**mangrove**](/rooms/gallery#Mangrove) room, then frogs will be teleported into the mangrove room
+- If you have already grown an [**pen**](/rooms/gallery#Pen) room, then sniffers will be teleported into the pen room
+- If you have already grown a [**pool**](/rooms/gallery#Pool) room and the `allow.guardians` config option is set to `true`, then guardians
   will be teleported into the pool
+- If you have already grown a [**village**](/rooms/gallery#Village) room, then villagers will be teleported into the village room
 - If no appropriate room is available (and if allowed in the TARDIS config), then the spawn eggs for the mobs are placed
   in the player’s inventory.
   
