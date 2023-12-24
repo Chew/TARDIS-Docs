@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import {parse} from "yaml"
+import { Document, parse } from "yaml"
 import ReactMarkdown from "react-markdown";
 import Layout from '@theme/Layout';
 import styles from "../css/index.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+
+var yamlObject: Object
+var doc: Document
 
 class Editor extends Component {
     constructor(props) {
@@ -22,21 +25,50 @@ class Editor extends Component {
         reader.onload = () => {
             const str: string = typeof reader.result === 'string' ? reader.result : Buffer.from(reader.result).toString()
             const y = parse(str)
+            yamlObject = y
+            doc = new Document(y)
             this.setState({fileName: file.name, fileContent: reader.result, yaml: y});
         }
         reader.onerror = () => {
             console.log('file error', reader.error);
         }
     }
+    handleSaveFile = e => {
+        var textFile = null,
+        makeTextFile = function () {
+            var replaceString = doc.toString()
+            const find = ['""', '"'];
+            const replace = ["''", ""];
+            for (var i = 0; i < find.length; i++) {
+                replaceString = replaceString.replaceAll(find[i], replace[i]);
+            }
+            var data = new Blob([replaceString], {type: 'text/plain'});
+
+            // If we are replacing a previously generated file we need to
+            // manually revoke the object URL to avoid memory leaks.
+            if (textFile !== null) {
+                window.URL.revokeObjectURL(textFile);
+            }
+
+            textFile = window.URL.createObjectURL(data);
+
+            return textFile;
+        };
+
+        var link = document.getElementById('downloadlink');
+        link.href = makeTextFile();
+        link.style.display = 'block';
+    }
     render() {
         return (
             <>
                 <div>
-                    <p style={{textAlign: "center"}}><input type="file" onChange={this.handleFileChange}></input></p>
+                    <p style={{textAlign: "center"}}><input type="file" onChange={this.handleFileChange}></input><br/><button id="save" onClick={this.handleSaveFile}>Save file</button><br/><a download="config.yml" id="downloadlink" style={{display: "none"}}>Download</a>
+</p>
                     <table>
                         <tbody>
                     {Object.entries(this.state.yaml).map(([key, value]) => (
-                        <HandleRow key={key} parent={""} yamlKey={key} yamlValue={value} indent={0} />
+                        <HandleRow key={key} path={""} yamlKey={key} yamlValue={value} indent={0} />
                     ))}
                         </tbody>
                     </table>
@@ -44,10 +76,6 @@ class Editor extends Component {
             </>
         )
     }
-}
-
-function ab2str(buf) {
-    return String.fromCharCode.apply(null, new Uint16Array(buf));
 }
 
 function HomepageHeader() {
@@ -61,9 +89,9 @@ function HomepageHeader() {
     );
 }
 
-function Input(parent, key, value) {
+function Input(path, key, value) {
     const valueType = typeof value;
-    let p = parent == '' ? key : parent + "." + key
+    let p = path == '' ? key : path + "." + key
     if (valueType === "boolean") {
         return TrueFalse(p, value)
     } else {
@@ -71,33 +99,43 @@ function Input(parent, key, value) {
     }
 }
 
-function TrueFalse(parent, tf) {
+function TrueFalse(path, tf) {
     return (
-        <select name={parent} defaultValue={tf} onChange={e => handleChange(parent, e.target.value)}>
-           <option value={"true"}>true</option>
-           <option value={"false"}>false</option>
+        <select name={path} defaultValue={tf} onChange={e => handleChangeSelect(path, e.target.value)}>
+           <option value={true}>true</option>
+           <option value={false}>false</option>
         </select>
     )
 }
 
-function handleChange(key, value) {
+function handleChangeSelect(key, value) {
     // handle stuff
-    console.log(key + ": " + value)
+//     const doc = new Document(yamlObject)
+    doc.commentBefore = ' config file'
+    if (key.includes(".")) {
+        // split path
+        const path = key.split(".")
+        doc.setIn(path, value)
+    } else {
+        doc.set(key, value)
+    }
+    doc.set(key, value)
+    console.log(doc.toString())
 }
 
-function TextField(parent, value) {
+function TextField(path, value) {
     return (
-        <input type="text" defaultValue={value} name={parent} />
+        <input type="text" defaultValue={value} name={path} onBlur={e => handleChangeSelect(path, e.target.value)} />
     )
 }
 
-function HandleRow({parent, yamlKey, yamlValue, indent = 0} : {parent: string, yamlKey: string, yamlValue: any, indent: number}) {
+function HandleRow({path, yamlKey, yamlValue, indent = 0} : {path: string, yamlKey: string, yamlValue: any, indent: number}) {
 
     const valueType = typeof yamlValue;
     const isParent = valueType === "object";
-
+    var p = path == "" ? yamlKey : path + "." + yamlKey
     const children = isParent ? Object.entries(yamlValue).map(([key, value]) => (
-        <HandleRow key={key} parent={yamlKey} yamlKey={key} yamlValue={value} indent={indent + 1} />
+        <HandleRow key={key} path={p} yamlKey={key} yamlValue={value} indent={indent + 1} />
     )) : "null";
 
     let indentation = "indent" + indent;
@@ -117,7 +155,7 @@ function HandleRow({parent, yamlKey, yamlValue, indent = 0} : {parent: string, y
         <tr>
             <td className={indentation} id={yamlKey}><code>{yamlKey}</code></td>
             <td><em>{valueType.toString()}</em></td>
-            <td>{Input(parent, yamlKey, yamlValue)}</td>
+            <td>{Input(path, yamlKey, yamlValue)}</td>
         </tr>
     );
 
