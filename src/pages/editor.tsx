@@ -8,6 +8,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 var yamlObject: Object
 var doc: Document
+var fName: String
 
 class Editor extends Component {
     constructor(props) {
@@ -28,6 +29,7 @@ class Editor extends Component {
             yamlObject = y
             doc = new Document(y)
             this.setState({fileName: file.name, fileContent: reader.result, yaml: y});
+            fName = file.name
         }
         reader.onerror = () => {
             console.log('file error', reader.error);
@@ -49,12 +51,9 @@ class Editor extends Component {
             if (textFile !== null) {
                 window.URL.revokeObjectURL(textFile);
             }
-
             textFile = window.URL.createObjectURL(data);
-
             return textFile;
         };
-
         var link = document.getElementById('downloadlink');
         link.href = makeTextFile();
         link.style.display = 'block';
@@ -63,7 +62,7 @@ class Editor extends Component {
         return (
             <>
                 <div>
-                    <p style={{textAlign: "center"}}><input type="file" onChange={this.handleFileChange}></input><br/><button id="save" onClick={this.handleSaveFile}>Save file</button><br/><a download="config.yml" id="downloadlink" style={{display: "none"}}>Download</a>
+                    <p style={{textAlign: "center"}}><input type="file" onChange={this.handleFileChange}></input><br/><button id="save" onClick={this.handleSaveFile}>Save file</button><br/><a download={fName} id="downloadlink" style={{display: "none"}}>Download</a>
 </p>
                     <table>
                         <tbody>
