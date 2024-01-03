@@ -38,9 +38,9 @@ console have automatic piston doors. **If your TARDIS doesn’t have these:**
 To create a room, you place the required material (the seed) in front of the stone pressure plate that triggers the
 opeining of the piston door — refer to the diagram below (seed blocks are marked in red):
 
-![sedd block positions](/images/docs/seedblockpositions.png)
+![seed block positions](/images/docs/seedblockpositions.png)
 
-![sedd block positions](/images/docs/seedblocks.jpg)
+![seed block positions](/images/docs/seedblocks.jpg)
 
 Use the command:
 
@@ -120,6 +120,7 @@ To set your wall block preference, type:
 
 ```
 /tardisprefs wall [material]
+```
 
 Where `[material]` is a block from the wall help list, e.g:
 
