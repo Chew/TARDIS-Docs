@@ -187,6 +187,7 @@ title: Big list of permissions
     <tr class="child"><td colspan="2"><code>tardis.bigger</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.cave</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.copper</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.cursed</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.coral</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.custom</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.delta</code></td><td>true</td></tr>
@@ -195,6 +196,7 @@ title: Big list of permissions
     <tr class="child"><td colspan="2"><code>tardis.eleventh</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.ender</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.factory</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.fifteenth</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.fugitive</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.legacy_bigger</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.legacy_deluxe</code></td><td>true</td></tr>

@@ -78,12 +78,14 @@ tardis.bigger
 tardis.cave
 tardis.copper
 tardis.coral
+tardis.cursed
 tardis.delta
 tardis.deluxe
 tardis.division
 tardis.eleventh
 tardis.ender
 tardis.factory
+tardis.fifteenth
 tardis.fugitive
 tardis.hospital
 tardis.master
