@@ -104,6 +104,7 @@ const sidebars = {
             'rooms',
             'rooms/gallery',
             'rooms/custom',
+            'rooms/garden',
             'rooms/gravity-wells',
             'rooms/rail',
             'rooms/smelter',
