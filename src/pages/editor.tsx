@@ -36,6 +36,10 @@ class Editor extends Component {
         }
     }
     handleSaveFile = e => {
+        if (fName === undefined) {
+            alert("You need to select a config file")
+            return
+        }
         var textFile = null,
         makeTextFile = function () {
             var replaceString = doc.toString()
@@ -62,15 +66,23 @@ class Editor extends Component {
         return (
             <>
                 <div>
-                    <p style={{textAlign: "center"}}><input type="file" onChange={this.handleFileChange}></input><br/><button id="save" onClick={this.handleSaveFile}>Save file</button><br/><a download={fName} id="downloadlink" style={{display: "none"}}>Download</a>
-</p>
-                    <table>
-                        <tbody>
-                    {Object.entries(this.state.yaml).map(([key, value]) => (
-                        <HandleRow key={key} path={""} yamlKey={key} yamlValue={value} indent={0} />
-                    ))}
-                        </tbody>
-                    </table>
+                    <p style={{textAlign: "center"}}>
+                        <input type="file" onChange={this.handleFileChange}></input><br/>
+                        <button style={{width: "20em", margin: "1em auto 0 auto"}} className="button button--primary" id="save" onClick={this.handleSaveFile}>Save file</button><br/>
+                        <a className="button button--primary" download={fName} id="downloadlink" style={{display: "none", width: "20em", margin: "1em auto"}}>Download</a>
+                    </p>
+                    <div>
+                        <table
+                            style={{display: 'flex',
+                                justifyContent: 'center',
+                                margin: '0 auto 2em auto'}}>
+                            <tbody>
+                        {Object.entries(this.state.yaml).map(([key, value]) => (
+                            <HandleRow key={key} path={""} yamlKey={key} yamlValue={value} indent={0} />
+                        ))}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </>
         )
@@ -82,7 +94,7 @@ function HomepageHeader() {
         <header className={styles.heroBanner}>
             <div className="container">
                 <h1 className="hero__title">TARDIS Config Editor</h1>
-                <p className="hero__subtitle">Edit your TARDIS config file here</p>
+                <p className="hero__subtitle">Edit your TARDIS config files here</p>
             </div>
         </header>
     );
@@ -108,8 +120,9 @@ function TrueFalse(path, tf) {
 }
 
 function handleChangeSelect(key, value) {
+    var link = document.getElementById('downloadlink');
+    link.style.display = 'none';
     // handle stuff
-//     const doc = new Document(yamlObject)
     doc.commentBefore = ' config file'
     if (key.includes(".")) {
         // split path
