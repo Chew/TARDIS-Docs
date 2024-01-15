@@ -67,5 +67,6 @@ You can use the Sonic Screwdriver (with the Redstone Upgrade) to toggle any TARD
 * The `/tardis lamps` command now only works for LIGHT blocks.
 * There is the potential to walk/fall through light blocks - if you are placing your own lights, make sure they have 
   a block behind or under them so you don't fall into the time vortex.
+* If enabled (`/tconfig add_lights true`), player placed light blocks can be added to the TARDIS light switch feature - click the light with the sonic screwdriver while sneaking to record its location in the TARDIS's database.
 
 :::
