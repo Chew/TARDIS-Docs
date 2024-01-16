@@ -18,6 +18,7 @@ const redirects = {
     '/blueprints': '/modules/blueprints',
     '/dynmap-tardis': '/modules/dynmap-tardis',
     '/generators': '/modules/generators',
+    '/sonic-blaster': '/modules/sonic-blaster',
     '/tardis-shop': '/modules/tardis-shop',
     '/vortex-manipulator': '/modules/vortex-manipulator',
     '/weeping-angels': '/modules/weeping-angels',
