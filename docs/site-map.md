@@ -77,6 +77,7 @@ import TabItem from '@theme/TabItem';
 [Companions](companions "Companions")  
 [Condensable items](condensables "Condensable items")  
 [Condenser](condenser "Condenser")  
+[Config editor](editor)  
 [Configuration](configuration/ "Configuration")  
 [Console Gallery](interiors "Console Gallery")  
 [Console Permissions](permissions-table#console-perms "Console Permissions")  
@@ -132,7 +133,9 @@ import TabItem from '@theme/TabItem';
 <TabItem value="G" label="G">
 
 [Gallifrey](planets#planet-gallifrey "Gallifrey")  
+[Gallifreyan blueprint merchants](modules/blueprints#gallifreyan-traders)  
 [Gamemode command](commands/misc#tardisgamemode "Gamemode command")  
+[Garden room](rooms/garden)  
 [Genetic Manipulator](lazarus "Genetic Manipulator")  
 [Give commands](commands/give "Give commands")  
 [Grace period](configuration/travel#grace_period "Grace period")  
@@ -227,6 +230,7 @@ import TabItem from '@theme/TabItem';
 [Rechargers](commands/admin#recharger "Rechargers")  
 [Recipe commands](commands/recipe "Recipe commands")  
 [Recipes](recipes "Recipes")  
+[Relativity Differentiator](flying#how-to-fly "Relativity Differentiator")  
 [Resource Packs](resource-packs "Resource Packs")  
 [Remote commands](commands/remote "Remote commands")  
 [Removing a TARDIS](removing-a-tardis "Removing a TARDIS")  
@@ -259,6 +263,7 @@ import TabItem from '@theme/TabItem';
 [Smelter](/rooms/smelter "Smelter")  
 [Sonic Blaster](modules/sonic-blaster "Sonic Blaster")  
 [Sonic Configurator](sonic-configurator "Sonic Configurator")  
+[Sonic Dock](sonic-dock "Sonic Dock")  
 [Sonic Generator](sonic-generator "Sonic Generator")  
 [Sonic Screwdriver](sonic-screwdriver "Sonic Screwdriver")  
 [Sontarans](modules/weeping-angels#sontarans "Sontarans")  
