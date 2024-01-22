@@ -162,7 +162,8 @@ const sidebars = {
             items: [
                 'sonic-screwdriver',
                 'sonic-configurator',
-                'sonic-generator'
+                'sonic-generator',
+                'sonic-dock',
             ]
         },
         'time-rotor',

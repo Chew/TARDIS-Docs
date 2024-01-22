@@ -1,0 +1,57 @@
+---
+layout: default
+title: Sonic Dock
+---
+
+import TabbedImage from '/src/components/TabbedImage'
+import ConfigTable from "../src/components/ConfigTable";
+
+# Sonic Dock
+
+You can place a sonic dock in your TARDIS console to hold your sonic devices.
+
+<TabbedImage name={"Sonic Dock"} description={"A sonic screwdriver placed in the sonic dock."} folder={"docs"} image={"sonic-dock.jpg"} />
+
+To add a sonic dock:
+
+1. Craft a sonic dock to see the recipe use the command `/tardisrecipe sonic-dock`
+   <TabbedImage name={"Sonic Dock recipe"} description={"The sonic dock recipe."} folder={"docs"} image={"sonic-dock-recipe.jpg"} />
+2. Place an item frame facing upwards somewhere inside your TARDIS
+3. Place the sonic dock into the item frame
+4. Use the update command to register the sonic dock with the plugin - `/tardis update sonic-dock`
+
+To dock your sonic screwdriver:
+
+* Right-click the dock with the _sonic in your main hand_.
+
+To remove the sonic from the dock:
+
+* Right-click the dock with an _empty hand_.
+
+
+## Charging
+
+If the plugin difficulty is set to `hard` or the plugin is [configured](#configuration) the sonic dock is used to charge your device. Charging will start automatically when the screwdriver is docked.
+
+## Configuration
+
+_config.yml_ contains a `sonic` configuration section with the following defaults:
+
+```yaml title="/plugins/TARDIS/config.yml"
+sonic:
+  charge: false
+  charge_level: 1000
+  charge_interval: 60
+  usage: 10
+```
+
+The settings are explained below:
+
+<ConfigTable data={`
+sonic:
+  charge: false # Sets whether players need to charge their sonic screwdriver to use it
+  charge_level: 1000 # The maximum charge level a sonic device can hold
+  charge_interval: 60 # The amount of time it takes to charge a sonic device to full charge
+  usage: 10 # The amount of energy a sonic screwdriver consumes each time it is used
+`} />
+
