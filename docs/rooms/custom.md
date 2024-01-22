@@ -5,7 +5,7 @@ title: Custom Rooms
 
 # Custom Rooms
 
-TARDIS has the ability to add your own custom rooms using [TARDIS schematic](schematics) files and
+TARDIS has the ability to add your own custom rooms using [TARDIS schematic](/schematics) files and
 the `/tardisroom` command.
 
 Custom schematics created with the `/tardisschematic` command are automatically saved in the
@@ -73,7 +73,7 @@ Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks
 :::caution
 
 This video is very outdated! The plugin no longer uses WorldEdit schematics and rooms should be grown with
-[ARS](ars).
+[ARS](/ars).
 The video shows also the custom room schematic being put into the _schematics_ folder, but it should now be put into the
 _user\_schematics_ folder.
 

@@ -6,13 +6,13 @@ path: /chemistry-lab/compounds
 
 # TARDIS Chemistry Lab Compounds
 
-The [Chemistry Lab](./index) can produce compounds, typically used in crafting Products!
+The [Chemistry Lab](/chemistry-lab) can produce compounds, typically used in crafting Products!
 
 :::note
 
 _This page only shows compounds made in the chemistry lab, to view products, go
 to [chemistry lab products](products), to view how to use the chemistry lab, go to
-the [chemistry lab page](./index). To view a list elements, go to the [elements page](elements)_
+the [chemistry lab page](/chemistry-lab). To view a list elements, go to the [elements page](elements)_
 
 :::
 

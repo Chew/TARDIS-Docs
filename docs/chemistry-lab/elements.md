@@ -5,7 +5,7 @@ title: Atomic Elements
 
 # Atomic Elements
 
-This is a cheat sheet for the Atomic Elements used in the [Element constructor](./#element-constructor)
+This is a cheat sheet for the Atomic Elements used in the [Element constructor](/chemistry-lab#element-constructor)
 
 :::note
 
