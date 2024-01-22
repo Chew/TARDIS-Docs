@@ -114,7 +114,7 @@ Recipe command: `/tardischemistry formula Charcoal`
 Elements required to craft: 7 Carbon, 4 Hydrogen, and 1 Oxygen.
 
 Uses: Crafting [Heat Blocks](products#heat-block) as well as
-any [Vanilla uses](https://minecraft.gamepedia.com/Charcoal).
+any [Vanilla uses](https://minecraft.wiki/w/Charcoal).
 
 ## Crude Oil
 
@@ -146,7 +146,7 @@ Recipe command: `/tardischemistry formula Ink`
 
 Elements required to craft: 1 Iron, 1 Sulfur, and 4 Oxygen.
 
-Uses: None known beyond [Vanilla uses](https://minecraft.gamepedia.com/Ink_Sac)
+Uses: None known beyond [Vanilla uses](https://minecraft.wiki/w/Ink_Sac)
 
 ## Iron Sulfide
 
@@ -306,7 +306,7 @@ Recipe command: `/tardischemistry formula Sugar`
 
 Elements required to craft: 6 Carbon, 12 Hydrogen, and 6 Oxygen
 
-Uses: None known beyond [Vanilla uses](https://minecraft.gamepedia.com/Sugar)
+Uses: None known beyond [Vanilla uses](https://minecraft.wiki/w/Sugar)
 
 ## Sulfate
 

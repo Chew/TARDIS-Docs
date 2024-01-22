@@ -28,9 +28,9 @@ All images use the TARDIS-Resource-Pack, and your experience will be much better
 ## Balloons
 
 Balloons are decorative items that you can hold. Holding one gives
-you [Jump Boost I](https://minecraft.gamepedia.com/Jump_Boost), holding one in your main and off hand will
-give [Jump Boost II](https://minecraft.gamepedia.com/Jump_Boost).
-Unlike [Education Edition balloons](https://minecraft.gamepedia.com/Balloon), you cannot place them on fences or attach
+you [Jump Boost I](https://minecraft.wiki/w/Jump_Boost), holding one in your main and off hand will
+give [Jump Boost II](https://minecraft.wiki/w/Jump_Boost).
+Unlike [Education Edition balloons](https://minecraft.wiki/w/Balloon), you cannot place them on fences or attach
 them to mobs. However, the recipe is the same, with the exception of requiring a String instead of a Lead.
 
 They come in the following colours: Red, Orange, Yellow, Green, Blue, Purple, Light Blue, Magenta, Pink, Cyan, Lime,
@@ -44,14 +44,14 @@ The recipe is generally the same for each balloon. The dye in the middle can be 
 
 All recipes must be crafted in the [Product crafter](./index#product-crafter)
 
-| Ingredients                                                                                                    | Crafting recipe                                                   | Recipe Command                                 |
-|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------|
-| [6 Latex](compounds#latex) + Any Dye + Helium + [String](https://minecraft.gamepedia.com/String) | ![balloon recipe](/images/chemistry/products/recipe-balloons.gif) | `/tchemistry formula [Balloon colour]_Balloon` |
+| Ingredients                                                                               | Crafting recipe                                                   | Recipe Command                                 |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------|
+| [6 Latex](compounds#latex) + Any Dye + Helium + [String](https://minecraft.wiki/w/String) | ![balloon recipe](/images/chemistry/products/recipe-balloons.gif) | `/tchemistry formula [Balloon colour]_Balloon` |
 
 ## Bleach
 
 Bleach is used to remove the colour from objects. They work just
-like [Education Edition Bleach](https://minecraft.gamepedia.com/Bleach), however they can also make Leather Armour
+like [Education Edition Bleach](https://minecraft.wiki/w/Bleach), however they can also make Leather Armour
 completely white and turn concrete powder white.
 
 ![bleach](/images/chemistry/products/bleach.gif)
@@ -103,15 +103,15 @@ This recipe must be crafted in the [Lab table](./index#lab-table)
 
 Recipe command: `/tchemistry formula Heat_Block`
 
-| Result                                                       | Materials Needed                                                                                                                            |
-|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| ![heat block](/images/chemistry/products/item-heat-block.png) | ![heat block recipe](/images/chemistry/products/recipe-heat-block.png)                                                                       |
-| Heat Block                                                   | Iron + [Water](compounds#water) + [Charcoal](https://minecraft.gamepedia.com/Charcoal) + [Salt](compounds#salt) |
+| Result                                                        | Materials Needed                                                                                         |
+|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| ![heat block](/images/chemistry/products/item-heat-block.png) | ![heat block recipe](/images/chemistry/products/recipe-heat-block.png)                                   |
+| Heat Block                                                    | Iron + [Water](compounds#water) + [Charcoal](https://minecraft.wiki/w/Charcoal) + [Salt](compounds#salt) |
 
 ## Ice Bomb
 
 Ice Bombs are simply ice in a ball! Throwing an ice bomb into a body of water will make a 3x3
-of [ice](https://minecraft.gamepedia.com/Ice)
+of [ice](https://minecraft.wiki/w/Ice)
 
 ![ice bomb](/images/chemistry/products/ice-bomb.gif)
 
@@ -141,12 +141,12 @@ _(left to right) Blue Lamp, Red Lamp, Purple Lamp, Green Lamp_
 
 All recipes must be crafted in the [Product crafter](./index#product-crafter)
 
-| Name        | Ingredients                                                                                                                       | Crafting recipe                                                         | Recipe Command                    |
-|-------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------|
-| Blue Lamp   | [Cerium Chloride](compounds#cerium-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)       | ![blue lamp recipe](/images/chemistry/products/recipe-blue-lamp.png)     | `/tchemistry formula Blue_Lamp`   |
-| Red Lamp    | [Mercuric Chloride](compounds#mercuric-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)   | ![red lamp recipe](/images/chemistry/products/recipe-red-lamp.png)       | `/tchemistry formula Red_Lamp`    |
-| Purple Lamp | [Potassium Chloride](compounds#potassium-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp) | ![purple lamp recipe](/images/chemistry/products/recipe-purple-lamp.png) | `/tchemistry formula Purple_Lamp` |
-| Green Lamp  | [Tungsten Chloride](compounds#tungsten-chloride) + [Redstone Lamp](https://minecraft.gamepedia.com/Redstone_Lamp)   | ![green lamp recipe](/images/chemistry/products/recipe-green-lamp.png)   | `/tchemistry formula Green_Lamp`  |
+| Name        | Ingredients                                                                                                  | Crafting recipe                                                          | Recipe Command                    |
+|-------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------|
+| Blue Lamp   | [Cerium Chloride](compounds#cerium-chloride) + [Redstone Lamp](https://minecraft.wiki/w/Redstone_Lamp)       | ![blue lamp recipe](/images/chemistry/products/recipe-blue-lamp.png)     | `/tchemistry formula Blue_Lamp`   |
+| Red Lamp    | [Mercuric Chloride](compounds#mercuric-chloride) + [Redstone Lamp](https://minecraft.wiki/w/Redstone_Lamp)   | ![red lamp recipe](/images/chemistry/products/recipe-red-lamp.png)       | `/tchemistry formula Red_Lamp`    |
+| Purple Lamp | [Potassium Chloride](compounds#potassium-chloride) + [Redstone Lamp](https://minecraft.wiki/w/Redstone_Lamp) | ![purple lamp recipe](/images/chemistry/products/recipe-purple-lamp.png) | `/tchemistry formula Purple_Lamp` |
+| Green Lamp  | [Tungsten Chloride](compounds#tungsten-chloride) + [Redstone Lamp](https://minecraft.wiki/w/Redstone_Lamp)   | ![green lamp recipe](/images/chemistry/products/recipe-green-lamp.png)   | `/tchemistry formula Green_Lamp`  |
 
 ## Sparklers
 
