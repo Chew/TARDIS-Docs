@@ -28,10 +28,20 @@ To remove the sonic from the dock:
 
 * Right-click the dock with an _empty hand_.
 
+## Setting travel coordinates
+
+If the sonic screwdriver you have docked has been upgraded with the Emerald Environment Circuit, the last scanned block or player location will be loaded into the TARDIS memory bank.
+Release the handbrake to travel to the location.
+
+:::tip
+
+If the [Relativity Differentiator](flying#how-to-fly) has been installed in the console and is turned on, the TARDIS will automatically disengage the handbrake and travel to the destination.
+
+:::
 
 ## Charging
 
-If the plugin difficulty is set to `hard` or the plugin is [configured](#configuration) the sonic dock is used to charge your device. Charging will start automatically when the screwdriver is docked.
+If the plugin difficulty is set to `hard` or the plugin is [configured](#configuration), the sonic dock is used to charge your device. Charging will start automatically when the screwdriver is docked.
 
 ## Configuration
 
@@ -39,6 +49,9 @@ _config.yml_ contains a `sonic` configuration section with the following default
 
 ```yaml title="/plugins/TARDIS/config.yml"
 sonic:
+  default_model: eleventh
+  conversion_radius: 1
+  freeze_cooldown: 60
   charge: false
   charge_level: 1000
   charge_interval: 60
@@ -49,6 +62,9 @@ The settings are explained below:
 
 <ConfigTable data={`
 sonic:
+  default_model: eleventh # Sets the custom model that sonic screwdrivers appear with when crafted or given
+  conversion_radius: 1 # Sets the radius of blocks that is transformed by the Sonic Screwdriver conversion function. Using a value 1 gives a 3x3 area of blocks. Setting to 0 means only the clicked block is affected
+  freeze_cooldown: 60 # Sets the cool down period (in seconds) between uses of the Sonic Screwdriver’s player freeze function
   charge: false # Sets whether players need to charge their sonic screwdriver to use it
   charge_level: 1000 # The maximum charge level a sonic device can hold
   charge_interval: 60 # The amount of time it takes to charge a sonic device to full charge
