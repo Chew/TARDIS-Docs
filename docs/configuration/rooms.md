@@ -89,5 +89,5 @@ jettison_seed: [material]
 
 The default is `TNT`.
 
-[Back to main configuration page](category/plugin-configuration)
+[Back to main configuration page](/category/plugin-configuration)
 

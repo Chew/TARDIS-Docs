@@ -317,7 +317,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="V" label="V">
 
 [Vashta Nerada](modules/weeping-angels#vashta-nerada "Vashta Nerada")  
-[Vault Room](vault "Vault Room")  
+[Vault Room](/rooms/vault "Vault Room")  
 [View Interior](view-interior "View Interior")  
 [Vortex Manipulator](modules/vortex-manipulator "Vortex Manipulator")
 

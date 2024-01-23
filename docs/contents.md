@@ -43,7 +43,7 @@ To get started choose a page:
 
 [Zero Room](/rooms/zero) — A place of peace and tranquility
 
-[Weeping Angels](weeping-angels) — Add new terrifying mobs to the game
+[Weeping Angels](/modules/weeping-angels) — Add new terrifying mobs to the game
 
 [TARDIS Genetic Manipulator](lazarus) — "I am Richard Lazarus. I am 76 years old, and I am reborn!"
 
