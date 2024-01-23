@@ -3,9 +3,6 @@
 
 const {buildRedirects, buildRedirectsFile} = require("./redirects");
 
-// Check for presence of the "GITHUB_REPOSITORY" environment variable
-const gitHubRepo = process.env.GITHUB_REPOSITORY ?? '/';
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TARDIS Plugin Docs',
@@ -13,10 +10,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://eccentricdevotion.github.io',
+  url: 'https://tardis.pages.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: `/${gitHubRepo.split('/')[1]}`,
+  baseUrl: `/`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
