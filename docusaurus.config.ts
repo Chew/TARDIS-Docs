@@ -1,10 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {buildRedirects, buildRedirectsFile} = require("./redirects");
+import {themes as prismThemes} from 'prism-react-renderer';
+import {buildRedirects, buildRedirectsFile} from "./redirects";
+import {Config, ThemeConfig} from "@docusaurus/types";
+import {Options} from "@docusaurus/preset-classic";
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   title: 'TARDIS Plugin Docs',
   tagline: 'It’s bigger on the inside',
   favicon: 'img/favicon.ico',
@@ -34,7 +36,6 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -49,8 +50,8 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
-    ],
+      }) satisfies Options,
+    ] ,
   ],
 
   themeConfig:
@@ -132,10 +133,9 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} eccentricdevotion and Contributors. Built with Docusaurus.`,
       },
       prism: {
-        theme: require('prism-react-renderer/themes/vsLight'),
-        darkTheme: require('prism-react-renderer/themes/vsDark'),
+        theme: prismThemes.oneLight,
+        darkTheme: prismThemes.oneDark,
         additionalLanguages: ["java"],
-
       },
 	  themeConfig: {
 		colorMode: {
@@ -143,7 +143,7 @@ const config = {
 		  disableSwitch: false,
 		  respectPrefersColorScheme: false,
 		},
-	  },
+	  } satisfies ThemeConfig,
     }),
 
   plugins: [
@@ -163,4 +163,4 @@ const config = {
   ],
 };
 
-module.exports = config;
+export default config;
