@@ -4,6 +4,7 @@ import styles from "../css/issues.module.css";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import { Buffer } from "buffer";
+import {siteVariables} from '@site/src/version';
 
 const { Octokit } = require("@octokit/rest");
 
@@ -230,26 +231,14 @@ export default function Issue() {
 
     // fetch the access token
     useEffect(() => {
-        fetch("http://tardisjenkins.duckdns.org/wiki-issues.php", {
-            method: "GET",
-        }).then(function (response) {
-            response.text().then(
-                function (text) {
-                    // decode text
-                    let secret = Buffer.from(text, "base64").toString("utf-8");
-                    octokit = new Octokit({
-                        auth: secret,
-                        userAgent: "TARDIS Wiki",
-                        log: console,
-                    });
-                    setIsLoaded(true);
-                },
-                (error) => {
-                    setIsLoaded(true);
-                    setError(error);
-                }
-            );
+        // decode token
+        let secret = Buffer.from(siteVariables.token, "base64").toString("utf-8");
+        octokit = new Octokit({
+            auth: secret,
+            userAgent: "TARDIS Wiki",
+            log: console,
         });
+        setIsLoaded(true);
     }, []);
 
     if (!isLoaded) {
