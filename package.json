@@ -20,6 +20,7 @@
     "@docusaurus/preset-classic": "^3.1.0",
     "@docusaurus/theme-common": "^3.1.0",
     "@mdx-js/react": "^3.0.0",
+    "@octokit/rest": "^20.0.2",
     "clsx": "^1.2.1",
     "docusaurus-lunr-search": "^3.3.2",
     "lunr": "^2.3.9",
