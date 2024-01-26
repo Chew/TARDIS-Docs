@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 
 const { Octokit } = require("@octokit/rest");
 const octokit = new Octokit({ 
-    auth: `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`,
+    auth: `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`,
     userAgent: 'TARDIS Wiki',
     log: console
 });
@@ -71,16 +71,23 @@ ${bugLog}
 
 ${bugVer}
 `
-		// post issue
-		const response = await octokit.rest.issues.create({
-			owner: "eccentricdevotion",
-			repo: "TARDIS",
-			title: bugTitle,
-			body: bugBody,
-		});
-		// hide form, show success
-		document.getElementById("bugForm").style.display = "none"
-		document.getElementById("bugSuccess").style.display = "block"
+		try {
+			// post issue
+			const response = await octokit.rest.issues.create({
+				owner: "eccentricdevotion",
+				repo: "TARDIS",
+				title: bugTitle,
+				body: bugBody,
+			});
+			// hide form, show success
+			document.getElementById("bugForm").style.display = "none"
+			document.getElementById("bugSuccess").style.display = "block"
+		} catch (error) {
+			if (error.response) {
+				console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
+			}
+			console.error(error)
+		}
     }
 
     async handleFeature() {
@@ -123,16 +130,23 @@ ${featureDesc}
 
 ${featureAlt}
     `
-		// post issue
-		const response = await octokit.rest.issues.create({
-			owner: "eccentricdevotion",
-			repo: "TARDIS",
-			title: featureTitle,
-			body: featureBody,
-		});
-		// hide form, show success
-		document.getElementById("featureForm").style.display = "none"
-		document.getElementById("featureSuccess").style.display = "block"
+		try {
+			// post issue
+			const response = await octokit.rest.issues.create({
+				owner: "eccentricdevotion",
+				repo: "TARDIS",
+				title: featureTitle,
+				body: featureBody,
+			});
+			// hide form, show success
+			document.getElementById("featureForm").style.display = "none"
+			document.getElementById("featureSuccess").style.display = "block"
+		} catch (error) {
+			if (error.response) {
+				console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
+			}
+			console.error(error)
+		}
     }
 
     render() {
@@ -168,7 +182,7 @@ ${featureAlt}
                                 <p>Contributions to the TARDIS repository should follow its <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/.github/CONTRIBUTING.md" target="_blank">contributing guidelines</a> and <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/CODE_OF_CONDUCT.md" target="_blank">code of conduct</a>.</p>
                                 </form>
                                 </div>
-                                <div id="bugSuccess">
+                                <div id="bugSuccess" style={{display: 'none'}}>
                                     <p>The bug report was submitted successfully.</p>
                                 </div>
                         </TabItem>
@@ -191,7 +205,7 @@ ${featureAlt}
                                 <p>Contributions to the TARDIS repository should follow its <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/.github/CONTRIBUTING.md" target="_blank">contributing guidelines</a> and <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/CODE_OF_CONDUCT.md" target="_blank">code of conduct</a>.</p>
                                 </form>
                                 </div>
-                                <div id="featureSuccess">
+                                <div id="featureSuccess" style={{display: 'none'}}>
                                     <p>The feature request was submitted successfully.</p>
                                 </div>
                         </TabItem>
