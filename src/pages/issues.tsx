@@ -1,19 +1,13 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import Layout from '@theme/Layout';
 import styles from "../css/issues.module.css";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import { Buffer } from "buffer";
 
 const { Octokit } = require("@octokit/rest");
-const octokit = new Octokit({ 
-    auth: `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`,
-    userAgent: 'TARDIS Wiki',
-    log: console
-});
 
-var yamlObject: Object
-var doc: Document
-var fName: String
+var octokit: Octokit
 
 class GitHub extends Component {
 
@@ -22,6 +16,7 @@ class GitHub extends Component {
     }
 
     async handleBug() {
+
         var bugTitle = (document.getElementById('bug_title') as HTMLInputElement).value;
         var bugName = (document.getElementById('bug_name') as HTMLInputElement).value;
         var bugDesc = (document.getElementById('bug_description') as HTMLInputElement).value;
@@ -33,28 +28,28 @@ class GitHub extends Component {
         if (bugTitle == "") {
             document.getElementById('bug_title').focus()
             formIsValid = false;
-			return
+			      return
         }
         if (bugName == "") {
             document.getElementById('bug_name').focus()
             formIsValid = false;
-			return
+			      return
         }
         if (bugDesc == "") {
             document.getElementById('bug_description').focus()
             formIsValid = false;
-			return
+			      return
         }
         if (bugRep == "") {
             document.getElementById('bug_reproduce').focus()
             formIsValid = false;
-			return
+			      return
         }
-		// compose body markdown
-		var bugBody = `### Submitted by
+        // compose body markdown
+        var bugBody = `### Submitted by
 
 ${bugName}
-            
+
 ### Describe the bug
 
 ${bugDesc}
@@ -71,26 +66,27 @@ ${bugLog}
 
 ${bugVer}
 `
-		try {
-			// post issue
-			const response = await octokit.rest.issues.create({
-				owner: "eccentricdevotion",
-				repo: "TARDIS",
-				title: bugTitle,
-				body: bugBody,
-			});
-			// hide form, show success
-			document.getElementById("bugForm").style.display = "none"
-			document.getElementById("bugSuccess").style.display = "block"
-		} catch (error) {
-			if (error.response) {
-				console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
-			}
-			console.error(error)
-		}
+        try {
+            // post issue
+            const response = await octokit.rest.issues.create({
+                owner: "eccentricdevotion",
+                repo: "TARDIS",
+                title: bugTitle,
+                body: bugBody,
+            });
+            // hide form, show success
+            document.getElementById("bugForm").style.display = "none"
+            document.getElementById("bugSuccess").style.display = "block"
+        } catch (error) {
+            if (error.response) {
+                console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
+            }
+            console.error(error)
+        }
     }
 
     async handleFeature() {
+
         var featureTitle = (document.getElementById('feature_title') as HTMLInputElement).value;
         var featureName = (document.getElementById('feature_name') as HTMLInputElement).value;
         var featureDesc = (document.getElementById('feature_description') as HTMLInputElement).value;
@@ -100,25 +96,25 @@ ${bugVer}
         if (featureTitle == "") {
             document.getElementById('feature_title').focus()
             formIsValid = false;
-			return
+			      return
         }
         if (featureName == "") {
             document.getElementById('feature_name').focus()
             formIsValid = false;
-			return
+			      return
         }
         if (featureDesc == "") {
             document.getElementById('feature_description').focus()
             formIsValid = false;
-			return
+			      return
         }
         if (featureAlt == "") {
             document.getElementById('feature_alternative').focus()
             formIsValid = false;
-			return
+			      return
         }
-		// compose body markdown
-		var featureBody = `### Submitted by
+        // compose body markdown
+        var featureBody = `### Submitted by
 
 ${featureName}
 
@@ -129,24 +125,24 @@ ${featureDesc}
 ### Describe alternatives you've considered
 
 ${featureAlt}
-    `
-		try {
-			// post issue
-			const response = await octokit.rest.issues.create({
-				owner: "eccentricdevotion",
-				repo: "TARDIS",
-				title: featureTitle,
-				body: featureBody,
-			});
-			// hide form, show success
-			document.getElementById("featureForm").style.display = "none"
-			document.getElementById("featureSuccess").style.display = "block"
-		} catch (error) {
-			if (error.response) {
-				console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
-			}
-			console.error(error)
-		}
+`
+        try {
+          // post issue
+          const response = await octokit.rest.issues.create({
+              owner: "eccentricdevotion",
+              repo: "TARDIS",
+              title: featureTitle,
+              body: featureBody,
+          });
+          // hide form, show success
+          document.getElementById("featureForm").style.display = "none"
+          document.getElementById("featureSuccess").style.display = "block"
+        } catch (error) {
+            if (error.response) {
+                console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
+            }
+            console.error(error)
+        }
     }
 
     render() {
@@ -182,7 +178,7 @@ ${featureAlt}
                                 <p>Contributions to the TARDIS repository should follow its <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/.github/CONTRIBUTING.md" target="_blank">contributing guidelines</a> and <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/CODE_OF_CONDUCT.md" target="_blank">code of conduct</a>.</p>
                                 </form>
                                 </div>
-                                <div id="bugSuccess" style={{display: 'none'}}>
+                                <div id="bugSuccess" className={styles.hidden}>
                                     <p>The bug report was submitted successfully.</p>
                                 </div>
                         </TabItem>
@@ -205,7 +201,7 @@ ${featureAlt}
                                 <p>Contributions to the TARDIS repository should follow its <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/.github/CONTRIBUTING.md" target="_blank">contributing guidelines</a> and <a href="https://github.com/eccentricdevotion/TARDIS/blob/8cb75a55054c520da5e2df19e07754d05b2a4beb/CODE_OF_CONDUCT.md" target="_blank">code of conduct</a>.</p>
                                 </form>
                                 </div>
-                                <div id="featureSuccess" style={{display: 'none'}}>
+                                <div id="featureSuccess" className={styles.hidden}>
                                     <p>The feature request was submitted successfully.</p>
                                 </div>
                         </TabItem>
@@ -227,11 +223,60 @@ function PageHeader() {
     );
 }
 
-export default function Submit() {
-    return <Layout title="Issues" description="TARDIS Issue Creator">
-    <PageHeader />
-    <main>
-        <GitHub />
-    </main>
-</Layout>
+export default function Issue() {
+
+    const [isLoaded, setIsLoaded] = useState(false);
+    const [error, setError] = useState(null);
+
+    // fetch the access token
+    useEffect(() => {
+        fetch("http://tardisjenkins.duckdns.org/wiki-issues.php", {
+            method: "GET",
+        }).then(function (response) {
+            response.text().then(
+                function (text) {
+                    // decode text
+                    let secret = Buffer.from(text, "base64").toString("utf-8");
+                    octokit = new Octokit({
+                        auth: secret,
+                        userAgent: "TARDIS Wiki",
+                        log: console,
+                    });
+                    setIsLoaded(true);
+                },
+                (error) => {
+                    setIsLoaded(true);
+                    setError(error);
+                }
+            );
+        });
+    }, []);
+
+    if (!isLoaded) {
+        return (
+            <Layout title="Issues" description="TARDIS Issue Creator">
+                <div style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        height: "50vh",
+                        fontSize: "20px",
+                    }}>
+                    <div>
+                        <p>Create a TARDIS issue</p>
+                        <p>Connecting to GitHub API...</p>
+                    </div>
+                </div>
+            </Layout>
+        );
+    }
+
+    return (
+        <Layout title="Issues" description="TARDIS Issue Creator">
+            <PageHeader />
+            <main>
+                <GitHub />
+            </main>
+        </Layout>
+    );
 }

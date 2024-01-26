@@ -20,4 +20,4 @@ input, textarea { width: 100%; }
 
 textarea { height: 10em; }
 
-#bugSuccess, #featureSuccess { display: none; }
+.hidden { display: none; }
