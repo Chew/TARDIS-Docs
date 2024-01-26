@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import { Document, parse } from "yaml"
-import ReactMarkdown from "react-markdown";
 import Layout from '@theme/Layout';
 import styles from "../css/index.module.css";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 var yamlObject: Object
 var doc: Document
@@ -58,7 +55,7 @@ class Editor extends Component {
             textFile = window.URL.createObjectURL(data);
             return textFile;
         };
-        var link = document.getElementById('downloadlink');
+        var link = document.getElementById('downloadlink') as HTMLAnchorElement;
         link.href = makeTextFile();
         link.style.display = 'block';
     }
@@ -113,8 +110,8 @@ function Input(path, key, value) {
 function TrueFalse(path, tf) {
     return (
         <select name={path} defaultValue={tf} onChange={e => handleChangeSelect(path, e.target.value)}>
-           <option value={true}>true</option>
-           <option value={false}>false</option>
+           <option value={"true"}>true</option>
+           <option value={"false"}>false</option>
         </select>
     )
 }
