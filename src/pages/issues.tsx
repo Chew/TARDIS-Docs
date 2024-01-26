@@ -33,22 +33,25 @@ class GitHub extends Component {
         if (bugTitle == "") {
             document.getElementById('bug_title').focus()
             formIsValid = false;
+			return
         }
         if (bugName == "") {
             document.getElementById('bug_name').focus()
             formIsValid = false;
+			return
         }
         if (bugDesc == "") {
             document.getElementById('bug_description').focus()
             formIsValid = false;
+			return
         }
         if (bugRep == "") {
             document.getElementById('bug_reproduce').focus()
             formIsValid = false;
+			return
         }
-        if (formIsValid) {
-            // compose body markdown
-            var bugBody = `### Submitted by
+		// compose body markdown
+		var bugBody = `### Submitted by
 
 ${bugName}
             
@@ -68,17 +71,16 @@ ${bugLog}
 
 ${bugVer}
 `
-            // post issue
-            const response = await octokit.rest.issues.create({
-                owner: "eccentricdevotion",
-                repo: "TARDIS",
-                title: bugTitle,
-                body: bugBody,
-            });
-            // hide form, show success
-            document.getElementById("bugForm").style.display = "none"
-            document.getElementById("bugSuccess").style.display = "block"
-        }
+		// post issue
+		const response = await octokit.rest.issues.create({
+			owner: "eccentricdevotion",
+			repo: "TARDIS",
+			title: bugTitle,
+			body: bugBody,
+		});
+		// hide form, show success
+		document.getElementById("bugForm").style.display = "none"
+		document.getElementById("bugSuccess").style.display = "block"
     }
 
     async handleFeature() {
@@ -91,22 +93,25 @@ ${bugVer}
         if (featureTitle == "") {
             document.getElementById('feature_title').focus()
             formIsValid = false;
+			return
         }
         if (featureName == "") {
             document.getElementById('feature_name').focus()
             formIsValid = false;
+			return
         }
         if (featureDesc == "") {
             document.getElementById('feature_description').focus()
             formIsValid = false;
+			return
         }
         if (featureAlt == "") {
             document.getElementById('feature_alternative').focus()
             formIsValid = false;
+			return
         }
-        if (formIsValid) {
-            // compose body markdown
-            var featureBody = `### Submitted by
+		// compose body markdown
+		var featureBody = `### Submitted by
 
 ${featureName}
 
@@ -118,18 +123,16 @@ ${featureDesc}
 
 ${featureAlt}
     `
-            // post issue
-            const response = await octokit.rest.issues.create({
-                owner: "eccentricdevotion",
-                repo: "TARDIS",
-                title: featureTitle,
-                body: featureBody,
-            });
-            alert(response.status)
-            // hide form, show success
-            document.getElementById("featureForm").style.display = "none"
-            document.getElementById("featureSuccess").style.display = "block"
-        }
+		// post issue
+		const response = await octokit.rest.issues.create({
+			owner: "eccentricdevotion",
+			repo: "TARDIS",
+			title: featureTitle,
+			body: featureBody,
+		});
+		// hide form, show success
+		document.getElementById("featureForm").style.display = "none"
+		document.getElementById("featureSuccess").style.display = "block"
     }
 
     render() {
