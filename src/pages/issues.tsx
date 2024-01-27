@@ -28,22 +28,22 @@ class GitHub extends Component {
         if (bugTitle == "") {
             document.getElementById('bug_title').focus()
             formIsValid = false;
-			      return
+            return
         }
         if (bugName == "") {
             document.getElementById('bug_name').focus()
             formIsValid = false;
-			      return
+            return
         }
         if (bugDesc == "") {
             document.getElementById('bug_description').focus()
             formIsValid = false;
-			      return
+            return
         }
         if (bugRep == "") {
             document.getElementById('bug_reproduce').focus()
             formIsValid = false;
-			      return
+            return
         }
         // compose body markdown
         var bugBody = `### Submitted by
@@ -127,16 +127,16 @@ ${featureDesc}
 ${featureAlt}
 `
         try {
-          // post issue
-          const response = await octokit.rest.issues.create({
-              owner: "eccentricdevotion",
-              repo: "TARDIS",
-              title: featureTitle,
-              body: featureBody,
-          });
-          // hide form, show success
-          document.getElementById("featureForm").style.display = "none"
-          document.getElementById("featureSuccess").style.display = "block"
+            // post issue
+            const response = await octokit.rest.issues.create({
+                owner: "eccentricdevotion",
+                repo: "TARDIS",
+                title: featureTitle,
+                body: featureBody,
+            });
+            // hide form, show success
+            document.getElementById("featureForm").style.display = "none"
+            document.getElementById("featureSuccess").style.display = "block"
         } catch (error) {
             if (error.response) {
                 console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
@@ -233,22 +233,20 @@ export default function Issue() {
         fetch("http://tardisjenkins.duckdns.org/wiki-issues.php", {
             method: "GET",
         }).then(function (response) {
-            response.text().then(
-                function (text) {
-                    // decode text
-                    let secret = Buffer.from(text, "base64").toString("utf-8");
-                    octokit = new Octokit({
-                        auth: secret,
-                        userAgent: "TARDIS Wiki",
-                        log: console,
-                    });
-                    setIsLoaded(true);
-                },
-                (error) => {
-                    setIsLoaded(true);
-                    setError(error);
-                }
-            );
+            response.text().then(function (text) {
+                // decode text
+                let secret = Buffer.from(text, "base64").toString("utf-8");
+                octokit = new Octokit({
+                    auth: secret,
+                    userAgent: "TARDIS Wiki",
+                    log: console,
+                });
+                setIsLoaded(true);
+            },
+            (error) => {
+                setIsLoaded(true);
+                setError(error);
+            });
         });
     }, []);
 
