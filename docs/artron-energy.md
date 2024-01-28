@@ -58,7 +58,7 @@ when powered on, but not actively doing anything (like travelling or recharging)
 To prevent power use in standby mode, you should power down the TARDIS.
 
 You can configure how often and how much energy is used in _artron.yml_ — see
-the [Artron Configuration](configuration/energy) page.
+the [Artron Configuration](/configuration/energy) page.
 
 ### Power up/down/standby config options
 
@@ -76,11 +76,11 @@ added automatically to new TARDISes, if you have a TARDIS from a previous versio
 of the plugin, you can place a chest and run the `/tardis update condenser` command,
 then follow the instructions to create one.
 
-For a list of items that can be condensed visit the [condensables page](condensables).
+For a list of items that can be condensed visit the [condensables page](/condensables).
 
 ### Artron Storage Cells
 
-You can use an [Artron Storage Cell](artron-cells) to charge your TARDIS.
+You can use an [Artron Storage Cell](/artron-cells) to charge your TARDIS.
 Right-click the wood button with the storage cell to transfer the energy into
 your TARDIS.
 
@@ -95,7 +95,7 @@ Finally, the last way to charge your TARDIS is to use a server admin created
 recharging station. These can be created by using a beacon and the
 `/tardisadmin recharger [name]` command.
 
-It is also recommended that server admins create a [TARDIS area](commands/area)
+It is also recommended that server admins create a [TARDIS area](/commands/area)
 for Police Boxes to “park” in, so they can recharge easily.
 
 ## Overcharging the TARDIS
