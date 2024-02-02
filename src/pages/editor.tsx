@@ -64,7 +64,7 @@ class Editor extends Component {
             <>
                 <div>
                     <p style={{textAlign: "center"}}>
-                        <input type="file" onChange={this.handleFileChange}></input><br/>
+                        <input style={{width: "20em"}} type="file" onChange={this.handleFileChange}></input><br/>
                         <button style={{width: "20em", margin: "1em auto 0 auto"}} className="button button--primary" id="save" onClick={this.handleSaveFile}>Save file</button><br/>
                         <a className="button button--primary" download={fName} id="downloadlink" style={{display: "none", width: "20em", margin: "1em auto"}}>Download</a>
                     </p>
