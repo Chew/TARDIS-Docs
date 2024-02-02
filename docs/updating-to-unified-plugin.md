@@ -6,14 +6,13 @@ title: Updating from v4.x.x to v5.x.x
 # Updating from v4.x.x to v5.x.x
 
 Version 5 of the TARDIS plugin combines all the separate TARDIS plugins (_TARDISChunkGenerator, TARDISVortexManipulator,
-TARDISWeepingAngels, TARDISShop_ and _TARDISSonicBlaster_) into a [modularised](modules) all-in-one plugin. 
+TARDISWeepingAngels, TARDISShop_ and _TARDISSonicBlaster_) into a [modularised](/modules) all-in-one plugin. 
 
 The relevant configuration section is shown below:
 
 ```yaml title=/plugins/TARDIS/config.yml
 # modules
 # are disabled by default
-# https://eccentricdevotion.github.io/TARDIS/modules.html
 modules:
   weeping_angels: false
   vortex_manipulator: false
@@ -34,7 +33,7 @@ To do this:
 4. Edit the TARDIS config file - enable the modules that you require.
 5. Restart the server, TARDIS will automatically transfer configuration settings and database records.
 
-You can learn more about modules [here](modules).
+You can learn more about modules [here](/modules).
 
 ## Updating mushroom blocks and lamps
 

@@ -31,3 +31,17 @@ do this you hold the Artron Storage Cell in your hand and use the `/tardisartron
 The maximum amount you can transfer is the configured `full_charge` value as
 specified in artron.yml (default is 5000). To store more energy, you will need
 to craft more cells.
+
+## Giving Artron Storage Cells
+
+You can give _empty_ Artron storage cells to players with the command:
+
+```
+/tardisgive [player] artron-energy-cell [amount]
+```
+
+You can give _full_ Artron storage cells to players with the command:
+
+```
+/tardisgive [player] artron-energy-cell [amount] full
+```
