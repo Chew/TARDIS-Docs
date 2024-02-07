@@ -160,10 +160,14 @@ Headless Monks fire energy blasts from their hands as well as channelling that e
 
 ### Judoon
 
-Judoon are the police force of the Whoniverse. Left-click a Judoon to claim it as your own. You can equip Judoon with
+Judoon are the police force of the Whoniverse. Left-click a Judoon to claim it as your own.
+
+If players have the permission `tardisweepingangels.judoon` they can equip Judoon with
 ammunition (craft with arrows and gunpowder and put into a shulker box, then **left**-click the Judoon with the box).
 Judoon can then be toggled to be in guard mode (left-click them with out a shulker box in hand) and will shoot any hostile 
-mobs nearby. Use the `/twa follow` command or **right**-click the Judoon to make the Judoon follow you around.
+mobs nearby.
+
+Use the `/twa follow` command or **right**-click the Judoon to make the Judoon follow you around.
 
 Judoon can be built by players if they have the permission `tardisweepingangels.build.judoon` - place two obsidian
 blocks one on top of the other. Place red nether brick walls on either side to form a ‘T’, then place an iron trapdoor
@@ -201,8 +205,8 @@ The Mire will distill you down to your essential nectar.
 
 ### Ood
 
-Ood spawn randomly around villagers. Left-click an Ood to claim it as your own. Use the `/twa follow` command or 
-**right**-click the Ood to make the Ood follow you around. **Left**-click a claimed Ood to change the Ood’s eye to red.
+Ood spawn randomly around villagers. Left-click an Ood to claim it as your own (requires `tardisweepingangels.ood` permission). Use the `/twa follow` command or 
+**right**-click the Ood to make the Ood follow you around. **Left**-click a claimed Ood to change the Ood’s eyes to red.
 
 ![Ood](/images/docs/ood.jpg)
 
