@@ -83,6 +83,11 @@ const config: Config = {
             label: "Site Map"
           },
           {
+            to: 'issues',
+            position: 'left',
+            label: "Issues"
+          },
+          {
             href: 'https://github.com/eccentricdevotion/TARDIS',
             label: 'GitHub',
             position: 'right',
