@@ -88,3 +88,18 @@ There are a couple of exceptions to the rule with companion ejection — if the 
 has `tardis.admin` permission they will **NOT** be ejected.
 
 :::
+
+## Farming preferences
+
+As of TARDIS version 5.4.0b2800, you can now control which mobs are farmed into the TARDIS. To change your farming preferences:
+
+- Open the Sonic Preferences menu
+  
+  ![Player prefs](/images/docs/player_prefs_custom.jpg)
+  
+- Make sure mob farming is turned on
+- Click the Farming Preferences button
+
+  ![Farming preferences](/images/docs/farming_menu.jpg)
+
+- Use the wool blocks to toggle mobs/rooms on and off
