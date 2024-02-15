@@ -77,7 +77,7 @@ ${bugVer}
             // hide form, show success
             document.getElementById("bugForm").style.display = "none"
             document.getElementById("bugSuccess").style.display = "block"
-			let link = '<a href="' + response.url + ' target="_blank">' + response.url + '</a>'
+			let link = '<a href="' + response.html_url + ' target="_blank">' + response.html_url + '</a>'
 			document.getElementById("bugLink").innerHTML = link
         } catch (error) {
             if (error.response) {
@@ -139,7 +139,7 @@ ${featureAlt}
             // hide form, show success
             document.getElementById("featureForm").style.display = "none"
             document.getElementById("featureSuccess").style.display = "block"
-			let link = '<a href="' + response.url + ' target="_blank">' + response.url + '</a>'
+			let link = '<a href="' + response.html_url + ' target="_blank">' + response.html_url + '</a>'
 			document.getElementById("featureLink").innerHTML = link;
         } catch (error) {
             if (error.response) {
