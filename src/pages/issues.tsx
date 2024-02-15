@@ -77,6 +77,8 @@ ${bugVer}
             // hide form, show success
             document.getElementById("bugForm").style.display = "none"
             document.getElementById("bugSuccess").style.display = "block"
+			let link = '<a href="' + response.url + ' target="_blank">' + response.url + '</a>'
+			document.getElementById("bugLink").innerHTML = link
         } catch (error) {
             if (error.response) {
                 console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
@@ -137,6 +139,8 @@ ${featureAlt}
             // hide form, show success
             document.getElementById("featureForm").style.display = "none"
             document.getElementById("featureSuccess").style.display = "block"
+			let link = '<a href="' + response.url + ' target="_blank">' + response.url + '</a>'
+			document.getElementById("featureLink").innerHTML = link;
         } catch (error) {
             if (error.response) {
                 console.error(`Error! Status: ${error.response.status}. Message: ${error.response.data.message}`)
@@ -179,7 +183,8 @@ ${featureAlt}
                                 </form>
                                 </div>
                                 <div id="bugSuccess" className={styles.hidden}>
-                                    <p>The bug report was submitted successfully.</p>
+                                    <p>The bug report was submitted successfully, you can view the issue at the following link.</p>
+									<p id="bugLink"></p>
                                 </div>
                         </TabItem>
                         <TabItem value="Feature" label="Feature">
@@ -202,7 +207,8 @@ ${featureAlt}
                                 </form>
                                 </div>
                                 <div id="featureSuccess" className={styles.hidden}>
-                                    <p>The feature request was submitted successfully.</p>
+                                    <p>The feature request was submitted successfully, you can view the issue at the following link.</p>
+									<p id="featureLink"></p>
                                 </div>
                         </TabItem>
                     </Tabs>
