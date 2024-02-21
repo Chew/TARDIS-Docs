@@ -97,6 +97,7 @@ const sidebars: SidebarsConfig = {
         'desktop-theme',
         'interiors',
         'walls',
+        'hum',
         {
           type: 'category',
           label: "Rooms",

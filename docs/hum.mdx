@@ -1,0 +1,54 @@
+---
+layout: default
+title: TARDIS Interior SFX
+---
+
+import React from 'react'
+import ReactPlayer from 'react-player'
+
+
+# TARDIS Interior SFX
+
+You can listen to looping ambient interior sounds in your TARDIS.
+
+:::tip
+
+- This feature requires the [TARDIS Resource Pack](resource-packs) and the SFX player preference set to on.
+- Sounds are triggered by entering the TARDIS.
+
+:::
+
+The available sounds are:
+
+| SFX          |                                                                                                                                                                 |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `alien`      | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_8.ogg' />  |
+| `atmosphere` | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_9.ogg' />  |
+| `computer`   | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_3.ogg' />  |
+| `copper`     | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_2.ogg' />  |
+| `coral`      | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_1.ogg' />  |
+| `galaxy`     | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_5.ogg' />  |
+| `learning`   | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_10.ogg' /> |
+| `mind`       | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_6.ogg' />  |
+| `neon`       | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_11.ogg' /> |
+| `sleeping`   | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_4.ogg' />  |
+| `void`       | <ReactPlayer controls height='33px' url='https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/raw/master/assets/minecraft/sounds/tardis_hum_7.ogg' />  |
+| `random`     | use a randomly selected one each time the sound loops                                                                                                           |
+
+## Setting your interior hum preference
+
+Use the sonic prefs menu to access the TARDIS Interior Sounds menu:
+
+- If you want to listen to the sounds, set the _Action_ button to __Play__
+- To save your sound preference, set the _Action_ button to __Save__
+- Click the SFX button of your choice
+
+![TARDIS Hum GUI](/images/docs/tardis-hum.jpg)
+
+## Permission
+
+`tardis.prefs.hum`
+
+## Command
+
+`/tardisprefs hum [sound]`

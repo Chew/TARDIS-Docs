@@ -149,7 +149,8 @@ import TabItem from '@theme/TabItem';
 [Handles](handles "Handles")  
 [Hath](modules/weeping-angels#hath "Hath")  
 [Headless Monks](modules/weeping-angels#headless-monk "Headless Monks")  
-[Home page](/ "TARDIS by eccentricdevotion")
+[Home page](/ "TARDIS by eccentricdevotion")  
+[Hum sounds](/hum "TARDIS Interior SFX")
 
 </TabItem>
 <TabItem value="I" label="I">
@@ -282,6 +283,7 @@ import TabItem from '@theme/TabItem';
 [TARDIS commands](commands/tardis "TARDIS commands")  
 [TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
 [TARDIS Display](display "TARDIS Display")  
+[TARDIS Interior Sounds](/hum "TARDIS Interior Sounds")  
 [TARDIS Locator](tardis-items#locator "TARDIS Locator")  
 [TARDIS Map](map "TARDIS Map")  
 [TARDIS Remote Key](remote-key "TARDIS Remote Key")  
