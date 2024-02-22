@@ -1,0 +1,45 @@
+.crafting {
+  background-color: rgb(198, 198, 198);
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: rgb(219, 219, 219);
+  border-left-color: rgb(219, 219, 219);
+  border-bottom-color: rgb(91, 91, 91);
+  border-right-color: rgb(91, 91, 91);
+  width: 200px;
+  height: 110px;
+  padding: 6px;
+}
+.input, .slot, .arrow, .output {
+  float: left;
+}
+.row {
+
+}
+.slot, .output {
+  background-color: rgb(139, 139, 139);
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: rgb(55, 55, 55);
+  border-left-color: rgb(55, 55, 55);
+  border-bottom-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+}
+.slot, .arrow {
+  width: 32px;
+  height: 32px;
+}
+.slot img, .output img {
+  width: 16px;
+  height: 16px;
+  margin: 6px;
+}
+.arrow {
+  margin: 36px 4px 0 4px;
+}
+.output {
+  margin-top: 24px;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+}
