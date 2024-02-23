@@ -60,7 +60,7 @@ export default function Recipe(icons: string[]): JSX.Element {
         </div>
       </div>
       <div className={styles.arrow}>
-        <img src={"/images/icons/Arrow.png"} />
+        <img src={"/images/icons/gui-arrow.png"} />
       </div>
       <div className={styles.output}>
 		    <Tooltip name={icons[9]} />
