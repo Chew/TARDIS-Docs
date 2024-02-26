@@ -229,6 +229,160 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'TARDIS Crafting Recipes',
+      link: {
+        type: "doc",
+        id: "crafting"
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'Accessories',
+          items: [
+            'recipes/accessories/bow-tie',
+            'recipes/accessories/tardis-communicator',
+            'recipes/accessories/fob-watch',
+            'recipes/accessories/handles',
+            'recipes/accessories/rift-manipulator',
+            'recipes/accessories/sonic-blaster',
+            'recipes/accessories/vortex-manipulator',
+            'recipes/accessories/three-d-glasses',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Console Circuits',
+          items: [
+            'recipes/console-circuits/tardis-ars-circuit',
+            'recipes/console-circuits/tardis-chameleon-circuit',
+            'recipes/console-circuits/tardis-input-circuit',
+            'recipes/console-circuits/tardis-invisibility-circuit',
+            'recipes/console-circuits/tardis-materialisation-circuit',
+            'recipes/console-circuits/tardis-memory-circuit',
+            'recipes/console-circuits/tardis-randomiser-circuit',
+            'recipes/console-circuits/tardis-scanner-circuit',
+            'recipes/console-circuits/tardis-telepathic-circuit',
+            'recipes/console-circuits/tardis-temporal-circuit',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Food',
+          items: [
+            'recipes/food/bowl-of-custard',
+            'recipes/food/custard-cream',
+            'recipes/food/fish-finger',
+            'recipes/food/jammy-dodger',
+            'recipes/food/jelly-baby',
+            'recipes/food/paper-bag',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Item Circuits',
+          items: [
+            'recipes/item-circuits/tardis-locator-circuit',
+            'recipes/item-circuits/perception-circuit',
+            'recipes/item-circuits/rift-circuit',
+            'recipes/item-circuits/sonic-generator',
+            'recipes/item-circuits/sonic-oscillator',
+            'recipes/item-circuits/tardis-stattenheim-circuit',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Items',
+          items: [
+            'recipes/items/tardis-artron-furnace',
+            'recipes/items/artron-storage-cell',
+            'recipes/items/tardis-biome-reader',
+            'recipes/items/tardis-key',
+            'recipes/items/tardis-locator',
+            'recipes/items/perception-filter',
+            'recipes/items/tardis-remote-key',
+            'recipes/items/sonic-screwdriver',
+            'recipes/items/stattenheim-remote',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Misc',
+          items: [
+            'recipes/misc/acid-battery',
+            'recipes/misc/blaster-battery',
+            'recipes/misc/exterior-lamp-level-switch',
+            'recipes/misc/interior-light-level-switch',
+            'recipes/misc/tardis-monitor',
+            'recipes/misc/monitor-frame',
+            'recipes/misc/rust-plague-sword',
+            'recipes/misc/tardis-schematic-wand',
+            'recipes/misc/sonic-dock',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Sonic Circuits',
+          items: [
+            'recipes/sonic-circuits/bio-scanner-circuit',
+            'recipes/sonic-circuits/brush-circuit',
+            'recipes/sonic-circuits/conversion-circuit',
+            'recipes/sonic-circuits/emerald-environment-circuit',
+            'recipes/sonic-circuits/diamond-disruptor-circuit',
+            'recipes/sonic-circuits/ignite-circuit',
+            'recipes/sonic-circuits/knockback-circuit',
+            'recipes/sonic-circuits/painter-circuit',
+            'recipes/sonic-circuits/pickup-arrows-circuit',
+            'recipes/sonic-circuits/redstone-activator-circuit',
+            'recipes/sonic-circuits/server-admin-circuit',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Sonic Upgrades',
+          items: [
+            'recipes/sonic-upgrades/admin-upgrade',
+            'recipes/sonic-upgrades/bio-scanner-upgrade',
+            'recipes/sonic-upgrades/brush-upgrade',
+            'recipes/sonic-upgrades/conversion-upgrade',
+            'recipes/sonic-upgrades/diamond-upgrade',
+            'recipes/sonic-upgrades/emerald-upgrade',
+            'recipes/sonic-upgrades/knockback-upgrade',
+            'recipes/sonic-upgrades/ignite-upgrade',
+            'recipes/sonic-upgrades/painter-upgrade',
+            'recipes/sonic-upgrades/pickup-arrows-upgrade',
+            'recipes/sonic-upgrades/redstone-upgrade',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Storage Disks',
+          items: [
+            'recipes/storage-disks/authorised-control-disk',
+            'recipes/storage-disks/biome-storage-disk',
+            'recipes/storage-disks/blank-storage-disk',
+            'recipes/storage-disks/player-storage-disk',
+            'recipes/storage-disks/preset-storage-disk',
+            'recipes/storage-disks/save-storage-disk',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Time Rotors',
+          items: [
+            'recipes/rotors/time-engine',
+            'recipes/rotors/time-rotor-delta',
+            'recipes/rotors/time-rotor-early',
+            'recipes/rotors/time-rotor-eleventh',
+            'recipes/rotors/time-rotor-engine',
+            'recipes/rotors/time-rotor-hospital',
+            'recipes/rotors/time-rotor-tenth',
+            'recipes/rotors/time-rotor-twelfth',
+          ]
+        },
+      ]
+    },
+    {
+      type: 'category',
       label: "Plugin Modules",
       link: {
         type: "doc",

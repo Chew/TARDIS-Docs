@@ -1,0 +1,66 @@
+.crafting {
+  background-color: rgb(198, 198, 198);
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: rgb(219, 219, 219);
+  border-left-color: rgb(219, 219, 219);
+  border-bottom-color: rgb(91, 91, 91);
+  border-right-color: rgb(91, 91, 91);
+  width: 200px;
+  height: 110px;
+  padding: 6px;
+}
+.input, .slot, .arrow, .output {
+  float: left;
+}
+.row {
+
+}
+.slot, .output {
+  position: relative;
+  background-color: rgb(139, 139, 139);
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: rgb(55, 55, 55);
+  border-left-color: rgb(55, 55, 55);
+  border-bottom-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+}
+.slot, .arrow {
+  width: 32px;
+  height: 32px;
+}
+.slot img, .output img {
+  width: 24px;
+  height: 24px;
+  margin: 2px;
+}
+.arrow {
+  margin: 36px 4px 0 4px;
+}
+.output {
+  margin-top: 24px;
+  padding: 8px;
+  width: 48px;
+  height: 48px;
+}
+
+/* Tooltip text */
+.slot .tooltiptext, .output .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2px 5px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 24px;
+  left: 16px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.slot:hover .tooltiptext, .output:hover .tooltiptext  {
+  visibility: visible;
+}

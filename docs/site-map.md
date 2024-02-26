@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 [Artron Storage Cells](artron-cells "Artron Storage Cells")  
 [Artron Energy](artron-energy "Artron Energy")  
 [Authorised Control Disks](tardis-items#control-disk "Authorised Control Disks")  
-[Autonomous homing function](autonomous "Autonomous homing function")
+[Autonomous homing function](autonomous "Autonomous homing function")  
 
 </TabItem>
 <TabItem value="B" label="B">
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 [Blueprints](modules/blueprints "Blueprints")  
 [Books](books "Books")  
 [Bow ties](accessories "Bow ties")  
-[BuildTools](build-tools "BuildTools")
+[BuildTools](build-tools "BuildTools")  
 
 </TabItem>
 <TabItem value="C" label="C">
@@ -83,6 +83,7 @@ import TabItem from '@theme/TabItem';
 [Console Permissions](permissions-table#console-perms "Console Permissions")  
 [Control Menu](control-menu "Control Menu")  
 [Crafting Disks](crafting-disks "Crafting Disks")  
+[Crafting recipes](crafting "TARDIS Crafting Recipes")  
 [Creating a TARDIS](creating-a-tardis "Creating a TARDIS")  
 [Creation Configuration](configuration/creation "Creation Configuration")  
 [Custard](food#bowl-of-custard "Custard")  
@@ -92,7 +93,7 @@ import TabItem from '@theme/TabItem';
 [Custom chameleon preset](custom-preset "Custom chameleon preset")  
 [Custom model presets](custom-model-presets "Custom model presets")  
 [Custom rooms](/rooms/custom "Custom rooms")  
-[Cybermen](modules/weeping-angels#cybermen "Cybermen")
+[Cybermen](modules/weeping-angels#cybermen "Cybermen")  
 
 </TabItem>
 <TabItem value="D" label="D">
@@ -105,7 +106,7 @@ import TabItem from '@theme/TabItem';
 [Dev commands](commands/dev "Dev commands")  
 [Difficulty](faqs#difficulty "Difficulty")  
 [Direction Frame](commands/tardis#direction_frame "Direction Frame")  
-[Dynmap-TARDIS](modules/dynmap-tardis "Dynmap-TARDIS")
+[Dynmap-TARDIS](modules/dynmap-tardis "Dynmap-TARDIS")  
 
 </TabItem>
 <TabItem value="E" label="E">
@@ -116,7 +117,7 @@ import TabItem from '@theme/TabItem';
 [Emergency stop](faqs#handbrake "Emergency stop")  
 [Empty Children](modules/weeping-angels#empty-children "Empty Children")  
 [Entry and exit](enter-and-exit "Entry and exit")  
-[Exile](tardis-areas#forcing-a-player-to-use-only-a-specific-area "Exile")
+[Exile](tardis-areas#forcing-a-player-to-use-only-a-specific-area "Exile")  
 
 </TabItem>
 <TabItem value="F" label="F">
@@ -127,7 +128,7 @@ import TabItem from '@theme/TabItem';
 [Floor materials](walls "Floor materials")  
 [Flying the TARDIS](flying "Flying the TARDIS")  
 [Fob watch](chameleon-arch "Fob watch")  
-[Food](food "Food")
+[Food](food "Food")  
 
 </TabItem>
 <TabItem value="G" label="G">
@@ -139,7 +140,7 @@ import TabItem from '@theme/TabItem';
 [Genetic Manipulator](lazarus "Genetic Manipulator")  
 [Give commands](commands/give "Give commands")  
 [Grace period](configuration/travel#grace_period "Grace period")  
-[Gravity wells](/rooms/gravity-wells "Gravity wells")
+[Gravity wells](/rooms/gravity-wells "Gravity wells")  
 
 </TabItem>
 <TabItem value="H" label="H">
@@ -150,7 +151,7 @@ import TabItem from '@theme/TabItem';
 [Hath](modules/weeping-angels#hath "Hath")  
 [Headless Monks](modules/weeping-angels#headless-monk "Headless Monks")  
 [Home page](/ "TARDIS by eccentricdevotion")  
-[Hum sounds](/hum "TARDIS Interior SFX")
+[Hum sounds](/hum "TARDIS Interior SFX")  
 
 </TabItem>
 <TabItem value="I" label="I">
@@ -161,7 +162,7 @@ import TabItem from '@theme/TabItem';
 [Interiors](interiors "Interiors")  
 [Invisibility](invisibility "Invisibility")  
 [Item Display custom blocks](item_displays "Item Display custom blocks")  
-[Item Kits](kits "Item Kits")
+[Item Kits](kits "Item Kits")  
 
 </TabItem>
 <TabItem value="J" label="J">
@@ -172,21 +173,21 @@ import TabItem from '@theme/TabItem';
 [Jettison rooms](ars#using-the-architectural-reconfiguration-system)  
 [Judoon](modules/weeping-angels#judoon "Judoon")  
 [Junk TARDIS](junk-tardis "Junk TARDIS")  
-[Junk TARDIS commands](junk-tardis#other-commands "Junk TARDIS commands")
+[Junk TARDIS commands](junk-tardis#other-commands "Junk TARDIS commands")  
 
 </TabItem>
 <TabItem value="K" label="K">
 
 [K-9](modules/weeping-angels#k-9 "K-9")  
 [Key](commands/player-preferences#player-preference-commands "Key")  
-[Keyboard](keyboard "TARDIS Keyboard")
+[Keyboard](keyboard "TARDIS Keyboard")  
 
 </TabItem>
 <TabItem value="L" label="L">
 
 [Lazarus Device](lazarus "Lazarus Device")  
 [Leaving the door open](enter-and-exit#leaving-the-door-open "Leaving the door open")  
-[Localisation](localisation "Localisation")
+[Localisation](localisation "Localisation")  
 
 </TabItem>
 <TabItem value="M" label="M">
@@ -200,12 +201,12 @@ import TabItem from '@theme/TabItem';
 [Monitor](monitor "Monitor")  
 [Monsters Configuration](configuration/monsters "Monsters Configuration")  
 [Monsters in the TARDIS](enter-and-exit#leaving-the-door-open "Monsters in the TARDIS")  
-[Mushroom command](commands/misc#tardismushroom "Mushroom command")
+[Mushroom command](commands/misc#tardismushroom "Mushroom command")  
 
 </TabItem>
 <TabItem value="O" label="O">
 
-[Ood](modules/weeping-angels#ood "Ood")
+[Ood](modules/weeping-angels#ood "Ood")  
 
 </TabItem>
 <TabItem value="P" label="P">
@@ -220,7 +221,7 @@ import TabItem from '@theme/TabItem';
 [Police Box Configuration](configuration/preset "Police Box Configuration")  
 [Preferences Configuration](configuration/prefs "Preferences Configuration")  
 [Preset Storage Disks](crafting-disks#preset-storage-disks "Preset Storage Disks")  
-[Pruning](prune "Pruning")
+[Pruning](prune "Pruning")  
 
 </TabItem>
 <TabItem value="R" label="R">
@@ -241,7 +242,7 @@ import TabItem from '@theme/TabItem';
 [Room gallery](/rooms/gallery "Room gallery")  
 [Room Growth Configuration](configuration/growth "Room Growth Configuration")  
 [Rooms and economies](rooms-and-economies "Custom rooms")  
-[Rooms](rooms "Rooms")
+[Rooms](rooms "Rooms")  
 
 </TabItem>
 <TabItem value="S" label="S">
@@ -275,7 +276,7 @@ import TabItem from '@theme/TabItem';
 [Sudo commands](commands/sudo "Sudo commands")  
 [SQLite -> MySQL conversion tool](sqlite-mysql-tool "Spigot")  
 [Storage Configuration](configuration/storage "Storage Configuration")  
-[Super Fertiliser](chemistry-lab/products#super-fertiliser "Super Fertiliser")
+[Super Fertiliser](chemistry-lab/products#super-fertiliser "Super Fertiliser")  
 
 </TabItem>
 <TabItem value="T" label="T">
@@ -283,7 +284,7 @@ import TabItem from '@theme/TabItem';
 [TARDIS commands](commands/tardis "TARDIS commands")  
 [TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
 [TARDIS Display](display "TARDIS Display")  
-[TARDIS Interior Sounds](/hum "TARDIS Interior Sounds")  
+[TARDIS Interior Sounds](hum "TARDIS Interior Sounds")  
 [TARDIS Locator](tardis-items#locator "TARDIS Locator")  
 [TARDIS Map](map "TARDIS Map")  
 [TARDIS Remote Key](remote-key "TARDIS Remote Key")  
@@ -305,7 +306,7 @@ import TabItem from '@theme/TabItem';
 [Transmat](transmat "Transmat")  
 [Travel commands](commands/travel "Travel commands")  
 [Travel Configuration](configuration/travel "Travel Configuration")  
-[Tree command](commands/dev#tree "Tree commands")
+[Tree command](commands/dev#tree "Tree commands")  
 
 </TabItem>
 <TabItem value="U" label="U">
@@ -313,7 +314,7 @@ import TabItem from '@theme/TabItem';
 [Universal Translator](translator "Universal Translator")  
 [Updateable blocks](update-blocks "Updateable blocks")  
 [Updating to version 5](updating-to-unified-plugin "Updating to version 5")  
-[Upgrades](desktop-theme "Upgrades")
+[Upgrades](desktop-theme "Upgrades")  
 
 </TabItem>
 <TabItem value="V" label="V">
@@ -321,7 +322,7 @@ import TabItem from '@theme/TabItem';
 [Vashta Nerada](modules/weeping-angels#vashta-nerada "Vashta Nerada")  
 [Vault Room](/rooms/vault "Vault Room")  
 [View Interior](view-interior "View Interior")  
-[Vortex Manipulator](modules/vortex-manipulator "Vortex Manipulator")
+[Vortex Manipulator](modules/vortex-manipulator "Vortex Manipulator")  
 
 </TabItem>
 <TabItem value="W" label="W">
@@ -332,18 +333,18 @@ import TabItem from '@theme/TabItem';
 [Wiki Sign](wiki-sign "Wiki Sign")  
 [World Generators](modules/generators "World Generators")  
 [World Management](world-management "World Management")  
-[Writing Disks](writing-disks "Writing Disks")
+[Writing Disks](writing-disks "Writing Disks")  
 
 </TabItem>
 <TabItem value="Z" label="Z">
 
 [Zero Room](/rooms/zero "Zero Room")  
-[Zygons](modules/weeping-angels#zygons "Zygons")
+[Zygons](modules/weeping-angels#zygons "Zygons")  
 
 </TabItem>
 <TabItem value="#" label="#">
 
-[3-D glasses](accessories#3-d-glasses "3-D glasses")
+[3-D glasses](accessories#3-d-glasses "3-D glasses")  
 
 </TabItem>
 </Tabs>
