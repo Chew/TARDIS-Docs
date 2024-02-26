@@ -58,6 +58,7 @@ import TabItem from '@theme/TabItem';
 [Blueprints](modules/blueprints "Blueprints")  
 [Books](books "Books")  
 [Bow ties](accessories "Bow ties")  
+[Bugs](issues "Submit a bug report")  
 [BuildTools](build-tools "BuildTools")  
 
 </TabItem>
@@ -123,6 +124,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="F" label="F">
 
 [FAQs](faqs "FAQs")  
+[Feature requests](issues "Request a new feature")  
 [Fish fingers](food#fish-fingers "Fish fingers")  
 [Flight modes](flight-modes "Flight modes")  
 [Floor materials](walls "Floor materials")  
@@ -159,8 +161,10 @@ import TabItem from '@theme/TabItem';
 [Ice Warriors](modules/weeping-angels#ice-warriors "Ice Warriors")  
 [Immortality Gate](lazarus#immortality-gate "Immortality Gate")  
 [Installation](installation-v5 "Installation")  
+[Interior SFX](hum "Interior SFX")  
 [Interiors](interiors "Interiors")  
 [Invisibility](invisibility "Invisibility")  
+[Issues](issues "Submit a bug report or request a new feature")  
 [Item Display custom blocks](item_displays "Item Display custom blocks")  
 [Item Kits](kits "Item Kits")  
 
