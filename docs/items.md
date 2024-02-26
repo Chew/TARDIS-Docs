@@ -1,176 +1,148 @@
 ---
 layout: default
-title: All items
+title: TARDIS item recipes
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# All items
+# TARDIS item recipes
 
 
 <Tabs queryString="index">
+<TabItem value="accessories" label="Accessories" default>
 
-<TabItem value="A" label="A" default>
-
-[acid-battery](/items/acid-battery)  
-[admin-upgrade](/items/admin-upgrade)  
-[artron-furnace](/items/tardis-artron-furnace)  
-[artron-storage-cell](/items/artron-storage-cell)  
-[authorised-control-disk](/items/authorised-control-disk)  
-
-</TabItem>
-
-<TabItem value="B" label="B">
-
-[bio-scanner-circuit](/items/bio-scanner-circuit)  
-[bio-scanner-upgrade](/items/bio-scanner-upgrade)  
-[biome-reader](/items/tardis-biome-reader)  
-[biome-storage-disk](/items/biome-storage-disk)  
-[black-bow-tie](/items/black-bow-tie)  
-[blank-storage-disk](/items/blank-storage-disk)  
-[blue-bow-tie](/items/blue-bow-tie)  
-[bowl-of-custard](/items/bowl-of-custard)  
-[brown-bow-tie](/items/brown-bow-tie)  
-[brush-circuit](/items/brush-circuit)  
-[brush-upgrade](/items/brush-upgrade)  
+[Bow Tie](/recipes/accessories/bow-tie)  
+[Communicator](/recipes/accessories/tardis-communicator)  
+[Fob Watch](/recipes/accessories/fob-watch)  
+[Handles](/recipes/accessories/handles)  
+[Rift Manipulator](/recipes/accessories/rift-manipulator)  
+[Sonic Blaster](/recipes/accessories/sonic-blaster)  
+[Vortex Manipulator](/recipes/accessories/vortex-manipulator)  
+[3-D Glasses](/recipes/accessories/three-d-glasses)  
 
 </TabItem>
+<TabItem value="chemistry" label="Chemistry">
 
-<TabItem value="C" label="C">
-
-[chameleon-circuit](/items/tardis-chameleon-circuit)  
-[communicator](/items/tardis-communicator)  
-[conversion-circuit](/items/conversion-circuit)  
-[conversion-upgrade](/items/conversion-upgrade)  
-[custard-cream](/items/custard-cream)  
-[cyan-bow-tie](/items/cyan-bow-tie)  
 
 </TabItem>
-<TabItem value="D" label="D">
+<TabItem value="console-circuits" label="Console Circuits">
 
-[diamond-disruptor-circuit](/items/diamond-disruptor-circuit)  
-[diamond-upgrade](/items/diamond-upgrade)  
-
-</TabItem>
-<TabItem value="E" label="E">
-
-[emerald-environment-circuit](/items/emerald-environment-circuit)  
-[emerald-upgrade](/items/emerald-upgrade)  
-[exterior-lamp-level-switch](/items/exterior-lamp-level-switch)  
-
-</TabItem>
-<TabItem value="F" label="F">
-
-[fish-finger](/items/fish-finger)  
-[fob-watch](/items/fob-watch)  
+[ARS Circuit](/recipes/console-circuits/tardis-ars-circuit)  
+[Chameleon Circuit](/recipes/console-circuits/tardis-chameleon-circuit)  
+[Input Circuit](/recipes/console-circuits/tardis-input-circuit)  
+[Invisibility Circuit](/recipes/console-circuits/tardis-invisibility-circuit)  
+[Materialisation Circuit](/recipes/console-circuits/tardis-materialisation-circuit)  
+[Memory Circuit](/recipes/console-circuits/tardis-memory-circuit)  
+[Randomiser Circuit](/recipes/console-circuits/tardis-randomiser-circuit)  
+[Scanner Circuit](/recipes/console-circuits/tardis-scanner-circuit)  
+[Telepathic Circuit](/recipes/console-circuits/tardis-telepathic-circuit)  
+[Temporal Circuit](/recipes/console-circuits/tardis-temporal-circuit)  
 
 </TabItem>
-<TabItem value="G" label="G-H">
+<TabItem value="custom-blocks" label="Custom Blocks">
 
-[green-bow-tie](/items/green-bow-tie)  
-[grey-bow-tie](/items/grey-bow-tie)  
-[handles](/items/handles)  
 
 </TabItem>
-<TabItem value="I" label="I">
+<TabItem value="food" label="Food">
 
-[ignite-circuit](/items/ignite-circuit)  
-[ignite-upgrade](/items/ignite-upgrade)  
-[input-circuit](/items/tardis-input-circuit)  
-[interior-light-level-switch](/items/interior-light-level-switch)  
-[invisibility-circuit](/items/tardis-invisibility-circuit)  
-
-</TabItem>
-<TabItem value="J" label="J-K">
-
-[jelly-baby](/items/jelly-baby)  
-[jammy-dodger](/items/jammy-dodger)  
-[key](/items/tardis-key)  
-[knockback-circuit](/items/knockback-circuit)  
-[knockback-upgrade](/items/knockback-upgrade)  
+[Bowl Of Custard](/recipes/food/bowl-of-custard)  
+[Custard Cream](/recipes/food/custard-cream)  
+[Fish Finger](/recipes/food/fish-finger)  
+[Jammy Dodger](/recipes/food/jammy-dodger)  
+[Jelly Baby](/recipes/food/jelly-baby)  
+[Paper Bag](/recipes/food/paper-bag)  
 
 </TabItem>
-<TabItem value="L" label="L">
+<TabItem value="item-circuits" label="Item Circuits">
 
-[light-blue-bow-tie](/items/light-blue-bow-tie)  
-[light-grey-bow-tie](/items/light-grey-bow-tie)  
-[lime-bow-tie](/items/lime-bow-tie)  
-[ars-circuit](/items/tardis-ars-circuit)  
-[locator-circuit](/items/tardis-locator-circuit)  
-[locator](/items/tardis-locator)  
-
-</TabItem>
-<TabItem value="M" label="M-O">
-
-[magenta-bow-tie](/items/magenta-bow-tie)  
-[materialisation-circuit](/items/tardis-materialisation-circuit)  
-[memory-circuit](/items/tardis-memory-circuit)  
-[monitor](/items/tardis-monitor)  
-[monitor-frame](/items/monitor-frame)  
-[orange-bow-tie](/items/orange-bow-tie)  
+[Locator Circuit](/recipes/item-circuits/tardis-locator-circuit)  
+[Perception Circuit](/recipes/item-circuits/perception-circuit)  
+[Rift Circuit](/recipes/item-circuits/rift-circuit)  
+[Sonic Generator](/recipes/item-circuits/sonic-generator)  
+[Sonic Oscillator](/recipes/item-circuits/sonic-oscillator)  
+[Stattenheim Circuit](/recipes/item-circuits/tardis-stattenheim-circuit)  
 
 </TabItem>
-<TabItem value="P" label="P">
+<TabItem value="items" label="Items">
 
-[painter-circuit](/items/painter-circuit)  
-[painter-upgrade](/items/painter-upgrade)  
-[paper-bag](/items/paper-bag)  
-[perception-circuit](/items/perception-circuit)  
-[perception-filter](/items/perception-filter)  
-[pickup-arrows-circuit](/items/pickup-arrows-circuit)  
-[pickup-arrows-upgrade](/items/pickup-arrows-upgrade)  
-[pink-bow-tie](/items/pink-bow-tie)  
-[player-storage-disk](/items/player-storage-disk)  
-[preset-storage-disk](/items/preset-storage-disk)  
-[purple-bow-tie](/items/purple-bow-tie)  
+[Artron Furnace](recipes/items/tardis-artron-furnace)  
+[Artron Storage Cell](recipes/items/artron-storage-cell)  
+[Biome Reader](recipes/items/tardis-biome-reader)  
+[Key](recipes/items/tardis-key)  
+[Locator](recipes/items/tardis-locator)  
+[Perception Filter](recipes/items/perception-filter)  
+[Remote Key](recipes/items/tardis-remote-key)  
+[Sonic Screwdriver](recipes/items/sonic-screwdriver)  
+[Stattenheim Remote](recipes/items/stattenheim-remote)  
 
 </TabItem>
-<TabItem value="R" label="R">
+</Tabs>
 
-[randomiser-circuit](/items/tardis-randomiser-circuit)  
-[remote-key](/items/tardis-remote-key)  
-[red-bow-tie](/items/red-bow-tie)  
-[redstone-activator-circuit](/items/redstone-activator-circuit)  
-[redstone-upgrade](/items/redstone-upgrade)  
-[rift-circuit](/items/rift-circuit)  
-[rift-manipulator](/items/rift-manipulator)  
-[rust-plague-sword](/items/rust-plague-sword)  
+<Tabs queryString="index">
+<TabItem value="misc" label="Misc">
 
-</TabItem>
-<TabItem value="S" label="S">
-
-[save-storage-disk](/items/save-storage-disk)  
-[scanner-circuit](/items/tardis-scanner-circuit)  
-[schematic-wand](/items/tardis-schematic-wand)  
-[server-admin-circuit](/items/server-admin-circuit)  
-[sonic-dock](/items/sonic-dock)  
-[sonic-generator](/items/sonic-generator)  
-[sonic-oscillator](/items/sonic-oscillator)  
-[sonic-screwdriver](/items/sonic-screwdriver)  
-[stattenheim-circuit](/items/tardis-stattenheim-circuit)  
-[stattenheim-remote](/items/stattenheim-remote)  
+[Acid Battery](/recipes/misc/acid-battery)  
+[Blaster Battery](/recipes/misc/blaster-battery)  
+[Exterior Lamp Level Switch](/recipes/misc/exterior-lamp-level-switch)  
+[Interior Light Level Switch](/recipes/misc/interior-light-level-switch)  
+[Monitor](/recipes/misc/tardis-monitor)  
+[Monitor Frame](/recipes/misc/monitor-frame)  
+[Rust Plague Sword](/recipes/misc/rust-plague-sword)  
+[Schematic Wand](/recipes/misc/tardis-schematic-wand)  
+[Sonic Dock](/recipes/misc/sonic-dock)  
 
 </TabItem>
-<TabItem value="T" label="T">
+<TabItem value="sonic-circuits" label="Sonic Circuits">
 
-[telepathic-circuit](/items/tardis-telepathic-circuit)  
-[temporal-circuit](/items/tardis-temporal-circuit)  
-[time-engine](/items/time-engine)  
-[time-rotor-delta](/items/time-rotor-delta)  
-[time-rotor-early](/items/time-rotor-early)  
-[time-rotor-eleventh](/items/time-rotor-eleventh)  
-[time-rotor-engine](/items/time-rotor-engine)  
-[time-rotor-hospital](/items/time-rotor-hospital)  
-[time-rotor-tenth](/items/time-rotor-tenth)  
-[time-rotor-twelfth](/items/time-rotor-twelfth)  
+[Bio Scanner Circuit](/recipes/sonic-circuits/bio-scanner-circuit)  
+[Brush Circuit](/recipes/sonic-circuits/brush-circuit)  
+[Conversion Circuit](/recipes/sonic-circuits/conversion-circuit)  
+[Emerald Environment Circuit](/recipes/sonic-circuits/emerald-environment-circuit)  
+[Diamond Disruptor Circuit](/recipes/sonic-circuits/diamond-disruptor-circuit)  
+[Ignite Circuit](/recipes/sonic-circuits/ignite-circuit)  
+[Knockback Circuit](/recipes/sonic-circuits/knockback-circuit)  
+[Painter Circuit](/recipes/sonic-circuits/painter-circuit)  
+[Pickup Arrows Circuit](/recipes/sonic-circuits/pickup-arrows-circuit)  
+[Redstone Activator Circuit](/recipes/sonic-circuits/redstone-activator-circuit)  
+[Server Admin Circuit](/recipes/sonic-circuits/server-admin-circuit)  
 
 </TabItem>
-<TabItem value="W" label="W-Z,#">
+<TabItem value="sonic-upgrades" label="Sonic Upgrades">
 
-[white-bow-tie](/items/white-bow-tie)  
-[yellow-bow-tie](/items/yellow-bow-tie)  
-[3-d-glasses](/items/three-d-glasses)  
+[Admin Upgrade](/recipes/sonic-upgrades/admin-upgrade)  
+[Bio Scanner Upgrade](/recipes/sonic-upgrades/bio-scanner-upgrade)  
+[Brush Upgrade](/recipes/sonic-upgrades/brush-upgrade)  
+[Conversion Upgrade](/recipes/sonic-upgrades/conversion-upgrade)  
+[Diamond Upgrade](/recipes/sonic-upgrades/diamond-upgrade)  
+[Emerald Upgrade](/recipes/sonic-upgrades/emerald-upgrade)  
+[Knockback Upgrade](/recipes/sonic-upgrades/knockback-upgrade)  
+[Ignite Upgrade](/recipes/sonic-upgrades/ignite-upgrade)  
+[Painter Upgrade](/recipes/sonic-upgrades/painter-upgrade)  
+[Pickup Arrows Upgrade](/recipes/sonic-upgrades/pickup-arrows-upgrade)  
+[Redstone Upgrade](/recipes/sonic-upgrades/redstone-upgrade)  
+
+</TabItem>
+<TabItem value="storage-disks" label="Storage Disks">
+
+[Authorised Control Disk](/recipes/storage-disks/authorised-control-disk)  
+[Biome Storage Disk](/recipes/storage-disks/biome-storage-disk)  
+[Blank Storage Disk](/recipes/storage-disks/blank-storage-disk)  
+[Player Storage Disk](/recipes/storage-disks/player-storage-disk)  
+[Preset Storage Disk](/recipes/storage-disks/preset-storage-disk)  
+[Save Storage Disk](/recipes/storage-disks/save-storage-disk)  
+
+</TabItem>
+<TabItem value="rotors" label="Time Rotors">
+
+[Time Engine](/recipes/rotors/time-engine)  
+[Time Rotor Delta](/recipes/rotors/time-rotor-delta)  
+[Time Rotor Early](/recipes/rotors/time-rotor-early)  
+[Time Rotor Eleventh](/recipes/rotors/time-rotor-eleventh)  
+[Time Rotor Engine](/recipes/rotors/time-rotor-engine)  
+[Time Rotor Hospital](/recipes/rotors/time-rotor-hospital)  
+[Time Rotor Tenth](/recipes/rotors/time-rotor-tenth)  
+[Time Rotor Twelfth](/recipes/rotors/time-rotor-twelfth)  
 
 </TabItem>
 </Tabs>
