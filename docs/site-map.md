@@ -32,7 +32,6 @@ import TabItem from '@theme/TabItem';
 [Add permissions](add-permissions "Add permissions")  
 [Admin commands](commands/admin "Admin commands")  
 [Advanced Console](advanced-console "Advanced Console")  
-[All TARDIS items](items "TARDIS items")  
 [API](api "API")  
 [Archiving consoles](archive "Archiving consoles")  
 [Area commands](commands/area "Area commands")  
@@ -84,6 +83,7 @@ import TabItem from '@theme/TabItem';
 [Console Permissions](permissions-table#console-perms "Console Permissions")  
 [Control Menu](control-menu "Control Menu")  
 [Crafting Disks](crafting-disks "Crafting Disks")  
+[Crafting recipes](crafting "TARDIS Crafting Recipes")  
 [Creating a TARDIS](creating-a-tardis "Creating a TARDIS")  
 [Creation Configuration](configuration/creation "Creation Configuration")  
 [Custard](food#bowl-of-custard "Custard")  
@@ -163,7 +163,6 @@ import TabItem from '@theme/TabItem';
 [Invisibility](invisibility "Invisibility")  
 [Item Display custom blocks](item_displays "Item Display custom blocks")  
 [Item Kits](kits "Item Kits")  
-[Items](items "TARDIS Items")  
 
 </TabItem>
 <TabItem value="J" label="J">
@@ -286,7 +285,6 @@ import TabItem from '@theme/TabItem';
 [TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
 [TARDIS Display](display "TARDIS Display")  
 [TARDIS Interior Sounds](hum "TARDIS Interior Sounds")  
-[TARDIS Items](items "TARDIS Items")  
 [TARDIS Locator](tardis-items#locator "TARDIS Locator")  
 [TARDIS Map](map "TARDIS Map")  
 [TARDIS Remote Key](remote-key "TARDIS Remote Key")  
