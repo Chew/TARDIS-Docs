@@ -16,10 +16,11 @@ The relevant configuration section is shown below:
 modules:
   weeping_angels: false
   vortex_manipulator: false
-  dynmap: false
+  mapping: false
   shop: false
   sonic_blaster: false
   blueprints: false
+  chemistry: false # May be true if allow.chemistry was true
 ```
 
 If you are updating from a previous version and have been using any of the other separate plugins,

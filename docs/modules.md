@@ -15,7 +15,7 @@ configuration section is shown below:
 modules:
   weeping_angels: false
   vortex_manipulator: false
-  dynmap: false
+  mapping: false
   shop: false
   sonic_blaster: false
   blueprints: false
@@ -33,9 +33,11 @@ You can enable modules with the `/tardisconfig` command:
 ```
 /tardisconfig weeping_angels [true|false]
 /tardisconfig vortex_manipulator [true|false]
-/tardisconfig dynmap [true|false]
+/tardisconfig mapping [true|false]
 /tardisconfig shop [true|false]
 /tardisconfig sonic_blaster [true|false]
+/tardisconfig blueprints [true|false]
+/tardisconfig chemistry [true|false]
 ```
 
 To see what each module does, visit the appropriate page:
@@ -44,7 +46,7 @@ To see what each module does, visit the appropriate page:
 - [Chunk Generator](/modules/generators)
 - [Weeping Angels](/modules/weeping-angels)
 - [Vortex Maipulator](/modules/vortex-manipulator)
-- [Dynmap](/modules/dynmap-tardis)
+- [Mapping (with Dynmap)](/modules/dynmap-tardis)
 - [Shop](/modules/tardis-shop)
 - [Sonic Blaster](/modules/sonic-blaster)
 - [Chemistry Lab](/chemistry-lab)
