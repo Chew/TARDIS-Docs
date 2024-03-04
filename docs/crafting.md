@@ -24,6 +24,20 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="chemistry" label="Chemistry">
 
+[Atomic Elements](/recipes/chemistry/atomic-elements)  
+[Element Constructor](/recipes/chemistry/element-constructor)  
+[Material Reducer](/recipes/chemistry/material-reducer)  
+[Chemical Compounds](/recipes/chemistry/chemical-compounds)  
+[Product Crafting](/recipes/chemistry/product-crafting)  
+[Lab Table](/recipes/chemistry/lab-table)  
+[Lamps](/recipes/chemistry/lamps)  
+[Balloons](/recipes/chemistry/balloons)  
+[Glow Sticks](/recipes/chemistry/glow-sticks)  
+[Sparklers](/recipes/chemistry/sparklers)  
+[Heat Block](/recipes/chemistry/heat-block)  
+[Ice Bomb](/recipes/chemistry/ice-bomb)  
+[Bleach](/recipes/chemistry/bleach)  
+[Super Fertiliser](/recipes/chemistry/super-fertiliser)  
 
 </TabItem>
 <TabItem value="console-circuits" label="Console Circuits">

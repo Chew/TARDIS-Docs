@@ -6,7 +6,7 @@ function Tooltip({ name }) {
 		return ''
 	} else {
 		return <div className={styles.tooltiptext}>{name.replaceAll('-', '\xa0')}</div>;
-    }
+  }
 }
 
 export default function Recipe(icons: string[]): JSX.Element {

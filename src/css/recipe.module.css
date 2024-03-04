@@ -1,4 +1,4 @@
-.crafting {
+.crafting, .lab {
   background-color: rgb(198, 198, 198);
   border-width: 2px;
   border-style: solid;
@@ -9,6 +9,14 @@
   width: 200px;
   height: 110px;
   padding: 6px;
+}
+.crafting {
+  width: 200px;
+  height: 110px;
+}
+.lab {
+  width: 306px;
+  height: 47px;
 }
 .input, .slot, .arrow, .output {
   float: left;

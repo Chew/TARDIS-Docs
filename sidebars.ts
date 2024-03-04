@@ -251,6 +251,26 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: 'Chemistry',
+          items: [
+            'recipes/chemistry/atomic-elements',
+            'recipes/chemistry/element-constructor',
+            'recipes/chemistry/material-reducer',
+            'recipes/chemistry/chemical-compounds',
+            'recipes/chemistry/product-crafting',
+            'recipes/chemistry/lab-table',
+            'recipes/chemistry/lamps',
+            'recipes/chemistry/balloons',
+            'recipes/chemistry/glow-sticks',
+            'recipes/chemistry/sparklers',
+            'recipes/chemistry/heat-block',
+            'recipes/chemistry/ice-bomb',
+            'recipes/chemistry/bleach',
+            'recipes/chemistry/super-fertiliser',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Console Circuits',
           items: [
             'recipes/console-circuits/tardis-ars-circuit',
