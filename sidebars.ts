@@ -98,6 +98,7 @@ const sidebars: SidebarsConfig = {
         'interiors',
         'walls',
         'hum',
+        'item_displays',
         {
           type: 'category',
           label: "Rooms",
@@ -287,6 +288,26 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: 'Custom Blocks',
+          items: [
+            'recipes/custom-blocks/grow',
+            'recipes/custom-blocks/blue-box',
+            'recipes/custom-blocks/cog',
+            'recipes/custom-blocks/hexagon',
+            'recipes/custom-blocks/roundel',
+            'recipes/custom-blocks/roundel-offset',
+            'recipes/custom-blocks/the-moment',
+            'recipes/custom-blocks/door',
+            'recipes/custom-blocks/light-classic',
+            'recipes/custom-blocks/light-classic-offset',
+            'recipes/custom-blocks/light-tenth',
+            'recipes/custom-blocks/light-eleventh',
+            'recipes/custom-blocks/light-twelfth',
+            'recipes/custom-blocks/light-thirteenth',
+          ]
+        },
+        {
+          type: 'category',
           label: 'Food',
           items: [
             'recipes/food/bowl-of-custard',
@@ -426,7 +447,6 @@ const sidebars: SidebarsConfig = {
         'planets',
         'world-management',
         'custom-consoles',
-        'item_displays',
         'localisation',
         'placeholders',
         'tips',

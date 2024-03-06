@@ -56,6 +56,20 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="custom-blocks" label="Custom Blocks">
 
+[Grow](/recipes/custom-blocks/grow)  
+[Blue Box](/recipes/custom-blocks/blue-box)  
+[Cog](/recipes/custom-blocks/cog)  
+[Hexagon](/recipes/custom-blocks/hexagon)  
+[Roundel](/recipes/custom-blocks/roundel)  
+[Roundel Offset](/recipes/custom-blocks/roundel-offset)  
+[The Moment](/recipes/custom-blocks/the-moment)  
+[Door](/recipes/custom-blocks/door)  
+[Light Classic](/recipes/custom-blocks/light-classic)  
+[Light Classic Offset](/recipes/custom-blocks/light-classic-offset)  
+[Light Tenth](/recipes/custom-blocks/light-tenth)  
+[Light Eleventh](/recipes/custom-blocks/light-eleventh)  
+[Light Twelfth](/recipes/custom-blocks/light-twelfth)  
+[Light Thirteenth](/recipes/custom-blocks/light-thirteenth)  
 
 </TabItem>
 <TabItem value="food" label="Food">
