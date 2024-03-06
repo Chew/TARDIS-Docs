@@ -16,7 +16,6 @@ import TabItem from '@theme/TabItem';
 [Communicator](/recipes/accessories/tardis-communicator)  
 [Fob Watch](/recipes/accessories/fob-watch)  
 [Handles](/recipes/accessories/handles)  
-[Rift Manipulator](/recipes/accessories/rift-manipulator)  
 [Sonic Blaster](/recipes/accessories/sonic-blaster)  
 [Vortex Manipulator](/recipes/accessories/vortex-manipulator)  
 [3-D Glasses](/recipes/accessories/three-d-glasses)  
@@ -86,7 +85,6 @@ import TabItem from '@theme/TabItem';
 
 [Locator Circuit](/recipes/item-circuits/tardis-locator-circuit)  
 [Perception Circuit](/recipes/item-circuits/perception-circuit)  
-[Rift Circuit](/recipes/item-circuits/rift-circuit)  
 [Sonic Generator](/recipes/item-circuits/sonic-generator)  
 [Sonic Oscillator](/recipes/item-circuits/sonic-oscillator)  
 [Stattenheim Circuit](/recipes/item-circuits/tardis-stattenheim-circuit)  
@@ -110,13 +108,11 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="index">
 <TabItem value="misc" label="Misc">
 
-[Acid Battery](/recipes/misc/acid-battery)  
 [Blaster Battery](/recipes/misc/blaster-battery)  
 [Exterior Lamp Level Switch](/recipes/misc/exterior-lamp-level-switch)  
 [Interior Light Level Switch](/recipes/misc/interior-light-level-switch)  
 [Monitor](/recipes/misc/tardis-monitor)  
 [Monitor Frame](/recipes/misc/monitor-frame)  
-[Rust Plague Sword](/recipes/misc/rust-plague-sword)  
 [Schematic Wand](/recipes/misc/tardis-schematic-wand)  
 [Sonic Dock](/recipes/misc/sonic-dock)  
 
@@ -171,6 +167,54 @@ import TabItem from '@theme/TabItem';
 [Time Rotor Hospital](/recipes/rotors/time-rotor-hospital)  
 [Time Rotor Tenth](/recipes/rotors/time-rotor-tenth)  
 [Time Rotor Twelfth](/recipes/rotors/time-rotor-twelfth)  
+
+</TabItem>
+
+<TabItem value="planets" label="Planets">
+
+[Acid Battery](/recipes/planets/acid-battery)  
+[Rust Plague-sword](/recipes/planets/rust-plague-sword)  
+[Rift Manipulator](/recipes/planets/rift-manipulator)  
+[Rift Circuit](/recipes/planets/rift-circuit)  
+
+</TabItem>
+
+<TabItem value="seeds" label="Seed Blocks">
+
+[Ancient](/recipes/seeds/ancient)  
+[ARS](/recipes/seeds/ars)  
+[Bigger](/recipes/seeds/bigger)  
+[Budget](/recipes/seeds/budget)  
+[Cave](/recipes/seeds/cave)  
+[Copper](/recipes/seeds/copper)  
+[Coral](/recipes/seeds/coral)  
+[Cursed](/recipes/seeds/cursed)  
+[Delta](/recipes/seeds/delta)  
+[Deluxe](/recipes/seeds/deluxe)  
+[Division](/recipes/seeds/division)  
+[Eleventh](/recipes/seeds/eleventh)  
+[Ender](/recipes/seeds/ender)  
+[Factory](/recipes/seeds/factory)  
+[Fifteenth](/recipes/seeds/fifteenth)  
+[Fugitive](/recipes/seeds/fugitive)  
+[Hospital](/recipes/seeds/hospital)  
+[Legacy Bigger](/recipes/seeds/legacy-bigger)  
+[Legacy Deluxe](/recipes/seeds/legacy-deluxe)  
+[Legacy Eleventh](/recipes/seeds/legacy-eleventh)  
+[Legacy Redstone](/recipes/seeds/legacy-redstone)  
+[Master](/recipes/seeds/master)  
+[Mechanical](/recipes/seeds/mechanical)  
+[Original](/recipes/seeds/original)  
+[Plank](/recipes/seeds/plank)  
+[Pyramid](/recipes/seeds/pyramid)  
+[Redstone](/recipes/seeds/redstone)  
+[Rotor](/recipes/seeds/rotor)  
+[Steampunk](/recipes/seeds/steampunk)  
+[Thirteenth](/recipes/seeds/thirteenth)  
+[Tom](/recipes/seeds/tom)  
+[Twelfth](/recipes/seeds/twelfth)  
+[War](/recipes/seeds/war)  
+[Weathered](/recipes/seeds/weathered)  
 
 </TabItem>
 </Tabs>
