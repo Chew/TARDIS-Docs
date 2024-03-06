@@ -21,14 +21,14 @@ You will need the permission `tardis.fly` to pilot your TARDIS.
   ![Comparator subtract mode](/images/docs/subtract.jpg)
 
 - __Right-click__ the handbrake to pilot the TARDIS in the world
-- Use the movement keys (__WASD__) to navigate
+- Use the movement keys (by default __WASD__) to navigate
 - Look up to go up
 - Look down to go down
 - Hold down the space bar to hover
 - Hold a glass bottle in your main hand to hide the exterior while flying
 - Hold your sonic screwdriver in your main hand to stop the police box from spinning
 - Use your sonic screwdriver to toggle the exterior door open and closed
-- Press the __Shift__ key to stop flying (best to do this when on the ground!)
+- Press the __Dismount__ key (by default __Shift__) to stop flying (best to do this when on the ground!)
 
 When you click the handbrake, you will be teleported to the TARDIS exterior - you will most
 likely want to switch your view to third-person mode by pressing the __F5__ key on the keyboard.
