@@ -34,6 +34,7 @@ There are a number of specific player preferences that you can change:
 - Junk Mode
 - Interior hum sound effects
 - Announce repeater settings
+- TARDIS Information System mode
 
 Each preference can be set with a command, and some of them can be set via an inventory based GUI (if the player has a
 Sonic Screwdriver, sneaking and right-clicking air will open the Player Preferences GUI).
@@ -126,6 +127,10 @@ args={
       description: Sets the TARDIS interior hum sound. The sounds are called  \`alien\`, \`atmosphere\`, \`computer\`, \`copper\`, \`coral\`, \`galaxy\`, \`learning\`, \`mind\`, \`neon\`, \`sleeping\`, \`void\`, \`random\`
       permission: tardis.prefs.hum
       usage: /<command> hum [sound]
+    info:
+      description: Set the TARDIS Information System mode. If turned on, the mode is set to use a GUI - off uses chat.
+      permission: tardis.prefs.info
+      usage: /<command> info [on|off]
     isomorphic:
       description: Toggle isomorphic controls on and off.
       permission: tardis.prefs.isomorphic
