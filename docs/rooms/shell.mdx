@@ -3,6 +3,8 @@ layout: default
 title: The Shell Room
 ---
 
+import TabbedImage from "@site/src/components/TabbedImage";
+
 # The Shell Room
 
 In the Whoniverse, the shell room is an area in the TARDIS where plasmic shells are stored. The chameleon circuit picks
@@ -21,7 +23,7 @@ You construct the chameleon shell in the same way as the server’s [custom pres
 - You can add a sign on the side with the stone slab sticking out. Text on the sign will be saved with the construct.
   You can use `&PLAYER` as a placeholder for the player’s name.
 
-To save the chameleon construct, click the stone button on the platform.
+To save the chameleon construct, click the stone button on the platform. The Shell GUI opens.
 
 ![shell room showing button](/images/docs/shell.jpg)
 
@@ -34,6 +36,6 @@ If players have the permission `tardis.load_shells`, they can load Chameleon pre
 
 To open the Shell Loader GUI, click the stone button on the Shell Constructor platform while sneaking.
 
-![shell loader](/images/docs/shell_loader.jpg)
+<TabbedImage name={"Shell Loader"} description={""} folder={"docs"} image={"shell_loader.jpg"} heading={false} />
 
 Click a button to load the Chameleon preset onto the shell constructor platform.
