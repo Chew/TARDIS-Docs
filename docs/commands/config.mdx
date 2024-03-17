@@ -69,23 +69,23 @@ The following values will be set in _config.yml_:
 `
 debug: false # Shows or hides extra messages in the server log
 modules:
-  weeping_angels: false # Enables/disables the TARDIS Weeping Angels module
-  vortex_manipulator: false # Enables/disables the TARDIS Vortex Manipulator module
-  dynmap: false # Enables/disables the TARDIS Dynmap module
-  chemistry: false # Enables/disables the TARDIS Chemistry module
-  shop: false # Enables/disables the TARDIS Shop module
-  sonic_blaster: false # Enables/disables the TARDIS Sonic Blaster module
-  blueprints: false # Enables/disables the TARDIS blueprint permissions module
+    weeping_angels: false # Enables/disables the TARDIS Weeping Angels module
+    vortex_manipulator: false # Enables/disables the TARDIS Vortex Manipulator module
+    dynmap: false # Enables/disables the TARDIS Dynmap module
+    chemistry: false # Enables/disables the TARDIS Chemistry module
+    shop: false # Enables/disables the TARDIS Shop module
+    sonic_blaster: false # Enables/disables the TARDIS Sonic Blaster module
+    blueprints: false # Enables/disables the TARDIS blueprint permissions module
 storage:
-      database: sqlite # Sets the database type the plugin uses. Valid values are \`sqlite\` and \`mysql\`
-      mysql: # Only applicable if \`database\` is set to \`mysql\`, otherwise this section can be ignored
-       host: localhost # Sets the host of the mysql database, where: \`localhost\` = the ip address or hostname of the MySQL server (if the MySQL server is on the same server as the Spigot server, you can usually use \`localhost\`
-       port: 3306 # Sets the mysql server port, where: \`3306\` = the port on which the MySQL server is running (usually 3306)
-       database: TARDIS # Sets the name of the database to connect to, where: \`TARDIS\` = the name of the database where the TARDIS data will be stored
-       user: bukkit # Sets the user that connects to the mysql database
-       password: mysecurepassword # Sets the password to connect to the mysql database
-       prefix: '' # Sets the prefix added to the table names used in the mysql database. Spigot servers will generally only use one database, so to distinguish the TARDIS tables from other plugins this should probably be set to something like \`tardis\_\`
-       use_SSL: false # Sets whether to use an SSL connection to the MySQL database
+    database: sqlite # Sets the database type the plugin uses. Valid values are \`sqlite\` and \`mysql\`
+    mysql: # Only applicable if \`database\` is set to \`mysql\`, otherwise this section can be ignored
+        host: localhost # Sets the host of the mysql database, where: \`localhost\` = the ip address or hostname of the MySQL server (if the MySQL server is on the same server as the Spigot server, you can usually use \`localhost\`
+        port: 3306 # Sets the mysql server port, where: \`3306\` = the port on which the MySQL server is running (usually 3306)
+        database: TARDIS # Sets the name of the database to connect to, where: \`TARDIS\` = the name of the database where the TARDIS data will be stored
+        user: bukkit # Sets the user that connects to the mysql database
+        password: mysecurepassword # Sets the password to connect to the mysql database
+        prefix: '' # Sets the prefix added to the table names used in the mysql database. Spigot servers will generally only use one database, so to distinguish the TARDIS tables from other plugins this should probably be set to something like \`tardis\_\`
+        use_SSL: false # Sets whether to use an SSL connection to the MySQL database
 creation:
     create_worlds: false # It is **NOT recommended** setting this to true! Sets whether TARDISes are created in their own separate worlds.
     create_worlds_with_perms: false # Sets whether TARDISes are created in their own separate worlds for players with the appropriate permission — \`tardis.create_world\`.
@@ -100,45 +100,50 @@ creation:
     area: none # If set to a pre-defined TARDIS area, it will set that area as the only place on the server that TARDISes can be created in.
     enable_legacy: true # Sets whether the legacy console schematics are available to build TARDIS interiors with.
     check_for_home: true # Sets whether the TARDIS creation location is already set to another player's \`home\` location.
-    seed_block_crafting: true # Sets whether players can craft TARDIS seed blocks.
+    seed_block:
+        crafting: true # Sets whether players can craft TARDIS seed blocks.
+        legacy: true # Sets whether server difficulty affects the 'lamp' crafting material. A value of \`true\` means the crafting material is always a Redstone Torch.
+        easy: REDSTONE_TORCH
+        normal: SOUL_LANTERN
+        hard: DRAGON_BREATH # Sets the 'lamp' craft material depending on the **server difficulty**.
 police_box:
-        default_preset: FACTORY # Sets the default preset that appears when the TARDIS is first created. See the [Chameleon Presets](presets) page for values that can be set.
-        name_tardis: false # Sets whether to put the player&rsquo;s name on the Police Box sign.
-        use_nick: false # Sets whether to use the player’s nick name on the Police Box sign.
-        view_interior: false # Sets whether player’s can view the TARDIS interior when opening hte exterior TARDIS door.
-        view_interior_uses_console_size: false # Sets whether the the interior view distance uses the interior console size or a deafult 16 blocks
-        materialise: true # Sets whether the TARDIS runs the materialising animation when it takes off and lands.
-        sign_colour: WHITE # Sets the colour of the text on a TARDIS sign. Must be a valid ChatColor value, see [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html)
-        rebuild_cooldown: 10000 # Sets the minimum time (in server ticks) required between TARDIS rebuilds.
-        load_shells: false # Sets whether player’s can load Chameleon preset shells into the Shell room.
-        keep_chunk_force_loaded: true # Sets whether to keep the current location chunk of player’s Police Boxes force loaded.
+    default_preset: FACTORY # Sets the default preset that appears when the TARDIS is first created. See the [Chameleon Presets](presets) page for values that can be set.
+    name_tardis: false # Sets whether to put the player&rsquo;s name on the Police Box sign.
+    use_nick: false # Sets whether to use the player’s nick name on the Police Box sign.
+    view_interior: false # Sets whether player’s can view the TARDIS interior when opening hte exterior TARDIS door.
+    view_interior_uses_console_size: false # Sets whether the the interior view distance uses the interior console size or a deafult 16 blocks
+    materialise: true # Sets whether the TARDIS runs the materialising animation when it takes off and lands.
+    sign_colour: WHITE # Sets the colour of the text on a TARDIS sign. Must be a valid ChatColor value, see [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html)
+    rebuild_cooldown: 10000 # Sets the minimum time (in server ticks) required between TARDIS rebuilds.
+    load_shells: false # Sets whether player’s can load Chameleon preset shells into the Shell room.
+    keep_chunk_force_loaded: true # Sets whether to keep the current location chunk of player’s Police Boxes force loaded.
 travel:
-        include_default_world: false # Sets whether the default world is included in time travel destinations.
-        tp_radius: 500 # Sets the maximum distance (in blocks) you can randomly time travel in the TARDIS. **Note** The actual values is about 4 times this (due to the multiplier repeater).
-        max_distance: 29999983 # Sets the maximum distance (in blocks) that can be used with the \`/tardistravel\` command. If the (vanilla) World Border distance is smaller this will be used instead.
-        chameleon: true # Sets whether the TARDIS police box can change its appearance to match its surroundings.
-        give_key: false # Sets whether the TARDIS key is given when changing worlds (and using a multi-world inventory plugin).
-        the_end: false # Sets whether the TARDIS is allowed to travel to The End worlds.
-        allow_end_after_visit: false # If enabled, players may only fly to The End in the TARDIS if they've already been there once without it (i.e. End Portal) **Note:** End travel must be enabled (\`the_end: true\`) for this to take effect.
-        nether: false # Sets whether the TARDIS is allowed to travel to Nether worlds.
-        allow_nether_after_visit: false # If enabled, players may only fly to the Nether in the TARDIS if they've already been there once without it (i.e. Nether Portal). **Note:** Nether travel must be enabled (\`nether: true\`) for this to take effect.
-        land_on_water: true # Sets whether the TARDIS will land on water in the Overworld.
-        timeout: 5
-        timeout_height: 135 # Sets the maximum time in seconds a random location task can take. If the task times out then the Police Box location is set at the \`timeout_height\` value. This prevents the plugin crashing when using skyblock type worlds.
-        random_attempts: 30 # Sets the maximum number of attempts to find a random location. This prevents the plugin crashing under certain circumstances.
-        exile: false # Sets whether the TARDIS exile feature is enabled.
-        per_world_perms: false # Sets whether players require the \`tardis.travel.[world]\` permission to travel to a world.
-        terminal_step: 1 # Sets the 4 step values that the TARDIS Destination Terminal GUI uses, where the steps are \`10 * step\` and \`25 * step\` etc.
-        terminal:
-            redefine: false
-            the_end: world
-            nether: world # Allows you to redefine the End and Nether buttons in the Destination Terminal to specific worlds when travel to those environments is disabled.
-        manual_flight_delay: 60 # Sets the server tick delay between having to click the repeaters in [manual flight mode](flight-modes).
-        grace_period: 10 # Sets the number of times players can use easy controls when the server is set to \`hard\` difficulty mode.
-        random_circuit:
-            x: 5000
-            y: 5000 # Maximum +/- number of blocks the random location search will look between in x and z directions, so default will be -5000 to 5000 in both x and z directions. If the WorldBorder plugin is installed or a vaniila world border is in use, then those settings will be used instead.
-        no_destination_malfunctions: true # Sets whether the TARDIS will malfunction if no valid random destination can be found with the current console settings.
+    include_default_world: false # Sets whether the default world is included in time travel destinations.
+    tp_radius: 500 # Sets the maximum distance (in blocks) you can randomly time travel in the TARDIS. **Note** The actual values is about 4 times this (due to the multiplier repeater).
+    max_distance: 29999983 # Sets the maximum distance (in blocks) that can be used with the \`/tardistravel\` command. If the (vanilla) World Border distance is smaller this will be used instead.
+    chameleon: true # Sets whether the TARDIS police box can change its appearance to match its surroundings.
+    give_key: false # Sets whether the TARDIS key is given when changing worlds (and using a multi-world inventory plugin).
+    the_end: false # Sets whether the TARDIS is allowed to travel to The End worlds.
+    allow_end_after_visit: false # If enabled, players may only fly to The End in the TARDIS if they've already been there once without it (i.e. End Portal) **Note:** End travel must be enabled (\`the_end: true\`) for this to take effect.
+    nether: false # Sets whether the TARDIS is allowed to travel to Nether worlds.
+    allow_nether_after_visit: false # If enabled, players may only fly to the Nether in the TARDIS if they've already been there once without it (i.e. Nether Portal). **Note:** Nether travel must be enabled (\`nether: true\`) for this to take effect.
+    land_on_water: true # Sets whether the TARDIS will land on water in the Overworld.
+    timeout: 5
+    timeout_height: 135 # Sets the maximum time in seconds a random location task can take. If the task times out then the Police Box location is set at the \`timeout_height\` value. This prevents the plugin crashing when using skyblock type worlds.
+    random_attempts: 30 # Sets the maximum number of attempts to find a random location. This prevents the plugin crashing under certain circumstances.
+    exile: false # Sets whether the TARDIS exile feature is enabled.
+    per_world_perms: false # Sets whether players require the \`tardis.travel.[world]\` permission to travel to a world.
+    terminal_step: 1 # Sets the 4 step values that the TARDIS Destination Terminal GUI uses, where the steps are \`10 * step\` and \`25 * step\` etc.
+    terminal:
+        redefine: false
+        the_end: world
+        nether: world # Allows you to redefine the End and Nether buttons in the Destination Terminal to specific worlds when travel to those environments is disabled.
+    manual_flight_delay: 60 # Sets the server tick delay between having to click the repeaters in [manual flight mode](flight-modes).
+    grace_period: 10 # Sets the number of times players can use easy controls when the server is set to \`hard\` difficulty mode.
+    random_circuit:
+        x: 5000
+        y: 5000 # Maximum +/- number of blocks the random location search will look between in x and z directions, so default will be -5000 to 5000 in both x and z directions. If the WorldBorder plugin is installed or a vaniila world border is in use, then those settings will be used instead.
+    no_destination_malfunctions: true # Sets whether the TARDIS will malfunction if no valid random destination can be found with the current console settings.
 preferences:
     notify_update: true # Sets whether to check for and notify opped players if there is a TARDIS plugin update.
     language: en # Sets the language used for TARDIS message localisation. The plugin will look for a file named with this setting and the file extension _.yml_. Should be set to an [international language code](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/LANGUAGE.html).
@@ -177,40 +182,40 @@ preferences:
     no_coords: false # Sets whether players will see the coordinates message when choosing a random destination.
     chat_width: 55 # Sets the maximum character width of a TARDIS message in the chat window.
 dynmap:
-  update_period: 30
-  updates_per_tick: 10
+    update_period: 30
+    updates_per_tick: 10
 desktop:
-      check_blocks_before_upgrade: false # Sets whether to compare the amount of block changes before allowing an upgrade.
-      block_change_percent: 25 # Sets the maximum percentage of block change compared to the original schematic.
+    check_blocks_before_upgrade: false # Sets whether to compare the amount of block changes before allowing an upgrade.
+    block_change_percent: 25 # Sets the maximum percentage of block change compared to the original schematic.
 circuits:
-  damage: false # Sets whether circuits get damaged after each use. Setting this to false (the default) means circuits have unlimited uses.
-  uses:
-    \<circuit\>: 20 # Sets the maximum number of uses a circuit has before it is vapourised. Setting this to \`0\` gives unlimited uses for that circuit.
+    damage: false # Sets whether circuits get damaged after each use. Setting this to false (the default) means circuits have unlimited uses.
+    uses:
+        \<circuit\>: 20 # Sets the maximum number of uses a circuit has before it is vapourised. Setting this to \`0\` gives unlimited uses for that circuit.
 allow:
-      mob_farming: true # Sets whether players can [farm mobs](farming) when entering the TARDIS.
-      spawn_eggs: true # Sets whether the player receives mob spawn eggs when TARDIS mob farming (and there is no farm room grown).
-      emergency_npc: true # Sets whether the [Emergency Program One](emergency-program-one) feature is enabled.
-      external_gravity: false # Sets whether the [Gravity Wells](/rooms/gravity-wells) can be set up outside of the TARDIS.
-      achievements: true # Sets whether players can gain [TARDIS achievements](achievements).
-      autonomous: true # Sets whether players can use the [autonomous function](autonomous).
-      hads: true # Sets whether the TARDIS can [escape hostile](hads) actions.
-      tp_switch: true # Sets whether players can set and switch resource packs when entering and exiting the TARDIS.
-      all_blocks: false # Sets whether the chameleon circuit is allowed to use precious blocks such as GOLD and DIAMOND. This also affects whether players are allowed to change the TARDIS Key to any item — if set to \`false\`, then keys are restricted to the items listed under \`keys:\` in _blocks.yml_.
-      sfx: true # Sets whether sound effects are played in the TARDIS interior — this overrides user preferences if turned off.
-      wg_flag_set: true # Sets whether players can set the build flag (allow, deny) in their TARDIS region.
-      zero_room: false # Sets whether players can grow a Zero room. If this is set to true using the \`/tardisconfig zero_room true\` command, the plugin wil attempt to create the \`TARDIS_Zero_Room\` world if it doesn’t yet exist.
-      power_down: true # Sets whether players can power down their TARDIS.
-      power_down_on_quit: false # Sets whether a player’s TARDIS automatically powers down when the player leaves the server.
-      player_difficulty: true # Sets whether players can use the \`/tardisprefs difficulty [easy | hard]\` command to change their personal difficulty setting. See [this ticket](https://dev.bukkit.org/bukkit-plugins/tardis/tickets/689-tardis-console-modes/) for the reasoning behind it all.
-      invisibility: true # Sets whether players can use the invisibility Chameleon preset. See [Invisibility](invisibility) for more info.
-      guardians: false # Sets whether players can farm guardians when entering the TARDIS, and whether guardians will randomly spawn in the pool room if the door is left open.
-      village_travel: false # Sets whether players can use the \`/tardistravel [structure\|village]\` command to time travel to a village or other Minecraft structure.
-      3d_doors: false # Sets whether TARDIS owners can see their door when the exterior is set to the INVISIBLE preset. They must be wearing 3D Glasses and looking at the block that the door would normally be placed on.
-      repair: true # Sets whether players can repair a damaged TARDIS interior.
-      weather_set: false # Sets whether players can use the \`/tardisweather\` command or the TARDIS Weather GUI.
-      force_field: 8 # If set to greater than \`0\`, determines whether players can activate the TARDIS force field and sets the range of the force field effect. Set to \`0\` to disable.
-      admin_bypass: false # Sets whether players the permission \`tardis.admin\` can bypass TARDIS travel location and plugin protection checks.
-      perception_filter: true # Sets whether players can use the [perception filter](perception-filter).
+    mob_farming: true # Sets whether players can [farm mobs](farming) when entering the TARDIS.
+    spawn_eggs: true # Sets whether the player receives mob spawn eggs when TARDIS mob farming (and there is no farm room grown).
+    emergency_npc: true # Sets whether the [Emergency Program One](emergency-program-one) feature is enabled.
+    external_gravity: false # Sets whether the [Gravity Wells](/rooms/gravity-wells) can be set up outside of the TARDIS.
+    achievements: true # Sets whether players can gain [TARDIS achievements](achievements).
+    autonomous: true # Sets whether players can use the [autonomous function](autonomous).
+    hads: true # Sets whether the TARDIS can [escape hostile](hads) actions.
+    tp_switch: true # Sets whether players can set and switch resource packs when entering and exiting the TARDIS.
+    all_blocks: false # Sets whether the chameleon circuit is allowed to use precious blocks such as GOLD and DIAMOND. This also affects whether players are allowed to change the TARDIS Key to any item — if set to \`false\`, then keys are restricted to the items listed under \`keys:\` in _blocks.yml_.
+    sfx: true # Sets whether sound effects are played in the TARDIS interior — this overrides user preferences if turned off.
+    wg_flag_set: true # Sets whether players can set the build flag (allow, deny) in their TARDIS region.
+    zero_room: false # Sets whether players can grow a Zero room. If this is set to true using the \`/tardisconfig zero_room true\` command, the plugin wil attempt to create the \`TARDIS_Zero_Room\` world if it doesn’t yet exist.
+    power_down: true # Sets whether players can power down their TARDIS.
+    power_down_on_quit: false # Sets whether a player’s TARDIS automatically powers down when the player leaves the server.
+    player_difficulty: true # Sets whether players can use the \`/tardisprefs difficulty [easy | hard]\` command to change their personal difficulty setting. See [this ticket](https://dev.bukkit.org/bukkit-plugins/tardis/tickets/689-tardis-console-modes/) for the reasoning behind it all.
+    invisibility: true # Sets whether players can use the invisibility Chameleon preset. See [Invisibility](invisibility) for more info.
+    guardians: false # Sets whether players can farm guardians when entering the TARDIS, and whether guardians will randomly spawn in the pool room if the door is left open.
+    village_travel: false # Sets whether players can use the \`/tardistravel [structure\|village]\` command to time travel to a village or other Minecraft structure.
+    3d_doors: false # Sets whether TARDIS owners can see their door when the exterior is set to the INVISIBLE preset. They must be wearing 3D Glasses and looking at the block that the door would normally be placed on.
+    repair: true # Sets whether players can repair a damaged TARDIS interior.
+    weather_set: false # Sets whether players can use the \`/tardisweather\` command or the TARDIS Weather GUI.
+    force_field: 8 # If set to greater than \`0\`, determines whether players can activate the TARDIS force field and sets the range of the force field effect. Set to \`0\` to disable.
+    admin_bypass: false # Sets whether players the permission \`tardis.admin\` can bypass TARDIS travel location and plugin protection checks.
+    perception_filter: true # Sets whether players can use the [perception filter](perception-filter).
 growth:
     gravity_max_distance: 15
     gravity_max_velocity: 5 # Sets sets the maximum distance and velocity a gravity well can be set to.
@@ -221,30 +226,30 @@ growth:
     delay_factor: 1 # Sets the delay between growing multiple rooms.
     ars_limit: 1 # Sets the maximum number of rooms that can be reconfigured at a time.
 arch:
-  enabled: true
-  min_time: 20
-  switch_inventory: true
-  clear_inv_on_death: false
+    enabled: true
+    min_time: 20
+    switch_inventory: true
+    clear_inv_on_death: false
 siege:
-  enabled: true # Sets whether players can engage Siege mode
-  breeding: 0 # If this is set higher than 0, this is the percentage chance that twins will be born when animals breed
-  growth: 0 # If this is set higher than 0, this is the percentage chance that a plant will sprout an extra step when it grows
-  butcher: false # Sets whether any hostile mobs inside the TARDIS will be butchered when Siege mode is engaged
-  creeper: false # Sets whether (when the TARDIS runs out of energy) the Artron creeper will be sacrificed to give the TARDIS an energy boost
-  healing: false # Sets whether players inside the TARDIS receive a healing pick-me-up
-  texture: false # Sets whether the desktop theme is changed when Siege mode is engaged
+    enabled: true # Sets whether players can engage Siege mode
+    breeding: 0 # If this is set higher than 0, this is the percentage chance that twins will be born when animals breed
+    growth: 0 # If this is set higher than 0, this is the percentage chance that a plant will sprout an extra step when it grows
+    butcher: false # Sets whether any hostile mobs inside the TARDIS will be butchered when Siege mode is engaged
+    creeper: false # Sets whether (when the TARDIS runs out of energy) the Artron creeper will be sacrificed to give the TARDIS an energy boost
+    healing: false # Sets whether players inside the TARDIS receive a healing pick-me-up
+    texture: false # Sets whether the desktop theme is changed when Siege mode is engaged
 junk:
-  enabled: true # Sets whether the Junk TARDIS is available on the server — **NOTE:** The Junk TARDIS will be disabled if \`creation.default_world\` is \`false\`
-  return: -1 # Sets the time in seconds that the Junk TARDIS will automatically return to its ‘home’ location. If this is less than \`0\` and the Junk TARDIS will not automatically return home.
-  particles: true # Sets whether the Junk TARDIS displays a particle effect when travelling
+    enabled: true # Sets whether the Junk TARDIS is available on the server — **NOTE:** The Junk TARDIS will be disabled if \`creation.default_world\` is \`false\`
+    return: -1 # Sets the time in seconds that the Junk TARDIS will automatically return to its ‘home’ location. If this is less than \`0\` and the Junk TARDIS will not automatically return home.
+    particles: true # Sets whether the Junk TARDIS displays a particle effect when travelling
 abandon:
-  enabled: true
-  reduce_count: true
+    enabled: true
+    reduce_count: true
 archive:
-  enabled: true
-  limit: 3
+    enabled: true
+    limit: 3
 display:
-  all: '&6X&7%X% &6Y&7%Y% &6Z&7%Z% &6F&7%FACING% (%FACING_XZ%) %TARGET_BLOCK%'
+    all: '&6X&7%X% &6Y&7%Y% &6Z&7%Z% &6F&7%FACING% (%FACING_XZ%) %TARGET_BLOCK%'
 `
 }>
 </ConfigTable>

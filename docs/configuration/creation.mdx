@@ -24,7 +24,12 @@ creation:
   area: none
   enable_legacy: true
   check_for_home: true
-  seed_block_crafting: true
+  seed_block:
+    crafting: true
+    legacy: true
+    easy: REDSTONE_TORCH
+    normal: SOUL_LANTERN
+    hard: DRAGON_BREATH
 ```
 
 <ConfigTable data={`
@@ -42,7 +47,12 @@ creation:
     area: none # If set to a pre-defined TARDIS area, it will set that area as the only place on the server that TARDISes can be created in.
     enable_legacy: true # Sets whether the legacy console schematics are available to build TARDIS interiors with.
     check_for_home: true # Sets whether the TARDIS creation location is already set to another player's \`home\` location.
-    seed_block_crafting: true # Sets whether players can craft TARDIS seed blocks.
+    seed_block:
+      crafting: true # Sets whether players can craft TARDIS seed blocks.
+      legacy: true # Sets whether server difficulty affects the 'lamp' crafting material. A value of \`true\` means the crafting material is always a Redstone Torch.
+      easy: REDSTONE_TORCH # Sets the 'lamp' craft material when server difficulty is set to **peaceful** / **easy**.
+      normal: SOUL_LANTERN # Sets the 'lamp' craft material when server difficulty is set to **normal**.
+      hard: DRAGON_BREATH # Sets the 'lamp' craft material when server difficulty is set to **hard** / **hardcore**.
 `} />
 
 [Back to main configuration page](/category/plugin-configuration)
