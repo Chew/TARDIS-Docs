@@ -298,6 +298,7 @@ const sidebars: SidebarsConfig = {
             'recipes/custom-blocks/roundel-offset',
             'recipes/custom-blocks/the-moment',
             'recipes/custom-blocks/door',
+            'recipes/custom-blocks/classic-door',
             'recipes/custom-blocks/light-classic',
             'recipes/custom-blocks/light-classic-offset',
             'recipes/custom-blocks/light-tenth',
