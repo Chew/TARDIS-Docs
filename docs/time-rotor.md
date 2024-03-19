@@ -99,4 +99,6 @@ GLASSPANE      | REDSTONE | GLASSPANE
 
 ![Time engine recipe](/images/docs/time_engine_recipe.png)
 
+## Custom time rotors
 
+From TARDIS v5.5.0 you can add your own custom time rotors to the plugin - for more information, see the [Custom Time Rotors](custom-rotors) page.

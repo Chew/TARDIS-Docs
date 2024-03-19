@@ -94,6 +94,7 @@ import TabItem from '@theme/TabItem';
 [Custom chameleon preset](custom-preset "Custom chameleon preset")  
 [Custom model presets](custom-model-presets "Custom model presets")  
 [Custom rooms](/rooms/custom "Custom rooms")  
+[Custom time rotors](custom-rotors "Custom time rotors")  
 [Cybermen](modules/weeping-angels#cybermen "Cybermen")  
 
 </TabItem>
