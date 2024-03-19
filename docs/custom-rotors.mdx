@@ -1,0 +1,71 @@
+---
+layout: default
+title: Custom Time Rotors
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Storage configuration options
+
+As of version 5.5.0 you can add custom time rotor models for the TARDIS console.
+
+Custom time rotor models are defined in _plugins/TARDIS/custom\_time\_rotors.yml_, an example entry is shown below:
+
+```yaml title="/plugins/TARDIS/custom_time_rotors.yml"
+classic:
+  off_custom_model_data: 10000010
+  animated_material: YELLOW_DYE
+  animation_sequence: 0,1,2,3,4,5,6,7
+  frame_rate: 6
+```
+
+<ConfigTable name="/plugins/TARDIS/config.yml" data={
+    `classic:
+      off_custom_model_data: 10000010 # Custom model data for the rotor's inventory item and off state model, must be added as a "custom_model_data" predicate in _assets/minecraft/models/item/light_gray_dye.json_ - must be higher than \`10000009\`
+      animated_material: YELLOW_DYE # The material of the animated rotor item, animation states will need to be set with "custom_model_data" predicates in _assets/minecraft/models/item/**[animated_material]**.json_, starting at \`1021\`. Material must be unique for each rotor, the plugin already uses BLACK_DYE, ORANGE_DYE, BROWN_DYE, GRAY_DYE, CYAN_DYE, LIGHT_BLUE_DYE, BLUE_DYE, WHITE_DYE
+      animation_sequence: 0,1,2,3,4,5,6,7 # A comma separated list of frame numbers where the number is added to the starting animation frame to get the "custom_model_data" predicate e.g. 1021 + 3 = 1024
+      frame_rate: 6 # The animation frame rate in server ticks
+    `
+}>
+
+</ConfigTable>
+
+# Example model overrides
+
+Inventory item / off state go in _light\_gray\_dye.json_:
+
+```json title="assets/minecraft/models/item/light_gray_dye.json"
+{
+  "parent": "minecraft:item/generated",
+   "textures": {
+      "layer0": "minecraft:item/light_gray_dye"
+   },
+  "overrides": [
+    # {other predicates}...
+    {"predicate": {"custom_model_data": 10000010}, "model": "tardis:item/time_rotor/classic/classic_0"}
+  ]
+}
+```
+
+Animation states go in _yellow\_dye.json_:
+
+```json title="assets/minecraft/models/item/yellow_dye.json"
+{
+  "parent": "minecraft:item/generated",
+   "textures": {
+      "layer0": "minecraft:item/yellow_dye"
+   },
+   "overrides": [
+      # {other predicates}...
+      {"predicate": {"custom_model_data":1021}, "model": "tardis:item/time_rotor/classic/classic_0"},
+      {"predicate": {"custom_model_data":1022}, "model": "tardis:item/time_rotor/classic/classic_1"},
+      {"predicate": {"custom_model_data":1023}, "model": "tardis:item/time_rotor/classic/classic_2"},
+      {"predicate": {"custom_model_data":1024}, "model": "tardis:item/time_rotor/classic/classic_3"},
+      {"predicate": {"custom_model_data":1025}, "model": "tardis:item/time_rotor/classic/classic_4"},
+      {"predicate": {"custom_model_data":1026}, "model": "tardis:item/time_rotor/classic/classic_5"},
+      {"predicate": {"custom_model_data":1027}, "model": "tardis:item/time_rotor/classic/classic_6"},
+      {"predicate": {"custom_model_data":1028}, "model": "tardis:item/time_rotor/classic/classic_7"},
+      # {other predicates}...
+   ]
+}
+```

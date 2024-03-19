@@ -5,7 +5,7 @@ title: Custom item model presets
 
 # Custom item model presets
 
-As of version 5.0.0 you can now add custom item model presets for the TARDIS exterior.
+As of version 5.0.0 you can add custom item model presets for the TARDIS exterior.
 
 Custom model presets are defined in _plugins/TARDIS/custom\_models.yml_:
 

@@ -99,6 +99,7 @@ const sidebars: SidebarsConfig = {
         'walls',
         'hum',
         'item_displays',
+        'custom-rotors',
         {
           type: 'category',
           label: "Rooms",
