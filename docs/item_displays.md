@@ -48,9 +48,9 @@ To break a custom TARDIS block:
 
 ![Custom block break](/images/docs/custom_break.jpg)
 
-### Lights
+### Lights and doors
 
-To break a custom TARDIS light:
+To break a custom TARDIS light or door:
 
 - In SURVIVAL gamemode you need use a pickaxe.
 - You need to __RIGHT-click__ the block _multiple times_ in SURVIVAL in order to break the block.
