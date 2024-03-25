@@ -92,6 +92,7 @@ import TabItem from '@theme/TabItem';
 [Custom blocks](item_displays "Custom blocks")  
 [Custom consoles](custom-consoles "Custom consoles")  
 [Custom chameleon preset](custom-preset "Custom chameleon preset")  
+[Custom doors](custom-doors "Custom doors")  
 [Custom model presets](custom-model-presets "Custom model presets")  
 [Custom rooms](/rooms/custom "Custom rooms")  
 [Custom time rotors](custom-rotors "Custom time rotors")  

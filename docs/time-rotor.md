@@ -6,7 +6,7 @@ title: Time Rotor
 # Time Rotor
 
 If you are using the [TARDIS-Resource-Pack](/resource-packs) you can add
-an animated time rotor to your console (or grow a DELTA, MECHANICAL, ROTOR, or TOM console from a TARDIS seed block).
+an animated time rotor to your console (or grow a DELTA, HOSPITAL, MECHANICAL, ROTOR, or TOM console from a TARDIS seed block).
 
 ## Rotor Types
 
