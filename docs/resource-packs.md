@@ -70,7 +70,7 @@ Here’s a quick run down on doing that:
 2. Start GitHub client and create a free GitHub account (if you don’t have one)
 3. In your web browser, naviagte to the TARDIS resource pack repositories
 
-- [TARDIS-MCP](https://github.com/eccentricdevotion/TARDIS-MCP)
+- [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack)
 - [TARDIS-Sounds](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack)
 
 4. Click the **Clone in Desktop** button
