@@ -1,0 +1,148 @@
+---
+layout: default
+title: The TARDIS Console
+---
+
+import TabbedImage from "@site/src/components/TabbedImage";
+import Recipe from "@site/src/components/Recipe";
+
+# The TARDIS Console
+
+From version 5.6.0 and Spigot/Paper 1.20.6, the TARDIS plugin has an integrated all-in-one custom modelled console.
+
+The console comes as the default controls in the BONE interior.
+
+<TabbedImage name={"Bone Interior Console"} description={""} folder={"panels"} image={"console.jpg"} />
+
+## Crafting
+
+To craft an integrated console, use the following recipe:
+
+`/trecipe light-gray-console`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ---------- |
+| [Light Gray Concrete Powder](https://minecraft.wiki/w/Light_Gray_Concrete_Powder)<br/>[Bamboo Button](https://minecraft.wiki/w/Bamboo_Button)<br/>[Comparator](https://minecraft.wiki/w/Comparator)<br/>[Lever](https://minecraft.wiki/w/Lever) | <Recipe icons={['light-gray-concrete-powder','bamboo-button','light-gray-concrete-powder','lever','comparator','lever','light-gray-concrete-powder','bamboo-button','light-gray-concrete-powder','light-gray-console']} /> | easy |
+| [Light Gray Concrete Powder](https://minecraft.wiki/w/Light_Gray_Concrete_Powder)<br/>[Bamboo Button](https://minecraft.wiki/w/Bamboo_Button)<br/>[Comparator](https://minecraft.wiki/w/Comparator)<br/>[Redstone Block](https://minecraft.wiki/w/Redstone_Block) | <Recipe icons={['light-gray-concrete-powder','bamboo-button','light-gray-concrete-powder','comparator','redstone-block','comparator','light-gray-concrete-powder','bamboo-button','light-gray-concrete-powder','light-gray-console']} /> | hard |
+
+:::tip
+
+You can craft the other 15 standard Minecraft colours by substituting the appropriate coloured concrete powder.
+
+![Gray Concrete Powder](/images/icons/gray-concrete-powder.png)
+![Black Concrete Powder](/images/icons/black-concrete-powder.png)
+![White Concrete Powder](/images/icons/white-concrete-powder.png)
+![Red Concrete Powder](/images/icons/red-concrete-powder.png)
+![Orange Concrete Powder](/images/icons/orange-concrete-powder.png)
+![Yellow Concrete Powder](/images/icons/yellow-concrete-powder.png)
+![Lime Concrete Powder](/images/icons/lime-concrete-powder.png)
+![Green Concrete Powder](/images/icons/green-concrete-powder.png)
+![Cyan Concrete Powder](/images/icons/cyan-concrete-powder.png)
+![Light Blue Concrete Powder](/images/icons/light-blue-concrete-powder.png)
+![Blue Concrete Powder](/images/icons/blue-concrete-powder.png)
+![Purple Concrete Powder](/images/icons/purple-concrete-powder.png)
+![Magenta Concrete Powder](/images/icons/magenta-concrete-powder.png)
+![Pink Concrete Powder](/images/icons/pink-concrete-powder.png)
+![Brown Concrete Powder](/images/icons/brown-concrete-powder.png)
+
+View the other recipes here: [Console recipe](/recipes/custom-blocks/console)
+
+:::
+
+## Placing the console
+
+After crafting a console, right click to place like any other block. The centre of the console (a coloured concrete block) is placed where you click and the console panels are built around it.
+
+## Using the console
+
+The controls are shown below - for the most part, they work in the same way as the individual block controls.
+
+![Labelled console](/images/panels/top-down.jpg)
+
+### Panel 1
+
+| Label | Control | Description |
+| ----- | ------- | ----------- |
+| `H `  | Handbrake | Time Rotor Handbrake - take off and park the TARDIS. |
+| `T`   | Space Time Throttle | Control the materialisation speed of the TARDIS. |
+| `RD`  | Relativity Differentiator | Flight Mode Selector - Select from Normal, Regulator, Manual and Exterior Flight. |
+| `AR`  | Astrosextant Regulator | Used when flight mode is set to __Manual__. |
+
+![Panel 1](/images/panels/console-panel-1.jpg)
+
+### Panel 2
+
+| Label  | Control | Description |
+| ------ | ------- | ----------- |
+| `SCR ` | Screen  | Right-click to open the control menu, shift-click the left side to display TARDIS information, shift-click right side to display TARDIS coordinates. For other functions, see below. |
+| `S`    | Scanner button | Exterior Environment Scanner - . |
+| `A`    | Artron Energy button | Display the TARDIS and Time Lord artron levels. |
+| `RB`   | Rebuild button | Chameleon Circuit Re-initialiser - rebuild the TARDIS exterior. |
+
+![Panel 2](/images/panels/console-panel-2.jpg)
+
+### Panel 3
+
+| Label | Control | Description |
+| ----- | ------- | ----------- |
+| `AT ` | Absolute Tesseractulator | Used when flight mode is set to __Manual__. |
+| `L`   | Light Switch | Turn the TARDIS interior lights off and on. |
+| `I`   | Interior Light Level Switch | Set the light levels of the TARDIS interior lights. |
+| `E`   | Exterior Lamp Level Switch | Set the light level of the TARDIS exterior lamp. |
+| `TW`  | Toggle Wool button | Toggle the wool blocks behind the TARDIS interior door between wool and air. |
+
+![Panel 3](/images/panels/console-panel-3.jpg)
+
+### Panel 4
+
+| Label | Control | Description |
+| ----- | ------- | ----------- |
+| `GA ` | Gravitic Anomaliser | Used when flight mode is set to __Manual__. |
+| `SD`  | Sonic Dock | Store and charge your Sonic Screwdriver and set travel coordinates from the sonic's last scanned location or player. |
+| `D`   | Direction | Change the direction the TARDIS exterior faces. |
+
+![Panel 4](/images/panels/console-panel-4.jpg)
+
+### Panel 5
+
+| Label | Control | Description |
+| ----- | ------- | ----------- |
+| `W`   | World | Environment Selector - used by the random button. |
+| `M`   | Multiplier | Coordinate Increment Modifier - increases the random travel distance - used by the random button. |
+| `X`   | X coordinate distance | Set the random travel distance in the `x` direction - used by the random button. |
+| `Z`   | Z coordinate distance | Set the random travel distance in the `z` direction - used by the random button. |
+| `HR`  | Helmic Regulator | Choose a world to travel to - used by the random button - to set the order that worlds are listed in, edit `helmic_regultor_order` in _planets.yml_. Eight slots are available. |
+
+![Panel 5](/images/panels/console-panel-5.jpg)
+
+### Panel 6
+
+| Label | Control | Description |
+| ----- | ------- | ----------- |
+| `TP`  | Telepathic Circuit | Opens the TARDIS Telepathic GUI where you can toggle the Telepathic Circuit on and off, find a cave, structure or biome to travel to. |
+| `R`   | Random button | Generates a random location to travel to based on the settings of panel 5. |
+| `SV`  | Saves | Waypoint selector - opens the TARDIS Saves GUI. |
+| `B`   | Back button | Fast return to the last place you travelled to. |
+
+![Panel 6](/images/panels/console-panel-6.jpg)
+
+## Control labels
+
+If you can't remember which control is which, you have two options:
+
+- Shift-right-click the control to temporarily show its name.
+- Use the command `/tardisprefs console_labels [on|off]` to toggle control labels on and off.
+
+## Changing the colour of the console
+
+You can change the colour of the console by clicking the console screen while holding 6 of the desired coloured concrete powder in your main hand.
+
+## Breaking the console
+
+To break the console, right-click the console screen with any pickaxe. 
+
+## Video
+
+Coming soon
+
+<!--<iframe src="https://player.vimeo.com/video/59322488" width="600" height="366" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>-->

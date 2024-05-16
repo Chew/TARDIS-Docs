@@ -86,6 +86,7 @@ const sidebars: SidebarsConfig = {
         'flight-modes',
         'flying',
         'throttle',
+        'console',
       ],
     },
     {
@@ -292,6 +293,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Custom Blocks',
           items: [
+            'recipes/custom-blocks/console',
             'recipes/custom-blocks/grow',
             'recipes/custom-blocks/blue-box',
             'recipes/custom-blocks/cog',

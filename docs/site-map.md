@@ -78,6 +78,7 @@ import TabItem from '@theme/TabItem';
 [Companions](companions "Companions")  
 [Condensable items](condensables "Condensable items")  
 [Condenser](condenser "Condenser")  
+[Console](console "Console")  
 [Config editor](editor)  
 [Configuration](configuration/ "Configuration")  
 [Console Gallery](interiors "Console Gallery")  
@@ -288,6 +289,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="T" label="T">
 
 [TARDIS commands](commands/tardis "TARDIS commands")  
+[TARDIS console](console "TARDIS Console")  
 [TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
 [TARDIS Display](display "TARDIS Display")  
 [TARDIS Interior Sounds](hum "TARDIS Interior Sounds")  
