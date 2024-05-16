@@ -25,7 +25,7 @@ Click on the sign and its position will be added to the TARDIS database.
 
 ## Control Menu use
 
-To use the TARDIS Control Menu, right-click on the Control Menu sign.
+To use the TARDIS Control Menu, right-click on the Control Menu sign, or right-click the screen on the integrated modelled console.
 
 ![TARDIS Control Menu](/images/docs/control_menu.jpg)
 
