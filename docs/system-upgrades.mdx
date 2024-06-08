@@ -1,0 +1,78 @@
+---
+layout: default
+title: System Upgrades
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# System Upgrades
+
+From version 5.7.0 and higher, you can restrict feature use using System Upgrades. Players can upgrade their TARDISes to gain access to more powerful features for architecture, navigation and tools, but only once they have used their TARDIS for a while.
+
+Upgrades are performed in the System Upgrades GUI where features can exchanged for Time Lord Artron Energy. Gaining Time Lord Artron Energy requires that players travel in their TARDIS and exit the door - the amount of energy accumulated each time they travel is set in [_artron.yml_](/configuration/energy#player).
+
+![System Upgrades GUI](/images/docs/system_upgrades_gui.jpg)
+
+## Configuration options
+
+Turn on System Upgrades in _config.yml_:
+
+```yaml title="/plugins/TARDIS/config.yml"
+difficulty:
+  ...
+  system_upgrades: false
+```
+
+<ConfigTable data={`
+difficulty:
+  system_upgrades: false # Whether players need to upgrade their TARDIS before they can use various features - see [System Upgrades](/system-upgrades).
+`} />
+
+Upgrade Artron costs are set in _system_upgrades.yml_:
+
+```yaml title="/plugins/TARDIS/_system_upgrades.yml"
+branch: 100
+# architecture branch
+architecture:
+  chameleon_circuit: 1000
+  room_growing: 1000
+  desktop_theme: 2000
+# navigation branch
+navigation:
+  saves: 1000
+  distance_1: 1000
+  distance_2: 2000
+  distance_3: 3000
+  telepathic_circuit: 2000
+  inter_dimensional_travel: 4000
+  exterior_flight: 3000
+# tools branch
+tools:
+  tardis_locator: 500
+  biome_reader: 2000
+  force_field: 3000
+  monitor: 2000
+  stattenheim_remote: 4000
+```
+
+<ConfigTable data={`
+branch: 100 # Cost for opening any of the three system upgrade tree branches.
+architecture:
+  chameleon_circuit: 1000 # Cost for being able to change the TARDIS exterior - requires the _Architecture_ branch upgrade.
+  room_growing: 1000 # Cost to be able to grow rooms in the TARDIS - requires the _Chameleon Circuit_ upgrade.
+  desktop_theme: 2000 # Cost for being able to change the TARDIS interior - requires the _Room Growing_ upgrade.
+navigation:
+  saves: 1000 # Cost for being able to save the TARDIS travel destinations - requires the _Navigation_ branch upgrade.
+  distance_1: 1000 # Cost for unlocking the 2x distance multiplier - requires the _Saves_ upgrade.
+  distance_2: 2000 # Cost for unlocking the 3x distance multiplier - requires the _Distance 1_ upgrade.
+  distance_3: 3000 # Cost for unlocking the 4x distance multiplier - requires the _Distance 2_ upgrade.
+  telepathic_circuit: 2000 # Cost for unlocking the Telepathic Circuit, allowing you to search for caves, structures and biomes - requires the _Distance 3_ upgrade.
+  inter_dimensional_travel: 4000 # Cost for unlocking inter dimensional travel to the Nether or End - requires the _Distance 3_ upgrade.
+  exterior_flight: 3000 # Cost for unlocking Exterior Flight - requires the _Inter Dimensional Travel_ upgrade.
+tools:
+  tardis_locator: 500 # Cost for using the TARDIS Locatoe and the \`/tardis find\` command - requires the _Tools_ branch upgrade.
+  biome_reader: 2000 # Cost for using the TARDIS bomke reader - requires the _TARDIS Locator_ upgrade.
+  force_field: 3000 # Cost for using the TARDIS force field - requires the _Biome Reader_ upgrade.
+  monitor: 2000 # Cost for using the TARDIS Monitor and external viewer - requires the _Force Field_ upgrade.
+  stattenheim_remote: 4000 # Cost for using the Stattenheim Remote and \`/tardis comehere\` command - requires the _Force Field_ upgrade.
+`} />

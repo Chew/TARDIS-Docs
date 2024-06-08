@@ -5,9 +5,9 @@ title: Circuit Use and Repair
 
 import ConfigTable from "../src/components/ConfigTable";
 
-# Circuit Use and Repair
+# Circuit use and repair
 
-If configured (`difficulty: hard` and `damage: true`), circuits can become damaged after use. When the tardis
+If configured (`difficulty.circuits: true` and `circuits.damage: true`), circuits can become damaged after use. When the tardis
 malfunctions
 there is a 50% chance that a circuit will become damaged even more than usual.
 
@@ -27,6 +27,7 @@ Circuit use will decrease in the following circumstances:
 | memory          | processing a disk in the Advanced Console                           |
 | randomiser      | getting a random destination in the Advanced Console                |
 | scanner         | pressing the Scanner button                                         |
+| telepathic      | searching for a cave, structure or biome travel location            |
 | temporal        | setting the time in the Temporal Locator GUI                        |
 
 ## Repair
@@ -55,6 +56,7 @@ circuits:
     memory: 20
     randomiser: 50
     scanner: 20
+    telepathic: 20
     temporal: 20
 ```
 

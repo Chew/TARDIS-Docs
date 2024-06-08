@@ -284,6 +284,7 @@ import TabItem from '@theme/TabItem';
 [SQLite -> MySQL conversion tool](sqlite-mysql-tool "Spigot")  
 [Storage Configuration](configuration/storage "Storage Configuration")  
 [Super Fertiliser](chemistry-lab/products#super-fertiliser "Super Fertiliser")  
+[System Upgrades](system-upgrades "System Upgrades")  
 
 </TabItem>
 <TabItem value="T" label="T">

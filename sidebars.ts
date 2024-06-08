@@ -143,6 +143,7 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
       },
       items: [
+        'system-upgrades',
         'control-menu',
         'save-sign',
         'chameleon-circuit',

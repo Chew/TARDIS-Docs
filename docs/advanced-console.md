@@ -6,9 +6,8 @@ title: Advanced Console
 # TARDIS Advanced Console
 
 For players who like a bit more complexity in their game play, the TARDIS has an
-Advanced Console feature. This in combination with the `medium` or `hard`
-difficulty mode, changes the way that all console features work. On `medium` or
-`hard` difficulty, you MUST use the Advanced Console, on `easy`, it is optional.
+Advanced Console feature. This in combination with the `difficulty.circuits` and `difficulty.disks`
+config options, changes the way that all console features work. If either of those settings is `true`, you MUST use the Advanced Console for the feature, if `false`, they are optional.
 
 The Advanced Console consists of multiple TARDIS components — the Advanced Console
 itself, the Disk Storage Container, plus various Storage Disks and Circuits.

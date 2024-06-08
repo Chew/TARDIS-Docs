@@ -1,0 +1,39 @@
+---
+layout: default
+title: Difficulty
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Difficulty
+
+TARDIS version 5.6.0 and below have only one difficulty setting - `preferences.difficulty: [easy|medium|hard]`.
+From version 5.7.0 and higher, difficulty is set per feature as shown below, allowing for finer control of which features you want to make harder or easier.
+
+## Configuration options
+
+The defaults are shown below:
+
+```yaml title="/plugins/TARDIS/config.yml"
+difficulty:
+  crafting: easy
+  circuits: false
+  disks: false
+  disk_in_hand_for_write: true
+  biome_reader: true
+  stattenheim_remote: false
+  tardis_locator: false
+  system_upgrades: false
+```
+
+<ConfigTable data={`
+difficulty:
+  crafting: easy # Sets the difficulty of TARDIS [/crafting](crafting) recipes.
+  circuits: false # Whether circuits are required to be in the [Advanced Console](/advanced-console) for various TARDIS features.
+  disks: false # Whether disks are needed in the [Advanced Console](/advanced-console) for travel instead of using commands.
+  disk_in_hand_for_write: true # Whether a save/player disk must be held in the players hand when using the \`/tardis save\` command - see [Writing Save and Player Disks](../writing-disks).
+  biome_reader: true # Whether the [TARDIS Biome Reader](/recipes/items/tardis-biome-reader) is loaded and Biome Disks saved to the Disk Storage. If \`true\` biome disks are checked for in storage when using the \`/tardistravel biome\` command.
+  stattenheim_remote: false # Whether the [Stattenheim Remote](/recipes/items/stattenheim-remote) must be used instead of the \`/tardis comehere\` command.
+  tardis_locator: false # Whether the [TARDIS Locator](/recipes/items/tardis-locator) must be used instead of the \`/tardis find\` command.
+  system_upgrades: false # Whether players need to upgrade their TARDIS before they can nuse various features - see [System Upgrades](/system-upgrades).
+`} />
