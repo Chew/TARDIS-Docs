@@ -383,13 +383,13 @@ For Spigot 1.12.2
     - Added new mobs
 - Added more biome adaptive presets
 - Added new Chameleon Circuit GUI —
-  see [http://eccentricdevotion.github.io/TARDIS/chameleon-circuit.html](http://eccentricdevotion.github.io/TARDIS/chameleon-circuit)
+  see [chameleon-circuit](https://tardis.pages.dev/chameleon-circuit)
 - Added the ability to archive a TARDIS console
     - `/tardis archive` command
     - TARDIS Archive GUI (can be accessed from the Desktop Theme GUI)
     - Added 3 different sized cobblestone template consoles
     -
-    See [http://eccentricdevotion.github.io/TARDIS/archive.html](http://eccentricdevotion.github.io/TARDIS/archive)
+    See [archive](https://tardis.pages.dev/archive)
 - Added room costs to the ARS GUI
 - Added a `/tardis construct [line] [text with colour codes]` command to set the text on the TARDIS’ exterior sign (when
   using the CONSTRUCT preset)
