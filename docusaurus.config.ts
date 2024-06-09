@@ -162,11 +162,11 @@ const config: Config = {
     }],
     // Cloudflare pages supports redirects!
     // @ts-ignore
-    () => ({
-      postBuild() {
-        buildRedirectsFile();
-      },
-    })
+//     () => ({
+//       postBuild() {
+//         buildRedirectsFile();
+//       },
+//     })
   ],
 };
 
