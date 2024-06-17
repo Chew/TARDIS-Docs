@@ -9,6 +9,10 @@ You can configure the TARDIS to display particle effects when the TARDIS materia
 
 The effects are customisable for shape, particle, density and speed -  the defaults are `Ash` particle, `Random` shape, `16` density, `0` speed and materialisation particles `OFF`.
 
+## Permission
+
+Players must have `tardis.particles` to enable materialisation particles.
+
 ## Particle GUI
 
 You can set particle options in the Particle Prefs GUI. Right-click AIR while sneaking with the sonic screwdriver to open the Player Pref Menu, then click the _Materialisation Particles_ button. 
