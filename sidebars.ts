@@ -133,7 +133,8 @@ const sidebars: SidebarsConfig = {
                 'custom-model-presets',
                 'adaptive-presets'
             ]
-        }
+        },
+        'materialisation-particles',
       ],
     },
     {

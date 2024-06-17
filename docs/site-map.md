@@ -200,6 +200,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="M" label="M">
 
 [Malfunction](malfunction "Malfunction")  
+[Materialisation Particles](materialisation-particles "Materialisation Particles")  
 [Mire](modules/weeping-angels#mire "Mire")  
 [Miscellaneous commands](commands/misc "Miscellaneous commands")  
 [Mob farming](farming "Mob farming")  
@@ -218,6 +219,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="P" label="P">
 
+[Particles](materialisation-particles "Materialisation Particles")  
 [Perception Filter](perception-filter "Perception Filter")  
 [Permissions](permissions-table "Permissions")  
 [PlaceholderAPI Placeholders](placeholders "PlaceholderAPI")  
