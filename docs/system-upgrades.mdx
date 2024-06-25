@@ -11,6 +11,8 @@ From version 5.7.0 and higher, you can restrict feature use using System Upgrade
 
 Upgrades are performed in the System Upgrades GUI where features can exchanged for Time Lord Artron Energy. Gaining Time Lord Artron Energy requires that players travel in their TARDIS and exit the door - the amount of energy accumulated each time they travel is set in [_artron.yml_](/configuration/energy#player).
 
+This is a progressive system where more advanced features can only be unlocked after the previous feature in a branch has been unlocked.
+
 ![System Upgrades GUI](/images/docs/system_upgrades_gui.png)
 
 :::tip
@@ -78,9 +80,9 @@ navigation:
   inter_dimensional_travel: 4000 # Cost for unlocking inter dimensional travel to the Nether or End - requires the _Distance 3_ upgrade.
   exterior_flight: 3000 # Cost for unlocking Exterior Flight - requires the _Inter Dimensional Travel_ upgrade.
 tools:
-  tardis_locator: 500 # Cost for using the TARDIS Locatoe and the \`/tardis find\` command - requires the _Tools_ branch upgrade.
-  biome_reader: 2000 # Cost for using the TARDIS bomke reader - requires the _TARDIS Locator_ upgrade.
-  force_field: 3000 # Cost for using the TARDIS force field - requires the _Biome Reader_ upgrade.
+  tardis_locator: 500 # Cost for using the TARDIS Locator and the \`/tardis find\` command - requires the _Tools_ branch upgrade.
+  biome_reader: 2000 # Cost for using the TARDIS Biome rReader - requires the _TARDIS Locator_ upgrade.
+  force_field: 3000 # Cost for using the TARDIS Force Field - requires the _Biome Reader_ upgrade.
   monitor: 2000 # Cost for using the TARDIS Monitor and external viewer - requires the _Force Field_ upgrade.
   stattenheim_remote: 4000 # Cost for using the Stattenheim Remote and \`/tardis comehere\` command - requires the _Force Field_ upgrade.
 `} />
