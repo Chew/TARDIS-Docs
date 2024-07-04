@@ -29,6 +29,11 @@ bring it to 100% (This item is configurable in the config file).
 You, as a time traveller, build up energy over time as you travel. To transfer
 it to the TARDIS, right-click the wood button while sneaking (SHIFT by default).
 
+The amount of energy accumulated each time you travel is set in [_artron.yml_](/configuration/energy#player).
+
+If [System Upgrades](system-upgrades) are enabled on the server, time lord energy
+is used to unlock more powerful TARDIS features for architecture, navigation, flight and tools.
+
 ### Checking how much energy you have
 
 If you right-click the wood button with any item that is **NOT** the TARDIS key,
