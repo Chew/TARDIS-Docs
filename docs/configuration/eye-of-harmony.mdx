@@ -1,0 +1,29 @@
+---
+layout: default
+title: Eye of Harmony configuration
+---
+
+import TabbedImage from "@site/src/components/TabbedImage";
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Eye of Harmony Configuration Options
+
+These are the Eye of Harmony configuration options.
+
+```yaml title="/plugins/TARDIS/config.yml"
+eye_of_harmony:
+  player_damage: true
+  damage_amount: 0.5
+  damage_period: 20
+  ossified: true
+  particles: true
+```
+
+<ConfigTable data={`
+eye_of_harmony:
+  player_damage: true # Whether players take damage when inside the room.
+  damage_amount: 0.5 # How much damage the player takes each \`damage_period\` - a value of 1.0 would be half a heart.
+  damage_period: 20 # How often player's take damage when they remain inside the room - specified in ticks - \`20\` ticks = \`1\` second.
+  ossified: true # Whether Time Zombies spawn when a player dies in the room.
+  particles: true # Whether animated particles appear around the captured star.
+`} />

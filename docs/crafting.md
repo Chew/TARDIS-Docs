@@ -94,6 +94,8 @@ import TabItem from '@theme/TabItem';
 <TabItem value="items" label="Items">
 
 [Artron Furnace](recipes/items/tardis-artron-furnace)  
+[Artron Capacitor](recipes/items/artron-capacitor)  
+[Artron Capacitor Storage](recipes/items/artron-capacitor-storage)  
 [Artron Storage Cell](recipes/items/artron-storage-cell)  
 [Biome Reader](recipes/items/tardis-biome-reader)  
 [Key](recipes/items/tardis-key)  

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Eye of Harmony Room
+---
+
+import TabbedImage from "@site/src/components/TabbedImage";
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Eye of Harmony Room
+
+The Eye of Harmony Room is the location of the TARDISʼs captured star. The star is in the act of becoming a black hole, allowing the TARDIS to harness the potential energy of a collapse that will never occur.
+
+The main purpose of the room is to increase the Artron Storage capacity of the TARDIS.
+
+<TabbedImage name={"Eye of Harmony"} description={""} folder={"rooms"} image={"eye.jpg"} heading={false} />
+
+## Creation
+
+You can grow the EYE room using the [Architectural Reconfiguration System](/ars).
+
+## Features
+
+The Eye of Harmony Room has several features, including:
+
+- Custom biome with ambient particles.
+- Burning star particle effects.
+- Its proximity to an exploding star makes it a harmful environment - see configuration options below.
+- Ossified Time Zombies may spawn in the room.
+- Allows you to increase the Artron Energy storage capacity by adding [Artron Capacitors](/artron-capacitor).
+
+## Configuration
+
+```yaml title="/plugins/TARDIS/config.yml"
+eye_of_harmony:
+  player_damage: true
+  damage_amount: 0.5
+  damage_period: 20
+  ossified: true
+  particles: true
+```
+
+<ConfigTable data={`
+eye_of_harmony:
+  player_damage: true # Whether players take damage when inside the room.
+  damage_amount: 0.5 # How much damage the player takes each \`damage_period\` - a value of 1.0 would be half a heart.
+  damage_period: 20 # How often player's take damage when they remain inside the room - specified in ticks - \`20\` ticks = \`1\` second.
+  ossified: true # Whether Time Zombies spawn when a player dies in the room.
+  particles: true # Whether animated particles appear around the captured star.
+`} />

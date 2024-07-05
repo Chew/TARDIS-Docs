@@ -61,6 +61,7 @@ const sidebars: SidebarsConfig = {
           },
           items: [
             'condenser',
+            'artron-capacitor',
             'artron-cells',
             'condensables',
           ]
@@ -112,6 +113,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'rooms/gallery',
             'rooms/custom',
+            'rooms/eye',
             'rooms/garden',
             'rooms/gravity-wells',
             'rooms/rail',
@@ -342,6 +344,8 @@ const sidebars: SidebarsConfig = {
           label: 'Items',
           items: [
             'recipes/items/tardis-artron-furnace',
+            'recipes/items/artron-capacitor',
+            'recipes/items/artron-capacitor-storage',
             'recipes/items/artron-storage-cell',
             'recipes/items/tardis-biome-reader',
             'recipes/items/tardis-key',

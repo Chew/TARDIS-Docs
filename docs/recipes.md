@@ -5,6 +5,14 @@ title: Recipes
 
 # Recipes
 
+:::warning
+
+### `@deprecated`
+
+Since TARDIS version 5.4.0 recipes are no longer configurable.
+
+:::
+
 Each of the TARDIS items has a configurable recipe. There are both shaped and shapeless recipes — generally the
 shapeless ones are used when turning (or upgrading) one TARDIS item into another.
 

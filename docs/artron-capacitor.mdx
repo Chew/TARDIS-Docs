@@ -1,0 +1,51 @@
+---
+layout: default
+title: Artron Capacitor
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+import Recipe from "@site/src/components/Recipe";
+
+# Artron Capacitor
+
+Artron Capacitors are used to increase the amount of energy a TARDIS can store. Capacitors are stored in the Artron Capacitor Storage block found in the [Eye of Harmony](/rooms/eye) room. Every TARDIS comes with one Artron Capacitor installed when first grown.
+
+![Artron Capacitor](/images/docs/artron_capacitor.png)
+
+For each capacitor stored, the energy capacity is increased by 100%, up to 500% of the `full_charge` amount specified in _artron.yml_. With the default setting of `5000` this allows you to overcharge the TARDIS up to `25,000`. By comparison the highest desktop theme upgrade cost is by default `20,000`.
+
+Capacitors can be damaged by TARDIS malfunction events. For each damaged capacitor the TARDIS energy capacity is reduced by half the `full_charge` amount.
+
+Damaged capactiors can be repaired in a [smithing table](https://minecraft.wiki/w/Smithing_Table) with redstone and copper ingots.
+
+![Damaged Artron Capacitor](/images/docs/artron_capacitor_damaged.png)
+
+## Crafting
+
+`/trecipe artron-capacitor`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Repeater](https://minecraft.wiki/w/Repeater)<br/>[Redstone](https://minecraft.wiki/w/Redstone_Dust)<br/>[Comparator](https://minecraft.wiki/w/Comparator)<br/>[Artron Storage Cell](/recipes/items/artron-storage-cell)<br/>[Copper Ingot](https://minecraft.wiki/w/Copper_Ingot) | <Recipe icons={['copper-ingot','copper-ingot','copper-ingot','artron-storage-cell','artron-storage-cell','artron-storage-cell','repeater','redstone','comparator','artron-capacitor']} /> | easy |
+| [Repeater](https://minecraft.wiki/w/Repeater)<br/>[Redstone Block](https://minecraft.wiki/w/Redstone_Block)<br/>[Comparator](https://minecraft.wiki/w/Comparator)<br/>[Artron Storage Cell](/recipes/items/artron-storage-cell)<br/>[Copper Block](https://minecraft.wiki/w/Copper_Block) | <Recipe icons={['copper-block','copper-block','copper-block','artron-storage-cell','artron-storage-cell','artron-storage-cell','repeater','redstone-block','comparator','artron-capacitor']} /> | hard |
+
+
+## Storage
+
+Artron Capacitors should be stored in the [Eye of Harmony](/rooms/eye) room. Next to the door at the end of the walkway is the [Artron Capacitor Storage](/recipes/items/artron-capacitor-storage) block.
+
+![Artron Capacitor Storage](/images/docs/eye_storage.png)
+
+To increase the Artron Energy storage capacity, place up to 5 Artron Capacitors in the middle slots.
+
+![Artron Capacitor Storage](/images/docs/artron-capacitor-storage.jpg)
+
+## Configuration
+
+```yaml title="/plugins/TARDIS/artron.yml"
+malfunction_damage: 15
+```
+
+<ConfigTable data={`
+malfunction_damage: 15 # The percentage chance an Artron Capacitor will be damaged in the event of a TARDIS malfunction.
+`} />
