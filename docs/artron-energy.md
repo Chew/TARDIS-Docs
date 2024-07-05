@@ -109,6 +109,8 @@ Some functions of the TARDIS, for example using the Desktop Theme GUI require
 that the Artron Energy Capacitor be charged more than the maximum amount. To do
 this you will need to condense extra blocks and items, or use Artron Storage Cells.
 
+As of TARDIS v5.7.0 there is a feature that limits the amount you can overcharge your TARDIS. To increase your TARDIS's energy capacity, you need to grow an [Eye of Harmony](/rooms/eye) room and stock it with [Artron Capacitors](/artron-capacitor). Each Artron Capacitor added increases the capacity by 100% up a maximum of 500%.
+
 ## Video
 
 <iframe src="https://player.vimeo.com/video/57842293" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
