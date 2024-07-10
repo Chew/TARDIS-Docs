@@ -96,6 +96,10 @@ artron_furnace:
   burn_time: 0.5
   cook_time: 0.5
   particles: true
+  tardis_powered: true
+  power_drain: 200
+  power_cycle: 400
+  power_limit: 4
 # Sonic Generator costs (as a percentage of full charge)
 sonic_generator:
   standard: 10
@@ -189,6 +193,10 @@ artron_furnace:
     burn_time: 0.5 # Sets the length of time an Artron Storage Cell will burn for — as above fractions (\`0.5\`) will give shorter life to the cells, > 1 will extend the burn time, \`1.0\` = normal burn time (same as coal)
     burn_limit: 100000 # Sets the maximum amount of burn time a fully charged Artron Storage Cell can have.
     particle: true # Sets whether the Artron Furnace block displays particles.
+    tardis_powered: true # Whether you can power furnaces with TARDIS energy.
+    power_drain: 200 # How much Artron is used per cycle.
+    power_cycle: 400 # How often the furnace is fueled (in ticks).
+    power_limit: 4 # Maximum number of powered furnaces per TARDIS.
 sonic_generator:
     standard: 10
     bio: 10
