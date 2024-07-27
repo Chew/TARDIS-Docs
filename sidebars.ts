@@ -186,6 +186,7 @@ const sidebars: SidebarsConfig = {
         'junk-tardis',
         'food',
         'accessories',
+        'skins',
         'scanner',
         'farming',
         'hads',
