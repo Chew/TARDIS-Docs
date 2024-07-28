@@ -1,0 +1,83 @@
+---
+layout: default
+title: Regeneration
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Regeneration
+
+![Regeneration](/images/skins/regeneration.png)
+
+## Enabling the module
+
+To use the Regeneration module, it must be enabled in the TARDIS config.
+
+- Type `/tardisconfig regeneration [true|false]` to enable or disable the feature.
+- A server restart is required when changing the config value.
+
+The Regeneration models and textures are part of the [TARDIS-Resource-Pack](/resource-packs).
+
+## Permissions
+
+Players require the `tardis.refgeneration` permission in order to be able to regenerate.
+
+## Triggering a regeneration
+
+Regenerations occur when a player dies. Instead of dying the player will assume a regeneration pose with particle effects.
+- While the player is regenerating, they cannot be hurt.
+- Their skin changes to the Doctor associated with the number of 
+regenerations the player has used - _i.e. if this is the player's first regeneration their skill will change to the first 
+Doctor's skin_.
+- The skin will remain in effect for 90 seconds.
+- If configured the player regains full health and food.
+- The player may also receive positive (regeneration, slow falling) and negative (mining fatigue, slowness, weakness) potion effects.
+- By default, a player has a maximum of 15 regenerations.
+
+## Elixir of Life
+
+The Elixir of Life can be used to trigger a regeneration at any time. To do this, drink the elixir.
+
+![Elixir of Life](/images/skins/elixir_of_life.png)
+
+## Getting more regenerations
+
+Don't know what this will be yet...
+
+## Configuration options
+
+```yaml title="/plugins/TARDIS/config.yml"
+modules:
+  regeneration: false
+```
+
+<ConfigTable name={"/plugins/TARDIS/config.yml"} data={`
+modules:
+  regeneration: false # Sets whether to enable the Regeneration module.
+`} />
+
+```yaml title="/plugins/TARDIS/regeneration.yml"
+regenerations: 15
+restore:
+  health: true
+  food: true
+artron:
+  consume: true
+  amount: 1000
+effects:
+  positive: true
+  negative: true
+```
+
+<ConfigTable name={"/plugins/TARDIS/config.yml"} data={`
+regenerations: 15 # The number of times a player can regenerate.
+restore:
+  health: true # Whether the player regains full health.
+  food: true # Whether the player regains full food.
+artron:
+  consume: true # Whether regenerations use stored time lord energy.
+  amount: 1000 # How much Artron energy to consume each regeneration.
+effects:
+  positive: true # Whether to apply positive effects (regeneration, slow falling) after regeneration.
+  negative: true # Whether to apply negative effects (mining fatigue, slowness, weakness) after regeneration.
+`} />

@@ -5,7 +5,7 @@ title: Skins
 
 # Skins
 
-Skins can be accessed from the [TARDIS television](television). Right-click the television to open the skin category menu. You can choose from Doctors, Companions, Characters and Monsters.
+Skins can be accessed from the [TARDIS Television](television). Right-click the television to open the skin category menu. You can choose from Doctors, Companions, Characters and Monsters.
 
 ![TARDIS Television GUI](/images/skins/tv_gui.jpg)
 
@@ -69,8 +69,17 @@ To download a skin and use it as your regular skin, click the _Download_ button.
 | ![Angel of Liberty](/images/skins/angel_of_liberty.png)<br/>Angel of Liberty | ![Clockwork Droid](/images/skins/clockwork_droid_male.png)<br/>Clockwork Droid | ![Clockwork Droid](/images/skins/clockwork_droid_female.png)<br/>Clockwork Droid | ![Cyberman](/images/skins/cyberman.png)<br/>Cyberman |
 | ![Cybershade](/images/skins/cybershade.png)<br/>Cybershade | ![Empty Child](/images/skins/empty_child.png)<br/>Empty Child | ![Headless Monk](/images/skins/headless_monk.png)<br/>Headless Monk | ![Ice Warrior](/images/skins/ice_warrior.png)<br/>Ice Warrior |
 | ![Mire](/images/skins/mire.png)<br/>Mire |  ![Omega](/images/skins/omega.png)<br/>Omega | ![Ossified](/images/skins/ossified.png)<br/>Ossified Time Zombie | ![Racnoss](/images/skins/racnoss.png)<br/>Racnoss |
-| ![Scarecrow](/images/skins/scarecrow.png)<br/>Twelfth | ![Sea Devil](/images/skins/sea_devil.png)<br/>Sea Devil | ![Silence](/images/skins/silence.png)<br/>Silence | ![Silurian](/images/skins/silurian.png)<br/>Silurian |
+| ![Scarecrow](/images/skins/scarecrow.png)<br/>Scarecrow | ![Sea Devil](/images/skins/sea_devil.png)<br/>Sea Devil | ![Silence](/images/skins/silence.png)<br/>Silence | ![Silurian](/images/skins/silurian.png)<br/>Silurian |
 | ![Slitheen](/images/skins/slitheen.png)<br/>Slitheen | ![Smiler](/images/skins/smiler.png)<br/>Smiler | ![Sontaran](/images/skins/sontaran.png)<br/>Sontaran | ![Sutekh](/images/skins/sutekh.png)<br/>Sutekh |
 | ![Sycorax](/images/skins/sycorax.png)<br/>Sycorax | ![The Beast](/images/skins/the_beast.png)<br/>The Beast | ![Vampire of Venice](/images/skins/vampire_of_venice.png)<br/>Vampire of Venice | ![Vashta Nerada](/images/skins/vashta_nerada.png)<br/>Vashta Nerada |
 | ![Weeping Angel](/images/skins/weeping_angel.png)<br/>Weeping Angel | ![Zygon](/images/skins/zygon.png)<br/>Zygon |   |   |
 
+## GUIs
+
+![Skin GUI](/images/skins/doctors_skin_gui.png)
+
+![Skin GUI](/images/skins/companions_skin_gui.png)
+
+![Skin GUI](/images/skins/characters_skin_gui.png)
+
+![Skin GUI](/images/skins/skin_gui.jpg)

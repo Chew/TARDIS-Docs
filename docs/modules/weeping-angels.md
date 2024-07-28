@@ -24,8 +24,7 @@ To use the Weeping Angels module, it must be enabled in the TARDIS config.
 - Type `/tardisconfig weeping_angels [true|false]` to enable or disable the feature.
 - A server restart is required when changing the config value.
 
-The TARDISWeepingAngel models and textures are part of
-the [TARDIS-Resource-Pack](/resource-packs)
+The TARDISWeepingAngel models and textures are part of the [TARDIS-Resource-Pack](/resource-packs).
 
 ## Requirements
 
