@@ -32,6 +32,12 @@ angels:
     enabled: true
     chance: 50
     distance_from_player: 10
+clockwork_droids:
+  worlds:
+    world: 10
+  drops:
+    - IRON_NUGGET
+    - LEATHER
 cybermen:
   worlds:
     world: 10
@@ -99,12 +105,23 @@ ood:
     - NAME_TAG
   spawn_from_villager: 20
   spawn_from_cured: 5
+ossified:
+  drops:
+    - CHARCOAL
+    - FIREWORK_STAR
+    - DEAD_BRAIN_CORAL
 racnoss:
   worlds:
     world_nether: 5
   drops:
     - NETHERITE_INGOT
     - ECHO_SHARD
+scarecrows:
+  worlds:
+    world: 10
+  drops:
+    - WHEAT
+    - STRING
 sea_devils:
   worlds:
     world: 10
@@ -136,6 +153,12 @@ sontarans:
     - POTATO
     - POISONOUS_POTATO
   can_tame: true
+sycorax:
+  worlds:
+    world: 10
+  drops:
+    - BONE_MEAL
+    - SALMON
 the_mire:
   worlds:
     world: 10
