@@ -38,6 +38,7 @@ the [TARDIS-Resource-Pack](/resource-packs)
 ## Monsters
 
 * [Weeping Angels](#weeping-angels-1)
+* [Clockwork Droids](#clockwork-droids)
 * [Cybermen](#cybermen)
 * [Daleks](#daleks)
 * [Empty Children](#empty-children)
@@ -50,11 +51,13 @@ the [TARDIS-Resource-Pack](/resource-packs)
 * [Ood](#ood)
 * [Racnoss](#racnoss)
 * [Sea Devils](#sea-devils)
+* [Scarecrow](#scarecrow)
 * [Silent](#silent)
 * [Silurians](#silurians)
 * [Slitheen](#slitheen)
 * [Sontarans](#sontarans)
 * [Strax](#strax)
+* [Sycorax](#sycorax)
 * [Toclafane](#toclafane)
 * [Vashta Nerada](#vashta-nerada)
 * [Zygons](#zygons)
@@ -101,6 +104,14 @@ Random teleport locations can be specified by world, or you can set specific loc
     * To replace all previously stored locations, repeat the above step, but use the `/twa teleport replace` command.
     * To toggle between random world and specific location teleporting use the command `/twa teleport [true|false]` -
       where `true` is for specific locations.
+
+### Clockwork Droids
+
+Tick tock.
+
+![Clockwork Droid](/images/docs/clockwork_droid.jpg)
+
+![Clockwork Droid](/images/docs/clockwork_droid_female.jpg)
 
 ### Cybermen
 
@@ -209,11 +220,23 @@ Ood spawn randomly around villagers. Left-click an Ood to claim it as your own (
 
 ![Ood](/images/docs/ood.jpg)
 
+### Ossified Time Zombies
+
+These appear if you die in the Eye of Harmony room.
+
+![Ossified Time Zombie](/images/docs/ossified.jpg)
+
 ### Racnoss
 
 Racnoss spawn randomly in the Nether.
 
 ![Racnoss](/images/docs/racnoss.jpg)
+
+### Scarecrow
+
+The Family of Blood’s animated henchmen.
+
+![Scarecrow](/images/docs/scarecrow.jpg)
 
 ### Sea Devils
 
@@ -255,6 +278,12 @@ Yum, yum Sontaran lactic fluid :) Be careful not to anger him though as he’ll 
 Sontaran instincts get the better of him!
 
 ![Strax](/images/docs/strax.jpg)
+
+### Sycorax
+
+Snarling space gangsters who smell like herrings!
+
+![Sea Devil](/images/docs/sycorax.jpg)
 
 ### Toclafane
 
