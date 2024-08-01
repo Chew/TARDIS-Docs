@@ -62,6 +62,7 @@ import TabItem from '@theme/TabItem';
 [Roundel](/recipes/custom-blocks/roundel)  
 [Roundel Offset](/recipes/custom-blocks/roundel-offset)  
 [The Moment](/recipes/custom-blocks/the-moment)  
+[Untempered Schism](/recipes/custom-blocks/untempered-schism)  
 [Door](/recipes/custom-blocks/door)  
 [Classic Door](/recipes/custom-blocks/classic-door)  
 [Light Classic](/recipes/custom-blocks/light-classic)  

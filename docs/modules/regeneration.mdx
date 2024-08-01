@@ -4,6 +4,8 @@ title: Regeneration
 ---
 
 import ConfigTable from "@site/src/components/ConfigTable";
+import Recipe from "@site/src/components/Recipe";
+import CommandTable from "@site/src/components/CommandTable";
 
 # Regeneration
 
@@ -42,7 +44,57 @@ The Elixir of Life can be used to trigger a regeneration at any time. To do this
 
 ## Getting more regenerations
 
-Don't know what this will be yet...
+If you have used up all your regenerations, you can craft and place the [Untempered Schism](/recipes/custom-blocks/untempered-schism). Walking into the Untempered Schism triggers your proto-Time Lord DNA to reset and allow another series of regenerations.
+
+![Untempered Schism](/images/docs/untempered_schism.png)
+
+You can only reset regenerations if you have used up all of your existing ones.
+
+The crafting recipe for the Untempered Schism is expensive, especially on _hard_ crafting difficulty.
+
+`/trecipe untempered-schism`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Totem Of Undying](https://minecraft.wiki/w/Totem_of_Undying)<br/>[Netherite Ingot](https://minecraft.wiki/w/Netherite_Ingot) | <Recipe icons={['netherite-ingot','netherite-ingot','netherite-ingot','netherite-ingot','totem-of-undying','netherite-ingot','netherite-ingot','netherite-ingot','netherite-ingot','untempered-schism']} /> | easy |
+| [Totem Of Undying](https://minecraft.wiki/w/Totem_of_Undying)<br/>[Echo Shard](https://minecraft.wiki/w/Echo_Shard)<br/>[Golden Apple](https://minecraft.wiki/w/Golden_Apple)<br/>[Heart of the Sea](https://minecraft.wiki/w/Heart_of_the_Sea)<br/>[Netherite Block](https://minecraft.wiki/w/Netherite_Block) | <Recipe icons={['netherite-block','heart-of-the-sea','netherite-block','echo-shard','totem-of-undying','echo-shard','netherite-block','golden-apple','netherite-block','untempered-schism']} /> | hard |
+
+## Commands
+
+There is one regeneration command with a player argument and two admin arguments.
+
+### `/tardisregeneration`
+
+<CommandTable data={
+    `tardisregeneration:
+    aliases: [tregeneration, regeneration]
+    description: Add, remove and block regenerations.
+    admin usage: /<command> [add|remove] [player] [amount]
+    admin permission: tardis.admin
+    player usage: /<command> [block] [on|off]
+    player permission: tardis.regeneration
+    permission-message: You don't have the permission <permission> to use this command
+    `
+}
+args={
+    `
+    add:
+      description: Give regenerations to a player.
+      usage: /<command> add [player] [amount]
+      permission: tardis.admin
+    remove:
+      description: Remove regenerations from a player.
+      usage: /<command> remove [player] [amount]
+      permission: tardis.admin
+    block:
+      description: Block regenerations from occuring.
+      usage: /<command> block [on|off]
+      permission: tardis.regeneration
+    `
+}
+extra='false'
+>
+</CommandTable>
 
 ## Configuration options
 

@@ -328,6 +328,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="U" label="U">
 
 [Universal Translator](translator "Universal Translator")  
+[Untempered Schism](recipes/custom-blocks/untempered-schism "Untempered Schism")  
 [Updateable blocks](update-blocks "Updateable blocks")  
 [Updating to version 5](updating-to-unified-plugin "Updating to version 5")  
 [Upgrades](desktop-theme "Upgrades")  
