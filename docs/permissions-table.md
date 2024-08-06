@@ -185,6 +185,7 @@ title: Big list of permissions
     <tr class="child"><td rowspan="31"> &nbsp; &mdash; children of <code>tardis.console.\*</code></td><td colspan="2"><code>tardis.ancient</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.ars</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.bigger</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.bone</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.cave</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.copper</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.cursed</code></td><td>true</td></tr>
@@ -209,6 +210,7 @@ title: Big list of permissions
     <tr class="child"><td colspan="2"><code>tardis.pyramid</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.redstone</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.rotor</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.rustic</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.steampunk</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.thirteenth</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.tom</code></td><td>true</td></tr>

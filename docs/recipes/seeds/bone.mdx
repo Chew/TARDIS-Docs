@@ -1,0 +1,45 @@
+---
+layout: default
+title: Bone
+---
+
+import Recipe from "@site/src/components/Recipe";
+
+Bone
+===================
+
+The Bone console seed block 
+
+## Crafting
+
+`/trecipe bone`
+
+| Ingredients | Crafting recipe |
+| ----------- | --------------- |
+| [Waxed Oxidized Cut Copper](https://minecraft.wiki/w/Cut_Copper)<br/>[Redstone Torch](https://minecraft.wiki/w/Redstone_Torch)<br/>[Lapis Block](https://minecraft.wiki/w/Lapis_Block)<br/>[Wall or Floor Block](/walls) | <Recipe icons={['redstone-torch','air','air','lapis-block','air','wall-block','iron-block','air','floor-block','bone-seed']} /> |
+
+## Configuration
+
+Depending on the plugin configuration (`creation.seed_block.legacy: false`) and the server/world difficulty, the [Redstone Torch](https://minecraft.wiki/w/Redstone_Torch) Torch item may be replaced by:
+
+- `peaceful` / `easy` difficulty: no change - [Redstone Torch](https://minecraft.wiki/w/Redstone_Torch)
+- `normal` difficulty: [Soul Lantern](https://minecraft.wiki/w/Soul_Lantern)
+- `hard` / `hardcore`: [Dragon Breath](https://minecraft.wiki/w/Dragon_Breath)
+
+:::tip
+
+The above are the defaults for the difficulty level, but the configuration can be set by the server admin using the commands:
+
+```
+/tconfig seed_block.easy [Material]
+/tconfig seed_block.normal [Material]
+/tconfig seed_block.hard [Material]
+```
+
+To keep the the [Redstone Torch](https://minecraft.wiki/w/Redstone_Torch) Torch item as a Redstone Torch regardless of the server/world difficulty, set `creation.seed_block.legacy` to `true` in the config.
+
+```
+/tconfig seed_block.legacy true
+```
+
+:::

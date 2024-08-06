@@ -75,6 +75,7 @@ In order to be able to create a ‘bigger’, ‘deluxe’, ‘eleventh’, ‘t
 tardis.ancient
 tardis.ars
 tardis.bigger
+tardis.bone
 tardis.cave
 tardis.copper
 tardis.coral
@@ -95,6 +96,7 @@ tardis.plank
 tardis.pyramid
 tardis.redstone
 tardis.rotor
+tardis.rustic
 tardis.steampunk
 tardis.thirteenth
 tardis.tom
