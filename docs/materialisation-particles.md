@@ -118,6 +118,18 @@ You can set particle options in the Particle Prefs GUI. Right-click AIR while sn
       <td class="indent1">`Snowy`</td><td>_Item snowball_ - Produced when thrown snowballs break.</td>
   </tr>
   <tr>
+    <td colspan="2">**Colour**</td>
+  </tr>
+  <tr>
+    <td>![Colour info](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/particle/colour_info.png?raw=true)</td><td>_Set the colour of the particle effect_ - only applies to `Dust` and `Effect` particles - choose an option underneath this icon.</td>
+  </tr>
+  <tr>
+    <td colspan="2">**Block**</td>
+  </tr>
+  <tr>
+    <td>![Block info](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/particle/block_info.png?raw=true)</td><td>_Set the block type used by the Block the particle effect_ - only applies to `Block` particles - choose an option underneath this icon.</td>
+  </tr>
+  <tr>
     <td colspan="2">**Density**</td>
   </tr>
   <tr>
