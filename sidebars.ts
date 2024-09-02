@@ -535,6 +535,7 @@ const sidebars: SidebarsConfig = {
         'rooms-and-economies',
         'time-vortex',
         'wiki-sign',
+        'debug-preview',
         'prune',
         'api',
         'update-blocks',

@@ -7,6 +7,12 @@ title: Resource Packs
 
 The resource packs for the TARDIS plugin give the TARDIS items, GUIs and chameleon presets a Whovian look. Most items are _NOT built for the vanilla art style_ and are designed to match the plugin author's [own resource pack](https://github.com/eccentricdevotion/Bromley-Massive-Vector), so may not be to everyone's taste. Feel free to make your own textures and models to suit your own style of gameplay - “[A more ‘Vanilla’ experience](#a-more-vanilla-experience)” below.
 
+:::tip
+
+If you have modified or are creating your own TARDIS resource pack, you can use the [resource pack preview area](debug-preview) to debug your textures and models.
+
+:::
+
 ## Textures and sounds
 
 Use the TARDIS-Resource-Pack found here:

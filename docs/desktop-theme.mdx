@@ -48,6 +48,20 @@ To open the desktop theme GUI using a command type one of the following:
    safe location).
 7. Watch in amazement as the TARDIS changes before your eyes.
 
+:::tip 
+
+### Desktop previews
+
+_This feature is available if the server is configured with `desktop.previews: true`._
+
+If you want to see what the desktop theme interior looks like, you can _shift-left_ click the TARDIS type button to be transmatted to a desktop preview.
+
+You gamemode will be changed to _Adventure_ while you are viewing the interior.
+
+Open chat and type `done` to return to your TARDIS.
+
+:::
+
 ![TARDIS Wall Menu](/images/docs/wall_menu.jpg)
 
 ## Archiving, repairing and cleaning
@@ -56,7 +70,8 @@ THe TARDIS Upgrade GUI also contains three other buttons to aid keeping your con
 
 | Button     | Icon                                                                                                                            | Action                                                                                                                                                                                                                                                          |
 |------------|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Archive    | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/archive.png) | Use this to save a copy of a modified console - see the [Archiving consoles](archive) page for more details.                                                                                                                                               |
+| Info       | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/info.png)          | View information on viewing a theme's interior preview.                                                                                                                                                                                                         |
+| Archive    | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/archive.png) | Use this to save a copy of a modified console - see the [Archiving consoles](archive) page for more details.                                                                                                                                                    |
 | Repair     | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/repair.png)  | Use this to repair a damaged console. It resets the console back to the original console schematic. Players must condense all missing blocks - unless the `/tardisadmin repair [player] [amount]` command has been run, assigning the player a 'free' repair(s) |
 | Clean      | ![size](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/theme/clean.png)   | Use this to remove any blocks in the console that are not in the original schematic (missing blocks will not be restored) - good if someone has griefed your interior by filling it with cobwebs.                                                               |
 
@@ -66,6 +81,7 @@ THe TARDIS Upgrade GUI also contains three other buttons to aid keeping your con
 desktop:
   check_blocks_before_upgrade: false
   block_change_percent: 25
+  previews: false
 ```
 
 <ConfigTable name="/plugins/TARDIS/config.yml" data={
@@ -73,6 +89,7 @@ desktop:
     desktop:
       check_blocks_before_upgrade: false # Sets whether to compare the amount of block changes before allowing an upgrade.
       block_change_percent: 25 # Sets the maximum percentage of block change compared to the original schematic.
+      previews: false # Sets whether desktop theme previews are created and available for players to view.
     `
 } />
 
