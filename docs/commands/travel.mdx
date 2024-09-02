@@ -89,11 +89,19 @@ To travel to specific coordinates, type:
 ```
 /tardistravel [world] [x] [y] [z]
 ```
+:::note Ground Height
 
-| Usage                                    | Description                                                             |
-|------------------------------------------|-------------------------------------------------------------------------|
-| `/tardistravel New_New_York -319 64 277` | to travel to coordinates in the _specified world_                       |
-| `/tardistravel ~ -319 64 277`            | to travel to coordinates in the _world that the TARDIS is currently in_ |
+You can leave out the 'y' level co-ordinate to have the TARDIS try to guess where the ground height is and land on it.    
+It uses the highest 'y' value of a non-air block, above which there is only air, as the basis of this guess.     
+This is not guaranteed to place the TARDIS in a safe position though (eg: Might be on a cliff with the door facing the edge)
+
+::
+
+| Usage                                    | Description                                                                            |
+|------------------------------------------|----------------------------------------------------------------------------------------|
+| `/tardistravel New_New_York -319 64 277` | to travel to coordinates in the _specified world_                                      |
+| `/tardistravel New_New_York -319 277`    | to travel to 'ground level' at the the horizontal coordinates in the _specified world_ |
+| `/tardistravel ~ -319 64 277`            | to travel to coordinates in the _world that the TARDIS is currently in_                |
 
 ```
 /tardistravel ~[x] ~[y] ~[z]
