@@ -78,6 +78,7 @@ import TabItem from '@theme/TabItem';
 [Circuits](advanced-console#circuit-types "Circuits")  
 [Commands](commands "Commands")  
 [Companions](companions "Companions")  
+[Computer](chemistry-lab/electron-microscope#computer "Computer")  
 [Condensable items](condensables "Condensable items")  
 [Condenser](condenser "Condenser")  
 [Console](console "Console")  
@@ -119,6 +120,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="E" label="E">
 
 [Eject command](commands/tardis#tardis-eject "Eject command")  
+[Electron Microscope](chemistry-lab/electron-microscope "Electron Microscope")  
 [Elements](chemistry-lab/elements "Elements")  
 [Emergency Program One](emergency-program-one "Emergency Program One")  
 [Emergency stop](faqs#handbrake "Emergency stop")  
@@ -131,6 +133,7 @@ import TabItem from '@theme/TabItem';
 
 [FAQs](faqs "FAQs")  
 [Feature requests](issues "Request a new feature")  
+[Filing Cabinet](chemistry-lab/telescope#filing-cabinet "Filing Cabinet")  
 [Fish fingers](food#fish-fingers "Fish fingers")  
 [Flight modes](flight-modes "Flight modes")  
 [Floor materials](walls "Floor materials")  
@@ -204,6 +207,7 @@ import TabItem from '@theme/TabItem';
 
 [Malfunction](malfunction "Malfunction")  
 [Materialisation Particles](materialisation-particles "Materialisation Particles")  
+[Microscope](chemistry-lab/microscope "Microscope")  
 [Mire](modules/weeping-angels#mire "Mire")  
 [Miscellaneous commands](commands/misc "Miscellaneous commands")  
 [Mob farming](farming "Mob farming")  
@@ -276,6 +280,7 @@ import TabItem from '@theme/TabItem';
 [Silent](modules/weeping-angels#silent "Silent")  
 [Skaro](planets#planet-skaro "Skaro")  
 [Skins](skins "Skins")  
+[Slide Rack](chemistry-lab/microscope#slide-rack "Slide Rack")  
 [Slitheen](modules/weeping-angels#slitheen "Slitheen")  
 [Smelter](/rooms/smelter "Smelter")  
 [Sonic Blaster](modules/sonic-blaster "Sonic Blaster")  
@@ -312,6 +317,7 @@ import TabItem from '@theme/TabItem';
 [TARDIS Types](creating-a-tardis#tardis-types "TARDIS Types")  
 [/tardisdev commands](commands/dev "Dev commands")  
 [/tardisworld commands](world-management "World commands")  
+[Telescope](chemistry-lab/telescope "Telescope")  
 [Temporal Locator](temporal-locator "Temporal Locator")  
 [Texture Commands](commands/texture "Texture Commands")  
 [The TARDIS door](enter-and-exit "The TARDIS door")  

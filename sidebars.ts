@@ -241,6 +241,9 @@ const sidebars: SidebarsConfig = {
             'chemistry-lab/compounds',
             'chemistry-lab/elements',
             'chemistry-lab/material-reductions',
+            'chemistry-lab/microscope',
+            'chemistry-lab/electron-microscope',
+            'chemistry-lab/telescope',
           ]
         }
       ],
@@ -298,6 +301,12 @@ const sidebars: SidebarsConfig = {
             'recipes/chemistry/ice-bomb',
             'recipes/chemistry/bleach',
             'recipes/chemistry/super-fertiliser',
+            'recipes/chemistry/microscope',
+            'recipes/chemistry/slide-rack',
+            'recipes/chemistry/electron-microscope',
+            'recipes/chemistry/filing-cabinet',
+            'recipes/chemistry/telescope',
+            'recipes/chemistry/computer-monitor',
           ]
         },
         {

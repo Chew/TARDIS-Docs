@@ -37,6 +37,12 @@ import TabItem from '@theme/TabItem';
 [Ice Bomb](/recipes/chemistry/ice-bomb)  
 [Bleach](/recipes/chemistry/bleach)  
 [Super Fertiliser](/recipes/chemistry/super-fertiliser)  
+[Microscope](/recipes/chemistry/microscope)  
+[Slide Rack](/recipes/chemistry/slide-rack)  
+[Electron Microscope](/recipes/chemistry/electron-microscope)  
+[Filing Cabinet](/recipes/chemistry/filing-cabinet)  
+[Telescope](/recipes/chemistry/telescope)  
+[Computer Monitor](/recipes/chemistry/computer-monitor)  
 
 </TabItem>
 <TabItem value="console-circuits" label="Console Circuits">
