@@ -33,10 +33,12 @@ planets:
     gamerules:
       doWeatherCycle: false
       doDaylightCycle: false
-    keep_spawn_in_memory: false
     allow_portals: false
     alias: TimeVortex
     icon: CRYING_OBSIDIAN
+    spawn_chunk_radius: 0
+    difficulty: EASY
+    helmic_regulator_order: -1
   TARDIS_Zero_Room:
     enabled: false
     resource_pack: default
@@ -50,10 +52,12 @@ planets:
       doWeatherCycle: false
       doDaylightCycle: false
       announceAdvancements: false
-    keep_spawn_in_memory: false
     allow_portals: false
     alias: ZeroRoom
     icon: PINK_WOOL
+    spawn_chunk_radius: 0
+    difficulty: EASY
+    helmic_regulator_order: -1
   skaro:
     enabled: false
     resource_pack: default
@@ -69,7 +73,6 @@ planets:
     world_type: NORMAL
     environment: NORMAL
     generator: TARDIS:skaro
-    keep_spawn_in_memory: false
     spawn_other_mobs: true
     gamerules:
       doTraderSpawning: false
@@ -77,6 +80,9 @@ planets:
     allow_portals: false
     alias: Skaro
     icon: FIRE_CORAL_BLOCK
+    spawn_chunk_radius: 0
+    difficulty: EASY
+    helmic_regulator_order: -1
   siluria:
     enabled: false
     resource_pack: default
@@ -85,7 +91,6 @@ planets:
     world_type: NORMAL
     environment: NORMAL
     generator: TARDIS:siluria
-    keep_spawn_in_memory: false
     spawn_other_mobs: true
     gamerules:
       doTraderSpawning: false
@@ -93,6 +98,9 @@ planets:
     allow_portals: false
     alias: Siluria
     icon: BAMBOO_MOSAIC
+    spawn_chunk_radius: 0
+    difficulty: EASY
+    helmic_regulator_order: -1
   gallifrey:
     enabled: false
     resource_pack: default
@@ -101,7 +109,6 @@ planets:
     world_type: NORMAL
     environment: NORMAL
     generator: TARDIS:gallifrey
-    keep_spawn_in_memory: false
     spawn_other_mobs: true
     gamerules:
       doTraderSpawning: false
@@ -109,6 +116,9 @@ planets:
     allow_portals: false
     alias: Gallifrey
     icon: RED_SAND
+    spawn_chunk_radius: 0
+    difficulty: EASY
+    helmic_regulator_order: -1
     villager_blueprints:
       enabled: true
       # max usage is 16
@@ -134,6 +144,12 @@ planets: # This is a list of worlds on your server. If you want to use the world
         game_rules:
             example rule: false # A list of game rules that should be applied to the world — such as: \`doWeatherCycle\`, \`doDaylightCycle\` — values must be \`true\` or \`false\`. See [https://minecraft.wiki/w/Game_rule](https://minecraft.wiki/w/Game_rule)
         generate_structures: true # Whether the world should generate vanilla structures — you would set this to \`false\` for example, if the generator was set to the Terra World Generator plugin e.g. \`Terra:TARTARUS\`.
+        allow_portals: false # Whether portals can be created in this world
+        alias: TimeVortex # The name of the world the plugin will display in messages and GUIs
+        icon: CRYING_OBSIDIAN # The icon of the world shown in the Save Dimensions GUI
+        spawn_chunk_radius: 0 # Whether to keep spunk chunks loaded. Values greather than 0 load chunks.
+        difficulty: EASY # The Minecraft difficulty level for the world (EASY, NORMAL, HARD)
+        helmic_regulator_order: -1 # If this world appears in the helmic regulator control. Use a value between 1 and 8 to set the order. Each world that you want to appear should be a different number, leave at -1 to not show this world.
 `} />
 
 Each world on your server has their own section in _planets.yml__, however there are TARDIS specific worlds as

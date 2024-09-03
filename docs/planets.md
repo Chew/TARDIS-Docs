@@ -106,6 +106,14 @@ skaro:
   # Exclusive to custom planets.
   # Should non-doctor who (vanilla) mobs spawn?
   spawn_other_mobs: true
+gallifrey:
+  # Whether villagers that spawn in Gallifreyan structures will sell TARDIS blueprints
+  villager_blueprints:
+      enabled: true
+      # The number of uses a blueprint trade has - maximum usage is 16
+      uses: 1
+      # The % chance a villager will have a blueprint trade.
+      chance: 20
 # other config #
 ```
 
