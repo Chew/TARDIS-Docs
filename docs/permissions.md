@@ -484,7 +484,7 @@ To allow access to TARDIS areas, users/groups must be given the permission:
 tardis.area.[name_of_area]
 ```
 
-eg. to give access to the “airport” area, the permission would be:
+e.g. to give access to the “airport” area, the permission would be:
 
 ```
 tardis.area.airport
