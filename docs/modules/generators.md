@@ -72,3 +72,11 @@ Ocean biomes and a small island at spawn, plus a 1/1000 chance an island will ge
 ![Water world](/images/docs/water_world_1.jpg)
 
 ![Water world](/images/docs/water_world_2.jpg)
+
+## TARDIS rooms world
+
+`TARDIS:rooms`
+
+Random rooms that go on forever. Wall and floor blocks are also randomised.
+
+![Rooms world](/images/docs/rooms_world.jpg)
