@@ -71,6 +71,7 @@ and follow the instructions. The room types and their corresponding seed blocks 
 | Lazarus | FURNACE |
 | Library | ENCHANTING_TABLE |
 | Mushroom | GRAVEL |
+| Observatory | POLISHED_BLACKSTONE_BRICKS |
 | Passage | CLAY |
 | Pen | MOSS_BLOCK |
 | Pool | SNOW_BLOCK |
@@ -96,6 +97,7 @@ and follow the instructions. The room types and their corresponding seed blocks 
 - More information about the `Renderer` room can be found on the [Scanner page](scanner#renderer)
 - More information about the `Zero` room can be found on the [Zero Room page](/rooms/zero)
 - More information about `Gravity Well` rooms can be found on the [Gravity Wells page](/rooms/gravity-wells)
+- More information about `Observatory` rooms can be found on the [Telescope](/chemistry-lab/telescope), [Microscope](/chemistry-lab/microscope), and [Electron Microscope](/chemistry-lab/electron-microscope) pages
 - The _Eye of Harmony_ room type is `harmony`
 - The _gravity well_ room type is `gravity` and requires an empty ARS room slot **above** the room as well.
 - The _anti gravity well_ room type is `antigravity` and requires an empty ARS room slot **below** the room as well.
