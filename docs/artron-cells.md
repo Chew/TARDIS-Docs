@@ -32,6 +32,12 @@ The maximum amount you can transfer is the configured `full_charge` value as
 specified in artron.yml (default is 5000). To store more energy, you will need
 to craft more cells.
 
+```
+/tardisartron combine
+```
+
+Use this command to combine the artron levels of two cells that are less than full capacity. Hold one cell in your main hand, and one cell in your off hand when running the command.
+
 ## Giving Artron Storage Cells
 
 You can give _empty_ Artron storage cells to players with the command:
