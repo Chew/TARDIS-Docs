@@ -21,6 +21,7 @@
     "@docusaurus/theme-common": "^3.4.0",
     "@mdx-js/react": "^3.0.1",
     "@octokit/rest": "^20.1.1",
+    "@photo-sphere-viewer/core": "^5.11.1",
     "buffer": "^6.0.3",
     "clsx": "^1.2.1",
     "docusaurus-lunr-search": "^3.4.0",

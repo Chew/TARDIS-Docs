@@ -23,6 +23,9 @@ dependencies:
   '@octokit/rest':
     specifier: ^20.1.1
     version: 20.1.1
+  '@photo-sphere-viewer/core':
+    specifier: ^5.11.1
+    version: 5.11.1
   buffer:
     specifier: ^6.0.3
     version: 6.0.3
@@ -2707,6 +2710,12 @@ packages:
     resolution: {integrity: sha512-HdqWTf5Z3qwDVlzCrP8UJquMwunpDiMPt5er+QjGzL4hqr/vBVY/MauQgS1xWxCDT1oMx1EULyqxncdCY/NVSQ==}
     dependencies:
       '@octokit/openapi-types': 22.2.0
+    dev: false
+
+  /@photo-sphere-viewer/core@5.11.1:
+    resolution: {integrity: sha512-bxWnoQGYjXfmHGee4OSkoYLZmdgqvJWMn7wmpK0V0Vf46Fqu+TJ4Yt8+dY2PgpM89HoKzNr15Dzt6jqOfjkFxQ==}
+    dependencies:
+      three: 0.169.0
     dev: false
 
   /@pnpm/config.env-replace@1.1.0:
@@ -9204,6 +9213,10 @@ packages:
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
+    dev: false
+
+  /three@0.169.0:
+    resolution: {integrity: sha512-Ed906MA3dR4TS5riErd4QBsRGPcx+HBDX2O5yYE5GqJeFQTPU+M56Va/f/Oph9X7uZo3W3o4l2ZhBZ6f6qUv0w==}
     dev: false
 
   /thunky@1.1.0:
