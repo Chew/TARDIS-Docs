@@ -2721,6 +2721,12 @@ packages:
       three: 0.169.0
     dev: false
 
+  '@photo-sphere-viewer/gallery-plugin@5.11.1':
+    resolution: {integrity: sha512-/l6vx9dtniFlnu4RJVTM1mUAJZzCwEqyua5GUkIA/1J2WCInkC5Y6hze9PFUzG433SrkA50plq9IoRoR5+OfGg==}
+    dependencies:
+      '@photo-sphere-viewer/core': 5.11.1
+    dev: false
+
   /@pnpm/config.env-replace@1.1.0:
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
     engines: {node: '>=12.22.0'}
