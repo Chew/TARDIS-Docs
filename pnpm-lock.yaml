@@ -2721,7 +2721,7 @@ packages:
       three: 0.169.0
     dev: false
 
-  /@photo-sphere-viewer/gallery-plugin@5.11.1':
+  /@photo-sphere-viewer/gallery-plugin@5.11.1:
     resolution: {integrity: sha512-/l6vx9dtniFlnu4RJVTM1mUAJZzCwEqyua5GUkIA/1J2WCInkC5Y6hze9PFUzG433SrkA50plq9IoRoR5+OfGg==}
     dependencies:
       '@photo-sphere-viewer/core': 5.11.1
