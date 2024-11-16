@@ -100,6 +100,7 @@ const sidebars: SidebarsConfig = {
         'ars',
         'desktop-theme',
         'interiors',
+        'panoramic-gallery',
         'walls',
         'hum',
         'item_displays',
