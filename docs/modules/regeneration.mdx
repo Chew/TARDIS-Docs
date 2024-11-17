@@ -66,31 +66,31 @@ There is one regeneration command with a player argument and two admin arguments
 ### `/tardisregeneration`
 
 <CommandTable data={
-    `tardisregeneration:
-    aliases: [tregeneration, regeneration]
-    description: Add, remove and block regenerations.
-    admin usage: /<command> [add|remove] [player] [amount]
-    admin permission: tardis.admin
-    player usage: /<command> [block] [on|off]
-    player permission: tardis.regeneration
-    permission-message: You don't have the permission <permission> to use this command
-    `
+        `tardisregeneration:
+        aliases: [tregeneration, regeneration]
+        description: Add, remove and block regenerations.
+        admin usage: /<command> [add|remove] [player] [amount]
+        admin permission: tardis.admin
+        player usage: /<command> [block] [on|off]
+        player permission: tardis.regeneration
+        permission-message: You don't have the permission <permission> to use this command
+        `
 }
 args={
-    `
-    add:
-      description: Give regenerations to a player.
-      usage: /<command> add [player] [amount]
-      permission: tardis.admin
-    remove:
-      description: Remove regenerations from a player.
-      usage: /<command> remove [player] [amount]
-      permission: tardis.admin
-    block:
-      description: Block regenerations from occuring.
-      usage: /<command> block [on|off]
-      permission: tardis.regeneration
-    `
+        `
+        add:
+            description: Give regenerations to a player.
+            usage: /<command> add [player] [amount]
+            permission: tardis.admin
+        remove:
+            description: Remove regenerations from a player.
+            usage: /<command> remove [player] [amount]
+            permission: tardis.admin
+        block:
+            description: Block regenerations from occuring.
+            usage: /<command> block [on|off]
+            permission: tardis.regeneration
+        `
 }
 extra='false'
 >
@@ -100,36 +100,36 @@ extra='false'
 
 ```yaml title="/plugins/TARDIS/config.yml"
 modules:
-  regeneration: false
+    regeneration: false
 ```
 
 <ConfigTable name={"/plugins/TARDIS/config.yml"} data={`
 modules:
-  regeneration: false # Sets whether to enable the Regeneration module.
+    regeneration: false # Sets whether to enable the Regeneration module.
 `} />
 
 ```yaml title="/plugins/TARDIS/regeneration.yml"
 regenerations: 15
 restore:
-  health: true
-  food: true
+    health: true
+    food: true
 artron:
-  consume: true
-  amount: 1000
+    consume: true
+    amount: 1000
 effects:
-  positive: true
-  negative: true
+    positive: true
+    negative: true
 ```
 
 <ConfigTable name={"/plugins/TARDIS/config.yml"} data={`
 regenerations: 15 # The number of times a player can regenerate.
 restore:
-  health: true # Whether the player regains full health.
-  food: true # Whether the player regains full food.
+    health: true # Whether the player regains full health.
+    food: true # Whether the player regains full food.
 artron:
-  consume: true # Whether regenerations use stored time lord energy.
-  amount: 1000 # How much Artron energy to consume each regeneration.
+    consume: true # Whether regenerations use stored time lord energy.
+    amount: 1000 # How much Artron energy to consume each regeneration.
 effects:
-  positive: true # Whether to apply positive effects (regeneration, slow falling) after regeneration.
-  negative: true # Whether to apply negative effects (mining fatigue, slowness, weakness) after regeneration.
+    positive: true # Whether to apply positive effects (regeneration, slow falling) after regeneration.
+    negative: true # Whether to apply negative effects (mining fatigue, slowness, weakness) after regeneration.
 `} />

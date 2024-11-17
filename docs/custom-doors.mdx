@@ -16,23 +16,23 @@ Custom door models are defined in _plugins/TARDIS/custom\_doors.yml_, an example
 ```yaml title="/plugins/TARDIS/custom_doors.yml"
 # this entry is the police box door, but centred on a block
 centred:
-  material: ANGLER_POTTERY_SHERD
-  animation_sequence: 0,1,2,3,4
-  frame_rate: 6
-  has_extra: true
-  open_sound: tardis_door_open
-  close_sound: tardis_door_close
+    material: ANGLER_POTTERY_SHERD
+    animation_sequence: 0,1,2,3,4
+    frame_rate: 6
+    has_extra: true
+    open_sound: tardis_door_open
+    close_sound: tardis_door_close
 ```
 
 <ConfigTable name="/plugins/TARDIS/custom_doors.yml" data={
-    `centred:
-  material: ANGLER_POTTERY_SHERD # The material of the door item display - MUST be an unused **pottery sherd**, one of \`ANGLER_POTTERY_SHERD\`, \`ARCHER_POTTERY_SHERD\`, \`ARMS_UP_POTTERY_SHERD\`, \`BLADE_POTTERY_SHERD\`, \`BREWER_POTTERY_SHERD\`, \`BURN_POTTERY_SHERD\`, \`DANGER_POTTERY_SHERD\`, \`EXPLORER_POTTERY_SHERD\`, \`FRIEND_POTTERY_SHERD\`, \`HEART_POTTERY_SHERD\`, \`HEARTBREAK_POTTERY_SHERD\`, \`HOWL_POTTERY_SHERD\`, \`MINER_POTTERY_SHERD\`, \`MOURNER_POTTERY_SHERD\`, \`PLENTY_POTTERY_SHERD\`, \`PRIZE_POTTERY_SHERD\`, \`SHEAF_POTTERY_SHERD\`, \`SHELTER_POTTERY_SHERD\`, \`SKULL_POTTERY_SHERD\`, \`SNORT_POTTERY_SHERD\`, **1.21+** \`FLOW_POTTERY_SHERD\`, \`GUSTER_POTTERY_SHERD\`, \`SCRAPE_POTTERY_SHERD\`. Open/closed/animation states will need to be set with "custom_model_data" predicates in _assets/minecraft/models/item/[xxx_pottery_sherd].json_ starting at \`10000\`
-  animation_sequence: 0,1,2,3,4 # A comma separated list of frame numbers where the number is added to the starting (closed) animation frame to get the "custom_model_data" predicate e.g. 10000 + 3 = 10003 - in this example, 0 => closed, 4 => fully open, but for a simple door \`0,1\` would be just closed and open.
-  frame_rate: 6 # The animation frame rate in ticks
-  has_extra: true # Whether the door has a third state activated by crouch-right-clicking e.g. the double police door has one side open, closed, and a third "both sides open" state. The "custom_model_data" predicate for this state should be 1 greater than the highest value of the animation_sequence, for this example it would be \`5\`.
-  open_sound: tardis_door_open # SFX - If using new custom sounds, you will need to add entries to _assets/minecraft/sounds.json_ and save .ogg files to _assets/tardis/sounds/_ in the resource pack. This one is the sound for when the **door opens**.
-  close_sound: tardis_door_close # The sound for when the **door closes**.
-    `
+        `centred:
+    material: ANGLER_POTTERY_SHERD # The material of the door item display - MUST be an unused **pottery sherd**, one of \`ANGLER_POTTERY_SHERD\`, \`ARCHER_POTTERY_SHERD\`, \`ARMS_UP_POTTERY_SHERD\`, \`BLADE_POTTERY_SHERD\`, \`BREWER_POTTERY_SHERD\`, \`BURN_POTTERY_SHERD\`, \`DANGER_POTTERY_SHERD\`, \`EXPLORER_POTTERY_SHERD\`, \`FRIEND_POTTERY_SHERD\`, \`HEART_POTTERY_SHERD\`, \`HEARTBREAK_POTTERY_SHERD\`, \`HOWL_POTTERY_SHERD\`, \`MINER_POTTERY_SHERD\`, \`MOURNER_POTTERY_SHERD\`, \`PLENTY_POTTERY_SHERD\`, \`PRIZE_POTTERY_SHERD\`, \`SHEAF_POTTERY_SHERD\`, \`SHELTER_POTTERY_SHERD\`, \`SKULL_POTTERY_SHERD\`, \`SNORT_POTTERY_SHERD\`, **1.21+** \`FLOW_POTTERY_SHERD\`, \`GUSTER_POTTERY_SHERD\`, \`SCRAPE_POTTERY_SHERD\`. Open/closed/animation states will need to be set with "custom_model_data" predicates in _assets/minecraft/models/item/[xxx_pottery_sherd].json_ starting at \`10000\`
+    animation_sequence: 0,1,2,3,4 # A comma separated list of frame numbers where the number is added to the starting (closed) animation frame to get the "custom_model_data" predicate e.g. 10000 + 3 = 10003 - in this example, 0 => closed, 4 => fully open, but for a simple door \`0,1\` would be just closed and open.
+    frame_rate: 6 # The animation frame rate in ticks
+    has_extra: true # Whether the door has a third state activated by crouch-right-clicking e.g. the double police door has one side open, closed, and a third "both sides open" state. The "custom_model_data" predicate for this state should be 1 greater than the highest value of the animation_sequence, for this example it would be \`5\`.
+    open_sound: tardis_door_open # SFX - If using new custom sounds, you will need to add entries to _assets/minecraft/sounds.json_ and save .ogg files to _assets/tardis/sounds/_ in the resource pack. This one is the sound for when the **door opens**.
+    close_sound: tardis_door_close # The sound for when the **door closes**.
+        `
 }>
 
 </ConfigTable>
@@ -43,17 +43,17 @@ Door model `custom_model_data` predicates go in _angler\_pottery\_sherd.json_:
 
 ```json title="assets/minecraft/models/item/angler_pottery_sherd.json"
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/angler_pottery_sherd"
-  },
-  "overrides": [
-    {"predicate": {"custom_model_data":10000}, "model": "tardis:block/tardis/police_box_door_0"},
-    {"predicate": {"custom_model_data":10001}, "model": "tardis:block/tardis/police_box_door_1"},
-    {"predicate": {"custom_model_data":10002}, "model": "tardis:block/tardis/police_box_door_2"},
-    {"predicate": {"custom_model_data":10003}, "model": "tardis:block/tardis/police_box_door_3"},
-    {"predicate": {"custom_model_data":10004}, "model": "tardis:block/tardis/police_box_door_4"},
-    {"predicate": {"custom_model_data":10005}, "model": "tardis:block/tardis/police_box_door_both"}
-  ]
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/angler_pottery_sherd"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data":10000}, "model": "tardis:block/tardis/police_box_door_0"},
+        {"predicate": {"custom_model_data":10001}, "model": "tardis:block/tardis/police_box_door_1"},
+        {"predicate": {"custom_model_data":10002}, "model": "tardis:block/tardis/police_box_door_2"},
+        {"predicate": {"custom_model_data":10003}, "model": "tardis:block/tardis/police_box_door_3"},
+        {"predicate": {"custom_model_data":10004}, "model": "tardis:block/tardis/police_box_door_4"},
+        {"predicate": {"custom_model_data":10005}, "model": "tardis:block/tardis/police_box_door_both"}
+    ]
 }
 ```

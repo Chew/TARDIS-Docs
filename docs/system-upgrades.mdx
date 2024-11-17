@@ -38,13 +38,13 @@ Turn on System Upgrades in _config.yml_:
 
 ```yaml title="/plugins/TARDIS/config.yml"
 difficulty:
-  ...
-  system_upgrades: false
+    ...
+    system_upgrades: false
 ```
 
 <ConfigTable data={`
 difficulty:
-  system_upgrades: false # Whether players need to upgrade their TARDIS before they can use various features - see [System Upgrades](/system-upgrades).
+    system_upgrades: false # Whether players need to upgrade their TARDIS before they can use various features - see [System Upgrades](/system-upgrades).
 `} />
 
 Upgrade Artron costs are set in _system_upgrades.yml_:
@@ -53,55 +53,55 @@ Upgrade Artron costs are set in _system_upgrades.yml_:
 branch: 100
 # architecture branch
 architecture:
-  chameleon_circuit: 1000
-  room_growing: 1000
-  desktop_theme: 2000
+    chameleon_circuit: 1000
+    room_growing: 1000
+    desktop_theme: 2000
 # feature branch
 feature:
-  saves: 1000
-  monitor: 2000
-  force_field: 3000
+    saves: 1000
+    monitor: 2000
+    force_field: 3000
 # tools branch
 tools:
-  tardis_locator: 500
-  telepathic_circuit: 2000
-  stattenheim_remote: 4000
+    tardis_locator: 500
+    telepathic_circuit: 2000
+    stattenheim_remote: 4000
 # navigation branch
 navigation:
-  distance_1: 1000
-  distance_2: 2000
-  distance_3: 3000
-  inter_dimensional_travel: 4000
+    distance_1: 1000
+    distance_2: 2000
+    distance_3: 3000
+    inter_dimensional_travel: 4000
 # throttle branch
 throttle:
-  faster: 1000
-  rapid: 2000
-  warp: 3000
-  exterior_flight: 4000
+    faster: 1000
+    rapid: 2000
+    warp: 3000
+    exterior_flight: 4000
 ```
 
 <ConfigTable data={`
 branch: 100 # Cost for opening any of the five system upgrade tree branches.
 architecture:
-  chameleon_circuit: 1000 # Cost for being able to change the TARDIS exterior - requires the _Architecture_ branch upgrade.
-  room_growing: 1000 # Cost to be able to grow rooms in the TARDIS - requires the _Chameleon Circuit_ upgrade.
-  desktop_theme: 2000 # Cost for being able to change the TARDIS interior - requires the _Room Growing_ upgrade.
+    chameleon_circuit: 1000 # Cost for being able to change the TARDIS exterior - requires the _Architecture_ branch upgrade.
+    room_growing: 1000 # Cost to be able to grow rooms in the TARDIS - requires the _Chameleon Circuit_ upgrade.
+    desktop_theme: 2000 # Cost for being able to change the TARDIS interior - requires the _Room Growing_ upgrade.
 feature:
-  saves: 1000 # Cost for being able to save the TARDIS travel destinations - requires the _Feature_ branch upgrade.
-  monitor: 2000 # Cost for using the TARDIS Monitor and external viewer - requires the _Feature_ branch upgrade.
-  force_field: 3000 # Cost for using the TARDIS Force Field - requires the _Feature_ branch upgrade.
+    saves: 1000 # Cost for being able to save the TARDIS travel destinations - requires the _Feature_ branch upgrade.
+    monitor: 2000 # Cost for using the TARDIS Monitor and external viewer - requires the _Feature_ branch upgrade.
+    force_field: 3000 # Cost for using the TARDIS Force Field - requires the _Feature_ branch upgrade.
 tools:
-  tardis_locator: 500 # Cost for using the TARDIS Locator and the \`/tardis find\` command - requires the _Tools_ branch upgrade.
-  telepathic_circuit: 2000 # Cost for unlocking the Telepathic Circuit, allowing you to search for caves, structures and biomes - requires the _TARDIS Locator_ upgrade.
-  stattenheim_remote: 4000 # Cost for using the Stattenheim Remote and \`/tardis comehere\` command - requires the _Telepathic Circuit_ upgrade.
+    tardis_locator: 500 # Cost for using the TARDIS Locator and the \`/tardis find\` command - requires the _Tools_ branch upgrade.
+    telepathic_circuit: 2000 # Cost for unlocking the Telepathic Circuit, allowing you to search for caves, structures and biomes - requires the _TARDIS Locator_ upgrade.
+    stattenheim_remote: 4000 # Cost for using the Stattenheim Remote and \`/tardis comehere\` command - requires the _Telepathic Circuit_ upgrade.
 navigation:
-  distance_1: 1000 # Cost for unlocking the 2x distance multiplier - requires the _Naviagtion_ branch upgrade.
-  distance_2: 2000 # Cost for unlocking the 3x distance multiplier - requires the _Distance 1_ upgrade.
-  distance_3: 3000 # Cost for unlocking the 4x distance multiplier - requires the _Distance 2_ upgrade.
-  inter_dimensional_travel: 4000 # Cost for unlocking inter dimensional travel to the Nether or End - requires the _Distance 3_ upgrade.
+    distance_1: 1000 # Cost for unlocking the 2x distance multiplier - requires the _Naviagtion_ branch upgrade.
+    distance_2: 2000 # Cost for unlocking the 3x distance multiplier - requires the _Distance 1_ upgrade.
+    distance_3: 3000 # Cost for unlocking the 4x distance multiplier - requires the _Distance 2_ upgrade.
+    inter_dimensional_travel: 4000 # Cost for unlocking inter dimensional travel to the Nether or End - requires the _Distance 3_ upgrade.
 throttle:
-  faster: 1000 # Cost for unlocking the Faster space time throttle setting - requires the _Throttle_ branch upgrade.
-  rapid: 2000 # Cost for unlocking the Rapid space time throttle setting - requires the _Faster_ upgrade.
-  warp: 3000 # Cost for unlocking the Warp space time throttle setting - requires the _Rapid_ upgrade.
-  exterior_flight: 4000 # Cost for unlocking Exterior Flight - requires the _Warp_ upgrade.
+    faster: 1000 # Cost for unlocking the Faster space time throttle setting - requires the _Throttle_ branch upgrade.
+    rapid: 2000 # Cost for unlocking the Rapid space time throttle setting - requires the _Faster_ upgrade.
+    warp: 3000 # Cost for unlocking the Warp space time throttle setting - requires the _Rapid_ upgrade.
+    exterior_flight: 4000 # Cost for unlocking Exterior Flight - requires the _Warp_ upgrade.
 `} />

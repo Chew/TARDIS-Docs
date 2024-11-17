@@ -15,29 +15,29 @@ all TARDISes. For version 5.0.0 and above set `modules.mapping: [true\false]` an
 
 ```yaml title="/plugins/TARDIS/config.yml"
 modules:
-  mapping: false
+    mapping: false
 ...
 mapping:
-  provider: [dynmap|bluemap]
-  update_period: 30
-  updates_per_tick: 10
+    provider: [dynmap|bluemap]
+    update_period: 30
+    updates_per_tick: 10
 ```
 
 <ConfigTable name={"/plugins/TARDIS/config.yml"} data={`
 modules:
-  mapping: false # Sets whether to display TARDISes in Dynmap or BlueMap (requires one of the plugins to be installed on the server).
-mapping: # Set options for displaying TARDISes  on a map
-  provider: bluemap # Sets which mapping provider to use.
-  update_period: 30 # Sets the interval in seconds between TARDIS marker updates, try setting this higher if you experience lag.
-  updates_per_tick: 10 # Sets the maximum number of TARDIS markers to update per tick, try setting this lower if you experience lag.
+    mapping: false # Sets whether to display TARDISes in Dynmap or BlueMap (requires one of the plugins to be installed on the server).
+mapping: # Set options for displaying TARDISes    on a map
+    provider: bluemap # Sets which mapping provider to use.
+    update_period: 30 # Sets the interval in seconds between TARDIS marker updates, try setting this higher if you experience lag.
+    updates_per_tick: 10 # Sets the maximum number of TARDIS markers to update per tick, try setting this lower if you experience lag.
 `} />
 
 ## Installation
 
 1. Enable the TARDIS _mapping_ module in the TARDIS config:
-   - `/tardisconfig mapping true`
-   - `/tconfig provider bluemap`
+     - `/tardisconfig mapping true`
+     - `/tconfig provider bluemap`
 2. Install BlueMap as per the instructions found on the [BlueMap wiki](https://bluemap.bluecolored.de/wiki/getting-started/Installation.html) page. Run
-   the server once to generate the default BlueMap files and folders.
+     the server once to generate the default BlueMap files and folders.
 3. Render the map.
 

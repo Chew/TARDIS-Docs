@@ -15,7 +15,7 @@ You can place a sonic dock in your TARDIS console to hold your sonic devices.
 To add a sonic dock:
 
 1. Craft a sonic dock to see the recipe use the command `/tardisrecipe sonic-dock`
-   <TabbedImage name={"Sonic Dock recipe"} description={"The sonic dock recipe."} folder={"docs"} image={"sonic-dock-recipe.jpg"} />
+     <TabbedImage name={"Sonic Dock recipe"} description={"The sonic dock recipe."} folder={"docs"} image={"sonic-dock-recipe.jpg"} />
 2. Place an item frame facing upwards somewhere inside your TARDIS
 3. Place the sonic dock into the item frame
 4. Use the update command to register the sonic dock with the plugin - `/tardis update sonic-dock`
@@ -51,25 +51,25 @@ _config.yml_ contains a `sonic` configuration section with the following default
 
 ```yaml title="/plugins/TARDIS/config.yml"
 sonic:
-  default_model: eleventh
-  conversion_radius: 1
-  freeze_cooldown: 60
-  charge: false
-  charge_level: 1000
-  charge_interval: 60
-  usage: 10
+    default_model: eleventh
+    conversion_radius: 1
+    freeze_cooldown: 60
+    charge: false
+    charge_level: 1000
+    charge_interval: 60
+    usage: 10
 ```
 
 The settings are explained below:
 
 <ConfigTable data={`
 sonic:
-  default_model: eleventh # Sets the custom model that sonic screwdrivers appear with when crafted or given
-  conversion_radius: 1 # Sets the radius of blocks that is transformed by the Sonic Screwdriver conversion function. Using a value 1 gives a 3x3 area of blocks. Setting to 0 means only the clicked block is affected
-  freeze_cooldown: 60 # Sets the cool down period (in seconds) between uses of the Sonic Screwdriver’s player freeze function
-  charge: false # Sets whether players need to charge their sonic screwdriver to use it
-  charge_level: 1000 # The maximum charge level a sonic device can hold
-  charge_interval: 60 # The amount of time it takes to charge a sonic device to full charge
-  usage: 10 # The amount of energy a sonic screwdriver consumes each time it is used
+    default_model: eleventh # Sets the custom model that sonic screwdrivers appear with when crafted or given
+    conversion_radius: 1 # Sets the radius of blocks that is transformed by the Sonic Screwdriver conversion function. Using a value 1 gives a 3x3 area of blocks. Setting to 0 means only the clicked block is affected
+    freeze_cooldown: 60 # Sets the cool down period (in seconds) between uses of the Sonic Screwdriver’s player freeze function
+    charge: false # Sets whether players need to charge their sonic screwdriver to use it
+    charge_level: 1000 # The maximum charge level a sonic device can hold
+    charge_interval: 60 # The amount of time it takes to charge a sonic device to full charge
+    usage: 10 # The amount of energy a sonic screwdriver consumes each time it is used
 `} />
 
