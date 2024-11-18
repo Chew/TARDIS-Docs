@@ -5,8 +5,7 @@ title: World Generators
 
 # World Generators
 
-The Chunk Generator module includes world generators for more than just the TARDIS void worlds (
-TARDIS_TimeVortex, TARDIS_Zero_Room).
+The Chunk Generator module includes world generators for more than just the TARDIS void worlds (TARDIS_TimeVortex, TARDIS_Zero_Room).
 
 You can use the generators for any world, just specify the `generator` setting in _planets.yml_.
 
