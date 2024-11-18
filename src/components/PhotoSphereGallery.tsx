@@ -64,7 +64,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/bigger.jpg',
                 thumbnail: '/images/spheres/thumbs/bigger.jpg',
                 options: {
-                    caption: 'Bigger TARDIS — you could swing a cat in here! — <strong>Size:</strong> BIGGER',
+                    caption: 'Bigger TARDIS — you could swing a cat in here! — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -109,7 +109,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/delta.jpg',
                 thumbnail: '/images/spheres/thumbs/delta.jpg',
                 options: {
-                    caption: 'Nether Delta TARDIS — experience the nether delta inside your TARDIS! — <strong>Size:</strong> BIGGER',
+                    caption: 'Nether Delta TARDIS — experience the nether delta inside your TARDIS! — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -127,7 +127,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/division.jpg',
                 thumbnail: '/images/spheres/thumbs/division.jpg',
                 options: {
-                    caption: 'Division TARDIS — A TARDIS inspired by <a href="https://tardis.fandom.com/wiki/The_Division" target="_blank">The Division ship outpost</a> — <strong>Size:</strong> BIGGER',
+                    caption: 'Division TARDIS — A TARDIS inspired by <a href="https://tardis.fandom.com/wiki/The_Division" target="_blank">The Division ship outpost</a> — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -154,7 +154,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/factory.jpg',
                 thumbnail: '/images/spheres/thumbs/factory.jpg',
                 options: {
-                    caption: 'Factory TARDIS — The 1st Doctor’s Factory TARDIS (thanks to vistaero) — <strong>Size:</strong> BIGGER',
+                    caption: 'Factory TARDIS — The 1st Doctor’s Factory TARDIS (thanks to vistaero) — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -172,7 +172,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/fugitive.jpg',
                 thumbnail: '/images/spheres/thumbs/fugitive.jpg',
                 options: {
-                    caption: 'Fugitive TARDIS — Ruth (The Fugitive Doctor) Clayton’s Console (based on <a href="https://www.youtube.com/watch?v=aykwXVemSs8" target="_blank">Ruth TARDIS designed by DT10</a> — <strong>Size:</strong> BIGGER',
+                    caption: 'Fugitive TARDIS — Ruth (The Fugitive Doctor) Clayton’s Console (based on <a href="https://www.youtube.com/watch?v=aykwXVemSs8" target="_blank">Ruth TARDIS designed by DT10</a> — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -199,7 +199,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/mechanical.jpg',
                 thumbnail: '/images/spheres/thumbs/mechanical.jpg',
                 options: {
-                    caption: '‘Mechanical’ TARDIS — adapted from design by <a href="https://www.planetminecraft.com/data-pack/new-tardis-mod-mechanical-interior-datapack/" target="_blank">Plastic Straw</a> — <strong>Size:</strong> BIGGER',
+                    caption: '‘Mechanical’ TARDIS — adapted from design by <a href="https://www.planetminecraft.com/data-pack/new-tardis-mod-mechanical-interior-datapack/" target="_blank">Plastic Straw</a> — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -235,7 +235,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/redstone.jpg',
                 thumbnail: '/images/spheres/thumbs/redstone.jpg',
                 options: {
-                    caption: '‘Redstone’ TARDIS — Multi-level madness — <strong>Size:</strong> BIGGER',
+                    caption: '‘Redstone’ TARDIS — Multi-level madness — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -253,7 +253,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/rustic.jpg',
                 thumbnail: '/images/spheres/thumbs/rustic.jpg',
                 options: {
-                    caption: '‘Rustic’ TARDIS — With a 3D-modelled console — <strong>Size:</strong> BIGGER',
+                    caption: '‘Rustic’ TARDIS — With a 3D-modelled console — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -280,7 +280,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/thirteenth.jpg',
                 thumbnail: '/images/spheres/thumbs/thirteenth.jpg',
                 options: {
-                    caption: 'The 13th Doctor’s TARDIS — <strong>Size:</strong> BIGGER',
+                    caption: 'The 13th Doctor’s TARDIS — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
@@ -289,7 +289,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/twelfth.jpg',
                 thumbnail: '/images/spheres/thumbs/twelfth.jpg',
                 options: {
-                    caption: '‘Twelfth’ TARDIS — The Twelfth Doctor’s TARDIS — <strong>Size:</strong> BIGGER',
+                    caption: '‘Twelfth’ TARDIS — The Twelfth Doctor’s TARDIS — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
