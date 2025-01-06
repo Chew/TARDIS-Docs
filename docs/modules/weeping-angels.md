@@ -325,6 +325,10 @@ For configuration options, see the [Monsters configuration](../configuration/mon
 |         | `give [player] [monster type]`        | Gives a player a monster head to display in an item frame                   |
 |         | `teleport [replace\|true\|false]`     | Toggle and add specific angel teleport locations                            |
 
+## Permissions
+
+View the [Weeping Angel module permissions](../weeping-angel-permissions).
+
 ## Video
 
 <iframe width="600" height="366" src="https://www.youtube.com/embed/Ybpo4KQZpF4?rel=0" frameborder="0" allowfullscreen></iframe>

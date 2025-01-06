@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Big list of permissions
+title: Big list of TARDIS permissions
 ---
 
 # Permission List
