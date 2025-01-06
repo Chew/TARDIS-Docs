@@ -21,9 +21,9 @@ You will need the permission `tardis.fly` to pilot your TARDIS.
   ![Comparator subtract mode](/images/docs/subtract.jpg)
 
 - __Right-click__ the handbrake to pilot the TARDIS in the world
-- Use the movement keys (by default __WASD__) to navigate
-- Look up to go up
-- Look down to go down
+- Use the __W__) to speed up
+- Use the __S__) to slow down
+- Use the mouse to naviagte up, down, left, right
 - Hold down the space bar to hover
 - Hold a glass bottle in your main hand to hide the exterior while flying
 - Hold your sonic screwdriver in your main hand to stop the police box from spinning
