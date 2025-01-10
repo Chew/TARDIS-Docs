@@ -25,6 +25,10 @@ locations. It adds a Whovian twist to the typical `/sethome` and `/home` command
 
 [Index / Site map](site-map)
 
+[Updating from v4.x.x to v5.x.x](updating-to-unified-plugin)
+
+[Updating to v6.x.x](v6)
+
 [Go to the **Contents** page](contents)
 
 [Check out some **FAQs**](faqs)

@@ -38,9 +38,12 @@ the [TARDIS-Resource-Pack](/resource-packs)
 ## Monsters
 
 * [Weeping Angels](#weeping-angels-1)
+* [Angel of Liberty](#angel-of-liberty)
 * [Clockwork Droids](#clockwork-droids)
 * [Cybermen](#cybermen)
 * [Daleks](#daleks)
+* [Dalek Sec](#dalek-sec)
+* [Davros](#davros)
 * [Empty Children](#empty-children)
 * [Hath](#hath)
 * [Headless Monks](#headless-monk)
@@ -48,17 +51,23 @@ the [TARDIS-Resource-Pack](/resource-packs)
 * [Judoon](#judoon)
 * [K-9](#k-9)
 * [Mire](#mire)
+* [Omega](#omega)
 * [Ood](#ood)
-* [Racnoss](#racnoss)
+* [Sycorax](#sycorax)
+* [Ossified Time Zombies](#ossified-time-zombies)
 * [Sea Devils](#sea-devils)
 * [Scarecrow](#scarecrow)
 * [Silent](#silent)
 * [Silurians](#silurians)
 * [Slitheen](#slitheen)
+* [Smilers](#smilers)
 * [Sontarans](#sontarans)
 * [Strax](#strax)
 * [Sycorax](#sycorax)
+* [Sutekh](#sutekh)
+* [The Beast](#the-beast)
 * [Toclafane](#toclafane)
+* [Vampires of Venice](#vampires-of-venice)
 * [Vashta Nerada](#vashta-nerada)
 * [Zygons](#zygons)
 
@@ -104,6 +113,12 @@ Random teleport locations can be specified by world, or you can set specific loc
     * To replace all previously stored locations, repeat the above step, but use the `/twa teleport replace` command.
     * To toggle between random world and specific location teleporting use the command `/twa teleport [true|false]` -
       where `true` is for specific locations.
+      
+### Angel of Liberty
+
+She’s big. She’s dangerous!
+
+![Angel of Liberty](/images/docs/angel_of_liberty.jpg)
 
 ### Clockwork Droids
 
@@ -119,7 +134,27 @@ Cybermen can spawn at anytime. If configured, Cybermen will upgrade villagers an
 new Cyberman) spawns in their place. If the upgraded entity was a player, the new Cyberman displays the player’s name
 above its head.
 
+There are 10 Cyberman variants.
+
 ![Cyberman](/images/docs/cyberman.jpg)
+
+![Cyberman Rise](/images/docs/cyberman_rise.jpg)
+
+![Cyber Lord](/images/docs/cyber_lord.jpg)
+
+![Black Cyberman](/images/docs/black_cyberman.jpg)
+
+![Cyberman Earthshock](/images/docs/cyberman_earthshock.jpg)
+
+![Cyberman Invasion](/images/docs/cyberman_invasion.jpg)
+
+![Cyberman Moonbase](/images/docs/cyberman_moonbase.jpg)
+
+![Cyberman Tenth Planet](/images/docs/cyberman_tenth_planet.jpg)
+
+![Wood Cyberman](/images/docs/wood_cyberman.jpg)
+
+![Cybershade](/images/docs/cybershade.jpg)
 
 ### Ice Warriors
 
@@ -264,6 +299,10 @@ A nasty flatulent surprise, best avoided if you want to survive.
 
 ![Slitheen](/images/docs/slitheen_suit.jpg)
 
+### Smilers
+
+![Smilers](/images/docs/smiler.jpg)
+
 ### Sontarans
 
 Sontarans will try to kill you (as any good Sontaran should). If you manage to right-click a Sontaran with a Weakness
@@ -279,11 +318,21 @@ Sontaran instincts get the better of him!
 
 ![Strax](/images/docs/strax.jpg)
 
+## Sutekh
+
+![Sutekh](/images/docs/sutekh.jpg)
+
 ### Sycorax
 
 Snarling space gangsters who smell like herrings!
 
 ![Sea Devil](/images/docs/sycorax.jpg)
+
+### The Beast
+
+The horned terror!
+
+![The Beast](/images/docs/the_beast.jpg)
 
 ### Toclafane
 
@@ -291,6 +340,10 @@ Toclafane fly around passively until you hit them, then watch out as they get an
 die.
 
 ![Toclafane](/images/docs/toclafane.jpg)
+
+### Vampires of Venice
+
+![Vampire of Venice](/images/docs/vampire_of_venice.jpg)
 
 ### Vashta Nerada
 
