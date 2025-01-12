@@ -301,6 +301,8 @@ A nasty flatulent surprise, best avoided if you want to survive.
 
 ### Smilers
 
+Keep them smiling, you don’t want to see their angry face!
+
 ![Smilers](/images/docs/smiler.jpg)
 
 ### Sontarans
@@ -319,6 +321,8 @@ Sontaran instincts get the better of him!
 ![Strax](/images/docs/strax.jpg)
 
 ## Sutekh
+
+Here to deliver you with the certainty of death!
 
 ![Sutekh](/images/docs/sutekh.jpg)
 
@@ -343,11 +347,13 @@ die.
 
 ### Vampires of Venice
 
+Saturnyn’s fleeing from a crack in time.
+
 ![Vampire of Venice](/images/docs/vampire_of_venice.jpg)
 
 ### Vashta Nerada
 
-Vashta Nerada have a random (configurable) chance of spawning when a bookshelf is broken, say “Hey who turned out the
+Vashta Nerada have a random (configurable) chance of spawning when a bookshelf is broken, say “Hey, who turned out the
 lights?” and of course try to eat you!
 
 ![Vashta Nerada](/images/docs/vashta_nerada.jpg)
@@ -368,7 +374,7 @@ For configuration options, see the [Monsters configuration](../configuration/mon
 |---------|---------------------------------------|-----------------------------------------------------------------------------|
 | `/twa`  | `spawn [monster type]`                | Spawn a monster on the block you are looking at                             |  
 |         | `disguise [monster type] [on:off]`    | Disguise yourself as a TWA monster                                          |
-|         | `equip [monster type]`                | Equip an armor stand with a TWA monster                                     |
+|         | `equip [monster type] [variant]`      | Equip an armour stand with a TWA monster                                     |
 |         | `count [monster type] [world]`        | Reports the current number of monsters in the specified world               |
 |         | `kill [monster type] [world]`         | Kills all of the monsters in the specified world                            |
 |         | `set [monster type] [world] [amount]` | Sets the maximum number of the monsters that are allowed to spawn the world |
