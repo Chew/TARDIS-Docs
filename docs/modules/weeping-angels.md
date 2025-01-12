@@ -56,7 +56,7 @@ the [TARDIS-Resource-Pack](/resource-packs)
 * [Sycorax](#sycorax)
 * [Ossified Time Zombies](#ossified-time-zombies)
 * [Sea Devils](#sea-devils)
-* [Scarecrow](#scarecrow)
+* [Scarecrows](#scarecrows)
 * [Silent](#silent)
 * [Silurians](#silurians)
 * [Slitheen](#slitheen)
@@ -267,7 +267,7 @@ Racnoss spawn randomly in the Nether.
 
 ![Racnoss](/images/docs/racnoss.jpg)
 
-### Scarecrow
+### Scarecrows
 
 The Family of Blood’s animated henchmen.
 
@@ -320,7 +320,7 @@ Sontaran instincts get the better of him!
 
 ![Strax](/images/docs/strax.jpg)
 
-## Sutekh
+### Sutekh
 
 Here to deliver you with the certainty of death!
 

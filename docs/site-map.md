@@ -32,6 +32,7 @@ import TabItem from '@theme/TabItem';
 [Add permissions](add-permissions "Add permissions")  
 [Admin commands](commands/admin "Admin commands")  
 [Advanced Console](advanced-console "Advanced Console")  
+[Angel of Liberty](modules/weeping-angels#angel-of-liberty "Angel of Liberty")
 [API](api "API")  
 [Archiving consoles](archive "Archiving consoles")  
 [Area commands](commands/area "Area commands")  
@@ -76,6 +77,7 @@ import TabItem from '@theme/TabItem';
 [Chemistry Lab](chemistry-lab "Chemistry Lab")  
 [Circuit use and repair](circuit-use "Circuit use and repair")  
 [Circuits](advanced-console#circuit-types "Circuits")  
+[Clockwork Droids](modules/weeping-angels#clockwork-droids "Clockwork Droids")  
 [Commands](commands "Commands")  
 [Companions](companions "Companions")  
 [Computer](chemistry-lab/electron-microscope#computer "Computer")  
@@ -222,6 +224,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="O" label="O">
 
 [Ood](modules/weeping-angels#ood "Ood")  
+[Ossified Time Zombies](modules/weeping-angels#ossified-time-zombies "Ossified Time Zombies")  
 
 </TabItem>
 <TabItem value="P" label="P">
@@ -268,6 +271,7 @@ import TabItem from '@theme/TabItem';
 [Save Sign](save-sign "Save Sign")  
 [Save Storage Disks](writing-disks#writing-save-disks "Save Storage Disks")  
 [Scanner](scanner "Scanner")  
+[Scarecrows](modules/weeping-angels#scarecrows "Scarecrows")  
 [Schematic commands](commands/schematic "Schematic commands")  
 [Schematics](schematics "Schematics")  
 [Sea Devils](modules/weeping-angels#sea-devils "Sea Devils")  
@@ -282,6 +286,7 @@ import TabItem from '@theme/TabItem';
 [Skins](skins "Skins")  
 [Slide Rack](chemistry-lab/microscope#slide-rack "Slide Rack")  
 [Slitheen](modules/weeping-angels#slitheen "Slitheen")  
+[Smilers](modules/weeping-angels#smilers "Smilers")  
 [Smelter](/rooms/smelter "Smelter")  
 [Sonic Blaster](modules/sonic-blaster "Sonic Blaster")  
 [Sonic Configurator](sonic-configurator "Sonic Configurator")  
@@ -294,6 +299,8 @@ import TabItem from '@theme/TabItem';
 [Stattenheim Remote](tardis-items#stattenheim-remote "Stattenheim Remote")  
 [Strax](modules/weeping-angels#strax "Strax")  
 [Sudo commands](commands/sudo "Sudo commands")  
+[Sutekh](modules/weeping-angels#sutekh "Sutekh")  
+[Sycorax](modules/weeping-angels#sycorax "Sycorax")  
 [SQLite -> MySQL conversion tool](sqlite-mysql-tool "Spigot")  
 [Storage Configuration](configuration/storage "Storage Configuration")  
 [Super Fertiliser](chemistry-lab/products#super-fertiliser "Super Fertiliser")  
@@ -320,6 +327,7 @@ import TabItem from '@theme/TabItem';
 [Telescope](chemistry-lab/telescope "Telescope")  
 [Temporal Locator](temporal-locator "Temporal Locator")  
 [Texture Commands](commands/texture "Texture Commands")  
+[The Beast](modules/weeping-angels#the-beast "The Beast")  
 [The TARDIS door](enter-and-exit "The TARDIS door")  
 [Time command](commands/misc#tardistime "Time command")  
 [Time Rotor](time-rotor "Time Rotor")  
@@ -344,6 +352,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="V" label="V">
 
+[Vampires of Venice](modules/weeping-angels#vampires-of-venice "Vampires of venice")  
 [Vashta Nerada](modules/weeping-angels#vashta-nerada "Vashta Nerada")  
 [Vault Room](/rooms/vault "Vault Room")  
 [View Interior](view-interior "View Interior")  

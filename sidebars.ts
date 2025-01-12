@@ -50,6 +50,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'installation-v5',
         'updating-to-unified-plugin',
+        'v6',
         'creating-a-tardis',
         'companions',
         {
