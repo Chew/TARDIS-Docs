@@ -69,6 +69,18 @@ Remove the Handles record from the TARDIS database. Use this if Handles is destr
 /handles remove
 ```
 
+Update a placed Handles' rotation.
+
+```
+/tardis update handles rotate
+```
+
+Lock a placed Handles' rotation.
+
+```
+/tardis update handles lock
+```
+
 ### Config Options
 
 Handles comes with several configuration options, which can be edited in `handles.yml`.

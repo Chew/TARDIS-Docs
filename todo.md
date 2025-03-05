@@ -1,47 +1,25 @@
 # TODO
 
-## Current version `5.2.0`
-
-1. ?
-
-## Next version `5.3.0`
-
-1. Custom Control models [#703](https://github.com/eccentricdevotion/TARDIS/issues/703)
-   [#355](https://github.com/eccentricdevotion/TARDIS/issues/355)
-2. Animated models for player disguises
-3. Sonic Blaster
-
-## Future versions
-
-1. Cache TARDIS data to speed lookups and reduce database queries
-2. Use the Vortex Manipulator to teleport past force fields
-3. Optional world name in `/tardistravel` - [#306](https://github.com/eccentricdevotion/TARDIS/issues/306)
-4. Time travel - [#305](https://github.com/eccentricdevotion/TARDIS/issues/305)
-5. Charge players a fee (via Vault) for using the Junk TARDIS (buy ticket at the TARDISShop?)
-6. Add support for Pl3xMap and BlueMap?
-7. All the things...
+| Priority | Feature | Link |
+| -------- | ------- | ---- |
+| ![Static Badge](https://img.shields.io/badge/WIP-f90?style=flat-square) | **Fix bugs**<br>! | - |
+| ![Static Badge](https://img.shields.io/badge/WIP-f90?style=flat-square) | **Microscope** as an addition to Chemistry<br>- Add x-ray? | - |
+| ![Static Badge](https://img.shields.io/badge/WIP-f90?style=flat-square) | **Zero-G room**<br>- Determine door level for door circuits and ring walkway<br>- Make schematic<br>- Add methods to stack rooms | [#868](https://github.com/eccentricdevotion/TARDIS/issues/868) |
+| ![Static Badge](https://img.shields.io/badge/1-f00?style=flat-square) | **Modelled controls**<br>- Console lamp done | [#836](https://github.com/eccentricdevotion/TARDIS/issues/836) |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | **TARDIS Rooms world**<br>- Add spawn protection / limit abilty to mine blocks e.g. can break amethyst crystals but not blocks? | - |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | Floodgate forms for TIS | - |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | Add doors to shop items | - |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | **Sonic Blaster**<br>- Used to temporarily remove blocks only | - |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | Use the Vortex Manipulator to teleport past force fields | - |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | Optional world name in `/tardistravel` | [#306](https://github.com/eccentricdevotion/TARDIS/issues/306) |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | Time travel | [#305](https://github.com/eccentricdevotion/TARDIS/issues/305) |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | Charge players a fee (via Vault) for using the Junk TARDIS (buy ticket at the TARDISShop?) | - |
+| ![Static Badge](https://img.shields.io/badge/3-06f?style=flat-square) | All the things... | - |
 
 ## Wiki Documentation
 
+* Version 6.0.x changes
+* Make all images tabbed
+* Vanilla/TARDIS screenshots for TabbedImage views
+* Add Handles rotation command
 * ?
-
-## Resource Pack / Monsters
-
-1. New mobs and sounds for Resource pack
-   * Whispermen
-   * Clockwork Droid
-   * Endermites -> Cybermats
-   * Iron Golem -> Gunslinger
-   * Slimes -> Adipose
-   * Husk -> Sycorax
-   * Stray -> Scarecrows
-
-## Minecraft Bedrock Edition?
-
-1. Recreate everything :)
-2. Create custom blocks for the TARDIS and console
-3. Custom TARDIS items and crafting recipes for the same
-4. A Sonic Screwdriver and a crafting recipe for it
-5. GUIs
-6. Make the TARDIS Police Box an entity
-7. Custom monsters
