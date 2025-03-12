@@ -248,6 +248,12 @@ The Mire will distill you down to your essential nectar.
 
 ![The Mire](/images/docs/mire_helmetless.jpg)
 
+### Omega
+
+Omega.
+
+![Omega](/images/docs/omega.jpg)
+
 ### Ood
 
 Ood spawn randomly around villagers. Left-click an Ood to claim it as your own (requires `tardisweepingangels.ood` permission). Use the `/twa follow` command or 
