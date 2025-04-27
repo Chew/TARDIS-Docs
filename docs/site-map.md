@@ -216,7 +216,7 @@ import TabItem from '@theme/TabItem';
 [Modifying the interior](modifying-the-tardis-interior "Modifying the interior")  
 [Modules](modules "Modules")  
 [Monitor](monitor "Monitor")  
-[Monsters Configuration](configuration/monsters "Monsters Configuration")  
+[Monsters Configuration](modules/weeping-angels/config.md/monsters.md "Monsters Configuration")  
 [Monsters in the TARDIS](enter-and-exit#leaving-the-door-open "Monsters in the TARDIS")  
 [Mushroom command](commands/misc#tardismushroom "Mushroom command")  
 

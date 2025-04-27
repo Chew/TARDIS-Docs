@@ -539,7 +539,6 @@ const sidebars: SidebarsConfig = {
         'tips',
         'permissions',
         'permissions-table',
-        'weeping-angel-permissions',
         'kits',
         'recipes',
         'add-permissions',

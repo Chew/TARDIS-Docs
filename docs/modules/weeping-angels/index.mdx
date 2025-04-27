@@ -1,0 +1,125 @@
+---
+title: Weeping Angels
+---
+import CommandTable from "../../../src/components/CommandTable";
+
+# Weeping Angels
+
+TARDISWeepingAngels is a TARDIS plugin module that transforms Minecraft mobs into terrifying
+Whovian [monsters](https://www.bbc.co.uk/programmes/articles/4tDN85fyxYXTtVPrCql8jB/monsters).
+
+:::note
+
+For TARDIS version 4.13.0 and below you can download the separate TARDISWeepingAngels plugin JAR from here: [TARDISWeepingAngels](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels/)
+
+The instructions below are for the TARDIS module, but are pretty much the same, with some extra configuration options
+(database / plugin respect), and separate commands instead of sub-commands.
+
+:::
+
+## Enabling the module
+
+To use the Weeping Angels module, it must be enabled in the TARDIS config.
+
+- Type `/tardisconfig weeping_angels [true|false]` to enable or disable the feature.
+- A server restart is required when changing the config value.
+
+The TARDISWeepingAngel models and textures are part of the [TARDIS-Resource-Pack](/resource-packs).
+
+## Requirements
+
+**Version 4.x.x of this plugin/module requires Paper server or a compatible fork.**
+
+Version 5 and higher will run on Spigot and Paper servers :)
+
+For the full experience (textures and sounds), you’ll need
+the [TARDIS-Resource-Pack](/resource-packs)
+
+## Monsters
+
+* See the [list of monsters](./monsters.md)
+
+## Features
+
+For each monster:
+
+- Configurable spawn rate
+- Configurable drop on death
+- Only spawn them in the worlds you want
+
+## Monsters configuration
+
+For configuration options, see the [Monsters configuration](./config.md) page.
+
+## Commands
+
+<CommandTable extra={false} data={
+`twa:
+  aliases: tardisweepingangels
+  description: Manipulate TARDISWeepingAngels monsters with various arguments (spawn, kill, remove, count, disguise, equip, etc).
+  usage: /<command> [subcommand] <options...>
+`} args={`
+spawn:
+  description: Spawns a monster on the block you are targeting.
+  usage: /<command> spawn [monster type]
+  permission: tardisweepingangels.spawn
+  permission-message: You don't have the permission <permission> to use this command
+disguise:
+  description: Sets a player's armour so that they are disguised as a monster.
+  usage: /<command> disguise [monster type] [on|off]
+  permission: tardisweepingangels.disguise
+  permission-message: You don't have the permission <permission> to use this command
+count:
+  description: Reports the current number of the specifed monster in the specified world.
+  usage: /<command> count [monster type] [world]
+  permission: tardisweepingangels.count
+  permission-message: You don't have the permission <permission> to use this command
+kill:
+  description: Kills all of the specifed monster in the specified world.
+  usage: /<command> kill [monster type] [world]
+  permission: tardisweepingangels.kill
+  permission-message: You don't have the permission <permission> to use this command
+remove:
+  description: Removes an Ood, Judoon, K9.
+  usage: /<command> remove
+  permission: tardisweepingangels.remove
+  permission-message: You don't have the permission <permission> to use this command
+equip:
+  description: Equip an armour stand with monster armour.
+  usage: /<command> equip [monster type]
+  permission: tardis.admin
+  permission-message: You don't have the permission <permission> to use this command
+follow:
+  description: Make an Ood, Judoon or K9 follow you.
+  usage: /<command> follow
+  permission: tardisweepingangels.follow
+  permission-message: You don't have the permission <permission> to use this command
+stay:
+  description: Make an Ood, Judoon or K9 stop following you.
+  usage: /<command> stay
+  permission: tardisweepingangels.follow
+  permission-message: You don't have the permission <permission> to use this command
+set:
+  description: Set the maximum number of the specified monster allowed to spawn in the specified world.
+  usage: /<command> set [monster type|all] [world] [max number]
+  permission: tardis.admin
+  permission-message: You don't have the permission <permission> to use this command
+give:
+  description: Give the specified player the specified monster head.
+  usage: /<command> give [player] [monser type]
+  permission: tardis.admin
+  permission-message: You don't have the permission <permission> to use this command
+teleport:
+  description: Add the player's current location to weeping angels' teleport locations. If [replace] is specified, this location will replace any existing saved locations. If [true|false] is specified, set the value of 'angels.teleport_to_locations'.
+  usage: /<command> teleport [replace|true|false]
+  permission: tardis.admin
+  permission-message: You don't have the permission <permission> to use this command
+`} />
+
+## Permissions
+
+View the [Weeping Angel module permissions](../weeping-angel-permissions).
+
+## Video
+
+<iframe width="600" height="366" src="https://www.youtube.com/embed/Ybpo4KQZpF4?rel=0" frameborder="0" allowfullscreen></iframe>

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Weeping Angel module permissions
+title: Permissions
+description: Weeping Angels module permissions
 ---
 
 # Weeping Angel module permissions

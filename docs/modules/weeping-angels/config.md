@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Monsters configuration
+title: Configuration
+description: Weeping Angels configuration
 ---
 
 # Monsters configuration

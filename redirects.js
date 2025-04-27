@@ -61,6 +61,10 @@ const redirects = {
     '/smelter': '/rooms/smelter',
     '/vault': '/rooms/vault',
     '/zero-room': '/rooms/zero',
+
+    /// WEEPING ANGELS ///
+    '/weeping-angels-permissions': '/modules/weeping-angels/permissions',
+    '/configuration/monsters': '/modules/weeping-angels/config',
 };
 
 /// DO NOT TOUCH ///
