@@ -43,3 +43,40 @@ Choose a configuration page from below:
 
 ![Recharger](/images/docs/recharger.jpg)
 
+## Config file index
+
+Select the file you wish to learn more about here. These are all files found in the `/plugins/TARDIS` folder.
+
+* [achievements.yml](/achievements.md#customising-achievements)
+* [adaptive.yml](/adaptive-presets.mdx)
+* [artron.yml](/configuration/energy.mdx)
+* [blaster.yml](/modules/sonic-blaster.md#configuration)
+* blocks.yml
+* chameleon_guis.yml
+* condensables.yml
+* config.yml
+  * [allow:](/configuration/allow.mdx)
+  * [creation:](/configuration/creation.mdx)
+  * [difficulty:](/configuration/difficulty.mdx)
+  * [eye_of_harmony:](/configuration/eye-of-harmony.mdx)
+  * [growth:](/configuration/growth.mdx)
+  * [preferences:](/configuration/prefs.mdx)
+  * [police_box:](/configuration/preset.mdx)
+  * [storage:](/configuration/storage.mdx)
+  * [travel:](/configuration/travel.mdx)
+* [custom_consoles.yml](custom-consoles.md)
+* [custom_doors.yml](custom-doors.mdx)
+* [custom_models.yml](custom-model-presets.md)
+* custom_preset.txt
+* [custom_time_rotors.yml](custom-rotors.mdx)
+* [flat_world.yml](/modules/generators.md#configurable-flat-world)
+* [handles.yml](handles.md#config-options)
+* items.yml
+* [kits.yml](kits.md#configuring-kits)
+* [monsters.yml](/modules/weeping-angels/config.md)
+* [permissions.txt](add-permissions.md)
+* [planets.yml](/configuration/planets.mdx)
+* quotes.txt
+* [regeneration.yml](/modules/regeneration.mdx#configuration-options)
+* [rooms.yml](/configuration/rooms.md)
+* [shop.yml](/modules/tardis-shop.mdx#config-options)

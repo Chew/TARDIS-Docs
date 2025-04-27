@@ -560,7 +560,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: "Plugin Configuration",
       link: {
-        type: "generated-index"
+        type: "doc",
+        id: "configuration"
       },
       items: [
         {
