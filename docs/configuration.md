@@ -73,7 +73,7 @@ Select the file you wish to learn more about here. These are all files found in 
 * [handles.yml](handles.md#config-options)
 * items.yml
 * [kits.yml](kits.md#configuring-kits)
-* [monsters.yml](/modules/weeping-angels/config.md)
+* [monsters.yml](/configuration/monsters.md)
 * [permissions.txt](add-permissions.md)
 * [planets.yml](/configuration/planets.mdx)
 * quotes.txt
