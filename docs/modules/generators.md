@@ -47,20 +47,54 @@ Desert biome with custom sky colour, trees and Dalek structures.
 
 Block layer types are configurable:
 
-```yaml title="/plugins/TARDIS/flat_world.yml"
-## Blocks to use in the Flat World Generator
+```yaml title="/plugins/TARDIS/generator.yml"
 # Use Spigot Material names
-# bottom has 1 layer
-bottom: BEDROCK
-# rock has ~60 layers
-rock: STONE
-# middle has 3 layers
-middle: DIRT
-# surface has 1 layer
-surface: GRASS_BLOCK
+# materials to use in the Flat World Generator
+flat:
+  # bottom has 1 layer
+  bottom: BEDROCK
+  # rock has ~60 layers
+  rock: STONE
+  # middle has 3 layers
+  middle: DIRT
+  # surface has 1 layer
+  surface: GRASS_BLOCK
 ```
 
 ![Flat world](/images/docs/flat_world.jpg)
+
+## Configurable plots world
+
+`TARDIS:plot`
+
+Block layer types are configurable:
+
+```yaml title="/plugins/TARDIS/generator.yml"
+# Use Spigot Material names
+# materials to use in the Plot Generator
+plot:
+  rock: STONE
+  middle: DIRT
+  surface: GRASS_BLOCK
+  # wall block - must be a valid Wall - https://minecraft.wiki/w/Wall#Variants
+  wall: RESIN_BRICK_WALL
+  # gate block - must be a valid Fence Gate - https://minecraft.wiki/w/Fence_Gate#ID
+  gate: BAMBOO_FENCE_GATE
+  # sign block - must be a valid Sign - https://minecraft.wiki/w/Sign#ID
+  sign: BAMBOO_SIGN
+  road_side: GRAY_CONCRETE
+  road_line: WHITE_CONCRETE
+  # size of the plot in chunks
+  size: 3
+  # the maximum number of plots a player can claim
+  claim_max: 3
+  # whether to create a TARDIS area when the world is first generated
+  create_area: true
+```
+
+For more information on claiming and managing plots see the [Plot](/modules/plots) page.
+
+![Plot world](/images/docs/plot_world.jpg)
 
 ## Water world
 

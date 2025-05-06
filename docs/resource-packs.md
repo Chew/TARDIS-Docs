@@ -17,7 +17,7 @@ If you have modified or are creating your own TARDIS resource pack, you can use 
 
 Use the TARDIS-Resource-Pack found here:
 
-[https://github.com/eccentricdevotion/TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack)
+[https://github.com/eccentricdevotion/TARDIS-Resource-Pack/releases](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/releases)
 
 or here:
 

@@ -1,0 +1,123 @@
+---
+layout: default
+title: Plot World Generator
+---
+
+import CommandTable from "@site/src/components/CommandTable";
+
+# Plot World Generator
+
+The Chunk Generator module includes a world generator for creating simple plots.
+
+:::tip
+
+For full functionality, plots require [WorldGuard](https://enginehub.org/worldguard) installed on the server to manage build permissions and protection.
+
+:::
+
+## Creating a plot world
+
+- Open _plugins/TARDIS/planets.yml_
+- Add a new entry - copy an existing entry and change the world name
+- Set the generator to `TARDIS:plot`
+- Change other settings as desired - see the suggested example below
+- Save the _planets.yml_ file
+- Open _plugins/TARDIS/generator.yml_
+- Edit the default settings if desired
+- Save the _generator.yml_ file
+- Install WorldGuard and WorldEdit if necessary
+- Stop and restart the server
+
+```yaml title="/plugins/TARDIS/planets.yml"
+planets:
+  # ... other entries
+  plots:
+    enabled: true
+    time_travel: false
+    resource_pack: default
+    gamemode: CREATIVE
+    world_type: NORMAL
+    environment: NORMAL
+    difficulty: EASY
+    generator: TARDIS:plot
+    alias: Plots
+    icon: LAPIS_LAZULI
+    allow_portals: false
+    spawn_chunk_radius: 0
+    helmic_regulator_order: 7
+    gamerules:
+      doWeatherCycle: false
+      doDaylightCycle: false
+      doMobSpawning: false
+      doTraderSpawning: false
+      doPatrolSpawning: false
+      doWardenSpawning: false
+```
+
+## Generator configuration
+
+Edit the blocks the generator uses in _generator.yml_.
+
+You can also change the plot size, how many plots a player can claim, and whether thenplugin should automatically create a TARDIS area when the world is first generated.
+
+```yaml title="/plugins/TARDIS/generator.yml"
+# Use Spigot Material names
+# materials to use in the Plot Generator
+plot:
+  rock: STONE
+  middle: DIRT
+  surface: GRASS_BLOCK
+  # wall block - must be a valid Wall - https://minecraft.wiki/w/Wall#Variants
+  wall: RESIN_BRICK_WALL
+  # gate block - must be a valid Fence Gate - https://minecraft.wiki/w/Fence_Gate#ID
+  gate: BAMBOO_FENCE_GATE
+  # sign block - must be a valid Sign - https://minecraft.wiki/w/Sign#ID
+  sign: BAMBOO_SIGN
+  road_side: GRAY_CONCRETE
+  road_line: WHITE_CONCRETE
+  # size of the plot in chunks
+  size: 3
+  # the maximum number of plots a player can claim
+  claim_max: 3
+  # whether to create a TARDIS area when the world is first generated
+  create_area: true
+```
+
+## Permissions
+
+There is one permission associated with TARDIS plots - it is required for claiming plots and using the `/tardisplot` command.
+
+`tardis.plot`
+
+## Claiming plots
+
+- Enter the plot world - you may want to set up one of the plots as a TARDIS area - see config above.
+- Find a plot with an empty sign on the corner.
+- Right-click the wall block **under** the sign.
+- The sign will update with the player's name and the coordinates of the chunk the plot is in.
+- To give the plot a nice name, run the command `/tardisplot name [the new name]` - the name must be between 2 and 16 characters. You will be promted to right-click the wall block **under** the sign again.
+- Build in your new plot!
+
+## `/tardisplot`
+
+There is one command associated with TARDIS plots:
+
+<CommandTable data={
+    `tardisarea:
+    aliases: tplot
+    description: Manipulate plots in the plot world generator.
+    permission: tardis.plot
+    usage: /<command> [name] [plot_name]
+    `
+}
+args={
+    `
+    name:
+      description: Change the name of a plot.
+      usage: /<command> name [plot_name]
+    `
+}
+extra='false'
+>
+
+</CommandTable>
