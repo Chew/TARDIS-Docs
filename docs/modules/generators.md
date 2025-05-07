@@ -92,7 +92,7 @@ plot:
   create_area: true
 ```
 
-For more information on claiming and managing plots see the [Plot](/modules/plots) page.
+For more information on claiming and managing plots see the [Plot World Generator](/plots) page.
 
 ![Plot world](/images/docs/plot_world.jpg)
 

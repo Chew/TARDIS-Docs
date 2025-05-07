@@ -549,6 +549,7 @@ const sidebars: SidebarsConfig = {
         'wiki-sign',
         'debug-preview',
         'prune',
+        'plots',
         'api',
         'update-blocks',
         'build-tools',
