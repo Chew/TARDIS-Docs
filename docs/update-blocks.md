@@ -123,3 +123,7 @@ title: Updateable blocks
 - STONE_PRESSURE_PLATE
 - WARPED_BUTTON
 - WARPED_PRESSURE_PLATE
+
+**charging-sensor, handbrake-sensor, flight-sensor, malfunction-sensor, power-sensor:**
+
+- REDSTONE_BLOCK
