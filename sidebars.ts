@@ -141,6 +141,7 @@ const sidebars: SidebarsConfig = {
             ]
         },
         'materialisation-particles',
+        'sensors'
       ],
     },
     {
