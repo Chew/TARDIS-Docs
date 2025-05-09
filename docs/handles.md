@@ -174,7 +174,7 @@ Console Disks.
 
 ## Permissions
 
-The is one parent permission, with three children for finer control that allow players to use the Handles companion.
+There is one parent permission, with three children for finer control that allow players to use the Handles companion.
 
 ```
 tardis.handles
