@@ -538,6 +538,7 @@ const sidebars: SidebarsConfig = {
         'localisation',
         'placeholders',
         'tips',
+        'permissions-plugin',
         'permissions',
         'permissions-table',
         'weeping-angel-permissions',

@@ -5,42 +5,36 @@ title: Permissions
 
 # Permissions
 
-:::info Quote from eccentric_nz
+:::info
 
-If you are getting the error:
+While it is possible to run the TARDIS plugin without using a permissions plugin, this would mean that all players that want a TARDIS would need to be opped!
 
-> `Your exile status does not allow you to bring the TARDIS to this...`
-
-or
-
-> `Your travel has been restricted to the [] area!`
-
-Update the plugin!
+See the [permissions plugin](/permissions-plugin) page for more information on setting up permissions.
 
 :::
 
-## Setting permissions for TARDIS worlds
-
-To automatically set permissions for TARDIS worlds when they are created go read
-the [Add permissions page](add-permissions).
-
-* * *
-
-## ???
+:::tip
 
 Can't find the permission you’re looking for?
 
 Check out the [Big list of permissions](permissions-table) taken directly from _plugin.yml_.
 
-* * *
+:::
 
-There are a number of self explanatory permissions:
+:::warning
 
-## General
+Never give players (even admins) the `tardis.*` permission. TARDIS has some permissions that can be used as (role-playing) punishments - such as `tardis.exile` that are not desirable for general use.
+
+:::
+
+
+## General perms
 
 Allow players to use a TARDIS
 
-    tardis.use
+```
+tardis.use
+```
 
 There are a number of (probably unnecessary and self explanatory) child nodes. This means that if you have given
 players `tardis.use` you _DON’T_ need to give any of the permissions below.
@@ -542,3 +536,24 @@ Can't find the permission you’re looking for?
 
 Check out the [Big list of permissions](permissions-table) taken directly from _plugin.yml_.
 
+
+## Exile status
+
+:::info Quote from eccentric_nz
+
+If you are getting the error:
+
+> `Your exile status does not allow you to bring the TARDIS to this...`
+
+or
+
+> `Your travel has been restricted to the [] area!`
+
+Update the plugin!
+
+:::
+
+## Setting permissions for TARDIS worlds
+
+To automatically set permissions for TARDIS worlds when they are created go read
+the [Add permissions page](add-permissions).
