@@ -16,7 +16,7 @@ const redirects = {
 
     /// MODULES ///
     '/blueprints': '/modules/blueprints',
-    '/dynmap-tardis': '/modules/dynmap-tardis',
+    '/dynmap-tardis': '/modules/dynmap',
     '/generators': '/modules/generators',
     '/sonic-blaster': '/modules/sonic-blaster',
     '/tardis-shop': '/modules/tardis-shop',

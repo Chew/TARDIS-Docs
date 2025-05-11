@@ -24,7 +24,7 @@ modules:
 
 :::info
 
-The Chunk Generator module is always enabled.
+The Chunk Generator module is always enabled, but generators other than the [`void`](/modules/generators#void) generator are only used if they are specified in _planets.yml_ or the Whovian planets (Gallifrey, Siluria, Skaro) are enabled.
 
 :::
 
@@ -46,7 +46,7 @@ To see what each module does, visit the appropriate page:
 - [Chunk Generator](/modules/generators)
 - [Weeping Angels](/modules/weeping-angels)
 - [Vortex Manipulator](/modules/vortex-manipulator)
-- Mapping - with [Dynmap](/modules/dynmap-tardis) or [Bluemap](/modules/bluemap)
+- Mapping - with [Dynmap](/modules/dynmap) or [Bluemap](/modules/bluemap) or [squaremap](/modules/squaremap)
 - [Shop](/modules/tardis-shop)
 - [Sonic Blaster](/modules/sonic-blaster)
 - [Chemistry Lab](/chemistry-lab)

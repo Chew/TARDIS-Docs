@@ -58,6 +58,7 @@ import TabItem from '@theme/TabItem';
 [Biome Reader](tardis-items#biome-reader "Biome Reader")  
 [Biome Storage Disks](crafting-disks#biome-storage-disks "Biome Storage Disks")  
 [Blank Storage Disks](crafting-disks#crafting-the-blank-disks "Blank Storage Disks")  
+[BlueMap](modules/bluemap "BlueMap")  
 [Blueprints](modules/blueprints "Blueprints")  
 [Books](books "Books")  
 [Bow ties](accessories "Bow ties")  
@@ -116,7 +117,7 @@ import TabItem from '@theme/TabItem';
 [Dev commands](commands/dev "Dev commands")  
 [Difficulty](faqs#difficulty "Difficulty")  
 [Direction Frame](commands/tardis#direction_frame "Direction Frame")  
-[Dynmap-TARDIS](modules/dynmap-tardis "Dynmap-TARDIS")  
+[Dynmap](modules/dynmap "Dynmap")  
 
 </TabItem>
 <TabItem value="E" label="E">
@@ -208,6 +209,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="M" label="M">
 
 [Malfunction](malfunction "Malfunction")  
+[Mapping](modules/mapping "Mapping")  
 [Materialisation Particles](materialisation-particles "Materialisation Particles")  
 [Microscope](chemistry-lab/microscope "Microscope")  
 [Mire](modules/weeping-angels#mire "Mire")  
@@ -296,6 +298,7 @@ import TabItem from '@theme/TabItem';
 [Sontarans](modules/weeping-angels#sontarans "Sontarans")  
 [Space Time Throttle](throttle "Space Time Throttle")  
 [Spigot](http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/ "Spigot")  
+[squaremap](modules/squaremap "squaremap")  
 [Stattenheim Remote](tardis-items#stattenheim-remote "Stattenheim Remote")  
 [Strax](modules/weeping-angels#strax "Strax")  
 [Sudo commands](commands/sudo "Sudo commands")  
