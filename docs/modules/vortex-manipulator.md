@@ -8,7 +8,7 @@ title: Vortex Manipulator
 > "Vortex manipulator. Cheap and nasty time travel. Very bad for you. I'm trying to give it up."
 
 TARDISVortexManipulator is one of the TARDIS plugin modules that brings
-the [Vortex Manipulator](https://tardis.fandom.com/wiki/Vortex_manipulator) to Minecraft. Travel like Jack Harkness or
+the [Vortex Manipulator](https://tardis.wiki/wiki/Vortex_manipulator) to Minecraft. Travel like Jack Harkness or
 River Song from Doctor Who! Have the Vortex Manipulator in your hand, put in your desired location, and GO!
 
 :::note

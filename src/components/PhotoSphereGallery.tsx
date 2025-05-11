@@ -127,7 +127,7 @@ export function PhotoSphereGallery() {
                 panorama: '/images/spheres/division.jpg',
                 thumbnail: '/images/spheres/thumbs/division.jpg',
                 options: {
-                    caption: 'Division TARDIS — A TARDIS inspired by <a href="https://tardis.fandom.com/wiki/The_Division" target="_blank">The Division ship outpost</a> — <strong>Size:</strong> MEDIUM',
+                    caption: 'Division TARDIS — A TARDIS inspired by <a href="https://tardis.wiki/wiki/The_Division" target="_blank">The Division ship outpost</a> — <strong>Size:</strong> MEDIUM',
                 },
             },
             {
