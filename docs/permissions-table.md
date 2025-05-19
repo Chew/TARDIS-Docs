@@ -105,7 +105,7 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.create_world</code></td><td colspan="2">Allow players to create a TARDIS in it's own world. This is only used in conjuction with the <code>create_worlds_with_perms</code> config option.</td><td>op</td></tr>
     <tr><td><code>tardis.exterminate</code></td><td colspan="2">Allow players to delete their own TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.fly</code></td><td colspan="2">Allow players to ply the TARDIS exterior.</td><td>op</td></tr>
-    <tr><td><code>tardis.timetravel</code></td><td colspan="2">Allow players to travel to random locations and saved destinations.</td><td>op</td></tr>
+    <tr><td><code>tardis.timetravel</code></td><td colspan="2">Allow players to travel to random locations and saved destinations, plus the ability to set their TARDIS home location.</td><td>op</td></tr>
     <tr><td><code>tardis.timetravel.player</code></td><td colspan="2">Allow players to travel to player locations.</td><td>op</td></tr>
     <tr><td><code>tardis.timetravel.rescue</code></td><td colspan="2">Allow players to rescue other players.</td><td>op</td></tr>
     <tr><td><code>tardis.timetravel.location</code></td><td colspan="2">Allow players to travel to coordinates.</td><td>op</td></tr>
@@ -174,7 +174,6 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.prefs.wool_lights</code></td><td>true</td></tr>
     <tr><td><code>tardis.list</code></td><td colspan="2">Allow players to list saved time travel destinations.</td><td>op</td></tr>
     <tr><td><code>tardis.save</code></td><td colspan="2">Allow players to save time travel destinations.</td><td>op</td></tr>
-    <tr><td><code>tardis.home</code></td><td colspan="2">Allow players to save a time travel destination as their home.</td><td>op</td></tr>
     <tr><td><code>tardis.enter</code></td><td colspan="2">Allow players to enter a TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.find</code></td><td colspan="2">Allow players to find their TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.add</code></td><td colspan="2">Allow players to add/remove companions to their TARDIS.</td><td>op</td></tr>
