@@ -77,7 +77,7 @@ To return home simply use the command:
 To move your TARDIS home location, simply look at the block you wish to make the new home location, and use the command:
 
 ```
-/tardis home
+/tardis sethome
 ```
 
 ### Saving destinations
