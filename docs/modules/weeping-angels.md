@@ -47,14 +47,17 @@ the [TARDIS-Resource-Pack](/resource-packs)
 * [Empty Children](#empty-children)
 * [Hath](#hath)
 * [Headless Monks](#headless-monk)
+* [Heavenly Hosts](#heavenly-hosts)
 * [Ice Warriors](#ice-warriors)
 * [Judoon](#judoon)
 * [K-9](#k-9)
 * [Mire](#mire)
+* [Nimon](#nimon)
 * [Omega](#omega)
 * [Ood](#ood)
 * [Sycorax](#sycorax)
 * [Ossified Time Zombies](#ossified-time-zombies)
+* [Saturnynians](#saturnynians)
 * [Sea Devils](#sea-devils)
 * [Scarecrows](#scarecrows)
 * [Silent](#silent)
@@ -203,6 +206,12 @@ Headless Monks fire energy blasts from their hands as well as channelling that e
 
 ![Headless Monk](/images/docs/headless_monk_2.jpg)
 
+### Heavenly Hosts
+
+Heavenly Hosts.
+
+![Heavenly Hosts](/images/docs/heavenly_host.jpg)
+
 ### Judoon
 
 Judoon are the police force of the Whoniverse. Left-click a Judoon to claim it as your own.
@@ -248,6 +257,12 @@ The Mire will distill you down to your essential nectar.
 
 ![The Mire](/images/docs/mire_helmetless.jpg)
 
+### Nimon
+
+The Nimon.
+
+![Nimon](/images/docs/nimon.jpg)
+
 ### Omega
 
 Omega.
@@ -272,6 +287,12 @@ These appear if you die in the Eye of Harmony room.
 Racnoss spawn randomly in the Nether.
 
 ![Racnoss](/images/docs/racnoss.jpg)
+
+### Saturnynians
+
+Saturnynians are the natural form of the Vampires of Venice. There is a 15% chance a Saturnynian will spawn instead of a Vampire.
+
+![Saturnynians](/images/docs/saturnynian.jpg)
 
 ### Scarecrows
 
