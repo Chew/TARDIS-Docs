@@ -57,7 +57,7 @@ To download a skin and use it as your regular skin, click the _Download_ button.
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| ![Bannakaffalatta](/images/skins/bannakaffalatta.png)<br/>Bannakaffalatta | ![Brigadier Lethbridge-Stewart](/images/skins/brigadier_lethbridge_stewart.png)<br/>Brigadier Lethbridge-Stewart | ![Captain Jack Harkness](/images/skins/captain_jack_harkness.png)<br/>Captain Jack Harkness | ![Dalek Sec](/images/skins/dalek_sec.png) |
+| ![Bannakaffalatta](/images/skins/bannakaffalatta.png)<br/>Bannakaffalatta | ![Brigadier Lethbridge-Stewart](/images/skins/brigadier_lethbridge_stewart.png)<br/>Brigadier<br/>Lethbridge-Stewart | ![Captain Jack Harkness](/images/skins/captain_jack_harkness.png)<br/>Captain<br/>Jack Harkness | ![Dalek Sec](/images/skins/dalek_sec.png)<br/>Dalek Sec |
 | ![Hath](/images/skins/hath.png)<br/>Hath | ![Impossible Astronaut](/images/skins/impossible_astronaut.png)<br/>Impossible Astronaut | ![Jenny Flint](/images/skins/jenny_flint.png)<br/>Jenny Flint | ![Judoon](/images/skins/judoon.png)<br/>Judoon |
 | ![Kate Stewart](/images/skins/kate_stewart.png)<br/>Kate Stewart | ![Madame Va’stra](/images/skins/madame_vastra.png)<br/>Madame Va’stra |  ![Ood](/images/skins/ood.png)<br/>Ood | ![Oswin Oswald](/images/skins/oswin_oswald.png)<br/>Oswin Oswald |
 | ![Rassilon](/images/skins/rassilon.png)<br/>Rassilon | ![River Song](/images/skins/river_song.png)<br/>River Song | ![Roman Rory](/images/skins/roman_rory.png)<br/>Roman Rory | ![Strax](/images/skins/strax.png)<br/>Strax |
