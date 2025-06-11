@@ -25,7 +25,7 @@ The other option is to use a server-based MySQL database - _we don't recommend t
 
 Sometimes things can go wrong with the plugin. Whether due to a bug or player error (did you check the Wiki before doing that?) you may sometimes need to alter or delete TARDIS records.
 
-To open the SQLite TARDIS.db file you will need an editor. We use [DB Browser for SQLite](https://sqlitebrowser.org/). Check out their wiki for more infomation - https://github.com/sqlitebrowser/sqlitebrowser/wiki
+To open the SQLite `TARDIS.db` file you will need an editor. We use [DB Browser for SQLite](https://sqlitebrowser.org/). Check out their wiki for more infomation - https://github.com/sqlitebrowser/sqlitebrowser/wiki
 
 ![DB Browser for SQLite](/images/docs/db_sqlitebrowser.svg)
 
@@ -34,7 +34,7 @@ To open the SQLite TARDIS.db file you will need an editor. We use [DB Browser fo
 1. Locate a player's Minecraft `UUID` for the TARDIS you want to edit.
 2. Stop the server.
 3. Download and open up the `plugins/TARDIS/TARDIS.db` file.
-4. Go into the **Browse Data** view, and look up the `tardis` table, using the UUID from step 1, note down the `tardis_id` that mateches it.
+4. Go into the **Browse Data** view, and look up the `tardis` table, using the UUID from step 1, note down the `tardis_id` that matches it.
 5. Now go to the database table you want to edit, and sort it by `tardis_id`.
 6. Find the record(s) you want to edit / remove:
    - Make changes, by clicking on the field that you want to edit, then altering the value in the _Edit Database Cell_ pane on the right. Click the _Apply_ button ( ![Apply](/images/docs/db_apply.png) ) to finalise changes.
