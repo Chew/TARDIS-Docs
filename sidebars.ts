@@ -552,6 +552,7 @@ const sidebars: SidebarsConfig = {
         'world-management',
         'custom-consoles',
         'localisation',
+        'database',
         'placeholders',
         'tips',
         'permissions-plugin',
