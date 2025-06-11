@@ -34,10 +34,10 @@ To open the SQLite TARDIS.db file you will need an editor. We use [DB Browser fo
 1. Locate a player's Minecraft `UUID` for the TARDIS you want to edit.
 2. Stop the server.
 3. Download and open up the `plugins/TARDIS/TARDIS.db` file.
-4. Go into the **Browse DATA** view, and look up the `tardis` table, using the UUID from step 1, note down the `tardis_id` that mateches it.
+4. Go into the **Browse Data** view, and look up the `tardis` table, using the UUID from step 1, note down the `tardis_id` that mateches it.
 5. Now go to the database table you want to edit, and sort it by `tardis_id`.
 6. Find the record(s) you want to edit / remove:
-   - Make changes, by clicking on the field that you want to edit, then alter the value in the _Edit Database Cell_ pane on the right. Click the _Apply_ button ( ![Apply](/images/docs/db_apply.png) ) to finalise changes.
+   - Make changes, by clicking on the field that you want to edit, then altering the value in the _Edit Database Cell_ pane on the right. Click the _Apply_ button ( ![Apply](/images/docs/db_apply.png) ) to finalise changes.
    - Delete it by selecting the row (click anywhere in the row), then clicking the _Delete the current record_ button ( ![Delete](/images/docs/db_delete.png) ) in the _Table_ toolbar.
 7. Click the _Write Changes_ button ( ![Write](/images/docs/db_write.png) ) in the DB toolbar.
 8. Re-upload to your server and restart.
