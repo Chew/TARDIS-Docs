@@ -33,6 +33,12 @@ A vanilla styled fork of the resource pack with downsized block textures, and us
 
 If you like it, make sure to give FuzzyLeo some encouragement :)
 
+:::note
+
+Currently not compatible with TARDIS 6.1.0 and Spigot/Paper 1.21.5 and above.
+
+:::
+
 ## Sounds only
 
 Use the TARDIS-Sound-Resource-Pack found here:
@@ -43,25 +49,12 @@ or here:
 
 [http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/)
 
-## TARDIS Weeping Angels
-
-These are included in the TARDIS-Resource-Pack, but if you are running TWA independently or don't want the other TARDIS
-textures, you can use the TARDISWeepingAngels-Resource-Pack found here:
-
-[https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack](https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack)
-
-or here:
-
-[http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/)
-
-![TWA](/images/docs/cyberman2.jpg)
-
-### Keeping the resource packs up-to-date
+## Keeping the resource packs up-to-date
 
 Resource packs are automatically built on the TARDIS Jenkins server when changes are pushed to GitHub. 
 Download and replace the pack Zip files when a new file is created.
 
-#### Alternatively
+### Alternatively
 
 The TARDIS resource packs are shared in GitHub repositories. If you install a GitHub client, you can easily keep your
 resource packs current by syncing with any changes that are pushed to the repository.
@@ -86,3 +79,15 @@ Here’s a quick run down on doing that:
 
 - `Command-Shift-P` on a Mac
 - `Control-Shift-P` on Windows
+
+## TARDIS Weeping Angels
+
+These are included in the TARDIS-Resource-Pack, but if you are running TWA independently or don't want the other TARDIS textures, you can use the TARDISWeepingAngels-Resource-Pack found here:
+
+[https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack](https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack)
+
+or here:
+
+[http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/)
+
+![TWA](/images/docs/cyberman2.jpg)
