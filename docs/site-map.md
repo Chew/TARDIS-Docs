@@ -316,6 +316,7 @@ import TabItem from '@theme/TabItem';
 [TARDIS console](console "TARDIS Console")  
 [TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
 [TARDIS Display](display "TARDIS Display")  
+[TARDIS Information System](tis "TARDIS Information System")  
 [TARDIS Interior Sounds](hum "TARDIS Interior Sounds")  
 [TARDIS Locator](tardis-items#locator "TARDIS Locator")  
 [TARDIS Map](map "TARDIS Map")  

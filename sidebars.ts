@@ -71,6 +71,7 @@ const sidebars: SidebarsConfig = {
         },
         'enter-and-exit',
         'removing-a-tardis',
+        'tis',
       ],
     },
     {
