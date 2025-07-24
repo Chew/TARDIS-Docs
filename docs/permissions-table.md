@@ -257,6 +257,7 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.nether</code></td><td colspan="2">Allow players to time travel to the NETHER.</td><td>op</td></tr>
     <tr><td><code>tardis.room</code></td><td colspan="2">Allow players to grow extra rooms.</td><td>op</td></tr>
     <tr class="child"><td rowspan="37"> &nbsp; &mdash; children of <code>tardis.room</code></td><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.allay</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.apiary</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.aquarium</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.arboretum</code></td><td>true</td></tr>
@@ -266,19 +267,26 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.birdcage</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.chemistry</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.empty</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.eye</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.farm</code></td><td>true</td></tr>
-    <tr class="child"><td colspan="2"><code>tardis.room.gravity</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.garden</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.geode</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.gravity</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.greenhouse</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.happy</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.harmony</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.hutch</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.igloo</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.iistubil</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.kitchen</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.lava</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.lazarus</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.library</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.mangrove</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.maze</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.mushroom</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.nether</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.observatory</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.passage</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.pool</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.rail</code></td><td>true</td></tr>

@@ -52,25 +52,35 @@ and follow the instructions. The room types and their corresponding seed blocks 
 
 | Room | Seed block |
 | ---- | ---------- |
+| Allay | LIGHT_BLUE_CONCRETE |
+| Apiary | BEE_NEST |
 | Aquarium | TUBE_CORAL_BLOCK |
 | Arboretum | OAK_LEAVES |
 | Baker | END_STONE |
+| Bamboo | BAMBOO |
 | Bedroom | GLOWSTONE |
 | Birdcage | YELLOW_GLAZED_TERRACOTTA |
+| Chemistry | BLAST_FURNACE |
 | Empty | GLASS |
-| Eye of Harmony | STONE_BRICK_STAIRS |
+| Eye | SHROOMLIGHT |
 | Farm | DIRT |
+| Garden | CHERRY_LEAVES |
+| Geode | AMETHYST_BLOCK |
 | Gravity Well | MOSSY_COBBLESTONE |
 | Anti-Gravity Well | SANDSTONE |
-| Garden | CHERRY_LEAVES |
 | Greenhouse | MELON |
+| Happy | STRIPPED_OAK_LOG |
+| Harmony | STONE_BRICK_STAIRS |
 | Hutch | ACACIA_LOG |
 | Igloo | PACKED_ICE |
 | Iistubil | WHITE_GLAZED_TERRACOTTA |
 | Kitchen | PUMPKIN |
+| Lava | MAGMA_BLOCK |
 | Lazarus | FURNACE |
 | Library | ENCHANTING_TABLE |
+| Mangrove | MUDDY_MANGROVE_ROOTS |
 | Mushroom | GRAVEL |
+| Nether | BLACKSTONE |
 | Observatory | POLISHED_BLACKSTONE_BRICKS |
 | Passage | CLAY |
 | Pen | MOSS_BLOCK |

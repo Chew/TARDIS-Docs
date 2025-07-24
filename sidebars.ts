@@ -120,6 +120,7 @@ const sidebars: SidebarsConfig = {
             'rooms/eye',
             'rooms/garden',
             'rooms/gravity-wells',
+            'rooms/happy',
             'rooms/rail',
             'rooms/smelter',
             'rooms/vault',

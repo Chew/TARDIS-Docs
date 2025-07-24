@@ -9,30 +9,30 @@ You can capture farm animals in the Police Box and transport them into the TARDI
 
 The mobs you can collect are:
 
+- Allay
+- Axolotl
 - Bee
-- Fish
-- Pandas
+- Camel
 - Chicken
 - Cow
-- Pig
-- Sheep
-- Mooshroom
+- Fish
+- Frog
+- Guardian
+- Happy Ghast
 - Horse
 - Llama
-- Rabbit
-- Villager
-- Guardian
+- Mooshroom
+- Pandas
+- Pig
 - Polar Bear
-- Axolotl
-- Frog
-- Camel
+- Rabbit
+- Sheep
 - Sniffer
 - Strider
-- Allay
+- Villager
 
 You will first need to herd the mobs so that they are close to the Police Box (within 2 blocks) — using the appropriate tempt item in
-hand should make them follow you — sometimes you may be lucky enough to have the Police Box materialise around an
-animal!
+hand should make them follow you — sometimes you may be lucky enough to have the Police Box materialise around an animal!
 
 Enter the TARDIS as usual, and the following will happen:
 
@@ -42,6 +42,7 @@ Enter the TARDIS as usual, and the following will happen:
 - If you have already grown a [**bamboo**](/rooms/gallery#Bamboo) room, then pandas will be teleported into the bamboo room
 - If you have already grown a [**farm**](/rooms/gallery#Farm) room, then chickens, cows, pigs, sheep and mooshrooms will be teleported 
   into the appropriate pen in the farm
+- If you have already grown a [**happy**](/rooms/gallery#Happy) room, then Happy Ghasts will be teleported into the happy room - see the [Happy Ghast Room](/rooms/happy) page for more details
 - If you have already grown a [**iistubil**](/rooms/gallery#Iistubil) room, then camels will be teleported into the iistubil room
 - If you have already grown a [**lava**](/rooms/gallery#Lava) room, then striders will be teleported into the lava room
 - If you have already grown a [**stable**](/rooms/gallery#Stable) room, then horses will be teleported into the stable
