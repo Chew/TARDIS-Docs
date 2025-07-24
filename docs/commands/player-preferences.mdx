@@ -33,13 +33,16 @@ There are a number of specific player preferences that you can change:
 - Farming
 - Junk Mode
 - Interior hum sound effects
-- Announce repeater settings
 - TARDIS Information System mode
+- Announce repeater settings
+- Use dialogs
+- Open display door
+- Exterior materialisation particles
 
 Each preference can be set with a command, and some of them can be set via an inventory based GUI (if the player has a
 Sonic Screwdriver, sneaking and right-clicking air will open the Player Preferences GUI).
 
-![Player prefs GUI](/images/docs/player_prefs_custom.jpg)
+![Player prefs GUI](/images/docs/player_prefs.png)
 
 ## Player preference commands
 
@@ -79,18 +82,26 @@ args={
       description: Toggle companion building inside the TARDIS on and off.
       permission: tardis.prefs.build
       usage: /<command> build [on|off]
-    chameleon:
+    close_gui:
       description: Toggle the chameleon circuit on and off.
       permission: tardis.prefs.chameleon
       usage: /<command> chameleon [on|off]
-    difficulty:
-      description: Change your personal difficulty level.
-      permission: tardis.prefs.difficulty
-      usage: /<command> difficulty [easy|medium|hard]
+    console_labels:
+      description: Toggle whether to show labels for modelled console controls.
+      permission: tardis.prefs.console_labels
+      usage: /<command> console_labels [on|off]
+    dialogs:
+      description: Toggle whether dialogs are shown (where available) instead of chest GUIs.
+      permission: tardis.prefs.dialogs
+      usage: /<command> dialogs [on|off]
     dnd:
-      description: Annoyed by other players time travelling to your location?Toggle whether other players can request travel/rescue to you.
+      description: Annoyed by other players time travelling to your location? Toggle whether other players can request travel/rescue to you.
       permission: tardis.prefs.dnd
       usage: /<command> dnd [on|off]
+    effect:
+      description: Set the exterior materialisation particle effect.
+      permission: tardis.prefs.effect
+      usage: /<command> effect [particle effect]
     eps:
       description: Toggle Emergency Programme One on and off.
       permission: tardis.prefs.eps
@@ -128,7 +139,7 @@ args={
       permission: tardis.prefs.hum
       usage: /<command> hum [sound]
     info:
-      description: Set the TARDIS Information System mode. If turned on, the mode is set to use a GUI - off uses chat.
+      description: Sets whether the to show the TARDIS Information System chest GUI or the chat based GUI. May be affected by the dialogs preference.
       permission: tardis.prefs.info
       usage: /<command> info [on|off]
     isomorphic:
@@ -151,22 +162,26 @@ args={
       description: Set the language used in the '/tardis say' command.
       permission: tardis.prefs.language
       usage: /<command> language [language]
-    lanterns:
-      description: Toggle Sea Lanterns for lights on and off.
-      permission: tardis.prefs.lanterns
-      usage: /<command> lanterns [on|off]
-    message:
-      description: Set the Emergency Programme One message.
-      permission: tardis.prefs.message
-      usage: /<command> eps_message [message]
+    lights:
+      description: Set the TARDIS lights light type used in a console.
+      permission: tardis.prefs.lights
+      usage: /<command> lights [on|off]
     minecart:
       description: Toggle default Minecraft SFX on and off. If the server admin has disabled sound effects in the plugin config, this command will have no effect.
       permission: tardis.prefs.minecart
       usage: /<command> minecart [on|off]
+    open_display_door:
+      description: Whether the toogle wool blocks control / menu button is repurposed as a button to open and close a modelled display TARDIS interior door.
+      permission: tardis.prefs.open_display_door
+      usage: /<command> open_display_door [on|off]
     quotes:
       description: Toggle the TARDIS quotes on and off.
       permission: tardis.prefs.quotes
       usage: /<command> quotes [on|off]
+    regen_block:
+      description: Set whether regeneration is blocked or not.
+      permission: tardis.prefs.regen_block
+      usage: /<command> regen_block [on|off]
     renderer:
       description: Toggle entering the Renderer room after scanning on and off.
       permission: tardis.prefs.renderer
@@ -175,6 +190,10 @@ args={
       description: Toggle the TARDIS sound effects on and off. If the server admin has disabled sound effects in the plugin config, this command will have no effect.
       permission: tardis.prefs.sfx
       usage: /<command> sfx [on|off]
+    shape:
+      description: Set the shape of the exterior materialisation particles.
+      permission: tardis.prefs.shape
+      usage: /<command> shape [particle shape]
     siege_floor:
       description: Set the block used for the TARDIS floor when Siege Mode is engaged, where \`[material]\` is a block from the list on the [Wall materials](../walls) page. This setting has no effect if \`siege.textures\` is \` false\` is set in the config.
       permission: tardis.prefs.siege_floor
@@ -191,10 +210,18 @@ args={
       description: Open the Sonic Screwdriver preferences GUI.
       permission: tardis.prefs.sonic
       usage: /<command> sonic
+    speed:
+      description: Set the speed of the exterior materialisation particles.
+      permission: tardis.prefs.speed
+      usage: /<command> speed [particle speed]
     submarine:
       description: Toggle submarine landings on and off.
       permission: tardis.prefs.submarine
       usage: /<command> submarine [on|off]
+    telepathy:
+      description: Set whether the TARDIS Telepathic Circuit is on or off.
+      permission: tardis.prefs.telepathy
+      usage: /<command> telepathy [on|off]
     translate:
       description: Set the languages and player used when auto translating messages.
       permission: tardis.prefs.translate

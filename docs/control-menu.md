@@ -50,7 +50,8 @@ does. The button functions are explained below:
 | Desktop Theme                        | ![theme](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/theme_button.png) | Opens the [Desktop Theme GUI](desktop-theme).       |
 | Power                                | ![power](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/power_on.png)     | Toggles the TARDIS power on and off.                |
 | Light Switch                         | ![lights](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/on_switch.png)   | Toggles the TARDIS lamps on and off.                |
-| Toggle blocks behind door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/toggle_open.png) | Removes or places the wool behind the TARDIS door.  |
+| Toggle blocks behind door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/toggle_open.png) | Removes or places the wool behind the TARDIS door. This button may not be available if a player has turned the `open_display_door` preference on. |
+| Open / close display door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/adventure-components/assets/tardis/textures/item/gui/control/display_door_open.png) | Opens or closes the modelled display TARDIS door if there is one. Use the `/tardisprefs open_display_door [on\|off]` command to switch the _Toggle blocks behind door_ button to this one. |
 | TARDIS Map                           | ![map](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/map_button.png)     | Opens the TARDIS Map GUI.                           |
 
 ### TARDIS Exterior functions
@@ -70,7 +71,7 @@ does. The button functions are explained below:
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | Artron Energy Levels      | ![artron](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/artron_button.png) | Displays the current TARDIS Artron Energy levels.                   |
 | Scanner                   | ![scan](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/scan_button.png)     | Performs a scan of the TARDIS current (or next if set) destination. |
-| TARDIS Information System | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/info_button.png)     | Opens the TARDIS Information System chat interface.                 |
+| TARDIS Information System | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/info_button.png)     | Opens the TARDIS Information System. Depending on the player preference, this could be a chat interface, chest GUI, or Minecraft dialog. |
 | Transmat                  | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/transmat_button.png) | Opens the TARDIS Transmat locations GUI.                            |
 
 ### Miscellaneous functions
