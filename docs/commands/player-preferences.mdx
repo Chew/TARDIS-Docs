@@ -39,10 +39,12 @@ There are a number of specific player preferences that you can change:
 - Open display door
 - Exterior materialisation particles
 
-Each preference can be set with a command, and some of them can be set via an inventory based GUI (if the player has a
-Sonic Screwdriver, sneaking and right-clicking air will open the Player Preferences GUI).
+Each preference can be set with a command, and some of them can be set via an inventory based GUI - if the player has a
+Sonic Screwdriver, sneaking and right-clicking air or using the _Prefs_ button in the [Control Menu GUI](/control-menu) will open the [Player Preferences](/player-prefs-menu)UI. Use the _General Preferences Menu_ button to access all options.
 
-![Player prefs GUI](/images/docs/player_prefs.png)
+![Player prefs GUI](/images/docs/player_prefs_custom.jpg)
+
+![Player prefs GUI](/images/docs/player_prefs_general.jpg)
 
 ## Player preference commands
 
@@ -165,7 +167,7 @@ args={
     lights:
       description: Set the TARDIS lights light type used in a console.
       permission: tardis.prefs.lights
-      usage: /<command> lights [on|off]
+      usage: /<command> lights [light type]
     minecart:
       description: Toggle default Minecraft SFX on and off. If the server admin has disabled sound effects in the plugin config, this command will have no effect.
       permission: tardis.prefs.minecart

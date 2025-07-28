@@ -12,6 +12,12 @@ in `plugins/TARDIS/`.
 All configuration options can be set via in game commands or in the console, see
 the [Admin Config Commands](/commands/config) page.
 
+:::info
+
+You can also edit any TARDIS [YAML](https://en.wikipedia.org/wiki/YAML) configuration file on this wiki on the [Config Editor](/editor) page.
+
+:::
+
 Choose a configuration page from below:
 
 1. [Modules](/modules)
