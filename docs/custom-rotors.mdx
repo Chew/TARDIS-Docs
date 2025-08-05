@@ -9,6 +9,118 @@ import ConfigTable from "@site/src/components/ConfigTable";
 
 As of version 5.5.0 you can add custom time rotor models for the TARDIS console.
 
+## For TARDIS v6.x.x and Minecraft 1.21.4+
+
+The files for these examples are included in the [TARDIS Resource Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack).
+
+Custom time rotor models are defined in _plugins/TARDIS/custom\_time\_rotors.yml_, an example entry is shown below:
+
+```yaml title="/plugins/TARDIS/custom_time_rotors.yml"
+# this entry is FuzzyLeo's classic time rotor
+classic:
+  # the material of the animated rotor item
+  # material must be unique for each rotor, the plugin already uses:
+  # BLACK_DYE, ORANGE_DYE, BROWN_DYE, GRAY_DYE, CYAN_DYE, LIGHT_BLUE_DYE, BLUE_DYE, WHITE_DYE
+  animated_material: YELLOW_DYE
+  # a comma separated list of frame numbers to determine the
+  # model definition file names e.g. time_rotor_classic_0.json
+  # animation states will need to be set with model definitions
+  # in the assets/tardis/items/ resource pack folder
+  animation_sequence: 0,1,2,3,4,5,6,7
+  # the animation frame rate in ticks
+  frame_rate: 6
+```
+
+### Model definitions
+
+A model definition for the rotor's inventory item must be added as a "minecraft:custom_name" predicate in `assets/minecraft/items/light_gray_dye.json`
+
+```json title="assets/minecraft/items/light_gray_dye.json"
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "minecraft:custom_name",
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_gray_dye"
+        },
+        "cases": [
+            ...,
+            {
+                "when": {
+                    "color": "white",
+                    "text": "Time Rotor Classic",
+                    "italic": false
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "tardis:item/time_rotor/time_rotor_classic_off"
+                }
+            },
+            ...
+        ]
+    }
+}
+```
+
+### Time rotor off state
+
+The time rotor **off** state will need to be set with model definitions in the `assets/tardis/items/` resource pack folder.
+
+The file name should follow the format:
+
+`time_rotor_XXX_off.json`
+
+Where `XXX` is the time rotor name from _custom_time_rotors.yml_ e.g.:
+
+`time_rotor_classic_off.json`
+
+The model definition should point to the item model for the off state somewhere in `assets/tardis/models/item/`, for example:
+
+```json title="assets/tardis/items/time_rotor_classic_off.json"
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tardis:item/time_rotor/time_rotor_classic_off"
+  }
+}
+```
+
+### Time rotor animation states
+
+The time rotor animation states will need to be set with model definitions in the `assets/tardis/items/` resource pack folder.
+
+The file names should follow the format:
+
+`time_rotor_XXX_N.json`
+
+Where `XXX` is the time rotor name from _custom_time_rotors.yml_ and `N` is the number in the animation sequence e.g.:
+
+```
+time_rotor_classic_0.json
+time_rotor_classic_1.json
+time_rotor_classic_2.json
+time_rotor_classic_3.json
+time_rotor_classic_4.json
+time_rotor_classic_5.json
+time_rotor_classic_6.json
+time_rotor_classic_7.json
+```
+
+The model definition should point to the item model for the off state somewhere in `assets/tardis/models/item/`, for example:
+
+```json title="assets/tardis/items/time_rotor_classic_4.json"
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tardis:item/time_rotor/classic/classic_4"
+  }
+}
+```
+
+## Prior to TARDIS v6.x.x
+
 Custom time rotor models are defined in _plugins/TARDIS/custom\_time\_rotors.yml_, an example entry is shown below:
 
 ```yaml title="/plugins/TARDIS/custom_time_rotors.yml"
@@ -30,7 +142,7 @@ classic:
 
 </ConfigTable>
 
-## Example model overrides
+### Example model overrides
 
 Inventory item / off state go in _light\_gray\_dye.json_:
 
