@@ -17,12 +17,72 @@ Custom door models are defined in _plugins/TARDIS/custom\_doors.yml_, an example
 # this entry is the police box door, but centred on a block
 centred:
     material: ANGLER_POTTERY_SHERD
-    animation_sequence: 0,1,2,3,4
+    animation_sequence: 0,1,2
     frame_rate: 6
     has_extra: true
     open_sound: tardis_door_open
     close_sound: tardis_door_close
 ```
+
+## For TARDIS v6.x.x and Minecraft 1.21.4+
+
+<ConfigTable name="/plugins/TARDIS/custom_doors.yml" data={
+        `centred:
+    material: ANGLER_POTTERY_SHERD # The material of the door item display - MUST be an unused **pottery sherd**, one of \`ANGLER_POTTERY_SHERD\`, \`ARCHER_POTTERY_SHERD\`, \`ARMS_UP_POTTERY_SHERD\`, \`BLADE_POTTERY_SHERD\`, \`BREWER_POTTERY_SHERD\`, \`BURN_POTTERY_SHERD\`, \`DANGER_POTTERY_SHERD\`, \`EXPLORER_POTTERY_SHERD\`, \`FLOW_POTTERY_SHERD\`, \`FRIEND_POTTERY_SHERD\`, \`GUSTER_POTTERY_SHERD\`, \`HEART_POTTERY_SHERD\`, \`HEARTBREAK_POTTERY_SHERD\`, \`HOWL_POTTERY_SHERD\`, \`MINER_POTTERY_SHERD\`, \`MOURNER_POTTERY_SHERD\`, \`PLENTY_POTTERY_SHERD\`, \`PRIZE_POTTERY_SHERD\`, \`SCRAPE_POTTERY_SHERD\`, \`SHEAF_POTTERY_SHERD\`, \`SHELTER_POTTERY_SHERD\`, \`SKULL_POTTERY_SHERD\`, \`SNORT_POTTERY_SHERD\`.
+    animation_sequence: 0,1,2 # A comma separated list of frame numbers where the number is added to the item model’s file name. Door states will need to be saved as separate JSON model definition files in _assets/tardis/items/_ with the following naming scheme (where xxx = the name value above - \`assets/tardis/items/xxx_[zero-based sequential frame number].json\`. In this example the open animation would be \`0, 1, 2, open\` and the closed animation would be \`2, 1, 0, closed\`.
+    frame_rate: 6 # The animation frame rate in ticks
+    has_extra: true # Whether the door has a third state activated by crouch-right-clicking e.g. the double police door has one side open, closed, and a third "both sides open" state. The JSON model definition file name for this state should be xxx_extra e.g.:  \`assets/tardis/items/centred_extra.json\`.
+    open_sound: tardis_door_open # SFX - If using new custom sounds, you will need to add entries to _assets/minecraft/sounds.json_ and save .ogg files to _assets/tardis/sounds/_ in the resource pack. This one is the sound for when the **door opens**.
+    close_sound: tardis_door_close # The sound for when the **door closes**.
+        `
+}>
+
+</ConfigTable>
+
+### Model definitions
+
+Model definitions should be located in `assets/tardis/items` with specific names:
+
+| State          | Filename suffix   |
+| -------------- | ----------------- |
+| door closed    | `_closed`         |
+| door open      | `_open`           |
+| door extra     | `_extra`          |
+| door animation | `_[frame number]` |
+
+Using the suffixes above, the example _centred_ preset files would be named:
+
+```text title="assets/tardis/items/..."
+centred_closed.json
+centred_open.json
+centred_extra.json
+centred_0.json
+centred_1.json
+centred_2.json
+```
+
+The model definition in these files then points to the actual item model found somewhere in `assets/tardis/models/item/`, for example:
+
+```json title="assets/tardis/items/bad_wolf_closed.json"
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "tardis:item/doors/centred_open"
+  }
+}
+```
+
+:::tip
+
+Once set up this way and the resource pack reloaded, you can use the `minecraft:give` command to test the models are working:
+
+`/give @s angler_pottery_sherd[item_model="tardis:centred_open"]`
+
+Or alternatively, use the [resource pack debug preview feature](/debug-preview).
+
+:::
+
+## Prior to TARDIS v6.x.x
 
 <ConfigTable name="/plugins/TARDIS/custom_doors.yml" data={
         `centred:
@@ -37,7 +97,7 @@ centred:
 
 </ConfigTable>
 
-# Example model overrides
+### Example model overrides
 
 Door model `custom_model_data` predicates go in _angler\_pottery\_sherd.json_:
 
