@@ -27,6 +27,8 @@ The plugin must be using the default TARDIS world (TARDIS\_TimeVortex) for the c
 
 Players must also have the `tardis.admin` permission.
 
+You must be _inside your TARDIS_ to run the commands.
+
 :::
 
 ## Visiting the preview area
