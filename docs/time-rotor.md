@@ -73,13 +73,13 @@ GLASSPANE | REDSTONE | GLASSPANE
 
 Change the dye colours for each rotor:
 
-* Early &mdash; Gray ![#666](https://via.placeholder.com/15/666/000000?text=+)
-* Tenth &mdash; Cyan ![#0099cc](https://via.placeholder.com/15/0099cc/000000?text=+)
-* Eleventh &mdash; Brown ![#663300](https://via.placeholder.com/15/663300/000000?text=+)
-* Twelfth &mdash; Orange ![#ff9900](https://via.placeholder.com/15/ff9900/000000?text=+)
-* Delta &mdash; Purple ![#9900cc](https://via.placeholder.com/15/9900cc/000000?text=+)
-* Engine &mdash; Blue ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+)
-* Hospital &mdash; White ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
+* Early &mdash; Gray ![#666](https://placehold.co/15x15/666666/666666.png)
+* Tenth &mdash; Cyan ![#0099cc](https://placehold.co/15x15/0099cc/0099cc.png)
+* Eleventh &mdash; Brown ![#663300](https://placehold.co/15x15/663300/663300.png)
+* Twelfth &mdash; Orange ![#ff9900](https://placehold.co/15x15/ff9900/ff9900.png)
+* Delta &mdash; Purple ![#9900cc](https://placehold.co/15x15/9900cc/9900cc.png)
+* Engine &mdash; Blue ![#0000ff](https://placehold.co/15x15/0000ff/0000ff.png)
+* Hospital &mdash; White ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png)
 
 Use this command to see the recipes in game:
 
