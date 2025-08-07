@@ -9,11 +9,10 @@ title: Genetic Manipulator (AKA Lazarus Device)
 
 Although not required, the Genetic Manipulator works best when the following two plugins are installed alongside TARDIS:
 
-- [LibsDisguises](http://www.spigotmc.org/resources/libs-disguises.81/), and
-- [ProtocolLib](http://dev.bukkit.org/bukkit-plugins/protocollib/)
+- [LibsDisguises](http://www.spigotmc.org/resources/libs-disguises.81/), and its dependency
+- [PacketEvents](https://www.spigotmc.org/resources/packetevents-api.80279/)
 
-Genetic manipulation will still work without LibsDisguises, but the changes will only be visible to other players, not
-yourself.
+Genetic manipulation will still work without LibsDisguises, but the changes will only be visible to other players, not yourself.
 
 :::
 
@@ -30,8 +29,7 @@ Lazarus room and stepping into the genetic manipulator:
   permission `tardis.room.lazarus`)
 - Once the room is grown, step into the Genetic Manipulator and trigger the wood pressure plate
 - The Genetic Manipulator GUI will open automatically
-- Select an animal or monster to turn into — if the TARDIS WeepingAngels plugin is installed you can also choose to be
-  any Whovian monster provided by the plugin
+- Select an animal, skin or monster to turn into — if the TARDIS WeepingAngels plugin is installed you can also choose to be any Whovian monster provided by the plugin
 - To transform into the mob, click the “Modify my genetic material” button
 - Wait while the Genetic Manipulator reconfigures your DNA
 - When it is done exit, and go off to scare your friends :)
@@ -55,6 +53,10 @@ If you have the permission `tardis.themaster`, you can turn everybody on the ser
 - Laugh maniacally as the server population becomes the Master Race!
 
 After 3 minutes, Lord Rassilon himself will step in and restore the human race back their normal form.
+
+## Docotr Who characters
+
+You can also access all the skins of the Whovivan characters also available in the [Television GUI](/skins).
 
 ![Page 1](/images/docs/genetic_page_1.jpg)
 

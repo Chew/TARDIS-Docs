@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Updating from v4.x.x to v5.x.x
+title: Updating from v4.x.x to v5/v6.x.x
 ---
 
-# Updating from v4.x.x to v5.x.x
+# Updating from v4.x.x to v5/v6.x.x
 
 Version 5 of the TARDIS plugin combines all the separate TARDIS plugins (_TARDISChunkGenerator, TARDISVortexManipulator,
 TARDISWeepingAngels, TARDISShop_ and _TARDISSonicBlaster_) into a [modularised](/modules) all-in-one plugin. 
@@ -53,3 +53,7 @@ To convert lamps to custom display lights you have two options:
   a block behind or under them so you don't fall into the time vortex.
 
 :::
+
+## Version 6.x.x
+
+Also check out the [changes in TARDIS version 6.x.x](/v6) page.

@@ -3,7 +3,9 @@ layout: default
 title: MCPatcher texture support
 ---
 
-This page is outdated, TARDIS textures now use vanilla custom model data overrides, and Optifine/MCPatcher is no longer
+:::warning
+
+This page is very outdated, TARDIS textures now use vanilla item model defintions, and Optifine/MCPatcher is no longer
 required.
 
 You should use the new TARDIS-Resource-Pack found here:
@@ -13,6 +15,8 @@ You should use the new TARDIS-Resource-Pack found here:
 or here:
 
 [http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
+
+:::
 
 # Optifine/MCPatcher texture support
 
