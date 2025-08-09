@@ -1,4 +1,4 @@
 export const siteVariables = {
-    versionNumber: '6.1.0',
-    serverVersion: '1.21.5-R0.1'
+    versionNumber: '6.2.3',
+    serverVersion: '1.21.8-R0.1'
 };
