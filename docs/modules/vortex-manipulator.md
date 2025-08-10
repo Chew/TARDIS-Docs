@@ -11,16 +11,6 @@ TARDISVortexManipulator is one of the TARDIS plugin modules that brings
 the [Vortex Manipulator](https://tardis.wiki/wiki/Vortex_manipulator) to Minecraft. Travel like Jack Harkness or
 River Song from Doctor Who! Have the Vortex Manipulator in your hand, put in your desired location, and GO!
 
-:::note
-
-For TARDIS version 4.13.0 and below you can download the separate TARDISVortexManipulator plugin JAR 
-from [http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/](http://tardisjenkins.duckdns.org:8080/job/TARDISVortexManipulator/)
-
-  _The instructions below are for the TARDIS module, but are pretty much the same ,with some extra configuration options (
-  database / plugin respect), and separate commands instead of sub-commands._
- 
-:::
-
 ## Enabling the module
 
 To use the Weeping Angels module, it must be enabled in the TARDIS config.

@@ -23,10 +23,6 @@ API — but only plugin developers need to worry about that).
 Using BuildTools is a slightly tricky process to setup the first time around, but if you follow the steps below, they
 will hopefully help you get it right :)
 
-If you have
-problems, [BuildTools is run nightly on the TARDIS Jenkins server](http://tardisjenkins.duckdns.org:8080/job/BuildTools/)
-— you can download Spigot and Spigot-API from there.
-
 This guide is for **Windows** , if you use Linux, then you probably already have a good idea how to do this sort of
 thing — just follow [Spigot’s instructions](http://www.spigotmc.org/threads/bukkit-craftbukkit-spigot-1-8.36598/)
 

@@ -8,15 +8,6 @@ title: Weeping Angels
 TARDISWeepingAngels is a TARDIS plugin module that transforms Minecraft mobs into terrifying
 Whovian [monsters](https://www.bbc.co.uk/programmes/articles/4tDN85fyxYXTtVPrCql8jB/monsters).
 
-:::note
-
-For TARDIS version 4.13.0 and below you can download the separate TARDISWeepingAngels plugin JAR from here: [TARDISWeepingAngels](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels/)
-
-The instructions below are for the TARDIS module, but are pretty much the same, with some extra configuration options 
-(database / plugin respect), and separate commands instead of sub-commands.
-
-:::
-
 ## Enabling the module
 
 To use the Weeping Angels module, it must be enabled in the TARDIS config.

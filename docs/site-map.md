@@ -185,7 +185,6 @@ import TabItem from '@theme/TabItem';
 
 [Jammy Dodgers](food#jammy-dodgers "Jammy Dodgers")  
 [Jelly babies](food#jelly-babies "Jelly babies")  
-[Jenkins Server](http://tardisjenkins.duckdns.org:8080)  
 [Jettison rooms](ars#using-the-architectural-reconfiguration-system)  
 [Judoon](modules/weeping-angels#judoon "Judoon")  
 [Junk TARDIS](junk-tardis "Junk TARDIS")  
@@ -297,7 +296,6 @@ import TabItem from '@theme/TabItem';
 [Sonic Screwdriver](sonic-screwdriver "Sonic Screwdriver")  
 [Sontarans](modules/weeping-angels#sontarans "Sontarans")  
 [Space Time Throttle](throttle "Space Time Throttle")  
-[Spigot](http://tardisjenkins.duckdns.org:8080/job/BuildTools/lastSuccessfulBuild/ "Spigot")  
 [squaremap](modules/squaremap "squaremap")  
 [Stattenheim Remote](tardis-items#stattenheim-remote "Stattenheim Remote")  
 [Strax](modules/weeping-angels#strax "Strax")  

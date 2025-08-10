@@ -12,10 +12,6 @@ You should use the new TARDIS-Resource-Pack found here:
 
 [https://github.com/eccentricdevotion/TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack)
 
-or here:
-
-[http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
-
 :::
 
 # Optifine/MCPatcher texture support

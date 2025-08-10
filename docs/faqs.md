@@ -107,14 +107,11 @@ and that you are running Minecraft 1.7.x or higher.
 
 You can download the resource pack from GitHub:
 [https://github.com/eccentricdevotion/TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack)
-— take note of installation instructions on that page. Alternatively download from the TARDIS Jenkins server -
-[http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/)
+— take note of installation instructions on that page.
 
 ## It says I’m still inside the TARDIS, but I’m not {#inside}
 
-This happens if you have exited the TARDIS by some other way than the TARDIS door — this could be because of death,
-call,
-teleport, Multiverse teleport, or server crash.
+This happens if you have exited the TARDIS by some other way than the TARDIS door — this could be because of death, call, teleport, Multiverse teleport, or server crash.
 
 To fix this, type the command:
 
@@ -131,10 +128,7 @@ Please read the first part of the [Permissions](permissions) page.
 If you manually edit the TARDIS config file while the server is running, you will need to use the `/tardisconfig reload`
 command (DO NOT use `/reload` as the plugin saves the current settings when it is disabled).
 
-The better option is to set the config options in game with the `/tardisconfig [config option] [value]` command —
-changes
-take effect immediately, no server restart required. See the [Config Commands](commands/config) page for more
-details.
+The better option is to set the config options in game with the `/tardisconfig [config option] [value]` command — changes take effect immediately, no server restart required. See the [Config Commands](commands/config) page for more details.
 
 ## I jettisoned a room and it deleted part of the control room! {#jettison}
 
@@ -143,18 +137,14 @@ room you want to jettison** , otherwise you are likely to be removing parts of y
 
 ## I edited the config file, but when I reload the changes don’t save! {#reload}
 
-This is fairly standard behaviour for plugins. The **currently loaded** config options are saved when you restart the
-server,
-and the new ones you put in are overwritten.
+This is fairly standard behaviour for plugins. The **currently loaded** config options are saved when you restart the server, and the new ones you put in are overwritten.
 
 You have three options:
 
 1. Use the the TARDIS config commands to change the options i.e. `/tardisconfig [config option] [value]` for example
-   `/tardisconfig key CARROT` — the benefit is that changes take effect immediately, you don’t need to restart the
-   server.
+   `/tardisconfig key CARROT` — the benefit is that changes take effect immediately, you don’t need to restart the server.
    Refer to the [config commands](commands/config) page.
-2. Manually edit the file, save it, and use the `/tardisconfig reload` command to load your changes into the server’
-   memory.
+2. Manually edit the file, save it, and use the `/tardisconfig reload` command to load your changes into the server’ memory.
 3. **STOP** the server. Edit the config file, save it, then start the server.
 
 :::note
@@ -165,36 +155,30 @@ It is generally not good practice to use the `/reload` command.
 
 ## The perception filter has gone completely invisible! {#filter}
 
-When travelling between worlds, the Perception Filter may sometimes go completely invisible — if this happens, just
-press
-your “sneak” key (usually LEFT-SHIFT) to make the player skin update.
+When travelling between worlds, the Perception Filter may sometimes go completely invisible — if this happens, just press your “sneak” key (usually LEFT-SHIFT) to make the player skin update.
 
 ## Why does it rain on my TARDIS in dry biomes? {#rain}
 
 This is due to a residual temporal flux causing the immediate TARDIS environment to be out of sync with the rest of the
 multiverse — nothing the TARDIS perception filter can’t handle!
 
-In reality, you have `police_box.set_biome: true` in the config. This sets the biome of the TARDIS location to
-DEEP\_OCEAN,
+In reality, you have `police_box.set_biome: true` in the config. This sets the biome of the TARDIS location to DEEP\_OCEAN,
 so that players with [Optifine](https://optifine.net/home) modded clients and the
 [TARDIS-Resource-Pack](/resource-packs) will see a groovy looking
-TARDIS — the
-result is that it sometimes rains on the Police Box.
+TARDIS — the result is that it sometimes rains on the Police Box.
 
 ![Another lonely TARDIS](/images/docs/another_lonely_tardis.jpg)
 
 ## Why does my TARDIS door open when I crouch-click it (and get out of sync with the other door)? {#sync}
 
-You probably have the LWC plugin installed. LWC has a setting that allows iron doors to be opened by clicking them. You
-should disable this in LWC’s doors.yml:
+You probably have the LWC plugin installed. LWC has a setting that allows iron doors to be opened by clicking them. You should disable this in LWC’s doors.yml:
 
 ```
 # Enable the opening of Iron Doors when you click on them
     enabled: false
 ```
 
-If you move the interior TARDIS door, remember to remove the LWC protection after placing the door in its new position
-(and before running the `/tardis update door` command.
+If you move the interior TARDIS door, remember to remove the LWC protection after placing the door in its new position (and before running the `/tardis update door` command.
 
 ## What is the Resource Pack in the videos? {#txtpac}
 

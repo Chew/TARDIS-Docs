@@ -19,10 +19,6 @@ Use the TARDIS-Resource-Pack found here:
 
 [https://github.com/eccentricdevotion/TARDIS-Resource-Pack/releases](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/releases)
 
-or here:
-
-[http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-Resource-Pack/)
-
 ![Textures](/images/docs/control_centre.jpg)
 
 ## A more ‘vanilla’ experience
@@ -44,10 +40,6 @@ Currently not compatible with TARDIS 6.1.0 and Spigot/Paper 1.21.5 and above.
 Use the TARDIS-Sound-Resource-Pack found here:
 
 [https://github.com/eccentricdevotion/TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack)
-
-or here:
-
-[http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/](http://tardisjenkins.duckdns.org:8080/job/TARDIS-SoundResourcePack/)
 
 ## Keeping the resource packs up-to-date
 
@@ -85,9 +77,5 @@ Here’s a quick run down on doing that:
 These are included in the TARDIS-Resource-Pack, but if you are running TWA independently or don't want the other TARDIS textures, you can use the TARDISWeepingAngels-Resource-Pack found here:
 
 [https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack](https://github.com/eccentricdevotion/TARDISWeepingAngels-Resource-Pack)
-
-or here:
-
-[http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/](http://tardisjenkins.duckdns.org:8080/job/TARDISWeepingAngels-Resource-Pack/)
 
 ![TWA](/images/docs/cyberman2.jpg)
