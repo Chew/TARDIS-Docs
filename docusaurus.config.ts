@@ -3,7 +3,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import {buildRedirects, buildRedirectsFile} from "./redirects";
-import {Config, ThemeConfig} from "@docusaurus/types";
+import {Config, PluginConfig, ThemeConfig} from "@docusaurus/types";
 import {Options} from "@docusaurus/preset-classic";
 
 const config: Config = {
@@ -167,11 +167,12 @@ const config: Config = {
     }],
     // Cloudflare pages supports redirects!
     // @ts-ignore
-//     () => ({
-//       postBuild() {
-//         buildRedirectsFile();
-//       },
-//     })
+    () => ({
+      name: 'cloudflare-builder',
+      async postBuild() {
+        buildRedirectsFile();
+      },
+    } as PluginConfig)
   ],
 };
 
