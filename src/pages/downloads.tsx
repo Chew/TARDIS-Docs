@@ -16,7 +16,7 @@ function HomepageHeader() {
     );
 }
 
-export default function Download() {
+export default function Downloads() {
     const [data, setData] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);
     const [error, setError] = useState(null);

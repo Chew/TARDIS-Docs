@@ -73,7 +73,7 @@ const config: Config = {
           },
           {
             label: "Downloads",
-            to: "download",
+            to: "downloads",
             position: 'left',
           },
           {

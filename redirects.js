@@ -61,6 +61,9 @@ const redirects = {
     '/smelter': '/rooms/smelter',
     '/vault': '/rooms/vault',
     '/zero-room': '/rooms/zero',
+
+    /// Misc ///
+    '/download': '/downloads'
 };
 
 /// DO NOT TOUCH ///

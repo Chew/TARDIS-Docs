@@ -48,7 +48,7 @@ issue on GitHub. We'll be happy to help!
 
 ## Uh-oh! `***** SQL Error: no such column x`
 
-Make sure you're using the [latest build](/download). 
+Make sure you're using the [latest build](/downloads). 
 Run the plugin at least once on the server before trying the conversion.
 If it still breaks, create an issue on GitHub.
 

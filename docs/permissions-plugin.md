@@ -39,7 +39,7 @@ Below is a step-by-step guide to setting up LuckPerms and integrating it with TA
 ### Step 2: Install the TARDIS Plugin
 
 1. Download TARDIS:
-   - From the [Downloads](/download) page or [GitHub releases](https://github.com/eccentricdevotion/TARDIS/releases) page.  
+   - From the [Downloads](/downloads) page or [GitHub releases](https://github.com/eccentricdevotion/TARDIS/releases) page.  
    - Select the version that corresponds to your server version.
 2. Add to server:
    - Drop it into the _plugins_ folder.  
