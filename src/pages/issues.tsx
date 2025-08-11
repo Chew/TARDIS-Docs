@@ -236,7 +236,7 @@ export default function Issue() {
 
     // fetch the access token
     useEffect(() => {
-        fetch("https://tardisjenkins.duckdns.org/wiki-issues.php", {
+        fetch("https://thenosefairy.page.gd/wiki-issues.php", {
             method: "GET",
         }).then(function (response) {
             response.text().then(function (text) {
