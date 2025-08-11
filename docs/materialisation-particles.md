@@ -55,7 +55,7 @@ You can set particle options in the Particle Prefs GUI. Right-click AIR while sn
     <td colspan="2">**Particle**</td>
   </tr>
   <tr>
-    <td>![Effect info](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/particle/effect_info.png?raw=true)</td><td>_Set the particle of the effect uses_ - choose an option to the right of this icon.</td>
+    <td>![Effect info](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/particle/effect_info.png?raw=true)</td><td>_Set the particle the effect uses_ - choose an option to the right of this icon.</td>
   </tr>
   <tr>
     <td class="indent1">`Ash`</td><td>_Ash_ - As found throughout the atmosphere in the soul sand valley biome</td>
@@ -100,7 +100,7 @@ You can set particle options in the Particle Prefs GUI. Right-click AIR while sn
       <td class="indent1">`Infested`</td><td>_Infested_ - Produced by entities with the Infested effect.</td>
   </tr>
   <tr>
-      <td class="indent1">`Music`</td><td>_Note_ - Produced by jukeboxes, produced by note blocks.</td>
+      <td class="indent1">`Music`</td><td>_Note_ - Produced by jukeboxes and note blocks.</td>
   </tr>
   <tr>
       <td class="indent1">`Omen`</td><td>_Trial omen_ - Produced by players and mobs with the Trial Omen effect.</td>
@@ -127,7 +127,7 @@ You can set particle options in the Particle Prefs GUI. Right-click AIR while sn
     <td colspan="2">**Block**</td>
   </tr>
   <tr>
-    <td>![Block info](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/particle/block_info.png?raw=true)</td><td>_Set the block type used by the Block the particle effect_ - only applies to `Block` particles - choose an option underneath this icon.</td>
+    <td>![Block info](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/particle/block_info.png?raw=true)</td><td>_Set the block type used by the Block particle effect_ - only applies to `Block` particles - choose an option underneath this icon.</td>
   </tr>
   <tr>
     <td colspan="2">**Density**</td>
