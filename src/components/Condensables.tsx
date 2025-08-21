@@ -15,7 +15,7 @@ function HandleRow({ymlKey, value} : {ymlKey: string, value: any}) {
 export default function Condensables() {
 
     // get the condensables file and parse it
-    const url = 'https://raw.githubusercontent.com/eccentricdevotion/TARDIS/refs/heads/master/Core/src/main/resources/condensables.yml';
+    const url = 'https://raw.githubusercontent.com/eccentricdevotion/TARDIS/refs/heads/master/src/main/resources/condensables.yml';
 
     const [data, setData] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);
