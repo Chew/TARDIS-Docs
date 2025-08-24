@@ -11,7 +11,7 @@ To get started choose a page:
 
 ## First things first
 
-[Getting started/installation](installation-v5) — All you need to install the plugin
+[Getting started/installation](installation) — All you need to install the plugin
 
 [Creating a TARDIS](creating-a-tardis) — Creating your first TARDIS
 

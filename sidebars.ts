@@ -48,7 +48,7 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: false,
       items: [
-        'installation-v5',
+        'installation',
         'updating-to-unified-plugin',
         'v6',
         'creating-a-tardis',

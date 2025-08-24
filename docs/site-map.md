@@ -172,7 +172,7 @@ import TabItem from '@theme/TabItem';
 
 [Ice Warriors](modules/weeping-angels#ice-warriors "Ice Warriors")  
 [Immortality Gate](lazarus#immortality-gate "Immortality Gate")  
-[Installation](installation-v5 "Installation")  
+[Installation](installation "Installation")  
 [Interior SFX](hum "Interior SFX")  
 [Interiors](interiors "Interiors")  
 [Invisibility](invisibility "Invisibility")  

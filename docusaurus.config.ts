@@ -67,7 +67,7 @@ const config: Config = {
             // dropdown
           {
             type: 'doc',
-            docId: 'installation-v5',
+            docId: 'installation',
             position: 'left',
             label: "Installation"
           },
