@@ -9,7 +9,7 @@ import {Options} from "@docusaurus/preset-classic";
 const config: Config = {
   title: 'TARDIS Plugin Docs',
   tagline: 'It’s bigger on the inside',
-  favicon: 'img/favicon.ico',
+  favicon: 'images/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://tardis.pages.dev',
