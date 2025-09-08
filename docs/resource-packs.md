@@ -43,8 +43,8 @@ Use the TARDIS-Sound-Resource-Pack found here:
 
 ## Keeping the resource packs up-to-date
 
-Resource packs are automatically built on the TARDIS Jenkins server when changes are pushed to GitHub. 
-Download and replace the pack Zip files when a new file is created.
+Resource packs are automatically built for the [releases](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/releases) page on GitHub. 
+Download and replace the pack Zip files when a new file is published.
 
 ### Alternatively
 
