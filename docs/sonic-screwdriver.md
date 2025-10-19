@@ -159,7 +159,7 @@ To change the screwdriver texture:
 
 ## Default screwdriver
 Server admins can set the default screwdriver type —
-`/tardisconfig default_sonic [type]` — use tab completion to see a list of types.
+`/tardisconfig default_model [type]` — use tab completion to see a list of types.
 
 ## Sonic Dock and charging
 
