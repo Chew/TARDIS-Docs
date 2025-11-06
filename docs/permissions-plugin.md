@@ -20,7 +20,7 @@ _While it is possible to run the TARDIS plugin without using a permissions plugi
 
 :::tip
 
-We recommend using the [LuckPerms](https://luckperms.net/download) plugin for Bukkit servers.
+We recommend using the [LuckPerms](https://luckperms.net/download) plugin for Paper servers.
 
 :::
 
