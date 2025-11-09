@@ -58,6 +58,18 @@ To break a custom TARDIS light or door:
   visually change to a gravel block before breaking and dropping the relevant item.
 - In CREATIVE, the block will just break and not drop an item.
 
+:::info
+
+Sometimes display blocks may not be removed properly when jettisoning rooms and changing desktop themes. You may need to use the `/kill` command to remove stray displays - `/kill @e[type=item_display,distance=..2]` while standing next to the display should get rid of them. You may also need to use `/kill @e[type=interaction,distance=..2]` command.
+
+:::
+
+## Removing all custom blocks in rooms
+
+Having too many entities in a world can cause lag. In earlier versions of the plugin wall blocks in rooms were set as custom TARDIS blocks (display entities) if the wall preference was set to the default orange wool - if you have a lot of rooms this meant 1000s of entities...
+
+You can use the `/tardis update remove_displays` command to remove all item display blocks from ALL rooms in your TARDIS and replace them with the block defined by the player's wall preference.
+
 ## Toggling light states
 
 You can use the Sonic Screwdriver (with the Redstone Upgrade) to toggle any TARDIS light block on and off.

@@ -9,6 +9,16 @@ Use the sidebar to navigate to the question/answer you need.
 
 Couldn't solve your problem? Ask us on [Discord](https://discord.gg/sfuPVHh) or [GitHub](https://github.com/eccentricdevotion/TARDIS/discussions).
 
+## How do I get rid of ghost TARDIS display blocks and lights? {#ghost-blocks}
+
+You need to use the `/kill` command to remove ghost blocks (while standing next to the display):
+
+- for blocks, lights and regeneration models use the `/kill @e[type=item_display,distance=..2]` command
+- for interactions use the `/kill @e[type=interaction,distance=..2]` command - you might need to use F3+B to show entity bounding boxes to check for these
+- for text displays use `/kill @e[type=text_display,distance=..2]`
+
+You can also use `/tardis update remove_displays` to remove all item display blocks from ALL rooms in your TARDIS and replace them with the block defined by the player's wall preference.
+
 ## I made a stack of blocks but the TARDIS does not materialise {#stack}
 
 The method for creating a TARDIS was changed in version 2.6, you should craft a TARDIS seed block instead. Check the
