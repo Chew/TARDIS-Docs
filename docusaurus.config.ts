@@ -24,7 +24,12 @@ const config: Config = {
   projectName: 'TARDIS', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+      hooks: {
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'throw',
+  },
+  },
   onBrokenAnchors: 'ignore',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -174,6 +179,9 @@ const config: Config = {
       },
     } as PluginConfig)
   ],
+  clientModules: [
+      require.resolve('./src/toc')
+  ]
 };
 
 export default config;
