@@ -124,6 +124,27 @@ planets:
       # max usage is 16
       uses: 1
       chance: 20
+  telos:
+    enabled: false
+    resource_pack: default
+    gamemode: SURVIVAL
+    time_travel: true
+    world_type: NORMAL
+    environment: NORMAL
+    generator: TARDIS:telos
+    spawn_other_mobs: true
+    gamerules:
+      doTraderSpawning: false
+      doPatrolSpawning: false
+      doDaylightCycle: false
+    allow_portals: false
+    alias: Telos
+    icon: PACKED_ICE
+    helmic_regulator_order: -1
+        vastial:
+      enabled: true
+      gunpowder_chance: 30
+    twilight: true
 
 ```
 
@@ -155,8 +176,9 @@ planets: # This is a list of worlds on your server. If you want to use the world
 Each world on your server has their own section in _planets.yml__, however there are TARDIS specific worlds as
 well:
 
-- [Skaro](planets#planet-skaro)
-- [Siluria](planets#planet-siluria)
-- [Gallifrey](planets#planet-gallifrey)
+- [Skaro](/planets#planet-skaro)
+- [Siluria](/planets#planet-siluria)
+- [Gallifrey](/planets#planet-gallifrey)
+- [Telos](/planets#planet-telos)
 
 [Back to main configuration page](/configuration)

@@ -41,6 +41,14 @@ Desert biome with custom sky colour, trees and Dalek structures.
 
 ![Skaro world](/images/docs/skaro.jpg)
 
+## Telos
+
+`TARDIS:telos`
+
+Cold and snowy biomes with Cyber cryogenic chamber structures.
+
+![Telos world](/images/docs/telos.jpg)
+
 ## Configurable flat world
 
 `TARDIS:flat`

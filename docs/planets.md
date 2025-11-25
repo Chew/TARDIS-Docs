@@ -5,8 +5,8 @@ title: Planets
 
 # Planets
 
-The TARDIS plugin has 3 built-in planets from the Whoniverse. To enable the planets on the server use the
-command `/tardisworld enable [gallifrey|siluria|skaro]` - this will enable the worlds on _planets.yml_, load the related
+The TARDIS plugin has 4 built-in planets from the Whoniverse. To enable the planets on the server use the
+command `/tardisworld enable [gallifrey|siluria|skaro|telos]` - this will enable the worlds on _planets.yml_, load the related
 listener classes on the server, and generate the spawn chunks ready for TARDIS time travel.
 
 ### Prior to v4.9.0
@@ -62,6 +62,17 @@ To get the best experience on these planets, it's recommended to enable the [Wee
 - Silurians will spawn in these structures.
 - A random loot chest is also located in the structures.
 
+## Planet Telos
+
+![planet telos](/images/docs/telos.jpg)
+
+- This world is limited to the cold and snowy biomes.
+- Due to its distance from the sun, Telos is in perpetual twilight. You can change this if you prefer a normal day/night cycle.
+- Underground structures will generate automatically between level 25 and 45 as you explore the world.
+- Cybermen will spawn in these structures.
+- A random loot chest is also located in the structures.
+- You can configure whether [Vastial](https://tardis.wiki/wiki/Vastial) deposits (white concrete powder) occur in the world. Mining vastial gives a chance of dropping gun powder.
+
 ## Enabling Planets
 
 All planets must be enabled using the `/tardisworld enable` command. There are some world specific options in
@@ -69,7 +80,7 @@ the [planets.yml configuration file](configuration/planets). Below is a sample c
 each line.
 
 For acid potion effects, see
-the [Bukkit PotionType Enum](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionType.html).
+the [Bukkit PotionType Enum](https://jd.papermc.io/paper/1.21.10/org/bukkit/potion/PotionType.html).
 
 ```yaml title="/plugins/TARDIS/planets.yml"
 # other config #
@@ -109,12 +120,20 @@ gallifrey:
       uses: 1
       # The % chance a villager will have a blueprint trade.
       chance: 20
+telos:
+  # Whether the world is kept in perpetual twilight
+  twilight: true
+  # whether vastial is enabled
+  vastial:
+    enabled: true
+    # the pecentage chance that gunpowder will drop instead of white concrete powder
+    gunpowder_chance: 30
 # other config #
 ```
 
 :::tip tl;dr
 
-1. Use the command `/tardisworld enable [gallifrey|siluria|skaro]`
+1. Use the command `/tardisworld enable [gallifrey|siluria|skaro|telos]`
 2. (Re)start the server
 
 :::
