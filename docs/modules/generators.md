@@ -49,6 +49,10 @@ Cold and snowy biomes with Cyber cryogenic chamber structures.
 
 ![Telos world](/images/docs/telos.jpg)
 
+![Cryogenic chamber](/images/docs/telos_cryo_1.jpg)
+
+![Cryogenic chamber](/images/docs/telos_cryo_2.jpg)
+
 ## Configurable flat world
 
 `TARDIS:flat`

@@ -73,6 +73,10 @@ To get the best experience on these planets, it's recommended to enable the [Wee
 - A random loot chest is also located in the structures.
 - You can configure whether [Vastial](https://tardis.wiki/wiki/Vastial) deposits (white concrete powder) occur in the world. Mining vastial gives a chance of dropping gun powder.
 
+![Cryogenic chamber](/images/docs/telos_cryo_1.jpg)
+
+![Cryogenic chamber](/images/docs/telos_cryo_2.jpg)
+
 ## Enabling Planets
 
 All planets must be enabled using the `/tardisworld enable` command. There are some world specific options in
