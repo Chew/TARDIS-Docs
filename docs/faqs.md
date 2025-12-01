@@ -9,6 +9,10 @@ Use the sidebar to navigate to the question/answer you need.
 
 Couldn't solve your problem? Ask us on [Discord](https://discord.gg/sfuPVHh) or [GitHub](https://github.com/eccentricdevotion/TARDIS/discussions).
 
+## The plugin isn't enabled, what do I do?
+
+If you are running Minecraft 1.21.8 or higher, you need to use a [Paper](https://papermc.io/downloads/paper) server. Spigot is no longer supported by the plugin.
+
 ## How do I get rid of ghost TARDIS display blocks and lights? {#ghost-blocks}
 
 You need to use the `/kill` command to remove ghost blocks (while standing next to the display):

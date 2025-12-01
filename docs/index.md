@@ -6,8 +6,14 @@ path: /
 
 # TARDIS
 
-TARDIS is a Spigot / Paper plugin that allows you to create a TARDIS that lets you time travel (teleport) to random
+TARDIS is a ~Spigot~ / Paper plugin that allows you to create a TARDIS that lets you time travel (teleport) to random
 locations. It adds a Whovian twist to the typical `/sethome` and `/home` commands.
+
+:::caution
+
+For Minecraft 1.21.8 and above you will need to run a Paper server, **as Spigot is no longer supported**.
+
+:::
 
 **As a player, you can:**
 
