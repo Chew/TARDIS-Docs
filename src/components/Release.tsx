@@ -30,7 +30,9 @@ export default function Releases(releases: Release[]): JSX.Element {
                 {releases.map((release, index) => {
                     // latest release
                     if (index == 0) {
-                        release.body = "Latest build from GitHub Actions CI.";
+                        release.body = "Latest build for Paper servers from GitHub Actions CI.";
+                    } else if (index == 1) {
+                        release.body = "TARDIS for Paper " + release.tag_name + ".";
                     } else {
                         release.body = "TARDIS for Spigot / Paper " + release.tag_name + ".";
                     }
