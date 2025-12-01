@@ -50,7 +50,7 @@ To get the best experience on these planets, it's recommended to enable the [Wee
 - Time Lord structures will generate automatically as you explore the world — multiple buildings will be grouped in a
   small village.
 - Time Lords (villagers) will spawn in these structures.
-- You can configure whether villagers spawned Gallifreyan structures will have TARDIS blueprints as their trades — see the related [config section](/configuration/planets) in _planets.yml_.
+- You can configure whether villagers spawned in Gallifreyan structures will have TARDIS blueprints as their trades — see the related [config section](/configuration/planets) in _planets.yml_.
 - A random loot chest is also located in the structures.
 
 ## Planet Siluria
