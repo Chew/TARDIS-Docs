@@ -4,7 +4,7 @@ import {parse} from "yaml";
 export default function Walls() {
 
     // get the blocks file and parse it
-    const url = 'https://raw.githubusercontent.com/eccentricdevotion/TARDIS/master/Core/src/main/resources/blocks.yml';
+    const url = 'https://raw.githubusercontent.com/eccentricdevotion/TARDIS/master/src/main/resources/blocks.yml';
 
     const [data, setData] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);

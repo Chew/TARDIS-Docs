@@ -30,7 +30,7 @@ _Current Location placeholders have been added in build #2049_
 | `%tardis_current_location_direction%` | Gets your TARDIS's Current Direction                                        |
 
 These are located in
-the [TARDISPlaceholderExpansion.java](https://github.com/eccentricdevotion/TARDIS/blob/master/Core/src/main/java/me/eccentric_nz/TARDIS/placeholders/TARDISPlaceholderExpansion.java)
+the [TARDISPlaceholderExpansion.java](https://github.com/eccentricdevotion/TARDIS/blob/master/src/main/java/me/eccentric_nz/TARDIS/placeholders/TARDISPlaceholderExpansion.java)
 file.
 
 Got suggestions for more? Feel free
