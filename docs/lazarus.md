@@ -29,15 +29,12 @@ Lazarus room and stepping into the genetic manipulator:
   permission `tardis.room.lazarus`)
 - Once the room is grown, step into the Genetic Manipulator and trigger the wood pressure plate
 - The Genetic Manipulator GUI will open automatically
-- Select an animal, skin or monster to turn into — if the TARDIS WeepingAngels plugin is installed you can also choose to be any Whovian monster provided by the plugin
+- Select an animal, skin or monster to turn into
 - To transform into the mob, click the “Modify my genetic material” button
 - Wait while the Genetic Manipulator reconfigures your DNA
 - When it is done exit, and go off to scare your friends :)
 
-To return to yourself again, you have two options:
-
-- Re-enter the Genetic Manipulator and when the GUI opens, click the “Restore my original genetic material” button, OR
-- Log off the server
+To return to yourself again, re-enter the Genetic Manipulator and when the GUI opens, click the “Restore my original genetic material” button.
 
 ## Immortality Gate
 
@@ -56,11 +53,15 @@ After 3 minutes, Lord Rassilon himself will step in and restore the human race b
 
 ## Docotr Who characters
 
-You can also access all the skins of the Whovivan characters also available in the [Television GUI](/skins).
+You can also access all the skins of the Whovian characters available in the [Television GUI](/skins).
 
-![Page 1](/images/docs/genetic_page_1.jpg)
+![Page category](/images/docs/genetic_page_1.jpg)
 
-![Page 2](/images/docs/genetic_page_2.jpg)
+![Page passive](/images/docs/genetic_page_2.jpg)
+
+![Page neutral](/images/docs/genetic_page_4.jpg)
+
+![Page characters](/images/docs/genetic_page_3.jpg)
 
 ![Page monsters](/images/docs/genetic_page_twa.jpg)
 
