@@ -24,8 +24,9 @@ For Minecraft 1.21.8 and above you will need to run a Paper server, **as Spigot 
 - Take companions with you when you time travel.
 - Collect Artron Energy to power your TARDIS.
 - Use a sonic screwdriver, vortex manipulator, and many other Doctor Who related items.
-- Interact with _20+ custom monsters_ such as Weeping Angels, Cybermen, Sontarans and Sea Devils. 
-- Visit the planets Gallifrey, Skaro and Siluria and find custom structures to raid.
+- Interact with _35+ custom monsters_ such as Weeping Angels, Cybermen, Sontarans and Sea Devils.
+- Appear as characters in the Whoniverse with _80+ wearable Doctor, companion, character and monster skins._
+- Visit the planets Gallifrey, Skaro, Siluria and Telos and find custom structures to raid.
 
 ### Get started...
 

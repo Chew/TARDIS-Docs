@@ -35,6 +35,7 @@ const sidebars: SidebarsConfig = {
       defaultStyle: true,
     },
     'index',
+    'contents',
     {
       type: 'doc',
       id: 'faqs',
