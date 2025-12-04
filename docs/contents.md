@@ -139,7 +139,7 @@ To get started choose a page:
 
 [Change log](change-log) — A list of all the stuff that has been added and fixed since release.
 
-[TARDIS Java Docs](http://thenosefairy.duckdns.org/TARDIS_java_docs/index.html) — Get the low down on the code
+[TARDIS Java Docs](https://thenosefairy.page.gd/TARDIS_java_docs/index.html) — Get the low down on the code
 
-[Spigot/Paper plugin starter](http://thenosefairy.duckdns.org/plugin_starter.php) — Generate the required files to start
+[Spigot/Paper plugin starter](https://thenosefairy.page.gd/plugin_starter.php) — Generate the required files to start
 writing a Spigot/Paper plugin using Maven and your preferred Java IDE. The TARDIS plugin is coded using [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/).

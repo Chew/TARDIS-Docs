@@ -46,7 +46,7 @@ You can spawn abandoned TARDISes automatically with a command:
 Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [interiors](interiors)
 
 And `[PRESET]` is the exterior preset type of the TARDIS —
-see [PRESET](http://thenosefairy.duckdns.org/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/PRESET.html)
+see [PRESET](https://thenosefairy.page.gd/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/ChameleonPreset.html)
 
 And `[DIRECTION]` is the direction the player would be facing if they are looking at the exterior preset door — one of:
 NORTH, SOUTH, EAST, WEST
