@@ -199,7 +199,7 @@ Headless Monks fire energy blasts from their hands as well as channelling that e
 
 ### Heavenly Hosts
 
-Heavenly Hosts.
+Heavenly Hosts - murderous service robots.
 
 ![Heavenly Hosts](/images/docs/heavenly_host.jpg)
 
@@ -250,13 +250,15 @@ The Mire will distill you down to your essential nectar.
 
 ### Nimon
 
-The Nimon.
+The Nimon - a parasitic species.
 
 ![Nimon](/images/docs/nimon.jpg)
 
 ### Omega
 
-Omega.
+Omega, the first of the Time Lords.
+
+Omega was lost to the anti-matter universe, but his actions gave his people the power to become Lords of Time.
 
 ![Omega](/images/docs/omega.jpg)
 
@@ -390,9 +392,9 @@ For configuration options, see the [Monsters configuration](../configuration/mon
 
 | Command | Arguments                             | Description                                                                 |
 |---------|---------------------------------------|-----------------------------------------------------------------------------|
-| `/twa`  | `spawn [monster type]`                | Spawn a monster on the block you are looking at                             |  
+| `/twa`  | `spawn [monster type]`                | Spawn a monster on the block you are looking at                             |
 |         | `disguise [monster type] [on:off]`    | Disguise yourself as a TWA monster                                          |
-|         | `equip [monster type] [variant]`      | Equip an armour stand with a TWA monster                                     |
+|         | `equip [monster type] [variant]`      | Equip an armour stand with a TWA monster                                    |
 |         | `count [monster type] [world]`        | Reports the current number of monsters in the specified world               |
 |         | `kill [monster type] [world]`         | Kills all of the monsters in the specified world                            |
 |         | `set [monster type] [world] [amount]` | Sets the maximum number of the monsters that are allowed to spawn the world |
@@ -400,6 +402,7 @@ For configuration options, see the [Monsters configuration](../configuration/mon
 |         | `stay`                                | Makes the Ood/Judoon/K9 you are targeting _stop_ following you              |
 |         | `remove`                              | Removes the Ood/Judoon/K9 you are targeting                                 |
 |         | `give [player] [monster type]`        | Gives a player a monster head to display in an item frame                   |
+|         | `team`                                | Add the Ood/Judoon/K9/Iron Golem you are targeting to the `TWA_Golem` team  |
 |         | `teleport [replace\|true\|false]`     | Toggle and add specific angel teleport locations                            |
 
 ## Permissions
