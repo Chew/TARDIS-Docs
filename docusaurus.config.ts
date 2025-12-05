@@ -93,8 +93,13 @@ const config: Config = {
             position: 'left',
           },
           {
+            href: 'https://discord.gg/sfuPVHh',
+            html: '<span class="dglogo discord_logo">&nbsp;</span>',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/eccentricdevotion/TARDIS',
-            label: 'GitHub',
+            html: '<span class="dglogo github_logo">&nbsp;</span>',
             position: 'right',
           },
         ],

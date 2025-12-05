@@ -47,3 +47,25 @@ code { color: #006ca6; }
     background-repeat: no-repeat;
     background-image: url('/images/sidebar-tardis.svg');
 }
+
+/*logos*/
+span.dglogo {
+    width:24px;
+    height:24px;
+    display: inline-block;
+    position:relative;
+    top:2px;
+    background-repeat: no-repeat;
+}
+
+/*github logo*/
+.github_logo {
+    background-image: url('/images/github-black.svg');
+}
+[data-theme='dark'] .github_logo { background-image: url('/images/github-white.svg'); }
+
+/*discord logo*/
+.discord_logo {
+    background-image: url('/images/discord-black.svg');
+}
+[data-theme='dark'] .discord_logo { background-image: url('/images/discord-white.svg'); }
