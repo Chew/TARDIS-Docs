@@ -117,6 +117,7 @@ import TabItem from '@theme/TabItem';
 [Dev commands](commands/dev "Dev commands")  
 [Difficulty](faqs#difficulty "Difficulty")  
 [Direction Frame](commands/tardis#direction_frame "Direction Frame")  
+[Discord](https://discord.gg/sfuPVHh "Discord")  
 [Dynmap](modules/dynmap "Dynmap")  
 
 </TabItem>
@@ -349,6 +350,7 @@ import TabItem from '@theme/TabItem';
 [Untempered Schism](recipes/custom-blocks/untempered-schism "Untempered Schism")  
 [Updateable blocks](update-blocks "Updateable blocks")  
 [Updating to version 5](updating-to-unified-plugin "Updating to version 5")  
+[Updating to v6.x.x](v6 "Updating to v6.x.x")  
 [Upgrades](desktop-theme "Upgrades")  
 
 </TabItem>
