@@ -125,10 +125,6 @@ const config: Config = {
             title: "Downloads",
             items: [
               {
-                label: "Jenkins",
-                href: "http://tardisjenkins.duckdns.org:8080/job/TARDIS/",
-              },
-              {
                 label: "GitHub Releases",
                 href: "https://github.com/eccentricdevotion/TARDIS/releases",
               },
@@ -139,6 +135,10 @@ const config: Config = {
               {
                 label: "Modrinth",
                 href: "https://modrinth.com/mod/tardis",
+              },
+              {
+                label: "Hangar",
+                href: "https://hangar.papermc.io/eccentric/TARDIS",
               }
             ]
           },
