@@ -130,11 +130,11 @@ const config: Config = {
               },
               {
                 label: "Spigot",
-                href: "https://www.spigotmc.org/resources/tardis.19931/",
+                href: "https://www.spigotmc.org/resources/tardis.45729/",
               },
               {
                 label: "Modrinth",
-                href: "https://modrinth.com/mod/tardis",
+                href: "https://modrinth.com/plugin/tardis",
               },
               {
                 label: "Hangar",
