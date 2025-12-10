@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Vault Room
+keywords: [vault, vault room]
 ---
 
 # Vault Room

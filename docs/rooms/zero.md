@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Zero Room
+keywords: [zero, zero room]
 ---
 
 # TARDIS Zero Room

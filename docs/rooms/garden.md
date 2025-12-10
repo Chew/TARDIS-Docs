@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Garden Room
+keywords: [garden, garden room]
 ---
 
 # The Garden Room

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Library Room
+keywords: [libray, library room]
 ---
 
 # Library Room

@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Architectural Reconfiguration System
+title: Architectural Reconfiguration System (ARS)
+keywords: [ars, ARS, architectural, architectural reconfiguration system]
 ---
 
-# Architectural Reconfiguration System
+# Architectural Reconfiguration System (ARS)
 
 The TARDIS ARS is a system for managing the growing and jettisoning of rooms.
 

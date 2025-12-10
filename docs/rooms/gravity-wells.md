@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gravity Wells
+keywords: [gravity, anti-gravity, antigravity]
 ---
 
 # Gravity Wells

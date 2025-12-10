@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Whovian Accessories
+keywords: [accessories, whovian accessories]
 ---
 
 Whovian accessories

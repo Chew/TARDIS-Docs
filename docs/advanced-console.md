@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Advanced Console
+keywords: [advanced, advanced console]
 ---
 
 # TARDIS Advanced Console

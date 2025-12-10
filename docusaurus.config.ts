@@ -169,7 +169,13 @@ const config: Config = {
     }),
 
   plugins: [
-      require.resolve('docusaurus-lunr-search'),
+    [ require.resolve('docusaurus-lunr-search'), {
+      fields: { 
+        title: { boost: 200 },
+        content: { boost: 1 },
+        keywords: { boost: 600 }
+      }
+    }],
     ['@docusaurus/plugin-client-redirects', {
       fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
       // We build this from the redirects.js file, edit that!

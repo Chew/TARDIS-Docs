@@ -2,6 +2,7 @@
 layout: default
 title: Abandon a TARDIS
 path: /abandon
+keywords: [abandon, abandon a tardis]
 ---
 
 Abandon a TARDIS

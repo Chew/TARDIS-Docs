@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rail Room
+keywords: [rail, rail room]
 ---
 
 # Rail Room

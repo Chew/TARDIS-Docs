@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Temporal Locator
+keywords: [temporal, temporal locator]
 ---
 
 # Temporal Locator

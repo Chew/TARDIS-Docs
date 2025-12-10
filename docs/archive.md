@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Archiving Consoles
+keywords: [archive, archiving]
 ---
 
 # Archiving TARDIS consoles

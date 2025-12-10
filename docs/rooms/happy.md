@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Happy Ghast Room
+keywords: [happy, happy ghast, happy ghast room, ghast]
 ---
 
 # Happy Ghast Room
