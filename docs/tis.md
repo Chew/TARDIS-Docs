@@ -1,4 +1,5 @@
 ---
+keywords: [info, information, tardis information, tis]
 layout: default
 title: TARDIS Information System
 ---

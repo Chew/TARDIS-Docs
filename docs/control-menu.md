@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Control Menu
+keywords: [control, control menu]
 ---
 
 # The TARDIS Control Menu
@@ -51,7 +52,7 @@ does. The button functions are explained below:
 | Power                                | ![power](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/power_on.png)     | Toggles the TARDIS power on and off.                |
 | Light Switch                         | ![lights](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/on_switch.png)   | Toggles the TARDIS lamps on and off.                |
 | Toggle blocks behind door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/toggle_open.png) | Removes or places the wool behind the TARDIS door. This button may not be available if a player has turned the `open_display_door` preference on. |
-| Open / close display door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/adventure-components/assets/tardis/textures/item/gui/control/display_door_open.png) | Opens or closes the modelled display TARDIS door if there is one. Use the `/tardisprefs open_display_door [on\|off]` command to switch the _Toggle blocks behind door_ button to this one. |
+| Open / close display door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/adventure-components/assets/tardis/textures/item/gui/control/toggle_open.png) | Opens or closes the modelled display TARDIS door if there is one. Use the `/tardisprefs open_display_door [on\|off]` command to switch the _Toggle blocks behind door_ button to this one. |
 | TARDIS Map                           | ![map](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/map_button.png)     | Opens the TARDIS Map GUI.                           |
 
 ### TARDIS Exterior functions

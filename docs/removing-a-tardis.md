@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Removing the TARDIS
+keywords: [extermiate, remove, removing]
 ---
 
 # Removing the TARDIS

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sonic Blaster
+keywords: [blaster, sonic blaster]
 ---
 
 # Sonic Blaster

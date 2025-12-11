@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Updating from v4.x.x to v5/v6.x.x
+keywords: [updating, update]
 ---
 
 # Updating from v4.x.x to v5/v6.x.x

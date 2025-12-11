@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Map
+keywords: [map, tardis map]
 ---
 
 # TARDIS Map

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Chemistry Lab
+keywords: [chemistry, chemistry lab]
 ---
 
 # TARDIS Chemistry Lab

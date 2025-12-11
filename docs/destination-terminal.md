@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Destination Terminal
+keywords: [terminal, destination, destination terminal]
 ---
 
 # Destination Terminal

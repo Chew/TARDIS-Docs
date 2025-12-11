@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hostile Action Displacement/Dispersal System
+keywords: [hads, hostile]
 ---
 
 # Hostile Action Displacement/Dispersal System

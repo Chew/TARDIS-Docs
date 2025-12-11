@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Perception Filter
+keywords: [perception, perception filter]
 ---
 
 # Perception Filter

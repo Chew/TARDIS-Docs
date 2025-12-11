@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Entering and exiting the TARDIS
+keywords: [entry, exit, entering, exiting]
 ---
 
 # Entering and exiting the TARDIS

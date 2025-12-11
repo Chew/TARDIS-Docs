@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Chameleon Construction GUI
+keywords: [construction, chameleon construction]
 ---
 
 # The Chameleon Construction GUI

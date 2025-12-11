@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Weeping Angels
+keywords: [weeping, angel, angels, weeping angels]
 ---
 
 # Weeping Angels
@@ -73,7 +74,7 @@ For each monster:
 - Configurable drop on death
 - Only spawn them in the worlds you want
 
-## Information
+## Monster details
 
 ### Weeping Angels
 

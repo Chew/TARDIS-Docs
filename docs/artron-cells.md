@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Artron Storage Cells
+keywords: [cell, storage cell, artron storage]
 ---
 
 # Artron Storage Cells

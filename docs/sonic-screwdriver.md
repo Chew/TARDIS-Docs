@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sonic Screwdriver
+keywords: [sonic, screwdriver, sonic screwdriver]
 ---
 
 # Sonic Screwdriver

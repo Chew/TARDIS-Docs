@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Time Rotor
+keywords: [rotor, time rotor]
 ---
 
 # Time Rotor

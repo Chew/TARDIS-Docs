@@ -1,6 +1,7 @@
 ---
 layout: default
 title: TARDIS HUD Display
+keywords: [hud, display]
 ---
 
 # TARDIS Display

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Universal Translator
+keywords: [translate, translator]
 ---
 
 # TARDIS Universal Translator

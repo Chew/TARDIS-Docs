@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resource Packs
+keywords: [resource, resource pack, pack, texture pack]
 ---
 
 # Resource Packs

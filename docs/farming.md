@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mob Farming
+keywords: [farm, farming, mob farming]
 ---
 
 # Mob Farming

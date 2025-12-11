@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Planets
+keywords: [planet, planets, gallifrey, siluria, skaro, telos]
 ---
 
 # Planets

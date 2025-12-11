@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Save Sign
+keywords: [save, save sign, saves]
 ---
 
 # Save Sign

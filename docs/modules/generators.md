@@ -1,6 +1,7 @@
 ---
 layout: default
 title: World Generators
+keywords: [generator, generate]
 ---
 
 # World Generators

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Environment Scanner
+keywords: [scanner, scan]
 ---
 
 # Environment Scanner

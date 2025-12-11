@@ -15,6 +15,12 @@ The three flight modes are:
   the direction blocks to keep the regulator in the centre
 - `manual` — run round like crazy clicking the correct console repeater when told to do so
 
+:::tip
+
+See also [Flying the TARDIS](/flying)
+
+:::
+
 ### Manual flight mode
 
 In manual flight mode the repeaters are called:

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Player Preferences Menu
+keywords: [preference, preferences, player preferences]
 ---
 
 # Player Preferences Menu
