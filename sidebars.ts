@@ -105,11 +105,13 @@ const sidebars: SidebarsConfig = {
         'desktop-theme',
         'interiors',
         'panoramic-gallery',
+        'customise-console',
         'walls',
         'hum',
         'item_displays',
         'custom-doors',
         'custom-rotors',
+        'custom-model-consoles',
         {
           type: 'category',
           label: "Rooms",

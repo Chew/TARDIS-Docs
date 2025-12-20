@@ -70,7 +70,8 @@ Select the file you wish to learn more about here. These are all files found in 
   * [police_box:](/configuration/preset.mdx)
   * [storage:](/configuration/storage.mdx)
   * [travel:](/configuration/travel.mdx)
-* [custom_consoles.yml](custom-consoles.md)
+* [custom_consoles.yml](custom-model-consoles.md)
+* [custom_desktops.yml](custom-consoles.md)
 * [custom_doors.yml](custom-doors.mdx)
 * [custom_models.yml](custom-model-presets.md)
 * custom_preset.txt
