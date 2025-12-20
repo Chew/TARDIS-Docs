@@ -68,7 +68,7 @@ You can change the models to anything you like, but you need to experiment to in
 
 You will also need an item definition for the console material in _assets/minecraft/items/`xxxxx.json`_ e.g. `netherite_block.json`. The definition will look something like below, where the model is changed based on the items in-game display name:
 
-```json title="ssets/minecraft/items/netherite_block.json"
+```json title="assets/minecraft/items/netherite_block.json"
 {
   "model": {
     "type": "minecraft:select",

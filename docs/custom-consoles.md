@@ -48,8 +48,8 @@ The custom desktop schematic will NOT be enabled until an Artron Energy upgrade 
 
 ```yaml title="/plugins/TARDIS/artron.yml"
 upgrades:
-	custom: 10000
-	rani: 8000
+  custom: 10000
+  rani: 8000
 ```
 
 ### The schematic file

@@ -20,8 +20,8 @@ Abandoning a TARDIS is one way of transferring TARDIS ownership to another playe
 
 ```yaml title="/plugins/TARDIS/config.yml"
 abandon:
-	enabled: [true|false]
-	reduce_count: [true|false]
+  enabled: [true|false]
+  reduce_count: [true|false]
 ```
 
 Both options are `true` by default. `reduce_count` only applies if `creation.count` is set to > `0`. `allow.power_down`

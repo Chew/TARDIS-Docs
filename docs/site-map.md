@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 # The Index File
 
 <details>
-	<summary>Why is it called the Index File?</summary>
+  <summary>Why is it called the Index File?</summary>
 
 **TEGAN:** Will it tell us how to fly the Tardis?  
 **NYSSA:** I’m sure that’s in here somewhere, once we find the index file.  

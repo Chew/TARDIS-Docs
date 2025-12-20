@@ -15,11 +15,11 @@ The format is:
 ```yaml title="/plugins/TARDIS/rooms.yml"
 rooms:
    [ROOMTYPE]:
-	  enabled: [true|false]
-	  cost: [amount]
-	  offset: [negative amount]
-	  seed: [MATERIAL]
-	  user: [true|false]
+    enabled: [true|false]
+    cost: [amount]
+    offset: [negative amount]
+    seed: [MATERIAL]
+    user: [true|false]
 ```
 
 All rooms are enabled by default, the rest of the settings are:
