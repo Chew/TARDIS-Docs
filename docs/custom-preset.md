@@ -21,15 +21,14 @@ empty spaces (AIR), and there should be a door in it somewhere (iron, wood and t
 When you build it, start by facing EAST so you are looking at the FRONT of the design.
 
 Once you have constructed your new design, you need to create a preset file for the TARDIS plugin to use. The easiest
-way to do this is to use the `/tardisadmin make_preset [name] [asymmetric]` command.
+way to do this is to use the `/tardisadmin make_preset [name]` command.
 
 To use the command:
 
 - Face the front of the preset (you should be facing EAST)
 - If the bottom left corner block is empty (AIR), place a sponge block there instead
-- Run the `/tardisadmin make_preset [name] [asymmetric]` command
-- Give the preset a name, and if the preset is an irregular shape (for example like the DUCK preset) put `true`
-  for [asymmetric]. If it is boxy like the Police Box preset, put `false` for [asymmetric]
+- Run the `/tardisadmin make_preset [name]` command
+- Give the preset a name
 - Click the bottom left corner block
 
 The plugin creates a text file in the _plugins/TARDIS_ folder called `custom_preset_[name].txt`
