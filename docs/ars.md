@@ -9,7 +9,7 @@ keywords: [ars, ARS, architectural, architectural reconfiguration system]
 The TARDIS ARS is a system for managing the growing and jettisoning of rooms.
 
 To use ARS, you must have an ARS compatible TARDIS. Currently all TARDIS types
-are compatible except for CUSTOM ones, however you may be need to make a new
+are compatible, however you may be need to make a new
 TARDIS to take advantage of the system if your current TARDIS was created before
 version 2.6 of the plugin.
 

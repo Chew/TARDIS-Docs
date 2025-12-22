@@ -68,6 +68,7 @@ TARDIS schematics support the following:
 * Player heads - preserving textures
 * Item Displays - preserving basic item stack properties (type, custom model data)
 * Signs - preserving all lines, colours and glowing properties
+* Armour Stands - only preserving items in the helmet slot
 
 ## Time rotors and interior double doors
 
