@@ -257,6 +257,15 @@ export function PhotoSphereGallery() {
                 },
             },
             {
+                id: 'pano-sidrat',
+                name: 'SIDRAT',
+                panorama: '/images/spheres/sidrat.jpg',
+                thumbnail: '/images/spheres/thumbs/sidrat.jpg',
+                options: {
+                    caption: 'Space and Inter-time Dimensional Robot All-purpose Transporter — Your army awaits — <strong>Size:</strong> MEDIUM',
+                },
+            },
+            {
                 id: 'pano-steampunk',
                 name: 'STEAMPUNK',
                 panorama: '/images/spheres/steampunk.jpg',
