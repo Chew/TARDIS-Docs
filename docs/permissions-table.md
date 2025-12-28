@@ -285,6 +285,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.mangrove</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.maze</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.mushroom</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.nautilus</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.nether</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.observatory</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.passage</code></td><td>true</td></tr>

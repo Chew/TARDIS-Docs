@@ -81,6 +81,7 @@ and follow the instructions. The room types and their corresponding seed blocks 
 | Library | ENCHANTING_TABLE |
 | Mangrove | MUDDY_MANGROVE_ROOTS |
 | Mushroom | GRAVEL |
+| Nautilus | DEAD_HORN_CORAL_BLOCK |
 | Nether | BLACKSTONE |
 | Observatory | POLISHED_BLACKSTONE_BRICKS |
 | Passage | CLAY |

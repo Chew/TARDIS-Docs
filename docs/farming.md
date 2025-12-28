@@ -23,6 +23,7 @@ The mobs you can collect are:
 - Horse
 - Llama
 - Mooshroom
+- Nautili
 - Pandas
 - Pig
 - Polar Bear
@@ -52,6 +53,7 @@ Enter the TARDIS as usual, and the following will happen:
 - If you have already grown an [**igloo**](/rooms/gallery#Igloo) room, then polar bears will be teleported into the igloo room
 - If you have already grown an [**geode**](/rooms/gallery#Geode) room, then axolotls will be teleported into the geode room
 - If you have already grown an [**mangrove**](/rooms/gallery#Mangrove) room, then frogs will be teleported into the mangrove room
+- If you have already grown a [**nautilus**](/rooms/gallery#Nautilus) room, then Nautili will be teleported into the nautilus room
 - If you have already grown an [**pen**](/rooms/gallery#Pen) room, then sniffers will be teleported into the pen room
 - If you have already grown a [**pool**](/rooms/gallery#Pool) room and the `allow.guardians` config option is set to `true`, then guardians
   will be teleported into the pool

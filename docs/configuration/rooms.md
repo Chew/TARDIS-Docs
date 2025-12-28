@@ -51,6 +51,7 @@ All rooms are enabled by default, the rest of the settings are:
 | MANGROVE    | 450  | -4     | MUDDY_MANGROVE_ROOTS     |
 | MAZE        | 650  | -4     | LODESTONE                |
 | MUSHROOM    | 350  | -4     | GRAVEL                   |
+| NAUTILUS    | 450  | -4     | DEAD_HORN_CORAL_BLOCK    |
 | NETHER      | 450  | -4     | BLACKSTONE               |
 | PASSAGE     | 200  | -4     | CLAY                     |
 | PEN         | 550  | -4     | MOSS_BLOCK               |

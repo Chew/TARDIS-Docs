@@ -155,6 +155,7 @@ tardis.room.lazarus
 tardis.room.library
 tardis.room.maze
 tardis.room.mushroom
+tardis.room.nautilus
 tardis.room.nether
 tardis.room.passage
 tardis.room.pool
