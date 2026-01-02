@@ -131,6 +131,15 @@ export function PhotoSphereGallery() {
                 },
             },
             {
+                id: 'pano-eighth',
+                name: 'EIGHTH',
+                panorama: '/images/spheres/eighth.jpg',
+                thumbnail: '/images/spheres/thumbs/eighth.jpg',
+                options: {
+                    caption: '‘Eighth’ TARDIS — 8th Doctor’s TARDIS (based on [designed by DT10](https://www.youtube.com/watch?v=dMZ-yqHJDLo)) — <strong>Size:</strong> MASSIVE',
+                },
+            },
+            {
                 id: 'pano-eleventh',
                 name: 'ELEVENTH',
                 panorama: '/images/spheres/eleventh.jpg',

@@ -224,6 +224,7 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.delta</code></td><td colspan="2">Allow players to build the Nether TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.deluxe</code></td><td colspan="2">Allow players to build the 'deluxe' TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.division</code></td><td colspan="2">Allow players to build the 'division' Spaceship.</td><td>op</td></tr>
+    <tr><td><code>tardis.eighth</code></td><td colspan="2">Allow players to build the 'eighth' TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.eleventh</code></td><td colspan="2">Allow players to build the 'eleventh' TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.ender</code></td><td colspan="2">Allow players to build the Ender TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.factory</code></td><td colspan="2">Allow players to build the First Doctor's TARDIS.</td><td>op</td></tr>
@@ -236,6 +237,7 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.pyramid</code></td><td colspan="2">Allow players to build the Sandstone Pyramid TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.redstone</code></td><td colspan="2">Allow players to build the 'redstone' TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.rotor</code></td><td colspan="2">Allow players to build the Time Rotor TARDIS.</td><td>op</td></tr>
+    <tr><td><code>tardis.sidrat</code></td><td colspan="2">Allow players to build the 'SIDRAT' TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.steampunk</code></td><td colspan="2">Allow players to build the 'steampunk' TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.thirteenth</code></td><td colspan="2">Allow players to build the Thirteenth Doctor's TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.tom</code></td><td colspan="2">Allow players to build the '4th Doctor's' TARDIS.</td><td>op</td></tr>

@@ -77,6 +77,7 @@ tardis.cursed
 tardis.delta
 tardis.deluxe
 tardis.division
+tardis.eighth
 tardis.eleventh
 tardis.ender
 tardis.factory
@@ -91,6 +92,7 @@ tardis.pyramid
 tardis.redstone
 tardis.rotor
 tardis.rustic
+tardis.sidrat
 tardis.steampunk
 tardis.thirteenth
 tardis.tom
