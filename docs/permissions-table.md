@@ -297,6 +297,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.shell</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.smelter</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.stable</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.staircase</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.stall</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.surgery</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.trenzalore</code></td><td>true</td></tr>

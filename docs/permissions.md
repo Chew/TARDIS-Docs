@@ -166,6 +166,7 @@ tardis.room.renderer
 tardis.room.shell
 tardis.room.smelter
 tardis.room.stable
+tardis.room.staircase
 tardis.room.stall
 tardis.room.surgery
 tardis.room.trenzalore
