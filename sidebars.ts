@@ -102,6 +102,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'modifying-the-tardis-interior',
         'ars',
+        'room-relocator',
         'desktop-theme',
         'interiors',
         'panoramic-gallery',
