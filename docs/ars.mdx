@@ -4,14 +4,15 @@ title: Architectural Reconfiguration System (ARS)
 keywords: [ars, ARS, architectural, architectural reconfiguration system]
 ---
 
+import TabbedImage from '@site/src/components/TabbedImage'
+
 # Architectural Reconfiguration System (ARS)
 
 The TARDIS ARS is a system for managing the growing and jettisoning of rooms.
 
 To use ARS, you must have an ARS compatible TARDIS. Currently all TARDIS types
-are compatible, however you may be need to make a new
-TARDIS to take advantage of the system if your current TARDIS was created before
-version 2.6 of the plugin.
+are compatible, however you may need to make a new TARDIS to take advantage of the
+system if your current TARDIS was created before version 2.6 of the plugin.
 
 The ARS system is based on a 3-dimensional 9 wide x 9 deep x 3 high cuboid grid.
 Each coordinate in the grid is a 16 x 16 x 16 block cube (or slot). All room
@@ -32,7 +33,7 @@ To use the ARS, open the TARDIS Control Menu GUI or add an ARS GUI sign. To manu
 When you RIGHT-click the ARS sign the GUI opens. Hovering over the blocks will
 display lore that tells you the block’s function. Below is a breakdown of the GUI:
 
-![ARS GUI](/images/docs/arsgui.jpg)
+<TabbedImage name={"ARS GUI"} description={"Architectural Reconfiguration System GUI breakdown."} folder={"docs"} image={"arsgui.jpg"} />
 
 1. The black wool blocks are the scrollable map area — this represents one layer
    of the 3-dimensional grid.
@@ -48,6 +49,7 @@ display lore that tells you the block’s function. Below is a breakdown of the 
 8. The bottom row of the GUI contains the room blocks. The block type is
    determined by the seed block for the room.
 9. The pink wool block closes the ARS GUI and starts processing your settings.
+10. The purple wool block takes you to the [Room Relocator](room-relocator) GUI where you can move rooms.
 
 ## Using the Architectural Reconfiguration System
 

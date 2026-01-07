@@ -30,5 +30,11 @@ The room relocator can be accessed from the [Architectural Reconfiguration Syste
 - The original room is locked by putting REINFORCED_DEEPSLATE blocks in the doorways (as they can't be moved by pistons and are hard to break).
 - Only one room can be relocated at a time.
 - You can't relocate gravity wells (try growing a [STAIRCASE](/rooms/gallery#Staircase) instead).
-- If present mobs will be teleported to the relocated room.
+- If present ([Breedable](/breedable)) mobs will be teleported to the relocated room.
 - The old room will be automatically jettisoned and Artron energy returned.
+
+:::warning
+
+This will NOT track custom modifications or chests inside the room, it will only build a new room with the breedable entities from the existing room.
+
+:::

@@ -61,6 +61,7 @@ All rooms are enabled by default, the rest of the settings are:
 | SHELL       | 550  | -4     | DEAD_BRAIN_CORAL_BLOCK   |
 | SMELTER     | 750  | -4     | CHEST                    |
 | STABLE      | 350  | -4     | HAY_BLOCK                |
+| STAIRCASE   | 550  | -5     | PURPLE_TERRACOTTA        |
 | STALL       | 350  | -4     | BROWN_GLAZED_TERRACOTTA  |
 | SURGERY     | 350  | -4     | RED_CONCRETE             |
 | TRENZALORE  | 550  | -4     | BRICKS                   |
