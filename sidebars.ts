@@ -123,6 +123,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'rooms/gallery',
             'rooms/custom',
+            'rooms/architectural',
             'rooms/eye',
             'rooms/garden',
             'rooms/gravity-wells',
