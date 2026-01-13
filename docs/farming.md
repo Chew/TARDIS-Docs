@@ -84,7 +84,9 @@ As of TARDIS version 3.1-beta-1, you can now eject farmed mobs, villagers and co
 To eject an entity, use the `/tardis eject` command, then click the mob/villager/companion you want to eject. They will
 be teleported outside the TARDIS, what you do with them then is up to you.
 
-Horses must still be ridden over the wood pressure plate.
+Horses must still be ridden over the wood pressure plate. You can also use a pressure plate to eject any rideable mob inside the TARDIS (Camels / Llamas / Striders).
+
+Nautili must be ridden and then the NAUTILUS room eject button used.
 
 :::note
 

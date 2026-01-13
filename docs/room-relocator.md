@@ -31,6 +31,7 @@ The room relocator can be accessed from the [Architectural Reconfiguration Syste
 - Only one room can be relocated at a time.
 - You can't relocate gravity wells (try growing a [STAIRCASE](/rooms/gallery#Staircase) instead).
 - If present ([Breedable](/breedable)) mobs will be teleported to the relocated room.
+- Leashed Happy Ghasts will not be moved the relocated HAPPY room - unleash them before relocating.
 - The old room will be automatically jettisoned and Artron energy returned.
 
 :::warning

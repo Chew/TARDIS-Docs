@@ -37,7 +37,9 @@ import TabItem from '@theme/TabItem';
 [Archiving consoles](archive "Archiving consoles")  
 [Area commands](commands/area "Area commands")  
 [Areas](tardis-areas "Areas")  
+[Architectural Blueprints](/rooms/architectural#blueprints "Architectural Blueprints")  
 [Architectural Reconfiguration System (ARS)](ars "Architectural Reconfiguration System")  
+[Architectural room](/rooms/architectural "Architectural room")  
 [Area Storage Disks](advanced-console#area-storage-disks "Area Disks")  
 [Artron Capacitor](artron-capacitor "Artron Capacitor")  
 [Artron Capacitor Storage](artron-capacitor-storage "Artron Capacitor Storage")  
@@ -202,6 +204,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="L" label="L">
 
+[Laundry room](/rooms/laundry "Laundry room")  
 [Lazarus Device](lazarus "Lazarus Device")  
 [Leaving the door open](enter-and-exit#leaving-the-door-open "Leaving the door open")  
 [Localisation](localisation "Localisation")  
@@ -265,6 +268,7 @@ import TabItem from '@theme/TabItem';
 [Room Configuration](configuration/rooms "Room Configuration")  
 [Room gallery](/rooms/gallery "Room gallery")  
 [Room Growth Configuration](configuration/growth "Room Growth Configuration")  
+[Room Relocation](room-relocator "Rooms")  
 [Rooms and economies](rooms-and-economies "Custom rooms")  
 [Rooms](rooms "Rooms")  
 
@@ -367,6 +371,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="W" label="W">
 
 [Wall materials](walls "Wall materials")  
+[Washing Machine](/rooms/laundry#washing-machine "Washing Machine")  
 [Weather command](commands/misc#tardisweather "Weather command")  
 [Weeping Angels](modules/weeping-angels#weeping-angels-1 "Weeping Angels")  
 [Wiki Sign](wiki-sign "Wiki Sign")  
