@@ -20,3 +20,9 @@ To enable sorting:
 - the blocks/items are moved to the chest with the same block/item in it
 
 ![Vault chests](/images/docs/vault.jpg)
+
+:::tip[Unsorted items]
+
+If you place a copper chest and run the command `/tardis update unsorted` on it, any items in the drop chest that could not be sorted will be transferred to the copper chest.
+
+:::

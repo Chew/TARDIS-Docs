@@ -127,3 +127,15 @@ title: Updateable blocks
 **charging-sensor, handbrake-sensor, flight-sensor, malfunction-sensor, power-sensor:**
 
 - REDSTONE_BLOCK
+
+**nautilus:**
+
+- POLISHED_BLACKSTONE_BUTTON
+
+**washing-machine:**
+
+- QUARTZ_BLOCK
+
+**unsorted:**
+
+- Any type of COPPER_CHEST
