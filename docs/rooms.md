@@ -62,6 +62,7 @@ and follow the instructions. The room types and their corresponding seed blocks 
 | Bedroom | GLOWSTONE |
 | Birdcage | YELLOW_GLAZED_TERRACOTTA |
 | Chemistry | BLAST_FURNACE |
+| Cloister | PALE_MOSS_BLOCK |
 | Empty | GLASS |
 | Eye | SHROOMLIGHT |
 | Farm | DIRT |
