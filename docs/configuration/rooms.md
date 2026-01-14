@@ -24,52 +24,63 @@ rooms:
 
 All rooms are enabled by default, the rest of the settings are:
 
-| ROOMTYPE    | cost | offset | seed block               |
-|-------------|------|--------|--------------------------|
-| ANTIGRAVITY | 625  | -4     | SANDSTONE                |
-| APIARY      | 450  | -4     | BEE_NEST                 |
-| AQUARIUM    | 450  | -4     | TUBE_CORAL_BLOCK         |
-| ARBORETUM   | 325  | -4     | OAK_LEAVES               |
-| BAKER       | 350  | -4     | END_STONE                |
-| BAMBOO      | 475  | -4     | BAMBOO                   |
-| BEDROOM     | 475  | -4     | GLOWSTONE                |
-| BIRDCAGE    | 350  | -4     | YELLOW_GLAZED_TERRACOTTA |
-| CHEMISTRY   | 550  | -4     | BLAST_FURNACE            |
-| EMPTY       | 250  | -4     | GLASS                    |
-| FARM        | 350  | -4     | DIRT                     |
-| GARDEN      | 450  | -4     | CHERRY_LEAVES            |
-| GEODE       | 650  | -4     | AMETHYST_BLOCK           |
-| GRAVITY     | 625  | -20    | MOSSY_COBBLESTONE        |
-| GREENHOUSE  | 450  | -4     | MELON                    |
-| HARMONY     | 450  | -4     | STONE_BRICK_STAIRS       |
-| HUTCH       | 450  | -4     | ACACIA_LOG               |
-| IGLOO       | 650  | -4     | PACKED_ICE               |
-| IISTUBIL    | 550  | -4     | WHITE_GLAZED_TERRACOTTA  |
-| KITCHEN     | 450  | -4     | PUMPKIN                  |
-| LAZARUS     | 750  | -4     | FURNACE                  |
-| LIBRARY     | 550  | -4     | ENCHANTING_TABLE         |
-| MANGROVE    | 450  | -4     | MUDDY_MANGROVE_ROOTS     |
-| MAZE        | 650  | -4     | LODESTONE                |
-| MUSHROOM    | 350  | -4     | GRAVEL                   |
-| NAUTILUS    | 450  | -4     | DEAD_HORN_CORAL_BLOCK    |
-| NETHER      | 450  | -4     | BLACKSTONE               |
-| PASSAGE     | 200  | -4     | CLAY                     |
-| PEN         | 550  | -4     | MOSS_BLOCK               |
-| POOL        | 450  | -4     | SNOW_BLOCK               |
-| RAIL        | 650  | -4     | HOPPER                   |
-| RENDERER    | 550  | -4     | TERRACOTTA               |
-| SHELL       | 550  | -4     | DEAD_BRAIN_CORAL_BLOCK   |
-| SMELTER     | 750  | -4     | CHEST                    |
-| STABLE      | 350  | -4     | HAY_BLOCK                |
-| STAIRCASE   | 550  | -5     | PURPLE_TERRACOTTA        |
-| STALL       | 350  | -4     | BROWN_GLAZED_TERRACOTTA  |
-| SURGERY     | 350  | -4     | RED_CONCRETE             |
-| TRENZALORE  | 550  | -4     | BRICKS                   |
-| VAULT       | 350  | -4     | DISPENSER                |
-| VILLAGE     | 550  | -4     | OAK_LOG                  |
-| WOOD        | 350  | -4     | OAK_PLANKS               |
-| WORKSHOP    | 400  | -4     | CRAFTING_TABLE           |
-| ZERO        | 650  | -4     | OAK_BUTTON               |
+| ROOMTYPE      | cost | offset | seed block                 |
+|---------------|------|--------|----------------------------|
+| ALLAY         | 1225 | -4     | LIGHT_BLUE_CONCRETE        |
+| ANTIGRAVITY   | 1725 | -4     | SANDSTONE                  |
+| APIARY        | 700  | -4     | BEE_NEST                   |
+| AQUARIUM      | 875  | -4     | TUBE_CORAL_BLOCK           |
+| ARBORETUM     | 850  | -4     | OAK_LEAVES                 |
+| ARCHITECTURAL | 775  | -4     | WAXED_COPPER_GRATE         |
+| BAKER         | 750  | -4     | END_STONE                  |
+| BAMBOO        | 700  | -4     | BAMBOO                     |
+| BEDROOM       | 875  | -4     | GLOWSTONE                  |
+| BIRDCAGE      | 825  | -4     | YELLOW_GLAZED_TERRACOTTA   |
+| CHEMISTRY     | 700  | -4     | BLAST_FURNACE              |
+| CLOISTER      | 400  | -4     | PALE_MOSS_BLOCK            |
+| EMPTY         | 825  | -4     | GLASS                      |
+| EYE           | 625  | -4     | SHROOMLIGHT                |
+| FARM          | 725  | -4     | DIRT                       |
+| GALLERY       | 1275 | -4     | CHISELED_QUARTZ_BLOCK      |
+| GARDEN        | 625  | -4     | CHERRY_LEAVES              |
+| GEODE         | 675  | -4     | AMETHYST_BLOCK             |
+| GRAVITY       | 1525 | -20    | MOSSY_COBBLESTONE          |
+| GREENHOUSE    | 750  | -4     | MELON                      |
+| HAPPY         | 950  | -4     | STRIPPED_OAK_LOG           |
+| HARMONY       | 925  | -4     | STONE_BRICK_STAIRS         |
+| HUTCH         | 750  | -4     | ACACIA_LOG                 |
+| IGLOO         | 1600 | -4     | PACKED_ICE                 |
+| IISTUBIL      | 425  | -4     | WHITE_GLAZED_TERRACOTTA    |
+| KITCHEN       | 1525 | -4     | PUMPKIN                    |
+| LAUNDRY       | 975  | -4     | VERDANT_FROGLIGHT          |
+| LAVA          | 425  | -4     | MAGMA_BLOCK                |
+| LAZARUS       | 850  | -4     | FURNACE                    |
+| LIBRARY       | 1850 | -4     | ENCHANTING_TABLE           |
+| MANGROVE      | 525  | -4     | MUDDY_MANGROVE_ROOTS       |
+| MAZE          | 675  | -4     | LODESTONE                  |
+| MUSHROOM      | 500  | -4     | GRAVEL                     |
+| NAUTILUS      | 925  | -4     | DEAD_HORN_CORAL_BLOCK      |
+| NETHER        | 275  | -4     | BLACKSTONE                 |
+| OBSERVATORY   | 3950 | -4     | POLISHED_BLACKSTONE_BRICKS |
+| PASSAGE       | 500  | -4     | CLAY                       |
+| PEN           | 725  | -4     | MOSS_BLOCK                 |
+| POOL          | 875  | -4     | SNOW_BLOCK                 |
+| RAIL          | 1100 | -4     | HOPPER                     |
+| RENDERER      | 1650 | -4     | TERRACOTTA                 |
+| SHELL         | 1025 | -4     | DEAD_BRAIN_CORAL_BLOCK     |
+| SMELTER       | 1025 | -4     | CHEST                      |
+| STABLE        | 825  | -4     | HAY_BLOCK                  |
+| STAIRCASE     | 775  | -5     | PURPLE_TERRACOTTA          |
+| STALL         | 1000 | -4     | BROWN_GLAZED_TERRACOTTA    |
+| SURGERY       | 1400 | -4     | RED_CONCRETE               |
+| TRENZALORE    | 775  | -4     | BRICKS                     |
+| VAULT         | 850  | -4     | DISPENSER                  |
+| VILLAGE       | 650  | -4     | OAK_LOG                    |
+| WARDROBE      | 750  | -4     | BIRCH_LOG                  |
+| WOOD          | 450  | -4     | OAK_PLANKS                 |
+| WORKSHOP      | 1175 | -4     | CRAFTING_TABLE             |
+| ZERO          | 750  | -4     | OAK_BUTTON                 |
+
 
 ## Room jettisons
 
