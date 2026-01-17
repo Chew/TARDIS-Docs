@@ -33,8 +33,10 @@ convert blocks to Artron Energy if you were to put them in the TARDIS energy con
 | Eye           | 6332                | 625                    |
 | Farm          | 7487                | 725                    |
 | Gallery       | 12807               | 1275                   |
+| Games         | 7275                | 725                    |
 | Garden        | 6315                | 625                    |
 | Geode         | 6974                | 675                    |
+| Golem         | 9876                | 975                    |
 | Gravity       | 15485               | 1525                   |
 | Greenhouse    | 7738                | 750                    |
 | Happy         | 9749                | 950                    |

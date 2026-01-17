@@ -42,8 +42,10 @@ All rooms are enabled by default, the rest of the settings are:
 | EYE           | 625  | -4     | SHROOMLIGHT                |
 | FARM          | 725  | -4     | DIRT                       |
 | GALLERY       | 1275 | -4     | CHISELED_QUARTZ_BLOCK      |
+| GAMES         | 725  | -4     | DARK_OAK_PLANKS            |
 | GARDEN        | 625  | -4     | CHERRY_LEAVES              |
 | GEODE         | 675  | -4     | AMETHYST_BLOCK             |
+| GOLEM         | 975  | -4     | TUFF                       |
 | GRAVITY       | 1525 | -20    | MOSSY_COBBLESTONE          |
 | GREENHOUSE    | 750  | -4     | MELON                      |
 | HAPPY         | 950  | -4     | STRIPPED_OAK_LOG           |
