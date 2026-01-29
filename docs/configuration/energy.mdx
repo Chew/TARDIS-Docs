@@ -28,7 +28,7 @@ the_end_min: 5500
 recharge_distance: 20
 lightning_recharge: 300
 creeper_recharge: 150
-full_charge: 5000
+full_charge: 10000
 full_charge_item: NETHER_STAR
 malfunction_damage: 15
 # siege mode
@@ -45,7 +45,9 @@ jettison_seed: TNT
 # room charges
 render: 250
 zero: 250
-# upgrades
+# upgrade costs
+# since v6.3.11 upgrade costs are calculated
+# dynamically at server start up
 upgrades:
   ancient: 5000
   ars: 5000
@@ -91,6 +93,7 @@ upgrades:
     small: 1666
     medium: 2500
     tall: 3333
+  cost_factor: 42.5
 just_wall_floor: 50
 # artron furnace
 artron_furnace:
@@ -133,7 +136,7 @@ the_end_min: 5500 # Sets the minimum amount of energy the TARDIS Artron Energy C
 recharge_distance: 20 # Sets the maximum distance in blocks, a Police Box can be from a recharge beacon in order to start recharging.
 lightning_recharge: 300 # Sets the amount of energy TARDISes receive if they are within the \`recharge_distance\` of a natural lightning strike.
 creeper_recharge: 150 # Sets the amount of energy players receive if they kill a charged creeper.
-full_charge: 5000 # Sets the amount of energy a fully charged TARDIS Artron Energy Capacitor holds.
+full_charge: 10000 # Sets the amount of energy a fully charged TARDIS Artron Energy Capacitor holds.
 full_charge_item: NETHER_STAR # Sets the item that fully charges the Energy Capacitor when you right-click the Artron button with it.
 malfunction_damage: 15 # The percentage chance an Artron Capacitor will be damaged in the event of a TARDIS malfunction.
 siege_transfer: 10 # Sets the minimum amount of Time Lord energy needed to transfer to the Siege block. This is a percentage of \`full_charge\`. Default is 10\% (500).
@@ -190,6 +193,7 @@ upgrades:
         medium: 2500
         small: 1666
         tall: 3333 # Sets the energy cost to use a console template when using the Desktop Theme changer.
+    cost_factor: 42.5 # Sets the percentage of \`full_charge\` the calculated upgrade costs use 
 just_wall_floor: 50 # If a player is just changing the walls and floor, then \`just_wall_floor\` sets the percentage the cost is reduced.
 artron_furnace:
     # Sets the options for Artron Furnaces. See further explanation on the [Artron Furnace](artron-furnace) page.

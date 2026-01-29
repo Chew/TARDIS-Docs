@@ -1,10 +1,10 @@
 ---
 layout: default
-title: The Games Room
+title: Games Room
 keywords: [games, arcade, games room]
 ---
 
-# The Games Room
+# Games Room
 
 The games room lets you play mini games inside of Minecraft. Games include Pong, Tic Tac Toe (Noughts and Crosses), Stone Magma Ice (Rock Paper Scissors) and Tetris.
 
@@ -12,13 +12,13 @@ The games room lets you play mini games inside of Minecraft. Games include Pong,
 
 :::info Requirements
 
-For Pong and Tetris the TARDIS_Zero_Room must be enabled. Use the `/tardisconfig zero_room true` command to enable the world.
+For Pong and Tetris the _TARDIS_Zero_Room_ must be enabled. Use the `/tardisconfig zero_room true` command to enable the world.
 
 :::
 
 ## TARDIS Gaming Computer
 
-The games room contains a gaming computer - right-clicking the computer mouse (the polished blackstone button) opens the TARDIS Gaming Computer GUI. Click a game disk to start playing a game.
+The games room contains a gaming computer - _right-clicking_ the computer mouse (the polished blackstone button) opens the TARDIS Gaming Computer GUI. Click a game disk to start playing a game.
 
 ![Gaming Computer GUI](/images/docs/gaming_computer_gui.jpg)
 
@@ -37,7 +37,7 @@ To play:
 - press the move backward key (usually `S`) to move your paddle down.
 - press the sneak key (usually `shift`) to leave the game.
 
-For every five points the player earns, the game speeds up.
+For every three points the player earns, the game speeds up.
 
 ## Tetris
 
@@ -47,9 +47,11 @@ The quintessential Minecraft block drop game ;)
 
 When starting the game, you will be teleported to the ARCADE room facing the game `screen`.
 
+You can set the level of the game before starting with the *Level* button in the GUI.
+
 To play:
 
-- press the jump key (usually `space`) to rotate the falling block shape counter clockwise.
+- press the jump key (usually `space`) to rotate the falling block shape counter-clockwise.
 - press the move forward key (usually `W`) to rotate the falling block shape clockwise.
 - press the move left key (usually `A`) to move the falling block shape left.
 - press the move right key (usually `D`) to move the falling block shape right.
@@ -57,6 +59,12 @@ To play:
 - press the sneak key (usually `shift`) to leave the game.
 
 Block shapes must be neatly sorted into a pile. Once a horizontal line of the game board is filled in, it disappears, granting you points.
+
+:::warning Don't get stuck
+
+Do your best to exit the ARCADE room cleanly before logging off or before a server restart to avoid being trapped in the _TARDIS\_Zero\_Room_ world. The plugin will do its best to detect if you are there, and teleport you back to your games room on re-logging, but is not perfect! In an emergency use the command `/tardis arcade return`.
+
+:::
 
 ## Tic Tac Toe
 
