@@ -154,6 +154,7 @@ import TabItem from '@theme/TabItem';
 [Gallifrey](planets#planet-gallifrey "Gallifrey")  
 [Gallifreyan blueprint merchants](modules/blueprints#gallifreyan-traders)  
 [Gamemode command](commands/misc#tardisgamemode "Gamemode command")  
+[Games room](/rooms/games "Games room")  
 [Garden room](rooms/garden)  
 [Genetic Manipulator](lazarus "Genetic Manipulator")  
 [Give commands](commands/give "Give commands")  
