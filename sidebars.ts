@@ -68,6 +68,7 @@ const sidebars: SidebarsConfig = {
             'rooms/eye',
             'artron-cells',
             'condensables',
+            'desktop-costs',
           ]
         },
         'enter-and-exit',
