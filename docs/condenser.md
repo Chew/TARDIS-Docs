@@ -5,22 +5,26 @@ title: Condenser Chest
 
 # Condenser Chest
 
-One of the ways to recharge the Artron Energy Capacitor is to convert raw materials into energy. You can do this with
-the TARDIS’s condenser chest.
+One of the ways to recharge the Artron Energy Capacitor is to convert raw materials into energy. You can do this with the TARDIS’s condenser chest.
 
 The condenser chest is automatically added to newly created TARDISes, but there are two other ways to add the chest:
 
-1. Place a chest, and use the `/tardis update condenser` command
+1. Place a chest or trapped chest, and use the `/tardis update condenser` command
 2. Grow an **Eye of Harmony** room. The Eye of Harmony contains a chest which is automatically set as the condenser.
 
 ## Using the condenser
 
-To convert materials to Artron Energy, place them in the Condenser chest and then close it. Any valid materials will be
-converted, and you will receive a message stating how much energy was generated.
+To convert materials to Artron Energy, place them in the Condenser chest and then close it. Any valid materials will be converted, and you will receive a message stating how much energy was generated.
 
 A list of condensable items and their relative values can be found on the [Condensables](condensables) page.
 
 ![Energy condenser](/images/docs/condenser.jpg)
+
+:::info Copper golems
+
+If you change the regular condenser chest to a trapped chest, any items placed into the chest by a copper golem will be condensed as well.
+
+:::
 
 ## Server condenser
 

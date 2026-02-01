@@ -21,8 +21,14 @@ To enable sorting:
 
 ![Vault chests](/images/docs/vault.jpg)
 
-:::tip[Unsorted items]
+:::tip Unsorted items
 
 If you place a copper chest and run the command `/tardis update unsorted` on it, any items in the drop chest that could not be sorted will be transferred to the copper chest.
+
+:::
+
+:::info Copper golems
+
+If you change the regular vault drop chest to a trapped chest, any items placed into the chest by a copper golem will be sorted as well.
 
 :::
