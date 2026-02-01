@@ -133,7 +133,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.village_savanna</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.village_snowy</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.timetravel.structure.village_taiga</code></td><td>true</td></tr>
-    <tr><td><code>tardis.prefs.\*</code></td><td colspan="2">Allow players to use /tardisprefs commands.</td><td>op</td></tr>
+    <tr><td><code>tardis.prefs.\*</code></td><td colspan="2">Allow players to use <code>/tardisprefs</code> commands.</td><td>op</td></tr>
     <tr class="child"><td rowspan="38"> &nbsp; &mdash; children of <code>tardis.prefs.\*</code></td><td colspan="2"><code>tardis.prefs.auto</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.prefs.auto_powerup</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.prefs.auto_rescue</code></td><td>true</td></tr>
@@ -181,7 +181,7 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.update</code></td><td colspan="2">Allow players to modify the TARDIS interior.</td><td>true</td></tr>
     <tr><td><code>tardis.rebuild</code></td><td colspan="2">Allow players to rebuild the TARDIS.</td><td>true</td></tr>
     <tr><td id="console-perms"><code>tardis.console.\*</code></td><td colspan="2">Allow players to build all TARDIS types.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="31"> &nbsp; &mdash; children of <code>tardis.console.\*</code></td><td colspan="2"><code>tardis.ancient</code></td><td>true</td></tr>
+    <tr class="child"><td rowspan="37"> &nbsp; &mdash; children of <code>tardis.console.\*</code></td><td colspan="2"><code>tardis.ancient</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.ars</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.bigger</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.bone</code></td><td>true</td></tr>
@@ -193,6 +193,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.delta</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.deluxe</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.division</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.eighth</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.eleventh</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.ender</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.factory</code></td><td>true</td></tr>
@@ -210,6 +211,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.redstone</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.rotor</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.rustic</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.sidrat</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.steampunk</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.thirteenth</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.tom</code></td><td>true</td></tr>
@@ -258,8 +260,9 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.end</code></td><td colspan="2">Allow players to time travel to the END.</td><td>op</td></tr>
     <tr><td><code>tardis.nether</code></td><td colspan="2">Allow players to time travel to the NETHER.</td><td>op</td></tr>
     <tr><td><code>tardis.room</code></td><td colspan="2">Allow players to grow extra rooms.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="37"> &nbsp; &mdash; children of <code>tardis.room</code></td><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
+    <tr class="child"><td rowspan="56"> &nbsp; &mdash; children of <code>tardis.room</code></td><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.allay</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.apiary</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.aquarium</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.arboretum</code></td><td>true</td></tr>
@@ -268,11 +271,15 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.bedroom</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.birdcage</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.chemistry</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.cloister</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.empty</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.eye</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.farm</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.gallery</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.games</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.garden</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.geode</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.golem</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.gravity</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.greenhouse</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.happy</code></td><td>true</td></tr>
@@ -281,6 +288,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.igloo</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.iistubil</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.kitchen</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.laundry</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.lava</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.lazarus</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.library</code></td><td>true</td></tr>
@@ -291,6 +299,7 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.nether</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.observatory</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.passage</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.pen</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.pool</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.rail</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.renderer</code></td><td>true</td></tr>
@@ -303,11 +312,12 @@ title: Big list of TARDIS permissions
     <tr class="child"><td colspan="2"><code>tardis.room.trenzalore</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.vault</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.village</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.wardrobe</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.wood</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.workshop</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.zero</code></td><td>true</td></tr>
-    <tr><td><code>tardis.jettison</code></td><td colspan="2">Allow players to use the /tardis jettison command.</td><td>op</td></tr>
-    <tr><td><code>tardis.gravity</code></td><td colspan="2">Allow players to use the /tardisgravity command.</td><td>op</td></tr>
+    <tr><td><code>tardis.jettison</code></td><td colspan="2">Allow players to use the <code>/tardis jettison</code> command.</td><td>op</td></tr>
+    <tr><td><code>tardis.gravity</code></td><td colspan="2">Allow players to use the <code>/tardisgravity</code> command.</td><td>op</td></tr>
     <tr><td><code>tardis.farm</code></td><td colspan="2">Allow players to farm mobs.</td><td>op</td></tr>
     <tr><td><code>tardis.eject</code></td><td colspan="2">Allow players eject farmed mobs, villagers and companions.</td><td>op</td></tr>
     <tr><td><code>tardis.autonomous</code></td><td colspan="2">Allow players to use the TARDIS autonomous homing function.</td><td>op</td></tr>
@@ -315,8 +325,8 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.backdoor</code></td><td colspan="2">Allow players to add a TARDIS back door.</td><td>op</td></tr>
     <tr><td><code>tardis.texture</code></td><td colspan="2">Allow players to switch texture packs.</td><td>op</td></tr>
     <tr><td><code>tardis.temporal</code></td><td colspan="2">Allow players to set their player time (Temporal Location).</td><td>op</td></tr>
-    <tr><td><code>tardis.prune</code></td><td colspan="2">Ignore /tardisadmin prune [days] command to remove unused TARDISes.</td><td>op</td></tr>
-    <tr><td><code>tardis.prune.bypass</code></td><td colspan="2">Ignore /tardisadmin prune [days] command to remove unused TARDISes.</td><td>op</td></tr>
+    <tr><td><code>tardis.prune</code></td><td colspan="2">Use the <code>/tardisadmin prune [days]</code> command to remove unused TARDISes.</td><td>op</td></tr>
+    <tr><td><code>tardis.prune.bypass</code></td><td colspan="2">Ignore <code>/tardisadmin prune [days]</code> command to remove unused TARDISes.</td><td>op</td></tr>
     <tr><td><code>tardis.sonic</code></td><td colspan="2">Allows a player to use a basic Sonic Screwdriver.</td><td>op</td></tr>
     <tr><td><code>tardis.sonic.standard</code></td><td colspan="2">Allows a player to use a basic Sonic Screwdriver.</td><td>op</td></tr>
     <tr><td><code>tardis.sonic.admin</code></td><td colspan="2">Allows the sonic screwdriver to be upgraded with Admin abilities.</td><td>op</td></tr>
@@ -340,7 +350,7 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.lazarus</code></td><td colspan="2">Allows a player to use the TARDIS Genetic Manipulator.</td><td>op</td></tr>
     <tr><td><code>tardis.themaster</code></td><td colspan="2">Allows a player to reverse the polarity of the TARDIS Genetic Manipulator turning it into the Immortality Gate.</td><td>op</td></tr>
     <tr><td><code>tardis.chameleonarch</code></td><td colspan="2">Allows a player to use the Chameleon Arch.</td><td>op</td></tr>
-    <tr><td><code>tardis.difficulty</code></td><td colspan="2">Allows a player to use the /tardisprefs difficulty command.</td><td>op</td></tr>
+    <tr><td><code>tardis.difficulty</code></td><td colspan="2">Allows a player to use the <code>/tardisprefs difficulty</code> command.</td><td>op</td></tr>
     <tr><td><code>tardis.vault</code></td><td colspan="2">Allows a player to have an automatic vault room chest sorter.</td><td>op</td></tr>
     <tr><td><code>tardis.upgrade</code></td><td colspan="2">Allows a player to upgrade their TARDIS.</td><td>op</td></tr>
     <tr><td><code>tardis.furnace</code></td><td colspan="2">Allows a player to have a TARDIS Artron Furnace.</td><td>op</td></tr>
@@ -384,6 +394,6 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.weather.rain</code></td><td colspan="2">Allow a player to change the weather to raining.</td><td>op</td></tr>
     <tr><td><code>tardis.weather.thunder</code></td><td colspan="2">Allow a player to change the weather to a thunderstorm.</td><td>op</td></tr>
     <tr><td><code>tardis.display</code></td><td colspan="2">Allow a player to toggle the HUD display on and off.</td><td>op</td></tr>
-    <tr><td><code>tardis.mushroom</code></td><td colspan="2">Allow a player to use the /tardismushroom command.</td><td>op</td></tr>
+    <tr><td><code>tardis.mushroom</code></td><td colspan="2">Allow a player to use the <code>/tardismushroom</code> command.</td><td>op</td></tr>
 </table>
 
