@@ -569,6 +569,7 @@ const sidebars: SidebarsConfig = {
         'permissions-plugin',
         'permissions',
         'permissions-table',
+        'room-perms',
         'weeping-angel-permissions',
         'kits',
         'recipes',

@@ -141,6 +141,7 @@ tardis.room.antigravity
 tardis.room.apiary
 tardis.room.aquarium
 tardis.room.arboretum
+tardis.room.architectural
 tardis.room.baker
 tardis.room.bamboo
 tardis.room.bedroom

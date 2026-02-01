@@ -260,12 +260,13 @@ title: Big list of TARDIS permissions
     <tr><td><code>tardis.end</code></td><td colspan="2">Allow players to time travel to the END.</td><td>op</td></tr>
     <tr><td><code>tardis.nether</code></td><td colspan="2">Allow players to time travel to the NETHER.</td><td>op</td></tr>
     <tr><td><code>tardis.room</code></td><td colspan="2">Allow players to grow extra rooms.</td><td>op</td></tr>
-    <tr class="child"><td rowspan="56"> &nbsp; &mdash; children of <code>tardis.room</code></td><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
+    <tr class="child"><td rowspan="57"> &nbsp; &mdash; children of <code>tardis.room</code></td><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.allay</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.antigravity</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.apiary</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.aquarium</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.arboretum</code></td><td>true</td></tr>
+    <tr class="child"><td colspan="2"><code>tardis.room.architectural</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.baker</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.bamboo</code></td><td>true</td></tr>
     <tr class="child"><td colspan="2"><code>tardis.room.bedroom</code></td><td>true</td></tr>
