@@ -22,6 +22,24 @@ The games room contains a gaming computer - _right-clicking_ the computer mouse 
 
 ![Gaming Computer GUI](/images/docs/gaming_computer_gui.jpg)
 
+## Connect Four
+
+Connect four of your tokens in a row while preventing the TARDIS from doing the same.
+
+- `Player` plays red tokens (red concrete powder).
+- `TARDIS` plays yellow tokens (yellow concrete powder).
+
+![Pong](/images/docs/connect4.jpg)
+
+To play:
+
+- Click a slot at the top of a column to drop a block.
+- The TARDIS will choose shortly after.
+- Continue taking turns to drop tokens into a column.
+- First to connect four blocks wins!
+
+Click the reset button to play again.
+
 ## Pong
 
 Control a paddle by moving it vertically across the left side of the 'screen'. Hit the moving ball back and forth. The goal is to reach eleven points before the TARDIS; points are earned when either side fails to return the ball.
