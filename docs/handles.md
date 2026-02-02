@@ -5,15 +5,13 @@ title: Handles
 
 # Handles
 
-Handles is the name given by the Eleventh Doctor to a Cyberman head that he obtained from the Maldovarium Market, and
-subsequently repaired.
+Handles is the name given by the Eleventh Doctor to a Cyberman head that he obtained from the Maldovarium Market, and subsequently repaired.
 
 You can craft and place Handles so that he can interact with you and the TARDIS.
 
 ![Handles](/images/docs/handles.jpg)
 
-To see the Handles crafting recipe, use the command `/tardisrecipe handles`. Alternatively, you can give yourself or
-other players a Handles with the command `/tardisgive [player] handles 1`
+To see the Handles crafting recipe, use the command `/tardisrecipe handles`. Alternatively, you can give yourself or other players a Handles with the command `/tardisgive [player] handles 1`
 
 ![Handles recipe](/images/docs/handles_recipe.jpg)
 
@@ -21,20 +19,15 @@ Handles can only be placed inside the TARDIS, and must be placed in an item fram
 
 ### Communicator
 
-Outside the TARDIS you can only communicate with Handles if he is in your inventory, or you have a communicator (and
-Handles is placed in the TARDIS) — use the `/tardisrecipe communicator` to view the recipe, or give a communicator with
-the `/tardisgive [player] communicator 1` command.
+Outside the TARDIS you can only communicate with Handles if he is in your inventory, or you have a communicator (and Handles is placed in the TARDIS) — use the `/tardisrecipe communicator` to view the recipe, or give a communicator with the `/tardisgive [player] communicator 1` command.
 
 ![Communicator](/images/docs/communicator.jpg)
 
 ### Talking to Handles
 
-Use chat to talk to Handles. All communication must be proceeded by a prefix — by default this is: “Hey Handles” —
-followed by one or more keywords.
+Use chat to talk to Handles. All communication must be proceeded by a prefix — by default this is: “Hey Handles” — followed by one or more keywords.
 
-Keywords for chat processing are: _“takeoff”, “land”, “scan, “lock”, “unlock”, “remind”, “say”, “name”, “time”,
-“handbrake”_ — or _“brake”_ or _“park”_ , _“travel”_ — travel can be to _“home”, “save” [name], “player” [name],
-“area” [name]_, _“biome” [name]_ — normal TARDIS permissions apply.
+Keywords for chat processing are: _“takeoff”, “land”, “scan, “lock”, “unlock”, “remind”, “say”, “name”, “time”, “handbrake”_ — or _“brake”_ or _“park”_ , _“travel”_ — travel can be to _“home”, “save” [name], “player” [name], “area” [name]_, _“biome” [name]_ — normal TARDIS permissions apply.
 
 ### Examples
 
@@ -51,9 +44,7 @@ hey handles what is my name
 hey handles what time is it
 ```
 
-Reminders need to have the number of minutes (until the reminder) as the last part of the handles request
-e.g. `hey handles remind me to [do something] in 5 `(reminder times will not be 100% accurate, because the plugin only
-checks for reminders every minute — can be changed in the config)
+Reminders need to have the number of minutes (until the reminder) as the last part of the handles request e.g. `hey handles remind me to [do something] in 5 `(reminder times will not be 100% accurate, because the plugin only checks for reminders every minute — can be changed in the config)
 
 ### Commands
 
@@ -68,6 +59,18 @@ Remove the Handles record from the TARDIS database. Use this if Handles is destr
 ```
 /handles remove
 ```
+
+Search the TARDIS wiki for information.
+
+```
+/handles wiki [search terms]
+```
+
+:::tip
+
+If you have dialogs turned on (`/tardisprefs dialogs on`) then running the command `/handles wiki` will open an interactive dialog to allow you to search the TARDIS wiki - found search results will open in your default web browser.
+
+:::
 
 Update a placed Handles' rotation.
 
@@ -161,16 +164,11 @@ Breakdown of some options:
 
 ## Interaction
 
-Clicking on a placed handles plays a Handles voice
-snippet ([TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/) required)
+Clicking on a placed handles plays a Handles voice snippet ([TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack/) required)
 
-The [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack) has been updated with the Handles
-model and textures — the Handles block is a BIRCH\_BUTTON.
+The [TARDIS-Resource-Pack](https://github.com/eccentricdevotion/TARDIS-Resource-Pack) has been updated with the Handles model and textures — the Handles block is a BIRCH\_BUTTON.
 
-Clicking on Handles while sneaking opens the [Handles Programming GUI](#programming-handles) where you can create
-program disks, _documentation yet to come_, disks can be renamed with a `/handles disk [name]` command). More on this
-later, but it should extend Handles’ functionality a bit with events and more actions and will work with Advanced
-Console Disks.
+Clicking on Handles while sneaking opens the [Handles Programming GUI](#programming-handles) where you can create program disks, _documentation yet to come_, disks can be renamed with a `/handles disk [name]` command). More on this later, but it should extend Handles’ functionality a bit with events and more actions and will work with Advanced Console Disks.
 
 ## Permissions
 
@@ -192,16 +190,13 @@ tardis.handles.program
 
 :::caution
 
-The programming feature is not fully tested and you may run into bugs! Please report them to
-[the issues tab on GitHub](https://github.com/eccentricdevotion/TARDIS/issues) if you do.
+The programming feature is not fully tested and you may run into bugs! Please report them to [the issues tab on GitHub](https://github.com/eccentricdevotion/TARDIS/issues) if you do.
 
 :::
 
-Clicking on Handles while sneaking opens the Handles Programming GUI where you can create program disks, allowing you to
-extend Handles’ functionality with events, actions, and Advanced Console Disks.
+Clicking on Handles while sneaking opens the Handles Programming GUI where you can create program disks, allowing you to extend Handles’ functionality with events, actions, and Advanced Console Disks.
 
-The Handles programming is block based &mdash; instructions are represented as blocks that you add in a particular order
-to create a program that Handles can run.
+The Handles programming is block based &mdash; instructions are represented as blocks that you add in a particular order to create a program that Handles can run.
 
 ## Video
 
