@@ -42,6 +42,7 @@ These values are for the default configuration values: `full_charge: 10000`, `up
 | `Cursed`          | 91470            | 20000    | 23600       | MASSIVE |
 | `Delta`           | 8415             | 7500     | 9850        | MEDIUM  |
 | `Deluxe`          | 67513            | 10000    | 13300       | TALL    |
+| `Diner`           | 77906            | 17500    | 17000       | WIDE    |
 | `Division`        | 32853            | 7500     | 9475        | MEDIUM  |
 | `Eighth`          | 201957           | 17500    | 21950       | MASSIVE |
 | `Eleventh`        | 60568            | 10000    | 13475       | TALL    |
@@ -49,6 +50,7 @@ These values are for the default configuration values: `full_charge: 10000`, `up
 | `Factory`         | 44983            | 7500     | 9300        | MEDIUM  |
 | `Fifteenth`       | 248757           | 20000    | 21250       | MASSIVE |
 | `Fugitive`        | 61276            | 7500     | 9050        | MEDIUM  |
+| `Hell Bent`       | 15975            | 5000     | 4800        | SMALL   |
 | `Hospital`        | 8881             | 5000     | 4875        | SMALL   |
 | `Legacy Bigger`   | 32369            | 7500     | 9500        | MEDIUM  |
 | `Legacy Deluxe`   | 41555            | 10000    | 13950       | TALL    |
@@ -92,7 +94,5 @@ Min and max values are based on `full_charge: 10000`, `upgrades.cost_factor: 0.4
 | `SMALL`   | weathered | 62037     | 1           | 5000      | 10000 * scale |
 | `MEDIUM`  | rustic    | 98485     | 2           | 10000     | 20000 * scale |
 | `TALL`    | master    | 89992     | 3           | 15000     | 30000 * scale |
-| `WIDE`    | - ‡       | - ‡       | 4           | 20000     | 40000 * scale | 
+| `WIDE`    | diner     | 77906     | 4           | 20000     | 40000 * scale | 
 | `MASSIVE` | fifteenth | 248756    | 5           | 25000     | 50000 * scale |
-
-_‡ the plugin doesn't currently have any WIDE desktops by default_

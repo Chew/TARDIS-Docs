@@ -122,6 +122,15 @@ export function PhotoSphereGallery() {
                 },
             },
             {
+                id: 'pano-diner',
+                name: 'DINER',
+                panorama: '/images/spheres/diner.jpg',
+                thumbnail: '/images/spheres/thumbs/diner.jpg',
+                options: {
+                    caption: 'Clara&rsquo;s Diner — An interior inspired by the TV episodes &lsquo;Impossible Astronaut&rsquo; and &lsquo;Hell Bent&rsquo; — <strong>Size:</strong> WIDE',
+                },
+            },
+            {
                 id: 'pano-division',
                 name: 'DIVISION',
                 panorama: '/images/spheres/division.jpg',
@@ -182,6 +191,15 @@ export function PhotoSphereGallery() {
                 thumbnail: '/images/spheres/thumbs/fugitive.jpg',
                 options: {
                     caption: 'Fugitive TARDIS — Ruth (The Fugitive Doctor) Clayton’s Console (based on <a href="https://www.youtube.com/watch?v=aykwXVemSs8" target="_blank">Ruth TARDIS designed by DT10</a> — <strong>Size:</strong> MEDIUM',
+                },
+            },
+            {
+                id: 'pano-hell-bent',
+                name: 'HELL BENT',
+                panorama: '/images/spheres/hell_bent.jpg',
+                thumbnail: '/images/spheres/thumbs/hell_bent.jpg',
+                options: {
+                    caption: 'Clara&rsquo;s TARDIS — Piloted by Clara Oswald and Ashildr — <strong>Size:</strong> SMALL',
                 },
             },
             {
