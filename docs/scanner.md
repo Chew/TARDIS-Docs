@@ -6,8 +6,7 @@ keywords: [scanner, scan]
 
 # Environment Scanner
 
-You can add a button or lever to the TARDIS that lets you scan the environment around the TARDIS Police Box.
-This function is also available in the TARDIS Control Menu.
+You can add a button or lever to the TARDIS that lets you scan the environment around the TARDIS Police Box. This function is also available in the TARDIS Control Menu.
 
 Place the block where you want the scanner to be positioned, and the run the command:
 
@@ -21,8 +20,7 @@ Follow the onscreen instructions.
 
 To use the scanner, simply click the button/lever (or the _Scan_ button in the Control Menu).
 
-The scanner will show information for the current location of the TARDIS Police Box, or, if a destination has been set,
-the next travel location.
+The scanner will show information for the current location of the TARDIS Police Box, or, if a destination has been set, the next travel location.
 
 You will be able to see the following information:
 
@@ -37,12 +35,9 @@ You will be able to see the following information:
 
 ## Exterior Rendering Room
 
-If you have grown a `Renderer` room, you are also shown a view of the immediate area around your TARDIS upon activating
-the scanner.
+If you have grown a `Renderer` room, you are also shown a view of the immediate area around your TARDIS upon activating the scanner.
 
-You will be teleported into the room after the textual readout from the scanner has completed. The room consists of a
-glass representation of your TARDIS, as well as a view of the immediate area around your travel device. Any water is
-rendered as light blue stained glass, and lava as orange wool.
+You will be teleported into the room after the textual readout from the scanner has completed. The room consists of a glass representation of your TARDIS, as well as a view of the immediate area around your travel device. Any water is rendered as light blue stained glass, and lava as orange wool.
 
 ## Videos
 

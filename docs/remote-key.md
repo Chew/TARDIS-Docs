@@ -5,9 +5,7 @@ title: Remote Key
 
 # TARDIS Remote Key
 
-The Tenth Doctor installed a system that allowed him to lock the TARDIS remotely using a key remote (as a joke, the
-TARDIS roof light flashed and a alarm chirp sound was heard, similar to that used on vehicles on Earth). In TARDIS
-v3.0-beta-1 and later, you can craft a remote key to do this too.
+The Tenth Doctor installed a system that allowed him to lock the TARDIS remotely using a key remote (as a joke, the TARDIS roof light flashed and a alarm chirp sound was heard, similar to that used on vehicles on Earth). In TARDIS v3.0-beta-1 and later, you can craft a remote key to do this too.
 
 To see the recipe type:
 
@@ -22,11 +20,9 @@ In plugins version < v3.2.8, the recipe will show a GOLD\_NUGGET —
 
 :::note
 
-If you have changed the item that crafting the TARDIS Key gives (i.e. it is NOT a GOLD\_NUGGET), then make
-sure you also update the TARDIS Remote Key recipe so that the GOLD\_NUGGET/TARDIS Key **ingredient is also changed**.
+If you have changed the item that crafting the TARDIS Key gives (i.e. it is NOT a GOLD\_NUGGET), then make sure you also update the TARDIS Remote Key recipe so that the GOLD\_NUGGET/TARDIS Key **ingredient is also changed**.
 
-Not only does the remote key deadlock and unlock the Police Box door, but it also allows you to show and hide the TARDIS
-as well.
+Not only does the remote key deadlock and unlock the Police Box door, but it also allows you to show and hide the TARDIS as well.
 
 :::
 

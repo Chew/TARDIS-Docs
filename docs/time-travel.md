@@ -5,8 +5,7 @@ title: Travelling
 
 # Travelling
 
-You can time travel in the TARDIS by using the controls on the TARDIS console, 
-or if you have the permission `tardis.fly` you can fly the TARDIS exterior - see [Flying the TARDIS](flying)
+You can time travel in the TARDIS by using the controls on the TARDIS console, or if you have the permission `tardis.fly` you can fly the TARDIS exterior - see [Flying the TARDIS](flying)
 
 ## Repeaters
 
@@ -27,18 +26,15 @@ Going to other types of world may require more Artron Energy.
 
 ![TARDIS console](/images/docs/console.jpg)
 
-With your back to the door, the left and right repeaters control the Z and X coordinates respectively. The longer the
-delay/larger the gap on the repeaters = a greater distance.
+With your back to the door, the left and right repeaters control the Z and X coordinates respectively. The longer the delay/larger the gap on the repeaters = a greater distance.
 
-The farthest repeater from the door is a multiplier for distance traveled. The same rule as the longer delay from above
-applies here as well.
+The farthest repeater from the door is a multiplier for distance traveled. The same rule as the longer delay from above applies here as well.
 
 To travel to a random destination, set the repeaters to your desired settings.
 
 :::tip
 
-If you can never remember which repeater is which, turn on the `announce_repeaters` player preference to see a title each time the repeater is clicked.
-`/tprefs announce_repeaters [on|off]`
+If you can never remember which repeater is which, turn on the `announce_repeaters` player preference to see a title each time the repeater is clicked. `/tprefs announce_repeaters [on|off]`
 
 :::
 
@@ -46,13 +42,11 @@ If you can never remember which repeater is which, turn on the `announce_repeate
 
 Your TARDIS comes equipped with a stone button & a handbrake (lever).
 
-The stone button “sets” your destination to a random location with respect to the repeater settings from the section
-above, and the handbrake initiates travel and parks your TARDIS.
+The stone button “sets” your destination to a random location with respect to the repeater settings from the section above, and the handbrake initiates travel and parks your TARDIS.
 
 1. Click the stone button and your TARDIS will lock on to a destination.
 2. Disengage the handbrake by **RIGHT**-clicking it.
-3. Once the TARDIS has finished navigating the time vortex (see [flight modes](flight-modes)), **LEFT**-click the
-   handbrake to park (best not to be in creative mode!).
+3. Once the TARDIS has finished navigating the time vortex (see [flight modes](flight-modes)), **LEFT**-click the handbrake to park (best not to be in creative mode!).
 
 ### Video
 
@@ -68,8 +62,7 @@ To exit the TARDIS simply RIGHT-click on the iron door to open it and walk out t
 
 ### The Advanced Console
 
-If the TARDIS difficulty level is set to _medium_ or _hard_, you’ll want to get to know your Advanced Console — find out
-more on the [Advanced Console](advanced-console) page.
+If the TARDIS difficulty level is set to _medium_ or _hard_, you’ll want to get to know your Advanced Console — find out more on the [Advanced Console](advanced-console) page.
 
 ### Travel commands
 
@@ -77,6 +70,5 @@ You can find these on the [Travel Commands](commands/travel) page.
 
 ### Save sign and destination terminal
 
-Use an inventory based GUI to set your destination. See more on the [Save Sign](save-sign)
-and [Destination Terminal](destination-terminal) pages.
+Use an inventory based GUI to set your destination. See more on the [Save Sign](save-sign) and [Destination Terminal](destination-terminal) pages.
 

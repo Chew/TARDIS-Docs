@@ -6,8 +6,7 @@ keywords: [rotor, time rotor]
 
 # Time Rotor
 
-If you are using the [TARDIS-Resource-Pack](/resource-packs) you can add
-an animated time rotor to your console (or grow a DELTA, HOSPITAL, MECHANICAL, ROTOR, or TOM console from a TARDIS seed block).
+If you are using the [TARDIS-Resource-Pack](/resource-packs) you can add an animated time rotor to your console (or grow a DELTA, HOSPITAL, MECHANICAL, ROTOR, or TOM console from a TARDIS seed block).
 
 ## Rotor Types
 
@@ -53,8 +52,7 @@ To add a time rotor to an existing console:
 
 ## Changing a Time Rotor
 
-Time rotors are locked (and the item frame made invisible) when you update them. In order to make changes to the time
-rotor you need to unlock it.
+Time rotors are locked (and the item frame made invisible) when you update them. In order to make changes to the time rotor you need to unlock it.
 
 1. Run the command `/tardis update rotor unlock`
 2. Make changes to the item frame and rotor

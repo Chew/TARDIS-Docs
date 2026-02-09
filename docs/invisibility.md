@@ -5,11 +5,9 @@ title: Invisibility
 
 # TARDIS Invisibility
 
-When inserted in the Advanced Console, and the INVISIBLE Chameleon preset is chosen, then the TARDIS will land
-invisibly.
+When inserted in the Advanced Console, and the INVISIBLE Chameleon preset is chosen, then the TARDIS will land invisibly.
 
-The TARDIS Police Box will be made up of invisible blocks that cannot be walked through. The walk in / out portal will
-function as normal so that the Time Lord and their companions can still enter and exit the TARDIS while it is invisible.
+The TARDIS Police Box will be made up of invisible blocks that cannot be walked through. The walk in / out portal will function as normal so that the Time Lord and their companions can still enter and exit the TARDIS while it is invisible.
 
 ![Invisiblity preset](/images/docs/invisible_preset.jpg)
 
@@ -39,8 +37,7 @@ circuits:
     invisibility: 5
 ```
 
-If `damage` is set to true, then `uses.invisibilty` sets the number of times the Invisibilty circuit can be used before
-it vapourises.
+If `damage` is set to true, then `uses.invisibilty` sets the number of times the Invisibilty circuit can be used before it vapourises.
 
 ```
 allow:

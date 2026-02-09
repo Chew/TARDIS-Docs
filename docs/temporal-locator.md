@@ -6,11 +6,9 @@ keywords: [temporal, temporal locator]
 
 # Temporal Locator
 
-The Temporal Locator lets players set their time relative to the server time. The Temporal Locator is accessible via the 
-TARDIS Control Menu GUI, or you can place a sign and use the `/tardis update temporal` command.
+The Temporal Locator lets players set their time relative to the server time. The Temporal Locator is accessible via the TARDIS Control Menu GUI, or you can place a sign and use the `/tardis update temporal` command.
 
-In the Control Menu click the _Time_ button (or if using a separate Temporal Locator sign, right-click it)
-to open the inventory based GUI. You will see a screen like the one below.
+In the Control Menu click the _Time_ button (or if using a separate Temporal Locator sign, right-click it) to open the inventory based GUI. You will see a screen like the one below.
 
 - Click a clock to set your time to the one displayed
 - Time is set when exiting the TARDIS and reset back to server time when re-entering the TARDIS
