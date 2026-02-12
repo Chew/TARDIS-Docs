@@ -151,6 +151,7 @@ const sidebars: SidebarsConfig = {
                 'adaptive-presets'
             ]
         },
+        'lights-gui',
         'materialisation-particles',
         'sensors'
       ],

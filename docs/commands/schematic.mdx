@@ -38,10 +38,10 @@ args={
         * \`structure\` - this contains all the plugin’s structure schematics used in TARDIS worlds.
       usage: /<command> load [console|room|structure|user] [name]
     paste:
-      description: Paste a loaded TARDIS schematic. Pasting should be relatively lag free, as the number of blocks being placed per tick is restricted. A progress bar will appear to give you an indication of how long the schematic will take to process.
-      usage: /<command> paste
+      description: Paste a loaded TARDIS schematic. Pasting should be relatively lag free, as the number of blocks being placed per tick is restricted. A progress bar will appear to give you an indication of how long the schematic will take to process. If the \`no_air\` argument is supplied, existing blocks in the world will not be overwritten with AIR from the schematic.
+      usage: /<command> paste [no_air]
     clear:
-      description: Clears an area selected with the TARDIS schematic wand.
+      description: Clears an area selected with the TARDIS schematic wand. Also removes any entities in the selected areas' chunks.
       usage: /<command> clear
     replace:
       description: Replaces the specified block type within an area selected with the TARDIS schematic wand with the second block type.
@@ -52,6 +52,9 @@ args={
     remove:
       description: Removes TARDIS light blocks and replaces them with redstone lamps.
       usage: /<command> remove
+    position:
+      description: Positions the player in the corner of a chunk.
+      usage: /<command> position
     `
 }
 extra='false'

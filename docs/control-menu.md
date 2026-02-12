@@ -1,22 +1,18 @@
 ---
 layout: default
 title: The Control Menu
-keywords: [control, control menu]
+keywords: [ control, control menu ]
 ---
 
 # The TARDIS Control Menu
 
-From TARDIS version 3.6 and higher, the TARDIS Control Menu is the main way to access the TARDIS’s functions. Previously
-the TARDIS had multiple signs scattered throughout the console to access its various GUIs. The TARDIS Control Menu
-brings
-them all together in one place.
+From TARDIS version 3.6 and higher, the TARDIS Control Menu is the main way to access the TARDIS’s functions. Previously the TARDIS had multiple signs scattered throughout the console to access its various GUIs. The TARDIS Control Menu brings them all together in one place.
 
 The TARDIS Control Menu sign displays information about the TARDIS’s location and Artron Energy levels.
 
 ![TARDIS Control Menu sign](/images/docs/control_menu_sign.jpg)
 
-If you have an existing TARDIS without the Control Menu, you can add it by placing a sign where you want the Control
-Menu to be, and running the command:
+If you have an existing TARDIS without the Control Menu, you can add it by placing a sign where you want the Control Menu to be, and running the command:
 
 ```
 /tardis update control
@@ -30,8 +26,7 @@ To use the TARDIS Control Menu, right-click on the Control Menu sign, or right-c
 
 ![TARDIS Control Menu](/images/docs/control_menu.jpg)
 
-The Control Menu opens, giving you a range of buttons grouped by type / colour. Hover over each button to see what it
-does. The button functions are explained below:
+The Control Menu opens, giving you a range of buttons grouped by type / colour. Hover over each button to see what it does. The button functions are explained below:
 
 ### TARDIS Travel functions
 
@@ -45,35 +40,35 @@ does. The button functions are explained below:
 
 ### TARDIS Interior functions
 
-| Button                               | Icon                                                                                                                                    | Action                                              |
-|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| Architectural Reconfiguration System | ![ars](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/ars_button.png)     | Opens the [Architectural Reconfiguration GUI](ars). |
-| Desktop Theme                        | ![theme](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/theme_button.png) | Opens the [Desktop Theme GUI](desktop-theme).       |
-| Power                                | ![power](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/power_on.png)     | Toggles the TARDIS power on and off.                |
-| Light Switch                         | ![lights](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/on_switch.png)   | Toggles the TARDIS lamps on and off.                |
-| Toggle blocks behind door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/toggle_open.png) | Removes or places the wool behind the TARDIS door. This button may not be available if a player has turned the `open_display_door` preference on. |
-| Open / close display door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/adventure-components/assets/tardis/textures/item/gui/control/toggle_open.png) | Opens or closes the modelled display TARDIS door if there is one. Use the `/tardisprefs open_display_door [on\|off]` command to switch the _Toggle blocks behind door_ button to this one. |
-| TARDIS Map                           | ![map](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/map_button.png)     | Opens the TARDIS Map GUI.                           |
+| Button                               | Icon                                                                                                                                    | Action                                                                                                                                                                                     |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Architectural Reconfiguration System | ![ars](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/ars_button.png)     | Opens the [Architectural Reconfiguration GUI](ars).                                                                                                                                        |
+| Desktop Theme                        | ![theme](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/theme_button.png) | Opens the [Desktop Theme GUI](desktop-theme).                                                                                                                                              |
+| Power                                | ![power](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/power_on.png)     | Toggles the TARDIS power on and off.                                                                                                                                                       |
+| Lights                               | ![lights](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/lights/lights.png)       | Opens the TARDIS Lights GUI where among other things you can toggle the TARDIS lights on and off. For more information see the [Lights GUI](/lights-gui) page.                             |
+| Toggle blocks behind door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/toggle_open.png) | Removes or places the wool behind the TARDIS door. This button may not be available if a player has turned the `open_display_door` preference on.                                          |
+| Open / close display door            | ![toggle](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/toggle_open.png) | Opens or closes the modelled display TARDIS door if there is one. Use the `/tardisprefs open_display_door [on\|off]` command to switch the _Toggle blocks behind door_ button to this one. |
+| TARDIS Map                           | ![map](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/map_button.png)     | Opens the TARDIS Map GUI.                                                                                                                                                                  |
 
 ### TARDIS Exterior functions
 
-| Button                       | Icon                                                                                                                                          | Action                                           |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| Chameleon Circuit            | ![cham](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/chameleon_button.png)    | Opens the Chameleon Circuit GUI.                 |
-| Siege Mode                   | ![siege](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/siege_on.png)           | Toggles Siege Mode on and off.                   |
-| Hide                         | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/hide_button.png)         | Hides the TARDIS exterior.                       |
-| Rebuild                      | ![rebuild](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/rebuild_button.png)   | Rebuilds the TARDIS exterior.                    |
-| Direction                    | ![nwse](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/direction_button.png)    | Changes the direction the TARDIS exterior faces. |
-| Temporal Locator             | ![temporal](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/temporal_button.png) | Opens the Temporal Locator GUI.                  |
+| Button            | Icon                                                                                                                                          | Action                                           |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Chameleon Circuit | ![cham](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/chameleon_button.png)    | Opens the Chameleon Circuit GUI.                 |
+| Siege Mode        | ![siege](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/siege_on.png)           | Toggles Siege Mode on and off.                   |
+| Hide              | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/hide_button.png)         | Hides the TARDIS exterior.                       |
+| Rebuild           | ![rebuild](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/rebuild_button.png)   | Rebuilds the TARDIS exterior.                    |
+| Direction         | ![nwse](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/direction_button.png)    | Changes the direction the TARDIS exterior faces. |
+| Temporal Locator  | ![temporal](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/temporal_button.png) | Opens the Temporal Locator GUI.                  |
 
 ### TARDIS Information functions
 
-| Button                    | Icon                                                                                                                                      | Action                                                              |
-|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Artron Energy Levels      | ![artron](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/artron_button.png) | Displays the current TARDIS Artron Energy levels.                   |
-| Scanner                   | ![scan](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/scan_button.png)     | Performs a scan of the TARDIS current (or next if set) destination. |
+| Button                    | Icon                                                                                                                                      | Action                                                                                                                                   |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Artron Energy Levels      | ![artron](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/artron_button.png) | Displays the current TARDIS Artron Energy levels.                                                                                        |
+| Scanner                   | ![scan](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/scan_button.png)     | Performs a scan of the TARDIS current (or next if set) destination.                                                                      |
 | TARDIS Information System | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/info_button.png)     | Opens the TARDIS Information System. Depending on the player preference, this could be a chat interface, chest GUI, or Minecraft dialog. |
-| Transmat                  | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/transmat_button.png) | Opens the TARDIS Transmat locations GUI.                            |
+| Transmat                  | ![hide](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/raw/master/assets/tardis/textures/item/gui/control/transmat_button.png) | Opens the TARDIS Transmat locations GUI.                                                                                                 |
 
 ### Miscellaneous functions
 
