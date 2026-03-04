@@ -6,7 +6,7 @@ keywords: [save, save sign, saves]
 
 # Save Sign
 
-If you have saved a travel location using the `/tardis save [save_name]` or `/tardis setdest [save_name]` commands, or the server admin has set up some
+If you have saved a travel location using the `/tardis save [save_name]` or `/tardis set_destination [save_name]` commands, or the server admin has set up some
 TARDIS Areas, you can time travel to them in the TARDIS by using the Save Sign GUI.
 
 The Save Sign is accessible via the TARDIS Control Menu GUI, or you can place a sign and use

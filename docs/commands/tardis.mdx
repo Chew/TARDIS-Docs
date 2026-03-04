@@ -13,19 +13,19 @@ Check out the [Big list of /tardis sub commands](tardis-commands-table) taken di
 
 :::
 
-### /tardis sethome
+### /tardis set_home
 
 Set the TARDIS home location.
 
 To set the TARDIS’s new home, look at the block you want to be the location, then type:
 
 ```
-/tardis sethome
+/tardis set_home
 ```
 
 :::tip
 
-You can also optionally set an exterior preset that the TARDIS automatically switches to by adding the arguments `/tardis sethome preset [PRESET]` - use tab completion to select your desired exterior.
+You can also optionally set an exterior preset that the TARDIS automatically switches to by adding the arguments `/tardis set_home preset [PRESET]` - use tab completion to select your desired exterior.
 
 :::
 
@@ -41,7 +41,7 @@ To hide the police box, type:
 
 To show the police box again, type: `/tardis rebuild`
 
-### /tardis setdest
+### /tardis set_destination
 
 Save potential TARDIS time travel locations where you might want the TARDIS Police Box to land. See
 also [/tardis save](#tardis-save)
@@ -49,7 +49,7 @@ also [/tardis save](#tardis-save)
 To save a time travel location, look at the block you want the TARDIS to come to, and type:
 
 ```
-/tardis setdest [name]
+/tardis set_destination [name]
 ```
 
 ### /tardis direction
@@ -87,7 +87,7 @@ If you have forgotten where you left the blue Police box, simply type:
 and you will be shown the co-ordinates where you left it. _Note:_ if the plugin difficulty is set to `hard` you will
 need to use the TARDIS Locator instead of this command.
 
-### /tardis comehere
+### /tardis come_here
 
 Make the TARDIS come to you. _Note:_ if the plugin difficulty is set to `hard` you will need to use the TARDIS
 Stattenheim Remote instead of this command.
@@ -95,7 +95,7 @@ Stattenheim Remote instead of this command.
 To remote control the TARDIS, look at the block you want the TARDIS to come to, then type:
 
 ```
-/tardis comehere
+/tardis come_here
 ```
 
 ### /tardis save
@@ -116,20 +116,20 @@ Where `[name]` is a what you want to call the destination, e.g.:
 /tardis save Ravine
 ```
 
-### /tardis removesave
+### /tardis remove_save
 
 Delete saved time travel locations.
 
 To delete a time travel location, type:
 
 ```
-/tardis removesave [name]
+/tardis remove_save [name]
 ```
 
 Where `[name]` is the destination to remove, e.g.:
 
 ```
-/tardis removesave Lava_lake
+/tardis remove_save Lava_lake
 ```
 
 ### /tardis list
@@ -333,12 +333,12 @@ Lets you rescue a player and materialise the TARDIS around them.
 
 The player must accept the rescue attempt by typing `tardis rescue accept` in chat.
 
-### /tardis namekey
+### /tardis name_key
 
 Lets you rename the TARDIS key item to whatever you want. To rename it, simply type:
 
 ```
-/tardis namekey [your cool new name here]
+/tardis name_key [your cool new name here]
 ```
 
 This command is only available if you are running CraftBukkit `1.4.6` or later.
@@ -414,7 +414,7 @@ Set the sign text or asymmetry of the TARDIS CONSTRUCT Chameleon preset.
 
 Display the time that a player must remain Chameleon arched.
 
-### /tardis arsremove
+### /tardis ars_remove
 
 Remove the TARDIS' ARS records so that manual room growing can be used. **Not recommended**.
 
@@ -454,7 +454,7 @@ Save a Player to a blank TARDIS Storage Disk.
 
 Open the TARDIS Update chat GUI.
 
-### /tardis tagtheood
+### /tardis tag_the_ood
 
 Display the 'Tag the Ood' game statistics.
 

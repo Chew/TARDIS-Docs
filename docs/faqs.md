@@ -111,7 +111,7 @@ You can also use the `/tardisconfig difficulty easy` command to switch difficult
 You must time travel to the recharge location.
 
 Charging is triggered by players actually travelling to the recharge point, not remotely bringing their TARDIS into
-position with the `/tardis comehere` command.
+position with the `/tardis come_here` command.
 
 ## I can’t hear the custom sound effects {#sfx}
 

@@ -31,9 +31,9 @@ args={
         
         - coordinates e.g. \`world x y z\`
       usage: /<command> [player] travel [home|area|coords]
-    comehere:
+    come_here:
       description: Make a player’s TARDIS come to the currently targeted block
-      usage: /<command> [player] comehere
+      usage: /<command> [player] come_here
     hide:
       description: Hide a player’s TARDIS
       usage: /<command> [player] hide
@@ -57,7 +57,7 @@ extra='false'
 - use via Command Block will fail silently if above checks fail, as we can’t message a command block...
 - if player has `tardis.admin` permission then no energy is used / only basic checks performed (so we’re not griefing
   anything)
-- `comehere` comes to the currently targeted block (only available to TARDIS admin players)
+- `come_here` comes to the currently targeted block (only available to TARDIS admin players)
 
 :::
 

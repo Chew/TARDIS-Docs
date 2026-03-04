@@ -41,10 +41,10 @@ args={
       description: Archive your current TARDIS console.
       permission: tardis.archive
       usage: /<command> archive [scan | add | remove | update | description | y] [name] <y_value>
-    arsremove:
+    ars_remove:
       description: Remove the TARDIS' ARS records so that manual room growing can be used.
       permission: tardis.use
-      usage: /<command> arsremove
+      usage: /<command> ars_remove
     bell:
       description: Toggle the TARDIS Cloister Bell on and off.
       permission: tardis.use
@@ -59,10 +59,10 @@ args={
       description: Allows a player to change the colour of their TARDIS beacon glass with a Sonic Screwdriver.
       permission: tardis.upgrade
       usage: /<command> colourise
-    comehere:
+    come_here:
       description: Make the TARDIS come to the block you are looking at.
       permission: tardis.timetravel
-      usage: /<command> comehere
+      usage: /<command> come_here
     construct:
       description: Set the sign text of the TARDIS CONSTRUCT Chameleon preset.
       permission: tardis.use
@@ -153,10 +153,10 @@ args={
       description: Reset monster spawning or kill all monsters in the TARDIS.
       permission: tardis.use
       usage: /<command> monsters [ reset | kill ]
-    namekey:
+    name_key:
       description: Rename the TARDIS key Item.
       permission: tardis.timetravel
-      usage: Hold the key in your hand, then type /<command> namekey [new name]
+      usage: Hold the key in your hand, then type /<command> name_key [new name]
     occupy:
       description: Toggle TARDIS occupation.
       permission: tardis.timetravel
@@ -169,18 +169,18 @@ args={
       description: Remove a companion from your TARDIS.
       permission: tardis.add
       usage: /<command> remove [ player name | all ]
-    removesave:
+    remove_save:
       description: Delete a saved destination.
       permission: tardis.save
-      usage: /<command> removesave [name]
-    renamesave:
+      usage: /<command> remove_save [name]
+    rename_save:
       description: Rename a saved destination.
       permission: tardis.save
-      usage: /<command> renamesave [old name] [new name]
-    reordersave:
+      usage: /<command> rename_save [old name] [new name]
+    reorder_save:
       description: Reorder a saved destination in the TARDIS Saves GUI.
       permission: tardis.save
-      usage: /<command> reordersave [name] [slot number]
+      usage: /<command> reorder_save [name] [slot number]
     rescue:
       description: Rescue a player in the TARDIS.
       permission: tardis.timetravel.rescue
@@ -197,10 +197,10 @@ args={
       description: Allows a player to save a Player to a blank TARDIS Storage Disk.
       permission: tardis.storage
       usage: /<command> save_player [player]
-    saveicon:
+    save_icon:
       description: Change a saved destinations icon in the TARDIS Saves GUI.
       permission: tardis.save
-      usage: /<command> saveicon [save] [material]
+      usage: /<command> save_icon [save] [material]
     secondary:
       description: Set secondary TARDIS controls.
       permission: tardis.update
@@ -209,18 +209,18 @@ args={
       description: Open the TARDIS Update chat GUI.
       permission: tardis.update
       usage: /<command> section
-    setdest:
+    set_destination:
       description: Save a destination determined by the block you are looking at.
       permission: tardis.save
-      usage: /<command> setdest [name]
-    sethome:
+      usage: /<command> set_destination [name]
+    set_home:
       description: Save a time travel location as home.
       permission: tardis.timetravel
-      usage: /<command> sethome <preset> [preset]
-    tagtheood:
+      usage: /<command> set_home <preset> [preset]
+    tag_the_ood:
       description: Display the 'Tag the Ood' game statistics.
       permission: tardis.tag
-      usage: /<command> tagtheood
+      usage: /<command> tag_the_ood
     transmat:
       description: Teleports to or sets an internal TARDIS transmat location.
       permission: tardis.transmat
