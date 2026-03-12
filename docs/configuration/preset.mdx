@@ -14,7 +14,10 @@ police_box:
   default_preset: FACTORY
   name_tardis: false
   use_nick: false
-  view_interior: false
+  view_interior:
+    enabled: false
+    type: maps
+    use_console_size: false
   view_interior_uses_console_size: false
   materialise: true
   sign_colour: WHITE
@@ -28,8 +31,10 @@ police_box:
         default_preset: FACTORY # Sets the default preset that appears when the TARDIS is first created. See the [Chameleon Presets](/presets) page for values that can be set.
         name_tardis: false # Sets whether to put the player&rsquo;s name on the Police Box sign.
         use_nick: false # Sets whether to use the player’s nick name on the Police Box sign.
-        view_interior: false # Sets whether player’s can view the TARDIS interior when opening hte exterior TARDIS door.
-        view_interior_uses_console_size: false # Sets whether the the interior view distance uses the interior console size or a default 16 blocks
+        view_interior:
+            enabled: false # Sets whether player’s can view the TARDIS interior when opening the exterior TARDIS door.
+            type: maps # Whether to use two \`maps\` in item frames, or send block change \`packets\` 
+            use_console_size: false # Sets whether the the interior view distance uses the interior console size or a default 16 blocks - only used if \`type\` is set to \`packets\`
         materialise: true # Sets whether the TARDIS runs the materialising animation when it takes off and lands.
         sign_colour: WHITE # Sets the colour of the text on a TARDIS sign. Must be a valid ChatColor value, see [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html)
         rebuild_cooldown: 10000 # Sets the minimum time (in server ticks) required between TARDIS rebuilds.
