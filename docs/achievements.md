@@ -51,7 +51,7 @@ rooms:
 * `reward_type:` what sort of reward to give the player when they reach the achievement goal. This can be:
   * `XP`
   * An item specified by
-    the [Bukkit material enum](https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Material.java)
+    the [Bukkit material enum](https://jd.papermc.io/paper/1.21.11/org/bukkit/Material.html)
     name
 * `reward_amount:` the amount of the reward type the player gets
 * `enabled:` a true or false value determining whether the achievement is available to players

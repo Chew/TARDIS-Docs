@@ -9,8 +9,8 @@ title: Genetic Manipulator (AKA Lazarus Device)
 
 Although not required, the Genetic Manipulator works best when the following two plugins are installed alongside TARDIS:
 
-- [LibsDisguises](http://www.spigotmc.org/resources/libs-disguises.81/), and its dependency
-- [PacketEvents](https://www.spigotmc.org/resources/packetevents-api.80279/)
+- [LibsDisguises](https://github.com/libraryaddict/LibsDisguises/releases), and its dependency
+- [PacketEvents](https://github.com/retrooper/packetevents/releases/)
 
 Genetic manipulation will still work without LibsDisguises, but the changes will only be visible to other players, not yourself.
 

@@ -113,7 +113,7 @@ police_box:
     view_interior: false # Sets whether player’s can view the TARDIS interior when opening hte exterior TARDIS door.
     view_interior_uses_console_size: false # Sets whether the the interior view distance uses the interior console size or a deafult 16 blocks
     materialise: true # Sets whether the TARDIS runs the materialising animation when it takes off and lands.
-    sign_colour: WHITE # Sets the colour of the text on a TARDIS sign. Must be a valid ChatColor value, see [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html)
+    sign_colour: WHITE # Sets the colour of the text on a TARDIS sign. Must be a valid NamedTextColor value, see [https://javadoc.io/doc/net.kyori/adventure-api/4.3.0/net/kyori/adventure/text/format/NamedTextColor.html](https://javadoc.io/doc/net.kyori/adventure-api/4.3.0/net/kyori/adventure/text/format/NamedTextColor.html)
     rebuild_cooldown: 10000 # Sets the minimum time (in server ticks) required between TARDIS rebuilds.
     load_shells: false # Sets whether player’s can load Chameleon preset shells into the Shell room.
     keep_chunk_force_loaded: true # Sets whether to keep the current location chunk of player’s Police Boxes force loaded.
@@ -147,7 +147,7 @@ travel:
 preferences:
     notify_update: true # Sets whether to check for and notify opped players if there is a TARDIS plugin update.
     language: en # Sets the language used for TARDIS message localisation. The plugin will look for a file named with this setting and the file extension _.yml_. Should be set to an [international language code](https://thenosefairy.page.gd/TARDIS_java_docs/me/eccentric_nz/TARDIS/enumeration/Language.html).
-    key: GOLD_NUGGET # Sets the TARDIS key item. You can use any valid Bukkit Material ENUM. A list can be found here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+    key: GOLD_NUGGET # Sets the TARDIS key item. You can use any valid Bukkit Material ENUM. A list can be found here: [https://jd.papermc.io/paper/1.21.11/org/bukkit/Material.html](https://jd.papermc.io/paper/1.21.11/org/bukkit/Material.html)
     any_key: false # Sets whether any item can be used as the TARDIS key.
     walk_in_tardis: true # Sets whether players can walk into the Police Box to enter the TARDIS. If set to \`false\`, clicking the door with the TARDIS key teleports you to the interior.
     open_door_policy: false # Sets whether anyone can enter the TARDIS. If set to \`false\` (the default) only the Time Lord and their companions can enter the TARDIS.

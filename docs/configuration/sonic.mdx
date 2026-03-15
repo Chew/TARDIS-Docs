@@ -1,0 +1,35 @@
+---
+layout: default
+title: Sonic preferences configuration option
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Sonic configuration options
+
+```yaml title="/plugins/TARDIS/config.yml"
+sonic:
+  default_model: eleventh
+  conversion_radius: 1
+  freeze_cooldown: 60
+  charge: false
+  charge_level: 1000
+  charge_interval: 60
+  usage: 10
+```
+
+These are the TARDIS preferences configuration options.
+
+<ConfigTable data={
+`sonic:
+    default_model: eleventh # Sets the default sonic screwdriver texture.
+    conversion_radius: 1 # Sets the radius of blocks that is transformed by the Sonic Screwdriver conversion function. Using a value \`1\` gives a 3x3 area of blocks. Setting to \`0\` means only the clicked block is affected.
+    freeze_cooldown: 60 # Sets the cool down period (in seconds) between uses of the Sonic Screwdriver&rsquo;s player freeze function.
+    charge: false # Set whether the sonic screwdriver requires charging.
+    charge_level: 1000 # Sets the maximum charge a sonic device may hold.
+    charge_interval: 60 # Sets the delay for the repeating sonic charging task, the actual tick value is calculated by dividing the maximum \`charge_level\` by this value e.g. \`1000/60\`.
+    usage: 10 # Sets how much charge is removed each time the sonic is used.
+`
+} />
+
+[Back to main configuration page](/configuration)
