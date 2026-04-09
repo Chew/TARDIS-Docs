@@ -56,6 +56,7 @@ import TabItem from '@theme/TabItem';
 [Back doors](backdoors "Back doors")  
 [Balloons](chemistry-lab/products#balloons "Balloons")  
 [Bedrock forms](bedrock "Bedrock forms")  
+[Bigger on the inside](view-interior "Bigger on the inside")  
 [Bind commands](commands/bind "Bind commands")  
 [Biome Reader](tardis-items#biome-reader "Biome Reader")  
 [Biome Storage Disks](crafting-disks#biome-storage-disks "Biome Storage Disks")  
