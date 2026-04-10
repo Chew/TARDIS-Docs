@@ -170,7 +170,7 @@ const config: Config = {
 
   plugins: [
     [ require.resolve('docusaurus-lunr-search'), {
-      fields: { 
+      fields: {
         title: { boost: 200 },
         content: { boost: 1 },
         keywords: { boost: 600 }
@@ -192,7 +192,8 @@ const config: Config = {
   ],
   clientModules: [
       require.resolve('./src/toc')
-  ]
+  ],
+  future: {v4: true},
 };
 
 export default config;
