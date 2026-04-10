@@ -15,14 +15,14 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.9.2",
-    "@docusaurus/plugin-client-redirects": "^3.9.2",
-    "@docusaurus/preset-classic": "^3.9.2",
-    "@docusaurus/theme-common": "^3.9.2",
+    "@docusaurus/core": "^3.10.0",
+    "@docusaurus/plugin-client-redirects": "^3.10.0",
+    "@docusaurus/preset-classic": "^3.10.0",
+    "@docusaurus/theme-common": "^3.10.0",
     "@mdx-js/react": "^3.1.1",
     "@octokit/rest": "^20.1.2",
-    "@photo-sphere-viewer/core": "^5.14.0",
-    "@photo-sphere-viewer/gallery-plugin": "^5.14.0",
+    "@photo-sphere-viewer/core": "^5.14.1",
+    "@photo-sphere-viewer/gallery-plugin": "^5.14.1",
     "buffer": "^6.0.3",
     "clsx": "^1.2.1",
     "docusaurus-lunr-search": "^3.6.0",
@@ -32,14 +32,14 @@
     "react-dom": "^18.3.1",
     "react-markdown": "^8.0.7",
     "react-player": "^2.16.1",
-    "yaml": "^2.8.1"
+    "yaml": "^2.8.3"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.9.2",
-    "@docusaurus/types": "^3.9.2",
+    "@docusaurus/module-type-aliases": "^3.10.0",
+    "@docusaurus/types": "^3.10.0",
     "@tsconfig/docusaurus": "^1.0.7",
-    "@types/react": "^18.3.26",
-    "baseline-browser-mapping": "^2.9.11",
+    "@types/react": "^18.3.28",
+    "baseline-browser-mapping": "^2.10.17",
     "typescript": "^4.9.5"
   },
   "browserslist": {
@@ -56,5 +56,10 @@
   },
   "engines": {
     "node": ">=20.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "webpackbar": "^7.0.0"
+    }
   }
 }
