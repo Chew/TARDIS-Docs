@@ -33,7 +33,7 @@ redstone door circuits) this will be `-4`.
 ![Offset example](/images/docs/offset.jpg)
 
 `[seed material]` is
-the [Bukkit Material enum](https://jd.papermc.io/paper/26.1.1/org/bukkit/Material.html)
+the [Bukkit Material enum](https://jd.papermc.io/paper/26.1.2/org/bukkit/Material.html)
 of the room seed block, and must be _a block not used by any other rooms_ e.g. SAND
 
 `true` The last command enables the room.
