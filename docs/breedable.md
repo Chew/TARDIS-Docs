@@ -46,6 +46,6 @@ These mobs will be transferred to relocated rooms if they are present.
 
 :::info
 
-[Breedable](https://jd.papermc.io/paper/1.21.11/org/bukkit/entity/Breedable.html) Java Doc on PaperMC.io
+[Breedable](https://jd.papermc.io/paper/26.1.1/org/bukkit/entity/Breedable.html) Java Doc on PaperMC.io
 
 :::
