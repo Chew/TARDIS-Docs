@@ -560,7 +560,7 @@ Check out the [Big list of permissions](permissions-table) taken directly from _
 
 ## Exile status
 
-:::info Quote from eccentric_nz
+:::info[Quote from eccentric_nz]
 
 If you are getting the error:
 

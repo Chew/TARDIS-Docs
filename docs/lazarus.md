@@ -5,7 +5,7 @@ title: Genetic Manipulator (AKA Lazarus Device)
 
 # TARDIS Genetic Manipulator (AKA Lazarus Device)
 
-:::info Recommendation
+:::info[Recommendation]
 
 Although not required, the Genetic Manipulator works best when the following two plugins are installed alongside TARDIS:
 

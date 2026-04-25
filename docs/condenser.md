@@ -20,7 +20,7 @@ A list of condensable items and their relative values can be found on the [Conde
 
 ![Energy condenser](/images/docs/condenser.jpg)
 
-:::info Copper golems
+:::info[Copper golems]
 
 If you change the regular condenser chest to a trapped chest, any items placed into the chest by a copper golem will be condensed as well.
 

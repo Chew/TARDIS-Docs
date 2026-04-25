@@ -46,7 +46,7 @@ Lists the blocks needed to grow a room. This is helpful if `rooms_require_blocks
 /tardisroom required [room name]
 ```
 
-:::tip Tips
+:::tip[Tips]
 
 - A room template with the correct door circuits is supplied with the plugin. You can load and paste it into a world
 - with the `/tardisschematic` command and then modify it as needed.

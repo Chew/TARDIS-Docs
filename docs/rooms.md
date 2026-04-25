@@ -19,7 +19,7 @@ OR (not recommended) `create_worlds: true` in the config.
 
 ## Growing rooms
 
-:::tip tl;dr
+:::tip[tl;dr]
 
 It is **recommended** that you use the [Architectural Reconfiguration System](ars) to grow rooms.
 

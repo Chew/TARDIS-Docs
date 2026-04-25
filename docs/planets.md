@@ -136,7 +136,7 @@ telos:
 # other config #
 ```
 
-:::tip tl;dr
+:::tip[tl;dr]
 
 1. Use the command `/tardisworld enable [gallifrey|siluria|skaro|telos]`
 2. (Re)start the server

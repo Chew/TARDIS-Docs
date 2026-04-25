@@ -18,7 +18,7 @@ Custom presets need to be a certain size and shape:
 
 You can build the custom preset with almost any block (attachable/hanging blocks can sometimes be an issue), it can contain empty spaces (AIR), and there should be a door in it somewhere (iron, wood and trap doors will all work). 
 
-:::info Important
+:::info[Important]
 
 When you build it, start by facing EAST so you are looking at the FRONT of the design.
 

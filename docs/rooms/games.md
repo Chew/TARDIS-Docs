@@ -10,7 +10,7 @@ The games room lets you play mini games inside of Minecraft. Games include Pong,
 
 ![Gaming Computer GUI](/images/docs/gaming_computer.jpg)
 
-:::info Requirements
+:::info[Requirements]
 
 For Pong and Tetris the _TARDIS_Zero_Room_ must be enabled. Use the `/tardisconfig zero_room true` command to enable the world.
 
@@ -78,7 +78,7 @@ To play:
 
 Block shapes must be neatly sorted into a pile. Once a horizontal line of the game board is filled in, it disappears, granting you points.
 
-:::warning Don't get stuck
+:::warning[Don't get stuck]
 
 Do your best to exit the ARCADE room cleanly before logging off or before a server restart to avoid being trapped in the _TARDIS\_Zero\_Room_ world. The plugin will do its best to detect if you are there, and teleport you back to your games room on re-logging, but is not perfect! In an emergency use the command `/tardis arcade return`.
 
