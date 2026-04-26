@@ -355,6 +355,7 @@ import TabItem from '@theme/TabItem';
 [Transmat](transmat "Transmat")  
 [Travel commands](commands/travel "Travel commands")  
 [Travel Configuration](configuration/travel "Travel Configuration")  
+[Travelling time lord](travelling-time-lord "Travelling time lord")  
 [Tree command](commands/dev#tree "Tree commands")  
 
 </TabItem>

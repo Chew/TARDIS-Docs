@@ -514,7 +514,17 @@ const sidebars: SidebarsConfig = {
         id: "modules"
       },
       items: [
-        'modules/blueprints',
+        {
+          type: 'category',
+          label: "Blueprints",
+          link: {
+            type: "doc",
+            id: "modules/blueprints"
+          },
+          items: [
+            'travelling-time-lord',
+          ]
+        },
         {
           type: 'category',
           label: "Chemistry Lab",
