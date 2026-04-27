@@ -23,3 +23,15 @@ Travelling time lords will only spawn if the `blueprints` module is enabled, for
  page.
  
 :::
+
+:::tip[Configuration]
+
+You can restrict which worlds travelling time lords will spawn in by blacklisting them in _trades.yml_. By default, travelling time lords will not spawn in **the_end**. To prevemt spawning in other worlds, add them to the list.
+
+:::
+
+```yaml title="/plugins/TARDIS/trades.yml"
+# blacklist of dimensions time lord traders cannot spawn in
+no_spawn:
+  - the_end
+```

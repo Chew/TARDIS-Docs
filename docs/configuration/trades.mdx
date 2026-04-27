@@ -1,0 +1,54 @@
+---
+layout: default
+title: Blueprint trades configuration options
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# Blueprint trades configuration options
+
+```yaml title="/plugins/TARDIS/trades.yml"
+#consoles
+consoles:
+  ANCIENT:
+    material: SCULK
+    amount: 19
+  ARS:
+    material: QUARTZ_BLOCK
+    amount: 19
+  BIGGER:
+    material: GOLD_BLOCK
+    amount: 38
+  ... more console options
+#rooms
+rooms:
+  ALLAY:
+    material: LIGHT_BLUE_CONCRETE
+    amount: 61
+  ANTIGRAVITY:
+    material: SANDSTONE
+    amount: 86
+  APIARY:
+    material: BEEHIVE
+    amount: 35
+  ... more room options
+# blacklist of dimensions time lord traders cannot spawn in
+no_spawn:
+  - the_end
+```
+
+These are the blueprint trades configuration options. _Only one console and room is shown, other entries follow the same format._
+
+<ConfigTable name={"/plugins/TARDIS/trades.yml"} data={`
+consoles:
+    ANCIENT: # The console name.
+        material: SCULK # The material used to purchase this blueprint.
+        amount: 19 # The amount of the purchase item required.
+rooms:
+    ALLAY: # The room name.
+        material: LIGHT_BLUE_CONCRETE # The material used to purchase this blueprint.
+        amount: 61 # The amount of the purchase item required.
+no_spawn: the_end # A list of worlds/dimensions in which travelling time lords will NOT appear.
+`} />
+
+[Back to main configuration page](/configuration)

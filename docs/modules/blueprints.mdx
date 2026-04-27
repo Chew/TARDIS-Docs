@@ -67,10 +67,16 @@ planets:
 villager_blueprints:
     enabled: true # Sets whether Gallifreyan villagers will have blueprints for sale.
     uses: 1 # Sets the number of times a player can buy this offer - the range should be between \`1\` and \`16\` - this reflects vanilla behaviour.
-    chance: 20 # Sets the random percent chance that a villager wil have blueprints to trade when it is spawned.
+    chance: 20 # Sets the random percent chance that a villager will have blueprints to trade when it is spawned.
 `} />
 
-Each villager will have 2 trades - one room and one console. The purchase item will be the seed block that is used to grow the room or craft the console seed.
+Each villager will have 4 trades - three rooms and one console. The purchase item will be the seed block that is used to grow the room or craft the console seed.
+
+:::info
+
+You can set the amount of the purchase item in _trades.yml_. For more information see the [Blueprint trades configuration options](/configuration/trades) page.
+
+:::
 
 ![Merchant GUI](/images/docs/gallifreyan_merchant.jpg)
 

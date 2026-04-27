@@ -46,6 +46,7 @@ Choose a configuration page from below:
 24. [Preset Biome Adaption](/adaptive-presets)
 25. [Flat World Generator](/modules/generators#configurable-flat-world)
 26. [Custom Consoles](/custom-consoles)
+26. [Blueprint trades](/configuration/trades)
 
 ![Recharger](/images/docs/recharger.jpg)
 
