@@ -36,6 +36,8 @@ For Minecraft 1.21.8 and above you will need to run a Paper server, **as Spigot 
 
 [Updating to v6.x.x](v6)
 
+[Updating to v7.x.x](v7)
+
 [Go to the **Contents** page](contents)
 
 [Check out some **FAQs**](faqs)
