@@ -13,7 +13,7 @@ _plugins/TARDIS/books_ folder. Currently there are seven books:
 
 - **tardis** — contains basic information about creating a TARDIS. It is given to
   the player automatically when they first login to the server if they have the
-  permission `tardis.create`
+  permission `tardis.book`
 - **travel** — a book explaining the ‘travel’ achievement goals
 - **rooms** — a book explaining the ‘rooms’ achievement goals
 - **farm** — a book explaining the ‘farm’ achievement goals
