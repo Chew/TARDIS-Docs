@@ -341,6 +341,7 @@ import TabItem from '@theme/TabItem';
 [/tardisdev commands](commands/dev "Dev commands")  
 [/tardisworld commands](world-management "World commands")  
 [Telescope](chemistry-lab/telescope "Telescope")  
+[Telos](planets#planet-telos "Telos")  
 [Temporal Locator](temporal-locator "Temporal Locator")  
 [Tetris](rooms/games#tetris "Tetris")  
 [Texture Commands](commands/texture "Texture Commands")  

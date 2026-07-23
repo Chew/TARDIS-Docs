@@ -6,9 +6,7 @@ title: Bedrock Edition
 # Bedrock Edition
 
 If you are running the [Geyser](https://geysermc.org/) and [Floodgate](https://github.com/GeyserMC/Floodgate) plugins to
-allow Bedrock players to connect to your server,
-the TARDIS plugin will show Bedrock forms where possible instead of chest GUIs. This allows players using
-tablets and other mobile devices to navigate the many TARDIS options much more easily.
+allow Bedrock players to connect to your server, the TARDIS plugin will show Bedrock forms where possible instead of chest GUIs. This allows players using tablets and other mobile devices to navigate the many TARDIS options much more easily.
 
 The various forms are shown below:
 

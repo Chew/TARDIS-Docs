@@ -13,7 +13,7 @@ You should just download Paper instead of using BuildTools. Paper is a fork of S
 
 :::warning
 
-As of Minecraft 1.21.8 TARDIS has dropped support for Spigot servers - plase use Paper instead!
+As of Minecraft 1.21.8 TARDIS has dropped support for Spigot servers - please use Paper instead!
 
 :::
 

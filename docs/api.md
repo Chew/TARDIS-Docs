@@ -11,6 +11,7 @@ As of TARDIS v3.2-beta-1 the API can be accessed in your plugin like so:
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
+
     private TardisAPI tardisAPI;
     private TARDIS tardis;
 

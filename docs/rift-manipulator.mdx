@@ -1,0 +1,57 @@
+---
+layout: default
+title: Rift Manipulator
+---
+
+import Recipe from "@site/src/components/Recipe";
+
+# Rift Manipulator
+
+:::caution
+
+The Rift Manipulator can only be obtained if the Skaro planet is enabled.
+
+:::
+
+Permission: `tardis.rift`
+
+Rift Manipulators can be used by players to set up personal TARDIS rechargers. These work in the same way as server admin configured rechargers.
+
+Rift Manipulator are powered by Acid Batteries and the Rift Circuit. To see the crafting recipes for the required items use the commands below:
+
+```
+/tardisrecipe acid-battery
+/tardisrecipe rift-circuit
+/tardisrecipe rift-manipulator
+```
+
+Any player can craft the items, but only those with the correct permission can activate the Rift Manipulator. This is done by simply placing the block where you want it. Breaking the block can only be done by the player who placed it (the Rift Manipulator is returned).
+
+Rift rechargers are NOT listed with the `/tardis list rechargers` command.
+
+## Crafting
+
+#### Acid Battery
+
+`/trecipe acid-battery`
+
+| Ingredients | Crafting recipe |
+| ----------- | --------------- |
+| [Acid Bucket](/planets#buckets)<br/>[Redstone](https://minecraft.wiki/w/Redstone) | <Recipe icons={['air','acid-bucket','air','acid-bucket','redstone','acid-bucket','air','acid-bucket','air','acid-battery']} /> |
+
+#### Rift Circuit
+
+`/trecipe rift-circuit`
+
+| Ingredients | Crafting recipe |
+| ----------- | --------------- |
+| [Diamond](https://minecraft.wiki/w/Diamond)<br/>[Nether Star](https://minecraft.wiki/w/Nether_Star) | <Recipe icons={['air','diamond','air','diamond','nether-star','diamond','air','diamond','air','rift-circuit']} /> |
+
+#### Rift Manipulator
+
+`/trecipe rift-manipulator`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Acid Battery](/recipes/planets/acid-battery)<br/>[Rift Circuit](/recipes/planets/rift-circuit)<br/>[Redstone](https://minecraft.wiki/w/Redstone) | <Recipe icons={['air','acid-battery','air','acid-battery','rift-circuit','acid-battery','redstone','acid-battery','redstone','rift-manipulator']} /> | easy |
+| [Acid Battery](/recipes/planets/acid-battery)<br/>[Rift Circuit](/recipes/planets/rift-circuit)<br/>[Nether Star](https://minecraft.wiki/w/Nether_Star) | <Recipe icons={['air','acid-battery','air','acid-battery','rift-circuit','acid-battery','nether-star','acid-battery','nether-star','rift-manipulator']} /> | hard |

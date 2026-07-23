@@ -3,6 +3,8 @@ layout: default
 title: Vortex Manipulator
 ---
 
+import Recipe from "@site/src/components/Recipe";
+
 # Vortex Manipulator
 
 > "Vortex manipulator. Cheap and nasty time travel. Very bad for you. I'm trying to give it up."
@@ -17,8 +19,6 @@ To use the Weeping Angels module, it must be enabled in the TARDIS config.
 
 - Type `/tardisconfig vortex_manipulator [true|false]` to enable or disable the feature.
 - A server restart is required when changing the config value.
-
-
 
 The TARDISVortexManipulator models and textures are part of
 the [TARDIS-Resource-Pack](/resource-packs)
@@ -35,7 +35,9 @@ top row first): stone button, another stone button, glass; clock, gold, compass;
 Custom graphics for the crafted item and GUI are available as part of
 the [TARDIS-Resource-Pack](/resource-packs).
 
-![Crafting](/images/docs/vortex_manipulator.jpg)
+| Ingredients | Crafting recipe |
+| ----------- | --------------- |
+| [Stone Button](https://minecraft.wiki/w/Stone_Button)<br/>[Glass](https://minecraft.wiki/w/Glass)<br/>[Clock](https://minecraft.wiki/w/Clock)<br/>[Gold Ingot](https://minecraft.wiki/w/Gold_Ingot)<br/>[Compass](https://minecraft.wiki/w/Compass)<br/>[Iron Ingot](https://minecraft.wiki/w/Iron_Ingot) | <Recipe icons={['stone-button','stone-button','glass','clock','gold-ingot','compass','iron-ingot','iron-ingot','iron-ingot','vortex-manipulator']} /> |
 
 ![Item](/images/docs/manipulator.png)
 
