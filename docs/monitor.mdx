@@ -1,0 +1,54 @@
+---
+layout: default
+title: Monitor
+---
+
+import Recipe from "@site/src/components/Recipe";
+
+# TARDIS Monitor
+
+The TARDIS Monitor lets you view the world outside your TARDIS exterior.
+
+To refresh the view click the keyboard and levers.
+
+### Adding the monitor to your TARDIS
+
+The monitor requires two item frames to be placed adjacent to each other.
+
+- Craft a TARDIS Monitor - `/tardisrecipe monitor`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Map](https://minecraft.wiki/w/Map)<br/>[Glass Pane](https://minecraft.wiki/w/Glass_Pane)<br/>[Redstone](https://minecraft.wiki/w/Redstone) | <Recipe icons={['map','redstone','map','redstone','glass-pane','redstone','map','redstone','map','tardis-monitor']} /> | easy |
+| [Map](https://minecraft.wiki/w/Map)<br/>[Tinted Glass](https://minecraft.wiki/w/Tinted_Glass)<br/>[Redstone Block](https://minecraft.wiki/w/Redstone_Block) | <Recipe icons={['map','redstone-block','map','redstone-block','tinted-glass','redstone-block','map','redstone-block','map','tardis-monitor']} /> | hard |
+
+- Place an item frame against a wall or other block and put the monitor in the frame
+
+  ![Monitor frame placement](/images/docs/monitor_frame_placement.jpg)
+
+- Craft a Monitor Frame - `/tardisrecipe monitor-frame`
+
+`/trecipe monitor-frame`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Blackstone](https://minecraft.wiki/w/Blackstone)<br/>[Glass Pane](https://minecraft.wiki/w/Glass_Pane)<br/>[Redstone](https://minecraft.wiki/w/Redstone) | <Recipe icons={['blackstone','blackstone','blackstone','blackstone','glass-pane','blackstone','blackstone','redstone','blackstone','monitor-frame']} /> | easy |
+| [Blackstone](https://minecraft.wiki/w/Blackstone)<br/>[Tinted Glass](https://minecraft.wiki/w/Tinted_Glass)<br/>[Redstone Block](https://minecraft.wiki/w/Redstone_Block) | <Recipe icons={['blackstone','blackstone','blackstone','blackstone','tinted-glass','blackstone','blackstone','redstone-block','blackstone','monitor-frame']} /> | hard |
+
+- Place an item frame facing _up_ in front of the TARDIS Monitor item frame and put the monitor frame in
+- Rotate the frame if necessary
+- Run the `/tardis update monitor` command and then click the monitor
+- Run the `/tardis update monitor-frame` command and then click the monitor frame
+
+![TARDIS Monitor](/images/docs/tardis_monitor.jpg)
+
+## TARDIS external camera
+
+If players have the permission `tardis.camera`, they can right-click the monitor frame while sneaking to view the actual exterior.
+
+This feature is only available when the TARDIS exterior is using an armour stand custom model Chameleon preset.
+
+Press the _Shift_ key to dismount and return to the TARDIS interior.
+
+![TARDIS external camera](/images/docs/camera.gif)
+
