@@ -135,7 +135,9 @@ const sidebars: SidebarsConfig = {
             'rooms/rail',
             'rooms/smelter',
             'rooms/vault',
+            'rooms/kitchen',
             'rooms/library',
+            'rooms/surgery',
             'rooms/zero',
           ]
         },

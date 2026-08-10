@@ -1,0 +1,36 @@
+---
+layout: default
+title: Surgery Room
+keywords: [Surgery]
+---
+
+import TabbedImage from '@site/src/components/TabbedImage'
+
+# Surgery Room
+
+The surgery room contains a chest that:
+
+- automatically dispenses the healing potions contained within it to players inside the TARDIS when their health drops below two hearts ❤️❤️.
+- automatically dispenses milk buckets to cure players that have negative health [effects](https://minecraft.wiki/w/Effect).
+
+<TabbedImage name={"Surgery"} description={""} folder={"rooms"} image={"surgery.jpg"} />
+
+## Surgery chest
+
+To use the surgery chest:
+
+- Place healing potions and milk buckets into the chest.
+- Healing and curing will happen at regular intervals (100 ticks or ~5 seconds) while players have low health and negative effects.
+- Empty buckets are returned to the chest when milk is used to remove negative effects.
+
+:::tip[Moving or adding the surgery chest]
+
+If you want to move the surgery chest to a new location, or you have grown a surgery before the healing feature was added, you can use the update command:
+
+`/tardis update surgery`
+
+:::
+
+## Configuration
+
+In order for surgery feeding to work the config option `allow.hunger_and_healing` must be `true` in _config.yml_.

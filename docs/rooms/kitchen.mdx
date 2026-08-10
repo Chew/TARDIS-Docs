@@ -1,0 +1,35 @@
+---
+layout: default
+title: Kitchen Room
+keywords: [Kitchen]
+---
+
+import TabbedImage from '@site/src/components/TabbedImage'
+
+# Kitchen Room
+
+The kitchen room contains a food chest that automatically feeds players inside the TARDIS when they start taking damage by starvation.
+
+<TabbedImage name={"Kitchen"} description={""} folder={"rooms"} image={"kitchen.jpg"} />
+
+## Food chest
+
+To use the food chest:
+
+- Place edible food items into the chest.
+- Food items must have a positive effect, so items like rotten flesh, while edible, will not be automatically fed to players.
+- Empty bowls are returned to the chest when stews and soup are used to reduce hunger.
+- Empty bottles are returned to the chest when honey is used to reduce hunger.
+
+
+:::tip[Moving or adding the food chest]
+
+If you want to move the food chest to a new location, or you have grown a kitchen before the feeding feature was added, you can use the update command:
+
+`/tardis update kitchen`
+
+:::
+
+## Configuration
+
+In order for kitchen feeding to work the config option `allow.hunger_and_healing` must be `true` in _config.yml_.

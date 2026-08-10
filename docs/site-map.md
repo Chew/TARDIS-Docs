@@ -205,6 +205,7 @@ import TabItem from '@theme/TabItem';
 [K-9](modules/weeping-angels#k-9 "K-9")  
 [Key](commands/player-preferences#player-preference-commands "Key")  
 [Keyboard](keyboard "TARDIS Keyboard")  
+[Kitchen](rooms/kitchen "Kitchen Room")  
 
 </TabItem>
 <TabItem value="L" label="L">
@@ -318,6 +319,7 @@ import TabItem from '@theme/TabItem';
 [Stone Magma Ice](rooms/games#stone-magma-ice "Stone Magma Ice")  
 [Storage Configuration](configuration/storage "Storage Configuration")  
 [Super Fertiliser](chemistry-lab/products#super-fertiliser "Super Fertiliser")  
+[Surgery](rooms/surgery "Surgery Room")  
 [System Upgrades](system-upgrades "System Upgrades")  
 
 </TabItem>
