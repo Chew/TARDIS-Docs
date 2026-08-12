@@ -1,0 +1,52 @@
+---
+layout: default
+title: Remote Key
+---
+
+import Recipe from "@site/src/components/Recipe";
+
+# TARDIS Remote Key
+
+The Tenth Doctor installed a system that allowed him to lock the TARDIS remotely using a key remote (as a joke, the TARDIS roof light flashed and a alarm chirp sound was heard, similar to that used on vehicles on Earth). In TARDIS v3.0-beta-1 and later, you can craft a remote key to do this too.
+
+To see the recipe type:
+
+```
+/tardisrecipe remote-key
+```
+
+In plugins version < v3.2.8, the recipe will show a GOLD\_NUGGET —
+**_you will actually have to use a crafted TARDIS Key._**
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Redstone](https://minecraft.wiki/w/Redstone)<br/>[Comparator](https://minecraft.wiki/w/Comparator)<br/>[TARDIS Key](recipes/items/tardis-key)<br/>[Redstone Torch](https://minecraft.wiki/w/Redstone_Torch) | <Recipe icons={['redstone','comparator','redstone','air','tardis-key','air','air','redstone-torch','air','tardis-remote-key']} /> | easy |
+| [Redstone](https://minecraft.wiki/w/Redstone)<br/>[Comparator](https://minecraft.wiki/w/Comparator)<br/>[TARDIS Key](recipes/items/tardis-key)<br/>[TARDIS Materialisation Circuit](/recipes/console-circuits/tardis-materialisation-circuit) | <Recipe icons={['redstone','comparator','redstone','air','tardis-key','air','air','tardis-materialisation-circuit','air','tardis-remote-key']} /> | hard |
+
+:::info
+
+Not only does the remote key deadlock and unlock the Police Box door, but it also allows you to show and hide the TARDIS as well.
+
+:::
+
+:::warning
+
+For versions with configurable TARDIS recipes - if you have changed the item that crafting the TARDIS Key gives (i.e. it is NOT a GOLD\_NUGGET), then make sure you also update the TARDIS Remote Key recipe so that the GOLD\_NUGGET/TARDIS Key **ingredient is also changed**.
+
+:::
+
+## Remote (un)locking
+
+To remotely lock and unlock the door, LEFT-click AIR with the TARDIS Remote Key.
+
+You will hear a ‘car alarm chirp’ and the TARDIS lamp will turn off an on.
+
+## Remote hide and rebuild
+
+To remotely hide and rebuild the TARDIS, RIGHT-click AIR with the TARDIS Remote Key.
+
+You must have sufficient Artron energy (and the correct permissions).
+
+## Video
+
+<iframe width="600" height="366" src="https://www.youtube.com/embed/MgcADd8FhYA?rel=0" frameborder="0" allowfullscreen></iframe>

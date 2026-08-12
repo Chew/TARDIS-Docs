@@ -5,6 +5,7 @@ title: Sonic Dock
 
 import TabbedImage from '/src/components/TabbedImage'
 import ConfigTable from "../src/components/ConfigTable";
+import Recipe from "@site/src/components/Recipe";
 
 # Sonic Dock
 
@@ -15,10 +16,16 @@ You can place a sonic dock in your TARDIS console to hold your sonic devices.
 To add a sonic dock:
 
 1. Craft a sonic dock to see the recipe use the command `/tardisrecipe sonic-dock`
-     <TabbedImage name={"Sonic Dock recipe"} description={"The sonic dock recipe."} folder={"docs"} image={"sonic-dock-recipe.jpg"} />
 2. Place an item frame facing upwards somewhere inside your TARDIS
 3. Place the sonic dock into the item frame
 4. Use the update command to register the sonic dock with the plugin - `/tardis update sonic-dock`
+
+`/trecipe sonic-dock`
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [Redstone](https://minecraft.wiki/w/Redstone)<br/>[Gold Nugget](https://minecraft.wiki/w/Gold_Nugget)<br/>[Repeater](https://minecraft.wiki/w/Repeater)<br/>[Blackstone](https://minecraft.wiki/w/Blackstone) | <Recipe icons={['redstone','gold-nugget','redstone','gold-nugget','repeater','gold-nugget','blackstone','gold-nugget','blackstone','sonic-dock']} /> | easy |
+| [Redstone](https://minecraft.wiki/w/Redstone)<br/>[Gold Ingot](https://minecraft.wiki/w/Gold_Ingot)<br/>[Sonic Oscillator](/recipes/item-circuits/sonic-oscillator)<br/>[Blackstone](https://minecraft.wiki/w/Blackstone) | <Recipe icons={['redstone','gold-ingot','redstone','gold-ingot','sonic-oscillator','gold-ingot','blackstone','gold-ingot','blackstone','sonic-dock']} /> | hard |
 
 To dock your sonic screwdriver:
 
