@@ -117,6 +117,7 @@ import TabItem from '@theme/TabItem';
 [Daleks](modules/weeping-angels#daleks "Daleks")  
 [Dalek Sec](modules/weeping-angels#dalek-sec "Dalek Sec")  
 [Davros](modules/weeping-angels#davros "Davros")  
+[Death location](save-sign#death-location "Death location")  
 [Desktop Theme](desktop-theme "Desktop Theme")  
 [Desktop Previews](desktop-theme#desktop-previews "Desktop Previews")  
 [Destination Terminal](destination-terminal "Destination Terminal")  

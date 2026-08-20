@@ -18,9 +18,13 @@ In the Control Menu there are two “saves” buttons, if you are in someone els
 
 Click a _Saves_ button (or if using a separate Save Sign, right-click it) to open the TARDIS Dimension Map inventory based GUI.
 
+### Home location
+
 By default the first item in the GUI is the TARDIS’s “home” location.
 
 ![Home button](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/prefs/home.png?raw=true)
+
+### Death location
 
 Second is the player's death location (if they have the permission `tardis.save.death`).
 
