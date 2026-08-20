@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Save Sign
-keywords: [save, save sign, saves]
+keywords: [save, save sign, saves, death location]
 ---
 
 # Save Sign
@@ -21,6 +21,11 @@ Click a _Saves_ button (or if using a separate Save Sign, right-click it) to ope
 By default the first item in the GUI is the TARDIS’s “home” location.
 
 ![Home button](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/gui/prefs/home.png?raw=true)
+
+Second is the player's death location (if they have the permission `tardis.save.death`).
+
+![Death button](https://raw.githubusercontent.com/eccentricdevotion/TARDIS-Resource-Pack/refs/heads/master/assets/tardis/textures/item/handles/handles_death.png)
+
 
 After that is a list of dimensions / worlds that you have saves in. Click a world block to open the saves GUI for any locations that you have saved in that world.
 Hovering over the blocks will show you the save name, world name and coordinates.

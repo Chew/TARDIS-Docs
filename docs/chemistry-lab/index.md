@@ -146,9 +146,7 @@ Lab Table (left) and Product Crafter (right).
 
 > Combine elements and compounds to create bleach, ice bombs, heat blocks, and fertiliser.
 
-As the description implies, you can craft those 4 items, just like you would with
-the [chemical compounder](#chemical-compounding). Place items in the bottom row from left to right, then click Check
-product.
+As the description implies, you can craft those 4 items, just like you would with the [chemical compounder](#chemical-compounding). Place items in the bottom row from left to right, then click Check product.
 
 ![example heat block](/images/chemistry/lab-table-gui-heat-block.png)
 
@@ -160,8 +158,7 @@ Clicking check product gets our product!
 
 > Combine elements and compounds to create sparklers, balloons, lamps, and glow sticks.
 
-Much like the Lab table, you can craft the above 4 items. However, instead these items must be arranged like a 3x3
-crafting grid, instead of putting them in the bottom row.
+Much like the Lab table, you can craft the above 4 items. However, instead these items must be arranged like a 3x3 crafting grid, instead of putting them in the bottom row.
 
 ![example balloon recipe](/images/chemistry/product-crafting-balloon-example.png)
 
