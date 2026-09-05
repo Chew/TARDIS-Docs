@@ -156,25 +156,25 @@ colour_skies: true # Whether to send biome change packets for the Gallifrey and 
 planets: # This is a list of worlds on your server. If you want to use the world resource pack switching feature for other server worlds, you can add them here. Use the \`TARDIS_TimeVortex\` entry as an example.
     planet name:
         enabled: false # Whether this world should be loaded and managed by TARDIS.
-        time_travel: false # Whether this world can be travelled to using the TARDIS.
-        resource_pack: Default # This is where you specify the URL to the resource pack you want to switch to when entering the world. Host your own, or use the one provided.
+        time_travel: true # Whether this world can be travelled to using the TARDIS.
+        resource_pack: default # This is where you specify the URL to the resource pack you want to switch to when entering the world. Host your own, or use the one provided.
         gamemode: SURVIVAL # The game mode that this world should use. It should be uppercase and one of: \`SURVIVAL\`, \`CREATIVE\`, \`ADVENTURE\`, \`SPECTATOR\`
         world_type: NORMAL # The type of world that is generated. Should be uppercase, and one of: \`NORMAL\` or \`FLAT\`.
         environment: NORMAL # The environment of the world that is generated. Should be uppercase, and one of: \`NORMAL\`, \`THE_END\`, \`NETHER\`.
-        generator: DEFAULT # The name of the generator for the world. Should be the name of the plugin that is used or \`DEFAULT\`.
+        generator: DEFAULT # The name of the generator for the world. Should be the name of the plugin that is used e.g. \`TARDIS:flat\` or \`DEFAULT\`.
         game_rules:
             example rule: false # A list of game rules that should be applied to the world — such as: \`doWeatherCycle\`, \`doDaylightCycle\` — values must be \`true\` or \`false\`. See [https://minecraft.wiki/w/Game_rule](https://minecraft.wiki/w/Game_rule)
         generate_structures: true # Whether the world should generate vanilla structures — you would set this to \`false\` for example, if the generator was set to the Terra World Generator plugin e.g. \`Terra:TARTARUS\`.
+        false_nether: true # Add this optional entry if the world has a ceiling like the nether e.g. for a cave world
+        namespace: better_cave_dimensions # Add this optional entry if you have added a custom dimension from a datapack. You can find the namespace of the dimension by looking at the server log at startup e.g. \`Saving chunks for level 'ServerLevel[world]'/better_cave_dimensions:cave\`
         allow_portals: false # Whether portals can be created in this world
         alias: TimeVortex # The name of the world the plugin will display in messages and GUIs
         icon: CRYING_OBSIDIAN # The icon of the world shown in the Save Dimensions GUI
-        spawn_chunk_radius: 0 # Whether to keep spunk chunks loaded. Values greather than 0 load chunks.
         difficulty: EASY # The Minecraft difficulty level for the world (EASY, NORMAL, HARD)
         helmic_regulator_order: -1 # If this world appears in the helmic regulator control. Use a value between 1 and 8 to set the order. Each world that you want to appear should be a different number, leave at -1 to not show this world.
 `} />
 
-Each world on your server has their own section in _planets.yml_, however there are TARDIS specific worlds as
-well:
+Each world on your server has their own section in _planets.yml_, however there are TARDIS specific worlds as well:
 
 - [Skaro](/planets#planet-skaro)
 - [Siluria](/planets#planet-siluria)
