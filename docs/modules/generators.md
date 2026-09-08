@@ -126,3 +126,13 @@ Ocean biomes and a small island at spawn, plus a 1/1000 chance an island will ge
 Random rooms that go on forever. Wall and floor blocks are also randomised.
 
 ![Rooms world](/images/docs/rooms_world.jpg)
+
+## Cave dimension
+
+`TARDIS:cave`
+
+Fully underground experience for the spelunkers - there is plenty to explore.
+
+The world contains all the vanilla overworld biomes, with custom block palettes, custom light trees, ore population and underground oceans and rivers. The floor of the caverns also contain light emittimg blocks to aid navigation and encourage mobs to spawn.
+
+![Cave dimension](/images/docs/cave_dimension.jpg)
