@@ -135,4 +135,14 @@ Fully underground experience for the spelunkers - there is plenty to explore.
 
 The world contains all the vanilla overworld biomes, with custom block palettes, custom light trees, ore population and underground oceans and rivers. The floor of the caverns also contain light emittimg blocks to aid navigation and encourage mobs to spawn.
 
-![Cave dimension](/images/docs/cave_dimension.jpg)
+![Cave dimension](/images/docs/caves1.jpg)
+
+![Cave dimension](/images/docs/caves2.jpg)
+
+![Cave dimension](/images/docs/caves3.jpg)
+
+![Cave dimension](/images/docs/caves4.jpg)
+
+![Cave dimension](/images/docs/caves5.jpg)
+
+![Cave dimension](/images/docs/caves6.jpg)
