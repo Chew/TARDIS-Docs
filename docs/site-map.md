@@ -80,6 +80,7 @@ import TabItem from '@theme/TabItem';
 [Chameleon presets](presets "Chameleon presets")  
 [Change log](change-log "Change log")  
 [Chemistry Lab](chemistry-lab "Chemistry Lab")  
+[Chunk Loader GUI](rooms/golem#chunk-loader-gui "Chunk Loader GUI")  
 [Circuit use and repair](circuit-use "Circuit use and repair")  
 [Circuits](advanced-console#circuit-types "Circuits")  
 [Clockwork Droids](modules/weeping-angels#clockwork-droids "Clockwork Droids")  
@@ -95,6 +96,7 @@ import TabItem from '@theme/TabItem';
 [Console Gallery](interiors "Console Gallery")  
 [Console Permissions](permissions-table#console-perms "Console Permissions")  
 [Control Menu](control-menu "Control Menu")  
+[Copper golem room](rooms/golem "Copper golem room")  
 [Crafting Disks](crafting-disks "Crafting Disks")  
 [Crafting recipes](crafting "TARDIS Crafting Recipes")  
 [Creating a TARDIS](creating-a-tardis "Creating a TARDIS")  
@@ -163,6 +165,7 @@ import TabItem from '@theme/TabItem';
 [Garden room](rooms/garden)  
 [Genetic Manipulator](lazarus "Genetic Manipulator")  
 [Give commands](commands/give "Give commands")  
+[Golem room](rooms/golem "Copper golem room")  
 [Grace period](configuration/travel#grace_period "Grace period")  
 [Gravity wells](/rooms/gravity-wells "Gravity wells")  
 
