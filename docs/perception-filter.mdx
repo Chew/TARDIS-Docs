@@ -1,0 +1,55 @@
+---
+layout: default
+title: Perception Filter
+keywords: [perception, perception filter]
+---
+
+import Recipe from "@site/src/components/Recipe";
+
+# Perception Filter
+
+You can craft a Perception Filter to make yourself partially invisible.
+
+![Perception Filter](https://github.com/eccentricdevotion/TARDIS-Resource-Pack/blob/master/assets/tardis/textures/item/key/perception_filter.png?raw=true)
+
+![Perception filter invisibility](/images/docs/perception_filter.jpg)
+
+Type the command `/tardisrecipe filter` in game to view the crafting recipe.
+
+| Ingredients | Crafting recipe | Difficulty |
+| ----------- | --------------- | ------------- |
+| [String](https://minecraft.wiki/w/String)<br/>[Redstone](https://minecraft.wiki/w/Redstone)<br/>[Gold Nugget](https://minecraft.wiki/w/Gold_Nugget)<br/>[Comparator](https://minecraft.wiki/w/Comparator) | <Recipe icons={['string','air','string','air','string','air','redstone','gold-nugget','comparator','perception-filter']} /> | easy |
+| [String](https://minecraft.wiki/w/String)<br/>[Redstone](https://minecraft.wiki/w/Redstone)<br/>[Gold Nugget](https://minecraft.wiki/w/Gold_Nugget)<br/>[Perception Circuit](/recipes/item-circuits/perception-circuit) | <Recipe icons={['string','air','string','air','string','air','redstone','gold-nugget','perception-circuit','perception-filter']} /> | hard |
+
+Once crafted you can equip the Perception Filter in your chest armour slot by right-clicking air with the filter in
+hand.
+
+To disable the filter just remove it from the chest armour slot.
+
+:::info
+
+When travelling between worlds, the Perception Filter may go completely invisible — if this happens, just
+press your “sneak” key (usually LEFT-SHIFT) to make the player skin update.
+
+:::
+
+## Permission
+
+To allow players to use the Perception Filter they will need the permission `tardis.filter`.
+
+## Configuration
+
+To enable or disable the Perception Filter on the server set the configuration option in _config.yml_:
+
+```
+allow:
+   perception_filter: [true|false]
+```
+
+Or use the command `/tardisconfig perception_filter [true|false]`
+
+A server restart is required.
+
+## Video
+
+<iframe src="https://player.vimeo.com/video/83294545" width="600" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
