@@ -109,4 +109,4 @@ As of TARDIS version 5.4.0b2800, you can now control which mobs are farmed into 
 
   ![Farming preferences](/images/docs/farming_menu.jpg)
 
-- Use the wool blocks to toggle mobs/rooms on and off
+- Use the switches (wool blocks) to toggle mobs/rooms on and off
