@@ -31,10 +31,10 @@ The mobs you can collect are:
 - Sheep
 - Sniffer
 - Strider
+- Sulphur Cubes
 - Villager
 
-You will first need to herd the mobs so that they are close to the Police Box (within 2 blocks) — using the appropriate tempt item in
-hand should make them follow you — sometimes you may be lucky enough to have the Police Box materialise around an animal!
+You will first need to herd the mobs so that they are close to the Police Box (within 2 blocks) — using the appropriate tempt item in hand should make them follow you — sometimes you may be lucky enough to have the Police Box materialise around an animal!
 
 Enter the TARDIS as usual, and the following will happen:
 
@@ -57,6 +57,7 @@ Enter the TARDIS as usual, and the following will happen:
 - If you have already grown an [**pen**](/rooms/gallery#Pen) room, then sniffers will be teleported into the pen room
 - If you have already grown a [**pool**](/rooms/gallery#Pool) room and the `allow.guardians` config option is set to `true`, then guardians
   will be teleported into the pool
+- If you have already grown a [**sulphur**](/rooms/gallery#Sulphur) room, then sulphur cubes will be teleported into the sulphur room
 - If you have already grown a [**village**](/rooms/gallery#Village) room, then villagers will be teleported into the village room
 - If no appropriate room is available (and if allowed in the TARDIS config), then the spawn eggs for the mobs are placed
   in the player’s inventory.
