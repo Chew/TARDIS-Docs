@@ -26,12 +26,18 @@ Travelling time lords will only spawn if the `blueprints` module is enabled, for
 
 :::tip[Configuration]
 
-You can restrict which worlds travelling time lords will spawn in by blacklisting them in _trades.yml_. By default, travelling time lords will not spawn in **the_end**. To prevemt spawning in other worlds, add them to the list.
+You can restrict which worlds travelling time lords will spawn in by blacklisting them in _trades.yml_. By default, travelling time lords will not spawn in **the_end** or **the_nether**. To prevent spawning in other worlds, add them to the list.  
+You can also set the number of minutes after no player interaction a trader will despawn.
 
 :::
 
 ```yaml title="/plugins/TARDIS/trades.yml"
-# blacklist of dimensions time lord traders cannot spawn in
-no_spawn:
-  - the_end
+# time lord traders
+traders:
+  # blacklist of dimensions time lord traders cannot spawn in
+  no_spawn:
+    - the_end
+    - the_nether
+  # number of minutes after no interaction a trader will despawn
+  despawn_after: 5
 ```
