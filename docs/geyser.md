@@ -46,3 +46,20 @@ The following screenshots show Minecraft on an iOS device, but the steps should 
 - Reconnect to the TARDIS plugin server again, the updated resource pack will download  
     
   ![Settings](/images/geyser/pack_download.jpg)
+  
+## Interacting with modelled exterior Chameleon presets
+  
+On Java, exterior modelled Chameleon presest use interaction entities to detect player clicks. Bedrock does not have interaction entities like Java does, so to compensate invisible slimes are spawned so that Bedrock clicks can be detected.
+  
+- Slimes are only added to exteriors belonging to Bedrock players
+- The slime is positioned two blocks above the ground, so that players can still walk into the TARDIS  
+    
+  ![Slime hitbox](/images/geyser/slime_hitbox.jpg)
+- Slimes are:
+  - Size 2
+  - No AI
+  - No gravity
+  - Silent
+  - Invisible
+  - Invulnerable
+  - Persistent
