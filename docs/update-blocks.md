@@ -85,7 +85,7 @@ title: Updateable blocks
 - CHEST
 - TRAPPED_CHEST
 
-**allay, beacon, creeper, eps, farm, stable, stall, village, happy, hutch, allay, igloo, lava, iistubil, pen, bamboo, birdcage:**
+**allay, bamboo, beacon, birdcage, creeper, eps, farm, happy, hutch, igloo, iistubil, lava, pen, stable, stall, sulphur, village:**
 
 - ANY BLOCK
 
