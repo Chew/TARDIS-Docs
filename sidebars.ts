@@ -542,7 +542,7 @@ const sidebars: SidebarsConfig = {
             'chemistry-lab/material-reductions',
             'chemistry-lab/microscope',
             'chemistry-lab/electron-microscope',
-            'chemistry-lab/telescope',
+            'chemistry-lab/telescope'
           ]
         },
         'modules/generators',
@@ -564,6 +564,7 @@ const sidebars: SidebarsConfig = {
         'modules/tardis-shop',
         'modules/vortex-manipulator',
         'modules/weeping-angels',
+        'geyser'
       ]
     },
     {
@@ -581,6 +582,7 @@ const sidebars: SidebarsConfig = {
         'database',
         'placeholders',
         'tips',
+        'geyser',
         'permissions-plugin',
         'permissions',
         'permissions-table',

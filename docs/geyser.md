@@ -62,4 +62,4 @@ On Java, exterior modelled Chameleon presest use interaction entities to detect 
   - Silent
   - Invisible
   - Invulnerable
-  - Persistent
+  - Persistent, while the TARDIS is at that location
