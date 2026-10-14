@@ -81,6 +81,18 @@ Click a button to toggle player preferences on or off. When preferences are set,
 
 ![Floodgate preferences](/images/floodgate/prefs.jpg)
 
+## Key Preferences
+
+Hold your current key in your main hand, then click a button to change the appearance of the key to another type.
+
+![Floodgate keys](/images/floodgate/keys.jpg)
+
+## Sonic Preferences
+
+Hold your current sonic in your main hand, then click a button to change the appearance of the sonic to another type.
+
+![Floodgate keys](/images/floodgate/sonics.jpg)
+
 ## Companions
 
 Click a button to add / remove a player as a TARDIS companion.
