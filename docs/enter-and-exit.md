@@ -13,19 +13,22 @@ out of the TARDIS if the door is open.
 
 :::
 
-## You must exit the TARDIS correctly!
+## You must enter and exit the TARDIS correctly!
 
-You should never leave the TARDIS by any other way than walking in and out (or clicking the TARDIS door). The plugin
-keeps track of who is in the TARDIS, so that TARDIS specific functions will work correctly (e.g. you can only use the
-`/tardis update` command inside the TARDIS, and you can only destroy the TARDIS if you are outside of it.)
+You should never enter or leave the TARDIS by any other way than walking in and out (or clicking the TARDIS door). The plugin keeps track of who is in the TARDIS, so that TARDIS specific functions will work correctly (e.g. you can only use the `/tardis update` command inside the TARDIS, and you can only destroy the TARDIS if you are outside of it.)
+
+:::info
+
+If you have entered the TARDIS by some other means e.g. a `/home` command, or you respawn in the TARDIS after dying in the world, you may need to set your TARDIS occupation. Use the command `/tardis occupy` to toggle your TARDIS location status.
+
+:::
 
 ## Walk in and out
 
 :::note
 
 If the exterior TARDIS preset you have selected has a door and space to walk inside, then you can walk in to
-be transported to the interior. If it has a trapdoor or there isn't space to walk inside — SHIFT-RIGHT click the door
-with the TARDIS key to gain entry.
+be transported to the interior. If it has a trapdoor or there isn't space to walk inside — SHIFT-RIGHT click the door with the TARDIS key to gain entry.
 
 :::
 
