@@ -247,7 +247,8 @@ const sidebars: SidebarsConfig = {
         'books',
         'schematics',
         'archive',
-        'handles'
+        'handles',
+        'voice'
       ],
     },
     {
