@@ -16,4 +16,9 @@ The TARDIS plugin integrates with the SimpleVoiceChat [mod](https://modrinth.com
 
 ### Video
 
-Coming soon
+Video courtesy of godalwaysw1ns
+
+<video width="600" height="366" controls>
+  <source src="/images/handles-voice.mp4" type="video/mp4"></source>
+  Your browser does not support the video tag.
+</video>
