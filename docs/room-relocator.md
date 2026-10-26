@@ -10,7 +10,7 @@ If you have grown a room in the ARS grid that you think is in the wrong position
 
 The room relocator can be accessed from the [Architectural Reconfiguration System](/ars) GUI.
 
-![ARS GUI](/images/docs/vanilla/ars_gui.jpg)
+![ARS GUI](/images/docs/ars_gui.jpg)
 
 - Click the **Relocation** button to open the Room relocator.
 
@@ -20,7 +20,7 @@ The room relocator can be accessed from the [Architectural Reconfiguration Syste
 - Select the room you want to relocate.
 - Select an empty slot to move the room to. You can use any empty slot on any level.
 - Click the **Reset** button to change your selections.
-- Click the **Reconfigure** button to start the relocation .
+- Click the **Reconfigure** button to start the relocation.
 
 ## Features
 
