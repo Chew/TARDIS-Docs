@@ -41,7 +41,7 @@ P ). You can also delete an abandoned TARDIS by clicking < Delete >.
 You can spawn abandoned TARDISes automatically with a command:
 
 ```
-/tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] world x y z
+/tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION] <world x y z>
 ```
 
 Where `[SCHEMATIC]` is the interior console type of the TARDIS — see [interiors](interiors)
@@ -52,4 +52,4 @@ see [PRESET](https://thenosefairy.page.gd/TARDIS_java_docs/me/eccentric_nz/TARDI
 And `[DIRECTION]` is the direction the player would be facing if they are looking at the exterior preset door — one of:
 NORTH, SOUTH, EAST, WEST
 
-And `world x y z` are the coordinates of the TARDIS exterior’s bottom centre.
+And `<world x y z>` are the (optional) coordinates of the TARDIS exterior’s bottom centre.

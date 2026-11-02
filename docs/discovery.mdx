@@ -13,6 +13,14 @@ From TARDIS v7.1.4 you can configure the plugin to generate underground temples 
 
 Players can either just search for the underground temples, or acquire a TARDIS Locator Map from a Cartographer, Wandering Trader or [Travelling Time Lord](travelling-time-lord) which will function in the same way as a vanilla explorer map.
 
+Discovery TARDISes are grown with the FACTORY exterior and a random interior, giving players a way to get an interior they may not have permission to grow from a seed block.
+
+:::info
+
+New TARDISes will not spawn after they have been claimed and moved. The temple is not a protected space - it is uses the same behaviour as a vanilla structure, once found/claimed/looted it will remain that way. To respawn a new TARDIS in a temple, admins can use the `/tardisadmin spawn_abandoned` command.
+
+:::
+
 ## Temples
 
 Temples are 64 x 64 block structures that are generated procedurally - the basic shape is the same but the type of block placed is semi-random. Different block palettes are used depending on the world's environment and the depth the temple is placed underground.
@@ -82,3 +90,13 @@ creation:
         map_cost: 3 # The number of lapis lazuli cartographer, wandering trader, or time lord trader requires (+ 1 compass)
     `
 } />
+
+## Admin setup
+
+Server administrators can generate new temple structures and populate them with abandoned TARDISes.
+
+- Move to the coordinates in-game where you want to generate a temple. The centre of the structure will be placed 3 blocks above the player's current location.
+- Run the command `/tdev fade`.
+- Navigate your way into the temple - you may need to break some blocks - avoid digging up through the centre as you may encounter water/lava.
+- Once inside the temple, target a block in the middle of the central platform.
+- Run the command `/tardisadmin spawn_abandoned [SCHEMATIC] [PRESET] [DIRECTION]` - see the [Abandon](/abandon#spawning-abandoned-tardises) page for more detail.
