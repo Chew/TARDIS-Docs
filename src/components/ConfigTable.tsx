@@ -9,8 +9,16 @@ const noP = (props: { children: any; }) => {
 }
 
 function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: string, value: any, indent: number}) {
-    const valueType = typeof value;
-    const isParent = valueType === "object";
+    const isArray = Array.isArray(value);
+
+    const valueType =
+        isArray ? "List" :
+        typeof value === "boolean" ? "Boolean" :
+        typeof value === "number" ? "Number" :
+        typeof value === "string" ? "String" :
+        typeof value;
+    
+    const isParent = value !== null && typeof value === "object" && !isArray;
 
     ymlKey = ymlKey.trim().split(".").pop()!;
 

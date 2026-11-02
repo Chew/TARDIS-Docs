@@ -54,6 +54,7 @@ const sidebars: SidebarsConfig = {
         'v6',
         'v7',
         'creating-a-tardis',
+        'discovery',
         'companions',
         {
           type: 'category',

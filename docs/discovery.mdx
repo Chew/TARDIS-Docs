@@ -1,0 +1,84 @@
+---
+layout: default
+title: TARDIS Discovery
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# TARDIS Discovery
+
+From TARDIS v7.1.4 you can configure the plugin to generate underground temples with [abandoned TARDISes](abandon) in them. This gives players an alternative and more adventure like experience in order to obtain a TARDIS.
+
+![Abandoned temple TARDIS](/images/docs/temple_abandoned.jpg)
+
+Players can either just search for the underground temples, or acquire a TARDIS Locator Map from a Cartographer, Wandering Trader or [Travelling Time Lord](travelling-time-lord) which will function in the same way as a vanilla explorer map.
+
+## Temples
+
+Temples are 64 x 64 block structures that are generated procedurally - the basic shape is the same but the type of block placed is semi-random. Different block palettes are used depending on the world's environment and the depth the temple is placed underground.
+
+Overworld stone
+
+![Overworld Tuff](/images/docs/temple_tuff.jpg)
+
+Overworld deepslate
+
+![Overworld Cobble](/images/docs/temple_cobble.jpg)
+
+The End
+
+![End Stone](/images/docs/temple_end.jpg)
+
+The Nether
+
+![Nether Dead Horn Coral](/images/docs/temple_nether.jpg)
+
+:::note
+
+By default temples are disabled in The End and The Nether (but they look pretty cool :)
+
+:::
+
+
+## TARDIS items
+
+As well as providing an abandoned TARDIS to claim, the temples contain blocks of suspicious gravel or sand that can be brushed to reveal TARDIS items such as TARDIS Keys, Stattenheim Remotes, Artron Capacitors, Artron Storage Cells, Sonic Screwdrivers, 3-D Glasses, and Red Bow Ties.
+
+![Brushing suspicious gravel](/images/docs/brushing.jpg)
+
+## Config options
+
+```yaml title="/plugins/TARDIS/config.yml"
+creation:
+  discovery:
+    enabled: true
+    # whether temples will generate in existing chunks
+    existing_chunks: false
+    # worlds not to spawn temples in
+    excluded_worlds:
+      - the_end
+      - the_nether
+      - tardis_timevortex
+      - tardis_zero_room
+      - caves
+    # how far apart temples generate
+    # spacing has to be larger than separation
+    # defaults (34, 8) are similar to trail ruins
+    spacing: 34
+    separation: 8
+    # number of lapis lazuli villager / travelling time lord requires (+ 1 compass)
+    map_cost: 3
+```
+
+<ConfigTable name="/plugins/TARDIS/config.yml" data={
+    `
+    creation:
+      discovery:
+        enabled: true # Whether to generate abandoned TARDISes in underground temples.
+        existing_chunks: false  # Whether temples will generate in existing chunks.
+        excluded_worlds: [] # A list of worlds not to spawn temples in.
+        spacing: 34 # How far apart temples generate, spacing has to be larger than separation, defaults (34, 8) are similar to trail ruins.
+        separation: 8
+        map_cost: 3 # The number of lapis lazuli cartographer, wandering trader, or time lord trader requires (+ 1 compass)
+    `
+} />
