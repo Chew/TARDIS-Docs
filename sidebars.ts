@@ -109,6 +109,7 @@ const sidebars: SidebarsConfig = {
         'desktop-theme',
         'interiors',
         'panoramic-gallery',
+        'fade',
         'customise-console',
         'walls',
         'hum',

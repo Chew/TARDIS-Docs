@@ -71,3 +71,10 @@ span.dglogo {
 [data-theme='dark'] .discord_logo { background-image: url('/images/discord-white.svg'); }
 
 img[alt='spawn_egg'] { width: 32px; position:relative; top:8px; padding-right: 8px; }
+
+.rc-item {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}

@@ -40,6 +40,17 @@ const config: Config = {
     locales: ['en'],
   },
 
+  // rendermite icons
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://assets.rendermite.dev/icons/26.3/rc-minecraft-64.css',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
