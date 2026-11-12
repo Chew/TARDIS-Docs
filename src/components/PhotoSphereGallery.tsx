@@ -176,6 +176,15 @@ export function PhotoSphereGallery() {
                 },
             },
             {
+                id: 'pano-fade',
+                name: 'FADE',
+                panorama: '/images/spheres/fade.jpg',
+                thumbnail: '/images/spheres/thumbs/fade.jpg',
+                options: {
+                    caption: 'Fade TARDIS — This is one of 12 variants — <strong>Size:</strong> MEDIUM',
+                },
+            },
+            {
                 id: 'pano-fifteenth',
                 name: 'FIFTEENTH',
                 panorama: '/images/spheres/fifteenth.jpg',
