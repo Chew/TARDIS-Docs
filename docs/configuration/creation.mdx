@@ -31,6 +31,18 @@ creation:
     easy: REDSTONE_TORCH
     normal: SOUL_LANTERN
     hard: DRAGON_BREATH
+  discovery:
+    enabled: true
+    existing_chunks: false
+    excluded_worlds:
+      - the_end
+      - the_nether
+      - tardis_timevortex
+      - tardis_zero_room
+      - caves
+    spacing: 34
+    separation: 8
+    map_cost: 3
 ```
 
 <ConfigTable data={`
@@ -55,6 +67,18 @@ creation:
       easy: REDSTONE_TORCH # Sets the 'lamp' craft material when server difficulty is set to **peaceful** / **easy**.
       normal: SOUL_LANTERN # Sets the 'lamp' craft material when server difficulty is set to **normal**.
       hard: DRAGON_BREATH # Sets the 'lamp' craft material when server difficulty is set to **hard** / **hardcore**.
+  discovery:
+    enabled: true # Whether TARDIS discovery temples are generated on the server.
+    existing_chunks: false # Whether temples will generate in existing chunks.
+    excluded_worlds: # Worlds not to spawn temples in.
+      - the_end
+      - the_nether
+      - tardis_timevortex
+      - tardis_zero_room
+      - caves
+    spacing: 34 # How far apart temples generate, spacing has to be larger than separation, default \`34\` is similar to trail ruins.
+    separation: 8 # Related to \`spacing\` above, default \`8\` is similar to trail ruins.
+    map_cost: 3 # The number of lapis lazuli a villager / travelling time lord requires (+ 1 compass) when trading for a TARDIS discovery map.
 `} />
 
 [Back to main configuration page](/configuration)
