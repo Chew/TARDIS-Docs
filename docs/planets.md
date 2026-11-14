@@ -32,16 +32,11 @@ To get the best experience on these planets, it's recommended to enable the [Wee
 
 - This world is limited to the customised Desert biome.
 - If configured, all water is acid and will harm / kill the player (wearing armour reduces the effect). Use a boat!
-- Dalek structures will generate automatically as you explore the world — there are currently two Dalek building types,
-  a big
-  main building and a smaller corridor type one, and some other village type structures will also spawn nearby.
-- Daleks will spawn in the big main buildings. There is a 10% chance that a Dalek will spawn flying in the air, but this
-  can be disabled in the config described below.
+- Dalek structures will generate automatically as you explore the world — there are currently two Dalek building types, a big main building and a smaller corridor type one, and some other village type structures will also spawn nearby.
+- Daleks will spawn in the big main buildings. There is a 10% chance that a Dalek will spawn flying in the air, but this can be disabled in the config described below.
 - A random loot chest is located in the main Dalek building — wear plenty of armour if you want to raid these!
-- <a id="buckets"></a>You can fill Acid Buckets and Rust Buckets by using an empty bucket on water and lava. Acid Buckets can be used to
-  make Acid Batteries, which in turn can be used to make [Rift Manipulators](rift-manipulator). Rust Buckets are
-  used in the crafting recipe for the [Rust Plague](http://tardis.wikia.com/wiki/Rust_plague) Sword - this deals more
-  damage to Daleks (Use the TARDIS-Resource-Pack to see the textures).
+- <a id="buckets"></a>You can fill Acid Buckets and Rust Buckets by using an empty bucket on water and lava. Acid Buckets can be used to make Acid Batteries, which in turn can be used to make [Rift Manipulators](rift-manipulator). Rust Buckets are used in the crafting recipe for the [Rust Plague](http://tardis.wikia.com/wiki/Rust_plague) Sword - this deals more damage to Daleks (Use the TARDIS-Resource-Pack to see the textures).
+- Skaro tress can be customised — see the related [config section](/configuration/generator) in _generator.yml_.
 
 ## Planet Gallifrey
 
@@ -53,6 +48,7 @@ To get the best experience on these planets, it's recommended to enable the [Wee
 - Time Lords (villagers) will spawn in these structures.
 - You can configure whether villagers spawned in Gallifreyan structures will have TARDIS blueprints as their trades — see the related [config section](/configuration/planets) in _planets.yml_.
 - A random loot chest is also located in the structures.
+- Gallifrey tress can be customised — see the related [config section](/configuration/generator) in _generator.yml_.
 
 ## Planet Siluria
 

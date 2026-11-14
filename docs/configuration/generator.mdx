@@ -1,0 +1,80 @@
+---
+layout: default
+title: TARDIS world generator options
+---
+
+import ConfigTable from "@site/src/components/ConfigTable";
+
+# TARDIS world generator options
+
+These are the world generator configuration options.
+
+```yaml title="/plugins/TARDIS/generator.yml"
+flat:
+  bottom: BEDROCK
+  rock: STONE
+  middle: DIRT
+  surface: GRASS_BLOCK
+plot:
+  rock: STONE
+  middle: DIRT
+  surface: GRASS_BLOCK
+  wall: RESIN_BRICK_WALL
+  gate: BAMBOO_FENCE_GATE
+  sign: BAMBOO_SIGN
+  road_side: GRAY_CONCRETE
+  road_line: WHITE_CONCRETE
+  size: 3
+  claim_max: 3
+  create_area: true
+gallifrey:
+  red_sand:
+    wood: STRIPPED_BIRCH_LOG
+    leaves: COBWEB
+    decoration: RED_WOOL
+  terracotta:
+    wood: STRIPPED_BIRCH_LOG
+    leaves: COBWEB
+    decoration: RED_WOOL
+skaro:
+  wood: ACACIA_LOG
+  leaves: SLIME_BLOCK
+  decoration: HONEY_BLOCK
+```
+
+export const generatorYaml = `
+flat: # Materials to use in the Flat World Generator.
+  bottom: BEDROCK # Bottom has 1 layer.
+  rock: STONE # Rock has ~60 layers.
+  middle: DIRT # Middle has 3 layers.
+  surface: GRASS_BLOCK # Surface has 1 layer.
+plot: # Materials to use in the Plot Generator.
+  rock: STONE # Rock has ~60 layers.
+  middle: DIRT # Middle has 3 layers.
+  surface: GRASS_BLOCK # Surface has 1 layer.
+  wall: RESIN_BRICK_WALL # Wall block - must be a valid [Wall](https://minecraft.wiki/w/Wall#Variants).
+  gate: BAMBOO_FENCE_GATE # Gate block - must be a valid [Fence Gate](https://minecraft.wiki/w/Fence_Gate#ID).
+  sign: BAMBOO_SIGN # Sign block - must be a valid [Sign](https://minecraft.wiki/w/Sign#ID).
+  road_side: GRAY_CONCRETE # Road side block.
+  road_line: WHITE_CONCRETE # Road centreline block.
+  size: 3 # Size of the plot in chunks.
+  claim_max: 3 # The maximum number of plots a player can claim.
+  create_area: true # Whether to create a TARDIS area when the world is first generated.
+gallifrey: # Materials to use for Gallifrey trees.
+  red_sand: # Trees that grow on red sand.
+    wood: STRIPPED_BIRCH_LOG # Block to use for the tree trunk.
+    leaves: COBWEB # Block to use for the tree leaves.
+    decoration: RED_WOOL # Block to use for the tree decoration.
+  terracotta: # Trees that grow on terracotta.
+    wood: STRIPPED_BIRCH_LOG # Block to use for the tree trunk.
+    leaves: COBWEB # Block to use for the tree leaves.
+    decoration: RED_WOOL # Block to use for the tree decoration.
+skaro: # Materials to use for Skaro trees - these grow on sand.
+  wood: ACACIA_LOG # Block to use for the tree trunk.
+  leaves: SLIME_BLOCK # Block to use for the tree leaves.
+  decoration: HONEY_BLOCK # Block to use for the tree decoration.
+`;
+
+<ConfigTable name={"/plugins/TARDIS/generator.yml"} data={generatorYaml} />
+
+[Back to main configuration page](/configuration)

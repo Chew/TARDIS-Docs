@@ -10,6 +10,8 @@ The Chunk Generator module includes world generators for more than just the TARD
 
 You can use the generators for any world, just specify the `generator` setting in _planets.yml_.
 
+Some [world generators](/configuration/generator) have configurable options which can be set in _generator.yml_.
+
 ## Void
 
 `TARDIS:void`

@@ -30,8 +30,9 @@ function HandleRow({data, ymlKey, value, indent = 0} : {data: string, ymlKey: st
         return row.trim().startsWith(ymlKey + ":");
     });
     let comment = null;
-    if (rowInData.includes("#")) {
-        comment = rowInData.split("#")[1];
+    const hashIndex = rowInData?.indexOf("#") ?? -1;
+    if (hashIndex !== -1) {
+        comment = rowInData.slice(hashIndex + 1).trim();
     }
 
     let indentation = "indent" + indent;

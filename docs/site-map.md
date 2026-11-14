@@ -145,6 +145,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="F" label="F">
 
+[Fade console](fade "Fade console")  
 [FAQs](faqs "FAQs")  
 [Feature requests](issues "Request a new feature")  
 [Filing Cabinet](chemistry-lab/telescope#filing-cabinet "Filing Cabinet")  
@@ -163,7 +164,8 @@ import TabItem from '@theme/TabItem';
 [Gamemode command](commands/misc#tardisgamemode "Gamemode command")  
 [Games room](/rooms/games "Games room")  
 [Gaming computer](/rooms/games#tardis-gaming-computer "Gaming computer")  
-[Garden room](rooms/garden)  
+[Garden room](rooms/garden "Garden room")  
+[Generator configuration](/configuration/generator "Generator configuration")  
 [Genetic Manipulator](lazarus "Genetic Manipulator")  
 [Geyser](geyser "Geyser")  
 [Give commands](commands/give "Give commands")  
@@ -396,6 +398,7 @@ import TabItem from '@theme/TabItem';
 [Weather command](commands/misc#tardisweather "Weather command")  
 [Weeping Angels](modules/weeping-angels#weeping-angels-1 "Weeping Angels")  
 [Wiki Sign](wiki-sign "Wiki Sign")  
+[World generator configuration](/configuration/generator "World generator configuration")  
 [World Generators](modules/generators "World Generators")  
 [World Management](world-management "World Management")  
 [Writing Disks](writing-disks "Writing Disks")  

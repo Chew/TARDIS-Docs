@@ -44,7 +44,7 @@ Choose a configuration page from below:
 22. [TARDIS Shop](/modules/tardis-shop#config-options)
 23. [Sonic Blaster](/modules/sonic-blaster#configuration)
 24. [Preset Biome Adaption](/adaptive-presets)
-25. [Flat World Generator](/modules/generators#configurable-flat-world)
+25. [World generation](/configuration/generator)
 26. [Custom Consoles](/custom-consoles)
 26. [Blueprint trades](/configuration/trades)
 
