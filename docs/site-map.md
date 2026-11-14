@@ -128,6 +128,7 @@ import TabItem from '@theme/TabItem';
 [Difficulty](faqs#difficulty "Difficulty")  
 [Direction Frame](commands/tardis#direction_frame "Direction Frame")  
 [Discord](https://discord.gg/sfuPVHh "Discord")  
+[Discovery](discovery "Discovery")  
 [Dynmap](modules/dynmap "Dynmap")  
 
 </TabItem>
@@ -337,6 +338,7 @@ import TabItem from '@theme/TabItem';
 [TARDIS console](console "TARDIS Console")  
 [TARDIS creation yard](tardis-areas#forcec "TARDIS creation yard")  
 [TARDIS Display](display "TARDIS Display")  
+[TARDIS Discovery](discovery "TARDIS Discovery")  
 [TARDIS Gaming computer](/rooms/games#tardis-gaming-computer "TARDIS Gaming computer")  
 [TARDIS Information System](tis "TARDIS Information System")  
 [TARDIS Interior Sounds](hum "TARDIS Interior Sounds")  
@@ -352,6 +354,7 @@ import TabItem from '@theme/TabItem';
 [/tardisworld commands](world-management "World commands")  
 [Telescope](chemistry-lab/telescope "Telescope")  
 [Telos](planets#planet-telos "Telos")  
+[Temples](discovery "Discovery temples")  
 [Temporal Locator](temporal-locator "Temporal Locator")  
 [Tetris](rooms/games#tetris "Tetris")  
 [Texture Commands](commands/texture "Texture Commands")  
