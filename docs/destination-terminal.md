@@ -19,42 +19,42 @@ TARDIS submarine mode for travelling under water.
 
 First row: **Step levels** — these control how much the x, z and multiplier values change.
 
-- ![Step 10](/images/icons/35_0.png) Step 10
-- ![Step 25](/images/icons/35_8.png) Step 25
-- ![Step 50](/images/icons/35_7.png) Step 50
-- ![Step 100](/images/icons/35_15.png) Step 100
+- <span class="rc-item rc-minecraft_white_wool"></span> Step 10
+- <span class="rc-item rc-minecraft_light_gray_wool"></span> Step 25
+- <span class="rc-item rc-minecraft_gray_wool"></span> Step 50
+- <span class="rc-item rc-minecraft_black_wool"></span> Step 100
 
 Second row: **x coordinate**.
 
-- ![-ve x](/images/icons/35_14.png) Make x move towards negative
-- ![x coordinate](/images/icons/35_3.png) x coordinate value
-- ![+ve x](/images/icons/35_5.png) Make x move towards positive
+- <span class="rc-item rc-minecraft_red_wool"></span> Make x move towards negative
+- <span class="rc-item rc-minecraft_light_blue_wool"></span> x coordinate value
+- <span class="rc-item rc-minecraft_lime_wool"></span> Make x move towards positive
 
 Third row: **z coordinate**.
 
-- ![-ve z](/images/icons/35_14.png) Make z move towards negative
-- ![z coordinate](/images/icons/35_4.png) z coordinate value
-- ![+ve z](/images/icons/35_5.png) Make z move towards positive
+- <span class="rc-item rc-minecraft_red_wool"></span> Make z move towards negative
+- <span class="rc-item rc-minecraft_yellow_wool"></span> z coordinate value
+- <span class="rc-item rc-minecraft_lime_wool"></span> Make z move towards positive
 
 Fourth row: **distance multiplier**.
 
-- ![less](/images/icons/35_14.png) Make multiplier less
-- ![multiplier](/images/icons/35_10.png) Multiplier value
-- ![more](/images/icons/35_5.png) Make multiplier bigger
+- <span class="rc-item rc-minecraft_red_wool"></span> Make multiplier less
+- <span class="rc-item rc-minecraft_purple_wool"></span> Multiplier value
+- <span class="rc-item rc-minecraft_lime_wool"></span> Make multiplier bigger
 
 Fifth row: **world/environment type**.
 
-- ![current world](/images/icons/18_0.png) Use current world
-- ![random](/images/icons/3_0.png) Random overworld
-- ![nether](/images/icons/87_0.png) A Nether world
-- ![the end](/images/icons/121_0.png) An End world
-- ![submarine](/images/icons/326_0.png) Submarine mode
+- <span class="rc-item rc-minecraft_oak_leaves"></span> Use current world
+- <span class="rc-item rc-minecraft_dirt"></span> Random overworld
+- <span class="rc-item rc-minecraft_netherrack"></span> A Nether world
+- <span class="rc-item rc-minecraft_end_stone"></span> An End world
+- <span class="rc-item rc-minecraft_water_bucket"></span> Submarine mode
 
 Bottom row: **check/set destination**.
 
-- ![check](/images/icons/33_0.png) Check destination
-- ![set](/images/icons/47_0.png) Set destination
-- ![cancel](/images/icons/46_0.png) Cancel
+- <span class="rc-item rc-minecraft_piston"></span> Check destination
+- <span class="rc-item rc-minecraft_bookshelf"></span> Set destination
+- <span class="rc-item rc-minecraft_tnt"></span> Cancel
 
 ## Dialog interface
 
