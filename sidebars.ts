@@ -435,6 +435,7 @@ const sidebars: SidebarsConfig = {
             'recipes/sonic-upgrades/admin-upgrade',
             'recipes/sonic-upgrades/bio-scanner-upgrade',
             'recipes/sonic-upgrades/brush-upgrade',
+            'recipes/sonic-upgrades/charm-upgrade',
             'recipes/sonic-upgrades/conversion-upgrade',
             'recipes/sonic-upgrades/diamond-upgrade',
             'recipes/sonic-upgrades/emerald-upgrade',

@@ -23,6 +23,13 @@ function Rendermite({name}) {
         // strip off the tardis and return a local images/icons/
         var stripped = name.substring(7);
         return <img src={'/images/icons/' + stripped + '.png'} />
+    } else if (name.startsWith('potion')) {
+        // just use a potion
+        var tint = '#385DC6';
+        if (name.endsWith('invisibility')) {
+            tint = '#f6f6f6';
+        }
+        return <span class="rc-item rc-minecraft_potion" style={{ width: '24px', height: '24px', '--rc-layer-1-tint': tint }}></span>
     } else {
         // grab the icon from rendermite
         var underscored = name.replaceAll('-', '_');
