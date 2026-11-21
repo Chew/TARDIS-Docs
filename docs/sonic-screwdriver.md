@@ -20,7 +20,7 @@ open a GUI for setting Player Preferences. Permission for use: `tardis.sonic.sta
 
 ## Upgrades
 
-There are 10 upgrades that you can give your Sonic:
+There are 12 upgrades that you can give your Sonic:
 
 | Upgrade                     | Recipe                                      | Permissions                                      |
 |-----------------------------|---------------------------------------------|--------------------------------------------------|
@@ -34,6 +34,7 @@ There are 10 upgrades that you can give your Sonic:
 | Knockback Circuit           | `/tardisrecipe knockback-circuit`           | `tardis.sonic.knockback`                         |
 | Brush Circuit               | `/tardisrecipe brush-circuit`               | `tardis.sonic.brush`                             |
 | Conversion Circuit          | `/tardisrecipe conversion-circuit`          | `tardis.sonic.conversion`                        |
+| Charm Circuit               | `/tardisrecipe charm-circuit`               | `tardis.sonic.charm`                        |
 | Server Admin Circuit        | `/tardisrecipe server-admin-circuit`        | `tardis.sonic.admin`                             |
 
 To upgrade your Sonic Screwdriver, you combine it with a new circuit in a crafting table or smithing table (though
@@ -130,7 +131,11 @@ Bukkit API the item will not emerge slowly like it would with a vanilla brush.
 
 ### Conversion
 
-The Conversion upgraded Sonic allows you sonically transform blocks from one state to another &mdash; you can turn concrete powder into concrete, dirt into mud, and mud into clay. The radius of blocks converted is determined by the [config option](/configuration/prefs#sonic_radius) `preferences.sonic_radius`.
+The Conversion upgraded Sonic allows you sonically transform blocks from one state to another &mdash; you can turn concrete powder into concrete, dirt into mud, and mud into clay. The radius of blocks converted is determined by the [config option](/configuration/sonic#conversion_radius) `sonic.conversion_radius`.
+
+### Charm
+
+The Charm upgraded Sonic allows you sonically tempt mobs and make them approach the player. The tempt range of mobs is determined by the [config option](/configuration/sonic#tempt_range) `sonic.tempt_range`. Different materials held in the player's offhand determine the resonant frequency that the sonic sound plays - each different pitch  will attract a certain type of mob - see the [Sonic Resonance](/sonic-resonance) page for details.
 
 ### Server Admin
 

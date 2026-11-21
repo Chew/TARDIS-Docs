@@ -16,6 +16,7 @@ sonic:
   charge_level: 1000
   charge_interval: 60
   usage: 10
+  tempt_range: 10
 ```
 
 These are the TARDIS preferences configuration options.
@@ -29,6 +30,7 @@ These are the TARDIS preferences configuration options.
     charge_level: 1000 # Sets the maximum charge a sonic device may hold.
     charge_interval: 60 # Sets the delay for the repeating sonic charging task, the actual tick value is calculated by dividing the maximum \`charge_level\` by this value e.g. \`1000/60\`.
     usage: 10 # Sets how much charge is removed each time the sonic is used.
+    tempt_range: 10 # The distance in blocks that mobs must be within for the Sonic Charm upgrade to be effective.
 `
 } />
 

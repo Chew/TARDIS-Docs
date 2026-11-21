@@ -315,6 +315,7 @@ import TabItem from '@theme/TabItem';
 [Sonic Configurator](sonic-configurator "Sonic Configurator")  
 [Sonic Dock](sonic-dock "Sonic Dock")  
 [Sonic Generator](sonic-generator "Sonic Generator")  
+[Sonic Resonance](sonic-resonance "Sonic Resonance")  
 [Sonic Screwdriver](sonic-screwdriver "Sonic Screwdriver")  
 [Sontarans](modules/weeping-angels#sontarans "Sontarans")  
 [Space Time Throttle](throttle "Space Time Throttle")  

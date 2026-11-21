@@ -148,7 +148,7 @@ const sidebars: SidebarsConfig = {
             type: 'category',
             label: 'Chamemelon Circuit',
             items: [
-        'chameleon-circuit',
+                'chameleon-circuit',
                 'presets',
                 'rooms/shell',
                 'chameleon-construction',
@@ -210,6 +210,7 @@ const sidebars: SidebarsConfig = {
             'sonic-configurator',
             'sonic-generator',
             'sonic-dock',
+            'sonic-resonance',
           ]
         },
         'siege-mode',

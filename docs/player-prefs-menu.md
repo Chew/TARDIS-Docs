@@ -6,8 +6,7 @@ keywords: [preference, preferences, player preferences]
 
 # Player Preferences Menu
 
-Right-clicking AIR while sneaking with any sonic screwdriver, or using the button in the [Control Menu GUI](/control-menu) opens the Player Pref Menu GUI. The preferences
-menu has buttons for:
+Right-clicking AIR while sneaking with any sonic screwdriver, or using the button in the [Control Menu GUI](/control-menu) opens the Player Prefs Menu GUI. The preferences menu has buttons for:
 
 - selecting the [flight mode](/flight-modes)
 - choosing an interior [hum sound](/hum) effect
