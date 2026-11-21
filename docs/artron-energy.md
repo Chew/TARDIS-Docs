@@ -22,6 +22,8 @@ Artron Energy Capacitor, indicating that you now have power.
 
 ### Full charge
 
+<p><span class="rc-item rc-minecraft_nether_star"></span> </p>
+
 To fully charge your TARDIS, right-click the wood button with a Nether Star to
 bring it to 100% (This item is configurable in the config file).
 

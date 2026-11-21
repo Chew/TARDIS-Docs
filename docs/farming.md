@@ -8,33 +8,41 @@ keywords: [farm, farming, mob farming]
 
 You can capture farm animals in the Police Box and transport them into the TARDIS.
 
+![Sheep in TARDIS](/images/docs/sheeptardis1.jpg)
+
 The mobs you can collect are:
 
-- Allay
-- Axolotl
-- Bee
-- Camel
-- Chicken
-- Cow
-- Fish
-- Frog
-- Guardian
-- Happy Ghast
-- Horse
-- Llama
-- Mooshroom
-- Nautili
-- Pandas
-- Pig
-- Polar Bear
-- Rabbit
-- Sheep
-- Sniffer
-- Strider
-- Sulphur Cubes
-- Villager
+<table>
+<tr style={{border:'none'}}><td style={{width:'300px',border:'none',verticalAlign:'top'}}>
+- <span class="rc-item rc-minecraft_allay_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Allay
+- <span class="rc-item rc-minecraft_axolotl_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Axolotl
+- <span class="rc-item rc-minecraft_bee_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Bee
+- <span class="rc-item rc-minecraft_camel_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Camel
+- <span class="rc-item rc-minecraft_chicken_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Chicken
+- <span class="rc-item rc-minecraft_cow_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Cow
+- <span class="rc-item rc-minecraft_tropical_fish_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Fish
+- <span class="rc-item rc-minecraft_frog_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Frog
+- <span class="rc-item rc-minecraft_guardian_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Guardian
+- <span class="rc-item rc-minecraft_happy_ghast_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Happy Ghast
+- <span class="rc-item rc-minecraft_horse_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Horse
+- <span class="rc-item rc-minecraft_llama_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Llama
+</td><td style={{border:'none',verticalAlign:'top'}}>
+- <span class="rc-item rc-minecraft_mooshroom_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Mooshroom
+- <span class="rc-item rc-minecraft_nautilus_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Nautili
+- <span class="rc-item rc-minecraft_panda_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Pandas
+- <span class="rc-item rc-minecraft_pig_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Pig
+- <span class="rc-item rc-minecraft_polar_bear_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Polar Bear
+- <span class="rc-item rc-minecraft_rabbit_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Rabbit
+- <span class="rc-item rc-minecraft_sheep_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Sheep
+- <span class="rc-item rc-minecraft_sniffer_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Sniffer
+- <span class="rc-item rc-minecraft_strider_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Strider
+- <span class="rc-item rc-minecraft_sulfur_cube_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Sulphur Cubes
+- <span class="rc-item rc-minecraft_villager_spawn_egg" style={{ width: '24px', height: '24px' }}></span> Villager
+</td>
+</tr>
+</table>
 
-You will first need to herd the mobs so that they are close to the Police Box (within 2 blocks) — using the appropriate tempt item in hand should make them follow you — sometimes you may be lucky enough to have the Police Box materialise around an animal!
+You will first need to herd the mobs so that they are close to the Police Box (within 2 blocks) — using the appropriate tempt item in hand (or the [Charm](/sonic-screwdriver#charm) upgraded Sonic Screwdriver) should make them follow you — sometimes you may be lucky enough to have the Police Box materialise around an animal!
 
 Enter the TARDIS as usual, and the following will happen:
 
@@ -71,8 +79,6 @@ automatically allows mob spawning in those rooms (but not monsters!)
 :::
 
 Non-op players require the permission: `tardis.farm`
-
-![Sheep in TARDIS](/images/docs/sheeptardis1.jpg)
 
 ![Chicken pen](/images/docs/chickenpen.jpg)
 

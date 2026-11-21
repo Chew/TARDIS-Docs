@@ -61,7 +61,7 @@ the right place — i.e. NOT in the wall.
 
 ## My TARDIS is not generating its own world
 
-For best results, follow these steps to set up the plugin to create TARDIS worlds:
+You probably should use a shared `tardis_timevortex` world to store TARDIS interiors more efficiently (this is the plugin's default), but if you must, follow these steps to set up the plugin to create individual TARDIS worlds:
 
 1. Remove all current TARDISes by breaking the Police Box sign
 2. Stop the server
@@ -83,7 +83,9 @@ in _server.properties_ (and set up their normal world spawn with another form of
 
 ## My Handbrake is not re-engaging!
 
-To re-engage the handbrake you must **LEFT** -click the lever.
+If you have a vanilla Minecraft lever handbrake, to re-engage it you must **LEFT** -click the lever.
+
+If you have a modelled console, you always _right-click_ it to toggle it on and off.
 
 If you are stuck in the Time Vortex, use the `/tardistravel stop` command to rebuild your TARDIS before trying to travel
 again.
@@ -115,13 +117,17 @@ position with the `/tardis come_here` command.
 
 ## I can’t hear the custom sound effects
 
-The custom TARDIS sound effects require you to have the **TARDIS Sound Resource Pack** installed in the Minecraft
-client,
-and that you are running Minecraft 1.7.x or higher.
+The custom TARDIS sound effects require you to have the **TARDIS Sound Resource Pack** installed in the Minecraft client, and that you are running Minecraft 1.7.x or higher.
 
 You can download the resource pack from GitHub:
 [https://github.com/eccentricdevotion/TARDIS-SoundResourcePack](https://github.com/eccentricdevotion/TARDIS-SoundResourcePack)
 — take note of installation instructions on that page.
+
+:::note
+
+If you already have the TARDIS Resource Pack, you don't need the sound resource pack as these are included with this texture pack.
+
+:::
 
 ## It says I’m still inside the TARDIS, but I’m not
 
@@ -197,7 +203,7 @@ If you move the interior TARDIS door, remember to remove the LWC protection afte
 ## What is the Resource Pack in the videos?
 
 An unreleased (and unfinished — still most of the mobs to do) pack called Bromley Massive Vector, also by eccentric\_nz.
-Maybe, one day he will finish it. It’s [128X], and is compatible with Minecraft 1.19+.
+Maybe, one day he will finish it. It’s [128X], and is compatible with Minecraft 26.3+.
 
 ![Bromley Massive Vector Texture Pack](/images/docs/bmv.jpg)
 
